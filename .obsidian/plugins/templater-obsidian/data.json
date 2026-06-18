@@ -1,0 +1,54 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "_templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": false,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "_templates",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "_templates/atomic-note.md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1,
+  "ignore_folders_on_creation": [
+    {
+      "folder": ""
+    }
+  ],
+  "trigger_on_file_change": false,
+  "commands_folder": "_templates",
+  "error_message": "",
+  "status_messages_display_time": 7000,
+  "status_messages_enabled": true,
+  "global_templates": [],
+  "custom_triggers": {
+    "date": "{{date}}",
+    "time": "{{time}}",
+    "datetime": "{{date}} {{time}}"
+  }
+}

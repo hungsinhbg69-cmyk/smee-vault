@@ -1,0 +1,286 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Xem biểu đồ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "29c48a057ed9af63",
+    "type": "split",
+    "children": [
+      {
+        "id": "3aff142ff803d57f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ca496086e50f1a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Trình duyệt tệp"
+            }
+          },
+          {
+            "id": "90b62ce93c2b83a4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Tìm kiếm"
+            }
+          },
+          {
+            "id": "4d83b92b123dd7fa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Đánh dấu"
+            }
+          },
+          {
+            "id": "99ae3ed260824182",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent files"
+            }
+          },
+          {
+            "id": "efdda2713e4fada0",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {},
+              "icon": "longform",
+              "title": "Longform"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 239.5
+  },
+  "right": {
+    "id": "1962c8b44d82671d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2183447b4d665d9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b5242441263a493",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Liên kết đến"
+            }
+          },
+          {
+            "id": "f3608596f0a1bf60",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liên kết đi ra"
+            }
+          },
+          {
+            "id": "df2c62ed643ed0de",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Thẻ"
+            }
+          },
+          {
+            "id": "edc8e7dd804a895b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tất cả thuộc tính"
+            }
+          },
+          {
+            "id": "7ca78c5e9cc14039",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Đề cương"
+            }
+          },
+          {
+            "id": "2f169ccefaf62a58",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "264cc6e56c88791e",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "f12dc1dd2f461f08",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Mở bộ chuyển đổi nhanh": false,
+      "graph:Mở xem biểu đồ": false,
+      "canvas:Tạo bảng mới": false,
+      "daily-notes:Mở ghi chú hôm nay": false,
+      "templates:Chèn mẫu": false,
+      "command-palette:Mở khay lệnh": false,
+      "bases:Tạo cơ sở mới": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "remotely-save:Remotely Save": false,
+      "omnisearch:Omnisearch": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-importer:Open Importer": false,
+      "homepage:Open homepage": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-spaced-repetition:Review flashcards": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "10-Projects/Agent-Research-Expansion/project.md",
+    "10-Projects/Agent-Research-Expansion",
+    "30-Resources/Bac-Giang/README.md",
+    "10-Projects/README.md",
+    "70-Outputs/JeffSu-Artifacts/jeffsu_deep_dive_audio.m4a",
+    "70-Outputs/JeffSu-Artifacts/jeffsu_flashcards.md",
+    "70-Outputs/JeffSu-Artifacts/jeffsu_quiz.md",
+    "70-Outputs/JeffSu-Artifacts/jeffsu_study_guide.md",
+    "70-Outputs/JeffSu-Artifacts",
+    "40-Knowledge-Synthesis/Insights/JeffSu-Study-Materials.md",
+    "40-Knowledge-Synthesis/Frameworks/JeffSu-Prompt-Engineering.md",
+    "40-Knowledge-Synthesis/Insights/JeffSu-Career-Growth.md",
+    "40-Knowledge-Synthesis/Frameworks/JeffSu-Interview-Frameworks.md",
+    "40-Knowledge-Synthesis/Frameworks/JeffSu-Productivity-Systems.md",
+    "40-Knowledge-Synthesis/Frameworks/JeffSu-AI-Agents-Explained.md",
+    "40-Knowledge-Synthesis/Insights/JeffSu-Channel-Summary.md",
+    "40-Knowledge-Synthesis/Frameworks/Career-Growth",
+    "40-Knowledge-Synthesis/Insights/Career-Growth",
+    "40-Knowledge-Synthesis/Frameworks/Interview-Frameworks",
+    "40-Knowledge-Synthesis/Insights/Interview-Frameworks",
+    "40-Knowledge-Synthesis/Frameworks/Productivity-Systems",
+    "40-Knowledge-Synthesis/Insights/Productivity-Systems",
+    "40-Knowledge-Synthesis/Frameworks/AI-Agents",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "2026-06-16.md",
+    "40-Knowledge-Synthesis/Insights/vault-master-index-prompt-eng.md",
+    "40-Knowledge-Synthesis/Frameworks/reasoning-vs-gpt-models.md",
+    "40-Knowledge-Synthesis/Frameworks/prompt-patterns-techniques.md",
+    "40-Knowledge-Synthesis/Frameworks/prompt-caching-strategies.md",
+    "40-Knowledge-Synthesis/Frameworks/prompt-hierarchical-instructions.md",
+    "40-Knowledge-Synthesis/Frameworks/prompt-architecture-overview.md",
+    "30-Resources/NotebookLM-AI-Agent-Integration-Guide.md",
+    "40-Knowledge-Synthesis/Insights/ai-tools-action-guide-2026.md",
+    "30-Resources/AI-Tools/ai-tools-landscape-q2-2026.md"
+  ]
+}

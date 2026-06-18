@@ -1,0 +1,10 @@
+{
+  "vimMode": false,
+  "showLineNumber": true,
+  "strictLineNumbers": false,
+  "readableLineLength": true,
+  "livePreview": true,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "templateFolder": "_templates"
+}

@@ -1,0 +1,40 @@
+---
+title: "{{date}} Daily Note"
+slug: "{{date}}"
+category: daily
+tags: [daily]
+status: active
+type: daily
+created: {{date}}
+last_updated: {{date}}
+---
+
+# 📅 {{date:YYYY-MM-DD}} {{date:dddd}}
+
+<!-- Scanned FIRST by agent: check this section every session -->
+
+## 🎯 Today's Focus
+- 
+
+## ✅ Tasks
+- [ ] 
+
+## 📝 Notes & Observations
+- 
+
+## 💡 Insights
+- 
+
+## 📚 Learning & Growth
+- 
+
+## 🔗 Links Created
+<!-- Agent will auto-populate: [[linked-note-1]], [[linked-note-2]] -->
+
+---
+%% Agent instructions:
+- Check daily note every session start
+- Log captures here with timestamp format: [HH:MM] capture: "<topic>"
+- Move actionable items to Projects/Areas during connect phase
+- Promote ideas cited 2+ times to atomic notes in 90-Knowledge-Synthesis/Insights/
+%%
