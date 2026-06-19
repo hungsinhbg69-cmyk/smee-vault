@@ -199,7 +199,7 @@
             }
           },
           {
-            "id": "f12dc1dd2f461f08",
+            "id": "7921107d29939535",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -244,8 +244,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "7921107d29939535",
   "lastOpenFiles": [
+    "40-Knowledge-Synthesis/Insights/vault-master-index-prompt-eng.md",
+    "2026-06-16.md",
+    "30-Resources/Bac-Giang/bac-giang-specialty-products.md",
+    "30-Resources/Bac-Giang/bac-giang-living-guide.md",
+    "30-Resources/Bac-Giang/bac-giang-infrastructure-stats.md",
+    "30-Resources/Bac-Giang/bac-giang-culture-deep-dive.md",
+    "30-Resources/Bac-Giang/bac-giang-bac-ninh-social-housing-june-2026.md",
     "10-Projects/Agent-Research-Expansion/project.md",
     "10-Projects/Agent-Research-Expansion",
     "30-Resources/Bac-Giang/README.md",
@@ -272,15 +279,8 @@
     "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "2026-06-16.md",
-    "40-Knowledge-Synthesis/Insights/vault-master-index-prompt-eng.md",
     "40-Knowledge-Synthesis/Frameworks/reasoning-vs-gpt-models.md",
     "40-Knowledge-Synthesis/Frameworks/prompt-patterns-techniques.md",
-    "40-Knowledge-Synthesis/Frameworks/prompt-caching-strategies.md",
-    "40-Knowledge-Synthesis/Frameworks/prompt-hierarchical-instructions.md",
-    "40-Knowledge-Synthesis/Frameworks/prompt-architecture-overview.md",
-    "30-Resources/NotebookLM-AI-Agent-Integration-Guide.md",
-    "40-Knowledge-Synthesis/Insights/ai-tools-action-guide-2026.md",
-    "30-Resources/AI-Tools/ai-tools-landscape-q2-2026.md"
+    "40-Knowledge-Synthesis/Frameworks/prompt-caching-strategies.md"
   ]
 }

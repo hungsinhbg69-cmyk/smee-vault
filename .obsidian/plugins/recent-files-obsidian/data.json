@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "vault-master-index-prompt-eng",
+      "path": "40-Knowledge-Synthesis/Insights/vault-master-index-prompt-eng.md"
+    },
+    {
+      "basename": "bac-giang-specialty-products",
+      "path": "30-Resources/Bac-Giang/bac-giang-specialty-products.md"
+    },
+    {
+      "basename": "bac-giang-living-guide",
+      "path": "30-Resources/Bac-Giang/bac-giang-living-guide.md"
+    },
+    {
+      "basename": "bac-giang-infrastructure-stats",
+      "path": "30-Resources/Bac-Giang/bac-giang-infrastructure-stats.md"
+    },
+    {
+      "basename": "bac-giang-culture-deep-dive",
+      "path": "30-Resources/Bac-Giang/bac-giang-culture-deep-dive.md"
+    },
+    {
+      "basename": "bac-giang-bac-ninh-social-housing-june-2026",
+      "path": "30-Resources/Bac-Giang/bac-giang-bac-ninh-social-housing-june-2026.md"
+    },
+    {
       "basename": "Emojify",
       "path": "copilot/copilot-custom-prompts/Emojify.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "Clip Web Page",
       "path": "copilot/copilot-custom-prompts/Clip Web Page.md"
-    },
-    {
-      "basename": "2026-06-16",
-      "path": "2026-06-16.md"
     },
     {
       "basename": "Translate to Chinese",
