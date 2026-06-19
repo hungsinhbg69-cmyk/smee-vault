@@ -1,3 +1,14 @@
+﻿---
+title: "bac-giang-community-psychology"
+slug: "bac-giang-community-psychology"
+category: concepts
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: concept
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Bắc Giang Community Psychology — Tâm lý cộng đồng"
 slug: "bac-giang-community-psychology"

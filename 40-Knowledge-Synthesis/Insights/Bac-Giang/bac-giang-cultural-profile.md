@@ -1,3 +1,14 @@
+﻿---
+title: "bac-giang-cultural-profile"
+slug: "bac-giang-cultural-profile"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Bắc Giang Cultural Profile — Hồ sơ văn hóa cốt lõi"
 slug: "bac-giang-cultural-profile"

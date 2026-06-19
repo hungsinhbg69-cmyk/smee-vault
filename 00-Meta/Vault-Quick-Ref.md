@@ -106,6 +106,17 @@ last_updated: 2026-06-17
 | `llm-wiki-insights.md` | LLM Wiki architecture insights |
 | `content-plan-worldmap-evaluation.md` | Content plan evaluation |
 
+## 📝 New Placeholder Notes (2026-06-19 Cleanup)
+| File | Purpose |
+|------|---------|
+| `40-Knowledge-Synthesis/Concepts/concept-a.md` | Placeholder for unresolved links |
+| `40-Knowledge-Synthesis/Concepts/concept-b.md` | Placeholder for unresolved links |
+| `10-Projects/Project-X.md` | Placeholder for unresolved links |
+| `10-Projects/Project-Y.md` | Placeholder for unresolved links |
+| `30-Resources/Conflicting-Paper.md` | Placeholder for unresolved links |
+
+[[vault-master-index]]
+
 ## 🏗️ Tech Stack (40-Knowledge-Synthesis/Frameworks/)
 | File | Content |
 |------|---------|

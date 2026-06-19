@@ -1,3 +1,14 @@
+﻿---
+title: "no-xh-pricing-bac-giang-2026"
+slug: "no-xh-pricing-bac-giang-2026"
+category: concepts
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: concept
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Bảng giá NOXH Bắc Giang - Bắc Ninh tháng 6/2026"
 slug: "no-xh-pricing-bac-giang-2026"

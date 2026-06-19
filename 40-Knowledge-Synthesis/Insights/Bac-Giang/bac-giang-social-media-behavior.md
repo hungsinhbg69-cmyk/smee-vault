@@ -1,3 +1,14 @@
+﻿---
+title: "bac-giang-social-media-behavior"
+slug: "bac-giang-social-media-behavior"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Bắc Giang Social Media Behavior — Hành vi mạng xã hội 2026"
 slug: "bac-giang-social-media-behavior"

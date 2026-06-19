@@ -1,3 +1,14 @@
+﻿---
+title: "prompt-hierarchical-instructions"
+slug: "prompt-hierarchical-instructions"
+category: frameworks
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: framework
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Prompt Architecture — Phân Cấp Instructions"
 tags: [prompt-engineering, hierarchical, system-prompts, chain-of-command]

@@ -1,3 +1,14 @@
+﻿---
+title: "prompt-patterns-techniques"
+slug: "prompt-patterns-techniques"
+category: frameworks
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: framework
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Prompt Architecture — Patterns & Techniques"
 tags: [prompt-engineering, patterns, few-shot, chain-of-thought]

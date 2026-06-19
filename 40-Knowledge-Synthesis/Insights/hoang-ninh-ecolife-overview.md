@@ -1,3 +1,14 @@
+﻿---
+title: "hoang-ninh-ecolife-overview"
+slug: "hoang-ninh-ecolife-overview"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Hoàng Ninh Ecolife — Tổng quan dự án"
 tags: [NOXH, HoangNinhEcolife, BacNinh, real-estate, 2026]

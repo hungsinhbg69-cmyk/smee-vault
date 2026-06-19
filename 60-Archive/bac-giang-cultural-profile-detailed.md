@@ -1,4 +1,4 @@
-# Bắc Giang Cultural Profile — How to Live, Speak & Behave Like a Local
+﻿# Bắc Giang Cultural Profile — How to Live, Speak & Behave Like a Local
 
 _Created: 2026-06-15 | Sources: Web research (văn hóa, báo chí, Facebook groups, TikTok KOLs, phương ngữ học)_
 
@@ -59,7 +59,7 @@ _Created: 2026-06-15 | Sources: Web research (văn hóa, báo chí, Facebook gro
 - **Nội dung chủ đạo:** nông sản (vải thiều Lục Ngạn), ẩm thực địa phương, cảnh đẹp thiên nhiên.
 - **Phong cách chân thật:** quay tại vườn, tại chợ, không chỉnh sửa quá đà — "đất thật, người thật, hàng thật."
 - **Livestream bán hàng:** KOLs Bắc Giang nói chuyện như đang trò chuyện với bạn, không phải sales template.
-- **Hashtag đặc trưng:** #VaiThieuLucNgan #BanhDaKe #BacGiang #QueMinh
+- **Hashtag đặc trưng:** #VaiThieuLucNgan #BanhDaKe #bacgiang #QueMinh
 
 ### Threads / Twitter (VN)
 - Người BG trẻ thường dùng ngôn ngữ phổ thông, pha chút giọng địa phương khi nói về quê.

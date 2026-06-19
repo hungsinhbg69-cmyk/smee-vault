@@ -1,3 +1,14 @@
+﻿---
+title: "bac-giang-content-template-framework"
+slug: "bac-giang-content-template-framework"
+category: frameworks
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: framework
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Bắc Giang Content Template Framework — Mẫu content theo nền tảng"
 slug: "bac-giang-content-template-framework"

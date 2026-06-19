@@ -1,3 +1,14 @@
+﻿---
+title: "content-plan-worldmap-evaluation"
+slug: "content-plan-worldmap-evaluation"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Content Plan WorldMap Edu — Đánh giá chiến lược"
 tags: [content-plan, worldmap, evaluation, facebook]

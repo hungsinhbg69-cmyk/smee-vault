@@ -1,3 +1,14 @@
+﻿---
+title: "Bac-Giang-Market-Intelligence-2026"
+slug: "bac-giang-market-intelligence-2026"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: Bắc Giang Market Intelligence 2026
 type: market-research

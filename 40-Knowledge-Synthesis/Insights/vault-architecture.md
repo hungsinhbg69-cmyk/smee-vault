@@ -1,3 +1,14 @@
+﻿---
+title: "vault-architecture"
+slug: "vault-architecture"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Atomic Note — Vault Architecture: PARA + Zettelkasten Hybrid"
 slug: "vault-architecture-para-zettelkasten-hybrid"

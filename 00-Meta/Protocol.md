@@ -1,4 +1,4 @@
----
+﻿---
 title: "Vault Protocol — Governance + Agent Rules"
 slug: "vault-protocol"
 category: meta
@@ -157,8 +157,8 @@ When a project or concept is referenced → read that specific note
 
 | Prefix | Purpose | Examples |
 |--------|---------|----------|
-| `#Project/` | Active projects | `#Project/Facebook-Marketing` |
-| `#Area/` | Ongoing responsibilities | `#Area/Marketing` |
+| `#project/` | Active projects | `#project/Facebook-Marketing` |
+| `#area/` | Ongoing responsibilities | `#area/Marketing` |
 | `#Status/` | Note lifecycle | `#Status/draft`, `#Status/active` |
 | `#Type/` | Content classification | `#Type/atomic-note`, `#Type/insight` |
 | `#Concept/` | Topic tags (create as needed) | `#Concept/marketing-automation` |

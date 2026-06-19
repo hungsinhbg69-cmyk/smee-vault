@@ -1,3 +1,14 @@
+﻿---
+title: "llm-wiki-insights"
+slug: "llm-wiki-insights"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "LLM Wiki — Insights & Application"
 tags: [llm, wiki, insights, karpathy, application]

@@ -1,3 +1,14 @@
+﻿---
+title: "QuickAdd-Integration-Test-2026-06-12"
+slug: "quickadd-integration-test-2026-06-12"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "QuickAdd Integration Test"
 slug: "quickadd-integration-test"

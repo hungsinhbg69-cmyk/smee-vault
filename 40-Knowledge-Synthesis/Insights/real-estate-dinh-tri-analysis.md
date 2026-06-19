@@ -1,3 +1,14 @@
+﻿---
+title: "real-estate-dinh-tri-analysis"
+slug: "real-estate-dinh-tri-analysis"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Phân tích Bất động sản Dĩnh Trì - Phường Bắc Giang"
 slug: "real-estate-dinh-tri-analysis"

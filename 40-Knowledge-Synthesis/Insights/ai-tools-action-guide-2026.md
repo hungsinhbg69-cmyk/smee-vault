@@ -1,3 +1,14 @@
+﻿---
+title: "ai-tools-action-guide-2026"
+slug: "ai-tools-action-guide-2026"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "AI Tools Action Guide 2026 — For Hùng's Marketing Stack"
 type: insight

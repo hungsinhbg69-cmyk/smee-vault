@@ -123,6 +123,6 @@ A note is ORPHANED if:
 
 ## 6. References
 
-- Karpathy, Andrej. "LLM Wiki Pattern." https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- Karpathy, Andrej. "LLM Wiki Pattern." GitHub Gist.
 - [[vault-architecture]] — Overall vault design
 - [[Vault — Second Brain Hub]] — Complete PARA structure

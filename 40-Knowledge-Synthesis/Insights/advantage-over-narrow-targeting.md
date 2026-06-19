@@ -1,3 +1,14 @@
+﻿---
+title: "advantage-over-narrow-targeting"
+slug: "advantage-over-narrow-targeting"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Advantage+ Over Narrow Interest Targeting"
 slug: "advantage-over-narrow-targeting"

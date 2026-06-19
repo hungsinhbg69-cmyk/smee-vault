@@ -1,3 +1,14 @@
+﻿---
+title: "hoang-ninh-ecolife-competitor-comparison"
+slug: "hoang-ninh-ecolife-competitor-comparison"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Hoàng Ninh Ecolife — So sánh đối thủ cạnh tranh"
 tags: [NOXH, HoangNinhEcolife, competitor, analysis, 2026]

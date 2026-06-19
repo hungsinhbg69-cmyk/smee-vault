@@ -1,3 +1,14 @@
+﻿---
+title: "JeffSu-Interview-Frameworks"
+slug: "jeffsu-interview-frameworks"
+category: frameworks
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: framework
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: JeffSu - Interview Frameworks Complete Guide
 tags: [jeffsu, interview, career, resume, networking]

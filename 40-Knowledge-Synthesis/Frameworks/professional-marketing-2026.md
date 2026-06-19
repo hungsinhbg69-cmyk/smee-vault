@@ -1,3 +1,14 @@
+﻿---
+title: "professional-marketing-2026"
+slug: "professional-marketing-2026"
+category: frameworks
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: framework
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Professional Marketing Framework 2026"
 created: 2026-06-17

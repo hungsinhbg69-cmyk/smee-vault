@@ -1,4 +1,4 @@
----
+﻿---
 title: "Vault — Second Brain Hub"
 slug: "vault-hub"
 category: meta
@@ -50,7 +50,7 @@ vault/
 ## 🏷 Tag Taxonomy
 
 ```
-#Project/Alpha        #Area/Marketing      #Status/draft
+#project/Alpha        #area/Marketing      #Status/draft
 #Status/active        #Method/interview     #Concept/attention
 #Tool/Obsidian        #Type/meeting         #Type/atomic-note
 ```

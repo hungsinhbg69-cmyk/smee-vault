@@ -1,3 +1,14 @@
+﻿---
+title: "bac-giang-identity-triangles"
+slug: "bac-giang-identity-triangles"
+category: concepts
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: concept
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Bắc Giang Identity Triangles — Mô hình 3 lớp tính cách"
 slug: "bac-giang-identity-triangles"

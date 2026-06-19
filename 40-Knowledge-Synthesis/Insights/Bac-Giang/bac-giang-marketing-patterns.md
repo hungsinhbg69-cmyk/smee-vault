@@ -1,3 +1,14 @@
+﻿---
+title: "bac-giang-marketing-patterns"
+slug: "bac-giang-marketing-patterns"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Bắc Giang Marketing Patterns — Mẫu marketing & content"
 slug: "bac-giang-marketing-patterns"

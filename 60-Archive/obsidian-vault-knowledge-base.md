@@ -1,4 +1,4 @@
----
+﻿---
 title: "Obsidian Vault — Kho Kiến Thức Toàn Diện"
 slug: "obsidian-vault-complete-guide"
 category: "knowledge-base"
@@ -210,7 +210,7 @@ date-read:
 4. **Status tracking:** `status` field là "single most useful field for research" — query reading pipeline backlog
 
 **Tag taxonomy best practices:**
-- Dùng nested tags: `#Project/Alpha/Design`, `#status/draft`, `#method/interview`
+- Dùng nested tags: `#project/Alpha/Design`, `#status/draft`, `#method/interview`
 - Lowercase, hyphenated
 - Pick small set, stick to it. 200+ unique tags = tag entropy
 - Define taxonomy trong README của vault trước khi đạt 400 notes

@@ -1,3 +1,14 @@
+﻿---
+title: "JeffSu-Study-Materials"
+slug: "jeffsu-study-materials"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: JeffSu - Study Guide & Quiz Summary
 tags: [jeffsu, quiz, study-guide, review]

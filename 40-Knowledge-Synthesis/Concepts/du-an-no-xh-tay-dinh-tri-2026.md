@@ -1,3 +1,14 @@
+﻿---
+title: "du-an-no-xh-tay-dinh-tri-2026"
+slug: "du-an-no-xh-tay-dinh-tri-2026"
+category: concepts
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: concept
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Dự án NOXH Tây Dĩnh Trì — 704 căn tại phường Bắc Giang"
 slug: "du-an-no-xh-tay-dinh-tri-2026"

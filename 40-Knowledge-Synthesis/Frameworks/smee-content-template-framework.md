@@ -1,3 +1,14 @@
+﻿---
+title: "smee-content-template-framework"
+slug: "smee-content-template-framework"
+category: frameworks
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: framework
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Smee Content Template Framework"
 slug: "smee-content-template-framework"

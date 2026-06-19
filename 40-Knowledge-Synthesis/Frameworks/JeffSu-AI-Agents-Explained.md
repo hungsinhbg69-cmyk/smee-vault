@@ -1,3 +1,14 @@
+﻿---
+title: "JeffSu-AI-Agents-Explained"
+slug: "jeffsu-ai-agents-explained"
+category: frameworks
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: framework
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: JeffSu - AI Agents Clearly Explained
 tags: [jeffsu, ai-agents, llm, workflow, prompt-engineering]

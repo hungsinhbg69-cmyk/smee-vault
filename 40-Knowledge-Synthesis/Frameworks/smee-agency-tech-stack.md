@@ -1,3 +1,14 @@
+﻿---
+title: "smee-agency-tech-stack"
+slug: "smee-agency-tech-stack"
+category: frameworks
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: framework
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Smee Agency — Tech Stack & Automation"
 slug: "smee-agency-tech-stack"

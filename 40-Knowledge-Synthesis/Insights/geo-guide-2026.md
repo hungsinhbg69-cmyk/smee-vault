@@ -1,3 +1,14 @@
+﻿---
+title: "geo-guide-2026"
+slug: "geo-guide-2026"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "GEO — Generative Engine Optimization Guide"
 created: 2026-06-17

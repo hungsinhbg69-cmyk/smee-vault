@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tag Taxonomy"
 slug: "tag-taxonomy"
 category: meta
@@ -13,20 +13,20 @@ last_updated: 2026-06-12
 
 ## Rule: Max 5 tags per note. Keep it small.
 
-### #Project/* — Active projects
+### #project/* — Active projects
 ```
-#Project/Facebook-Marketing
-#Project/Client-Site
-#Project/Obsidian-Vault
-#Project/AI-Agent-Engineering
+#project/Facebook-Marketing
+#project/Client-Site
+#project/Obsidian-Vault
+#project/AI-Agent-Engineering
 ```
 
-### #Area/* — Ongoing responsibilities
+### #area/* — Ongoing responsibilities
 ```
-#Area/Marketing
-#Area/Design
-#Area/Coding
-#Area/Content-Creation
+#area/Marketing
+#area/Design
+#area/Coding
+#area/Content-Creation
 ```
 
 ### #Status/* — Note lifecycle
@@ -83,7 +83,7 @@ last_updated: 2026-06-12
 2. **Consistent naming** — Once created, never rename (use tag-wrangler to merge)
 3. **Define before using** — New tag → add to this document first
 4. **Max 50 unique tags** — Beyond that = tag entropy → merge duplicates
-5. **Nested structure** — Use `/` for hierarchy: `#Project/Alpha`, `#Status/draft`
+5. **Nested structure** — Use `/` for hierarchy: `#project/Alpha`, `#Status/draft`
 
 ## Deprecated Tags (merge into)
 

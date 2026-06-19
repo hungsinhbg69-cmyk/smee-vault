@@ -1,3 +1,14 @@
+﻿---
+title: "smee-agency-bac-giang-deep-dive"
+slug: "smee-agency-bac-giang-deep-dive"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Smee Agency Bắc Giang — Deep Dive Research"
 slug: "smee-agency-bac-giang-deep-dive"

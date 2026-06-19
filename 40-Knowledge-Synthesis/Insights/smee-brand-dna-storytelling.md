@@ -1,3 +1,14 @@
+﻿---
+title: "smee-brand-dna-storytelling"
+slug: "smee-brand-dna-storytelling"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Smee Brand DNA — Storytelling Framework"
 slug: "smee-brand-dna-storytelling"

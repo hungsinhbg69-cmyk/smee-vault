@@ -1,3 +1,14 @@
+﻿---
+title: "llm-wiki-karpathy-pattern"
+slug: "llm-wiki-karpathy-pattern"
+category: concepts
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: concept
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "LLM Wiki Pattern (Karpathy)"
 tags: [llm, wiki, knowledge-management, rag, pattern, karpathy]

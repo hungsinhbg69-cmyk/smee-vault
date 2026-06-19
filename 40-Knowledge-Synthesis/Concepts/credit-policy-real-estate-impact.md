@@ -1,3 +1,14 @@
+﻿---
+title: "credit-policy-real-estate-impact"
+slug: "credit-policy-real-estate-impact"
+category: concepts
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: concept
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Chính sách tín dụng BĐS tác động đến Bắc Giang/Bắc Ninh"
 slug: "credit-policy-real-estate-impact"

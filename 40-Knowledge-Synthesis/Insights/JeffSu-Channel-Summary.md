@@ -1,3 +1,14 @@
+﻿---
+title: "JeffSu-Channel-Summary"
+slug: "jeffsu-channel-summary"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: JeffSu Channel - Comprehensive Summary
 tags: [jeffsu, youtube, productivity, career, ai]

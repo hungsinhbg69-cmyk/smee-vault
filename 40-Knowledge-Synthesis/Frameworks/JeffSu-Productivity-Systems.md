@@ -1,3 +1,14 @@
+﻿---
+title: "JeffSu-Productivity-Systems"
+slug: "jeffsu-productivity-systems"
+category: frameworks
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: framework
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: JeffSu - Productivity Systems Deep Dive
 tags: [jeffsu, productivity, notion, google-workspace, inbox-zero]

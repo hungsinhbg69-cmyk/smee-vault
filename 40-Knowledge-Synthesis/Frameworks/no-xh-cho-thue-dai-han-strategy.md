@@ -1,3 +1,14 @@
+﻿---
+title: "no-xh-cho-thue-dai-han-strategy"
+slug: "no-xh-cho-thue-dai-han-strategy"
+category: frameworks
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: framework
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "NOXH cho thuê dài hạn — Chiến lược chuyển đổi tư duy 2026"
 slug: "no-xh-cho-thue-dai-han-strategy"

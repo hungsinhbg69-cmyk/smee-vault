@@ -1,3 +1,14 @@
+﻿---
+title: "no-xh-income-limit-2026"
+slug: "no-xh-income-limit-2026"
+category: concepts
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: concept
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "Nghị định 136/2026 — Tăng trần thu nhập mua NOXH lên 25-50 triệu/tháng"
 slug: "no-xh-income-limit-2026"

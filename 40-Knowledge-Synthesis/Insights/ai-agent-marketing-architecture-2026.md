@@ -1,3 +1,14 @@
+﻿---
+title: "ai-agent-marketing-architecture-2026"
+slug: "ai-agent-marketing-architecture-2026"
+category: insights
+tags: [obsidian-cleanup, auto-added]
+status: draft
+type: insight
+created: 2026-06-19
+last_updated: 2026-06-19
+---
+
 ---
 title: "AI Agent Marketing Architecture 2026"
 created: 2026-06-17

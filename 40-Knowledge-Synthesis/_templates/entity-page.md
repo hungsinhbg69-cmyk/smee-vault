@@ -4,7 +4,7 @@ slug: "entity-page-template"
 category: concepts
 tags: [template, karpathy, wiki, entity]
 date: 2026-06-16
-source: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+source: "GitHub Gist - Karpathy LLM Wiki Pattern"
 related: ["wiki-schema-versioning-rules", "llm-wiki-architecture"]
 status: draft
 type: template
