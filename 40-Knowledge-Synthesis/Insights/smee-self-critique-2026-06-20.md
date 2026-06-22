@@ -31,4 +31,9 @@ Root cause: Không có discipline trong việc áp dụng kiến thức đã h�
 - Session notes cleaned up, duplicate entries removed
 
 ---
+## Related
+- [[protocol]] — CORE OPERATING PROTOCOL (updated after this critique)
+- [[agent-operating-protocol]] — Smee's operating rules
+- [[vault-command-center]] — Health dashboard tracks these KPIs
+
 *Tags: #self-audit #fb-api #operations #2026-06-20*

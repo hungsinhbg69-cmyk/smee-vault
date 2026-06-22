@@ -104,5 +104,9 @@ Capture (any note / quick-capture)
 - **Evening:** Review "Done Today" section → capture insights from completed work
 
 ---
+## Related
+- [[vault-command-center]] — Dashboard queries use this task system
+- [[kanban-board]] — Kanban integration layer
+- [[protocol]] — Capture rules & weekly connect phase
 
 *Created: 2026-06-20 | Quick reference for all vault users.*

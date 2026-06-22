@@ -11,6 +11,10 @@ last_updated: 2026-06-19
 
 # Facebook Bot Safety Rules
 
+## Related
+- [[Vault-MOC]] — central index
+- [[Protocol]] — capture rules
+
 ## Nguyên tắc cơ bản
 - Facebook rất nhạy cảm với bot activity
 - Làm CHẬM, ĐỪNG quá nhanh

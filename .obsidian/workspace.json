@@ -238,6 +238,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "60-Archive/Project-Name.md",
+    "60-Archive/Project-Y.md",
+    "60-Archive/Project-X.md",
+    "60-Archive/Project-Current.md",
+    "60-Archive/Project-B.md",
+    "00-Meta/Vault-MOC.md",
+    "_templates/quick-capture-template.md",
     "02-Daily/2026-06-22.md",
     "40-Knowledge-Synthesis/Insights/bac-giang-real-estate-poster-insights-june2026.md",
     "40-Knowledge-Synthesis/Insights/top-10-bds-facebook-content-2026.md",
@@ -266,13 +273,6 @@
     "10-Projects/Content-Pipeline/kanban-board.md",
     "_templates/web-clip.md",
     "_templates/quick-idea.md",
-    "40-Knowledge-Synthesis/Frameworks/quickadd-macros.md",
-    "40-Knowledge-Synthesis/Insights/task-system-wiki.md",
-    "01-Inbox/quick-capture-template.md",
-    "40-Knowledge-Synthesis/Frameworks/task-system-config.md",
-    "QUICKADD-MACROS.md",
-    "KANBAN-CONTENT.md",
-    "vault-automation-layer-deploy-log.md",
-    "SRS-CONFIG.md"
+    "40-Knowledge-Synthesis/Frameworks/quickadd-macros.md"
   ]
 }
