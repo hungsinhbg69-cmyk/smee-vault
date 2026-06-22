@@ -244,3 +244,9 @@ sources:
 
 ---
 *Connected to [[Obsidian-Vault-Setup]] project research | [[vault-health-report-2026-06-12]]*
+
+
+
+---
+## 🔗 Related Notes
+- [[bac-giang-real-estate-poster-insights-june2026]] — poster BĐS Facebook insights từ góc nhìn cư dân BG 06/2026

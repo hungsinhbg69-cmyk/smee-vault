@@ -86,8 +86,8 @@
             "state": {
               "type": "VIEW_TYPE_LONGFORM_EXPLORER",
               "state": {},
-              "icon": "longform",
-              "title": "Longform"
+              "icon": "lucide-ghost",
+              "title": "VIEW_TYPE_LONGFORM_EXPLORER"
             }
           }
         ]
@@ -129,7 +129,7 @@
               "type": "outgoing-link",
               "state": {
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
               "title": "Liên kết đi ra"
@@ -179,27 +179,7 @@
             }
           },
           {
-            "id": "2f169ccefaf62a58",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "264cc6e56c88791e",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
-            }
-          },
-          {
-            "id": "7921107d29939535",
+            "id": "7ca915757be9cd75",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -207,9 +187,19 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "3af86322c3360bcb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -224,65 +214,65 @@
       "templates:Chèn mẫu": false,
       "command-palette:Mở khay lệnh": false,
       "bases:Tạo cơ sở mới": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
+      "markdown-importer:Mở trình chuyển đổi Markdown": false,
+      "workspaces:Quản lý cấu trúc khung làm việc": false,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false,
-      "remotely-save:Remotely Save": false,
-      "omnisearch:Omnisearch": false,
-      "copilot:Open Copilot Chat": false,
-      "obsidian-importer:Open Importer": false,
-      "homepage:Open homepage": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "remotely-save:Remotely Save": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "markdown-importer:Mở trình chuyển đổi Markdown": false,
-      "workspaces:Quản lý cấu trúc khung làm việc": false
+      "omnisearch:Omnisearch": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-kanban:Create new board": false,
+      "homepage:Open homepage": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Chat": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7921107d29939535",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "40-Knowledge-Synthesis/Insights/creative-testing-key-lever.md",
-    "40-Knowledge-Synthesis/Frameworks/facebook-cbo-scaling-rule.md",
-    "30-Resources/Facebook-Graph-API.md",
-    "scripts/add-frontmatter.ps1",
-    "scripts/merge-tags.ps1",
-    "scripts",
-    "40-Knowledge-Synthesis/Smee-Content-Template-Framework.md",
-    "40-Knowledge-Synthesis/Concepts/related-concept.md",
-    "40-Knowledge-Synthesis/Concepts/related-note-3.md",
-    "40-Knowledge-Synthesis/Concepts/related-note-1.md",
-    "40-Knowledge-Synthesis/Concepts/related-note-2.md",
-    "00-Meta/People-Name.md",
-    "00-Meta/Video-URL.md",
-    "00-Meta/URL-Reference.md",
-    "30-Resources/FDI-Industrial-Zones-North-Vietnam.md",
-    "30-Resources/Nghe-Phieu-08-2026-TT-BXD.md",
-    "30-Resources/Conflicting-Paper.md",
-    "40-Knowledge-Synthesis/Frameworks/thue-nha-dai-han-strategy.md",
-    "10-Projects/Project-Current.md",
-    "10-Projects/Project-B.md",
-    "10-Projects/Project-Name.md",
-    "10-Projects/Project-Y.md",
-    "10-Projects/Project-X.md",
-    "40-Knowledge-Synthesis/Concepts/concept-a.md",
-    "40-Knowledge-Synthesis/Concepts/concept-b.md",
-    "40-Knowledge-Synthesis/Insights/vault-master-index-prompt-eng.md",
-    "2026-06-16.md",
-    "30-Resources/Bac-Giang/bac-giang-specialty-products.md",
-    "30-Resources/Bac-Giang/bac-giang-living-guide.md",
-    "10-Projects/Agent-Research-Expansion",
-    "70-Outputs/JeffSu-Artifacts/jeffsu_deep_dive_audio.m4a",
-    "70-Outputs/JeffSu-Artifacts",
-    "40-Knowledge-Synthesis/Frameworks/Career-Growth",
-    "40-Knowledge-Synthesis/Insights/Career-Growth",
-    "40-Knowledge-Synthesis/Frameworks/Interview-Frameworks",
-    "40-Knowledge-Synthesis/Insights/Interview-Frameworks"
+    "02-Daily/2026-06-22.md",
+    "40-Knowledge-Synthesis/Insights/bac-giang-real-estate-poster-insights-june2026.md",
+    "40-Knowledge-Synthesis/Insights/top-10-bds-facebook-content-2026.md",
+    "40-Knowledge-Synthesis/Insights/marketing-bat-dong-san-mien-bac-noxh-2026.md",
+    "00-Meta/vault-health-bridge.md",
+    "30-Resources/Facebook-Ads/raw-data/fb_ads_videos_300.json",
+    "30-Resources/Facebook-Ads/raw-data/_raw_search_vn_ecom.txt",
+    "30-Resources/Facebook-Ads/raw-data/_raw_search_vn.txt",
+    "30-Resources/Facebook-Ads/raw-data/_raw_search_vinh.txt",
+    "30-Resources/Facebook-Ads/raw-data/_raw_search_tran.txt",
+    "30-Resources/Facebook-Ads/raw-data/_raw_search_leophan.txt",
+    "30-Resources/Facebook-Ads/raw-data/_raw_search_leadgen.txt",
+    "30-Resources/Facebook-Ads/raw-data/_raw_search_funnel.txt",
+    "30-Resources/Facebook-Ads/raw-data/_raw_search_ecommerce.txt",
+    "30-Resources/Facebook-Ads/raw-data/_raw_search_dynamic.txt",
+    "30-Resources/Bac-Giang/README.md",
+    "Agent-Operating-Protocol.md",
+    "40-Knowledge-Synthesis/Insights/smee-self-critique-2026-06-20.md",
+    "30-Resources/Facebook-Ads/srs-flashcards.md",
+    "_templates/research-note.md",
+    "30-Resources/Web-Clips/uncategorized/README.md",
+    "30-Resources/Web-Clips/u ncategorized/README.md",
+    "40-Knowledge-Synthesis/Frameworks/research-pipeline.md",
+    "40-Knowledge-Synthesis/Frameworks/spaced-repetition-config.md",
+    "10-Projects/Content-Pipeline/content-card-template.md",
+    "10-Projects/Content-Pipeline/kanban-board.md",
+    "_templates/web-clip.md",
+    "_templates/quick-idea.md",
+    "40-Knowledge-Synthesis/Frameworks/quickadd-macros.md",
+    "40-Knowledge-Synthesis/Insights/task-system-wiki.md",
+    "01-Inbox/quick-capture-template.md",
+    "40-Knowledge-Synthesis/Frameworks/task-system-config.md",
+    "QUICKADD-MACROS.md",
+    "KANBAN-CONTENT.md",
+    "vault-automation-layer-deploy-log.md",
+    "SRS-CONFIG.md"
   ]
 }

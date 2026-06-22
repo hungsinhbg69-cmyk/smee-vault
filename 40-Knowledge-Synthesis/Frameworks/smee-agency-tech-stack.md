@@ -39,11 +39,6 @@ last_updated: 2026-06-15
 ### Page 1 — Smee Sale & Marketing
 - **Page ID:** `1094674520391475`
 - **App ID:** `1640859240534684`
-- **Graph API:** v25.0
-- **Permissions:** pages_show_list, pages_read_engagement, public_profile
-- **Token status:** ⚠️ EXPIRED (OAuth 190, 2026-06-12)
-- **Action needed:** Refresh token từ .env
-
 ### Page 2 — Bệnh Viện Mắt Hà Nội - Bắc Ninh
 - **Page ID:** `997717610098937`
 - **App ID:** `1963488660946232`

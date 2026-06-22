@@ -357,6 +357,19 @@ Meta permanently removed 7-day view and 28-day view windows từ Ads Insights AP
 - `cs-key-insights-2026.md` — 10 bài học chiến lược tổng hợp
 - `12-case-studies-2026.md` — INDEX tổng hợp case studies
 
+## ⚡ Quick References
+
+### FB-ADS-KNOWLEDGE-BASE.md
+**Single source of truth — full knowledge base.** 8 modules theo workflow thực chiến. Đọc file này để có toàn bộ kiến thức tổng hợp.
+
+### QUICK-DECISION-MATRIX.md
+**Agent decision shortcuts trong <30 giây.** Decision trees cho objective, bidding, CBO/ABO, ASC+, targeting, creative format, budget pacing, tracking setup, Vietnam adjustments.
+
+### creative-testing-framework.md
+**Atomic note for creative testing workflow.** Competitor audit → variant matrix → test execution → scale & refresh. Hook-rate benchmarks + fatigue detection.
+
+---
+
 ## 📚 Bonus: Creative Strategy Deep-Dive (from memory sources)
 
 ### Hook Rate Benchmark

@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "30-Resources/Bac-Giang/README.md"
+    },
+    {
+      "basename": "Agent-Operating-Protocol",
+      "path": "Agent-Operating-Protocol.md"
+    },
+    {
+      "basename": "QUICKADD-MACROS",
+      "path": "QUICKADD-MACROS.md"
+    },
+    {
+      "basename": "KANBAN-CONTENT",
+      "path": "KANBAN-CONTENT.md"
+    },
+    {
+      "basename": "weekly-review",
+      "path": "_templates/weekly-review.md"
+    },
+    {
+      "basename": "Facebook-Ads-Budgeting-Bidding-Metrics-2026",
+      "path": "40-Knowledge-Synthesis/Frameworks/Facebook-Ads-Budgeting-Bidding-Metrics-2026.md"
+    },
+    {
+      "basename": "jeffsu_quiz",
+      "path": "70-Outputs/JeffSu-Artifacts/jeffsu_quiz.md"
+    },
+    {
+      "basename": "jeffsu_deep_dive_audio",
+      "path": "70-Outputs/JeffSu-Artifacts/jeffsu_deep_dive_audio.m4a"
+    },
+    {
       "basename": "vault-master-index-prompt-eng",
       "path": "40-Knowledge-Synthesis/Insights/vault-master-index-prompt-eng.md"
     },

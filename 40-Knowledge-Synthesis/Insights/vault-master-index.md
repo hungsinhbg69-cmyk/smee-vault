@@ -63,17 +63,11 @@ last_updated: 2026-06-17
 - `bac-giang-community-psychology.md` — Community psychology insights
 
 #### Facebook Ads Knowledge Base
-- `01-fundamentals.md` through `12-case-studies-2026.md` — Complete marketing guide
+- `FB-ADS-KNOWLEDGE-BASE.md` — **Single source of truth.** 8 modules theo workflow: fundamentals → targeting → creative → bidding → tracking → ASC+ → Andromeda → metrics/case studies.
+- `QUICK-DECISION-MATRIX.md` — **Agent decision shortcuts <30s.** Decision trees cho objective, bidding, CBO/ABO, ASC+, targeting, budget pacing, Vietnam adjustments.
+- `creative-testing-framework.md` — Creative testing pipeline: competitor audit → variant matrix → test execution → scale. Hook-rate benchmarks + fatigue detection.
 - `INDEX.md` — Master table of contents + quick reference
-- `fb-graph-api-v25-reference.md` — API v25.0 root nodes/edges
-- `fb-graph-api-quick-ref.md` — Quick reference card
-- `fb-graph-api-learning.md` — Learning notes from experiments
-- `ads-campaigns-comprehensive-analysis-2026-06.md` — Campaign analysis
-- `ads-campaigns-deep-dive-2026-06.md` — Deep dive analysis
-- `ads-deep-dive-june-2026.md` — June deep dive
-- `facebook-ads-comprehensive-guide-2026.md` — Comprehensive guide (23KB)
-- `api/campaign-objects.md` — Campaign/AdSet/Ad API objects
-- `api/insights-fields.md` — Insights fields and reporting
+- Old references (detailed): 01-fundamentals.md through 11-attribution-tracking.md, api/, case studies, campaigns analysis files
 
 ### 🧠 Knowledge Synthesis (40-Knowledge-Synthesis/)
 #### Concepts

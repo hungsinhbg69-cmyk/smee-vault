@@ -32,7 +32,7 @@
     "_templates/atomic-note.md"
   ],
   "startup_templates": [
-    ""
+    "_templates/daily-note.md"
   ],
   "intellisense_render": 1,
   "ignore_folders_on_creation": [

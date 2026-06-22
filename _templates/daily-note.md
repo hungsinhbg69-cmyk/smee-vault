@@ -4,37 +4,39 @@ slug: "{{date}}"
 category: daily
 tags: [daily]
 status: active
-type: daily
+type: daily-log
 created: {{date}}
 last_updated: {{date}}
 ---
 
-# 📅 {{date:YYYY-MM-DD}} {{date:dddd}}
+# 📅 {{date:YYYY-MM-DD}} | Day {{date:dddd}}
 
 <!-- Scanned FIRST by agent: check this section every session -->
 
-## 🎯 Today's Focus
-- 
-
-## ✅ Tasks
+## ⚡ Today's Focus (max 3)
+- [ ] 
+- [ ] 
 - [ ] 
 
-## 📝 Notes & Observations
-- 
+## 📋 Active Tasks
+```tasks
+not done
+due after today -7 days
+sort by priority
+group by due
+```
 
-## 💡 Insights
-- 
+## 📥 Inbox Capture
+- Quick notes: 
 
-## 📚 Learning & Growth
-- 
+## 🔗 Links from Yesterday
+<!-- auto-populated via Templater -->
 
-## 🔗 Links Created
-<!-- Agent will auto-populate: [[linked-note-1]], [[linked-note-2]] -->
+## ✅ Done Today
+```tasks
+done after {{date:YYYY-MM-DD}}
+sort by done desc
+```
 
----
-%% Agent instructions:
-- Check daily note every session start
-- Log captures here with timestamp format: [HH:MM] capture: "<topic>"
-- Move actionable items to Projects/Areas during connect phase
-- Promote ideas cited 2+ times to atomic notes in 90-Knowledge-Synthesis/Insights/
-%%
+## 💡 Insights & Decisions
+-

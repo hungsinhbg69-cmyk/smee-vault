@@ -41,7 +41,6 @@
     "showFileMenuReviewOptions": true,
     "deleteTagsOnSchedulingDataDeletion": false,
     "maxNDaysNotesReviewQueue": 365,
-    "showRibbonIcon": true,
     "showStatusBar": true,
     "showCardStatusBarItem": true,
     "showNoteStatusBarItem": true,
@@ -81,7 +80,7 @@
     "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY",
     "preferredLocale": "-"
   },
-  "buryDate": "2026-06-19",
+  "buryDate": "2026-06-22",
   "buryList": [],
   "historyDeck": null,
   "scheduleData": {
