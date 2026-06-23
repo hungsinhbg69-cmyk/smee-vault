@@ -8,28 +8,28 @@ type: atomic-note
 created: {{date}}
 last_updated: {{date}}
 cited_count: 0
+related_concepts: 
+applied_in: 
+difficulty: easy # easy | medium | hard
 ---
 
 # 🔬 {{title}}
 
 ## 📝 One Idea Summary
-[One sentence — if you can't summarize in one sentence, it's not atomic]
+<%* tR += tp.system.prompt("One sentence summary: "); *>
 
 ## 📖 Explanation
-[300-700 words. Clear, precise, no fluff]
+[<small>300-700 words. Clear, precise, no fluff.</small>]
 
 ## 🔄 Connections
 ### Related Concepts
-- [[Concept-A]]
-- [[Concept-B]]
+<%* tR += "- [[" + tp.system.prompt("Related concept (or leave blank): ") + "]]\n"; *>
 
 ### Applied In
-- [[Project-X]] — how this concept is used
-- [[Project-Y]] — lessons learned
+<%* tR += "- [[Project-Name]] — how this is used\n"; *>
 
 ## 📚 Sources
-- [Source 1](url) — key point extracted
-- [Source 2](url)
+<%* tR += "- [" + tp.system.prompt("Source title: ") + "](url)\n"; *>
 
 ---
 %% Agent instructions:

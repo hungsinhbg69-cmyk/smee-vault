@@ -8,15 +8,19 @@
     ]
   ],
   "trigger_on_file_creation": false,
-  "auto_jump_to_cursor": false,
+  "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "_templates",
+  "user_scripts_folder": "_scripts",
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "02-Daily",
+      "template": "_templates/daily-note.md"
+    },
+    {
+      "folder": "40-Knowledge-Synthesis/Insights",
+      "template": "_templates/atomic-note.md"
     }
   ],
   "enable_file_templates": false,
@@ -35,13 +39,9 @@
     "_templates/daily-note.md"
   ],
   "intellisense_render": 1,
-  "ignore_folders_on_creation": [
-    {
-      "folder": ""
-    }
-  ],
+
   "trigger_on_file_change": false,
-  "commands_folder": "_templates",
+  "commands_folder": "_scripts",
   "error_message": "",
   "status_messages_display_time": 7000,
   "status_messages_enabled": true,
@@ -49,6 +49,8 @@
   "custom_triggers": {
     "date": "{{date}}",
     "time": "{{time}}",
-    "datetime": "{{date}} {{time}}"
+    "datetime": "{{date}} {{time}}",
+    "tomorrow": "{{date+1d}}",
+    "yesterday": "{{date-1d}}"
   }
 }

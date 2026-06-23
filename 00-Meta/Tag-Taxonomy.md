@@ -69,6 +69,15 @@ last_updated: 2026-06-12
 #Tool/Notion
 ```
 
+
+### #priority/* — Task urgency levels (from task-system-config.md)
+```
+#priority/P1  — Critical — must do today or overdue
+#priority/P2  — High — this week
+#priority/P3  — Medium — this month
+#priority/P4  — Low — backlog
+```
+
 ### #Method/* — Techniques and approaches
 ```
 #Method/capture-first

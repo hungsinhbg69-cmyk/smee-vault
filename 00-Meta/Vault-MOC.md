@@ -52,6 +52,11 @@ See `30-Resources/Facebook-Ads/INDEX.md` for full catalog. Key:
 - [[Nghe-Phieu-08-2026-TT-BXD]] — Xây Dựng Regulation (Aug 2026)
 - [[FDI-Industrial-Zones-North-Vietnam]] — FDI Industrial Zones
 
+
+## ▸ Automation / Agent
+- [[vault-architecture]] — PARA + Zettelkasten hybrid structure
+- [[task-system-config]] — Task management framework
+- [[agent-integration-framework]] — Hermes Agent ↔ Vault auto-connection pipeline
 ## ▸ Archive
 See `60-Archive/` for completed readings, old campaigns, and retired notes.
 

@@ -90,11 +90,13 @@
               "title": "VIEW_TYPE_LONGFORM_EXPLORER"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 239.5,
+    "collapsed": true
   },
   "right": {
     "id": "1962c8b44d82671d",
@@ -194,12 +196,42 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "15ced2f318ac5146",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          },
+          {
+            "id": "903b65b44f02cbe5",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "6ef4bcc0b01ac792",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -207,6 +239,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "copilot:Open Copilot Chat": false,
+      "homepage:Open homepage": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "remotely-save:Remotely Save": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Mở bộ chuyển đổi nhanh": false,
       "graph:Mở xem biểu đồ": false,
       "canvas:Tạo bảng mới": false,
@@ -221,58 +260,51 @@
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "remotely-save:Remotely Save": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "omnisearch:Omnisearch": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-kanban:Create new board": false,
-      "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "copilot:Open Copilot Chat": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "6ef4bcc0b01ac792",
   "lastOpenFiles": [
-    "60-Archive/Project-Name.md",
-    "60-Archive/Project-Y.md",
-    "60-Archive/Project-X.md",
-    "60-Archive/Project-Current.md",
-    "60-Archive/Project-B.md",
-    "00-Meta/Vault-MOC.md",
-    "_templates/quick-capture-template.md",
-    "02-Daily/2026-06-22.md",
-    "40-Knowledge-Synthesis/Insights/bac-giang-real-estate-poster-insights-june2026.md",
-    "40-Knowledge-Synthesis/Insights/top-10-bds-facebook-content-2026.md",
-    "40-Knowledge-Synthesis/Insights/marketing-bat-dong-san-mien-bac-noxh-2026.md",
-    "00-Meta/vault-health-bridge.md",
-    "30-Resources/Facebook-Ads/raw-data/fb_ads_videos_300.json",
-    "30-Resources/Facebook-Ads/raw-data/_raw_search_vn_ecom.txt",
-    "30-Resources/Facebook-Ads/raw-data/_raw_search_vn.txt",
-    "30-Resources/Facebook-Ads/raw-data/_raw_search_vinh.txt",
-    "30-Resources/Facebook-Ads/raw-data/_raw_search_tran.txt",
-    "30-Resources/Facebook-Ads/raw-data/_raw_search_leophan.txt",
-    "30-Resources/Facebook-Ads/raw-data/_raw_search_leadgen.txt",
-    "30-Resources/Facebook-Ads/raw-data/_raw_search_funnel.txt",
-    "30-Resources/Facebook-Ads/raw-data/_raw_search_ecommerce.txt",
-    "30-Resources/Facebook-Ads/raw-data/_raw_search_dynamic.txt",
-    "30-Resources/Bac-Giang/README.md",
-    "Agent-Operating-Protocol.md",
-    "40-Knowledge-Synthesis/Insights/smee-self-critique-2026-06-20.md",
-    "30-Resources/Facebook-Ads/srs-flashcards.md",
-    "_templates/research-note.md",
-    "30-Resources/Web-Clips/uncategorized/README.md",
-    "30-Resources/Web-Clips/u ncategorized/README.md",
-    "40-Knowledge-Synthesis/Frameworks/research-pipeline.md",
-    "40-Knowledge-Synthesis/Frameworks/spaced-repetition-config.md",
-    "10-Projects/Content-Pipeline/content-card-template.md",
-    "10-Projects/Content-Pipeline/kanban-board.md",
-    "_templates/web-clip.md",
-    "_templates/quick-idea.md",
-    "40-Knowledge-Synthesis/Frameworks/quickadd-macros.md"
+    "40-Knowledge-Synthesis/Frameworks/agent-integration-framework.md",
+    "_templates/template-agent-session-log.md",
+    "00-Meta/vault-health-report-2026-06-23.md",
+    "_scripts/vault-cleanup.ps1",
+    "60-Archive/_cleanup-2026-06/web-clip.md",
+    "60-Archive/_cleanup-2026-06/research-note.md",
+    "60-Archive/_cleanup-2026-06/extract_refs.js",
+    "60-Archive/_cleanup-2026-06/README.md",
+    "60-Archive/_cleanup-2026-06",
+    "10-Projects/untitled-kanban-board.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Translate to Chinese.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Summarize.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Simplify.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Make longer.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Rewrite as tweet.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Remove URLs.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Make shorter.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Generate table of contents.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Generate glossary.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Fix grammar and spelling.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Explain like I am 5.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Emojify.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "_templates/copilot-prompts/copilot-custom-prompts/Clip Web Page.md",
+    "_templates/copilot-prompts/copilot-custom-prompts",
+    "_templates/copilot-prompts",
+    "_scripts/merge-tags.ps1",
+    "_scripts/add-frontmatter.ps1",
+    "10-Projects/Excalidraw/Drawing 2026-06-23 10.50.12.excalidraw.md",
+    "10-Projects/Excalidraw",
+    "60-Archive/vault-automation-layer-deploy-log.md",
+    "00-Meta/SRS-CONFIG.md",
+    "10-Projects/Content-Pipeline/kanban-content-guide.md",
+    "00-Meta/People",
+    "Excalidraw"
   ]
 }

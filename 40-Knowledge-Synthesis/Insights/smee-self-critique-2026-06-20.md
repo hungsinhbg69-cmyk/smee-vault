@@ -36,4 +36,4 @@ Root cause: Không có discipline trong việc áp dụng kiến thức đã h�
 - [[agent-operating-protocol]] — Smee's operating rules
 - [[vault-command-center]] — Health dashboard tracks these KPIs
 
-*Tags: #self-audit #fb-api #operations #2026-06-20*
+*Tags: #self-audit #facebook-api #operations #2026-06-20*

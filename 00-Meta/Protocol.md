@@ -167,6 +167,58 @@ When a project or concept is referenced → read that specific note
 
 **Rules:** Max 5 tags/note, max 50 unique tags total. Lowercase, hyphenated. Define before using.
 
+
+## 12. Hermes Agent Integration Rules
+
+### Core Principle
+Hermes agent (`hermes-agent`) is the primary autonomous operator of this vault. All file operations, captures, and outputs follow these rules automatically.
+
+### File Tool Path Convention
+- **Vault root** for tool calls: `C:/Users/Hung/Desktop/Smee Obsidian/Smee` (forward slashes)
+- `read_file`, `write_file`, `patch` use this base path
+- When using `execute_code`, Python uses raw Windows paths (`r"C:\..."`)
+- **Never** use shell variables like `$OBSIDIAN_VAULT_PATH` in tool calls
+
+### Agent Session Lifecycle
+#### Start of Session
+1. Read `02-Daily/YYYY-MM-DD.md` — check today's captures, prior session context
+2. Scan `10-Projects/` for active project contexts if relevant
+3. Load domain-specific notes from Vault-MOC based on conversation topic
+
+#### During Session
+1. **Captures → Create atomic notes** in appropriate folders (not inbox)
+   - Web research/data → `30-Resources/<domain>/` with proper tags
+   - Insights/synthesis → `40-Knowledge-Synthesis/Insights/` with wikilinks
+   - Project work → `10-Projects/<ProjectName>/` 
+2. **Always create outbound wikilinks** to existing related notes (connect phase)
+3. **Always create inbound backlinks** from new content where relevant
+4. **Daily note auto-append**: every action → `[HH:MM] <type>: "<summary>" → [[slug]]`
+5. **Max 3 captures per session** unless user explicitly requests more
+6. **No orphaned notes**: every new note MUST have ≥1 wikilink to existing vault content
+
+#### End of Session
+1. Append all actions to daily note as log entries
+2. Verify created/modified notes pass Protocol quality checks (Section 6)
+3. Create follow-up tasks in appropriate project/daily note per task-system-config.md
+4. Git commit if user is connected to repository
+
+### Tagging Rules for Agent
+- Agent creates tags from `Tag-Taxonomy.md` hierarchy — never invent new tags
+- New taxonomy entry → add to relevant section in Tag-Taxonomy.md BEFORE first use
+- Session-specific context: NEVER create `#session/*` or `#hermes/*` tags (not actionable)
+- Agent tool usage: document in `_templates/template-agent-session-log.md`, not tag-based
+
+### Quality Gate (Section 6 + this Section)
+When agent creates any note, verify:
+- [ ] Frontmatter complete and accurate
+- [ ] Slug uses kebab-case matching Protocol section 1
+- [ ] ≤5 tags from existing taxonomy
+- [ ] ≥1 outbound wikilink created
+- [ ] Daily note updated with capture log
+
+---
+*Protocol version: 2.1 (updated 2026-06-23 — added Section 12: Hermes Agent Integration Rules)*
+*Replaces: Vault-Governance.md + Agent-Operating-Protocol.md*
 ---
 *Protocol version: 2.1 (updated 2026-06-17 — added Vault-Quick-Ref hub navigation)*
 *Replaces: Vault-Governance.md + Agent-Operating-Protocol.md*

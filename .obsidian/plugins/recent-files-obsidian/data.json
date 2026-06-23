@@ -1,20 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "30-Resources/Bac-Giang/README.md"
+      "basename": "Project-X",
+      "path": "60-Archive/Project-X.md"
     },
     {
       "basename": "Agent-Operating-Protocol",
       "path": "Agent-Operating-Protocol.md"
-    },
-    {
-      "basename": "QUICKADD-MACROS",
-      "path": "QUICKADD-MACROS.md"
-    },
-    {
-      "basename": "KANBAN-CONTENT",
-      "path": "KANBAN-CONTENT.md"
     },
     {
       "basename": "weekly-review",
@@ -57,22 +49,6 @@
       "path": "30-Resources/Bac-Giang/bac-giang-bac-ninh-social-housing-june-2026.md"
     },
     {
-      "basename": "Emojify",
-      "path": "copilot/copilot-custom-prompts/Emojify.md"
-    },
-    {
-      "basename": "Clip YouTube Transcript",
-      "path": "copilot/copilot-custom-prompts/Clip YouTube Transcript.md"
-    },
-    {
-      "basename": "Clip Web Page",
-      "path": "copilot/copilot-custom-prompts/Clip Web Page.md"
-    },
-    {
-      "basename": "Translate to Chinese",
-      "path": "copilot/copilot-custom-prompts/Translate to Chinese.md"
-    },
-    {
       "basename": "smee-content-template-framework",
       "path": "40-Knowledge-Synthesis/Frameworks/smee-content-template-framework.md"
     },
@@ -107,10 +83,6 @@
     {
       "basename": "bac-giang-cultural-profile",
       "path": "40-Knowledge-Synthesis/Insights/Bac-Giang/bac-giang-cultural-profile.md"
-    },
-    {
-      "basename": "README",
-      "path": "01-Inbox/README.md"
     },
     {
       "basename": "Quick-Start",

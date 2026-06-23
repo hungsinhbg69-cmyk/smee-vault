@@ -1,0 +1,14 @@
+{
+  "templater-obsidian:insert-template": [
+    {
+      "modifiers": ["mod", "shift"],
+      "key": ","
+    }
+  ],
+  "templater-obsidian:trigger-global-template": [
+    {
+      "modifiers": ["mod"],
+      "key": "N"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 4,
+  "homepages": {
+    "Main Homepage": {
+      "note": "00-Meta/DASHBOARD",
+      "value": "Home",
+      "kind": "File",
+      "commands": []
+    }
+  },
+  "separateMobile": false
+}
