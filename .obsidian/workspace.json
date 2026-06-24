@@ -11,10 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Xem biểu đồ"
+              "icon": "lucide-file",
+              "title": "Tab mới"
             }
           }
         ]
@@ -231,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -268,7 +268,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6ef4bcc0b01ac792",
+  "active": "7ca915757be9cd75",
   "lastOpenFiles": [
     "40-Knowledge-Synthesis/Frameworks/agent-integration-framework.md",
     "_templates/template-agent-session-log.md",
