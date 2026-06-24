@@ -1,14 +1,14 @@
 ---
 title: "Bắc Giang Specialty Products — Đặc sản & OCOP"
 slug: "bac-giang-specialty-products"
-category: products
-tags: [bac-giang, specialties, ocop, agriculture]
-status: active
-type: reference-note
-created: 2026-06-15
-last_updated: 2026-06-15
-sources:
-  - memory/Bac-Giang-Market-Intelligence-2026.md
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2025-12-01
+last_updated: 2026-06-24
+---
+
 ---
 
 # 🍒 Bắc Giang Specialty Products — Đặc sản & OCOP

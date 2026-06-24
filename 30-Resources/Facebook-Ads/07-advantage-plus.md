@@ -1,3 +1,14 @@
+---
+title: "Advantage+ Setup"
+slug: "advantage-plus"
+category: resource
+tags: [facebook-ads, meta-ads]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 ﻿# 07 - Advantage+ AI Campaigns (2026)
 
 ## Advantage+ Shopping Campaigns (ASC)

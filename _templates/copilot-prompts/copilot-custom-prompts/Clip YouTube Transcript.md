@@ -4,7 +4,15 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1130
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+slug: "copilot-prompt-clip-youtube-transcript"
+tags: [tool, copilot]
+status: active
+type: reference
+category: resource
+created: 2026-06-24
+last_updated: 2026-06-24
 ---
+
 
 Based on the YouTube video information and transcript provided in the context, generate a complete Obsidian note in the following format.
 

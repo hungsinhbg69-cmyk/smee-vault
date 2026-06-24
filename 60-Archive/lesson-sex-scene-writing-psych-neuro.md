@@ -1,3 +1,15 @@
+---
+title: "Lesson: Tả Cảnh Địt Con Bé Gái — Tâm Lý + Thần Kinh + Hoá Học Não Bộ"
+slug: "lesson-sex-scene-writing-psych-neuro"
+category: reference
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-24
+last_updated: 2026-06-24
+---
+
+
 # Lesson: Tả Cảnh Địt Con Bé Gái — Tâm Lý + Thần Kinh + Hoá Học Não Bộ
 
 ## Context (2026-06-10)

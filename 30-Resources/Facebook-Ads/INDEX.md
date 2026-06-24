@@ -1,4 +1,16 @@
-﻿# Facebook Ads - INDEX (Muc luc tra cuu nhanh)
+---
+title: "Facebook Ads Index Master Table Of Contents"
+slug: "facebook-ads-index-master-table-of-contents"
+category: resource
+tags: [vault-maintenance, facebook-ads]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
+
+# Facebook Ads - INDEX (Muc luc tra cuu nhanh)
 
 ## 01-fundamentals.md - Nen tang
 

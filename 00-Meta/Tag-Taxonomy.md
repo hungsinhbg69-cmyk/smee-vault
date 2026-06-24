@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tag Taxonomy"
 slug: "tag-taxonomy"
 category: meta

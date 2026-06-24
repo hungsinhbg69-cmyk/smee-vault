@@ -1,4 +1,4 @@
-﻿---
+---
 title: "vault-master-index-prompt-eng"
 slug: "vault-master-index-prompt-eng"
 category: insights

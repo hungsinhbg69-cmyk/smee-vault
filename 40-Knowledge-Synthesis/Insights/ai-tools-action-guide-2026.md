@@ -1,4 +1,4 @@
-﻿---
+---
 title: "ai-tools-action-guide-2026"
 slug: "ai-tools-action-guide-2026"
 category: insights

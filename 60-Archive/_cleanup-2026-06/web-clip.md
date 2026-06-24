@@ -1,14 +1,20 @@
 ---
+---
 title: "{{web_title}}"
 tags: [web-clip, reference]
 status: processed
 type: web-article
 created: {{date}}
+tags: [vault-maintenance]
+status: active
+type: reference
+last_updated: 2026-06-24
 source_url: 
 author: 
 read_status: unread
 priority: P3
 ---
+
 
 # Web Clip
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "hoang-ninh-ecolife-facebook-page"
 slug: "hoang-ninh-ecolife-facebook-page"
 category: insights

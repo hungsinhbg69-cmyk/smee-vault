@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Facebook Ads Fundamentals — Campaign Structure"
 slug: "facebook-ads-fundamentals"
 category: resource

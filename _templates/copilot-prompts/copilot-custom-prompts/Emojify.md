@@ -4,7 +4,15 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1050
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+slug: "copilot-prompt-emojify"
+tags: [tool, copilot]
+status: active
+type: reference
+category: resource
+created: 2026-06-24
+last_updated: 2026-06-24
 ---
+
 Add relevant emojis to enhance {}. Follow these rules:
     1. Insert emojis at natural breaks in the text
     2. Never place two emojis next to each other

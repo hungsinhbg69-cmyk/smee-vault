@@ -1,3 +1,15 @@
+---
+title: "Comprehensive Productivity and Career Development Study Guide"
+slug: "jeffsu-study-guide"
+category: output
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-24
+last_updated: 2026-06-24
+---
+
+
 # Comprehensive Productivity and Career Development Study Guide
 
 This study guide synthesizes professional workflows, technical optimizations, and career strategies derived from extensive analyses of digital productivity tools and workplace best practices.

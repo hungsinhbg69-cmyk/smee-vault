@@ -1,3 +1,14 @@
+---
+title: "Tracking Pixel CAPI"
+slug: "tracking-pixel"
+category: resource
+tags: [facebook-ads, meta-ads]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 ﻿# 05 - Tracking & Pixel (Meta Pixel + Conversions API)
 
 ## Meta Pixel: What It Does

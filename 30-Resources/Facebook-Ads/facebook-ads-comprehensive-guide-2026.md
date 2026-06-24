@@ -1,8 +1,14 @@
 ---
 title: "Facebook Ads Deep Dive — Kỹ Thuật & Thực Chiến 2026"
-date: 2026-06-15
-tags: [facebook-ads, meta-ads, CAPI, advantage+, auction, attribution, creative, CBO-ABO]
-source: web-search + web-fetch (adlibrary, ingestlabs, 1clickreport, segwise, sagum, clarigital)
+slug: "facebook-ads-comprehensive-guide"
+category: reference
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 ---
 
 # Facebook Ads Deep Dive — Kỹ Thuật & Thực Chiến 2026

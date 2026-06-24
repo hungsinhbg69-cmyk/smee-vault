@@ -1,4 +1,4 @@
-﻿---
+---
 title: "facebook-algorithm-needs-volume"
 slug: "facebook-algorithm-needs-volume"
 category: insights

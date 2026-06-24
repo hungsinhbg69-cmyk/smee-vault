@@ -1,3 +1,14 @@
+---
+title: "Optimization Strategies"
+slug: "optimization"
+category: resource
+tags: [facebook-ads, meta-ads]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 ﻿# 06 - Optimization & Scaling (Tieu chuan + Mo rong campaign)
 
 ## Testing Strategy Framework

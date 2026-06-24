@@ -1,4 +1,5 @@
 ---
+---
 title: "{{citation}} — {{note-type}}"
 slug: "{{title-slug}}"
 authors: []
@@ -13,6 +14,7 @@ date-added: {{date}}
 date-read: 
 synthesized: false
 ---
+
 
 # 📖 {{title}}
 

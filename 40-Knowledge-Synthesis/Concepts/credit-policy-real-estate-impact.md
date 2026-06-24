@@ -1,4 +1,4 @@
-﻿---
+---
 title: "credit-policy-real-estate-impact"
 slug: "credit-policy-real-estate-impact"
 category: concepts

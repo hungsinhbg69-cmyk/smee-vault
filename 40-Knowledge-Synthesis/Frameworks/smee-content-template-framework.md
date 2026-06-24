@@ -1,4 +1,4 @@
-﻿---
+---
 title: "smee-content-template-framework"
 slug: "smee-content-template-framework"
 category: frameworks

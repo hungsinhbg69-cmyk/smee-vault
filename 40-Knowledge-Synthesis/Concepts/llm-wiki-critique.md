@@ -1,4 +1,4 @@
-﻿---
+---
 title: "llm-wiki-critique"
 slug: "llm-wiki-critique"
 category: concepts

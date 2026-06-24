@@ -1,4 +1,4 @@
-﻿---
+---
 title: "fb-bot-safety-rules"
 slug: "fb-bot-safety-rules"
 category: insights

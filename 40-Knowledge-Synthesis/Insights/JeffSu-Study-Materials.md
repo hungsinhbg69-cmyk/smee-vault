@@ -1,4 +1,4 @@
-﻿---
+---
 title: "JeffSu-Study-Materials"
 slug: "jeffsu-study-materials"
 category: insights

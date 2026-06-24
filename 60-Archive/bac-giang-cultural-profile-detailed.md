@@ -1,4 +1,16 @@
-﻿# Bắc Giang Cultural Profile — How to Live, Speak & Behave Like a Local
+---
+title: "Bac Giang Cultural Profile Detailed Archived"
+slug: "bac-giang-cultural-profile-detailed-archived"
+category: reference
+tags: [vault-maintenance, facebook-ads]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
+
+# Bắc Giang Cultural Profile — How to Live, Speak & Behave Like a Local
 
 _Created: 2026-06-15 | Sources: Web research (văn hóa, báo chí, Facebook groups, TikTok KOLs, phương ngữ học)_
 

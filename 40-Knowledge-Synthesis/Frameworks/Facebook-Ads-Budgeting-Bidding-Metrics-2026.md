@@ -1,10 +1,14 @@
 ---
 title: "Facebook Ads — Budgeting, Bidding & Performance Metrics (2025-2026)"
+slug: "fb-budgeting-bidding-metrics"
+category: reference
+tags: [facebook-ads, budgeting, bidding, metrics, cbo, abo]
+status: active
+type: reference
 created: 2026-06-19
-tags: [facebook-ads, budgeting, bidding, metrics, cbo, abo, roas]
-source-notebook: "ecb6a557-deb0-4a9b-abfa-2ebb2aab84db"
-sources-count: 27+
+last_updated: 2026-06-24
 ---
+
 
 # Facebook Ads — Budgeting, Bidding & Performance Metrics (2025-2026)
 

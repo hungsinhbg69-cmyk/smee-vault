@@ -1,3 +1,15 @@
+---
+title: "Smee Self-Critique — 2026-06-20"
+slug: "smee-self-critique-2026-06-20"
+category: knowledge
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-24
+last_updated: 2026-06-24
+---
+
+
 # Smee Self-Critique — 2026-06-20
 
 ## Summary

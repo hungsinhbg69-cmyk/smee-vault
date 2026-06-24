@@ -1,4 +1,16 @@
-﻿# API Insights Fields (Reporting + Metrics)
+---
+title: "Fb Api Insights Fields Reference"
+slug: "fb-api-insights-fields-reference"
+category: reference
+tags: [vault-maintenance, facebook-ads]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
+
+# API Insights Fields (Reporting + Metrics)
 
 ## Meta Graph API - Insights Endpoint
 

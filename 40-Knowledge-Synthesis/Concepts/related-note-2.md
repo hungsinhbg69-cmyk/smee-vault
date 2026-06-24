@@ -1,4 +1,4 @@
-﻿---
+---
 title: "related-note-2"
 slug: "related-note-2"
 category: concepts

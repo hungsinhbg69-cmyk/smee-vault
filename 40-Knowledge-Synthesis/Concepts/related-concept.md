@@ -1,4 +1,4 @@
-﻿---
+---
 title: "related-concept"
 slug: "related-concept"
 category: concepts

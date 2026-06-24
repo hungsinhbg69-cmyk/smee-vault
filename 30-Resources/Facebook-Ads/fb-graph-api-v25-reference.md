@@ -1,3 +1,14 @@
+---
+title: "Facebook Graph API Reference — Tổng Hợp (2026-06-09)"
+slug: "facebook-ads-comprehensive-guide-to-facebook-graph-api-v25"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2025-12-01
+last_updated: 2026-06-24
+---
+
 # Facebook Graph API Reference — Tổng Hợp (2026-06-09)
 
 > Nguồn: https://developers.facebook.com/docs/graph-api/reference

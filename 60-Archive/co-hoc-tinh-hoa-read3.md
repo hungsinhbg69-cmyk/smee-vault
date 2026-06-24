@@ -1,3 +1,15 @@
+---
+title: "LẦN 3: Góc Độ TÂM LÝ HỌC & NGHỆ THUẬT XỬ THẾ"
+slug: "co-hoc-tinh-hoa-read3"
+category: reference
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-24
+last_updated: 2026-06-24
+---
+
+
 # LẦN 3: Góc Độ TÂM LÝ HỌC & NGHỆ THUẬT XỬ THẾ
 
 ## Tổng Quan

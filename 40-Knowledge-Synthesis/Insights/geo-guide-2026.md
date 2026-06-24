@@ -1,4 +1,4 @@
-﻿---
+---
 title: "geo-guide-2026"
 slug: "geo-guide-2026"
 category: insights

@@ -1,4 +1,5 @@
 ---
+---
 title: "Concept Page Template (Karpathy)"
 slug: "concept-page-template"
 category: concepts
@@ -9,6 +10,7 @@ related: ["wiki-schema-versioning-rules", "llm-wiki-architecture"]
 status: draft
 type: template
 ---
+
 
 # Concept Page Template
 

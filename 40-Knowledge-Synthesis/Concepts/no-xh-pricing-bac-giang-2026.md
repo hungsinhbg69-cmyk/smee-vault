@@ -1,4 +1,4 @@
-﻿---
+---
 title: "no-xh-pricing-bac-giang-2026"
 slug: "no-xh-pricing-bac-giang-2026"
 category: concepts

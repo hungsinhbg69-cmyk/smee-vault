@@ -1,3 +1,15 @@
+---
+title: "🧪 Creative Testing Framework — Facebook Ads 2026"
+slug: "creative-testing-framework"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-24
+last_updated: 2026-06-24
+---
+
+
 # 🧪 Creative Testing Framework — Facebook Ads 2026
 
 > **Mục đích:** Agent dùng để design và execute creative tests nhanh chóng. Atomic note cho workflow cụ thể.

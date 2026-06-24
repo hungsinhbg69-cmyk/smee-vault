@@ -1,4 +1,5 @@
 ---
+---
 title: "Wiki Schema Versioning Rules"
 slug: "wiki-schema-versioning-rules"
 category: meta
@@ -8,6 +9,7 @@ type: schema
 version: "1.0.0"
 status: active
 ---
+
 
 # Wiki Schema Versioning Rules (Karpathy Pattern)
 

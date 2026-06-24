@@ -1,10 +1,12 @@
 ---
 title: "Research Ingestion Pipeline"
+slug: "research-pipeline"
+category: framework
 tags: [research, pipeline, zotero]
 status: active
 type: workflow-config
 created: 2026-06-20
-last_updated: {{date}}
+last_updated: 2026-06-24
 ---
 
 # Research Ingestion Pipeline — From Source to Output

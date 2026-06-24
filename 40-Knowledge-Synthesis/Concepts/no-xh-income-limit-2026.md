@@ -1,4 +1,4 @@
-﻿---
+---
 title: "no-xh-income-limit-2026"
 slug: "no-xh-income-limit-2026"
 category: concepts

@@ -1,3 +1,15 @@
+---
+title: "📘 Facebook Ads Knowledge Base — Tổng Hợp 2026"
+slug: "fb-ads-knowledge-base"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-24
+last_updated: 2026-06-24
+---
+
+
 # 📘 Facebook Ads Knowledge Base — Tổng Hợp 2026
 
 > **Mục đích:** Single source of truth cho toàn bộ kiến thức Facebook/Meta Ads. Được tổng hợp, phân loại và tối ưu cho agent đọc/nhánh nhanh.

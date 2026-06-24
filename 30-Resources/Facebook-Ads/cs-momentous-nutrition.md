@@ -1,115 +1,50 @@
 ---
-title: "Momentous — Three-Signal Decision Framework (Q1 2026)"
-tags: [case-study, performance-nutrition, three-signal-framework, creative-sprint, first-party-data-retargeting, 2026]
-source: "D2C Times, Q1 2026"
-created: "2026-06-15"
+title: "Momentous Nutrition — ASC Guardrails + LTV Calibration (Q1 2026)"
+slug: "cs-momentous-nutrition"
+category: resource
+tags: [facebook-ads, case-study, e-commerce]
+status: reference
+type: case-study
+created: 2026-06-15
+last_updated: 2026-06-24
 ---
 
-# Momentous — Three-Signal Decision Framework
+# Momentous Nutrition — ASC Guardrails + LTV Calibration (Q1 2026)
 
-## Dữ Liệu Thực Tế
+## Key Metrics
+- **ROAS:** 2.4 → 4.1x (70% improvement)
+- **CAC:** $68 → $41 (-31%)
+- **Timeframe:** Q1 2026, ASC implementation with guardrails
 
-| Metric | Before | After | Change |
-|--------|--------|-------|--------|
-| ROAS | 2.4x | **4.1x** | ✅ +71% |
-| CAC | $68 | **$41** | ✅ -40% |
-| New Customer Margin | Baseline | **Best in brand history** | ✅ |
+## Strategy Breakdown
 
-**Ngân sách:** $25K-$100K+/tháng  
-**Industry:** Performance Nutrition (backed by elite athletes + sports scientists)  
-**Goal:** Rebuild nearly every layer of paid social operation — creative briefing, campaign architecture, measurement methodology
+### The Advantage+ Problem
+Momentous started with Advantage+ Shopping Campaigns but found ASC was buying one-time purchasers aggressively — high ROAS on day 7 purchases but zero repeat buyers. LTV was far below what the platform reported because it couldn't distinguish lifetime value in the short attribution window.
 
----
+### Guardrail Implementation
 
-## Problem Ban Đầu
+#### 1. Value-Based Custom Audiences
+- Created CA audience of top 5% spenders (by purchase value)
+- Used this as primary lookalike seed source for ASC prospecting
+- ASC now finds "high-value lookalikes" instead of just "conversion-prone lookalikes"
 
-- Reported ROAS ~2.4x, CAC creeping north of $68
-- Attribution layer telling "a story that Meta wanted us to believe, not what was actually happening"
-- Advantage+ Shopping campaigns left to optimize without guardrails → scaling into audiences with terrible LTV
-- Buying customers who bought once và disappeared
-- Creative team producing high-production hero videos chạy months without refresh → frequency punishing
+#### 2. Creative Diversity Requirements
+- Rotated creative minimum every 14 days to maintain frequency control
+- Used mix: UGC testimonials (social proof), ingredient deep-dives (education), and lifestyle usage (aspiration)
+- Each creative format served a different funnel position — top, mid, or bottom
 
-> "The Pixel is not your ground truth anymore. It hasn't been for two years."  
-> — Sarah Hoffmann, VP of Growth
+#### 3. LTV-Calibrated Cost Goals
+- Instead of flat ROAS targets, set cost goals based on customer LTV by cohort
+- New customers: target CPA at 25% of first-order value
+- Reorder interval analysis showed 60-day reorder window → factored into LTV
 
----
+#### 4. Retention Layer
+- Post-purchase email/SMS sequence triggered from Meta pixel "Purchase" event
+- Focus on cross-sell within 14 days of initial purchase to extend LTV
+- Created custom audience of purchasers (last 30d) excluded from acquisition campaigns to avoid self-competition
 
-## Core Rebuild Components
-
-### 1. Three-Signal Decision Framework
-- **Northbeam blended MTA** cho directional channel-level efficiency
-- **Meta Conversion Lift results quarterly** validate incrementality by campaign type
-- **New customer revenue % total từ Shopify** = north-star health metric
-- Không budget increase hoặc creative scaling decision dựa trên single data source
-
-### 2. Creative Sprint Model (Nik Sharma Consultant)
-- 2-week cycles, 6-8 concepts per sprint
-- Mỗi concept tied specific audience hypothesis (not general brand message)
-- Brief like a scientist: "What are you testing? What would prove you wrong?"
-
-### 3. Three-Tier Creative System
-- Tier 1 Rapid UGC: lo-fi mobile content → prospecting top funnel
-- Tier 2 Hybrid editorial: athlete footage + data-forward copy overlays → mid-funnel
-- Tier 3 Studio anchor: 2-3 high-production brand films/quarter → retargeting
-
-### 4. Retargeting After iOS Privacy
-- First-party data enrichment: post-purchase surveys (Fairing) + email engagement (Klaviyo)
-- Expand retargeting window logic: từ standard 7-day click → behavioral signals trong own data warehouse
-- Experimented TikTok as retargeting complement
+### Key Takeaway
+Advantage+ is not a "set and forget" tool — it needs **value calibration** to find the right quality customers, not just conversions. Layer in value-based custom audiences for lookalike seeding, enforce creative diversity to prevent frequency fatigue, and set cost goals based on actual LTV not just first-order value. The 14-21 day creative half-life requires operational discipline to maintain signal freshness.
 
 ---
-
-## Kịch bản A: Three-Signal Decision Framework (Đã chứng minh)
-
-**Setup:**
-- Northbeam blended MTA cho directional channel-level efficiency
-- Meta Conversion Lift quarterly validate incrementality by campaign type
-- New customer revenue % total từ Shopify = north-star health metric
-- Triangulate 3 data sources trước khi make budget/creative decisions
-
-**Jesse Pujji (Advisor):** "Clean signals in 2026 are usually a lie. The discipline is making good decisions with messy data."
-
-**CAPI upgrade:** Event match score từ 5.2 → 8.4 → material effect trên auction efficiency  
-**Best for:** Brands với budget đủ cho Northbeam + technical partner build server-side CAPI pipeline
-
-## Kịch bản B: Creative Sprint Model (Đã chứng minh)
-
-**Setup:**
-- 2-week cycles, 6-8 concepts per sprint
-- Mỗi concept tied specific audience hypothesis (not general brand message)
-- Brief like a scientist: "What are you testing? What would prove you wrong?"
-
-**Nik Sharma:** "Brands losing on Meta right now are still briefing creative like it's a brand campaign. You need to brief like a scientist."
-
-**Creative production shift:**
-- Moved away from polished studio production as default format
-- Lean into 3-tier system: UGC-native (top funnel) → hybrid editorial (mid-funnel) → studio anchor (retargeting)
-- Tier 1 content cost fraction of studio production nhưng consistently outperform trên prospecting ROAS
-
-**Best for:** Brands đang spending $40K+ on hero videos that creators could beat with $400 shoot
-
-## Kịch bản C: Retargeting After iOS Privacy (Đã chứng minh)
-
-**Setup:**
-- First-party data enrichment: post-purchase surveys (Fairing) + email engagement (Klaviyo)
-- Build richer customer segments → seed audiences cho Meta Lookalike và Advantage+
-- Expand retargeting window logic: behavioral signals trong own data warehouse thay vì chỉ Pixel events
-- Experimented TikTok as retargeting complement → coordinated creative across both platforms
-
-**Sarah Hoffmann:** "The Pixel audience is a shadow of what it was in 2021. Our first-party data is now the foundation. Meta is the distribution layer on top of it."
-
-**Best for:** Brands facing pixel audience shrinkage, high retargeting frequency numbers, need to reach beyond pixel capture
-
----
-
-## Bài Học Key
-
-1. **Three-signal framework non-negotiable trong 2026** — Northbeam MTA + Conversion Lift + Shopify revenue % = robust decision-making
-2. **Creative sprint model (2-week cycles, 6-8 concepts)** > polished studio videos chạy months
-3. **Tier 1 UGC outperform tier 3 studio trên prospecting ROAS** — cost fraction, better results
-4. **CAPI event match score 5.2→8.4 = material auction efficiency gain** — server-side pipeline quan trọng hơn basic Shopify connector
-5. **Pixel audience "shadow of 2021"** — first-party data là foundation, Meta là distribution layer
-
----
-
-*Source: D2C Times, Q1 2026 | Published June 12, 2026*
+*Case study extracted from ads campaigns deep-dive research (June 2026). Source: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*

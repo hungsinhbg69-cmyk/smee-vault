@@ -1,4 +1,4 @@
-﻿---
+---
 title: "llm-wiki-karpathy-pattern"
 slug: "llm-wiki-karpathy-pattern"
 category: concepts

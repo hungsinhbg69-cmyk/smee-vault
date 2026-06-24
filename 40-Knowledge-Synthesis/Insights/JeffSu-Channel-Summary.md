@@ -1,4 +1,4 @@
-﻿---
+---
 title: "JeffSu-Channel-Summary"
 slug: "jeffsu-channel-summary"
 category: insights

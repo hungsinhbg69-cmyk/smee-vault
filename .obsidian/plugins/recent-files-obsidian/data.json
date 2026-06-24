@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Project-X",
-      "path": "60-Archive/Project-X.md"
+      "basename": "01-fundamentals",
+      "path": "30-Resources/Facebook-Ads/01-fundamentals.md"
     },
     {
-      "basename": "Agent-Operating-Protocol",
-      "path": "Agent-Operating-Protocol.md"
+      "basename": "atomic-note",
+      "path": "_templates/atomic-note.md"
+    },
+    {
+      "basename": "Bac-Giang-README-old-2026-06-15",
+      "path": "60-Archive/Bac-Giang-README-old-2026-06-15.md"
+    },
+    {
+      "basename": "bac-giang-cultural-profile-detailed",
+      "path": "60-Archive/bac-giang-cultural-profile-detailed.md"
+    },
+    {
+      "basename": "Agent-Operating-Protocol-old-2026-06-15",
+      "path": "60-Archive/Agent-Operating-Protocol-old-2026-06-15.md"
+    },
+    {
+      "basename": "jeffsu_quiz",
+      "path": "70-Outputs/JeffSu-Artifacts/jeffsu_quiz.md"
+    },
+    {
+      "basename": "jeffsu_flashcards",
+      "path": "70-Outputs/JeffSu-Artifacts/jeffsu_flashcards.md"
+    },
+    {
+      "basename": "jeffsu_deep_dive_audio",
+      "path": "70-Outputs/JeffSu-Artifacts/jeffsu_deep_dive_audio.m4a"
+    },
+    {
+      "basename": "Project-X",
+      "path": "60-Archive/Project-X.md"
     },
     {
       "basename": "weekly-review",
@@ -15,14 +43,6 @@
     {
       "basename": "Facebook-Ads-Budgeting-Bidding-Metrics-2026",
       "path": "40-Knowledge-Synthesis/Frameworks/Facebook-Ads-Budgeting-Bidding-Metrics-2026.md"
-    },
-    {
-      "basename": "jeffsu_quiz",
-      "path": "70-Outputs/JeffSu-Artifacts/jeffsu_quiz.md"
-    },
-    {
-      "basename": "jeffsu_deep_dive_audio",
-      "path": "70-Outputs/JeffSu-Artifacts/jeffsu_deep_dive_audio.m4a"
     },
     {
       "basename": "vault-master-index-prompt-eng",
@@ -73,10 +93,6 @@
       "path": "30-Resources/Facebook-Ads/02-targeting.md"
     },
     {
-      "basename": "01-fundamentals",
-      "path": "30-Resources/Facebook-Ads/01-fundamentals.md"
-    },
-    {
       "basename": "bac-giang-dialect-lexicon",
       "path": "40-Knowledge-Synthesis/Insights/Bac-Giang/bac-giang-dialect-lexicon.md"
     },
@@ -91,10 +107,6 @@
     {
       "basename": "2026-06-12",
       "path": "2026-06-12.md"
-    },
-    {
-      "basename": "atomic-note",
-      "path": "_templates/atomic-note.md"
     },
     {
       "basename": "daily-note",

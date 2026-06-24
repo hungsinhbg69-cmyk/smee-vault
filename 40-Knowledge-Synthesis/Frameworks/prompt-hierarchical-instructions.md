@@ -1,3 +1,14 @@
+---
+title: "prompt-hierarchical-instructions"
+slug: "prompt-hierarchical-instructions"
+category: framework
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2025-12-01
+last_updated: 2026-06-24
+---
+
 ﻿---
 title: "prompt-hierarchical-instructions"
 slug: "prompt-hierarchical-instructions"

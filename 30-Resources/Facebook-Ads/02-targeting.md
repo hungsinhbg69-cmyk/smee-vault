@@ -1,3 +1,14 @@
+---
+title: "Audience Targeting"
+slug: "audience-targeting"
+category: resource
+tags: [facebook-ads, meta-ads]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 ﻿# 02 - Audience Targeting (Phan hoi audience)
 
 ## Core Audiences: Manual Targeting

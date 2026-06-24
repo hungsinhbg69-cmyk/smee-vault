@@ -1,4 +1,4 @@
-﻿---
+---
 title: "smee-brand-dna-storytelling"
 slug: "smee-brand-dna-storytelling"
 category: insights

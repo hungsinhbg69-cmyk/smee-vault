@@ -1,4 +1,4 @@
-﻿---
+---
 title: "bac-giang-community-psychology"
 slug: "bac-giang-community-psychology"
 category: concepts

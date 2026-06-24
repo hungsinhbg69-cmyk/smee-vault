@@ -1,4 +1,4 @@
-﻿---
+---
 title: "bac-giang-cultural-profile"
 slug: "bac-giang-cultural-profile"
 category: insights

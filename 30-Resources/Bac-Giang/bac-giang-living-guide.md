@@ -1,3 +1,14 @@
+---
+title: "Guide: Học Cách Sống, Nói Chuyện, Cư Xử Như Người Bắc Giang"
+slug: "bac-giang-living-guide"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 # Guide: Học Cách Sống, Nói Chuyện, Cư Xử Như Người Bắc Giang
 
 _Document generated: 2026-06-15 | Sources: Web research, cultural analysis, social media observation_

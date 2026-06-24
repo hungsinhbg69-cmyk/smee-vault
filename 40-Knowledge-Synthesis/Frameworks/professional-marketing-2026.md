@@ -1,4 +1,4 @@
-﻿---
+---
 title: "professional-marketing-2026"
 slug: "professional-marketing-2026"
 category: frameworks

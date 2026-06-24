@@ -1,3 +1,14 @@
+---
+title: "Creative Formats"
+slug: "creative-formats"
+category: resource
+tags: [facebook-ads, meta-ads]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 ﻿# 03 - Ad Formats & Creative Strategy (Dang ads + Nguyen tac creative)
 
 ## Meta Ads Format Overview

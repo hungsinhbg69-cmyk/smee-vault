@@ -1,3 +1,15 @@
+---
+title: "Ngày Xưa Có Một Con Bò — Camilo Cruz"
+slug: "ngay-xua-co-mot-con-bo-review"
+category: reference
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-24
+last_updated: 2026-06-24
+---
+
+
 # Ngày Xưa Có Một Con Bò — Camilo Cruz
 
 ## 1. Bản Đồ Tổng Quan

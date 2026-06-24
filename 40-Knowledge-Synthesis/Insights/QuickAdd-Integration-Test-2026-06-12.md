@@ -1,4 +1,4 @@
-﻿---
+---
 title: "QuickAdd-Integration-Test-2026-06-12"
 slug: "quickadd-integration-test-2026-06-12"
 category: insights

@@ -1,9 +1,14 @@
 ---
+---
 title: "{{paper_title}}"
 tags: [zotero, research-paper]
 status: processed
 type: research-paper
 created: {{date}}
+tags: [vault-maintenance]
+status: active
+type: reference
+last_updated: 2026-06-24
 source_url: 
 author: 
 year: 
@@ -12,6 +17,7 @@ priority: P3
 citation_key: 
 zotero_uri: 
 ---
+
 
 # Research Paper — Zotero Capture
 

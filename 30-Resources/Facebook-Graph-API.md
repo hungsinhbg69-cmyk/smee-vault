@@ -1,12 +1,14 @@
 ---
 title: "Facebook Graph API"
-slug: "facebook-graph-api"
-category: reference
-tags: [facebook, api, graph]
-status: draft
+slug: "facebook-graph-api-overview"
+category: resource
+tags: [vault-maintenance]
+status: reference
 type: reference
-created: 2026-06-19
-last_updated: 2026-06-19
+created: 2025-12-01
+last_updated: 2026-06-24
+---
+
 ---
 
 # Facebook Graph API

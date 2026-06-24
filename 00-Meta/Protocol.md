@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Vault Protocol — Governance + Agent Rules"
 slug: "vault-protocol"
 category: meta
@@ -86,7 +86,7 @@ When Hùng shares insights, decisions, or lessons:
 5. **Log capture** → append to daily note with timestamp
 
 ### During Conversations
-- Max 2 new notes per session
+- Max 3 new captures per session unless user explicitly requests more
 - Every new note linked same day (no orphaned content)
 - Log in daily note: `[HH:MM] capture: "<topic>" → created <path>`
 
@@ -217,8 +217,6 @@ When agent creates any note, verify:
 - [ ] Daily note updated with capture log
 
 ---
-*Protocol version: 2.1 (updated 2026-06-23 — added Section 12: Hermes Agent Integration Rules)*
+*Protocol version: 2.2 (updated 2026-06-24 — consolidated Section 5/12 capture limit, removed duplicate footer)*
 *Replaces: Vault-Governance.md + Agent-Operating-Protocol.md*
 ---
-*Protocol version: 2.1 (updated 2026-06-17 — added Vault-Quick-Ref hub navigation)*
-*Replaces: Vault-Governance.md + Agent-Operating-Protocol.md*

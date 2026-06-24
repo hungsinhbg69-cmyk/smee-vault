@@ -1,4 +1,4 @@
-﻿---
+---
 title: "bac-giang-market-intelligence-index"
 slug: "bac-giang-market-intelligence-index"
 category: insights

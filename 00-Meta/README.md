@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Vault — Second Brain Hub"
 slug: "vault-hub"
 category: meta

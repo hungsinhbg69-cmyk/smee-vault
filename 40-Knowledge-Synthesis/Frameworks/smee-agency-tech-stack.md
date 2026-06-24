@@ -1,4 +1,4 @@
-﻿---
+---
 title: "smee-agency-tech-stack"
 slug: "smee-agency-tech-stack"
 category: frameworks

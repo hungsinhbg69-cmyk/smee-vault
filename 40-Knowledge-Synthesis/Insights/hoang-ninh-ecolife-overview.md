@@ -1,4 +1,4 @@
-﻿---
+---
 title: "hoang-ninh-ecolife-overview"
 slug: "hoang-ninh-ecolife-overview"
 category: insights

@@ -1,11 +1,14 @@
 ---
 title: "AI Tools Landscape Q2 2026"
-type: resource
-source: "Synthesia, FutureTools.io, ElevenLabs, Google, Anthropic, OpenAI"
-date: 2026-06-17
-updated: 2026-06-17
-tags: [ai-tools, landscape, q2-2026]
-aliases: ["AI Tools 2026", "AI Stack Q2 2026"]
+slug: "ai-tools-landscape-q2-2026"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 ---
 
 # AI Tools Landscape Q2 2026

@@ -4,7 +4,15 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1140
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+slug: "copilot-prompt-clip-web-page"
+tags: [tool, copilot]
+status: active
+type: reference
+category: resource
+created: 2026-06-24
+last_updated: 2026-06-24
 ---
+
 
 Based on the web page content provided in the context (from Obsidian Web Clipper or Web Viewer), generate a complete Obsidian note.
 

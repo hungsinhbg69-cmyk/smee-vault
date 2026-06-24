@@ -12,7 +12,7 @@ last_updated: 2026-06-17
 # 🗂 Vault Quick-Ref — Agent Navigation Hub
 
 > **Purpose:** Single-page agent navigation. Scan this → jump to specific note. Replaces scanning multiple indexes.
-> **Last verified:** 2026-06-17 cleanup session.
+> **Last verified:** 2026-06-24 — placeholder resolution cleanup
 
 ## 🔑 System Files (read first)
 | File | Purpose | Priority |
@@ -106,14 +106,14 @@ last_updated: 2026-06-17
 | `llm-wiki-insights.md` | LLM Wiki architecture insights |
 | `content-plan-worldmap-evaluation.md` | Content plan evaluation |
 
-## 📝 New Placeholder Notes (2026-06-19 Cleanup)
+## 📝 Active Concepts & Frameworks (resolved from placeholders)
 | File | Purpose |
 |------|---------|
-| `40-Knowledge-Synthesis/Concepts/concept-a.md` | Placeholder for unresolved links |
-| `40-Knowledge-Synthesis/Concepts/concept-b.md` | Placeholder for unresolved links |
-| `10-Projects/Project-X.md` | Placeholder for unresolved links |
-| `10-Projects/Project-Y.md` | Placeholder for unresolved links |
-| `30-Resources/Conflicting-Paper.md` | Placeholder for unresolved links |
+| `40-Knowledge-Synthesis/Concepts/concept-a.md` | AI Agent Marketing Architecture reference |
+| `40-Knowledge-Synthesis/Concepts/concept-b.md` | Content Strategy framework notes |
+| `60-Archive/Project-X.md` | Archived project — see active projects in 10-Projects |
+| `60-Archive/Project-Y.md` | Archived project — see Vault-MOC for current active projects |
+| `30-Resources/Conflicting-Paper.md` | Conflicting Research Paper Notes |
 
 [[vault-master-index]]
 

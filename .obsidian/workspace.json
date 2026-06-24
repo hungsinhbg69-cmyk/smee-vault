@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "2a4f3daea1583dbf",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "4088c72b002435c1",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Tab mới"
+              "icon": "lucide-git-fork",
+              "title": "Xem biểu đồ"
             }
           }
         ]
@@ -90,13 +90,11 @@
               "title": "VIEW_TYPE_LONGFORM_EXPLORER"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 239.5,
-    "collapsed": true
+    "width": 239.5
   },
   "right": {
     "id": "1962c8b44d82671d",
@@ -167,6 +165,16 @@
             }
           },
           {
+            "id": "903b65b44f02cbe5",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
             "id": "7ca78c5e9cc14039",
             "type": "leaf",
             "state": {
@@ -191,16 +199,6 @@
             }
           },
           {
-            "id": "3af86322c3360bcb",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
-            }
-          },
-          {
             "id": "15ced2f318ac5146",
             "type": "leaf",
             "state": {
@@ -211,13 +209,13 @@
             }
           },
           {
-            "id": "903b65b44f02cbe5",
+            "id": "3af86322c3360bcb",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-view",
+              "type": "calendar",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -231,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -265,11 +263,22 @@
       "obsidian-importer:Open Importer": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "7ca915757be9cd75",
+  "active": "3ca496086e50f1a8",
   "lastOpenFiles": [
+    "30-Resources/Facebook-Ads/01-fundamentals.md",
+    "ag-integration.md",
+    "_templates/atomic-note.md",
+    "60-Archive/Bac-Giang-README-old-2026-06-15.md",
+    "60-Archive/bac-giang-cultural-profile-detailed.md",
+    "60-Archive/Agent-Operating-Protocol-old-2026-06-15.md",
+    "70-Outputs/JeffSu-Artifacts/jeffsu_quiz.md",
+    "70-Outputs/JeffSu-Artifacts/jeffsu_flashcards.md",
+    "70-Outputs/JeffSu-Artifacts/jeffsu_deep_dive_audio.m4a",
+    "00-Meta/vault-master-index.md",
     "40-Knowledge-Synthesis/Frameworks/agent-integration-framework.md",
     "_templates/template-agent-session-log.md",
     "00-Meta/vault-health-report-2026-06-23.md",
@@ -290,21 +299,11 @@
     "_templates/copilot-prompts/copilot-custom-prompts/Make shorter.md",
     "_templates/copilot-prompts/copilot-custom-prompts/Generate table of contents.md",
     "_templates/copilot-prompts/copilot-custom-prompts/Generate glossary.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Fix grammar and spelling.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Explain like I am 5.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Emojify.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Clip Web Page.md",
     "_templates/copilot-prompts/copilot-custom-prompts",
     "_templates/copilot-prompts",
     "_scripts/merge-tags.ps1",
     "_scripts/add-frontmatter.ps1",
-    "10-Projects/Excalidraw/Drawing 2026-06-23 10.50.12.excalidraw.md",
     "10-Projects/Excalidraw",
-    "60-Archive/vault-automation-layer-deploy-log.md",
-    "00-Meta/SRS-CONFIG.md",
-    "10-Projects/Content-Pipeline/kanban-content-guide.md",
-    "00-Meta/People",
-    "Excalidraw"
+    "00-Meta/People"
   ]
 }

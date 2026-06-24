@@ -1,4 +1,4 @@
-﻿---
+---
 title: "real-estate-dinh-tri-analysis"
 slug: "real-estate-dinh-tri-analysis"
 category: insights

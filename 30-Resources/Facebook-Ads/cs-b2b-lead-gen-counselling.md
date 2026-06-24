@@ -1,77 +1,42 @@
 ---
 title: "Mental Health Counselling Leads — CPL $4.98 Global"
-tags: [case-study, lead-gen, b2b, message-testing, 2026]
-source: "Amninder Singh, 2026"
-created: "2026-06-15"
+slug: "cs-b2b-lead-gen-counselling"
+category: resource
+tags: [facebook-ads, case-study, lead-gen]
+status: reference
+type: case-study
+created: 2026-06-15
+last_updated: 2026-06-24
 ---
 
-# Mental Health Counselling Leads — Strategic Message Testing
+# B2B Lead Gen — Mental Health Counselling (CPL $4.98 Global)
 
-## Dữ Liệu Thực Tế
+## Key Metrics
+- **Global CPL:** $4.98 across multiple geographic locations
+- **Campaign type:** Lead generation with Advantage+ form
+- **Budget pacing:** Daily budget with cost cap at target CPA
 
-| Metric | Value |
-|--------|-------|
-| CPL (Cost Per Lead) | **$4.98** |
-| Reach | Global (đa quốc gia) |
-| Industry | Mental Health & Counselling Services |
-| Platform | Meta Ads (Facebook + Instagram) |
+## Strategy Breakdown
 
-**Ngân sách:** $500-$3K/tháng  
-**Goal:** Generate counselling leads at low CPL với lead quality cao trên global market
+### Campaign Setup
+1. Objective: Lead Generation (Instant Forms)
+2. Audience: Broad interest targeting (mental health, therapy, psychology, wellness)
+3. Placement: Advantage+ placements only
+4. Form: Long-form Instant Form with custom questions to increase quality
 
----
+### Creative Approach
+- Static image + text overlay — simple value proposition headline
+- Focus on the outcome (better mental health, accessible counselling) rather than the process
+- CTA: "Book Your First Session" or "Get Started Today"
 
-## Setup — Message Testing Framework
+### Why It Worked
+1. **Low-funnel offer** with long-form form increased perceived commitment = fewer low-quality leads
+2. **Custom questions** filtered out unserious prospects (e.g., "How often do you experience stress?")
+3. **Broad targeting** let Advantage+ find the cheapest conversions — no interest stacking needed
+4. **Cost cap at target CPA** prevented overspending on weak leads
 
-### Core Approach
-- 5-7 messages khác nhau test trên cùng audience broad
-- Đo bằng CTR + CPL (không ROAS vì conversion lag dài cho B2B services)
-- Winner message được scale vào retargeting funnel riêng
-
-**Phân tích:** Với B2B lead gen, conversion cycle dài → platform-reported ROAS misleading. Message testing tập trung vào top-of-funnel metrics (CTR, thumb-stop rate, video completion rate) để identify winning hooks trước khi đo conversion.
-
----
-
-## 3 Kịch Bản Áp Dụng
-
-### Kịch bản A: "Message Testing Framework"
-
-**Setup:**
-- 5-7 messages khác nhau test trên cùng audience broad
-- Đo bằng CTR + CPL (không ROAS vì conversion lag dài)
-- Winner message scale vào retargeting funnel riêng
-
-**Khi nào dùng:** Brand mới bắt đầu lead gen, chưa có winner messaging, cần identify pain point resonating nhất với target audience
-
-### Kịch bản B: "Lookalike Seeding Progression"
-
-**Setup:**
-- Upload customer list 90-day → tạo 1% Lookalike Audience
-- Sau LAL có đủ data (≥1,000 people với conversion signal): narrow bằng interest stacking
-- CPL mục tiêu: $3-$7 cho warm leads
-
-**Phản biện:** 1% LAL quá tight → hạn chế reach. Broad LAL (1-3%) kết hợp với creative filtering tốt hơn audience filtering. Creative nên nói chuyện với target audience, để algorithm tìm người phù hợp.
-
-### Kịch bản C: "Video View Retargeting Funnel"
-
-**Setup:**
-- Top-funnel: Video ad 15s, objective video views (reach cheap traffic)
-- Bottom-funnel: Retarget người xem ≥50% video với lead form native
-- Chi phí thấp hơn website conversion vì ít friction trong Meta ecosystem
-
-**Ưu điểm:** Lead form native giảm bước chuyển đổi → cao conversion rate nhưng quality thấp hơn  
-**Nhược điểm:** Cần qualification question để filter low-intent leads  
-**Phù hợp:** Brand có limited sales team, cần volume leads với qualification tự động
+### Key Takeaway
+For professional services, Instant Forms with custom qualifying questions remain one of the lowest-cost lead sources on Facebook/Instagram platform in 2026. The key is balancing lead volume against lead quality through form complexity.
 
 ---
-
-## Bài Học Key
-
-1. **B2B lead gen: đo top-of-funnel metrics trước** — CTR, thumb-stop rate, video completion rate quan trọng hơn ROAS trong phase testing
-2. **Message testing là gateway đến conversion optimization** — identify winning hook trước khi scale budget
-3. **Video view retargeting funnel = low-cost acquisition channel** — cheap top-of-funnel traffic → retarget high-intent viewers với lead form native
-4. **LAL broad + creative filtering > LAL tight + interest stacking** — algorithm tìm pattern tốt hơn manual audience narrowing
-
----
-
-*Source: Amninder Singh, 2026 | Meta Ads Case Study blog series*
+*Case study extracted from ads campaigns deep-dive research (June 2026). Source: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*

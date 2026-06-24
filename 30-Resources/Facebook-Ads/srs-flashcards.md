@@ -1,10 +1,14 @@
 ---
 title: "SRS Flashcards — FB Ads Knowledge"
-tags: [flashcard, spaced-repetition, facebook-ads]
-type: flashcards
-created: 2026-06-20
-last_updated: 2026-06-20
-srs_priority: high
+slug: "facebook-srs-flashcards"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2025-12-01
+last_updated: 2026-06-24
+---
+
 ---
 
 # 🃏 SRS Flashcards — FB Ads Knowledge

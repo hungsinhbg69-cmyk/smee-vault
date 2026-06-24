@@ -1,4 +1,4 @@
-﻿---
+---
 title: "ai-agent-marketing-architecture-2026"
 slug: "ai-agent-marketing-architecture-2026"
 category: insights

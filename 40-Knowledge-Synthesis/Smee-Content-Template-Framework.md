@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Smee-Content-Template-Framework"
 slug: "smee-content-template-framework"
 category: insights

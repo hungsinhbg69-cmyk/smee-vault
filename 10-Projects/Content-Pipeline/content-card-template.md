@@ -1,3 +1,4 @@
+slug: "content-card-template"
 ---
 title: "{{title}}"
 tags: [content, facebook-ads]

@@ -1,4 +1,5 @@
 ---
+---
 title: "Entity Page Template (Karpathy)"
 slug: "entity-page-template"
 category: concepts
@@ -9,6 +10,7 @@ related: ["wiki-schema-versioning-rules", "llm-wiki-architecture"]
 status: draft
 type: template
 ---
+
 
 # Entity Page Template
 

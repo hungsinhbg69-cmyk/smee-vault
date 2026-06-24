@@ -1,4 +1,4 @@
-﻿---
+---
 title: "reasoning-vs-gpt-models"
 slug: "reasoning-vs-gpt-models"
 category: frameworks

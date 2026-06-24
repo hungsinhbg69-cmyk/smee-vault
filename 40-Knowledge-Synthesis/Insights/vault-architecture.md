@@ -1,4 +1,4 @@
-﻿---
+---
 title: "vault-architecture"
 slug: "vault-architecture"
 category: insights

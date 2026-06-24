@@ -1,3 +1,14 @@
+---
+title: "JeffSu Productivity Flashcards"
+slug: "jeffsu-flashcards-productivity"
+category: output
+tags: [flashcards, jeffsu, spaced-repetition]
+status: output
+type: output
+created: 2026-06-19
+last_updated: 2026-06-24
+---
+
 {
   "title": "Productivity Flashcards",
   "cards": [

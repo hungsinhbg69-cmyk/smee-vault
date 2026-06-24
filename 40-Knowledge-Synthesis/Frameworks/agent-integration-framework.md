@@ -1,12 +1,14 @@
 ---
 title: "Hermes Agent Integration Framework"
 slug: "agent-integration-framework"
-category: knowledge
-tags: [obsidian, agent, automation, hermes-agent]
-status: active
-type: framework
-created: 2026-06-23
-last_updated: 2026-06-23
+category: framework
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2025-12-01
+last_updated: 2026-06-24
+---
+
 ---
 
 # 🔄 Hermes Agent Integration Framework

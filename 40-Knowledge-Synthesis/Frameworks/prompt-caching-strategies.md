@@ -1,4 +1,4 @@
-﻿---
+---
 title: "prompt-caching-strategies"
 slug: "prompt-caching-strategies"
 category: frameworks

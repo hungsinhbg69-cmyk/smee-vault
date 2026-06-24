@@ -1,3 +1,14 @@
+---
+title: "JeffSu Productivity Quiz"
+slug: "jeffsu-productivity-quiz"
+category: output
+tags: [quiz, jeffsu, productivity]
+status: output
+type: output
+created: 2026-06-19
+last_updated: 2026-06-24
+---
+
 {
   "title": "Productivity Quiz",
   "questions": [

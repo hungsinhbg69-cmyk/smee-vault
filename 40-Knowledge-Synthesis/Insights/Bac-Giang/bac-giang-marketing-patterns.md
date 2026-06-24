@@ -1,4 +1,4 @@
-﻿---
+---
 title: "bac-giang-marketing-patterns"
 slug: "bac-giang-marketing-patterns"
 category: insights

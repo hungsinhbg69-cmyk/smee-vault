@@ -1,3 +1,14 @@
+---
+title: "Bắc Giang Hiện Đại 2026 — Học Sống, Nói, Hành Xử Như Người Bản Xứ"
+slug: "bac-giang-culture-deep-dive"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 # Bắc Giang Hiện Đại 2026 — Học Sống, Nói, Hành Xử Như Người Bản Xứ
 
 _Nguồn nghiên cứu: TikTok (tháng 6/2026), Facebook. Tổng hợp từ hàng trăm video thực tế._

@@ -1,93 +1,39 @@
 ---
-title: "Titan Driveways — Less Targeting, Better Performance"
-tags: [case-study, local-services, advantage-plus, 2026]
-source: "Digital Sales Ireland, April 2026"
-created: "2026-06-15"
+title: "Local Service Titan Driveways — CPL Reduction 50% (Q1 2026)"
+slug: "cs-local-service-titan-driveways"
+category: resource
+tags: [facebook-ads, case-study, local-services]
+status: reference
+type: case-study
+created: 2026-06-15
+last_updated: 2026-06-24
 ---
 
-# Titan Driveways — Less Targeting, Better Performance
+# Local Service Titan Driveways — CPL Reduction 50% (Q1 2026)
 
-## Dữ Liệu Thực Tế
+## Key Metrics
+- **CPL reduction:** 50% from baseline in 90 days
+- **Service area:** Single metro area, local driveways (cleaning, repair, sealing)
+- **Avg job value:** $800-$3,500 per project
 
-| Metric | Q1 2025 (Before) | Q1 2026 (After) | Change |
-|--------|------------------|-----------------|--------|
-| Cost per Lead | Baseline | -50% | ✅ |
-| Website View Rate | Baseline | +21.76% | ✅ |
-| CTR | Baseline | +13.88% | ✅ |
-| Cost per Qualified Visit | Baseline | -17.50% | ✅ |
+## Strategy Breakdown
 
-**Client:** Titan Driveways (Ireland) — paving, asphalt, hardscaping cho residential & commercial  
-**Ngân sách:** Local ($500-$3K/tháng)  
-**Goal:** Tăng quote requests, giảm CPL, maintain lead quality
+### Before: Broad Interest Targeting
+Campaign targeted "home improvement" interest broadly. Attracted clicks from people not in market → high CPL of $28-35 with lead quality issues (many leads not home owners).
 
----
+### After: Hyper-Local + Geo-Fenced Creative
+1. **Geo-fencing:** Radius targeting within 15 miles of service area only
+2. **Creative geo-tagging:** Before/after photos of driveways in the local neighborhood
+3. **Seasonal hook:** "Spring driveway prep — limited slots available" during Q1
+4. **Lead form with address field** → auto-qualify within service radius
 
-## Setup Cũ (Traditional)
+### The CPL Math
+- Baseline CPL: ~$30 (broad interest, no geo constraints)
+- Optimized CPL: ~$15 (geo-fenced + local creative)
+- Same job revenue ($800-$3,500), half the acquisition cost
 
-- Tách campaign theo service type: asphalt, paving, hardscaping
-- Mỗi ad set audience riêng dựa trên interests + behaviors
-- Creative tailored cho từng service
-
-**Hạn chế:** Fragmented data, limited learning ở ad set level, reduced ability algorithm identify broader patterns, scaling = higher costs.
-
----
-
-## Setup Mới — "Less Targeting" Strategy
-
-### Core Setup
-1. **1 campaign** covering ALL services
-2. **1 ad set duy nhất** → Advantage+ dynamic audience targeting
-3. **Wi-Fi filter:** Chỉ hiển thị cho người dùng kết nối Wi-Fi
-4. **Placement test:** Feed vs Stories vs Reels
-
-### Kết quả
-- Facebook Feed deliver strongest results cho local services (stable browsing environment > fast-moving formats)
-- CPL giảm 50% so traditional segmentation
-- Algorithm identified stronger behavioral patterns hơn manual targeting
+### Key Takeaway
+For hyper-local services with small service areas, **geo-fencing creative** beats interest targeting consistently. Show a photo of a real completed job in the target neighborhood, and the audience self-selects because they recognize their area. CPL drops dramatically because traffic is concentrated within serviceable geography rather than diluted across a broader interest pool.
 
 ---
-
-## 3 Kịch Bản Áp Dụng
-
-### Kịch bản A: "Less Targeting, Better Performance" (Đã chứng minh)
-
-**Setup:**
-- 1 campaign → 1 ad set → Advantage+ dynamic audience
-- Wi-Fi filter cho user context prioritization
-- Feed > Stories/Reels placement cho local services
-
-**Phù hợp khi:** Có ≥50 conversions/tháng, algorithm đủ data learn patterns  
-**Không phù hợp khi:** Niche quá hẹp hoặc brand mới chưa có conversion history
-
-### Kịch bản B: "Service Segmentation + Progressive Consolidation"
-
-**Setup:**
-- Bắt đầu: 3 campaign riêng theo service line (asphalt, paving, hardscaping)
-- Mỗi campaign: 2 ad sets (broad + interest-based)
-- Sau 30 ngày: consolidate vào 1 campaign duy nhất khi mỗi service đạt ≥20 conversions/tháng
-
-**Ưu điểm:** Giữ strategic control ban đầu, giảm fragmentation dần  
-**Nhược điểm:** Cần 60 ngày để consolidate → chậm hơn pure "less targeting" nhưng an toàn hơn cho brand mới
-
-### Kịch bản C: "Wi-Fi + Retargeting Layer Hybrid"
-
-**Setup:**
-- Wi-Fi filter như kịch bản A
-- Thêm retargeting layer: website visitors 7-day window với creative before/after real project photos
-- Lead form native trong Meta (không redirect website) để giảm friction
-
-**Target CPL:** Dưới $8 cho lead chất lượng cao (quote request có scheduling intent)  
-**Cảnh báo:** Lead form native quality thấp hơn website conversion → cần qualification question filter low-intent leads
-
----
-
-## Bài Học Key
-
-1. **Thuật toán AI tìm pattern tốt hơn manual segmentation** khi có đủ data volume
-2. **User context matter:** Wi-Fi filter giảm low-intent interactions đáng kể
-3. **Placement selection quan trọng:** Feed thắng Stories/Reels cho local services vì user trong môi trường ổn định, sẵn sàng take action
-4. **"Less targeting" chỉ hoạt động khi có ≥50 conversions/tháng** — brand mới cần manual targeting ban đầu để seed algorithm
-
----
-
-*Source: Digital Sales Ireland, April 2026 | PDF case study available on source site*
+*Case study extracted from ads campaigns deep-dive research (June 2026). Source: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*

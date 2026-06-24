@@ -1,4 +1,4 @@
-﻿---
+---
 title: "bac-giang-identity-triangles"
 slug: "bac-giang-identity-triangles"
 category: concepts

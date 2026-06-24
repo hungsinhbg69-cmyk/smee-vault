@@ -1,4 +1,4 @@
-﻿---
+---
 title: "bac-giang-content-template-framework"
 slug: "bac-giang-content-template-framework"
 category: frameworks

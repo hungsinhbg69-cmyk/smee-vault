@@ -1,4 +1,4 @@
-﻿---
+---
 title: "bac-giang-communication-framework"
 slug: "bac-giang-communication-framework"
 category: frameworks

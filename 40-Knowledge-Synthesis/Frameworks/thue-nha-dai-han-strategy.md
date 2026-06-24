@@ -1,4 +1,4 @@
-﻿---
+---
 title: "thue-nha-dai-han-strategy"
 slug: "thue-nha-dai-han-strategy"
 category: frameworks

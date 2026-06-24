@@ -1,12 +1,14 @@
 ---
 title: "Nghệ Phiếu 08-2026 TT-BXD"
-slug: "nghe-phieu-08-2026-tt-bxd"
-category: concepts
-tags: [placeholder, policy, construction]
-status: draft
-type: concept
-created: 2026-06-19
-last_updated: 2026-06-19
+slug: "ngha-phieu-2026-ttbxd"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2025-12-01
+last_updated: 2026-06-24
+---
+
 ---
 
 # Nghệ Phiếu 08-2026 TT-BXD

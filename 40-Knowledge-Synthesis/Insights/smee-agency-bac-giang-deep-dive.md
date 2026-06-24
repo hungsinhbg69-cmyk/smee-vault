@@ -1,4 +1,4 @@
-﻿---
+---
 title: "smee-agency-bac-giang-deep-dive"
 slug: "smee-agency-bac-giang-deep-dive"
 category: insights

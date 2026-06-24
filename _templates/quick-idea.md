@@ -1,13 +1,19 @@
 ---
+---
 title: "{{capture_title}}"
 tags: [idea]
 status: draft
 type: quick-capture
 created: {{date}}
+tags: [vault-maintenance]
+status: active
+type: reference
+last_updated: 2026-06-24
 source: 
 context: 
 priority: P3
 ---
+
 
 # New Idea
 

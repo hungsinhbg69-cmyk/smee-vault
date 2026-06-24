@@ -1,4 +1,4 @@
-﻿---
+---
 title: "prompt-patterns-techniques"
 slug: "prompt-patterns-techniques"
 category: frameworks

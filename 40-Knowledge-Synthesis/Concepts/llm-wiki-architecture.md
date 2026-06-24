@@ -1,4 +1,4 @@
-﻿---
+---
 title: "llm-wiki-architecture"
 slug: "llm-wiki-architecture"
 category: concepts

@@ -1,3 +1,4 @@
+slug: "content-pipeline-kanban"
 ---
 title: "Kanban Content Pipeline"
 tags: [kanban, content-pipeline]

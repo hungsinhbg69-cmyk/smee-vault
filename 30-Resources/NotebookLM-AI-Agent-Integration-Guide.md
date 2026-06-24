@@ -1,12 +1,14 @@
 ---
 title: "NotebookLM AI Agent Integration Guide — OpenClaw + Obsidian"
-created: 2026-06-17
-tags: [notebooklm, google, ai-agent, obsidian, openclaw, research]
-sources:
-  - https://www.reddit.com/r/notebooklm/comments/1u246bm/notebooklm_just_became_agentic_massive_gemini_35/
-  - https://www.reddit.com/r/notebooklm/comments/1txgdb3/i_stopped_expecting_one_tool_to_do_everything/
-  - https://www.reddit.com/r/notebooklm/comments/1tycvlo/notebooklm_alternatives_for_life_long_learning/
-  - https://www.reddit.com/r/notebooklm/comments/1u6hr16/i_thought_notebooklm_was_just_a_better_notetaking/
+slug: "notebooklm-integration-guide"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 ---
 
 # NotebookLM AI Agent Integration Guide — OpenClaw + Obsidian

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "advantage-over-narrow-targeting"
 slug: "advantage-over-narrow-targeting"
 category: insights

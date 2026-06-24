@@ -1,3 +1,14 @@
+---
+title: "Andromeda Auction"
+slug: "andromeda-auction"
+category: resource
+tags: [facebook-ads, meta-ads]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 # 09 - Andromeda & Auction Dynamics (Hệ thống đấu giá mới)
 
 ## Meta Andromeda Algorithm (2024-2026)

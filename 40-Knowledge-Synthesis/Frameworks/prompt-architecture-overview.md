@@ -1,4 +1,4 @@
-﻿---
+---
 title: "prompt-architecture-overview"
 slug: "prompt-architecture-overview"
 category: frameworks

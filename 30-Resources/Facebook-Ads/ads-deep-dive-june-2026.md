@@ -1,3 +1,15 @@
+---
+title: "📊 Kỹ Thuật Ads Chuyên Sâu — June 2026 Edition"
+slug: "ads-deep-dive-june-2026"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-24
+last_updated: 2026-06-24
+---
+
+
 # 📊 Kỹ Thuật Ads Chuyên Sâu — June 2026 Edition
 
 > Tổng hợp, phân tích và phản biện từ 12+ nguồn uy tín (AdLibrary, Emarketer, IAB, Groas, Mintec, Reddit Inc., Meta Official Blog...)

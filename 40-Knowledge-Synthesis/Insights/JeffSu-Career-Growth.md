@@ -1,4 +1,4 @@
-﻿---
+---
 title: "JeffSu-Career-Growth"
 slug: "jeffsu-career-growth"
 category: insights

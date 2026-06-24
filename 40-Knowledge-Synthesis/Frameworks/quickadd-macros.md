@@ -1,10 +1,12 @@
 ---
 title: "QuickAdd Macros Configuration"
+slug: "quickadd-macros"
+category: framework
 tags: [automation, quickadd]
 status: active
 type: config-reference
 created: 2026-06-20
-last_updated: {{date}}
+last_updated: 2026-06-24
 ---
 
 # QuickAdd Macro Library

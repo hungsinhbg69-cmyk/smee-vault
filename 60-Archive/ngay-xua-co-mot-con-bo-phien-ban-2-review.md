@@ -1,3 +1,15 @@
+---
+title: "Ngày Xưa Có Một Con Bò — Camilo Cruz"
+slug: "ngay-xua-co-mot-con-bo-phien-ban-2-review"
+category: reference
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2026-06-24
+last_updated: 2026-06-24
+---
+
+
 # Ngày Xưa Có Một Con Bò — Camilo Cruz
 ## Phản Biện 2 Lần + Bài Học Chi Tiết
 

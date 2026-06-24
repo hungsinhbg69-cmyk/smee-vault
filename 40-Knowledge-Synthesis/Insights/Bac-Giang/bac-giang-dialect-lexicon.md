@@ -1,4 +1,4 @@
-﻿---
+---
 title: "bac-giang-dialect-lexicon"
 slug: "bac-giang-dialect-lexicon"
 category: insights

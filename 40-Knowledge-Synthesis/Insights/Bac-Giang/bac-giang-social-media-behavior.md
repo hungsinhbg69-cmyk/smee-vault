@@ -1,4 +1,4 @@
-﻿---
+---
 title: "bac-giang-social-media-behavior"
 slug: "bac-giang-social-media-behavior"
 category: insights

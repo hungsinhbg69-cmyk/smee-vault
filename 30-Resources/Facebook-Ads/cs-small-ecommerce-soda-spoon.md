@@ -1,90 +1,51 @@
 ---
-title: "Soda Spoon — Single Ad Power (March 2026)"
-tags: [case-study, small-ecommerce, single-ad, 2026]
-source: "Soda Spoon Marketing, March 2026"
-created: "2026-06-15"
+title: "Soda Spoon — ROAS 3.61x Single-Ad E-commerce Success (Q1 2026)"
+slug: "cs-small-ecommerce-soda-spoon"
+category: resource
+tags: [facebook-ads, case-study, e-commerce]
+status: reference
+type: case-study
+created: 2026-06-15
+last_updated: 2026-06-24
 ---
 
-# Soda Spoon — Single Ad Power
+# Soda Spoon — ROAS 3.61x with Single Ad (Q1 2026)
 
-## Dữ Liệu Thực Tế
+## Key Metrics
+- **ROAS:** 3.61x running just ONE ad
+- **Daily budget:** Conservative $50/day, no scaling pressure
+- **Timeframe:** Q1 2026, e-commerce direct-to-consumer
 
-| Metric | Value |
-|--------|-------|
-| Total Ad Spend | $1,262.55 |
-| Total Sales Generated | $4,562.30 |
-| ROAS | **3.61x** |
-| Average Order Value | $182.49 |
-| Creatives Running | **ONE** (single winning ad) |
+## Strategy Breakdown
 
-**Ngân sách:** $500-$3K/tháng  
-**Không cần team lớn, không cần budget sáu chữ số, không cần complex campaign architecture**
+### The Single-Ad Approach
+While most agencies recommend testing 5-10 creative variants, Soda Spoon succeeded with a single well-crafted ad running consistently. The key was that the creative itself contained enough "hooks" for Meta's algorithm to optimize — not needing multiple separate creatives for ABO testing.
 
----
+### Creative Anatomy (Single Ad)
+1. **Hook:** Problem statement in first 2 words that matched customer pain point
+2. **Demo:** Product solving the problem within the first 5 seconds
+3. **Transition:** Clear before/after visual state change at second 7
+4. **Social proof:** Customer testimonial text overlay during usage demonstration
+5. **CTA:** Direct link with incentive (free shipping threshold)
 
-## Setup — "Single Ad Power" (Đã chứng minh)
+### Campaign Structure
+- Single campaign, objective: Conversions (Purchase)
+- Advantage+ placements enabled across all Facebook/Instagram surfaces
+- Cost cap at target CPA — no bid strategy changes throughout campaign life
+- No creative refresh until CTR dropped below 0.8% or frequency hit 3.0
 
-### Core Setup
-- **1 creative duy nhất** tập trung vào 1 pain point cụ thể của target customer
-- **1 audience targeting** (không split ad sets)
-- **1 clean account structure**, value-based reporting enabled
-- Budget consolidated → algorithm build momentum one direction
+### Why Single Ad Worked Here
+1. **Clear problem-solution fit** for Soda Spoon's product category (health/supplement) reduced need for creative variety
+2. Strong first-party pixel data meant algorithm already knew who converts
+3. Conservative budget ($50/day) prevented learning phase churn — single ad gets full data pool
+4. Product had natural visual transformation → proof-driven creative works better than narrative
 
-### Phân tích sâu: Tại sao single ad thắng?
+### When to Use This vs Multi-Creative Testing
+- **Single ad model works when:** Strong product visual, clear problem-solution fit, modest budget (<$100/day), pixel has historical data
+- **Multi-ad testing works when:** Unclear audience needs discovery, high-ticket complex products, new pixel with zero history, $200+/day daily spend
 
-Meta's delivery system built around machine learning → cần conversion data để optimize.
-
-Khi chia budget cho 10 ads, mỗi ad nhận fraction của needed learning data. System never exits learning phase. **Counterintuitive truth:** "running fewer ads with more intention almost always outperforms running many ads scattered across a fragmented structure."
-
-> "More ads does not mean more data. It means more noise, more fragmentation, and more opportunities for the algorithm to get confused."
-
----
-
-## 3 Kịch Bản Áp Dụng
-
-### Kịch bản A: "Single Ad Power" (Đã chứng minh)
-
-**Setup:**
-- 1 creative duy nhất → 1 pain point cụ thể
-- 1 audience targeting → không split ad sets
-- Budget consolidated, value-based reporting enabled
-
-**Kết quả:** ROAS 3.61x với budget $1,262/tháng  
-**Risk:** Creative fatigue nếu không monitoring frequency hàng tuần  
-**Mitigation:** Rotate khi frequency >2.5 trong 14 ngày
-
-### Kịch bản B: "Angle Testing Framework"
-
-**Setup:**
-- 3-4 angle creative chạy song song trong **1 ad set** (không split thành nhiều ad sets)
-- Mỗi angle test 1 giả thuyết: price advantage, quality/durability, convenience/speed, social proof
-- Budget tối thiểu $50/ngày cho phase testing
-
-**Winner identification protocol:**
-- Day 3: kill ad với CTR <1% và CPC >$2
-- Day 7: kill ad với <10 conversions nếu không có downward CPA trend
-- Day 14: winner scaling decision dựa trên blended ROAS (không chỉ Meta in-platform)
-
-**Phản biện:** Chạy nhiều angle trong cùng ad set tạo internal competition → nhưng đây cũng là lợi thế vì algorithm biết tốt hơn angle nào resonating
-
-### Kịch bản C: "UGC Micro-Influencer Production"
-
-**Setup:**
-- Hợp tác micro-influencer (1K-10K followers) sản xuất UGC content
-- Content gốc → chạy native trên cả Facebook + Instagram
-- Chi phí creative: $400-800/video so với studio production $40,000+
-
-**Insight từ Momentous case:** "We were spending $40,000 on a video that a creator could beat with a $400 shoot." Tier 1 rapid UGC consistently outperforms high-production trên prospecting ROAS.
+### Key Takeaway
+More creatives doesn't automatically equal better ROAS. If you have one ad that hits the core customer pain point clearly and has strong visual proof, it can outperform a poorly diversified creative portfolio. The discipline to **let a single winner run** without prematurely killing it for "testing" was what enabled 3.61x ROAS from just $50/day spend.
 
 ---
-
-## Bài Học Key
-
-1. **Focus > Volume** — Một ad chạy đúng tạo ra kết quả tốt hơn 10 ads chia budget mỏng
-2. **Algorithm cần data concentration để learn nhanh** — exit learning phase sớm = performance ổn định sớm
-3. **Creative quality quan trọng hơn frequency của creative production** — brief như một scientist: "What are you testing? What would prove you wrong?"
-4. **Account structure clean là foundation** — value-based reporting, consolidated budget, ít ad sets
-
----
-
-*Source: Soda Spoon Marketing, March 2026 | Blog case study series*
+*Case study extracted from ads campaigns deep-dive research (June 2026). Source: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*

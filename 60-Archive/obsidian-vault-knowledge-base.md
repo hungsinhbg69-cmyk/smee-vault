@@ -1,9 +1,11 @@
-﻿---
+---
 title: "Obsidian Vault — Kho Kiến Thức Toàn Diện"
 slug: "obsidian-vault-complete-guide"
 category: "knowledge-base"
 tags: ["obsidian", "pkm", "zettelkasten", "para", "moc", "workflow"]
 status: "stable"
+type: reference
+created: 2025-12-01
 last_updated: "2026-06-11"
 summary: "Kho kiến thức 3333+ từ về xây dựng và quản lý bộ não Obsidian logic, chuyên nghiệp. Tổng hợp từ Claude, GitHub, Reddit, X, và các nguồn uy tín nhất tính đến giữa năm 2025-2026."
 ---

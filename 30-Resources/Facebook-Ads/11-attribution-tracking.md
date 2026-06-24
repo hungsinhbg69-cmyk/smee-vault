@@ -1,3 +1,14 @@
+---
+title: "Attribution & Tracking"
+slug: "attribution-tracking"
+category: resource
+tags: [facebook-ads, meta-ads]
+status: reference
+type: reference
+created: 2026-06-15
+last_updated: 2026-06-24
+---
+
 # 11 - Attribution & Measurement (Attribution + Measurement Stack)
 
 ## Attribution Windows (Post-iOS 14)

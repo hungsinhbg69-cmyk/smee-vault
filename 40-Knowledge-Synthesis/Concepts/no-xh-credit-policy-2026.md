@@ -1,4 +1,4 @@
-﻿---
+---
 title: "no-xh-credit-policy-2026"
 slug: "no-xh-credit-policy-2026"
 category: concepts

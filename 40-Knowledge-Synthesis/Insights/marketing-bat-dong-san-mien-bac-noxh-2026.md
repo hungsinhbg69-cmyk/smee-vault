@@ -1,7 +1,12 @@
 ---
+---
 title: "Marketing BĐS Miền Bắc + Nhà Ở Xã Hội 2026"
 tags: [bds, marketing, no-xa-hoi, mien-bac, facebook-ads, 2026]
 created: 2026-06-22
+tags: [vault-maintenance]
+status: active
+type: reference
+last_updated: 2026-06-24
 source_urls:
   - https://dantri.com.vn/bat-dong-san/khap-3-mien-mo-ban-nha-o-xa-hoi-giac-mo-an-cu-da-that-gan-20251111181416031.htm
   - https://baohungyen.vn/thi-truong-nha-o-xa-hoi-dau-nam-2026-tu-nghich-ly-cung-cau-den-lo-the-canh-tranh-tai-pho-noi-house-3191697.html
@@ -9,6 +14,7 @@ source_urls:
   - https://huynhquoccuong.com/huong-dan-chay-quang-cao-bat-dong-san-tren-facebook.html
   - https://zafago.com/cach-chay-quang-cao-facebook-bat-dong-san/
 ---
+
 
 # Marketing BĐS Miền Bắc + Nhà Ở Xã Hội 2026
 

@@ -1,3 +1,13 @@
+---
+title: "Facebook Graph API — Tham Khảo Nhanh"
+slug: "facebook-ads-quick-reference-api-crud-patterns"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2025-12-01
+last_updated: 2026-06-24
+---
 
 # Facebook Graph API — Tham Khảo Nhanh
 

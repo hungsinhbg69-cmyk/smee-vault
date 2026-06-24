@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Bac-Giang-Market-Intelligence-2026"
 slug: "bac-giang-market-intelligence-2026"
 category: insights

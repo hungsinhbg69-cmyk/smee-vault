@@ -1,4 +1,4 @@
-﻿---
+---
 title: "vault-master-index"
 slug: "vault-master-index"
 category: insights

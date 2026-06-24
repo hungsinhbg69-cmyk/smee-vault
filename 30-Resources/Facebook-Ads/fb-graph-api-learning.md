@@ -1,3 +1,14 @@
+---
+title: "Facebook Graph API Learning Notes"
+slug: "facebook-ads-api-learning-best-practices"
+category: resource
+tags: [vault-maintenance]
+status: reference
+type: reference
+created: 2025-12-01
+last_updated: 2026-06-24
+---
+
 # Facebook Graph API Learning Notes
 
 ## Overview - Graph API
