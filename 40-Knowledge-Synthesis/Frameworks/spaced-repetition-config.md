@@ -1,10 +1,10 @@
 ---
-title: "Spaced Repetition System (SRS)"
+title: ""Spaced Repetition System (SRS)""
+slug: spaced-repetition-system-srs
+category: resource
 tags: [learning, spaced-repetition, config]
-status: active
-type: system-config
-created: 2026-06-20
-last_updated: 2026-06-20
+created: 2026-06-27
+last_updated: 2026-06-27
 ---
 
 # Spaced Repetition — Marketing Knowledge Engine
