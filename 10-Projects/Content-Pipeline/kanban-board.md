@@ -1,11 +1,12 @@
-slug: "content-pipeline-kanban"
 ---
 title: "Kanban Content Pipeline"
-tags: [kanban, content-pipeline]
-status: active
-type: project-dashboard
+slug: "content-pipeline-kanban"
+category: resource
+type: template
 created: 2026-06-20
 last_updated: {{date}}
+tags: [kanban, content-pipeline]
+status: active
 ---
 
 # Kanban Board — FB Ads Content Workflow

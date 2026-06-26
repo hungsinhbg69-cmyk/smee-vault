@@ -1,23 +1,17 @@
 ---
+title: "Rewrite as tweet thread.md"
 copilot-command-context-menu-enabled: false
-copilot-command-slash-enabled: false
 copilot-command-context-menu-order: 1120
-copilot-command-model-key: ""
 copilot-command-last-used: 0
-slug: "copilot-prompt-rewrite-as-tweet-thread"
-tags: [tool, copilot]
-status: active
-type: reference
+copilot-command-model-key: ""
+copilot-command-slash-enabled: false
+tags:  [tool, copilot]
+slug: rewrite-as-tweet-threadmd
 category: resource
-created: 2026-06-24
-last_updated: 2026-06-24
----
-
-Convert {} into a Twitter thread following these rules:
-    1. Each tweet must be under 240 characters
-    2. Start with "THREAD START" on its own line
-    3. Separate tweets with "
-
+status: active
+type: template
+created: 2026-06-27
+last_updated: 2026-06-27
 ---
 
 "

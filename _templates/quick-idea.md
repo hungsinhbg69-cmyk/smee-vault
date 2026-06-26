@@ -1,33 +1,15 @@
 ---
----
 title: "{{capture_title}}"
-tags: [idea]
-status: draft
+slug: "quick-idea-slug"
+category: resource
 type: quick-capture
+status: draft
 created: {{date}}
-tags: [vault-maintenance]
-status: active
-type: reference
-last_updated: 2026-06-24
+last_updated: {{date}}
+tags: [idea, vault-maintenance]
+priority: P3
 source: 
 context: 
-priority: P3
 ---
 
 
-# New Idea
-
-## The Idea
-
-
-## Related Notes
-- 
-
-## Next Step
-- [ ] Validate idea
-
-## Raw Capture (pasted from clipboard)
-
-
----
-*Captured: {{date}} via QuickAdd — Layer 3 (Automation)*

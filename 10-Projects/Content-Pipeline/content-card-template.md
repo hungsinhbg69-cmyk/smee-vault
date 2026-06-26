@@ -1,11 +1,9 @@
 slug: "content-card-template"
----
-title: "{{title}}"
-tags: [content, facebook-ads]
-status: draft
-type: content-card
-created: {{date}}
+category: resource
+type: template
+created: 2026-06-20
 last_updated: {{date}}
+status: active
 priority: P3
 platform: 
 channel: fb-page-1 | fb-page-2

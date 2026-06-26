@@ -8,6 +8,8 @@ doi:
 journal: 
 type: literature-note
 status: unread # unread | reading | read | synthesized
+category: knowledge
+created: {{date}}
 relevance: medium # low | medium | high | critical
 tags: []
 date-added: {{date}}

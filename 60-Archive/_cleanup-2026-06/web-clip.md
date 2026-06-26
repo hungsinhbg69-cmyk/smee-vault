@@ -1,5 +1,15 @@
 ---
+title: "{{web_title}}"
+slug: "web-clip-slug"
+category: resource
+type: web-article
+status: draft
+created: {{date}}
+last_updated: {{date}}
+tags: [web-clip, reference]
+source_url: 
 ---
+
 title: "{{web_title}}"
 tags: [web-clip, reference]
 status: processed

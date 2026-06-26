@@ -1,29 +1,19 @@
 ---
+title: "Clip Web Page.md"
 copilot-command-context-menu-enabled: false
-copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1140
-copilot-command-model-key: ""
 copilot-command-last-used: 0
-slug: "copilot-prompt-clip-web-page"
-tags: [tool, copilot]
-status: active
-type: reference
+copilot-command-model-key: ""
+copilot-command-slash-enabled: true
+tags:  [tool, copilot]
+slug: clip-web-pagemd
 category: resource
-created: 2026-06-24
-last_updated: 2026-06-24
+status: active
+type: template
+created: 2026-06-27
+last_updated: 2026-06-27
 ---
 
-
-Based on the web page content provided in the context (from Obsidian Web Clipper or Web Viewer), generate a complete Obsidian note.
-
-IMPORTANT: If no web page context is found, remind the user to:
-1. Open a web page in Web Viewer (or use @ to select a web tab)
-2. Or open a note clipped by Obsidian Web Clipper
-3. Then use this command again
-
-Generate the note with this exact structure:
-
----
 title: "<page title>"
 source: "<page url>"
 description: "<brief description>"

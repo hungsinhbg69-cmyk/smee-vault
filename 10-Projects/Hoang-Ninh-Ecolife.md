@@ -1,11 +1,13 @@
----title: "Hoàng Ninh Ecolife"
-type: project-page
-status: active
-category: real-estate/project
+---
+title: "Hoàng Ninh Ecolife"
 slug: hoang-ninh-ecolife
+category: project
+status: active
+type: project-page
 created: 2026-06-26
+last_updated: 2026-06-27
 tags: [real-estate, social-housing, commercial-condo, bac-ninh]
-date: 2026-06-26---
+---
 
 # Hoàng Ninh Ecolife
 

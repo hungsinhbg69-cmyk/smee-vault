@@ -1,16 +1,14 @@
 ---
----
 title: "Top 10 Dạng Nội Dung BĐS Facebook Hiệu Quả — 06/2026"
-created: 2026-06-22
-tags: [vault-maintenance]
-status: active
+slug: "top-10-bds-facebook-content-2026"
+category: knowledge
 type: reference
+status: active
+created: 2026-06-22
 last_updated: 2026-06-24
 tags: [bds, facebook-marketing, content-strategy, real-estate]
 source: Research + Meta Vietnam/Kmedia/Cafebiz 06/2026
-status: active
 ---
-
 
 # Top 10 Dạng Nội Dung BĐS Facebook Hiệu Quả — 06/2026
 

@@ -1,5 +1,14 @@
 ---
+title: "{{paper_title}}"
+slug: "research-paper-slug"
+category: knowledge
+type: research-paper
+status: draft
+created: {{date}}
+last_updated: {{date}}
+tags: [zotero, research-paper]
 ---
+
 title: "{{paper_title}}"
 tags: [zotero, research-paper]
 status: processed

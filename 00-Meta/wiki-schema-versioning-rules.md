@@ -6,6 +6,7 @@ category: meta
 tags: [schema, versioning, wiki, karpathy, governance]
 date: 2026-06-16
 type: schema
+created: 2026-06-16
 version: "1.0.0"
 status: active
 ---

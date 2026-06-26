@@ -8,6 +8,7 @@ date: 2026-06-16
 source: "GitHub Gist - Karpathy LLM Wiki Pattern"
 related: ["wiki-schema-versioning-rules", "llm-wiki-architecture"]
 status: draft
+created: 2026-06-16
 type: template
 ---
 

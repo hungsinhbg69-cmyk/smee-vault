@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2a4f3daea1583dbf",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "4088c72b002435c1",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -229,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -269,6 +269,25 @@
   },
   "active": "3ca496086e50f1a8",
   "lastOpenFiles": [
+    "00-Meta/Vault-Governance.md",
+    "10-Projects/Hoang-Ninh-Ecolife.md",
+    "10-Projects/untitled-kanban-board.md",
+    "10-Projects/Obsidian-Vault-Setup.md",
+    "30-Resources/bac-giang-bac-ninh-real-estate-q2-2026.md",
+    "copilot/copilot-conversations/If_a_lead_ball_and_a_feather_are_dropped_simultaneously@20260624_161018.md",
+    "10-Projects/Excalidraw/Drawing 2026-06-23 10.50.12.excalidraw.md",
+    "10-Projects/Agent-Research-Expansion/project.md",
+    "copilot/copilot-conversations",
+    "copilot",
+    "30-Resources/Facebook-Graph-API.md",
+    "30-Resources/Meta-Developer-Platform-Guide.md",
+    "30-Resources/Facebook-Ads/FB-ADS-KNOWLEDGE-BASE.md",
+    "00-Meta/Vault-MOC.md",
+    "40-Knowledge-Synthesis/Frameworks/JeffSu-AI-Agents-Explained.md",
+    "40-Knowledge-Synthesis/Frameworks/facebook-cbo-scaling-rule.md",
+    "40-Knowledge-Synthesis/Frameworks/Facebook-Ads-Budgeting-Bidding-Metrics-2026.md",
+    "40-Knowledge-Synthesis/Frameworks/agent-integration-framework.md",
+    "_templates/daily-note.md",
     "30-Resources/Facebook-Ads/01-fundamentals.md",
     "ag-integration.md",
     "_templates/atomic-note.md",
@@ -279,31 +298,12 @@
     "70-Outputs/JeffSu-Artifacts/jeffsu_flashcards.md",
     "70-Outputs/JeffSu-Artifacts/jeffsu_deep_dive_audio.m4a",
     "00-Meta/vault-master-index.md",
-    "40-Knowledge-Synthesis/Frameworks/agent-integration-framework.md",
-    "_templates/template-agent-session-log.md",
-    "00-Meta/vault-health-report-2026-06-23.md",
     "_scripts/vault-cleanup.ps1",
-    "60-Archive/_cleanup-2026-06/web-clip.md",
-    "60-Archive/_cleanup-2026-06/research-note.md",
     "60-Archive/_cleanup-2026-06/extract_refs.js",
-    "60-Archive/_cleanup-2026-06/README.md",
     "60-Archive/_cleanup-2026-06",
-    "10-Projects/untitled-kanban-board.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Translate to Chinese.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Summarize.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Simplify.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Make longer.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Rewrite as tweet.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Remove URLs.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Make shorter.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Generate table of contents.md",
-    "_templates/copilot-prompts/copilot-custom-prompts/Generate glossary.md",
     "_templates/copilot-prompts/copilot-custom-prompts",
     "_templates/copilot-prompts",
     "_scripts/merge-tags.ps1",
-    "_scripts/add-frontmatter.ps1",
-    "10-Projects/Excalidraw",
-    "00-Meta/People"
+    "_scripts/add-frontmatter.ps1"
   ]
 }
