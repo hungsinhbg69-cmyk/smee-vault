@@ -3,7 +3,7 @@ title: "Creative Formats"
 slug: "creative-formats"
 category: resource
 tags: [facebook-ads, meta-ads]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-15
 last_updated: 2026-06-24

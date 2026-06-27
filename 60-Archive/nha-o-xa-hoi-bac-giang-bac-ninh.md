@@ -3,7 +3,7 @@ title: "Nghiên cứu sâu: Nhà ở xã hội Bắc Giang - Bắc Ninh (15/06/2
 slug: "nha-o-xa-hoi-bac-giang-bac-ninh"
 category: reference
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

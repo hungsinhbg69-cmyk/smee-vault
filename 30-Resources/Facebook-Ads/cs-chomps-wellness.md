@@ -3,7 +3,7 @@ title: "Chomps — Google-to-Meta Signal Loop (Q1 2026)"
 slug: "cs-chomps-wellness"
 category: resource
 tags: [facebook-ads, case-study, e-commerce]
-status: reference
+status: "draft"
 type: case-study
 created: 2026-06-15
 last_updated: 2026-06-24

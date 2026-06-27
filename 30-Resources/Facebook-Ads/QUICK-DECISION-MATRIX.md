@@ -3,7 +3,7 @@ title: "🎯 Facebook Ads — Quick Decision Matrix 2026"
 slug: "quick-decision-matrix"
 category: resource
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

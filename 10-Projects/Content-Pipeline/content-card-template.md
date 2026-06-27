@@ -1,17 +1,19 @@
+---
+title: "Content Card — Draft"
 slug: "content-card-template"
 category: resource
 type: template
-created: 2026-06-20
-last_updated: {{date}}
 status: active
+created: 2026-06-27
+last_updated: {{date}}
 priority: P3
-platform: 
-channel: fb-page-1 | fb-page-2
-target_audience: 
-objective: awareness | consideration | conversion
-format: post | reel | story | carousel
+channels: fb-page-1, fb-page-2
 campaign_id: 
 publish_date: 
+tags: [template, content-card]
+---
+
+platform: 
 ---
 
 # Content Card — Draft

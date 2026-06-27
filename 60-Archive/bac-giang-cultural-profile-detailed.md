@@ -3,7 +3,7 @@ title: "Bac Giang Cultural Profile Detailed Archived"
 slug: "bac-giang-cultural-profile-detailed-archived"
 category: reference
 tags: [vault-maintenance, facebook-ads]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-15
 last_updated: 2026-06-24

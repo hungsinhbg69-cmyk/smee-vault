@@ -3,7 +3,7 @@ title: "🧪 Creative Testing Framework — Facebook Ads 2026"
 slug: "creative-testing-framework"
 category: resource
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

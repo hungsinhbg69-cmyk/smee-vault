@@ -1,0 +1,78 @@
+{
+  "name": "Vault QuickAdd Macros",
+  "version": "1.0",
+  "macros": [
+    {
+      "name": "capture-new-note",
+      "description": "Prompt for title/slug/category and create atomic note with full frontmatter",
+      "steps": [
+        {
+          "type": "prompt",
+          "name": "title",
+          "options": { "placeholder": "Enter note title" }
+        },
+        {
+          "type": "new-note",
+          "args": {
+            "folder": "40-Knowledge-Synthesis/Insights/",
+            "template": "_templates/atomic-note-v2.md"
+          }
+        },
+        {
+          "type": "run-command",
+          "args": {}
+        }
+      ]
+    },
+    {
+      "name": "capture-quick-thought",
+      "description": "Create fleeting note and append to today's daily note",
+      "steps": [
+        {
+          "type": "output-to-notes-canvas",
+          "template": "_templates/fleeting-note.md"
+        },
+        {
+          "type": "run-command",
+          "args": {}
+        }
+      ]
+    },
+    {
+      "name": "review-weekly-init",
+      "description": "Open this week's weekly review + run dataview scans",
+      "steps": [
+        {
+          "type": "new-note-from-template",
+          "args": {
+            "folder": "02-Daily/",
+            "template": "_templates/weekly-review.md"
+          }
+        },
+        {
+          "type": "run-templater-command"
+        }
+      ]
+    },
+    {
+      "name": "export-pdf-chapter",
+      "description": "Export current section to DOCX using obsidian-pandoc",
+      "steps": [
+        {
+          "type": "run-command",
+          "args": {}
+        }
+      ]
+    },
+    {
+      "name": "create-kaban-board",
+      "description": "Create a new kanban board linked to active project",
+      "steps": [
+        {
+          "type": "run-command",
+          "args": {}
+        }
+      ]
+    }
+  ]
+}

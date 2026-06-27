@@ -3,7 +3,7 @@ title: "Comprehensive Productivity and Career Development Study Guide"
 slug: "jeffsu-study-guide"
 category: output
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

@@ -3,7 +3,7 @@ title: "Hermes Agent Integration Framework"
 slug: "agent-integration-framework"
 category: framework
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2025-12-01
 last_updated: 2026-06-24

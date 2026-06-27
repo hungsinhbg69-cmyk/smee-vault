@@ -3,7 +3,7 @@ title: "Local Service Titan Driveways — CPL Reduction 50% (Q1 2026)"
 slug: "cs-local-service-titan-driveways"
 category: resource
 tags: [facebook-ads, case-study, local-services]
-status: reference
+status: "draft"
 type: case-study
 created: 2026-06-15
 last_updated: 2026-06-24

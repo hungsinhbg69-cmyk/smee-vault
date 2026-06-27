@@ -3,7 +3,7 @@ title: "Content Strategy Framework"
 slug: "concept-content-strategy"
 category: knowledge
 tags: [content-strategy, marketing]
-status: reference
+status: "draft"
 type: concept
 created: 2026-06-19
 last_updated: 2026-06-24

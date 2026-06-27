@@ -3,7 +3,7 @@ title: "Bắc Giang Economic Overview — Kinh tế, FDI, TMĐT"
 slug: "bac-giang-economic-overview"
 category: resource
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2025-12-01
 last_updated: 2026-06-24

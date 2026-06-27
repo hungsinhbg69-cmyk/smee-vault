@@ -3,7 +3,7 @@ title: "Facebook Ads Deep Dive — Kỹ Thuật & Thực Chiến 2026"
 slug: "facebook-ads-comprehensive-guide"
 category: reference
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-15
 last_updated: 2026-06-24

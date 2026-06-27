@@ -3,7 +3,7 @@ title: "High-Ticket Home Improvement — ROAS 1.18 → 6.47x Framework (Q1 2026)
 slug: "cs-high-ticket-home-improvement"
 category: resource
 tags: [facebook-ads, case-study, home-services]
-status: reference
+status: "draft"
 type: case-study
 created: 2026-06-15
 last_updated: 2026-06-24

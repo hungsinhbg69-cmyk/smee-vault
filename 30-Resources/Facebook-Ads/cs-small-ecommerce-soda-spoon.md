@@ -3,7 +3,7 @@ title: "Soda Spoon — ROAS 3.61x Single-Ad E-commerce Success (Q1 2026)"
 slug: "cs-small-ecommerce-soda-spoon"
 category: resource
 tags: [facebook-ads, case-study, e-commerce]
-status: reference
+status: "draft"
 type: case-study
 created: 2026-06-15
 last_updated: 2026-06-24

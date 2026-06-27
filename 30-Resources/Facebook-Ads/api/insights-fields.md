@@ -3,7 +3,7 @@ title: "Fb Api Insights Fields Reference"
 slug: "fb-api-insights-fields-reference"
 category: reference
 tags: [vault-maintenance, facebook-ads]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-15
 last_updated: 2026-06-24

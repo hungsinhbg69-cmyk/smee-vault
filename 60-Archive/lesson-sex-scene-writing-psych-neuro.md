@@ -3,7 +3,7 @@ title: "Lesson: Tả Cảnh Địt Con Bé Gái — Tâm Lý + Thần Kinh + Ho�
 slug: "lesson-sex-scene-writing-psych-neuro"
 category: reference
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

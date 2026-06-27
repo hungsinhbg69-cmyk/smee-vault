@@ -17,7 +17,7 @@ tags: [quickadd, obsidian, automation, test]
 type: experiment
 created: 2026-06-12
 last_updated: 2026-06-12
-status: complete
+status: "completed"
 ---
 
 # QuickAdd Integration Test

@@ -3,7 +3,7 @@ title: "10 Bài Học Chiến Lược — Ads 2026 Tổng Hợp"
 slug: "cs-key-insights-2026"
 category: resource
 tags: [facebook-ads, insights, strategy]
-status: reference
+status: "draft"
 type: synthesis
 created: 2026-06-15
 last_updated: 2026-06-24

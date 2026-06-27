@@ -3,7 +3,7 @@ title: "Bắc Giang Hiện Đại 2026 — Học Sống, Nói, Hành Xử Như N
 slug: "bac-giang-culture-deep-dive"
 category: resource
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-15
 last_updated: 2026-06-24

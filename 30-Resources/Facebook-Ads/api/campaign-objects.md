@@ -3,7 +3,7 @@ title: "Fb Api Campaign Objects Reference"
 slug: "fb-api-campaign-objects-reference"
 category: reference
 tags: [vault-maintenance, facebook-ads]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-15
 last_updated: 2026-06-24

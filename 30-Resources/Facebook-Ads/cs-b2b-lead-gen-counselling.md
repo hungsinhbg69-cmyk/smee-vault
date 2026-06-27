@@ -3,7 +3,7 @@ title: "Mental Health Counselling Leads — CPL $4.98 Global"
 slug: "cs-b2b-lead-gen-counselling"
 category: resource
 tags: [facebook-ads, case-study, lead-gen]
-status: reference
+status: "draft"
 type: case-study
 created: 2026-06-15
 last_updated: 2026-06-24

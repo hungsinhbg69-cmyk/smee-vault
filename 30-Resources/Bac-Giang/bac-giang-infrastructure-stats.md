@@ -3,7 +3,7 @@ title: "Bắc Giang Infrastructure Stats — Thống kê hạ tầng"
 slug: "bac-giang-infrastructure-stats"
 category: resource
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2025-12-01
 last_updated: 2026-06-24

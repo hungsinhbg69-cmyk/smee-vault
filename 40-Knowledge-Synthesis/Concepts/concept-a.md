@@ -3,7 +3,7 @@ title: "AI Agent Marketing Architecture"
 slug: "concept-ai-agent-marketing"
 category: knowledge
 tags: [ai-agents, marketing-architecture]
-status: reference
+status: "draft"
 type: concept
 created: 2026-06-19
 last_updated: 2026-06-24

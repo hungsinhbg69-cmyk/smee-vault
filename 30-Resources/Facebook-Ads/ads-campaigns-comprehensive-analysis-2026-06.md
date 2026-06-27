@@ -3,7 +3,7 @@ title: "PHÂN TÍCH CHUYÊN SÂU: CHIẾN DỊCH ADS THÀNH CÔNG 2026"
 slug: "ads-campaigns-comprehensive-analysis-2026-06"
 category: resource
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

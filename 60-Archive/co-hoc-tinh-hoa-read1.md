@@ -3,7 +3,7 @@ title: "LẦN 1: Góc Độ Tu Thân Dưỡng Tính - Bài Học Về Đạo Đ�
 slug: "co-hoc-tinh-hoa-read1"
 category: reference
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

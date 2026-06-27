@@ -3,7 +3,7 @@ title: "FDI Industrial Zones North Vietnam"
 slug: "fdi-industrial-zones-north-vietnam"
 category: resource
 tags: [vault-maintenance]
-status: reference
+status: "draft"
 type: reference
 created: 2025-12-01
 last_updated: 2026-06-24
