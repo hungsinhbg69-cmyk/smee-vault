@@ -1,5 +1,4 @@
 ---
----
 title: "{{citation}} — {{note-type}}"
 slug: "{{title-slug}}"
 authors: []

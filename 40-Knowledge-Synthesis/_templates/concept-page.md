@@ -1,5 +1,4 @@
 ---
----
 title: "Concept Page Template (Karpathy)"
 slug: "concept-page-template"
 category: concepts

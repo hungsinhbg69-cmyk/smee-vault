@@ -1,5 +1,4 @@
 ---
----
 title: "Wiki Schema Versioning Rules"
 slug: "wiki-schema-versioning-rules"
 category: meta

@@ -1,5 +1,4 @@
 ---
----
 title: "Entity Page Template (Karpathy)"
 slug: "entity-page-template"
 category: concepts

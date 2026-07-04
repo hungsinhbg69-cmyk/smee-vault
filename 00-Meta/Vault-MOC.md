@@ -53,6 +53,15 @@ See `30-Resources/Facebook-Ads/INDEX.md` for full catalog. Key:
 - [[FDI-Industrial-Zones-North-Vietnam]] — FDI Industrial Zones
 
 
+## ▸ Automation / Agent Systems (NEW 2026-06-27)
+- [[VAULT-COMMAND-CENTER]] — Central dashboard with dataview + tasks-plugin + charts
+- [[PROJECT-COMMAND-CENTER]] — Kanban board + git tracking + mermaid sprint diagrams  
+- [[TASK-ENGINE]] — Task priority system (P1-P4) + metadata-menu + cmdr shortcuts
+- _templates/weekly-review.md — Weekly review with 14+ plugin integrations
+- _scripts/quickadd-macro-config.json — QuickAdd automation macros (import via settings)
+- _templates/atomic-note-v2.md — Smart-connections-ready capture template
+- VAULT-ANALYTICS.md — Charts + mind-map + web clipper analytics suite
+
 ## ▸ Automation / Agent
 - [[vault-architecture]] — PARA + Zettelkasten hybrid structure
 - [[task-system-config]] — Task management framework

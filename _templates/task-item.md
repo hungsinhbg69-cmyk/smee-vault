@@ -1,6 +1,7 @@
 ---
 title: "Task Item"
 slug: "task-item"
+category: meta
 tags: [task]
 status: active
 type: task

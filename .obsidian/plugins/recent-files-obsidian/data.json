@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "SRS-CONFIG",
+      "path": "00-Meta/SRS-CONFIG.md"
+    },
+    {
+      "basename": "weekly-review",
+      "path": "_templates/weekly-review.md"
+    },
+    {
+      "basename": "Yen-The-Golden-Hill-Bang-Gia-xong",
+      "path": "40-Knowledge-Synthesis/Real-Estate/Yen-The-Golden-Hill-Bang-Gia-xong.md"
+    },
+    {
+      "basename": "bac-giang-cultural-profile",
+      "path": "40-Knowledge-Synthesis/Insights/Bac-Giang/bac-giang-cultural-profile.md"
+    },
+    {
+      "basename": "Yen_The_Golden_Hill_Index",
+      "path": "40-Knowledge-Synthesis/Real-Estate/Yen_The_Golden_Hill_Index.md"
+    },
+    {
+      "basename": "Yen-The-Golden-Hill-Thong-Tin-Chinh",
+      "path": "Yen-The-Golden-Hill-Thong-Tin-Chinh.md"
+    },
+    {
+      "basename": "Yen-The-Golden-Hill-Checclist",
+      "path": "Yen-The-Golden-Hill-Checclist.md"
+    },
+    {
+      "basename": "Facebook-Graph-API",
+      "path": "30-Resources/Facebook-Graph-API.md"
+    },
+    {
+      "basename": "Meta-Developer-Platform-Guide",
+      "path": "30-Resources/Meta-Developer-Platform-Guide.md"
+    },
+    {
+      "basename": "ngay-xua-co-mot-con-bo-cau-chuyen-ve-su-tam-thuong",
+      "path": "30-Resources/ngay-xua-co-mot-con-bo-cau-chuyen-ve-su-tam-thuong.md"
+    },
+    {
+      "basename": "Nghe-Phieu-08-2026-TT-BXD",
+      "path": "30-Resources/Nghe-Phieu-08-2026-TT-BXD.md"
+    },
+    {
+      "basename": "Vault-MOC",
+      "path": "00-Meta/Vault-MOC.md"
+    },
+    {
       "basename": "Hoang-Ninh-Ecolife",
       "path": "10-Projects/Hoang-Ninh-Ecolife.md"
     },
@@ -29,20 +77,8 @@
       "path": "10-Projects/Agent-Research-Expansion/project.md"
     },
     {
-      "basename": "Facebook-Graph-API",
-      "path": "30-Resources/Facebook-Graph-API.md"
-    },
-    {
-      "basename": "Meta-Developer-Platform-Guide",
-      "path": "30-Resources/Meta-Developer-Platform-Guide.md"
-    },
-    {
       "basename": "FB-ADS-KNOWLEDGE-BASE",
       "path": "30-Resources/Facebook-Ads/FB-ADS-KNOWLEDGE-BASE.md"
-    },
-    {
-      "basename": "Vault-MOC",
-      "path": "00-Meta/Vault-MOC.md"
     },
     {
       "basename": "JeffSu-AI-Agents-Explained",
@@ -97,10 +133,6 @@
       "path": "60-Archive/Project-X.md"
     },
     {
-      "basename": "weekly-review",
-      "path": "_templates/weekly-review.md"
-    },
-    {
       "basename": "vault-master-index-prompt-eng",
       "path": "40-Knowledge-Synthesis/Insights/vault-master-index-prompt-eng.md"
     },
@@ -153,10 +185,6 @@
       "path": "40-Knowledge-Synthesis/Insights/Bac-Giang/bac-giang-dialect-lexicon.md"
     },
     {
-      "basename": "bac-giang-cultural-profile",
-      "path": "40-Knowledge-Synthesis/Insights/Bac-Giang/bac-giang-cultural-profile.md"
-    },
-    {
       "basename": "Quick-Start",
       "path": "Quick-Start.md"
     },
@@ -171,14 +199,6 @@
     {
       "basename": "meeting-note",
       "path": "_templates/meeting-note.md"
-    },
-    {
-      "basename": "literature-note",
-      "path": "_templates/literature-note.md"
-    },
-    {
-      "basename": "experiment-note",
-      "path": "_templates/experiment-note.md"
     }
   ],
   "omittedPaths": [],
