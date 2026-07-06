@@ -11,10 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Xem biểu đồ"
+              "icon": "lucide-file",
+              "title": "Tab mới"
             }
           }
         ]
@@ -267,8 +267,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "7ca915757be9cd75",
   "lastOpenFiles": [
+    "40-Knowledge-Synthesis/Self-Critique/self-critique-2026-07-06-17h.md",
     "00-Meta/SRS-CONFIG.md",
     "_templates/weekly-review.md",
     "40-Knowledge-Synthesis/Real-Estate/Yen-The-Golden-Hill-Bang-Gia-xong.md",
@@ -297,7 +298,6 @@
     "40-Knowledge-Synthesis/Self-Critique/agent-obsidian-self-critique-2026-07-02.md",
     "02-Daily/2026-07-02.md",
     "30-Resources/Facebook-Graph-API.md",
-    "30-Resources/Meta-Developer-Platform-Guide.md",
     "40-Knowledge-Synthesis/Self-Critique",
     "_scripts/daily-morning-ritual.py",
     "_scripts/quickadd-macro-config.json",
