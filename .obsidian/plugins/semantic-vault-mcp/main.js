@@ -14,11 +14,20 @@ var __typeError = (msg) => {
   throw TypeError(msg);
 };
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
-var __esm = (fn, res) => function __init() {
-  return fn && (res = (0, fn[__getOwnPropNames(fn)[0]])(fn = 0)), res;
+var __esm = (fn, res, err) => function __init() {
+  if (err) throw err[0];
+  try {
+    return fn && (res = (0, fn[__getOwnPropNames(fn)[0]])(fn = 0)), res;
+  } catch (e) {
+    throw err = [e], e;
+  }
 };
 var __commonJS = (cb, mod) => function __require() {
-  return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+  try {
+    return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+  } catch (e) {
+    throw mod = 0, e;
+  }
 };
 var __export = (target, all) => {
   for (var name in all)
@@ -89079,7 +89088,7 @@ var import_crypto3 = require("crypto");
 
 // src/version.ts
 function getVersion() {
-  return "0.11.36";
+  return "0.11.40";
 }
 
 // src/security/path-validator.ts
@@ -97091,6 +97100,26 @@ function toPlainArray(value) {
   if (wrapped && typeof wrapped.array === "function") return wrapped.array();
   return [];
 }
+function unwrapGroup(el) {
+  var _a7;
+  if (!el || typeof el !== "object" || Array.isArray(el)) return null;
+  const obj = el;
+  const inner = (_a7 = obj.rows) != null ? _a7 : obj.value;
+  const isGroup = "key" in obj || obj.$widget === "dataview:list-pair";
+  if (!isGroup) return null;
+  if (!Array.isArray(inner) && !(inner && typeof inner.array === "function")) {
+    return null;
+  }
+  return { key: obj.key, rows: toPlainArray(inner) };
+}
+function normalizeListGroupByQuery(query) {
+  const trimmed = query.trimStart();
+  if (!/^LIST\b/i.test(trimmed)) return query;
+  if (!/\bGROUP\s+BY\b/i.test(trimmed)) return query;
+  const noOutputExpr = /^LIST\s+(FROM|WHERE|SORT|GROUP|FLATTEN|LIMIT)\b/i.test(trimmed) || /^LIST\s*$/i.test(trimmed);
+  if (!noOutputExpr) return query;
+  return trimmed.replace(/^LIST\b/i, "LIST rows.file.link");
+}
 function asDataviewAPI(api) {
   return api;
 }
@@ -97122,7 +97151,8 @@ var DataviewTool = class {
     const dataviewAPI = asDataviewAPI(this.detector.getDataviewAPI());
     try {
       if (format === "dql") {
-        const result = await dataviewAPI.query(query);
+        const effectiveQuery = normalizeListGroupByQuery(query);
+        const result = await dataviewAPI.query(effectiveQuery);
         const innerSuccess = result.successful !== false;
         return {
           success: innerSuccess,
@@ -97274,7 +97304,10 @@ var DataviewTool = class {
       case "list":
         return {
           type: "list",
-          values: toPlainArray(payload.values)
+          values: toPlainArray(payload.values).map((el) => {
+            const group = unwrapGroup(el);
+            return group ? { key: group.key, rows: group.rows } : el;
+          })
         };
       case "table":
         return {
@@ -97285,19 +97318,24 @@ var DataviewTool = class {
             return typeof (tableRow == null ? void 0 : tableRow.array) === "function" ? tableRow.array() : row;
           })
         };
-      case "task":
+      case "task": {
+        const mapTask = (task) => {
+          const dvTask = task;
+          return {
+            text: dvTask.text,
+            completed: dvTask.completed,
+            line: dvTask.line,
+            path: dvTask.path
+          };
+        };
         return {
           type: "task",
-          values: toPlainArray(payload.values).map((task) => {
-            const dvTask = task;
-            return {
-              text: dvTask.text,
-              completed: dvTask.completed,
-              line: dvTask.line,
-              path: dvTask.path
-            };
+          values: toPlainArray(payload.values).map((el) => {
+            const group = unwrapGroup(el);
+            return group ? { key: group.key, rows: group.rows.map(mapTask) } : mapTask(el);
           })
         };
+      }
       case "calendar":
         return {
           type: "calendar",
@@ -98553,6 +98591,32 @@ function formatDataviewQuery(response) {
   lines.push(summaryFooter());
   return joinLines(lines);
 }
+function coerceCell(val) {
+  if (val === null || val === void 0) {
+    return "";
+  }
+  if (typeof val === "string") {
+    return val;
+  }
+  if (typeof val === "number" || typeof val === "boolean" || typeof val === "bigint") {
+    return String(val);
+  }
+  if (typeof val === "object") {
+    const obj = val;
+    if (typeof obj.path === "string") {
+      return typeof obj.display === "string" && obj.display ? obj.display : obj.path;
+    }
+    if (typeof obj.toISO === "function") {
+      const iso = obj.toISO();
+      if (typeof iso === "string" && iso) return iso;
+    }
+    if (val instanceof Date) {
+      return val.toISOString();
+    }
+    return JSON.stringify(val);
+  }
+  return JSON.stringify(val);
+}
 function formatDataviewTable(headers, rows) {
   const lines = [];
   const displayHeaders = headers.slice(0, 6);
@@ -98567,16 +98631,7 @@ function formatDataviewTable(headers, rows) {
       } else if (row !== null && typeof row === "object") {
         val = row[headers[i]];
       }
-      let display;
-      if (val === null || val === void 0) {
-        display = "";
-      } else if (typeof val === "object") {
-        display = JSON.stringify(val);
-      } else {
-        const primitive = val;
-        display = String(primitive);
-      }
-      return truncate(display, 30);
+      return truncate(coerceCell(val), 30);
     });
     lines.push("| " + cells.join(" | ") + (hasMore ? " | ..." : "") + " |");
   });
@@ -98586,19 +98641,78 @@ function formatDataviewTable(headers, rows) {
   }
   return lines.join("\n");
 }
+function asGroup(item) {
+  var _a7;
+  if (item === null || typeof item !== "object" || Array.isArray(item)) {
+    return null;
+  }
+  const obj = item;
+  if (!("key" in obj || obj.$widget === "dataview:list-pair")) {
+    return null;
+  }
+  const inner = (_a7 = obj.rows) != null ? _a7 : obj.value;
+  if (Array.isArray(inner)) {
+    return { key: obj.key, rows: inner };
+  }
+  if (inner && typeof inner.array === "function") {
+    return { key: obj.key, rows: inner.array() };
+  }
+  return null;
+}
+function groupKeyLabel(key) {
+  var _a7, _b;
+  if (key === null || key === void 0 || typeof key === "string" && key.trim() === "") {
+    return "(no group)";
+  }
+  if (typeof key === "string") {
+    return key;
+  }
+  if (typeof key === "number" || typeof key === "bigint" || typeof key === "boolean") {
+    return String(key);
+  }
+  if (typeof key === "object") {
+    const obj = key;
+    const filePath = (_b = obj.path) != null ? _b : (_a7 = obj.file) == null ? void 0 : _a7.path;
+    return typeof filePath === "string" ? filePath : JSON.stringify(key);
+  }
+  return JSON.stringify(key);
+}
+function renderListItem(item) {
+  var _a7, _b;
+  if (item && typeof item === "object") {
+    const obj = item;
+    const filePath = (_b = obj.path) != null ? _b : (_a7 = obj.file) == null ? void 0 : _a7.path;
+    return typeof filePath === "string" ? filePath : JSON.stringify(item);
+  }
+  return String(item);
+}
 function formatDataviewList(items) {
+  const groups = items.map(asGroup);
+  if (items.length > 0 && groups.some((g) => g !== null)) {
+    const lines2 = [];
+    items.slice(0, 20).forEach((item, i) => {
+      const group = groups[i];
+      if (group) {
+        lines2.push(`**${truncate(groupKeyLabel(group.key), 60)}** (${group.rows.length})`);
+        group.rows.slice(0, 30).forEach((row) => {
+          lines2.push(`- ${truncate(renderListItem(row), 60)}`);
+        });
+        if (group.rows.length > 30) {
+          lines2.push(`  ... and ${group.rows.length - 30} more`);
+        }
+      } else {
+        lines2.push(`- ${truncate(renderListItem(item), 60)}`);
+      }
+      lines2.push("");
+    });
+    if (items.length > 20) {
+      lines2.push(`... and ${items.length - 20} more groups`);
+    }
+    return lines2.join("\n").trimEnd();
+  }
   const lines = [];
   items.slice(0, 30).forEach((item, i) => {
-    var _a7, _b;
-    let text;
-    if (item && typeof item === "object") {
-      const obj = item;
-      const filePath = (_b = obj.path) != null ? _b : (_a7 = obj.file) == null ? void 0 : _a7.path;
-      text = typeof filePath === "string" ? filePath : JSON.stringify(item);
-    } else {
-      text = String(item);
-    }
-    lines.push(`${i + 1}. ${truncate(text, 60)}`);
+    lines.push(`${i + 1}. ${truncate(renderListItem(item), 60)}`);
   });
   if (items.length > 30) {
     lines.push(`
@@ -98606,17 +98720,43 @@ function formatDataviewList(items) {
   }
   return lines.join("\n");
 }
+function renderTask(taskItem) {
+  const task = taskItem !== null && typeof taskItem === "object" && !Array.isArray(taskItem) ? taskItem : {};
+  const checkbox = task.completed ? "[x]" : "[ ]";
+  const taskString = taskItem !== null && typeof taskItem === "object" ? JSON.stringify(taskItem) : String(taskItem);
+  const text = task.text || task.task || taskString;
+  let line = `- ${checkbox} ${truncate(text, 60)}`;
+  if (task.path) {
+    line += `
+      from: ${task.path}`;
+  }
+  return line;
+}
 function formatDataviewTasks(tasks) {
+  const groups = tasks.map(asGroup);
+  if (tasks.length > 0 && groups.some((g) => g !== null)) {
+    const lines2 = [];
+    tasks.slice(0, 20).forEach((taskItem, i) => {
+      const group = groups[i];
+      if (group) {
+        lines2.push(`**${truncate(groupKeyLabel(group.key), 60)}** (${group.rows.length})`);
+        group.rows.slice(0, 30).forEach((row) => lines2.push(renderTask(row)));
+        if (group.rows.length > 30) {
+          lines2.push(`  ... and ${group.rows.length - 30} more`);
+        }
+      } else {
+        lines2.push(renderTask(taskItem));
+      }
+      lines2.push("");
+    });
+    if (tasks.length > 20) {
+      lines2.push(`... and ${tasks.length - 20} more groups`);
+    }
+    return lines2.join("\n").trimEnd();
+  }
   const lines = [];
   tasks.slice(0, 30).forEach((taskItem) => {
-    const task = taskItem !== null && typeof taskItem === "object" && !Array.isArray(taskItem) ? taskItem : {};
-    const checkbox = task.completed ? "[x]" : "[ ]";
-    const taskString = taskItem !== null && typeof taskItem === "object" ? JSON.stringify(taskItem) : String(taskItem);
-    const text = task.text || task.task || taskString;
-    lines.push(`- ${checkbox} ${truncate(text, 60)}`);
-    if (task.path) {
-      lines.push(`      from: ${task.path}`);
-    }
+    lines.push(renderTask(taskItem));
   });
   if (tasks.length > 30) {
     lines.push(`
@@ -98638,6 +98778,95 @@ function formatDataviewStatus(response) {
     lines.push("");
     lines.push(tip("Install the Dataview plugin from Obsidian Community Plugins"));
   }
+  lines.push(summaryFooter());
+  return joinLines(lines);
+}
+function formatDataviewPages(response) {
+  var _a7, _b, _c;
+  const lines = [];
+  lines.push(header(1, "Dataview: Pages"));
+  lines.push("");
+  lines.push(property("Source", (_a7 = response.source) != null ? _a7 : "all", 0));
+  if (response.success === false) {
+    lines.push("");
+    lines.push(`\u274C Query failed: ${response.error || "Unknown error"}`);
+    lines.push(summaryFooter());
+    return joinLines(lines);
+  }
+  const pages = (_b = response.pages) != null ? _b : [];
+  const total = (_c = response.count) != null ? _c : pages.length;
+  lines.push(property("Count", String(total), 0));
+  lines.push("");
+  if (pages.length === 0) {
+    lines.push("No pages found.");
+    lines.push(summaryFooter());
+    return joinLines(lines);
+  }
+  pages.slice(0, 30).forEach((page, i) => {
+    const path4 = typeof page.path === "string" ? page.path : JSON.stringify(page);
+    lines.push(`${i + 1}. ${truncate(path4, 60)}`);
+  });
+  if (total > 30) {
+    lines.push(`
+... and ${total - 30} more pages`);
+  }
+  lines.push(divider());
+  lines.push(tip("Use `dataview.metadata(path)` for one page, or `vault.read(path)` to open it"));
+  lines.push(summaryFooter());
+  return joinLines(lines);
+}
+function formatDataviewMetadata(response) {
+  var _a7, _b;
+  const lines = [];
+  lines.push(header(1, "Dataview: Metadata"));
+  lines.push("");
+  lines.push(property("Path", response.path, 0));
+  if (response.success === false || !response.metadata) {
+    lines.push("");
+    lines.push(`\u274C ${response.error || "No metadata available"}`);
+    lines.push(summaryFooter());
+    return joinLines(lines);
+  }
+  const m = response.metadata;
+  const tags = Array.isArray(m.tags) ? m.tags : [];
+  const aliases = Array.isArray(m.aliases) ? m.aliases : [];
+  const outlinks = Array.isArray(m.outlinks) ? m.outlinks : [];
+  const inlinks = Array.isArray(m.inlinks) ? m.inlinks : [];
+  lines.push("");
+  if (tags.length > 0) {
+    lines.push(property("Tags", tags.map((t) => String(t)).join(", "), 0));
+  }
+  if (aliases.length > 0) {
+    lines.push(property("Aliases", aliases.map((a) => String(a)).join(", "), 0));
+  }
+  lines.push(property("Outlinks", String(outlinks.length), 0));
+  lines.push(property("Inlinks", String(inlinks.length), 0));
+  lines.push(property("Tasks", String((_a7 = m.tasks) != null ? _a7 : 0), 0));
+  lines.push(property("Lists", String((_b = m.lists) != null ? _b : 0), 0));
+  const custom2 = m.custom && typeof m.custom === "object" ? m.custom : {};
+  const customKeys = Object.keys(custom2);
+  if (customKeys.length > 0) {
+    lines.push("");
+    lines.push(header(2, "Frontmatter"));
+    customKeys.slice(0, 15).forEach((key) => {
+      const value = custom2[key];
+      let display;
+      if (value === null || value === void 0) {
+        display = String(value);
+      } else if (typeof value === "object") {
+        display = JSON.stringify(value);
+      } else {
+        const primitive = value;
+        display = String(primitive);
+      }
+      lines.push(property(key, truncate(display, 50), 0));
+    });
+    if (customKeys.length > 15) {
+      lines.push(`... and ${customKeys.length - 15} more fields`);
+    }
+  }
+  lines.push(divider());
+  lines.push(tip("Use `vault.read(path)` to view the full note"));
   lines.push(summaryFooter());
   return joinLines(lines);
 }
@@ -99292,8 +99521,9 @@ function formatResponse(tool, action, response, raw = false) {
       case "dataview.status":
         return formatDataviewStatus(normalized);
       case "dataview.list":
+        return formatDataviewPages(normalized);
       case "dataview.metadata":
-        return formatDataviewQuery({ ...normalized, type: "list", successful: true });
+        return formatDataviewMetadata(normalized);
       // Bases operations
       case "bases.list":
         return formatBasesList(normalized);
