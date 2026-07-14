@@ -1,8 +1,0 @@
-{
-  "tagSeparator": "/",
-  "autoTagOnCreate": true,
-  "showTagHierarchy": true,
-  "defaultTagColor": "#3b82f6",
-  "ignoreFolders": ["_templates", "copilot"],
-  "ignoreFiles": [".excalidraw.md"]
-}

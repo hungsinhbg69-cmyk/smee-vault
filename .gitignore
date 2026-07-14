@@ -1,0 +1,13 @@
+# Obsidian runtime state and local plugin secrets
+/.obsidian/workspace.json
+/.obsidian/workspaces.json
+/.obsidian/workspace-mobile.json
+/.obsidian/plugins/*/data.json
+/.obsidian/plugins/obsidian-git/obsidian_askpass.sh
+
+# Regenerable local indexes and event logs
+/.smart-env/
+
+# Local AI conversation and memory state
+/copilot/copilot-conversations/
+/copilot/memory/
