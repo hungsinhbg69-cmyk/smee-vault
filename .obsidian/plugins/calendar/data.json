@@ -2,9 +2,12 @@
   "shouldConfirmBeforeCreate": true,
   "weekStart": "locale",
   "wordsPerDot": 250,
-  "showWeeklyNote": false,
-  "weeklyNoteFormat": "",
+  "showWeeklyNote": true,
+  "weeklyNoteFormat": "YYYY-[W]WW",
   "weeklyNoteTemplate": "",
   "weeklyNoteFolder": "",
   "localeOverride": "system-default"
+  "dailyNoteFolder": "01-Inbox/Daily",
+  "dateFormat": "yyyy-MM-dd",
+  "autoCreateDailyNote": true
 }

@@ -1,0 +1,10 @@
+{
+  "boards": [
+    {
+      "name": "Tasks Board",
+      "file": "02-Daily/Kanban.md",
+      "columns": ["Todo", "In Progress", "Done"]
+    }
+  ],
+  "defaultBoard": "Tasks Board",
+}
