@@ -1,7 +1,7 @@
 ---
-title: "Vault Command Center"
-slug: "vault-command-center"
-category: dashboard
+title: "Trung tâm điều hành Vault"
+slug: vault-dashboard
+category: meta
 tags: [meta, dashboard, command-center]
 status: active
 type: hub
@@ -9,40 +9,40 @@ created: 2026-06-20
 last_updated: 2026-07-14
 ---
 
-# 🧠 Vault Command Center
+# 🧠 Trung tâm điều hành Vault
 
-> [[Protocol]] — Central hub. Mở đầu mỗi session tại đây.  
-> **Plugins active:** Templater · QuickAdd · Dataview · Tasks · Git · Kanban · Smart Connections · Excalidraw
+> [[Protocol]] — Hub trung tâm. Bắt đầu mỗi phiên làm việc tại đây.  
+> **Các plugin đang hoạt động:** Templater · QuickAdd · Dataview · Tasks · Git · Kanban · Smart Connections · Excalidraw
 
 ---
 
-## ⚡ QUICK CAPTURE (Hotkeys)
+## ⚡ THU NHẬN NGAY (Phím tắt)
 
-| Action | Hotkey | QuickAdd Choice |
+| Hành động | Phím tắt | Lựa chọn QuickAdd |
 |---|---|---|
-| 💭 Quick thought → Daily | `Mod+Shift+Space` | capture-quick-thought |
-| 📥 Idea → Inbox | `Mod+Shift+I` | capture-inbox |
-| 📝 Atomic note | `Mod+Shift+N` | capture-new-note |
-| ✅ Task hôm nay | `Mod+Shift+T` | capture-task-today |
-| 🚀 New project | `Mod+Shift+P` | init-new-project |
-| 📚 Literature note | — | capture-literature-note |
-| 📅 Weekly review | `Mod+Shift+W` | review-weekly-init |
+| 💭 Suy nghĩ nhanh → Hàng ngày | `Mod+Shift+Space` | capture-quick-thought |
+| 📥 Ý tưởng → Hộp thư đến | `Mod+Shift+I` | capture-inbox |
+| 📝 Ghi chú nguyên tử | `Mod+Shift+N` | capture-new-note |
+| ✅ Nhiệm vụ hôm nay | `Mod+Shift+T` | capture-task-today |
+| 🚀 Dự án mới | `Mod+Shift+P` | init-new-project |
+| 📚 Ghi chú tài liệu | — | capture-literature-note |
+| 📅 Tổng kết tuần | `Mod+Shift+W` | review-weekly-init |
 | 🔍 Smart Connections | `Mod+Shift+S` | — |
-| 🔎 Omnisearch | `Mod+Shift+O` | — |
-| 🔄 Git pull | `Mod+Shift+G` | — |
+| 🔎 Tìm kiếm toàn diện | `Mod+Shift+O` | — |
+| 🔄 Kéo Git | `Mod+Shift+G` | — |
 
 ---
 
-## 🔴 ACTIVE PROJECTS
+## 🔴 DỰ ÁN ĐANG TIẾN HÀNH
 
 ```dataview
-TABLE status AS "Status", last_updated AS "Updated", tags AS "Tags"
+TABLE status AS "Trạng thái", last_updated AS "Cập nhật", tags AS "Thẻ"
 FROM "10-Projects"
 WHERE status = "active" OR status = "draft"
 SORT last_updated DESC
 ```
 
-## ✅ TASKS — QUÁ HẠN (Action Now!)
+## ✅ NHIỆM VỤ — HẾT HẠN (Hành động ngay!)
 
 ```tasks
 not done
@@ -52,7 +52,7 @@ group by file.link
 limit 20
 ```
 
-## 📋 TASKS — TUẦN NÀY
+## 📋 NHIỆM VỤ — TUẦN NÀY
 
 ```tasks
 not done
@@ -62,69 +62,69 @@ group by priority
 limit 30
 ```
 
-## 📥 INBOX (Chưa xử lý — target < 5)
+## 📥 HỘP THƯ ĐẾN (Chưa xử lý — mục tiêu < 5)
 
 ```dataview
-TABLE file.ctime AS "Captured", file.size AS "Size"
+TABLE file.ctime AS "Thu nhận", file.size AS "Kích thước"
 FROM "01-Inbox"
 SORT file.ctime DESC
 ```
 
-## 🔥 RECENT KNOWLEDGE (7 ngày)
+## 🔥 KIẾN THỨC MỚI NHẤT (7 ngày qua)
 
 ```dataview
-TABLE created AS "Date", category AS "Cat", status AS "Status"
+TABLE created AS "Ngày", category AS "Danh mục", status AS "Trạng thái"
 FROM "40-Knowledge-Synthesis" OR "30-Resources"
 WHERE created >= date(today) - dur(7 days)
 SORT created DESC
 LIMIT 10
 ```
 
-## 📊 VAULT HEALTH SNAPSHOT
+## 📊 BỨC TRANH TỔNG QUAN SỨC KHỎE VAULT
 
-### Notes by Status
+### Ghi chú theo Trạng thái
 
 ```dataview
-TABLE length(rows) AS "Count"
+TABLE length(rows) AS "Số lượng"
 FROM ""
 WHERE file.folder != ".obsidian" AND file.folder != "copilot" AND file.folder != "_templates"
 GROUP BY status
 SORT length(rows) DESC
 ```
 
-### Orphan Notes (< 2 backlinks)
+### Ghi chú bị bỏ rơi (< 2 liên kết ngược)
 
 ```dataview
-TABLE length(file.inlinks) AS "Backlinks", length(file.outlinks) AS "Outlinks"
+TABLE length(file.inlinks) AS "Liên kết ngược", length(file.outlinks) AS "Liên kết xuôi"
 FROM "40-Knowledge-Synthesis" OR "30-Resources"
 WHERE length(file.inlinks) < 2
 SORT length(file.inlinks) ASC
 LIMIT 15
 ```
 
-### Notes Created This Month
+### Ghi chú được tạo trong tháng này
 
 ```dataview
-TABLE created AS "Created", type AS "Type"
+TABLE created AS "Tạo", type AS "Loại"
 FROM "40-Knowledge-Synthesis"
 WHERE created >= date(this month)
 SORT created DESC
 ```
 
-## 📚 FACEBOOK ADS PIPELINE
+## 📚 DÒNG CHUYỀN QUẢNG CÁO FACEBOOK
 
 ```dataview
-TABLE status AS "Status", tags AS "Tags", type AS "Type"
+TABLE status AS "Trạng thái", tags AS "Thẻ", type AS "Loại"
 FROM "30-Resources/Facebook-Ads" OR "40-Knowledge-Synthesis/Frameworks"
 WHERE contains(tags, "facebook-ads") OR type = "framework"
 SORT last_updated DESC
 LIMIT 10
 ```
 
-## 🏘️ BẮC GIANG PROJECTS
+## 🏘️ DỰ ÁN BẮC GIANG
 
 ```dataview
-TABLE status AS "Status", type AS "Type", last_updated AS "Updated"
+TABLE status AS "Trạng thái", type AS "Loại", last_updated AS "Cập nhật"
 FROM "40-Knowledge-Synthesis/Real-Estate" OR "30-Resources/Bac-Giang"
 SORT last_updated DESC
 LIMIT 10
@@ -132,13 +132,13 @@ LIMIT 10
 
 ---
 
-## 🤖 AGENT NOTES
+## 🤖 GHI CHÚ CHẤT LƯỢNG TỰ ĐỘNG (AGENT)
 
-- **Smee** (vault scope): Xem [[AGENTS.md]] — quy tắc vận hành
-- **cli-rest-mcp**: Running on port 27124 — REST API + MCP active
-- **Smart Connections**: TF-IDF index, excludes: copilot, templates, archive
-- **Last plugin setup**: 2026-07-14 by Antigravity
+- **Smee** (phạm vi vault): Xem [[AGENTS.md]] — quy tắc vận hành
+- **cli-rest-mcp**: Chạy trên cổng 27124 — REST API + MCP đang hoạt động
+- **Smart Connections**: Chỉ mục TF-IDF, loại trừ: copilot, templates, archive
+- **Cài đặt plugin cuối cùng**: 2026-07-14 bởi Antigravity
 
 ---
 
-*Dashboard v3 — 2026-07-14 · Rebuilt by Antigravity agent · Professional plugin setup*
+*Dashboard v3 — 2026-07-14 · Xây dựng lại bởi tác nhân Antigravity · Cài đặt plugin chuyên nghiệp*

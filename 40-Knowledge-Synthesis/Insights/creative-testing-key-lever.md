@@ -1,7 +1,7 @@
 ---
 title: "Creative Testing Key Lever"
 slug: "creative-testing-key-lever"
-category: insights
+category: knowledge
 tags: [facebook-ads, creative, testing]
 status: draft
 type: insight

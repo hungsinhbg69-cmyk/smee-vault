@@ -1,20 +1,20 @@
 ---
-title: "JeffSu-Prompt-Engineering"
-slug: "jeffsu-prompt-engineering"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
+title: JeffSu - Prompt Engineering Guide
+slug: jeffsu-prompt-engineering
+category: knowledge
+tags:
+- jeffsu
+- prompt-engineering
+- ai
+- chatgpt
+- claude
 status: draft
 type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: JeffSu - Prompt Engineering Guide
-tags: [jeffsu, prompt-engineering, ai, chatgpt, claude, gemini]
-source: NotebookLM "JeffSu Master Learning"
 created: 2026-06-18
-type: framework
+last_updated: '2026-07-14'
+source: NotebookLM "JeffSu Master Learning"
+related_tags:
+- gemini
 ---
 
 # Prompt Engineering Guide (from JeffSu)

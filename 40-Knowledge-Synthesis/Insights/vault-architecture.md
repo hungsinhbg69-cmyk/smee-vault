@@ -1,23 +1,15 @@
 ---
-title: "vault-architecture"
-slug: "vault-architecture"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Atomic Note — Vault Architecture: PARA + Zettelkasten Hybrid"
-slug: "vault-architecture-para-zettelkasten-hybrid"
+title: 'Atomic Note — Vault Architecture: PARA + Zettelkasten Hybrid'
+slug: vault-architecture
 category: knowledge
-tags: [obsidian, zettelkasten, para]
+tags:
+- obsidian
+- zettelkasten
+- para
 status: draft
 type: atomic-note
 created: 2026-06-12
-last_updated: 2026-06-12
+last_updated: '2026-07-14'
 cited_count: 0
 ---
 

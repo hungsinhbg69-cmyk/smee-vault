@@ -10,6 +10,12 @@ tags:
   - nha-o-xa-hoi
   - openclaw
   - hermes
+slug: l2-retest-doc-lap-d
+category: training
+status: draft
+type: exercise
+created: 2026-07-14
+last_updated: 2026-07-14
 ---
 
 # L2 — Retest độc lập D

@@ -1,5 +1,5 @@
 ---
-title: "Guide: Học Cách Sống, Nói Chuyện, Cư Xử Như Người Bắc Giang"
+title: "Hướng dẫn: Học cách sống, nói chuyện và cư xử như người Bắc Giang"
 slug: "bac-giang-living-guide"
 category: resource
 tags: [vault-maintenance]
@@ -9,15 +9,15 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-# Guide: Học Cách Sống, Nói Chuyện, Cư Xử Như Người Bắc Giang
+# Hướng dẫn: Học cách sống, nói chuyện và cư xử như người Bắc Giang
 
-_Document generated: 2026-06-15 | Sources: Web research, cultural analysis, social media observation_
+_Tài liệu được tạo: 2026-06-15 | Nguồn: Nghiên cứu trên web, phân tích văn hóa, quan sát mạng xã hội_
 
 ---
 
 ## LỜI MỞ ĐẦU
 
-Bắc Giang là vùng đất cổ nằm trong xứ Kinh Bắc xưa, có vị trí giao thoa giữa đồng bằng châu thổ sông Hồng và vùng trung du miền núi Đông Bắc. Người Bắc Giang mang trong mình bản sắc kép: **chất phác của nông dân đồng bằng** kết hợp **tinh hoa văn hóa khoa bảng**. Đây là vùng đất từng sản sinh ra 17 trạng nguyên, 622 tiến sĩ — nơi chữ "học" không chỉ là con đường thi cử mà là lối sống.
+Bắc Giang là vùng đất cổ nằm trong xứ Kinh Bắc xưa, có vị trí giao thoa giữa đồng bằng châu thổ sông Hồng và vùng trung du miền núi Đông Bắc. Người Bắc Giang mang trong mình bản sắc kép: **chất phác của nông dân đồng bằng** kết hợp **tinh hoa văn hóa khoa bảng**. Đây là vùng đất từng sản sinh ra 17 trạng nguyên, 622 tiến sĩ — nơi chữ "học" không chỉ là con đường thi cử mà còn là lối sống.
 
 Tài liệu này tổng hợp cách sống, cách nói chuyện và cách cư xử đặc trưng của người Bắc Giang, với trọng tâm vào văn hóa giao tiếp trên các nền tảng Facebook, Instagram, Threads và TikTok.
 
@@ -187,7 +187,7 @@ TikTok là nền tảng mà người Bắc Giang đang phát triển mạnh:
 
 - **Đi lễ chùa**: đi chùa đầu năm là phong tục gần như bắt buộc (Yên Tử, Vĩnh Nghiêm).
 - **Xin chữ**: mua chữ viết tay (chữ nho) về treo nhà — di sản khoa bảng.
-- **Mừng tuổi**: con cháu quỳ lạy ông bà, nhận lì xì. Câu chúc: "Con chúc ông/bà mạnh khỏe, phúc như东海, thọ tỷ non xanh."
+- **Mừng tuổi**: con cháu quỳ lạy ông bà, nhận lì xì. Câu chúc: "Con chúc ông/bà mạnh khỏe, phúc như Đông Hải, thọ tỷ non xanh."
 
 ### 4.3 Lễ hội Bắc Giang
 
@@ -315,7 +315,7 @@ Số lượng có hạn nên anh/chị nào muốn mua sớm thì nhắn em trư
 2. Báo Quân đội nhân dân — "Tinh túy văn hóa giao tiếp của người Bắc Ninh xưa" (2024)
 3. Cổng thông tin du lịch Bắc Giang — "Bắc Giang - Miền di sản và những báu vật nhân văn sống"
 4. Vietnam.vn — "Văn hóa, con người Bắc Giang: Khơi dậy nguồn lực phát triển mới"
-5.reatimes.vn — "Kinh Bắc: Đất và người"
+5. Reatimes.vn — "Kinh Bắc: Đất và người"
 6. RDSIC.edu.vn — "Từ ngữ địa phương Bắc Giang"
 7. Từ Điển Tiếng Việt — "150 từ ngữ địa phương miền Bắc (phương ngữ Bắc Bộ)"
 8. Báo Dân trí — "Bắc Giang bảo tồn nét đẹp văn hóa làng quê - Kết Chạ"

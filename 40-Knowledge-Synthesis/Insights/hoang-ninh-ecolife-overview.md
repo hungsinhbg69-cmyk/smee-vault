@@ -1,19 +1,18 @@
 ---
-title: "hoang-ninh-ecolife-overview"
-slug: "hoang-ninh-ecolife-overview"
-category: insights
-tags: [obsidian-cleanup, auto-added]
+title: Hoàng Ninh Ecolife — Tổng quan dự án
+slug: hoang-ninh-ecolife-overview
+category: knowledge
+tags:
+- noxh
+- hoangninhecolife
+- bac-ninh
+- real-estate
+- year/2026
 status: draft
 type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Hoàng Ninh Ecolife — Tổng quan dự án"
-tags: [NOXH, HoangNinhEcolife, BacNinh, real-estate, 2026]
-date: 2026-06-15
-source: "Facebook + DuckDuckGo + web_fetch từ 8+ nguồn tin cậy"
+created: 2026-06-15
+last_updated: '2026-07-14'
+source: Facebook + DuckDuckGo + web_fetch từ 8+ nguồn tin cậy
 ---
 
 # Hoàng Ninh Ecolife — Tổng quan dự án

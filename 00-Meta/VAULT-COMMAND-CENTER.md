@@ -1,5 +1,5 @@
 ---
-title: "Vault Command Center"
+title: "Trung tâm điều hành Vault"
 slug: "vault-command-center"
 category: meta
 tags: [dashboard, dataview, analytics, automation]
@@ -9,25 +9,25 @@ created: 2026-06-27
 last_updated: 2026-06-27
 ---
 
-# Vault Command Center
+# Trung tâm điều hành Vault
 
-> Dashboard tích hợp - khai thac **dataview + tasks-plugin + charts + metadata-menu + calendar**  
-> Cap nhat REAL-TIME voi Dataview queries. Tu dong sync qua obsidian-git.
+> Bảng điều khiển tích hợp - khai thác **dataview + tasks-plugin + charts + metadata-menu + calendar**  
+> Cập nhật REAL-TIME với các truy vấn Dataview. Đồng bộ tự động qua obsidian-git.
 
-## □ Quick Launch (QuickAdd Macros)
-| Action | Macro Key | Description |
+## □ Khởi chạy nhanh (QuickAdd Macros)
+| Hành động | Phím tắt Macro | Mô tả |
 |--------|-----------|-------------|
-| 🔥 New Atomic Note | `capture-new-note` | Auto frontmatter + smart-connections link |
-| 💭 Fleeting Thought | `capture-quick-thought` | Quick-capture to daily note via templater |
-| 📊 Weekly Review | `review-weekly-init` | Open weekly-review template with dataview scans |
+| 🔥 Ghi chú nguyên tử mới | `capture-new-note` | Tự động tạo frontmatter và liên kết thông minh |
+| 💭 Suy nghĩ thoáng qua | `capture-quick-thought` | Thu thập nhanh vào ghi chú hàng ngày qua templater |
+| 📊 Đánh giá tuần | `review-weekly-init` | Mở mẫu đánh giá tuần với quét dataview |
 
-> Import macros: Settings -> QuickAdd -> Manage -> Import `_scripts/quickadd-macro-config.json`
+> Nhập macro: Cài đặt -> QuickAdd -> Quản lý -> Nhập `_scripts/quickadd-macro-config.json`
 
 ---
 
-## □ Daily Pulse - Latest Notes
+## □ Nhịp điệu hàng ngày - Ghi chú mới nhất
 
-**Plugin: dataview + calendar** — Real-time scan across vault folders
+**Plugin: dataview + calendar** — Quét thời gian thực qua các thư mục trong vault
 
 ```dataview
 TABLE length(file.tags) as "Tags", type as "Type"
@@ -39,9 +39,9 @@ LIMIT 15
 
 ---
 
-## □ Active Tasks - All Unfinished
+## □ Nhiệm vụ đang hoạt động - Tất cả chưa hoàn thành
 
-**Plugin: obsidian-tasks-plugin** — Consolidated task view, sortable by priority
+**Plugin: obsidian-tasks-plugin** — Xem tổng hợp nhiệm vụ, có thể sắp xếp theo mức độ ưu tiên
 
 ```tasks
 not done
@@ -50,7 +50,7 @@ sort by priority descending
 reverse
 ```
 
-This Week High Priority
+Nhiệm vụ ưu tiên cao trong tuần này
 ```tasks
 not done
 due during this week
@@ -59,7 +59,7 @@ priority matches /.*/
 
 ---
 
-## □ Active Projects - Dashboard
+## □ Dự án đang hoạt động - Bảng điều khiển
 
 **Plugins: dataview + kanban + metadata-menu**
 
@@ -70,15 +70,15 @@ WHERE status != "archived"
 SORT file.ctime DESC
 ````
 
-> Next: Use **kanban** plugin (Ctrl+P -> Kanban: Create new board) for visual project tracking. Link cards to projects above.
+> Tiếp theo: Sử dụng plugin **kanban** (Ctrl+P -> Kanban: Tạo bảng mới) để theo dõi dự án trực quan. Liên kết thẻ với các dự án ở trên.
 
 ---
 
-## □ Metadata Quality - Recent 7 Days
+## □ Chất lượng metadata - 7 ngày gần nhất
 
-**Plugin: metadata-menu + templater** — Edit frontmatter via GUI, khng can go tay
+**Plugin: metadata-menu + templater** — Chỉnh sửa frontmatter qua giao diện đồ họa, không cần gõ tay
 
-### Recently Modified Files
+### Các tệp đã sửa đổi gần đây
 ```dataview
 TABLE file.mtime as "Modified Last"
 FROM ""
@@ -89,41 +89,31 @@ LIMIT 20
 
 ---
 
-## □ Vault Analytics Quick View
+## □ Xem nhanh phân tích Vault
 
 **Plugin: charts + obsidian-mind-map + mermaid-tools + obsidian-icon-folder**
 
-1. **Open any note → Mind Map**: Ctrl+P → "MindMap" (plugin obsidian-mind-map)  
-2. **Render diagrams inline**: paste ` ```mermaid ` blocks (see VAULT-ANALYTICS.md for templates)  
-3. **Customize folder icons**: Settings → obsidian-icon-folder → Add sets
+1. **Mở bất kỳ ghi chú nào → Bản đồ tư duy**: Ctrl+P -> "MindMap" (plugin obsidian-mind-map)  
+2. **Hiển thị biểu đồ trực tuyến**: dán khối ` ```mermaid ` (xem VAULT-ANALYTICS.md để biết mẫu)  
+3. **Tùy chỉnh icon thư mục**: Cài đặt -> obsidian-icon-folder -> Thêm bộ icon
 
-### Growth Chart Template
-See `00-Meta/VAULT-ANALYTICS.md` for full chart.json formats and web clipper workflow.
-
----
-
-## □ Smart Connections Shortcut
-
-**Plugin: smart-connections + omnisearch + copilot**
-
-- **Scans semantic links**: Smart Connections auto-suggests related notes when typing
-- **Ctrl+E**: Trigger omnisearch for fuzzy search across entire vault  
-- **Right-click → Copilot**: Chat with second brain — AI reads context from SC vectors
+### Mẫu biểu đồ tăng trưởng
+Xem `00-Meta/VAULT-ANALYTICS.md` cho định dạng chart.json đầy đủ và quy trình làm việc web clipper.
 
 ---
 
-## □ Workflow Triggers Summary
+## □ Tóm tắt kích hoạt quy trình làm việc
 
-| Step | Plugin(s) | Action |
-|------|-----------|--------|
-| Capture notes | quickadd + templater + smart-connections | New atomic/fleeting note auto-created |
-| Review weekly | periodic-notes + calendar + tag-wrangler + tasks-plugin | Full weekly audit with task scan |
-| Track projects | kanban + dataview + git + mermaid | Kanban board + sprint tracking |
-| Sync & backup | obsidian-git + remotely-save | Cloud sync + version control history |
-| Visualize data | charts + mind-map + icon-folder | Analytics dashboard + folder icons |
-| Search & connect | omnisearch + smart-connections + copilot | Semantic search + AI chat |
+| Bước | Plugin(s) | Hành động |
+|------|-----------|-------------|
+| Thu thập ghi chú | quickadd + templater + smart-connections | Ghi chú nguyên tử/thoáng qua tự động được tạo mới |
+| Đánh giá tuần | periodic-notes + calendar + tag-wrangler + tasks-plugin | Kiểm toán tuần đầy đủ với quét nhiệm vụ |
+| Theo dõi dự án | kanban + dataview + git + mermaid | Bảng Kanban + theo dõi sprint |
+| Đồng bộ & sao lưu | obsidian-git + remotely-save | Đồng bộ đám mây + lịch sử kiểm soát phiên bản |
+| Trực quan hóa dữ liệu | charts + mind-map + icon-folder | Bảng điều khiển phân tích + icon thư mục |
+| Tìm kiếm và kết nối | omnisearch + smart-connections + copilot | Tìm kiếm ngữ nghĩa + trò chuyện AI |
 
 ---
 
-*Command Center taichop 7+ plugin core.*
-*Tham khao[[PROJECT-COMMAND-CENTER]] · [[TASK-ENGINE]] · [[VAULT-ANALYTICS]] · _templates/weekly-review.md*
+*Trung tâm điều hành tích hợp 7+ plugin cốt lõi.*
+*Tham khảo [[PROJECT-COMMAND-CENTER]] · [[TASK-ENGINE]] · [[VAULT-ANALYTICS]] · _templates/weekly-review.md*

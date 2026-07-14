@@ -1,8 +1,8 @@
 ---
 title: "Hermes Runtime & Evidence Discipline - Verified 2026-07-13"
 slug: "hermes-runtime-evidence-discipline"
-category: framework
-tags: [project/AI-Agent-Engineering, Concept/ai-agent-design, Type/atomic-note, Status/reference]
+category: knowledge
+tags: ["project/ai-agent-engineering", "concept/ai-agent-design", "type/atomic-note", "status/reference"]
 status: active
 type: reference
 created: 2026-07-13

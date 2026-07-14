@@ -1,9 +1,9 @@
 ---
 title: "Vault Automation Layer — Deploy Log"
 slug: "vault-automation-layer-deploy-log"
-category: meta
+category: archive
 tags: [meta, automation, deploy-log]
-status: active
+status: archived
 type: log
 created: 2026-06-20
 last_updated: 2026-06-20

@@ -1,23 +1,15 @@
 ---
-title: "vault-master-index"
-slug: "vault-master-index"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Vault Master Index"
-slug: "vault-master-index"
-category: meta
-tags: [meta, index, navigation]
+title: Vault Master Index
+slug: vault-master-index-insight
+category: knowledge
+tags:
+- meta
+- index
+- navigation
 status: active
 type: hub
 created: 2026-06-16
-last_updated: 2026-06-17
+last_updated: '2026-07-14'
 ---
 
 # 🗂 Vault Master Index

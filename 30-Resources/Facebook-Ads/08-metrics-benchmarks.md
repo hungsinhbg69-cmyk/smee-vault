@@ -1,5 +1,5 @@
 ---
-title: "Metrics & Benchmarks"
+title: "Chỉ số & Tiêu chuẩn so sánh"
 slug: "metrics-benchmarks"
 category: resource
 tags: [facebook-ads, meta-ads]
@@ -9,145 +9,145 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-﻿# 08 - Metrics & Benchmarks (KPIs + Cost benchmarks 2026)
+# 08 - Chỉ số & Tiêu chuẩn so sánh (KPIs + Chi phí tiêu chuẩn 2026)
 
-## Key Metrics Definitions
+## Định nghĩa chỉ số chính
 
-### Cost Metrics
-| Metric | Full name | Formula | What it tells you |
+### Chỉ số chi phí
+| Chỉ số | Tên đầy đủ | Công thức | Ý nghĩa |
 |---|---|---|---|
-| CPM | Cost per Mille | (Spend / Impressions) x 1,000 | How expensive the audience/placement is |
-| CPC | Cost Per Click | Spend / Link Clicks | Cost to drive traffic |
-| CPL | Cost Per Lead | Spend / Leads | Cost per lead generation |
-| CPA | Cost Per Acquisition | Spend / Purchases | Cost per customer/sale |
-| CPP | Cost Per Result | Spend / Total Results | Cost per any optimization event |
+| CPM | Cost per Mille | (Chi phí / Số lần hiển thị) x 1.000 | Mức độ đắt đỏ của đối tượng/môi trường quảng cáo |
+| CPC | Cost Per Click | Chi phí / Số lượt nhấp vào liên kết | Chi phí để tạo lưu lượng truy cập |
+| CPL | Cost Per Lead | Chi phí / Số lead | Chi phí trên mỗi lead được tạo ra |
+| CPA | Cost Per Acquisition | Chi phí / Số đơn hàng | Chi phí trên mỗi khách hàng/mua hàng |
+| CPP | Cost Per Result | Chi phí / Tổng kết quả tối ưu hóa | Chi phí cho bất kỳ sự kiện tối ưu hóa nào |
 
-### Performance Metrics
-| Metric | Formula | What it tells you |
+### Chỉ số hiệu suất
+| Chỉ số | Công thức | Ý nghĩa |
 |---|---|---|
-| CTR (Link) | Link Clicks / Impressions | How compelling your ad is |
-| CTR (All) | All Clicks / Impressions | Total engagement rate |
-| Conversion Rate | Conversions / Link Clicks | Landing page effectiveness |
-| ROAS | Revenue / Ad Spend | Revenue efficiency |
-| Frequency | Impressions / Unique Reach | Ad fatigue indicator |
+| CTR (Link) | Lượt nhấp vào liên kết / Số lần hiển thị | Mức độ hấp dẫn của quảng cáo |
+| CTR (Tất cả) | Tổng lượt nhấp / Số lần hiển thị | Tỷ lệ tương tác tổng thể |
+| Tỷ lệ chuyển đổi | Chuyển đổi / Lượt nhấp vào liên kết | Hiệu quả của trang đích |
+| ROAS | Doanh thu / Chi phí quảng cáo | Hiệu quả doanh thu |
+| Tần suất (Frequency) | Số lần hiển thị / Phạm vi tiếp cận độc nhất | Chỉ số mệt mỏi quảng cáo |
 
-### Quality Metrics
-| Metric | Benchmark | Action if below |
+### Chỉ số chất lượng
+| Chỉ số | Tiêu chuẩn so sánh | Hành động nếu dưới mức |
 |---|---|---|
-| CTR (Link) | > 1% | Improve creative/copy |
-| Landing Page CVR | > 2% (e-com) | Optimize landing page |
-| Frequency | < 3.0 | Rotate new creatives |
-| Video 3-sec Views Rate | > 25% | Improve first 3 seconds |
-| Purchase CVR from Pixel | > 1-3% (varies) | Check pixel + checkout flow |
+| CTR (Link) | > 1% | Cải thiện hình ảnh/sáng tạo hoặc nội dung |
+| Tỷ lệ chuyển đổi trang đích (CVR) | > 2% (thương mại điện tử) | Tối ưu hóa trang đích |
+| Tần suất | < 3.0 | Thay đổi các sáng tạo mới |
+| Tỷ lệ xem Video 3 giây | > 25% | Cải thiện 3 giây đầu tiên |
+| Tỷ lệ chuyển đổi mua hàng từ Pixel | > 1-3% (biến động) | Kiểm tra pixel và quy trình thanh toán |
 
-## Cost Benchmarks by Market (2026)
+## Tiêu chuẩn chi phí theo thị trường (2026)
 
-### United States (reference market)
-| Metric | Range | Notes |
+### Hoa Kỳ (thị trường tham chiếu)
+| Chỉ số | Dải giá | Ghi chú |
 |---|---|---|
-| CPM | - | Varies heavily by industry |
-| CPC | .50-.00 | Broad targeting = lower end |
-| CPL | - | B2B at higher end, consumer lower |
-| CPA (e-com) | - | Depends on AOV |
-| ROAS average | 2-4x | Profitable if margin supports it |
+| CPM | - | Biến động mạnh tùy ngành |
+| CPC | 0.50-0.00 | Nhắm mục tiêu rộng = mức thấp hơn |
+| CPL | - | B2B ở mức cao, người tiêu dùng thấp hơn |
+| CPA (thương mại điện tử) | - | Phụ thuộc vào giá trị đơn hàng trung bình (AOV) |
+| ROAS trung bình | 2-4x | Có lợi nhuận nếu biên độ lợi nhuận hỗ trợ |
 
-### Vietnam market (estimated)
-| Metric | Range | Notes |
+### Thị trường Việt Nam (ước tính)
+| Chỉ số | Dải giá | Ghi chú |
 |---|---|---|
-| CPM | - | Much lower than US |
-| CPC | .05-.30 | Competitive market pricing |
-| CPL | .50- | Very competitive lead costs |
-| Frequency threshold for fatigue | > 2.5-3.0 | Similar to global |
+| CPM | - | Thấp hơn nhiều so với Mỹ |
+| CPC | 0.05-0.30 | Giá thị trường cạnh tranh |
+| CPL | 0.50-... | Chi phí lead rất cạnh tranh |
+| Ngưỡng tần suất gây mệt mỏi | > 2.5-3.0 | Tương tự toàn cầu |
 
-### Seasonal variations (US)
-| Period | CPM multiplier | Notes |
+### Biến động theo mùa (Mỹ)
+| Kì | Nhân số CPM | Ghi chú |
 |---|---|---|
-| Q1 (Jan-Mar) | 1.0x (baseline) | Cheapest quarter |
-| Q2 (Apr-Jun) | 1.2-1.5x | Gradual increase |
-| Q3 (Jul-Sep) | 1.3-1.5x | Back-to-school prep |
-| Q4 (Oct-Dec) | 2.0-3.0x | Holiday season, highest costs |
+| Q1 (Tháng 1-3) | 1.0x (cơ sở) | Quý rẻ nhất |
+| Q2 (Tháng 4-6) | 1.2-1.5x | Tăng dần |
+| Q3 (Tháng 7-9) | 1.3-1.5x | Chuẩn bị cho mùa tựu trường |
+| Q4 (Tháng 10-12) | 2.0-3.0x | Mùa lễ hội, chi phí cao nhất |
 
-### Industry variations (US CPM ranges)
-| Industry | CPM range | Why |
+### Biến động theo ngành (Dải CPM Mỹ)
+| Ngành | Dải CPM | Lý do |
 |---|---|---|
-| E-commerce | - | Competitive, broad audience |
-| SaaS/Tech | - | High-value audiences |
-| Real Estate | - | Expensive leads justify cost |
-| Finance/Insurance | -+ | High LTV customers |
-| Travel/Hospitality | - | Seasonal, broad appeal |
-| Education | - | Moderate competition |
+| Thương mại điện tử | - | Cạnh tranh, đối tượng rộng |
+| SaaS/Kỹ thuật | - | Đối tượng giá trị cao |
+| Bất động sản | - | Lead đắt tiền biện minh cho chi phí |
+| Tài chính/Bảo hiểm | -+ | Khách hàng có LTV (giá trị vòng đời) cao |
+| Du lịch/Nhà hàng khách sạn | - | Theo mùa, sức hấp dẫn rộng |
+| Giáo dục | - | Cạnh tranh vừa phải |
 
-## ROAS Benchmarks by Funnel Stage
+## Tiêu chuẩn ROAS theo giai đoạn phễu
 
-### Top of Funnel (Awareness/Prospecting)
-- **Acceptable ROAS:** 2-3x
-- **Goal:** Find profitable audiences and creatives
-- **Timeframe:** 14-30 days to evaluate
-- **Note:** TOFU campaigns often show delayed ROI through retargeting
+### Đầu phễu (Nhận thức/Khám phá)
+- **ROAS chấp nhận được:** 2-3x
+- **Mục tiêu:** Tìm kiếm đối tượng và sáng tạo có lợi nhuận
+- **Thời gian:** 14-30 ngày để đánh giá
+- **Lưu ý:** Chiến dịch TOFU thường cho thấy ROI chậm trễ thông qua quảng cáo lại (retargeting)
 
-### Middle of Funnel (Consideration)
-- **Target ROAS:** 3-4x
-- **Goal:** Nurture warm audiences toward conversion
-- **Key metric:** Add to cart / Initiate checkout rate
-- **Timeframe:** 7-14 days to evaluate
+### Giữa phễu (Xem xét)
+- **ROAS mục tiêu:** 3-4x
+- **Mục tiêu:** Nuôi dưỡng đối tượng ấm hướng tới chuyển đổi
+- **Chỉ số chính:** Tỷ lệ thêm vào giỏ hàng / Khởi động thanh toán
+- **Thời gian:** 7-14 ngày để đánh giá
 
-### Bottom of Funnel (Retargeting/Conversion)
-- **Target ROAS:** 5-10x+
-- **Goal:** Convert warm audiences at lowest CPA
-- **Key metric:** Cart abandonment recovery rate
-- **Timeframe:** Immediate to 7 days
+### Cuối phễu (Quảng cáo lại/Chuyển đổi)
+- **ROAS mục tiêu:** 5-10x+
+- **Mục tiêu:** Chuyển đổi đối tượng ấm với CPA thấp nhất
+- **Chỉ số chính:** Tỷ lệ khôi phục giỏ hàng bị bỏ quên
+- **Thời gian:** Tức thì đến 7 ngày
 
-### Overall blended ROAS target
-- **Break-even ROAS:** 1 / Profit Margin % (e.g., 50% margin = 2.0x break-even)
-- **Profitable ROAS:** Break-even x 1.3 (30% buffer for overhead)
-- **Scaling ROAS:** 4-5x+ (sufficient profit to reinvest in ads)
+### ROAS tổng hợp toàn bộ
+- **ROAS hòa vốn:** 1 / % Biên lợi nhuận (ví dụ: biên lợi nhuận 50% = hòa vốn 2.0x)
+- **ROAS có lợi nhuận:** Hòa vốn x 1.3 (đệm 30% cho chi phí vận hành)
+- **ROAS mở rộng quy mô:** 4-5x+ (lợi nhuận đủ để tái đầu tư vào quảng cáo)
 
-## Conversion Rate Benchmarks
+## Tiêu chuẩn tỷ lệ chuyển đổi
 
-### By industry (e-commerce landing pages)
-| Industry | CVR benchmark | Notes |
+### Theo ngành (trang đích thương mại điện tử)
+| Ngành | Tiêu chuẩn CVR | Ghi chú |
 |---|---|---|
-| Fashion/Apparel | 1.5-3% | Highly competitive, visual-driven |
-| Electronics | 2-4% | Higher consideration, longer decision |
-| Beauty/Skincare | 2-5% | Strong impulse purchase potential |
-| Home/Garden | 1.5-3% | Higher AOV, longer consideration |
-| Health/Supplements | 2-4% | Trust-dependent, review-heavy |
-| Digital products | 3-8% | Lower friction, instant delivery |
+| Thời trang/Quần áo | 1.5-3% | Cạnh tranh cao, dựa vào hình ảnh |
+| Điện tử | 2-4% | Xem xét nhiều hơn, thời gian ra quyết định dài hơn |
+| Mỹ phẩm/Dưỡng da | 2-5% | Tiềm năng mua hàng bốc đồng mạnh mẽ |
+| Nhà cửa/Vườn | 1.5-3% | AOV cao hơn, thời gian xem xét dài hơn |
+| Sức khỏe/Bổ sung | 2-4% | Phụ thuộc niềm tin, nhiều đánh giá |
+| Sản phẩm kỹ thuật số | 3-8% | Ma sát thấp, giao hàng ngay lập tức |
 
-### By traffic source
-| Source | CVR benchmark | Why |
+### Theo nguồn lưu lượng truy cập
+| Nguồn | Tiêu chuẩn CVR | Lý do |
 |---|---|---|
-| Facebook Ads (warm) | 3-5% | Retargeting, high intent |
-| Facebook Ads (cold) | 1-2% | Prospecting, lower intent |
-| Organic social | 2-4% | Existing audience trust |
-| Search ads | 4-8% | High purchase intent |
+| Facebook Ads (ấm) | 3-5% | Quảng cáo lại, ý định cao |
+| Facebook Ads (lạnh) | 1-2% | Khám phá, ý định thấp hơn |
+| Mạng xã hội hữu cơ | 2-4% | Niềm tin của đối tượng hiện có |
+| Quảng cáo tìm kiếm | 4-8% | Ý định mua hàng cao |
 
-## Frequency Analysis
+## Phân tích tần suất (Frequency)
 
-### Frequency tiers and actions
-| Frequency | Status | Action |
+### Các tầng tần suất và hành động
+| Tần suất | Trạng thái | Hành động |
 |---|---|---|
-| 1.0-1.5 | Optimal | Keep running, monitor CPA |
-| 1.5-2.5 | Acceptable | Watch for performance decline |
-| 2.5-3.0 | Warning | Prepare new creative variations |
-| 3.0-4.0 | Fatigue building | Rotate new creatives immediately |
-| 4.0+ | Severe fatigue | Replace all creatives, consider audience refresh |
+| 1.0-1.5 | Tối ưu | Tiếp tục chạy, theo dõi CPA |
+| 1.5-2.5 | Chấp nhận được | Theo dõi sự suy giảm hiệu suất |
+| 2.5-3.0 | Cảnh báo | Chuẩn bị các biến thể sáng tạo mới |
+| 3.0-4.0 | Mệt mỏi đang hình thành | Thay đổi sáng tạo ngay lập tức |
+| 4.0+ | Mệt mỏi nghiêm trọng | Thay thế tất cả sáng tạo, cân nhắc làm mới đối tượng |
 
-### Frequency by campaign type
-- **Retargeting:** Accept higher frequency (2-4) due to smaller audience
-- **Prospecting:** Keep lower (1.5-2.5) for broader reach
-- **Brand awareness:** Can tolerate higher frequency (3-5) for message reinforcement
+### Tần suất theo loại chiến dịch
+- **Quảng cáo lại:** Chấp nhận tần suất cao hơn (2-4) do quy mô đối tượng nhỏ hơn
+- **Khám phá:** Giữ mức thấp hơn (1.5-2.5) để tiếp cận rộng hơn
+- **Nhận thức thương hiệu:** Có thể chịu được tần suất cao hơn (3-5) để củng cố thông điệp
 
-## Facebook Ads API - Core Objects Reference
+## Facebook Ads API - Tham chiếu các đối tượng cốt lõi
 
-### Campaign objects
-| Object | Purpose | Key fields |
+### Đối tượng Chiến dịch (Campaign objects)
+| Đối tượng | Mục đích | Các trường chính |
 |---|---|---|
-| Campaign | Top-level container | id, name, objective, status, campaign_group_id (CBO), daily_budget/lifetime_budget |
-| AdSet | Targeting + placement + budget | id, name, targeting, placements, optimization_guide, daily_budget/lifetime_budget, start_time/end_time |
-| Ad | Creative content | id, name, creative, status, delivery_status |
+| Campaign | Chứa cấp cao nhất | id, name, objective, status, campaign_group_id (CBO), daily_budget/lifetime_budget |
+| AdSet | Nhắm mục tiêu + vị trí hiển thị + ngân sách | id, name, targeting, placements, optimization_guide, daily_budget/lifetime_budget, start_time/end_time |
+| Ad | Nội dung sáng tạo | id, name, creative, status, delivery_status |
 
-### Campaign Objectives (objective field values)
+### Mục tiêu Chiến dịch (giá trị trường objective)
 - BRAND_AWARENESS
 - AWARENESS
 - TRAFFIC
@@ -159,9 +159,9 @@ last_updated: 2026-06-24
 - CONVERSIONS
 - CATALOG_SALES
 - STORE_TRAFFIC
-- SALES (newer value for conversions)
+- SALES (giá trị mới hơn cho chuyển đổi)
 
-### AdSet targeting structure (JSON)
+### Cấu trúc nhắm mục tiêu AdSet (JSON)
 `json
 {
   "targeting": {
@@ -180,7 +180,7 @@ last_updated: 2026-06-24
 }
 `
 
-### Standard events (for pixel/CAPI)
+### Các sự kiện tiêu chuẩn (cho pixel/CAPI)
 - PAGE_VIEW
 - VIEW_CONTENT
 - SEARCH
@@ -199,59 +199,59 @@ last_updated: 2026-06-24
 - SUBSCRIBE
 - START_CHECKOUT
 
-### Insights API fields (key metrics)
-| Field | Returns | Level |
+### Các trường Insights API (chỉ số chính)
+| Trường | Trả về | Cấp độ |
 |---|---|---|
-| impressions | Total ad impressions | campaign/adset/ad/criteria |
-| spend | Ad spend in currency | campaign/adset/ad/criteria |
-| clicks | All clicks | campaign/adset/ad/criteria |
-| link_clicks | Link clicks only | campaign/adset/ad/criteria |
-| ctr | Click-through rate | campaign/adset/ad/criteria |
-| cpc | Cost per click | campaign/adset/ad/criteria |
-| cpm | Cost per 1,000 impressions | campaign/adset/ad/criteria |
-| actions | Conversion events by type | campaign/adset/ad/criteria |
-| cost_per_action_type | CPA by event type | campaign/adset/ad/criteria |
-| purchase_roas | Return on ad spend (purchase) | campaign/adset/ad/criteria |
-| results | Total optimization results | campaign/adset/ad/criteria |
+| impressions | Tổng số lần hiển thị quảng cáo | campaign/adset/ad/criteria |
+| spend | Chi phí quảng cáo theo tiền tệ | campaign/adset/ad/criteria |
+| clicks | Tất cả lượt nhấp | campaign/adset/ad/criteria |
+| link_clicks | Chỉ lượt nhấp vào liên kết | campaign/adset/ad/criteria |
+| ctr | Tỷ lệ nhấp | campaign/adset/ad/criteria |
+| cpc | Chi phí trên mỗi nhấp chuột | campaign/adset/ad/criteria |
+| cpm | Chi phí trên 1.000 lần hiển thị | campaign/adset/ad/criteria |
+| actions | Sự kiện chuyển đổi theo loại | campaign/adset/ad/criteria |
+| cost_per_action_type | CPA theo loại sự kiện | campaign/adset/ad/criteria |
+| purchase_roas | Tỷ suất lợi nhuận trên chi phí quảng cáo (mua hàng) | campaign/adset/ad/criteria |
+| results | Tổng kết quả tối ưu hóa | campaign/adset/ad/criteria |
 
-### Insights API example query
+### Ví dụ truy vấn Insights API
 `
 GET /act_{AD_ACCOUNT_ID}/insights?level=adset&fields=adset_name,spend,impressions,clicks,link_clicks,ctr,cpc,cpm,actions,purchase_roas&date_preset=last_7d
 `
 
-### Campaign Budget Optimization fields
-- campaign_bid_amount: CBO budget (at campaign level)
-- bid_type: LOWEST_COST_WITHOUT_CAP (default)
-- conversion_rate_trend: algorithm confidence indicator
+### Các trường Tối ưu hóa ngân sách chiến dịch (Campaign Budget Optimization)
+- campaign_bid_amount: Ngân sách CBO (cấp chiến dịch)
+- bid_type: LOWEST_COST_WITHOUT_CAP (mặc định)
+- conversion_rate_trend: Chỉ số tin cậy của thuật toán
 
-## Quick Reference: Metrics Dashboard
+## Tham chiếu nhanh: Bảng điều khiển chỉ số
 
-### Daily monitoring (5 min check)
-- Spend vs daily target
-- CPA vs target CPA
-- Top 3 performing ads
-- Any "Learning Limited" ad sets
+### Giám sát hàng ngày (kiểm tra 5 phút)
+- Chi phí so với mục tiêu hàng ngày
+- CPA so với mục tiêu CPA
+- Top 3 quảng cáo hiệu quả nhất
+- Bất kỳ AdSet nào bị "Learning Limited"
 
-### Weekly review (30 min)
-- ROAS trend (7-day rolling average)
-- Creative fatigue indicators (frequency, CTR decline)
-- Learning phase status for all ad sets
-- Budget pacing against monthly plan
+### Đánh giá hàng tuần (30 phút)
+- Xu hướng ROAS (trung bình trượt 7 ngày)
+- Chỉ số mệt mỏi sáng tạo (tần suất, suy giảm CTR)
+- Trạng thái giai đoạn học tập cho tất cả AdSet
+- Tốc độ ngân sách so với kế hoạch hàng tháng
 
-### Monthly strategy (2 hours)
-- Full funnel performance analysis
-- New creative concept planning
-- Audience expansion opportunities
-- Competitor creative research
-- Pixel data quality audit
+### Chiến lược hàng tháng (2 giờ)
+- Phân tích hiệu suất toàn bộ phễu
+- Lập kế hoạch khái niệm sáng tạo mới
+- Cơ hội mở rộng đối tượng
+- Nghiên cứu sáng tạo của đối thủ cạnh tranh
+- Kiểm toán chất lượng dữ liệu Pixel
 
-## Key Takeaways
-- ROAS is king - track it, optimize for it, scale with it
-- CTR > 1% is good, CPA/ROAS are real success metrics
-- Frequency > 3.0 = ad fatigue, rotate creatives
-- Q4 costs 2-3x higher - plan budget accordingly
-- Vietnam CPM much lower than US (-5 vs -20)
-- Break-even ROAS = 1 / Profit Margin
+## Những điểm chính cần nhớ
+- ROAS là vua - theo dõi nó, tối ưu hóa cho nó và mở rộng quy mô với nó
+- CTR > 1% là tốt, nhưng CPA/ROAS mới là chỉ số thành công thực sự
+- Tần suất > 3.0 = mệt mỏi quảng cáo, hãy thay đổi sáng tạo
+- Chi phí Q4 cao hơn 2-3 lần - lên kế hoạch ngân sách tương ứng
+- CPM tại Việt Nam thấp hơn nhiều so với Mỹ (-5 vs -20)
+- ROAS hòa vốn = 1 / Biên lợi nhuận
 
 ---
-*Created: 2026-06-15 | Sources: marketingadvice.ai, marketingagency.one*
+*Tạo: 2026-06-15 | Nguồn gốc: marketingadvice.ai, marketingagency.one*

@@ -2,7 +2,7 @@
 title: L2 - Nhật ký vòng lặp chuyên sâu - 2026-07-14
 date: 2026-07-14
 updated: 2026-07-14T08:58:02+07:00
-status: completed-not-passed
+status: completed
 level: 2
 pass_score: 97
 legal_as_of: 2026-07-14
@@ -15,6 +15,11 @@ tags:
   - openclaw
   - hermes
   - strict-audit
+slug: l2-nhat-ky-vong-lap-chuyen-sau-2026-07-14
+category: training
+type: log
+created: 2026-07-14
+last_updated: 2026-07-14
 ---
 
 # L2 — Nhật ký vòng lặp chuyên sâu ngày 2026-07-14

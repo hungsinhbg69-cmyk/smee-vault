@@ -1,19 +1,20 @@
 ---
-title: "hoang-ninh-ecolife-facebook-page"
-slug: "hoang-ninh-ecolife-facebook-page"
-category: insights
-tags: [obsidian-cleanup, auto-added]
+title: Hoàng Ninh Ecolife — Facebook Page Analysis
+slug: hoang-ninh-ecolife-facebook-page
+category: knowledge
+tags:
+- noxh
+- hoangninhecolife
+- facebook
+- social-media
+- marketing
 status: draft
 type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Hoàng Ninh Ecolife — Facebook Page Analysis"
-tags: [NOXH, HoangNinhEcolife, facebook, social-media, marketing, 2026]
-date: 2026-06-15
-source: "DuckDuckGo search + Browser snapshot + web_fetch"
+created: 2026-06-15
+last_updated: '2026-07-14'
+source: DuckDuckGo search + Browser snapshot + web_fetch
+related_tags:
+- year/2026
 ---
 
 # Facebook Page Analysis — Hoàng Ninh Ecolife

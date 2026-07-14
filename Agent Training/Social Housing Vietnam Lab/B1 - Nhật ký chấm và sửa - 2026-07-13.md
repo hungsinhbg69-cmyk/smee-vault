@@ -11,6 +11,11 @@ tags:
 status: in-progress
 scenario: 1
 step: 1
+slug: b1-nhat-ky-cham-va-sua-2026-07-13
+category: training
+type: log
+created: 2026-07-13
+last_updated: 2026-07-13
 ---
 
 # B1 — Nhật ký chấm và sửa

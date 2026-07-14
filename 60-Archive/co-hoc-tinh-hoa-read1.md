@@ -1,9 +1,9 @@
 ---
 title: "LẦN 1: Góc Độ Tu Thân Dưỡng Tính - Bài Học Về Đạo Đức & Nhân Cách"
 slug: "co-hoc-tinh-hoa-read1"
-category: reference
+category: archive
 tags: [vault-maintenance]
-status: "draft"
+status: archived
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

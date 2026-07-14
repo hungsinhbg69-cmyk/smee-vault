@@ -1,18 +1,15 @@
 ---
-title: "vault-master-index-prompt-eng"
-slug: "vault-master-index-prompt-eng"
-category: insights
-tags: [obsidian-cleanup, auto-added]
+title: Vault Master Index — Prompt Engineering
+slug: vault-master-index-prompt-eng
+category: knowledge
+tags:
+- index
+- prompt-engineering
+- meta
 status: draft
 type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Vault Master Index — Prompt Engineering"
-tags: [index, prompt-engineering, meta]
 created: 2026-06-18
+last_updated: '2026-07-14'
 ---
 
 # 📚 Prompt Engineering — Vault Index

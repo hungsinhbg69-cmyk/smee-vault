@@ -1,5 +1,5 @@
 ---
-title: "Task Engine Configuration"
+title: "Cấu hình Task Engine"
 slug: "task-engine-configuration"
 category: meta
 tags: [workflow, tasks, automation]
@@ -9,12 +9,12 @@ created: 2026-06-27
 last_updated: 2026-06-27
 ---
 
-# Task Engine Configuration
+# Cấu hình Task Engine
 
-> Central config cho **obsidian-tasks-plugin** + metadata-menu + calendar integration  
-> Custom commands qua **cmdr** plugin để shortcut workflow
+> Cấu hình trung tâm cho **obsidian-tasks-plugin** + metadata-menu + tích hợp lịch  
+> Lệnh tùy chỉnh qua plugin **cmdr** để tạo lối tắt workflow
 
-## Global Tasks Plugin Block (copy vào every project note)
+## Khối Plugin Tasks Toàn cục (sao chép vào mọi ghi chú dự án)
 
 ```tasks
 not done
@@ -31,61 +31,61 @@ hide modified date
 hide task field explanations
 ```
 
-## Task Priority Convention
+## Quy ước Ưu tiên Công việc
 
-| Symbol | Meaning | Auto-color (tasks-plugin) |
+| Ký hiệu | Ý nghĩa | Tự động đổi màu (tasks-plugin) |
 |--------|---------|--------------------------|
-| P1 | Critical - due this week | red |
-| P2 | Important - due this month | orange |
-| P3 | Normal - next sprint | yellow |
-| P4 | Low priority / nice-to-have | green |
+| P1 | Quan trọng - đến hạn tuần này | đỏ |
+| P2 | Cần thiết - đến hạn tháng này | cam |
+| P3 | Bình thường - sprint tiếp theo | vàng |
+| P4 | Ưu tiên thấp / có thể làm sau | xanh lá |
 
-## Quick Commands (cmdr plugin macros)
+## Lệnh Nhanh (macro của plugin cmdr)
 
-Configure mỗi command trong Settings -> cmdr:
+Cấu hình mỗi lệnh trong Settings -> cmdr:
 
-### Command 1: "Create Task from Selected Text"
-Shortcut: T+T
-Steps:
-1. Select text in any note
-2. Press Cmdor Shift+T
-3. Templater generates task-item with selected text as description
-4. Automatically linked to current project date
+### Lệnh 1: "Tạo công việc từ văn bản đã chọn"
+Lối tắt: T+T
+Các bước:
+1. Chọn văn bản trong bất kỳ ghi chú nào
+2. Nhấn Cmd hoặc Shift+T
+3. Templater tạo mục công việc với văn bản đã chọn làm mô tả
+4. Tự động liên kết đến ngày dự án hiện tại
 
-### Command 2: "Mark Done + Add Reflection"  
-Shortcut: Shift+Enter on task
-When marking a task done, prompts for reflection notes before closing
+### Lệnh 2: "Đánh dấu Hoàn thành + Thêm Suy ngẫm"  
+Lối tắt: Shift+Enter trên công việc
+Khi đánh dấu một công việc hoàn thành, hệ thống sẽ yêu cầu ghi chú suy ngẫm trước khi đóng lại
 
-### Command 3: "Weekly Task Brain Dump"
-Opens new note in `40-Knowledge-Synthesis/Insights/` withe auto-generated tasks block for all pending items
+### Lệnh 3: "Dọn dẹp Công việc Hàng tuần"
+Mở ghi chú mới trong `40-Knowledge-Synthesis/Insights/` với khối công việc tự động tạo cho tất cả các mục đang chờ xử lý
 
-## Metadata Menu Quick Edits
+## Chỉnh sửa Nhanh qua Menu Metadata
 
-Plugin **metadata-menu** cung cap GUI de edit frontmatter - khng can go tay.
+Plugin **metadata-menu** cung cấp giao diện đồ họa để chỉnh sửa frontmatter - không cần làm thủ công.
 
-### Bat Edit Pattern
-1. Mo note trong metadata-menu
-2. Edit tags/status/category -> applies in real-time  
-3. Multiple select trong file explorer -> bat-edit metadata
-4. View changes live without reload
+### Bắt đầu Chỉnh sửa Mẫu
+1. Mở ghi chú trong metadata-menu
+2. Chỉnh sửa tags/trạng thái/hệ thống phân loại -> áp dụng ngay lập tức  
+3. Chọn nhiều file trong trình duyệt explorer -> chỉnh sửa đồng bộ metadata
+4. Xem thay đổi trực tiếp mà không cần tải lại
 
-## Calendar Integration Tasks
+## Tích hợp Lịch và Công việc
 
-**Plugin: calendar + periodic-notes** - tasks c linked voi ngay due:
+**Plugin: calendar + periodic-notes** - công việc được liên kết với ngày đến hạn:
 
-- Daily notes (02-Daily/) auto-log capture timestamps
-- Weekly review runs task scan via dataview queries
-- Monthly review archives completed tasks from 60-Archive/
+- Ghi chú hàng ngày (02-Daily/) tự động ghi lại thời gian bắt đầu
+- Đánh giá hàng tuần chạy quét công việc qua truy vấn dataview
+- Đánh giá hàng tháng lưu trữ các công việc đã hoàn thành từ 60-Archive/
 
-## Overdue Escalation Rule
+## Quy tắc Xử lý Công việc Quá hạn
 
 ```dataview
-TABLE status as "Priority", due as "Due Date"
+TABLE status as "Ưu tiên", due as "Ngày đến hạn"
 FROM ""
 WHERE due < date(today) AND done = false
 SORT due ASC
 LIMIT 20
 ```
 
-**Rule:** Any task overdue >7 days -> escalate to P1 or move to "Waiting For".
-**Rule:** Any task waiting 30+ days -> archive or delete.
+**Quy tắc:** Bất kỳ công việc nào quá hạn >7 ngày -> nâng cấp lên P1 hoặc di chuyển sang mục "Đang chờ xử lý".  
+**Quy tắc:** Bất kỳ công việc nào chờ đợi từ 30+ ngày -> lưu trữ hoặc xóa.

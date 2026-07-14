@@ -1,62 +1,62 @@
 ---
-title: "Project — Obsidian Vault Setup"
+title: "Dự án — Thiết lập kho Obsidian"
 slug: "obsidian-vault-setup"
 category: project
-tags: [project, #status/active]
+tags: ["project", "status/active"]
 status: active
 type: project
 created: 2026-06-12
 last_updated: 2026-06-12
 deadline: 
-next_action: Verify Templater config in Obsidian UI
+next_action: Xác nhận cấu hình Templater trong giao diện Obsidian
 progress: 80
 ---
 
-# 🚀 Obsidian Vault Setup
+# 🚀 Thiết lập kho Obsidian
 
-## 📌 Problem Statement
-Setup a professional second brain vault for OpenClaw agent + Hùng, leveraging 41 Obsidian plugins with PARA + Zettelkasten hybrid structure.
+## 📌 Vấn đề cần giải quyết
+Thiết lập một kho "bộ não thứ hai" chuyên nghiệp cho OpenClaw agent + Hùng, tận dụng 41 plugin của Obsidian với cấu trúc lai PARA + Zettelkasten.
 
-## 🎯 Goals & Success Criteria
-- [x] Create PARA folder structure (13 folders)
-- [x] Create 7 note templates with frontmatter
-- [x] Create 3 system documents (README, Protocol, Tag Taxonomy)
-- [x] Configure missing plugin data files (Templater, Tasks, Git, QuickAdd)
-- [x] Launch vault in Obsidian app
-- [ ] Verify Templater template folder config in Obsidian UI (data.json: `templates_folder: "_templates"` ✅ verified)
-- [ ] Enable DataviewJS toggle in Dataview settings (data.json: `enableDataviewJs: true` ✅ verified — just needs to be toggled ON in Obsidian UI)
-- [ ] First weekly review (Saturday 20h)
+## 🎯 Mục tiêu & Tiêu chí thành công
+- [x] Tạo cấu trúc thư mục PARA (13 thư mục)
+- [x] Tạo 7 mẫu ghi chú có frontmatter
+- [x] Tạo 3 tài liệu hệ thống (README, Protocol, Tag Taxonomy)
+- [x] Cấu hình các tệp dữ liệu plugin còn thiếu (Templater, Tasks, Git, QuickAdd)
+- [x] Khởi chạy kho trong ứng dụng Obsidian
+- [ ] Xác nhận cấu trúc thư mục mẫu Templater trong giao diện Obsidian (`data.json: templates_folder: "_templates"` ✅ đã xác minh)
+- [ ] Bật tùy chọn DataviewJS trong cài đặt Dataview (`data.json: enableDataviewJs: true` ✅ đã xác minh — chỉ cần bật ON trong giao diện Obsidian)
+- [ ] Phiên xem xét hàng tuần đầu tiên (Thứ Bảy 20h)
 
-## 🚫 Non-Goals
-- Digital Garden deployment (future)
-- Spaced Repetition setup (future)
-- Zotero integration (when Hùng has papers)
+## 🚫 Không phải mục tiêu
+- Triển khai Digital Garden (tương lai)
+- Thiết lập Spaced Repetition (tương lai)
+- Tích hợp Zotero (khi Hùng có các bài báo)
 
-## 👥 Stakeholders / Team
-- Hùng (Human) — vault owner, content creator
-- Smee (OpenClaw Agent) — maintenance, capture, connect phase
+## 👥 Các bên liên quan / Đội ngũ
+- Hùng (Con người) — chủ sở hữu kho, người sáng tạo nội dung
+- Smee (OpenClaw Agent) — bảo trì, giai đoạn thu thập và kết nối
 
-## 📋 Requirements (Prioritized)
-### Must Have
-- Daily note template with agent instructions
-- Atomic note template for knowledge synthesis
-- Project MOC template
-- Tag taxonomy reference
-- Agent operating protocol
+## 📋 Yêu cầu (Ưu tiên hóa)
+### Bắt buộc phải có
+- Mẫu ghi chú hàng ngày kèm hướng dẫn cho agent
+- Mẫu ghi chú nguyên tử để tổng hợp kiến thức
+- Mẫu MOC dự án
+- Tham chiếu phân loại thẻ tag
+- Giao thức vận hành của Agent
 
-### Nice to Have
-- Dataview dashboard queries
-- QuickAdd capture workflows
-- Kanban board for project tracking
+### Có thì tốt hơn
+- Các truy vấn bảng điều khiển Dataview
+- Quy trình thu thập QuickAdd
+- Bảng Kanban theo dõi dự án
 
-## 📅 Timeline & Milestones
-| Milestone | Target Date | Status |
+## 📅 Lộ trình & Các cột mốc
+| Cột mốc | Ngày mục tiêu | Trạng thái |
 |-----------|-------------|--------|
-| Vault structure + templates | 2026-06-12 | ✅ |
-| Plugin config files | 2026-06-12 | ✅ |
-| First weekly review | 2026-06-13 | ⏳ |
-| Full adoption (20+ notes) | 2026-07-12 | ⏳ |
+| Cấu trúc kho + mẫu | 2026-06-12 | ✅ |
+| Tệp cấu hình plugin | 2026-06-12 | ✅ |
+| Phiên xem xét hàng tuần đầu tiên | 2026-06-13 | ⏳ |
+| Áp dụng đầy đủ (20+ ghi chú) | 2026-07-12 | ⏳ |
 
-## 🔗 Resources & References
-- [[vault-architecture]] — Atomic note on PARA + Zettelkasten hybrid design
-- [[Protocol]] — Governance + Agent Rules (single source of truth)
+## 🔗 Tài nguyên & Tham chiếu
+- [[vault-architecture]] — Ghi chú nguyên tử về thiết kế lai PARA + Zettelkasten
+- [[Protocol]] — Quản trị và Quy tắc Agent (nguồn sự thật duy nhất)

@@ -1,30 +1,26 @@
 ---
-title: "smee-agency-bac-giang-deep-dive"
-slug: "smee-agency-bac-giang-deep-dive"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Smee Agency Bắc Giang — Deep Dive Research"
-slug: "smee-agency-bac-giang-deep-dive"
-category: agency-profile
-tags: [smee, agency, bac-giang, marketing, brand-identity, market-intelligence]
+title: Smee Agency Bắc Giang — Deep Dive Research
+slug: smee-agency-bac-giang-deep-dive
+category: knowledge
+tags:
+- smee
+- agency
+- bac-giang
+- marketing
+- brand-identity
 status: active
 type: research-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 sources:
-  - memory/smee-marketing-story.md
-  - memory/fb-graph-api-reference.md
-  - TOOLS.md
-  - .env
-  - Obsidian vault Bac-Giang notes (6 documents)
-  - Web search results (10+ sources, 2026-06-15)
+- memory/smee-marketing-story.md
+- memory/fb-graph-api-reference.md
+- TOOLS.md
+- .env
+- Obsidian vault Bac-Giang notes (6 documents)
+- Web search results (10+ sources, 2026-06-15)
+related_tags:
+- market-intelligence
 ---
 
 # 🦞 Smee Agency Bắc Giang — Deep Dive Research

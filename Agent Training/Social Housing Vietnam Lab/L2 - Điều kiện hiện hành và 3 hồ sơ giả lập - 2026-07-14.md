@@ -14,6 +14,11 @@ pass_score: 97
 scope: national-with-local-variation
 legal_as_of: 2026-07-14
 source_status: teacher-extracted-from-official-signed-pdfs
+slug: l2-dieu-kien-hien-hanh-va-3-ho-so-gia-lap-2026-07-14
+category: training
+type: exercise
+created: 2026-07-14
+last_updated: 2026-07-14
 ---
 
 # Level 2 — Điều kiện hiện hành và ba hồ sơ giả lập

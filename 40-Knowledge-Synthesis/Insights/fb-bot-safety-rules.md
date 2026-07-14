@@ -1,8 +1,8 @@
 ---
 title: "fb-bot-safety-rules"
 slug: "fb-bot-safety-rules"
-category: insights
-tags: [obsidian-cleanup, auto-added]
+category: knowledge
+tags: []
 status: draft
 type: insight
 created: 2026-06-19

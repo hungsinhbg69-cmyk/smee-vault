@@ -1,9 +1,9 @@
 ---
 title: "LẦN 2: Góc Độ CHIẾN LƯỢC KINH DOANH & ỨNG DỤNG THỰC TẾ"
 slug: "co-hoc-tinh-hoa-read2"
-category: reference
+category: archive
 tags: [vault-maintenance]
-status: "draft"
+status: archived
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

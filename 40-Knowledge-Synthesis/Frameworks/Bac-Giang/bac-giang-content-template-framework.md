@@ -1,23 +1,16 @@
 ---
-title: "bac-giang-content-template-framework"
-slug: "bac-giang-content-template-framework"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Bắc Giang Content Template Framework — Mẫu content theo nền tảng"
-slug: "bac-giang-content-template-framework"
-category: framework
-tags: [bac-giang, content, template, social-media]
+title: Bắc Giang Content Template Framework — Mẫu content theo nền tảng
+slug: bac-giang-content-template-framework
+category: knowledge
+tags:
+- bac-giang
+- content
+- template
+- social-media
 status: active
 type: atomic-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 ---
 
 # 📝 Bắc Giang Content Template Framework — Mẫu content theo nền tảng

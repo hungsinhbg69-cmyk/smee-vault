@@ -1,8 +1,8 @@
 ---
 title: "Bắc Giang BĐS Poster Insights — June 2026"
 slug: "bac-giang-real-estate-poster-insights-june2026"
-category: insights
-tags: [real-estate, facebook, poster, bac-giang, marketing, no-xh, q2-2026]
+category: knowledge
+tags: ["real-estate", "facebook", "bac-giang", "marketing", "social-housing"]
 status: active
 type: insight
 created: 2026-06-22

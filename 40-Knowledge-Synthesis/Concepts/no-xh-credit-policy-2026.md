@@ -1,23 +1,17 @@
 ---
-title: "no-xh-credit-policy-2026"
-slug: "no-xh-credit-policy-2026"
-category: concepts
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: concept
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Chính sách tín dụng NOXH 2026 — NHNN loại trừ khỏi hạn mức BĐS"
-slug: "no-xh-credit-policy-2026"
-category: policy
-tags: [no-xh, credit, nhnn, policy, 2026]
+title: Chính sách tín dụng NOXH 2026 — NHNN loại trừ khỏi hạn mức BĐS
+slug: no-xh-credit-policy-2026
+category: knowledge
+tags:
+- no-xh
+- credit
+- nhnn
+- policy
+- year/2026
 status: active
 type: atomic-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 cited_count: 0
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: "Smee Agent Research & Expansion"
+title: "Nghiên cứu và Mở rộng Agent Smee"
 slug: "agent-research-expansion"
-category: projects
+category: project
 tags: [project, agent, research, expansion]
 status: active
 type: project
@@ -9,34 +9,34 @@ created: 2026-06-18
 last_updated: 2026-06-18
 ---
 
-# 🚀 Smee Agent Research & Expansion
+# 🚀 Nghiên cứu và Mở rộng Agent Smee
 
-## Overview
-Systematic expansion of Smee's capabilities: sub-agent architecture, vault growth, model optimization, and external integrations.
+## Tổng quan
+Mở rộng hệ thống một cách có hệ thống các khả năng của Smee: kiến trúc con agent, tăng trưởng kho lưu trữ (vault), tối ưu hóa mô hình và tích hợp bên ngoài.
 
-## Objectives
-1. **Research Sub-Agent** — Dedicated semantic search + knowledge synthesis worker
-2. **Vault Structure** — Proper PARA with project tracking, area maintenance, resource organization
-3. **Model Optimization** — Switch to Q4 quantized model for better efficiency
-4. **External Integrations** — Notion, Google Calendar, email (future)
+## Mục tiêu
+1. **Nghiên cứu Sub-Agent** — Công nhân chuyên trách tìm kiếm ngữ nghĩa + tổng hợp kiến thức
+2. **Cấu trúc Vault** — Áp dụng PARA đúng cách với theo dõi dự án, bảo trì khu vực và tổ chức tài nguyên
+3. **Tối ưu hóa Mô hình** — Chuyển sang mô hình định lượng Q4 để đạt hiệu quả tốt hơn
+4. **Tích hợp bên ngoài** — Notion, Google Calendar, email (tương lai)
 
-## Timeline
-- Phase 1 (2026-06-18): ✅ Research sub-agent proposal + vault structure
-- Phase 2 (2026-06-19+): Model switch + cron fixes
-- Phase 3 (TBD): Mobile node integration
-- Phase 4 (TBD): External integrations
+## Lộ trình
+- Giai đoạn 1 (2026-06-18): ✅ Đề xuất sub-agent nghiên cứu + cấu trúc vault
+- Giai đoạn 2 (2026-06-19+): Chuyển đổi mô hình + sửa lỗi cron
+- Giai đoạn 3 (Chưa xác định): Tích hợp nút di động
+- Giai đoạn 4 (Chưa xác định): Tích hợp bên ngoài
 
-## KPIs
-- Vault notes growth rate (target: +5/week sustainable)
-- Semantic search accuracy (manual check monthly)
-- Cron job success rate (target: >95%)
-- Sub-agent task completion rate
+## Chỉ số hiệu suất chính (KPIs)
+- Tốc độ tăng trưởng ghi chú trong vault (mục tiêu: +5/tuần bền vững)
+- Độ chính xác tìm kiếm ngữ nghĩa (kiểm tra thủ công hàng tháng)
+- Tỷ lệ thành công của công việc cron (mục tiêu: >95%)
+- Tỷ lệ hoàn thành nhiệm vụ của sub-agent
 
-## Next Actions
-- [ ] Apply research-agent skill proposal
-- [ ] Create actual project folders under 10-Projects/
-- [ ] Add first real marketing project when Hùng provides details
-- [ ] Switch default model to Q4 version
+## Hành động tiếp theo
+- [ ] Áp dụng đề xuất kỹ năng research-agent
+- [ ] Tạo thư mục dự án thực tế dưới 10-Projects/
+- [ ] Thêm dự án marketing đầu tiên khi Hùng cung cấp chi tiết
+- [ ] Chuyển đổi mô hình mặc định sang phiên bản Q4
 
 ---
-*Created: 2026-06-18*
+*Tạo: 2026-06-18*

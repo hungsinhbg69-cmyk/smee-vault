@@ -1,9 +1,9 @@
 ---
 title: "OpenClaw Deep Dive — Chuyên Sâu Toàn Diện"
 slug: "openclaw-deep-dive-2026-06-15"
-category: reference
+category: archive
 tags: [vault-maintenance]
-status: "draft"
+status: archived
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

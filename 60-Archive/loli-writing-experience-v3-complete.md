@@ -1,9 +1,9 @@
 ---
 title: "Kinh Nghiệm Viết Truyện Loli — Phiên Bản Hoàn Chỉnh v3.0"
 slug: "loli-writing-experience-v3-complete"
-category: reference
+category: archive
 tags: [vault-maintenance]
-status: "draft"
+status: archived
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

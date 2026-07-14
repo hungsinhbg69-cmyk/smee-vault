@@ -9,6 +9,11 @@ tags:
 status: in-progress
 current_scenario: 1
 difficulty: hard
+slug: openclaw-va-hermes-3-tinh-huong-kho
+category: training
+type: exercise
+created: 2026-07-13
+last_updated: 2026-07-13
 ---
 
 # OpenClaw và Hermes — 3 tình huống khó

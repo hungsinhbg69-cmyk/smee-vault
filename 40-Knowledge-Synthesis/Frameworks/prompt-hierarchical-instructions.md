@@ -1,7 +1,7 @@
 ---
 title: "prompt-hierarchical-instructions"
 slug: "prompt-hierarchical-instructions"
-category: framework
+category: knowledge
 tags: [vault-maintenance]
 status: "draft"
 type: reference

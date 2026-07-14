@@ -1,23 +1,16 @@
 ---
-title: "bac-giang-identity-triangles"
-slug: "bac-giang-identity-triangles"
-category: concepts
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: concept
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Bắc Giang Identity Triangles — Mô hình 3 lớp tính cách"
-slug: "bac-giang-identity-triangles"
-category: model
-tags: [bac-giang, identity, personality, framework]
+title: Bắc Giang Identity Triangles — Mô hình 3 lớp tính cách
+slug: bac-giang-identity-triangles
+category: knowledge
+tags:
+- bac-giang
+- identity
+- personality
+- framework
 status: active
 type: atomic-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 ---
 
 # 🔺 Bắc Giang Identity Triangles — Mô hình 3 lớp tính cách

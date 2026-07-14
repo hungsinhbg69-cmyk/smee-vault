@@ -2,7 +2,7 @@
 title: "ngay-xua-co-mot-con-bo-cau-chuyen-ve-su-tam-thuong"
 slug: ngay-xua-co-mot-con-bo
 category: resource
-tags: [psychology, personal-development, camilo-cruz, con-bo, su-tam-thuong, vietnamese-book]
+tags: ["psychology", "personal-development", "camilo-cruz", "con-bo", "vietnamese-book"]
 status: active
 type: summary
 created: 2026-07-01

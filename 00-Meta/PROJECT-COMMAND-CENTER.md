@@ -1,43 +1,43 @@
 ---
-title: "Project Command Center"
+title: "Trung tâm điều hành dự án"
 slug: "project-command-center"
 category: meta
-tags: [project-management, kanban, dashboard]
+tags: [quản-trị-dự-án, kanban, dashboard]
 status: active
 type: reference
 created: 2026-06-27
 last_updated: 2026-06-27
 ---
 
-# Project Command Center
+# Trung tâm điều hành dự án
 
-> Central hub cho **kanban plugin** + dataview + tasks-plugin + obsidian-git  
-> Quan ly moi project theo he thong -- status tracking, kanban board, sprint review
+> Hub trung tâm cho **kanban plugin** + dataview + tasks-plugin + obsidian-git  
+> Quản lý mọi dự án theo hệ thống -- theo dõi trạng thái, bảng Kanban, đánh giá sprint
 
-## Active Projects Overview (dataview query)
+## Tổng quan các dự án đang hoạt động (lệnh Dataview)
 
 ````dataview
-TABLE status as "Status", type as "Type", file.ctime as "Started"
+TABLE status as "Trạng thái", type as "Loại", file.ctime as "Bắt đầu"
 FROM "10-Projects"
 WHERE status != "archived"
 SORT file.mtime DESC
 ````
 
-## Kanban Board Configuration
+## Cấu hình bảng Kanban
 
-**Plugin: obsidian-kanban** -- Tao board cho MI mỗi project voi cac columns:
+**Plugin: obsidian-kanban** -- Tạo board cho MI mỗi dự án với các cột:
 
 Backlog -> Ready -> Doing | Review -> Done
 
-### Quick Start New Project Kanban:
+### Bắt đầu nhanh bảng Kanban mới:
 1. Ctrl+P -> "Kanban: Create new kanban board"  
-2. Name: `ProjectName-board.kanban`
-3. Columns: Backlog | Ready | Doing | Review | Done
-4. Each card = wikilink to project note or deliverable file
+2. Tên: `ProjectName-board.kanban`
+3. Cột: Backlog | Ready | Doing | Review | Done
+4. Mỗi thẻ = wikilink đến ghi chú dự án hoặc file giao sản phẩm
 
-### Kanban Card Types (template via templater):
+### Loại thẻ Kanban (khuôn mẫu qua Templater):
 ```yaml
-## Card Template (templater-driven)
+## Khuôn mẫu Thẻ (điều khiển bởi templater)
 - Type: milestone/feature/bug/review 
 - Priority: P1/P2/P3/P4  
 - Due: YYYY-MM-DD
@@ -45,11 +45,11 @@ Backlog -> Ready -> Doing | Review -> Done
 - Tags: #project/#status/
 ```
 
-## Project Sprint Tracking (mermaid diagram)
+## Theo dõi Sprint dự án (biểu đồ Mermaid)
 
 **Plugin: mermaid-tools + mermaid.js rendering**
 
-### Example: Current Sprint Status
+### Ví dụ: Trạng thái Sprint hiện tại
 ```mermaid
 graph LR
     A[Backlog <15 items>] --> B(Ready 3-5 items)
@@ -61,33 +61,33 @@ graph LR
     style E fill:#9f9,stroke:#333
 ```
 
-## Git Commit Log Integration
+## Tích hợp nhật ký commit Git
 
-**Plugin: obsidian-git** -- Xem commit history truc tiep trong Obsidian
+**Plugin: obsidian-git** -- Xem lịch sử commit trực tiếp trong Obsidian
 
-### Recent Git Commits (via git log)
-> Open Command Palette -> "Git: Show History" de view timeline
+### Các commit Git gần đây (qua git log)
+> Mở Command Palette -> "Git: Show History" để xem timeline
 
 ```bash
-# View last 10 commits to vault (run with terminal or pandoc export)
+# Xem 10 commit cuối cùng của vault (chạy qua terminal hoặc xuất pandoc)
 git log --oneline --since="7 days ago" -n 10
 ```
 
-### Git Auto-Backup Settings
-- Sync every: 5 minutes (recommended)  
-- Commit template: `[HH:mm] <action>: "<description>"`
-- Branch strategy: main only (no need for feature branches in personal PKM)
+### Cài đặt tự động sao lưu Git
+- Đồng bộ mỗi: 5 phút (khuyến nghị)  
+- Khuôn mẫu commit: `[HH:mm] <hành-dộng>: "<mô-tả>"`
+- Chiến lược nhánh: chỉ main (không cần nhánh feature trong PKM cá nhân)
 
-## Project Risk Dashboard
+## Bảng điều hành rủi ro dự án
 
 **Plugin: dataview + table-editor-obsidian**
 
-| Project | Next Action | Due Date | Confidence | Risk Level |
+| Dự án | Hành động tiếp theo | Hạn chót | Mức độ tin cậy | Mức độ rủi ro |
 |---------|-------------|----------|------------|------------|
-| `Project 1` | | | Green/Yellow/Red | LOW/MEDIUM/HIGH |
-| `Project 2` | | | Green/Yellow/Red | LOW/MEDIUM/HIGH |
+| `Project 1` | | | Xanh/Lục/Vàng/Đỏ | THẤP/TRUNG BÌNH/CAO |
+| `Project 2` | | | Xanh/Lục/Vàng/Đỏ | THẤP/TRUNG BÌNH/CAO |
 
-### Risk Factors (auto-assessed)
-- High = overdue task + no deliverable in 30+ days
-- Medium = progress stalled >14 days but active discussion  
-- Low = moving forward per plan
+### Các yếu tố rủi ro (đánh giá tự động)
+- Cao = nhiệm vụ quá hạn + không có sản phẩm giao trong 30+ ngày
+- Trung bình = tiến độ bị đình trệ >14 ngày nhưng đang thảo luận tích cực  
+- Thấp = đang di chuyển theo kế hoạch

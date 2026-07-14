@@ -1,8 +1,8 @@
 ---
 title: "OpenClaw Windows Operations - Verified 2026-07-13"
 slug: "openclaw-windows-operations"
-category: framework
-tags: [Tool/OpenClaw, project/AI-Agent-Engineering, Concept/ai-agent-design, Status/reference]
+category: knowledge
+tags: ["tool/openclaw", "project/ai-agent-engineering", "concept/ai-agent-design", "status/reference"]
 status: active
 type: reference
 created: 2026-07-13

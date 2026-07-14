@@ -1,11 +1,11 @@
 ---
 title: "{{paper_title}}"
 slug: "research-paper-slug"
-category: knowledge
+category: archive
 type: research-paper
-status: draft
-created: {{date}}
-last_updated: {{date}}
+status: archived
+created: 2026-06-20
+last_updated: 2026-07-13
 tags: [zotero, research-paper]
 ---
 

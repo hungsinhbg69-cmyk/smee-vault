@@ -1,11 +1,12 @@
 ---
-title: "Self-Critique — 2026-07-03 17h00"
+title: "Tự phê bình — 2026-07-03 17h00"
 slug: "self-critique-2026-07-03-17h"
-category: knowledge-synthesis
+category: project
 type: insights
 status: draft
 created: 2026-07-03 17:00
 tags: [self-critique, self-improvement, daily-review]
+last_updated: 2026-07-03
 ---
 
 ## ❌ Lỗi & Vấp phải

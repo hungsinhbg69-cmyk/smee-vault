@@ -17,8 +17,8 @@ tags: [real-estate, social-housing, commercial-condo, bac-ninh]
 
 ## Thông tin cơ bản | Basic Info
 
-| Trường | Value |
-|--------|-------|
+| Trường | Giá trị |
+|--------|---------|
 | **Tên dự án** | NOXH Hoàng Ninh Ecolife (Nhà ở xã hội Nam Ngạn) |
 | **Loại hình** | Nhà ở xã hội + Chung cư thương mại |
 | **NDC** | Công ty CP Hoàng Ninh Group |
@@ -65,15 +65,15 @@ tags: [real-estate, social-housing, commercial-condo, bac-ninh]
 | Block C (T1) | T3 – T10 |
 | Block C (T2) | T11 – T18 |
 
-## Assets — Google Drive (Marketing Materials)
+## Tài sản — Google Drive (Vật liệu Marketing)
 
-📁 **Folder:** https://drive.google.com/drive/u/0/folders/1Kp6Uo4OsyITuw_8QR7zmUTrOKEO_mAd2  
-**Folder ID:** `1Kp6Uo4OsyITuw_8QR7zmUTrOKEO_mAd2`
+📁 **Thư mục:** https://drive.google.com/drive/u/0/folders/1Kp6Uo4OsyITuw_8QR7zmUTrOKEO_mAd2  
+**ID Thư mục:** `1Kp6Uo4OsyITuw_8QR7zmUTrOKEO_mAd2`
 
-### 25 Sub-folders (tất cả shared folders)
+### 25 Thư mục con (tất cả là thư mục chia sẻ)
 
-| # | Tên folder | Google Drive Link |
-|---|-----------|------------------|
+| # | Tên thư mục | Link Google Drive |
+|---|-------------|------------------|
 | 1 | 1.Tài liệu pháp lý – Nội thất nhà mẫu | https://drive.google.com/drive/folders/16015178591338915303 |
 | 2 | 2.Sân khấu | https://drive.google.com/drive/folders/14463661787294136511 |
 | 3 | 3.Thư mời | https://drive.google.com/drive/folders/15Yu-n1ZgWAr578CndR-cbo9w0XELOZUV |
@@ -100,30 +100,30 @@ tags: [real-estate, social-housing, commercial-condo, bac-ninh]
 | 24 | SX Media | https://drive.google.com/drive/folders/1C9L0fwBon1dSBIMs4gB3H9LY1aoP9X-n |
 | 25 | Video Highlight | https://drive.google.com/drive/folders/1kwXlcYh7dcaCIeVk5XvlR8aOsY9Chl7F |
 
-## Timeline Events (từ Drive metadata timestamps)
+## Các sự kiện theo thời gian (từ timestamp metadata của Drive)
 
-| Sự kiện | Last Modified |
+| Sự kiện | Lần sửa cuối |
 |---------|--------------|
-| Video Highlight | ~26 thg 2 |
-| SX Media | ~3 thg 1 |
-| Lễ khởi công | ~14 thg 4 |
-| Cổng, Back khinh khí cầu | ~4-5 thg 8 |
-| Flycam Khởi công | ~9 thg 8 |
-| THẺ ĐEO, Cổng Ráp, can ho mau | ~6-8 thg 8-10 (2025) |
-| Lễ cất nóc 13/06 | ~16 thg 6 |
+| Video Highlight | ~26/02 |
+| SX Media | ~03/01 |
+| Lễ khởi công | ~14/04 |
+| Cổng, Back khinh khí cầu | ~04-05/08 |
+| Flycam Khởi công | ~09/08 |
+| THẺ ĐEO, CỔNG RÁP, can ho mau | ~06-08/08 – 10 (2025) |
+| Lễ cất nóc 13/06 | ~16/06 |
 
-## Social & Media Links
+## Liên kết Mạng xã hội & Truyền thông
 
 | Kênh | URL |
 |------|-----|
 | **Website** | https://hoangninhgroup.vn/hoang-ninh-ecolife-342549 |
 | **Facebook** | https://www.facebook.com/hoangninhecolife |
-| **YouTube embed** | https://www.youtube.com/embed/sN4QlkYr420 |
+| **YouTube nhúng** | https://www.youtube.com/embed/sN4QlkYr420 |
 
-## Website Official Images (Gallery)
+## Hình ảnh Website chính thức (Galeri)
 
-| # | Direct URL |
-|---|-----------|
+| # | URL trực tiếp |
+|---|--------------|
 | 1 | https://hoangninhgroup.vn/public/upload/hoangninh/1.2-1-scaled.webp |
 | 2 | https://hoangninhgroup.vn/public/upload/hoangninh/16.4-scaled.webp |
 | 3 | https://hoangninhgroup.vn/public/upload/hoangninh/16.9-scaled.webp |
@@ -137,10 +137,10 @@ tags: [real-estate, social-housing, commercial-condo, bac-ninh]
 |--------|---------|
 | productID | 49 |
 | GTIN-8 / SKU | 8933002301496 |
-| Website publish date | 2019-09-16 |
-| Last modified (web) | 2026-04-23 |
+| Ngày xuất bản Website | 2019-09-16 |
+| Lần sửa cuối (web) | 2026-04-23 |
 | Designer | iHappy.vn |
 
 ---
 
-*Data compiled: 2026-06-26 from https://hoangninhgroup.vn/hoang-ninh-ecolife-342549 + Google Drive folder.*
+*Dữ liệu tổng hợp: 2026-06-26 từ https://hoangninhgroup.vn/hoang-ninh-ecolife-342549 + thư mục Google Drive.*

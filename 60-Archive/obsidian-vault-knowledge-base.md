@@ -1,9 +1,9 @@
 ---
 title: "Obsidian Vault — Kho Kiến Thức Toàn Diện"
 slug: "obsidian-vault-complete-guide"
-category: "knowledge-base"
-tags: ["obsidian", "pkm", "zettelkasten", "para", "moc", "workflow"]
-status: "stable"
+category: archive
+tags: ["obsidian", "pkm", "zettelkasten", "para", "workflow"]
+status: archived
 type: reference
 created: 2025-12-01
 last_updated: "2026-06-11"

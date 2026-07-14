@@ -1,5 +1,5 @@
 ---
-title: "Bắc Giang Specialty Products — Đặc sản & OCOP"
+title: "Đặc sản Bắc Giang — Đặc sản & OCOP"
 slug: "bac-giang-specialty-products"
 category: resource
 tags: [vault-maintenance]
@@ -11,9 +11,9 @@ last_updated: 2026-06-24
 
 ---
 
-# 🍒 Bắc Giang Specialty Products — Đặc sản & OCOP
+# 🍒 Đặc sản Bắc Giang — Đặc sản & OCOP
 
-> [!SUMMARY] 10 đặc sản tiêu biểu, 4 nông sản chủ lực với mùa vụ cụ thể. Festival vải thiều Lục Ngạn là event marketing lớn hàng năm. 100% sản phẩm OCOP tham gia sàn TMĐT.
+> [!SUMMARY] 10 đặc sản tiêu biểu, 4 nông sản chủ lực với mùa vụ cụ thể. Lễ hội vải thiều Lục Ngạn là sự kiện marketing lớn hàng năm. 100% sản phẩm OCOP tham gia sàn thương mại điện tử.
 
 ## 1. NÔNG SẢN CHỦ LỰC
 
@@ -31,7 +31,7 @@ last_updated: 2026-06-24
 | 1 | **Mỳ Chũ** | Làm từ gạo Bao Thai Hồng, huyện Lục Nam |
 | 2 | **Bánh đa Thổ Hà** | Đặc sản truyền thống |
 | 3 | **Gà đồi Yên Thế** | Gà thả đồi, thịt chắc |
-| 4 | **Gỏi cá mè** | Guinness World Records 2012 |
+| 4 | **Gỏi cá mè** | Kỷ lục Guinness World Records 2012 |
 | 5 | **Xôi trứng kiến** | Người Tày, tháng 3-4 âm lịch |
 | 6 | **Chè Bát Tiên** Sơn Động | Chè từ cây gút (chè bằng) |
 | 7 | **Bánh đúc Đồng Quan** | Bánh đúc truyền thống |
@@ -41,19 +41,19 @@ last_updated: 2026-06-24
 
 ## 3. MÙA VỤ & MARKETING THEO MÙA
 
-| Mùa | Sản phẩm | Action marketing |
-|-----|----------|-----------------|
-| Tháng 5-6 | Vải thiều (peak) | Festival vải, farm tour, livestream bán vải |
-| Tháng 6-9 | Na, Cam | Bundling với vải sấy khô |
-| Tháng 3-4 | Xôi trứng kiến | Content Tày culture + food |
-| Mùa đông | Cua da | Seasonal limited offer |
-| Quanh năm | Vải sấy khô, Mỳ Chũ | Ship free là key conversion driver |
+| Mùa | Sản phẩm | Chiến lược marketing |
+|-----|----------|----------------------|
+| Tháng 5-6 | Vải thiều (cao điểm) | Lễ hội vải, tham quan vườn, livestream bán vải |
+| Tháng 6-9 | Na, Cam | Combo với vải sấy khô |
+| Tháng 3-4 | Xôi trứng kiến | Nội dung về văn hóa Tày + ẩm thực |
+| Mùa đông | Cua da | Ưu đãi giới hạn theo mùa |
+| Quanh năm | Vải sấy khô, Mỳ Chũ | Miễn phí vận chuyển là yếu tố then chốt thúc đẩy chuyển đổi |
 
 ## 4. DU LỊCH KẾT HỢP ĐẶC SẢN
 
-- **Festival vải thiều Lục Ngạn**: event marketing lớn hàng năm
-- **Homestay + farm visit**: trend du khách chụp ảnh tại vườn vải
-- **10+ đặc sản** → content marketing đa dạng
+- **Lễ hội vải thiều Lục Ngạn**: sự kiện marketing lớn hàng năm
+- **Homestay + tham quan vườn**: xu hướng du khách chụp ảnh tại vườn vải
+- **10+ đặc sản** → nội dung marketing đa dạng
 - **Điểm check-in độc lạ** cho khách "sống ảo" (tương tự Mộc Châu)
 
 ---

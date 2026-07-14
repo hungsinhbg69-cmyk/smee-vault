@@ -1,19 +1,19 @@
 ---
-title: "reasoning-vs-gpt-models"
-slug: "reasoning-vs-gpt-models"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
+title: Prompt Architecture — Reasoning vs GPT Models
+slug: reasoning-vs-gpt-models
+category: knowledge
+tags:
+- prompt-engineering
+- reasoning-models
+- gpt-models
+- model-selection
 status: draft
 type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Prompt Architecture — Reasoning vs GPT Models"
-tags: [prompt-engineering, reasoning-models, gpt-models, model-selection]
-aliases: [Reasoning vs GPT, Model Strategy]
 created: 2026-06-18
+last_updated: '2026-07-14'
+aliases:
+- Reasoning vs GPT
+- Model Strategy
 parent: prompt-architecture-overview.md
 ---
 

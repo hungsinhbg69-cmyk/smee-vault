@@ -6,7 +6,12 @@ tags:
   - social-housing
   - audit-retest
 training_trap: true
-status: active-test
+status: active
+slug: b1-hermes-independent-retest-variant
+category: training
+type: exercise
+created: 2026-07-13
+last_updated: 2026-07-13
 ---
 
 # B1 — Hermes independent retest variant

@@ -1,12 +1,14 @@
 ---
 slug: thuat-ban-hang-brian-tracy-phan-bien
 title: "Thuật Bán Hàng (Brian Tracy) — Phản biện toàn diện"
-category: "40-Knowledge-Synthesis/Books-Marketing"
-tags: [Bán-hàng, Brian-Tracy, Pareto, Sales-Funnel, Relationship-Selling, Cialdini, CLV-CAC]
+category: knowledge
+tags: ["sales", "brian-tracy", "sales-funnel", "relationship-selling", "clv-cac"]
 aliases: ["Thuật Bán Hàng 002", "Brian Tracy Sales"]
 type: Note-Phản-biên-sau-khi-cung-absorption
 date-created: 2026-07-03
-status: finished
+status: completed
+created: 2026-07-03
+last_updated: 2026-07-03
 ---
 
 # Thuật Bán Hàng (Brian Tracy) — Phản biện toàn diện 2 lần + Bài học chi tiết
@@ -87,13 +89,13 @@ FedEx helicopter example = $8,000/delivery. Small business: không scalable. Ser
 ## BÀI HỌC CHÍNH (Core frameworks)
 
 ### 1. Khách hàng mua SỰ CẢI THIỆN, không mua SẢN PHẨM
-Khách hàng mua outcome — cải thiện cuộc sống/công việc > product itself. Product chỉ là phương tiện để đạt value. Insight này align với [[JTBD-Jobs-To-Be-Done]] framework của Christensen — "hire" sản phẩm để "get the job done".
+Khách hàng mua outcome — cải thiện cuộc sống/công việc > product itself. Product chỉ là phương tiện để đạt value. Insight này align với [[jobs-to-be-done|JTBD-Jobs-To-Be-Done]] framework của Christensen — "hire" sản phẩm để "get the job done".
 
 ### 2. Lợi thế cạnh tranh = KHÁC BIỆT trong ít nhất 4 khía cạnh
 Michael Porter's Unique Value Added — không cần số 1 MỌI thứ, chỉ cần khác biệt trong: (a) chất lượng tốt hơn (b) nhanh hơn (c) rẻ hơn (d) dễ dùng hơn. Customer dùng weighted evaluation, không objective scoring từ seller.
 
 ### 3. Feedback loop: Self-esteem → Performance → Success → Self-esteem++
-"Hệ thống tự củng cố" đầu tiên trong sách, chính xác là Bandura's [[SEF-Efficacy/Self-Concept]] (Social Cognitive Theory). Book có insight nhưng chưa connect với academic framework — gap để bổ sung.
+"Hệ thống tự củng cố" đầu tiên trong sách, chính xác là Bandura's [[self-efficacy-self-concept|SEF-Efficacy/Self-Concept]] (Social Cognitive Theory). Book có insight nhưng chưa connect với academic framework — gap để bổ sung.
 
 ### 4. Conversion funnel ratios định đoạt chiến lược (20:5:2:1)
 Understanding từ lead→meeting→proposal→deal → tính được bao nhiêu inputs cần cho output目标. Foundation của modern sales analytics book này là đúng về concept, nhưng tỷ lệ thay đổi theo industry.
@@ -102,23 +104,23 @@ Understanding từ lead→meeting→proposal→deal → tính được bao nhiê
 Checkup chiếm bulk time → customer cảm thấy lắng nghe → diagnosis xác nhận existence of problem → prescription feel như solution logic duy nhất. Đây chính xác là phương pháp SPIN/Rationale selling hiện đại.
 
 ### 6. Internal dialogue determines 95% emotional state
-Self-talk → emotions → behaviors. Connects trực tiếp tới [[CBT-Cognitive-Behavioral-Theory]]: thoughts shape feelings, feelings drive actions. Book's insight predates modern CBT popularization in sales training by decades.
+Self-talk → emotions → behaviors. Connects trực tiếp tới [[cognitive-behavioral-theory|CBT-Cognitive-Behavioral-Theory]]: thoughts shape feelings, feelings drive actions. Book's insight predates modern CBT popularization in sales training by decades.
 
 ---
 
 ## BÀI HỌC HỖ TRỢ (Supporting insights)
 
 ### 7. Post-sale service = REAL differentiator
-Lần bán nhắc lại easy hơn lần đầu 10x. Referral sells easy hơn cold outreach 15x → tạo [[CLV-CAC-Golden-Referral-Chain]]. Book có insight nhưng không formalize với term "Customer Lifetime Value (CLV)" và "CAC".
+Lần bán nhắc lại easy hơn lần đầu 10x. Referral sells easy hơn cold outreach 15x → tạo [[clv-cac-golden-referral-chain|CLV-CAC-Golden-Referral-Chain]]. Book có insight nhưng không formalize với term "Customer Lifetime Value (CLV)" và "CAC".
 
 ### 8. Creative postponement trên low-value tasks
-Apply 80/20 time management — postpone what generates <20% value, focus on high-leverage activities (prospecting, presenting, closing). Identical đến [[Eisenhower-Matrix]]'s "Important but not urgent" quadrant.
+Apply 80/20 time management — postpone what generates <20% value, focus on high-leverage activities (prospecting, presenting, closing). Identical đến [[eisenhower-matrix|Eisenhower-Matrix]]'s "Important but not urgent" quadrant.
 
 ### 9. Decision-making happens qua STORIES (right hemisphere)
 Facts convince → stories sell. Neuroscience validation: fMRI studies cho thấy narrative engagement activates nhiều brain regions simultaneously → deeper encoding. Book đúng, 25 năm trước neuroscience chứng minh.
 
 ### 10. Social proof cultural-dependent trong VN
-Collectivist culture → word-of-mouth/referrals carry MORE weight. Decisions influenced by group consensus (gia đình, đồng nghiệp, cộng đồng). Social proof ở VN hoạt động mạnh qua [[Zalo-commerce]] groups và trusted community leaders — cao hơn Mỹ ~2-3x theo Nielsen Vietnam Consumer Confidence surveys.
+Collectivist culture → word-of-mouth/referrals carry MORE weight. Decisions influenced by group consensus (gia đình, đồng nghiệp, cộng đồng). Social proof ở VN hoạt động mạnh qua [[zalo-commerce|Zalo-commerce]] groups và trusted community leaders — cao hơn Mỹ ~2-3x theo Nielsen Vietnam Consumer Confidence surveys.
 
 ### 11. Price objection = purchase signal
 Book's "chê bai nhiều gấp đôi thương vụ thành công" → đúng: người không quan tâm thì không chê. Chê bao = quan tâm nhiều. Strategy: biến từ "đắt quá" → phân tích value-per-unit-of-time hay cost-of-inaction.
@@ -157,7 +159,7 @@ Book's 20:5:2:1 ratio too generic. Need database theo industry VN:
 - "Tình cảm trước, lợi ích sau" pattern trong bán hàng B2B Việt Nam
 
 ### P5: Personal Sales Funnel Scorecard Template
-Weekly tracking metrics theo book's 7 key areas + modern KPIs. Create [[Sales-Funnel-Scorecard]] for daily use.
+Weekly tracking metrics theo book's 7 key areas + modern KPIs. Create [[sales-funnel-scorecard|Sales-Funnel-Scorecard]] for daily use.
 
 ---
 
@@ -175,6 +177,5 @@ Weekly tracking metrics theo book's 7 key areas + modern KPIs. Create [[Sales-Fu
 > *"Sự khác biệt giữa người bán hàng giỏi nhất và tệ nhất rất nhỏ xét về kỹ năng, nhưng tổng hợp lại tạo ra khoảng cách khổng lồ về kết quả."* — Brian Tracy
 
 ## LIÊN KẾT
-- [[JTBD-Jobs-To-Be-Done]] | [[SEF-Efficacy/Self-Concept]] | [[Eisenhower-Matrix]] | [[Zalo-commerce]]
-- [[SPIN-Selling]] | [[CLV-CAC-Golden-Referral-Chain]] | [[CBT-Cognitive-Behavioral-Theory]]
-
+- [[jobs-to-be-done|JTBD-Jobs-To-Be-Done]] | [[self-efficacy-self-concept|SEF-Efficacy/Self-Concept]] | [[eisenhower-matrix|Eisenhower-Matrix]] | [[zalo-commerce|Zalo-commerce]]
+- [[spin-selling|SPIN-Selling]] | [[clv-cac-golden-referral-chain|CLV-CAC-Golden-Referral-Chain]] | [[cognitive-behavioral-theory|CBT-Cognitive-Behavioral-Theory]]

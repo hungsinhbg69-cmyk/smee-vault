@@ -1,5 +1,5 @@
 ---
-title: "Kanban Board"
+title: "Bảng Kanban"
 slug: "kanban-board-main"
 category: project
 tags: [kanban, board]
@@ -9,7 +9,4 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-kanban-plugin: board
-
----
-
+kanban-plugin: bảng

@@ -1,23 +1,17 @@
 ---
-title: "du-an-no-xh-tay-dinh-tri-2026"
-slug: "du-an-no-xh-tay-dinh-tri-2026"
-category: concepts
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: concept
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Dự án NOXH Tây Dĩnh Trì — 704 căn tại phường Bắc Giang"
-slug: "du-an-no-xh-tay-dinh-tri-2026"
-category: project
-tags: [no-xh, bac-giang, phuong-bac-giang, west-dinh-tri, 2026]
+title: Dự án NOXH Tây Dĩnh Trì — 704 căn tại phường Bắc Giang
+slug: du-an-no-xh-tay-dinh-tri-2026
+category: knowledge
+tags:
+- no-xh
+- bac-giang
+- phuong-bac-giang
+- west-dinh-tri
+- year/2026
 status: active
 type: atomic-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 cited_count: 0
 ---
 

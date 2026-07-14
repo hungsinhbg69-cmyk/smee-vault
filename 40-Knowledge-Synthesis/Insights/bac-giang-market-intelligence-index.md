@@ -1,23 +1,16 @@
 ---
-title: "bac-giang-market-intelligence-index"
-slug: "bac-giang-market-intelligence-index"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Bac-Giang Market Intelligence 2026"
-slug: "bac-giang-market-intelligence-2026"
-category: market-research
-tags: [bac-giang, market-intelligence, statistics, economy]
+title: Bac-Giang Market Intelligence 2026
+slug: bac-giang-market-intelligence-index
+category: knowledge
+tags:
+- bac-giang
+- market-intelligence
+- statistics
+- economy
 status: active
 type: index-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 ---
 
 # 📊 Bac-Giang Market Intelligence 2026 — Index Note

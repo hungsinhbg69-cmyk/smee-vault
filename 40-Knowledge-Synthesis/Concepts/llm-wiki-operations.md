@@ -1,21 +1,21 @@
 ---
-title: "llm-wiki-operations"
-slug: "llm-wiki-operations"
-category: concepts
-tags: [obsidian-cleanup, auto-added]
-status: draft
+title: LLM Wiki — Operations (Ingest, Query, Lint)
+slug: llm-wiki-operations
+category: knowledge
+tags:
+- llm
+- wiki
+- operations
+- karpathy
+- workflow
+status: active
 type: concept
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "LLM Wiki — Operations (Ingest, Query, Lint)"
-tags: [llm, wiki, operations, karpathy, workflow]
-date: 2026-06-16
-source: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
-related: ["llm-wiki-karpathy-pattern", "llm-wiki-architecture"]
-status: reviewed
+created: 2026-06-16
+last_updated: '2026-07-14'
+source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+related:
+- llm-wiki-karpathy-pattern
+- llm-wiki-architecture
 ---
 
 # LLM Wiki — Operations (Ingest, Query, Lint)

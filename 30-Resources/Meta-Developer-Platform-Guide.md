@@ -1,12 +1,12 @@
 ---
 title: "Meta Developer Platform - Full Guide"
 slug: "meta-developer-platform-guide"
-category: knowledge
+category: resource
 type: guide
-status: v1-complete
+status: completed
 created: 2026-06-24
 tags: [api, facebook, meta, dev-platform, integration]
-last_updated: {{date}}
+last_updated: 2026-07-13
 ---
 
 # Meta Developer Platform - Hướng Dẫn Tổng Hợp

@@ -1,12 +1,14 @@
 ---
 slug: co-hoc-tinh-hoa-phan-bien
 title: "Cơ Học Tinh Hoa — Phân Biện & Tri Thức Ứng Dụng"
-category: "Tri-thức-Nhân-loại/Sách-cổ"
-tags: [Critical-Review, Ancient-Texts, Human-Nature, Confucian-Bias]
+category: knowledge
+tags: ["critical-review", "ancient-texts", "human-nature", "confucian-bias"]
 aliases: ["Co-Hoc-Tinh-Hoa", "1056-co-hoc-pb"]
 type: Note-Tổng-hợp-Phân-biện
 date-created: 2026-07-03
-status: finished
+status: completed
+created: 2026-07-03
+last_updated: 2026-07-03
 ---
 
 # Cơ Học Tinh Hoa — Phân Biện & Tri Thức Ứng Dụng
@@ -30,16 +32,16 @@ status: finished
 ## 📚 BÀI HỌC PHỤ & MAPPED DOMAIN (Áp dụng thực tế)
 
 ### 1. Tâm Lý Học Hành Vi (Psychology & Behavior)
-- **[[Hiệu ứng Tây Thi - Context Matters]]:** Bắt chước máy móc không hiệu quả vì thiếu ngữ cảnh/bối cảnh cá nhân. Personalization là chìa khóa.
+- **[[context-matters-hieu-ung-tay-thi|Hiệu ứng Tây Thi - Context Matters]]:** Bắt chước máy móc không hiệu quả vì thiếu ngữ cảnh/bối cảnh cá nhân. Personalization là chìa khóa.
 - **Dư Luận = Sức Mạnh Bóp Mệt:** Truyện "Tăng Sâm giết người" minh họa sức mạnh của social proof/rumor (3 người nói có cọp, thiên hạ tin ngay).
 
 ### 2. Chiến Lược Kinh Doanh (Business Strategy)
-- **[[Tham Là Động Lực Hay Cạm Bẫy?]]:** *Tham* đúng chiều hướng = Adam Smith invisible hand = đổi mới sáng tạo (Startups, Pioneer investors). *Tham mù quáng* = Thục Vương (tham con trâu đá mà mất nước). Phân biệt rõ hai trạng thái này.
-- **[[Kiếm lửa giữa mùa hè]]:** Kỹ năng là yếu tố nội tại, nhưng Market-Fit là yếu tố bối cảnh. "Người Lỗ bán giày nước Việt" là ví dụ kinh điển về sản phẩm tốt nhưng sai thời điểm/địa điểm (Product-Market Fit).
+- **[[tham-dong-luc-hay-cam-bay|Tham Là Động Lực Hay Cạm Bẫy?]]:** *Tham* đúng chiều hướng = Adam Smith invisible hand = đổi mới sáng tạo (Startups, Pioneer investors). *Tham mù quáng* = Thục Vương (tham con trâu đá mà mất nước). Phân biệt rõ hai trạng thái này.
+- **[[product-market-fit-kiem-lua-giua-mua-he|Kiếm lửa giữa mùa hè]]:** Kỹ năng là yếu tố nội tại, nhưng Market-Fit là yếu tố bối cảnh. "Người Lỗ bán giày nước Việt" là ví dụ kinh điển về sản phẩm tốt nhưng sai thời điểm/địa điểm (Product-Market Fit).
 
 ### 3. Logic & Tư Duy Phản Biện (Logic & Logic)
-- **[[False Balance - Hai Phải]]:** Đặng Tích xúi đôi bên kiện tụng cùng lúc đều "phải". ÁP DỤNG HIỆN ĐẠI: Media tạo ra balance giữa khoa học và phe bảo thủ chỉ vì nhu cầu cân bằng, không phải vì sự thật ngang nhau.
-- **[[Law of Inverse (Vua Trang Vương)]]:** Cái tưởng là lợi lớn (kho tàng nhiều, thành sâu) có thể là bất lợi ngầm (thuế nặng, dân kiệt sức). Tư duy phản biện cần nhìn ra secondary consequences.
+- **[[false-balance-hai-phai|False Balance - Hai Phải]]:** Đặng Tích xúi đôi bên kiện tụng cùng lúc đều "phải". ÁP DỤNG HIỆN ĐẠI: Media tạo ra balance giữa khoa học và phe bảo thủ chỉ vì nhu cầu cân bằng, không phải vì sự thật ngang nhau.
+- **[[law-of-inverse-secondary-consequences|Law of Inverse (Vua Trang Vương)]]:** Cái tưởng là lợi lớn (kho tàng nhiều, thành sâu) có thể là bất lợi ngầm (thuế nặng, dân kiệt sức). Tư duy phản biện cần nhìn ra secondary consequences.
 
 ### 4. Quản Trị & Lãnh Đạo (Leadership)
 - **Cooperation Payoff > Competition:** Truyện "Ba con rận" (hợp tác cùng chống lại đồ tể / "Hòa vi quý"). Hợp tác tạo ra value lớn hơn là tranh cãi zero-sum bên trong (đội nhóm, quốc gia).

@@ -1,7 +1,7 @@
 ---
 title: "Task System Wiki"
 slug: "task-system-wiki"
-category: insight
+category: knowledge
 tags: [tasks, wiki, quick-reference, kanban-integration]
 status: active
 type: insights

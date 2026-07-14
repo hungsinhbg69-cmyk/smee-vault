@@ -1,5 +1,5 @@
 ---
-title: "Optimization Strategies"
+title: "Chiến lược Tối ưu hóa"
 slug: "optimization"
 category: resource
 tags: [facebook-ads, meta-ads]
@@ -9,178 +9,178 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-﻿# 06 - Optimization & Scaling (Tieu chuan + Mo rong campaign)
+# 06 - Tối ưu hóa & Mở rộng quy mô (Chuẩn hóa + Mở rộng chiến dịch)
 
-## Testing Strategy Framework
+## Khung chiến lược kiểm thử
 
-### What to test (prioritized)
-1. **Creative** (biggest lever for performance improvement in 2026)
-   - Different visual styles (UGC vs studio)
-   - Different hooks (question, stat, problem statement)
-   - Different formats (video, static, carousel)
-   - Different CTAs
+### Những gì cần kiểm thử (theo thứ tự ưu tiên)
+1. **Nội dung sáng tạo** (yếu tố đòn bẩy lớn nhất để cải thiện hiệu suất vào năm 2026)
+   - Các phong cách hình ảnh khác nhau (UGC so với studio)
+   - Các câu dẫn (hook) khác nhau (câu hỏi, số liệu thống kê, phát biểu vấn đề)
+   - Các định dạng khác nhau (video, tĩnh, carousel)
+   - Các lời kêu gọi hành động (CTA) khác nhau
 
-2. **Audiences**
-   - Advantage+ vs interest targeting
-   - Lookalike 1% vs 5% vs broad
-   - Custom audience segments by recency
+2. **Khán giả**
+   - Advantage+ so với nhắm mục tiêu theo sở thích
+   - Lookalike 1% so với 5% so với rộng rãi (broad)
+   - Phân khúc khán giả tùy chỉnh theo độ mới gần nhất
 
-3. **Copy**
-   - Headlines (benefit-driven vs curiosity-driven)
-   - Primary text length (short vs long form)
-   - Tone (professional vs conversational)
-   - Social proof placement
+3. **Nội dung bài viết (Copy)**
+   - Tiêu đề (dựa trên lợi ích so với dựa trên sự tò mò)
+   - Độ dài văn bản chính (ngắn so với dài)
+   - Giọng điệu (chuyên nghiệp so với thân mật)
+   - Vị trí chứng xã hội
 
-4. **Placements**
-   - Automatic vs manual
-   - Reels-only vs feed-only vs both
-   - Audience Network inclusion/exclusion
+4. **Vị trí hiển thị**
+   - Tự động so với thủ công
+   - Chỉ Reels so với chỉ Feed so với cả hai
+   - Bao gồm hoặc loại trừ Mạng lưới Khán giả (Audience Network)
 
-5. **Landing pages**
-   - Different offers
-   - Different headlines
-   - Different form lengths
+5. **Trang đích (Landing pages)**
+   - Các ưu đãi khác nhau
+   - Các tiêu đề khác nhau
+   - Độ dài biểu mẫu khác nhau
 
-### Testing best practices
-- **Test ONE variable at a time** - isolates what caused the change
-- **Run minimum 7 days** - avoid day-of-week bias, allow algorithm to stabilize
-- **Minimum 50 conversions for statistical significance** per variant
-- **Document ALL learnings** - create test log with results
-- **Implement winners, kill losers** - don't let underperformers drain budget
+### Thực hành tốt nhất khi kiểm thử
+- **Kiểm thử MỘT biến số tại một thời điểm** – cô lập nguyên nhân gây ra sự thay đổi
+- **Chạy tối thiểu 7 ngày** – tránh thiên kiến theo ngày trong tuần, cho phép thuật toán ổn định
+- **Tối thiểu 50 chuyển đổi để có ý nghĩa thống kê** trên mỗi biến thể
+- **Ghi lại TẤT CẢ những gì học được** – tạo nhật ký kiểm thử với kết quả
+- **Triển khai các chiến thắng, loại bỏ các thất bại** – đừng để những người kém hiệu suất làm cạn kiệt ngân sách
 
-### Test documentation template
+### Mẫu tài liệu kiểm thử
 `
-Test: [what changed]
-Date started: YYYY-MM-DD
-Hypothesis: [why this should improve performance]
-Variant A: [control - current version]
-Variant B: [test - new version]
-Duration: 7+ days OR 50+ conversions
-Result: [winner/loser/tie/inconclusive]
-Action taken: [implement, kill, or continue testing]
-`
-
-## Campaign Optimization Checklist (Weekly)
-
-### Every Monday review
-- [ ] Check which ad sets exited learning phase vs stuck in "Learning Limited"
-- [ ] Review CPA/ROAS per ad set vs target
-- [ ] Identify ads with CTR < 1% (underperforming creative)
-- [ ] Check frequency per ad set (flag if >3.0 = ad fatigue)
-- [ ] Verify budget pacing (on track for monthly goals?)
-- [ ] Review top performing creatives - save winners
-
-### Weekly actions
-- Rotate new creatives into underperforming ad sets
-- Kill ads with CPA > 2x target after 7 days
-- Increase budget on winning ad sets (max 20% per cycle)
-- Add new hooks to test (minimum 3 new concepts per month)
-- Review audience performance - consolidate similar audiences
-
-## Scaling Strategies
-
-### When to scale (all must be true)
-1. Campaign is profitable (ROAS > target OR CPA < target)
-2. Consistent performance for minimum 7 days
-3. Learning phase complete (50+ events/week, "Active" status)
-4. Budget allows for expansion
-5. Creative not showing fatigue (frequency < 3.0)
-
-### Scaling method 1: Vertical scaling (increase budget)
-- Increase budget max 20% every 3-4 days
-- More than 20% may reset learning phase
-- Monitor CPA closely after each increase
-- If CPA increases >20%, pause and hold for 3-4 days before trying again
-
-### Scaling method 2: Duplicate campaign (preserves learning)
-- Copy winning ad set to NEW campaign
-- Set higher budget on new campaign
-- Original campaign continues learning undisturbed
-- New campaign starts fresh learning phase with more budget
-- Best for: doubling or tripling spend quickly
-
-### Scaling method 3: Horizontal scaling (new audiences)
-- Expand to similar lookalike audiences (1% -> 5%)
-- Test new interest clusters
-- Geographic expansion (new cities/provinces)
-- New placements (if currently limited)
-
-### Scaling method 4: Creative scaling (most sustainable)
-- Produce variations of winning creative concepts
-- Same hook, different visuals
-- Same visual, different copy
-- Same concept, different format (static -> video)
-- Keeps performance fresh without changing audience
-
-## Scaling Timeline Example
-
-`
-Week 1-2: Testing phase
-  - 3 ad sets x 3 creatives = 9 ads
-  - Budget: /day per ad set (/day total)
-  - Identify top 2 performing ad sets + top creative per ad set
-
-Week 3-4: Consolidation
-  - Kill bottom 5 ads
-  - Increase budget on winners by 20%
-  - Add 3 new creative variations to test
-
-Week 5-8: Scaling
-  - CBO campaign with proven winners
-  - Scale budget 20% every 3-4 days
-  - Duplicate top campaign at higher budget level
-  - Test horizontal audience expansion
-
-Ongoing: Creative rotation
-  - New creatives every 2-4 weeks per ad set
-  - Monthly creative testing cycle (minimum 3 new concepts)
-  - Save winning hooks for reuse in new formats
+Kiểm thử: [thay đổi gì]
+Ngày bắt đầu: YYYY-MM-DD
+Giả thuyết: [tại sao điều này sẽ cải thiện hiệu suất]
+Biến thể A: [điều khiển - phiên bản hiện tại]
+Biến thể B: [kiểm thử - phiên bản mới]
+Thời gian: 7+ ngày HOẶC 50+ chuyển đổi
+Kết quả: [chiến thắng/thất bại/hòa/không kết luận]
+Hành động đã thực hiện: [triển khai, loại bỏ, hoặc tiếp tục kiểm thử]
 `
 
-## Performance Alert Thresholds
+## Danh sách kiểm tra Tối ưu hóa chiến dịch (Tuần)
 
-### Critical alerts (immediate action needed)
-- CPA > 2x target for 3+ consecutive days
-- CTR dropped >50% week-over-week (creative fatigue)
-- Frequency > 4.0 (severe ad fatigue)
-- Learning Limited status > 7 days
+### Đánh giá vào mỗi thứ Hai
+- [ ] Kiểm tra các tập quảng cáo nào thoát khỏi giai đoạn học so với bị mắc kẹt ở trạng thái "Learning Limited"
+- [ ] Xem xét CPA/ROAS trên mỗi tập quảng cáo so với mục tiêu
+- [ ] Xác định các quảng cáo có CTR < 1% (sáng tạo kém hiệu quả)
+- [ ] Kiểm tra tần suất hiển thị trên mỗi tập quảng cáo (ghi chú nếu >3.0 = mệt mỏi quảng cáo)
+- [ ] Xác nhận tốc độ phân bổ ngân sách (có đúng tiến độ để đạt mục tiêu hàng tháng không?)
+- [ ] Xem xét các sáng tạo hiệu quả nhất - lưu lại những chiến thắng
 
-### Warning alerts (monitor closely)
-- CPA approaching 1.5x target
-- Conversion rate dropping but volume stable
-- Cost per click increasing without performance change
-- Daily spend fluctuation >30%
+### Hành động hàng tuần
+- Xoay đổi các sáng tạo mới vào các tập quảng cáo kém hiệu quả
+- Loại bỏ các quảng cáo có CPA > 2 lần mục tiêu sau 7 ngày
+- Tăng ngân sách trên các tập quảng cáo chiến thắng (tối đa 20% mỗi chu kỳ)
+- Thêm các câu dẫn mới để kiểm thử (tối thiểu 3 khái niệm mới mỗi tháng)
+- Xem xét hiệu suất của khán giả - hợp nhất các khán giả tương tự
 
-### Healthy metrics (no action needed)
-- CPA within target range
+## Chiến lược mở rộng quy mô
+
+### Khi nào thì mở rộng (phải đúng tất cả)
+1. Chiến dịch có lợi nhuận (ROAS > mục tiêu HOẶC CPA < mục tiêu)
+2. Hiệu suất ổn định trong tối thiểu 7 ngày
+3. Giai đoạn học hoàn thành (50+ sự kiện/tuần, trạng thái "Active")
+4. Ngân sách cho phép mở rộng
+5. Sáng tạo không bị mệt mỏi (tần suất < 3.0)
+
+### Phương pháp mở rộng số 1: Mở rộng theo chiều dọc (tăng ngân sách)
+- Tăng ngân sách tối đa 20% mỗi 3-4 ngày
+- Trên 20% có thể làm reset lại giai đoạn học
+- Giám sát CPA chặt chẽ sau mỗi lần tăng
+- Nếu CPA tăng >20%, tạm dừng và giữ nguyên trong 3-4 ngày trước khi thử lại
+
+### Phương pháp mở rộng số 2: Sao chép chiến dịch (bảo toàn giai đoạn học)
+- Sao chép tập quảng cáo chiến thắng sang CHIẾN DỊCH MỚI
+- Thiết lập ngân sách cao hơn trên chiến dịch mới
+- Chiến dịch gốc tiếp tục học mà không bị gián đoạn
+- Chiến dịch mới bắt đầu lại giai đoạn học với ngân sách lớn hơn
+- Tốt nhất cho: nhân đôi hoặc gấp ba chi tiêu nhanh chóng
+
+### Phương pháp mở rộng số 3: Mở rộng theo chiều ngang (khán giả mới)
+- Mở rộng sang các nhóm khán giả lookalike tương tự (1% -> 5%)
+- Kiểm thử các cụm sở thích mới
+- Mở rộng địa lý (thành phố/tỉnh mới)
+- Vị trí hiển thị mới (nếu hiện tại bị giới hạn)
+
+### Phương pháp mở rộng số 4: Mở rộng sáng tạo (bền vững nhất)
+- Sản xuất các biến thể của các khái niệm sáng tạo chiến thắng
+- Cùng một câu dẫn, hình ảnh khác nhau
+- Cùng một hình ảnh, nội dung bài viết khác nhau
+- Cùng một khái niệm, định dạng khác nhau (tĩnh -> video)
+- Giữ hiệu suất tươi mới mà không thay đổi khán giả
+
+## Ví dụ về lộ trình mở rộng quy mô
+
+`
+Tuần 1-2: Giai đoạn kiểm thử
+  - 3 tập quảng cáo x 3 sáng tạo = 9 quảng cáo
+  - Ngân sách: /ngày mỗi tập quảng cáo (/ngày tổng)
+  - Xác định top 2 tập quảng cáo hiệu quả nhất + sáng tạo tốt nhất cho mỗi tập
+
+Tuần 3-4: Tổng hợp
+  - Loại bỏ bottom 5 quảng cáo
+  - Tăng ngân sách trên những người chiến thắng 20%
+  - Thêm 3 biến thể sáng tạo mới để kiểm thử
+
+Tuần 5-8: Mở rộng quy mô
+  - Chiến dịch CBO với những người chiến thắng đã được chứng minh
+  - Mở rộng ngân sách 20% mỗi 3-4 ngày
+  - Sao chép chiến dịch tốt nhất ở mức ngân sách cao hơn
+  - Kiểm thử mở rộng khán giả theo chiều ngang
+
+Liên tục: Xoay đổi sáng tạo
+  - Sáng tạo mới mỗi 2-4 tuần cho mỗi tập quảng cáo
+  - Chu kỳ kiểm thử sáng tạo hàng tháng (tối thiểu 3 khái niệm mới)
+  - Lưu lại các câu dẫn chiến thắng để tái sử dụng trong định dạng mới
+`
+
+## Ngưỡng cảnh báo hiệu suất
+
+### Cảnh báo quan trọng (cần hành động ngay lập tức)
+- CPA > 2 lần mục tiêu trong 3+ ngày liên tiếp
+- CTR giảm >50% tuần qua tuần trước (mệt mỏi sáng tạo)
+- Tần suất > 4.0 (mệt mỏi quảng cáo nghiêm trọng)
+- Trạng thái Learning Limited > 7 ngày
+
+### Cảnh báo lưu ý (giám sát chặt chẽ)
+- CPA đang tiếp cận 1,5 lần mục tiêu
+- Tỷ lệ chuyển đổi giảm nhưng khối lượng ổn định
+- Chi phí mỗi nhấp chuột tăng lên mà không có thay đổi về hiệu suất
+- Biến động chi tiêu hàng ngày >30%
+
+### Chỉ số lành mạnh (không cần hành động)
+- CPA nằm trong phạm vi mục tiêu
 - CTR > 1%
-- Frequency < 2.5
-- Consistent daily conversion volume
+- Tần suất < 2.5
+- Khối lượng chuyển đổi hàng ngày ổn định
 
-## Automation Opportunities
+## Cơ hội tự động hóa
 
-### Performance alerts
-- Check campaign metrics every 6 hours via API
-- Slack/Telegram notification when CPA exceeds threshold
-- Auto-pause ads with CPA > 3x target after 7 days
+### Cảnh báo hiệu suất
+- Kiểm tra chỉ số chiến dịch mỗi 6 giờ qua API
+- Thông báo Slack/Telegram khi CPA vượt quá ngưỡng
+- Tự động tạm dừng quảng cáo có CPA > 3 lần mục tiêu sau 7 ngày
 
-### Budget pacing
-- Daily check: compare actual spend vs expected
-- Alert if pacing deviates >10% from plan
-- Projected monthly spend based on current trajectory
+### Tốc độ phân bổ ngân sách
+- Kiểm tra hàng ngày: so sánh chi tiêu thực tế vs dự kiến
+- Cảnh báo nếu tốc độ lệch >10% so với kế hoạch
+- Dự toán chi tiêu hàng tháng dựa trên quỹ đạo hiện tại
 
-### Creative rotation schedule
-- Weekly creative audit: identify ads at frequency >2.5
-- Auto-refresh with pre-approved new creatives
-- Monthly new concept testing cycle
+### Lịch trình xoay đổi sáng tạo
+- Kiểm toán sáng tạo hàng tuần: xác định quảng cáo có tần suất >2.5
+- Tự động làm mới bằng các sáng tạo mới đã được phê duyệt trước
+- Chu kỳ kiểm thử khái niệm mới hàng tháng
 
-## Key Takeaways
-- Test ONE variable at a time, minimum 7 days or 50 conversions
-- Scale budget max 20% every 3-4 days to avoid learning reset
-- Duplicate campaigns for aggressive scaling (preserves original learning)
-- Creative is the #1 lever for performance improvement in 2026
-- New creatives every 2-4 weeks per ad set (combat ad fatigue)
-- Frequency > 3.0 = time to refresh creative
+## Những điểm chính cần nhớ
+- Kiểm thử MỘT biến số tại một thời điểm, tối thiểu 7 ngày hoặc 50 chuyển đổi
+- Mở rộng ngân sách tối đa 20% mỗi 3-4 ngày để tránh reset giai đoạn học
+- Sao chép chiến dịch cho việc mở rộng quy mô mạnh mẽ (bảo toàn giai đoạn học ban đầu)
+- Sáng tạo là đòn bẩy số 1 để cải thiện hiệu suất vào năm 2026
+- Sáng tạo mới mỗi 2-4 tuần cho mỗi tập quảng cáo (chống lại mệt mỏi quảng cáo)
+- Tần suất > 3.0 = thời điểm cần làm mới sáng tạo
 
 ---
-*Created: 2026-06-15 | Sources: marketingadvice.ai, marketingagency.one*
+*Tạo: 2026-06-15 | Nguồn gốc: marketingadvice.ai, marketingagency.one*

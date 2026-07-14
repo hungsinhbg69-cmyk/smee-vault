@@ -1,27 +1,20 @@
 ---
-title: "bac-giang-dialect-lexicon"
-slug: "bac-giang-dialect-lexicon"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Bắc Giang Dialect & Lexicon — Từ vựng địa phương"
-slug: "bac-giang-dialect-lexicon"
-category: linguistics
-tags: [bac-giang, dialect, vocabulary, communication]
+title: Bắc Giang Dialect & Lexicon — Từ vựng địa phương
+slug: bac-giang-dialect-lexicon
+category: knowledge
+tags:
+- bac-giang
+- dialect
+- vocabulary
+- communication
 status: active
 type: atomic-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 sources:
-  - memory/bac-giang-cultural-profile-2026-06-15.md
-  - memory/bac-giang-culture-deep-dive-2026-06-15.md
-  - memory/bac-giang-living-guide-2026-06-15.md
+- memory/bac-giang-cultural-profile-2026-06-15.md
+- memory/bac-giang-culture-deep-dive-2026-06-15.md
+- memory/bac-giang-living-guide-2026-06-15.md
 ---
 
 # 🗣️ Bắc Giang Dialect & Lexicon — Từ vựng địa phương

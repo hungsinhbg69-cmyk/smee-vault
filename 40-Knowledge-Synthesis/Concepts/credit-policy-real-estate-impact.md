@@ -1,29 +1,26 @@
 ---
-title: "credit-policy-real-estate-impact"
-slug: "credit-policy-real-estate-impact"
-category: concepts
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: concept
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Chính sách tín dụng BĐS tác động đến Bắc Giang/Bắc Ninh"
-slug: "credit-policy-real-estate-impact"
-category: macro-policy
-tags: [policy, credit, real-estate, monetary, national, bac-giang, bac-ninh]
+title: Chính sách tín dụng BĐS tác động đến Bắc Giang/Bắc Ninh
+slug: credit-policy-real-estate-impact
+category: knowledge
+tags:
+- policy
+- credit
+- real-estate
+- monetary
+- national
 status: active
 type: research-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 cited_count: 0
 sources:
-  - VietnamPlus (15/06/2026)
-  - Vietnam.vn
-  - SSI Research
-  - Doanh Nhân VN
+- VietnamPlus (15/06/2026)
+- Vietnam.vn
+- SSI Research
+- Doanh Nhân VN
+related_tags:
+- bac-giang
+- bac-ninh
 ---
 
 # 🏦 Chính sách tín dụng BĐS 2026 — Tác động đến Bắc Giang/Bắc Ninh

@@ -1,7 +1,7 @@
 ---
 title: "Fb Api Insights Fields Reference"
 slug: "fb-api-insights-fields-reference"
-category: reference
+category: resource
 tags: [vault-maintenance, facebook-ads]
 status: "draft"
 type: reference

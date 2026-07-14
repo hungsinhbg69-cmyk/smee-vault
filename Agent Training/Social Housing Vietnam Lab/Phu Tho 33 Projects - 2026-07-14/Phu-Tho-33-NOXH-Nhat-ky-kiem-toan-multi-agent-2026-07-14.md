@@ -10,6 +10,11 @@ tags:
 status: completed
 final_score: 92
 verdict: PASS_WITH_LIMITATIONS
+slug: phu-tho-33-noxh-nhat-ky-kiem-toan-multi-agent
+category: training
+type: log
+created: 2026-07-14
+last_updated: 2026-07-14
 ---
 
 # Phú Thọ 33 NOXH — Nhật ký kiểm toán multi-agent

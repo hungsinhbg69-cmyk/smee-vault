@@ -1,19 +1,19 @@
 ---
-title: "prompt-patterns-techniques"
-slug: "prompt-patterns-techniques"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
+title: Prompt Architecture — Patterns & Techniques
+slug: prompt-patterns-techniques
+category: knowledge
+tags:
+- prompt-engineering
+- patterns
+- few-shot
+- chain-of-thought
 status: draft
 type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Prompt Architecture — Patterns & Techniques"
-tags: [prompt-engineering, patterns, few-shot, chain-of-thought]
-aliases: [Prompt Patterns, Prompting Techniques]
 created: 2026-06-18
+last_updated: '2026-07-14'
+aliases:
+- Prompt Patterns
+- Prompting Techniques
 parent: prompt-architecture-overview.md
 ---
 

@@ -1,20 +1,18 @@
 ---
-title: "JeffSu-Productivity-Systems"
-slug: "jeffsu-productivity-systems"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
+title: JeffSu - Productivity Systems Deep Dive
+slug: jeffsu-productivity-systems
+category: knowledge
+tags:
+- jeffsu
+- productivity
+- notion
+- google-workspace
+- inbox-zero
 status: draft
 type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: JeffSu - Productivity Systems Deep Dive
-tags: [jeffsu, productivity, notion, google-workspace, inbox-zero]
-source: NotebookLM "JeffSu Master Learning"
 created: 2026-06-18
-type: framework
+last_updated: '2026-07-14'
+source: NotebookLM "JeffSu Master Learning"
 ---
 
 # Productivity Systems (from JeffSu)

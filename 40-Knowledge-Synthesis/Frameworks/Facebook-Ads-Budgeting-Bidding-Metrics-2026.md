@@ -1,8 +1,8 @@
 ---
 title: "Facebook Ads — Budgeting, Bidding & Performance Metrics (2025-2026)"
 slug: "fb-budgeting-bidding-metrics"
-category: reference
-tags: [facebook-ads, budgeting, bidding, metrics, cbo, abo]
+category: knowledge
+tags: ["facebook-ads", "budgeting", "bidding", "metrics", "cbo"]
 status: active
 type: reference
 created: 2026-06-19

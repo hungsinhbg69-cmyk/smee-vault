@@ -6,6 +6,11 @@ tags:
 scenario: 2
 fictional: true
 status: active
+slug: s2-local-performance-pack-omnichannel
+category: training
+type: exercise
+created: 2026-07-13
+last_updated: 2026-07-13
 ---
 
 # Local performance pack — Omnichannel

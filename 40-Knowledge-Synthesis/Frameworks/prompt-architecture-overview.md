@@ -1,19 +1,18 @@
 ---
-title: "prompt-architecture-overview"
-slug: "prompt-architecture-overview"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
+title: Prompt Architecture — Tổng Quan
+slug: prompt-architecture-overview
+category: knowledge
+tags:
+- prompt-engineering
+- architecture
+- framework
+- ai-agents
 status: draft
 type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Prompt Architecture — Tổng Quan"
-tags: [prompt-engineering, architecture, framework, ai-agents]
-aliases: [Prompt Architecture Overview]
 created: 2026-06-18
+last_updated: '2026-07-14'
+aliases:
+- Prompt Architecture Overview
 ---
 
 # Prompt Architecture — Tổng Quan

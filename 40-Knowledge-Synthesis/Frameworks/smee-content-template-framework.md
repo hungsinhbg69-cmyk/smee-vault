@@ -1,23 +1,16 @@
 ---
-title: "smee-content-template-framework"
-slug: "smee-content-template-framework"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Smee Content Template Framework"
-slug: "smee-content-template-framework"
-category: content-templates
-tags: [smee, content-templates, bac-giang, caption-examples]
+title: Smee Content Template Framework
+slug: smee-content-template-framework
+category: knowledge
+tags:
+- smee
+- content-templates
+- bac-giang
+- caption-examples
 status: active
 type: reference-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 ---
 
 # 📝 Smee Content Template Framework — Bắc Giang Edition

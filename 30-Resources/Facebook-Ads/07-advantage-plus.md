@@ -1,5 +1,5 @@
 ---
-title: "Advantage+ Setup"
+title: "Cài đặt Advantage+"
 slug: "advantage-plus"
 category: resource
 tags: [facebook-ads, meta-ads]
@@ -9,140 +9,140 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-﻿# 07 - Advantage+ AI Campaigns (2026)
+# 07 - Chiến dịch Advantage+ AI (2026)
 
-## Advantage+ Shopping Campaigns (ASC)
+## Chiến dịch mua sắm Advantage+ (ASC)
 
-### What is ASC?
-Meta's AI-driven e-commerce campaign type. Similar concept to Google Performance Max. Combines prospecting AND retargeting in ONE campaign.
+### ASC là gì?
+Loại chiến dịch thương mại điện tử do AI điều khiển của Meta. Có khái niệm tương tự như Google Performance Max. Kết hợp tìm kiếm khách hàng mới VÀ tái nhắm mục tiêu trong MỘT chiến dịch duy nhất.
 
-### How ASC works
-- Automatically uses connected Product Catalog
-- Tests multiple placements (Feed, Stories, Reels, Audience Network)
-- AI selects best audience signals based on conversion data
-- Dynamic creative optimization across all formats
-- Prospect + retarget automatically combined
+### Cách hoạt động của ASC
+- Tự động sử dụng Danh mục sản phẩm đã kết nối
+- Thử nghiệm nhiều vị trí hiển thị (Feed, Stories, Reels, Audience Network)
+- AI chọn các tín hiệu đối tượng tốt nhất dựa trên dữ liệu chuyển đổi
+- Tối ưu hóa sáng tạo động xuyên suốt mọi định dạng
+- Tìm kiếm khách hàng mới + tái nhắm mục tiêu được kết hợp tự động
 
-### Requirements for ASC
-- Facebook Product Catalog connected and approved
-- Minimum 50+ conversions/month (purchase events)
-- Pixel/CAPI properly tracking purchases with values
-- At least some historical conversion data
+### Yêu cầu cho ASC
+- Danh mục sản phẩm Facebook đã được kết nối và phê duyệt
+- Tối thiểu 50+ lượt chuyển đổi/tháng (sự kiện mua hàng)
+- Pixel/CAPI theo dõi chính xác các giao dịch có giá trị
+- Có ít nhất một số dữ liệu chuyển đổi lịch sử
 
-### ASC vs Traditional E-commerce Structure
+### ASC so với Cấu trúc Thương mại điện tử truyền thống
 
-| | Traditional | ASC |
+| | Truyền thống | ASC |
 |---|---|---|
-| Campaigns needed | 3-5 (prospecting, retargeting, catalog) | 1 (all combined) |
-| Ad sets | Multiple segmented audiences | AI-determined signals |
-| Placements | Manual selection | Auto-optimized |
-| Management time | 5-10 hours/week | 1-2 hours/week |
-| Performance | Good with optimization | Often BETTER with data |
+| Số chiến dịch cần thiết | 3-5 (tìm kiếm khách hàng mới, tái nhắm mục tiêu, danh mục) | 1 (kết hợp tất cả) |
+| Nhóm quảng cáo | Nhiều nhóm đối tượng phân khúc | Tín hiệu do AI xác định |
+| Vị trí hiển thị | Chọn thủ công | Tự động tối ưu hóa |
+| Thời gian quản lý | 5-10 giờ/tuần | 1-2 giờ/tuần |
+| Hiệu suất | Tốt khi được tối ưu | Thường TỐT HƠN với đủ dữ liệu |
 
-### When ASC outperforms traditional structure
-- E-commerce stores with established product catalog
-- 50+ monthly purchases (enough data for AI)
-- Multi-product inventory (catalog-driven)
-- Want reduced management time
-- Already profitable with manual campaigns (ASC often improves by 10-30%)
+### Khi nào ASC vượt trội hơn cấu trúc truyền thống
+- Cửa hàng thương mại điện tử có danh mục sản phẩm đã thiết lập
+- 50+ đơn mua hàng/tháng (đủ dữ liệu cho AI)
+- Hàng tồn kho đa dạng sản phẩm (dựa trên danh mục)
+- Muốn giảm thời gian quản lý
+- Đã có lợi nhuận với chiến dịch thủ công (ASC thường cải thiện thêm 10-30%)
 
-### ASC limitations
-- Less granular control vs manual setup
-- Harder to isolate which audience/creative drives results
-- Product catalog required (not for service businesses)
-- New stores without conversion data may underperform initially
-- Can't easily exclude specific placements
+### Hạn chế của ASC
+- Ít kiểm soát chi tiết hơn so với cấu hình thủ công
+- Khó cô lập nhóm đối tượng/sáng tạo nào mang lại kết quả
+- Bắt buộc phải có danh mục sản phẩm (không dành cho doanh nghiệp dịch vụ)
+- Các cửa hàng mới chưa có dữ liệu chuyển đổi có thể hoạt động kém hiệu quả ban đầu
+- Không dễ dàng loại trừ các vị trí hiển thị cụ thể
 
-## Advantage+ Audiences
+## Đối tượng Advantage+
 
-### What it is
-AI-driven audience targeting. Instead of selecting interests, behaviors, demographics manually, you provide broad parameters (age/gender/location) and Meta's AI finds the best users.
+### Nó là gì?
+Nhắm mục tiêu đối tượng do AI điều khiển. Thay vì chọn sở thích, hành vi và nhân khẩu học thủ công, bạn cung cấp các tham số rộng (tuổi/giới tính/vị trí) và AI của Meta sẽ tìm ra người dùng tốt nhất.
 
-### How it differs from traditional targeting
-| Traditional Interest Targeting | Advantage+ Audiences |
+### Sự khác biệt so với nhắm mục tiêu truyền thống
+| Nhắm mục tiêu sở thích truyền thống | Đối tượng Advantage+ |
 |---|---|
-| Select specific interests/behaviors | Broad age/gender only |
-| Many small ad sets | Fewer, broader ad sets |
-| Manual optimization | AI automatic optimization |
-| Depends on interest data quality | Depends on conversion data quality |
-| 2019-era best practice | 2026-era best practice |
+| Chọn các sở thích/hành vi cụ thể | Chỉ giới hạn tuổi/giới tính rộng |
+| Nhiều nhóm quảng cáo nhỏ | Ít hơn, các nhóm quảng cáo rộng hơn |
+| Tối ưu hóa thủ công | AI tối ưu hóa tự động |
+| Phụ thuộc vào chất lượng dữ liệu sở thích | Phụ thuộc vào chất lượng dữ liệu chuyển đổi |
+| Thực hành tốt nhất của năm 2019 | Thực hành tốt nhất của năm 2026 |
 
-### Why Advantage+ wins in 2026
-1. **Algorithm has more data** - 3B+ users, behavior across FB + IG
-2. **iOS 14+ privacy changes** reduced interest targeting precision
-3. **Creative signals now matter more** - AI reads ad content to find matching audiences
-4. **Data fragmentation** - too many ad sets = less data per ad set = worse learning
+### Tại sao Advantage+ thắng thế trong năm 2026
+1. **Thuật toán có nhiều dữ liệu hơn** - Hơn 3 tỷ người dùng, hành vi trên cả Facebook và Instagram
+2. **Thay đổi quyền riêng tư iOS 14+** làm giảm độ chính xác của nhắm mục tiêu sở thích
+3. **Tín hiệu sáng tạo giờ quan trọng hơn** - AI đọc nội dung quảng cáo để tìm đối tượng phù hợp
+4. **Phân mảnh dữ liệu** - quá nhiều nhóm quảng cáo = ít dữ liệu cho mỗi nhóm quảng cáo = học tập kém hiệu quả hơn
 
-### Performance data
-- Advantage+ Audiences + Pixel data = 3-5x more effective than interest targeting without pixel data
-- Requires minimum 50 conversions/week/ad set to work optimally
-- Best for scaling established campaigns with proven creative
+### Dữ liệu hiệu suất
+- Đối tượng Advantage+ + dữ liệu Pixel = hiệu quả gấp 3-5 lần so với nhắm mục tiêu sở thích khi không có dữ liệu Pixel
+- Yêu cầu tối thiểu 50 lượt chuyển đổi/tuần/nhóm quảng cáo để hoạt động tối ưu
+- Tốt nhất cho việc mở rộng các chiến dịch đã thiết lập với sáng tạo được chứng minh
 
-## Advantage+ Creative
+## Sáng tạo Advantage+
 
-### What it does
-AI tests different combinations of your creative assets:
-- Mixes images/videos with different primary texts
-- Tests different headlines
-- Optimizes CTA button selection
-- Learns which hook + visual combos convert best
+### Nó làm gì?
+AI thử nghiệm các tổ hợp khác nhau của tài sản sáng tạo của bạn:
+- Trộn hình ảnh/video với các văn bản chính khác nhau
+- Thử nghiệm các tiêu đề khác nhau
+- Tối ưu hóa việc chọn nút CTA
+- Học được bộ kết hợp câu dẫn + hình ảnh nào chuyển đổi tốt nhất
 
-### Setup
-- Upload multiple creative assets (images, videos, text variations)
-- Enable Dynamic Creative in ad set settings
-- Meta combines them in all possible combinations
-- Best-performing combinations get most budget
+### Cài đặt
+- Tải lên nhiều tài sản sáng tạo (hình ảnh, video, biến thể văn bản)
+- Bật Sáng tạo động trong cài đặt nhóm quảng cáo
+- Meta kết hợp chúng theo tất cả các tổ hợp có thể
+- Các bộ kết hợp hoạt động tốt nhất nhận được phần lớn ngân sách
 
-### When to use Advantage+ Creative
-- Have 3+ different creatives ready
-- Want to reduce manual testing overhead
-- Running established campaigns needing optimization
-- Testing new hooks/formats simultaneously
+### Khi nào sử dụng Advantage+ Creative
+- Có sẵn 3+ sáng tạo khác nhau
+- Muốn giảm gánh nặng thử nghiệm thủ công
+- Chạy các chiến dịch đã thiết lập cần tối ưu hóa
+- Thử nghiệm nhiều câu dẫn/định dạng mới đồng thời
 
-## Complete Advantage+ Strategy for E-commerce (2026)
+## Chiến lược Advantage+ hoàn chỉnh cho Thương mại điện tử (2026)
 
-### Phase 1: Foundation (Weeks 1-2)
-1. Install Pixel + CAPI with all standard events
-2. Connect Product Catalog (all products, approved by Meta)
-3. Enable Advanced Matching on pixel
-4. Set up Advantage+ Shopping Campaign
-5. Budget: -50/day minimum
+### Giai đoạn 1: Nền tảng (Tuần 1-2)
+1. Cài đặt Pixel + CAPI với tất cả sự kiện tiêu chuẩn
+2. Kết nối Danh mục sản phẩm (tất cả sản phẩm, được Meta phê duyệt)
+3. Bật Khớp nâng cao trên pixel
+4. Thiết lập Chiến dịch mua sắm Advantage+
+5. Ngân sách: tối thiểu 50$/ngày
 
-### Phase 2: Data accumulation (Weeks 3-6)
-1. Let ASC gather conversion data
-2. Add 3-5 different creatives to test
-3. Monitor weekly: track CPA, ROAS, frequency
-4. Don't make major changes during learning phase
-5. Target: 50+ purchases/month through ASC
+### Giai đoạn 2: Tích lũy dữ liệu (Tuần 3-6)
+1. Để ASC thu thập dữ liệu chuyển đổi
+2. Thêm 3-5 sáng tạo khác nhau để thử nghiệm
+3. Theo dõi hàng tuần: theo dõi CPA, ROAS, tần suất hiển thị
+4. Không thực hiện thay đổi lớn trong giai đoạn học tập
+5. Mục tiêu: 50+ đơn mua hàng/tháng thông qua ASC
 
-### Phase 3: Optimization (Weeks 7-12)
-1. Analyze which creatives drive best ROAS
-2. Add winning creative variations
-3. Consider adding Advantage+ Audiences prospecting campaign
-4. Test different budget levels (scale 20% every 3-4 days)
-5. Monthly creative refresh cycle established
+### Giai đoạn 3: Tối ưu hóa (Tuần 7-12)
+1. Phân tích sáng tạo nào mang lại ROAS tốt nhất
+2. Thêm các biến thể sáng tạo chiến thắng
+3. Cân nhắc thêm chiến dịch tìm kiếm khách hàng mới Đối tượng Advantage+
+4. Thử nghiệm các mức ngân sách khác nhau (mở rộng 20% mỗi 3-4 ngày)
+5. Thiết lập chu kỳ làm mới sáng tạo hàng tháng
 
-### Phase 4: Scale (Month 3+)
-1. Duplicate ASC at higher budget if profitable
-2. Expand to new lookalike audiences as supplement
-3. A/B test new creative concepts monthly
-4. Consider Advantage+ Shopping Plus for expanded catalog reach
-5. Weekly management: ~2 hours/week
+### Giai đoạn 4: Mở rộng (Tháng thứ 3 trở đi)
+1. Sao chép ASC với ngân sách cao hơn nếu có lợi nhuận
+2. Mở rộng sang các nhóm đối tượng tương tự mới như một sự bổ sung
+3. Thử nghiệm A/B các khái niệm sáng tạo mới hàng tháng
+4. Cân nhắc Advantage+ Shopping Plus để mở rộng phạm vi tiếp cận danh mục
+5. Quản lý hàng tuần: ~2 giờ/tuần
 
-## When NOT to use Advantage+
-- New store with <10 conversions/month (not enough data)
-- Service business without product catalog
-- Need granular audience control (specific interest targeting)
-- Campaign running on very limited budget (</day total)
-- Testing phase where you need to isolate specific variables
+## Khi nào KHÔNG nên sử dụng Advantage+
+- Cửa hàng mới với <10 lượt chuyển đổi/tháng (không đủ dữ liệu)
+- Doanh nghiệp dịch vụ không có danh mục sản phẩm
+- Cần kiểm soát đối tượng chi tiết (nhắm mục tiêu sở thích cụ thể)
+- Chiến dịch chạy với ngân sách rất hạn chế (<5$/ngày tổng cộng)
+- Giai đoạn thử nghiệm nơi bạn cần cô lập các biến số cụ thể
 
-## Key Takeaways
-- ASC = 1 campaign for all e-commerce needs (prospecting + retargeting)
-- Advantage+ Audiences replaces manual interest targeting in 2026
-- Need 50+ conversions/week/ad set for AI to work optimally
-- Creative signals > Interest data for audience finding
-- ASC management: 2 hours/week vs 10 hours for manual campaigns
-- Best results come from combining ASC + strong creative testing
+## Những điểm chính cần nhớ
+- ASC = 1 chiến dịch cho tất cả nhu cầu thương mại điện tử (tìm kiếm khách hàng mới + tái nhắm mục tiêu)
+- Đối tượng Advantage+ thay thế nhắm mục tiêu sở thích thủ công trong năm 2026
+- Cần 50+ lượt chuyển đổi/tuần/nhóm quảng cáo để AI hoạt động tối ưu
+- Tín hiệu sáng tạo > Dữ liệu sở thích cho việc tìm kiếm đối tượng
+- Quản lý ASC: 2 giờ/tuần so với 10 giờ cho chiến dịch thủ công
+- Kết quả tốt nhất đến từ việc kết hợp ASC + kiểm tra sáng tạo mạnh mẽ
 
 ---
-*Created: 2026-06-15 | Sources: marketingagency.one, marketingadvice.ai*
+*Đã tạo: 2026-06-15 | Nguồn: marketingagency.one, marketingadvice.ai*

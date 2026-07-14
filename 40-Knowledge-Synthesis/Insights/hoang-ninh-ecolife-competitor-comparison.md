@@ -1,19 +1,18 @@
 ---
-title: "hoang-ninh-ecolife-competitor-comparison"
-slug: "hoang-ninh-ecolife-competitor-comparison"
-category: insights
-tags: [obsidian-cleanup, auto-added]
+title: Hoàng Ninh Ecolife — So sánh đối thủ cạnh tranh
+slug: hoang-ninh-ecolife-competitor-comparison
+category: knowledge
+tags:
+- noxh
+- hoangninhecolife
+- competitor
+- analysis
+- year/2026
 status: draft
 type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Hoàng Ninh Ecolife — So sánh đối thủ cạnh tranh"
-tags: [NOXH, HoangNinhEcolife, competitor, analysis, 2026]
-date: 2026-06-15
-source: "DuckDuckGo + web_fetch từ nhiều nguồn"
+created: 2026-06-15
+last_updated: '2026-07-14'
+source: DuckDuckGo + web_fetch từ nhiều nguồn
 ---
 
 # So sánh đối thủ cạnh tranh — NOXH Bắc Giang/Bắc Ninh & Toàn quốc

@@ -5,7 +5,12 @@ tags:
   - agent-training
   - evidence-discipline
   - marketing
-status: active-reference
+status: reference
+slug: resource-protocol-local-and-internet
+category: training
+type: reference
+created: 2026-07-13
+last_updated: 2026-07-13
 ---
 
 # Resource Protocol — Local và Internet

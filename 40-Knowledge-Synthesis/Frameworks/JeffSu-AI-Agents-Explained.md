@@ -1,20 +1,18 @@
 ---
-title: "JeffSu-AI-Agents-Explained"
-slug: "jeffsu-ai-agents-explained"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
+title: JeffSu - AI Agents Clearly Explained
+slug: jeffsu-ai-agents-explained
+category: knowledge
+tags:
+- jeffsu
+- ai-agents
+- llm
+- workflow
+- prompt-engineering
 status: draft
 type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: JeffSu - AI Agents Clearly Explained
-tags: [jeffsu, ai-agents, llm, workflow, prompt-engineering]
-source: NotebookLM "JeffSu Master Learning"
 created: 2026-06-18
-type: framework
+last_updated: '2026-07-14'
+source: NotebookLM "JeffSu Master Learning"
 ---
 
 # AI Agents — Clear Explanation (from JeffSu)

@@ -11,6 +11,12 @@ tags:
   - nha-o-xa-hoi
   - openclaw
   - final-retest
+slug: l2-final-independent-g
+category: training
+status: draft
+type: exercise
+created: 2026-07-14
+last_updated: 2026-07-14
 ---
 
 # L2 — Final independent G

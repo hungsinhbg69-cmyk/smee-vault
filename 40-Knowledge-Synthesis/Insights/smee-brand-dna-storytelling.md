@@ -1,25 +1,18 @@
 ---
-title: "smee-brand-dna-storytelling"
-slug: "smee-brand-dna-storytelling"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Smee Brand DNA — Storytelling Framework"
-slug: "smee-brand-dna-storytelling"
-category: brand-identity
-tags: [smee, storytelling, brand-dna, content-framework]
+title: Smee Brand DNA — Storytelling Framework
+slug: smee-brand-dna-storytelling
+category: knowledge
+tags:
+- smee
+- storytelling
+- brand-dna
+- content-framework
 status: active
 type: framework-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 sources:
-  - memory/smee-marketing-story.md
+- memory/smee-marketing-story.md
 ---
 
 # 🦞 Smee Brand DNA — Storytelling Framework

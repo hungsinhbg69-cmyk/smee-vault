@@ -1,28 +1,22 @@
 ---
-title: "bac-giang-marketing-patterns"
-slug: "bac-giang-marketing-patterns"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Bắc Giang Marketing Patterns — Mẫu marketing & content"
-slug: "bac-giang-marketing-patterns"
-category: marketing
-tags: [bac-giang, marketing, content, ecommerce, facebook]
+title: Bắc Giang Marketing Patterns — Mẫu marketing & content
+slug: bac-giang-marketing-patterns
+category: knowledge
+tags:
+- bac-giang
+- marketing
+- content
+- ecommerce
+- facebook
 status: active
 type: atomic-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 sources:
-  - memory/bac-giang-cultural-profile-2026-06-15.md
-  - memory/bac-giang-culture-deep-dive-2026-06-15.md
-  - memory/bac-giang-living-guide-2026-06-15.md
-  - memory/Bac-Giang-Market-Intelligence-2026.md
+- memory/bac-giang-cultural-profile-2026-06-15.md
+- memory/bac-giang-culture-deep-dive-2026-06-15.md
+- memory/bac-giang-living-guide-2026-06-15.md
+- memory/Bac-Giang-Market-Intelligence-2026.md
 ---
 
 # 🎯 Bắc Giang Marketing Patterns — Mẫu marketing & content

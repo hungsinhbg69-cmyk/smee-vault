@@ -1,10 +1,12 @@
 ---
 title: "Smee Agent Self-Critique & Evolution Log"
 slug: "smee-agent-self-critique-evolution"
-category: knowledge-synthesis
+category: knowledge
 status: "completed"
 type: insights
 created: 2026-06-27
+tags: []
+last_updated: 2026-06-27
 ---
 
 # 🧠 Smee Agent: Self-Critique & Evolution Log

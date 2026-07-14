@@ -1,7 +1,7 @@
 ---
 title: "Task System Configuration"
 slug: "task-system-config"
-category: framework
+category: knowledge
 tags: [tasks, dataview, tasks-plugin, priority]
 status: active
 type: framework

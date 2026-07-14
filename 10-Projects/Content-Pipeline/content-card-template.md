@@ -1,11 +1,11 @@
 ---
-title: "Content Card — Draft"
+title: "Thẻ Nội dung — Bản nháp"
 slug: "content-card-template"
-category: resource
+category: project
 type: template
 status: active
 created: 2026-06-27
-last_updated: {{date}}
+last_updated: "{{date}}"
 priority: P3
 channels: fb-page-1, fb-page-2
 campaign_id: 
@@ -16,23 +16,23 @@ tags: [template, content-card]
 platform: 
 ---
 
-# Content Card — Draft
+# Thẻ Nội dung — Bản nháp
 
-## Objective
-What's this content trying to achieve?
+## Mục tiêu
+Nội dung này nhằm đạt được điều gì?
 
-## Target Audience
-Who are we talking to? (DISC profile, pain points)
+## Đối tượng mục tiêu
+Chúng ta đang nói chuyện với ai? (Hồ sơ DISC, điểm đau)
 
-## Content Draft
+## Dự thảo nội dung
 
 
-## Source Material
-- `[[related-note]]` — replace with an existing source note
+## Tài liệu nguồn
+- `[[related-note]]` — thay thế bằng ghi chú nguồn hiện có
 
-## Performance Log
-| Date | Metric | Value | Notes |
+## Nhật ký hiệu suất
+| Ngày | Chỉ số | Giá trị | Ghi chú |
 |------|--------|-------|-------|
 
 ---
-*Created: {{date}} by Smee — Layer 2 (Kanban)*
+*Đã tạo: {{date}} bởi Smee — Layer 2 (Kanban)*

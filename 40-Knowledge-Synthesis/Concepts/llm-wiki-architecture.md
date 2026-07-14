@@ -1,21 +1,22 @@
 ---
-title: "llm-wiki-architecture"
-slug: "llm-wiki-architecture"
-category: concepts
-tags: [obsidian-cleanup, auto-added]
-status: draft
+title: LLM Wiki — 3-Layer Architecture
+slug: llm-wiki-architecture
+category: knowledge
+tags:
+- llm
+- wiki
+- architecture
+- karpathy
+- rag
+status: active
 type: concept
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "LLM Wiki — 3-Layer Architecture"
-tags: [llm, wiki, architecture, karpathy, rag]
-date: 2026-06-16
-source: "GitHub Gist - Karpathy LLM Wiki Pattern"
-related: ["llm-wiki-karpathy-pattern", "llm-wiki-operations", "llm-wiki-critique"]
-status: reviewed
+created: 2026-06-16
+last_updated: '2026-07-14'
+source: GitHub Gist - Karpathy LLM Wiki Pattern
+related:
+- llm-wiki-karpathy-pattern
+- llm-wiki-operations
+- llm-wiki-critique
 ---
 
 # LLM Wiki — 3-Layer Architecture (Karpathy)

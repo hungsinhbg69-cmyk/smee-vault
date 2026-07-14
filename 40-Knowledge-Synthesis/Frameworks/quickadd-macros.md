@@ -1,7 +1,7 @@
 ---
 title: "QuickAdd Macros Configuration"
 slug: "quickadd-macros"
-category: framework
+category: knowledge
 tags: [automation, quickadd]
 status: active
 type: config-reference

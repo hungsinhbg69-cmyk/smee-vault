@@ -1,26 +1,20 @@
 ---
-title: "bac-giang-social-media-behavior"
-slug: "bac-giang-social-media-behavior"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Bắc Giang Social Media Behavior — Hành vi mạng xã hội 2026"
-slug: "bac-giang-social-media-behavior"
-category: social-digital
-tags: [bac-giang, social-media, tiktok, facebook, behavior]
+title: Bắc Giang Social Media Behavior — Hành vi mạng xã hội 2026
+slug: bac-giang-social-media-behavior
+category: knowledge
+tags:
+- bac-giang
+- social-media
+- tiktok
+- facebook
+- behavior
 status: active
 type: atomic-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 sources:
-  - memory/bac-giang-cultural-profile-2026-06-15.md
-  - memory/bac-giang-culture-deep-dive-2026-06-15.md
+- memory/bac-giang-cultural-profile-2026-06-15.md
+- memory/bac-giang-culture-deep-dive-2026-06-15.md
 ---
 
 # 📱 Bắc Giang Social Media Behavior — Hành vi mạng xã hội 2026

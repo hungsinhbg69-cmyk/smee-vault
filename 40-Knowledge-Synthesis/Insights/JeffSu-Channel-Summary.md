@@ -1,20 +1,18 @@
 ---
-title: "JeffSu-Channel-Summary"
-slug: "jeffsu-channel-summary"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
 title: JeffSu Channel - Comprehensive Summary
-tags: [jeffsu, youtube, productivity, career, ai]
-source: NotebookLM "JeffSu Master Learning" (147 sources)
-created: 2026-06-18
+slug: jeffsu-channel-summary
+category: knowledge
+tags:
+- jeffsu
+- youtube
+- productivity
+- career
+- ai
+status: draft
 type: insight-summary
+created: 2026-06-18
+last_updated: '2026-07-14'
+source: NotebookLM "JeffSu Master Learning" (147 sources)
 ---
 
 # JeffSu Channel — Comprehensive Summary

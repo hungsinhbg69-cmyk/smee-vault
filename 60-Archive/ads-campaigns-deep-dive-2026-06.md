@@ -1,9 +1,9 @@
 ---
 title: "Tổng Hợp Chiến Dịch Ads Thành Công 2026 — Phân Tích Chuyên Sâu"
 slug: "ads-campaigns-deep-dive-2026-06"
-category: reference
+category: archive
 tags: [vault-maintenance]
-status: "draft"
+status: archived
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

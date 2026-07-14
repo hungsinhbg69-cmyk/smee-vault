@@ -1,108 +1,218 @@
 ---
-title: "Tag Taxonomy"
+title: "Phân loại thẻ (Tag Taxonomy)"
 slug: "tag-taxonomy"
 category: meta
 tags: [meta, taxonomy]
 status: active
 type: reference
 created: 2026-06-12
-last_updated: 2026-06-12
+last_updated: 2026-07-14
 ---
 
-# 🏷 Tag Taxonomy Reference
+# Tham khảo Phân loại Thẻ (Tag Taxonomy)
 
-## Rule: Max 5 tags per note. Keep it small.
+## Quy tắc
 
-### #project/* — Active projects
-```
-#project/Facebook-Marketing
-#project/Client-Site
-#project/Obsidian-Vault
-#project/AI-Agent-Engineering
-```
+- Sử dụng tối đa năm thẻ cho mỗi ghi chú.
+- Sử dụng tên viết thường, có dấu gạch ngang. Chỉ sử dụng `/` để tạo phân cấp ổn định.
+- Bảo tồn các thẻ miền có ý nghĩa; chỉ hợp nhất những lỗi chính tả, khác biệt về chữ hoa/thường hoặc các đồng nghĩa đã được chứng minh.
+- Thêm thẻ vào danh mục trước khi sử dụng lần đầu. Việc rà soát hàng quý sẽ loại bỏ các thẻ chết (dead aliases); nó không nhằm theo đuổi một số lượng tùy ý trên toàn kho lưu trữ.
+- Chu kỳ sống thuộc về `status`; ngày tháng thuộc về thuộc tính. Các thẻ chỉ chứa số cần có tiền tố như `year/2026`.
 
-### #area/* — Ongoing responsibilities
-```
-#area/Marketing
-#area/Design
-#area/Coding
-#area/Content-Creation
-```
+## Phân cấp ổn định
 
-### #Status/* — Note lifecycle
-```
-#Status/draft       — Created, not reviewed
-#Status/active      — Reviewed, in use
-#Status/reference   — Stable reference material
-#Status/output      — Finalized artifact
-#Status/archived    — Completed, no longer active
+```text
+project/ai-agent-engineering
+project/facebook-marketing
+area/content-creation
+area/marketing
+status/active
+status/draft
+status/reference
+type/atomic-note
+tool/openclaw
+concept/ai-agent-design
+concept/content-strategy
 ```
 
-### #Type/* — Content classification
-```
-#Type/atomic-note   — Permanent knowledge note
-#Type/insight       — New discovery/principle
-#Type/meeting       — Meeting summary
-#Type/literature    — Academic paper note
-#Type/experiment    — Hypothesis test log
-#Type/daily         — Daily note entry
+## Đồng nghĩa an toàn (Safe aliases)
+
+| Alias | Canonical |
+|---|---|
+| `bacgiang`, `BacGiang` | `bac-giang` |
+| `bacninh`, `BacNinh` | `bac-ninh` |
+| `fb-api` | `facebook-api` |
+| `fb-graph` | `facebook-graph` |
+| `Area`, `areas` | `area` |
+| `Project`, `projects` | `project` |
+| `obsidian-cleanup`, `auto-added` | loại bỏ; các thẻ này ghi lại quá trình di chuyển, không phải ý nghĩa của ghi chú |
+
+## Danh mục hiện tại (Current registry)
+
+```text
+advanced
+agent
+agent-hub
+agent-improvement
+agent-training
+agent-training/local-pack
+ai-agents
+analytics
+ancient-texts
+api
+area/content-creation
+area/marketing
+audit-retest
+automation
+bac-giang
+bac-ninh
+bds
+bidding
+board
+brian-tracy
+budgeting
+camilo-cruz
+campaign-structure
+capture
+case-study
+cbo
+charts
+clv-cac
+command-center
+commercial-condo
+con-bo
+concept
+concept/ai-agent-design
+concept/content-strategy
+config
+confucian-bias
+content
+content-card
+content-pipeline
+content-plan
+content-strategy
+creative
+critical-review
+daily
+daily-review
+dashboard
+dataview
+deploy-log
+dev-platform
+diagram
+e-commerce
+entity
+evidence-discipline
+excalidraw
+expansion
+facebook
+facebook-ads
+facebook-marketing
+final-retest
+flashcards
+fundamentals
+governance
+grading
+hermes
+hoang-ninh-ecolife
+home-services
+human-nature
+inbox
+incident-response
+index
+insights
+integration
+intention
+jeffsu
+kanban
+kanban-integration
+karpathy
+lead-gen
+learning
+legal-audit
+legal-research
+local-services
+log
+maintenance
+market-data
+marketing
+marketing-architecture
+meta
+meta-ads
+metrics
+mind-map
+moc
+morning-ritual
+navigation
+nha-o-xa-hoi
+no-xh
+northern-vietnam
+noxh
+noxh/phu-tho
+obsidian
+official-sources
+openclaw
+para
+people
+personal-development
+phu-tho
+pipeline
+pkm
+placeholder
+pricing
+priority
+productivity
+project
+project-management
+project/ai-agent-engineering
+project/facebook-marketing
+protocol
+psychology
+q2-2026
+quick-reference
+quickadd
+quiz
+real-estate
+reference
+relationship-selling
+research
+research-paper
+resource-index
+review
+sales
+sales-funnel
+scaling
+schema
+self-critique
+self-improvement
+setup
+social-housing
+spaced-repetition
+srs
+status/active
+status/draft
+status/reference
+strategy
+strict-audit
+tasks
+tasks-plugin
+taxonomy
+template
+testing
+tool/openclaw
+type/atomic-note
+vault-governance
+vault-index
+vault-maintenance
+versioning
+vietnam
+vietnamese-book
+web-clip
+wiki
+workflow
+yen-the-golden-hill
+zettelkasten
+zotero
 ```
 
-### #Concept/* — Topic tags (create as needed)
-```
-#Concept/marketing-automation
-#Concept/zettelkasten
-#Concept/obsidian-workflow
-#Concept/vietnamese-psychology
-#Concept/sales-funnel
-#Concept/content-strategy
-#Concept/ai-agent-design
-```
-
-### #Tool/* — Tools and platforms
-```
-#Tool/Obsidian
-#Tool/Facebook-Graph-API
-#Tool/OpenClaw
-#Tool/Ollama
-#Tool/Telegram-Bot
-#Tool/Notion
-```
-
-
-### #priority/* — Task urgency levels (from task-system-config.md)
-```
-#priority/P1  — Critical — must do today or overdue
-#priority/P2  — High — this week
-#priority/P3  — Medium — this month
-#priority/P4  — Low — backlog
-```
-
-### #Method/* — Techniques and approaches
-```
-#Method/capture-first
-#Method/bidirectional-linking
-#Method/token-efficient-retrieval
-#Method/weekly-review
-```
-
-## Tag Creation Rules
-
-1. **Lowercase, hyphenated** — `#Concept/marketing-automation` not `#Concept/Marketing Automation`
-2. **Consistent naming** — Once created, never rename (use tag-wrangler to merge)
-3. **Define before using** — New tag → add to this document first
-4. **Max 50 unique tags** — Beyond that = tag entropy → merge duplicates
-5. **Nested structure** — Use `/` for hierarchy: `#project/Alpha`, `#Status/draft`
-
-## Deprecated Tags (merge into)
-
-| Old | New |
-|-----|-----|
-| #meta | #Type/reference |
-| #note | #Type/atomic-note |
-| #todo | Check task status instead |
-| #book | #Type/literature |
-
----
-*Tag count: ~30 defined, target max 50*
-*Last reviewed: 2026-06-12*
+Danh mục đã được đối chiếu với frontmatter của ghi chú chính thống vào ngày 2026-07-14.

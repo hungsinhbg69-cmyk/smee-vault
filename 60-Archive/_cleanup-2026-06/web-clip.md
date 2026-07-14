@@ -1,11 +1,11 @@
 ---
 title: "{{web_title}}"
 slug: "web-clip-slug"
-category: resource
+category: archive
 type: web-article
-status: draft
-created: {{date}}
-last_updated: {{date}}
+status: archived
+created: 2026-06-20
+last_updated: 2026-07-13
 tags: [web-clip, reference]
 source_url: 
 ---

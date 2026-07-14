@@ -41,12 +41,12 @@ Người BG nói khác Hà Nội ở những điểm sau:
 |----------|-------------|------------------------|
 | Sao | Xao / Sá | "Xao bây đi đâu?" |
 | Gì | Chi / Gi | "Mi làm chi?" (tiếp giáp Thái) |
-| Đi | Đi / Đỉ | "Bây đi đỉ" |
+| Đi | Đỉ | "Bây đi đỉ" |
 | Về | Vê / Ve | "Vê nhà ăn cơm" |
-| Ai | Ai / Ủy | "Ủy đấy?" |
-| Không | Không / Hổng | "Không biết" |
+| Ai | Ủy | "Ủy đấy?" |
+| Không | Hổng | "Hổng biết" |
 | Ăn | Ăng | "Ăn cơm chưa ăng?" |
-| Nhiều | Nhiều / Đầy | "Nhiều lắm" → "Đầy nhà" |
+| Nhiều | Đầy | "Nhiều lắm" → "Đầy nhà" |
 
 ### 2.2 Từ vựng đặc trưng BG (thu thập từ TikTok 2026)
 

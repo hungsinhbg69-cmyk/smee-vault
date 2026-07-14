@@ -5,6 +5,12 @@ tags:
   - marketing
 scenario: 1
 fictional: true
+slug: s1-local-brief-sen-may-sunscreen
+category: training
+status: draft
+type: exercise
+created: 2026-07-13
+last_updated: 2026-07-13
 ---
 
 # Local brief — Sen Mây / Mộc Nhiên

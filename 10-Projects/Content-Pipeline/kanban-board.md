@@ -1,19 +1,19 @@
 ---
-title: "Kanban Content Pipeline"
+title: "Dòng chảy nội dung Kanban"
 slug: "content-pipeline-kanban"
-category: resource
+category: project
 type: template
 created: 2026-06-20
-last_updated: {{date}}
+last_updated: 2026-06-26
 tags: [kanban, content-pipeline]
 status: active
 ---
 
-# Kanban Board — FB Ads Content Workflow
+# Bảng Kanban — Quy trình làm việc nội dung quảng cáo Facebook
 
-Drag cards between columns to track progress. Auto-categorized by tag.
+Kéo các thẻ giữa các cột để theo dõi tiến độ. Tự động phân loại theo thẻ.
 
-## Ideas / Brainstorming
+## Ý tưởng / Sưu tầm ý tưởng
 
 ```kanban
 column_id: ideas
@@ -22,10 +22,10 @@ group_by: status
 sort_order: created desc
 max_cards: 20
 card_fields: [title, tags, status]
-empty_message: No pending ideas. Use QuickAdd > New Idea to capture.
+empty_message: Không có ý kiến chờ xử lý. Sử dụng QuickAdd > Ý tưởng mới để ghi lại.
 ```
 
-## Drafting (Dang viet)
+## Viết nháp (Đang viết)
 
 ```kanban
 column_id: drafting
@@ -34,10 +34,10 @@ group_by: priority
 sort_order: created desc
 max_cards: 10
 card_fields: [title, tags, status, due]
-empty_message: No active drafts.
+empty_message: Không có bản nháp đang hoạt động.
 ```
 
-## Review (Cho duyet)
+## Xem xét (Chờ duyệt)
 
 ```kanban
 column_id: review
@@ -46,10 +46,10 @@ group_by: priority
 sort_order: created desc
 max_cards: 10
 card_fields: [title, tags, status, reviewer]
-empty_message: No items for review.
+empty_message: Không có mục nào cần xem xét.
 ```
 
-## Published (Da dang)
+## Đã công bố (Đã đăng)
 
 ```kanban
 column_id: published
@@ -58,20 +58,20 @@ group_by: platform
 sort_order: mtime desc
 max_cards: 30
 card_fields: [title, tags, status, publish_date, performance]
-empty_message: No published content yet.
+empty_message: Chưa có nội dung nào được công bố.
 ```
 
 ---
 
-## Pipeline Stats (auto-updated)
+## Thống kê quy trình (tự động cập nhật)
 
-| Stage | Count | Avg Time | Notes |
+| Giai đoạn | Số lượng | Thời gian trung bình | Ghi chú |
 |-------|-------|----------|-------|
-| Ideas | `=dv.pages('"10-Projects/Content-Pipeline"').filter(p => p.status == "draft").length` | - | draft count |
-| Drafting | `=dv.pages('"10-Projects/Content-Pipeline"').filter(p => p.status == "in-progress").length` | - | in progress |
-| Review | `=dv.pages('"10-Projects/Content-Pipeline"').filter(p => p.status == "review").length` | - | awaiting review |
-| Published | `=dv.pages('"10-Projects/Content-Pipeline"').filter(p => p.status == "published").length` | - | total published |
+| Ý tưởng | `=dv.pages('"10-Projects/Content-Pipeline"').filter(p => p.status == "draft").length` | - | số lượng bản nháp |
+| Viết nháp | `=dv.pages('"10-Projects/Content-Pipeline"').filter(p => p.status == "in-progress").length` | - | đang thực hiện |
+| Xem xét | `=dv.pages('"10-Projects/Content-Pipeline"').filter(p => p.status == "review").length` | - | chờ xem xét |
+| Đã công bố | `=dv.pages('"10-Projects/Content-Pipeline"').filter(p => p.status == "published").length` | - | tổng số đã công bố |
 
 ---
 
-*Created: 2026-06-20 by Smee — Layer 2 Deploy (Kanban Board)*
+*Tạo: 2026-06-20 bởi Smee — Layer 2 Deploy (Bảng Kanban)*

@@ -1,9 +1,9 @@
 ---
 title: "LẦN 3: Góc Độ TÂM LÝ HỌC & NGHỆ THUẬT XỬ THẾ"
 slug: "co-hoc-tinh-hoa-read3"
-category: reference
+category: archive
 tags: [vault-maintenance]
-status: "draft"
+status: archived
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

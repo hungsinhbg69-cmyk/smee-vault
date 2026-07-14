@@ -1,5 +1,5 @@
 ---
-title: "Tracking Pixel CAPI"
+title: "Pixel Theo Dõi CAPI"
 slug: "tracking-pixel"
 category: resource
 tags: [facebook-ads, meta-ads]
@@ -9,112 +9,112 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-﻿# 05 - Tracking & Pixel (Meta Pixel + Conversions API)
+# 05 - Theo Dõi & Pixel (Meta Pixel + Conversions API)
 
-## Meta Pixel: What It Does
+## Meta Pixel: Chức Năng Của Nó
 
-The Meta Pixel is a piece of code placed on your website that tracks user actions. It is the FOUNDATION of all Facebook Ads optimization.
+Meta Pixel là một đoạn mã được đặt trên trang web của bạn để theo dõi hành động của người dùng. Đây là NỀN TẢNG cho mọi tối ưu hóa quảng cáo Facebook.
 
-### Core functions
-1. **Track actions on your website** - purchases, signups, page views, add to cart
-2. **Power the optimization algorithm** - tells Meta who converts so it can find more
-3. **Enable retargeting** - build Custom Audiences from website visitors
-4. **Measure ROI** - attribute revenue to ad spend
+### Các chức năng cốt lõi
+1. **Theo dõi hành động trên trang web** - mua hàng, đăng ký, xem trang, thêm vào giỏ hàng
+2. **Cung cấp sức mạnh cho thuật toán tối ưu hóa** - thông báo cho Meta ai là người chuyển đổi để họ có thể tìm kiếm nhiều hơn
+3. **Cho phép tiếp thị lại (retargeting)** - xây dựng Đối tượng tùy chỉnh từ những người đã truy cập trang web
+4. **Đo lường ROI** - quy kết doanh thu cho chi tiêu quảng cáo
 
-### Without Pixel = Flying blind
-- Algorithm optimizes for clicks, not conversions
-- Can't build website-based retargeting audiences
-- No conversion data for lookalike sources
-- 3-5x less effective Advantage+ campaigns
+### Không có Pixel = Bay mù lòa
+- Thuật toán tối ưu hóa cho lượt nhấp, không phải chuyển đổi
+- Không thể xây dựng đối tượng tiếp thị lại dựa trên trang web
+- Không có dữ liệu chuyển đổi để tạo nguồn tương tự (lookalike)
+- Chiến dịch Advantage+ kém hiệu quả hơn 3-5 lần
 
-## Pixel Installation Methods
+## Các phương pháp cài đặt Pixel
 
-### Method 1: Direct code installation
-- Generate pixel code in Events Manager
-- Add to website header (before closing </head> tag)
-- Verify installation with Meta Pixel Helper Chrome extension
-- **Best for:** custom websites, full control
+### Phương pháp 1: Cài đặt mã trực tiếp
+- Tạo mã pixel trong Trình quản lý sự kiện (Events Manager)
+- Thêm vào phần header của trang web (trước khi đóng thẻ `</head>`)
+- Xác nhận cài đặt bằng tiện ích mở rộng Chrome Meta Pixel Helper
+- **Phù hợp nhất cho:** các trang web tùy chỉnh, quyền kiểm soát đầy đủ
 
-### Method 2: CMS Plugin/Integration
-- WordPress: Use official Meta plugin or WooCommerce integration
-- Shopify: Native Meta channel app (easiest setup)
-- Other platforms: Check native integrations first
-- **Best for:** non-technical users, quick setup
+### Phương pháp 2: Plugin/Tích hợp CMS
+- WordPress: Sử dụng plugin chính thức của Meta hoặc tích hợp WooCommerce
+- Shopify: Ứng dụng kênh Meta nguyên bản (cài đặt dễ dàng nhất)
+- Các nền tảng khác: Kiểm tra các tích hợp nguyên bản trước
+- **Phù hợp nhất cho:** người dùng không chuyên kỹ thuật, cài đặt nhanh
 
-### Method 3: Partner Integration
-- Google Tag Manager (GTM): Manage pixel via tag container
-- Server-side tracking via GTM server container
-- **Best for:** advanced tracking, reduced ad blocker impact
+### Phương pháp 3: Tích hợp đối tác
+- Google Tag Manager (GTM): Quản lý pixel qua hộp chứa thẻ
+- Theo dõi từ máy chủ thông qua hộp chứa server của GTM
+- **Phù hợp nhất cho:** theo dõi nâng cao, giảm thiểu ảnh hưởng của trình chặn quảng cáo
 
-## Standard Events to Track (Priority Order)
+## Các sự kiện tiêu chuẩn cần theo dõi (Thứ tự ưu tiên)
 
-### Conversion events (highest priority)
-| Event | When fires | Business value |
+### Sự kiện chuyển đổi (ưu tiên cao nhất)
+| Sự kiện | Khi nào kích hoạt | Giá trị kinh doanh |
 |---|---|---|
-| Purchase | Transaction complete | Revenue tracking, ROAS |
-| Lead | Form submitted | Lead generation quality |
-| CompleteRegistration | Account created | User acquisition |
+| Purchase | Giao dịch hoàn tất | Theo dõi doanh thu, ROAS |
+| Lead | Form được gửi đi | Chất lượng tạo lead |
+| CompleteRegistration | Tài khoản được tạo | Thu hút người dùng mới |
 
-### Engagement events (medium priority)
-| Event | When fires | Business value |
+### Sự kiện tương tác (ưu tiên trung bình)
+| Sự kiện | Khi nào kích hoạt | Giá trị kinh doanh |
 |---|---|---|
-| AddToCart | Item added to cart | Cart abandonment retargeting |
-| InitiateCheckout | Checkout started | Funnel drop-off analysis |
-| ViewContent | Product/service page viewed | Content interest mapping |
+| AddToCart | Sản phẩm được thêm vào giỏ hàng | Tiếp thị lại cho giỏ hàng bị bỏ rơi |
+| InitiateCheckout | Quy trình thanh toán bắt đầu | Phân tích điểm bỏ qua trong phễu |
+| ViewContent | Trang sản phẩm/dịch vụ được xem | Lập bản đồ quan tâm nội dung |
 
-### Custom events (as needed)
-- Search (track what users search for)
-- Contact (phone/email clicks)
-- Subscribe (newsletter signup)
-- Schedule (appointment booking)
-- StartTrial (free trial activation)
+### Sự kiện tùy chỉnh (khi cần)
+- Search (theo dõi những gì người dùng tìm kiếm)
+- Contact (nhấp vào số điện thoại/email)
+- Subscribe (đăng ký tin tức)
+- Schedule (đặt lịch hẹn)
+- StartTrial (hoạt hóa bản dùng thử miễn phí)
 
-## Pixel Configuration Checklist
+## Danh sách kiểm tra cấu hình Pixel
 
-- [ ] Pixel installed on ALL pages (or at minimum conversion funnel pages)
-- [ ] All standard events properly configured and firing
-- [ ] Purchase event includes value parameter for ROAS tracking
-- [ ] Events verified in Events Manager > Test Events
-- [ ] Meta Pixel Helper extension confirms installation
-- [ ] Duplicate events removed (don't track same action twice)
-- [ ] Advanced matching enabled (email, phone, name for better user identification)
+- [ ] Pixel được cài đặt trên TẤT CẢ các trang (hoặc tối thiểu là các trang trong phễu chuyển đổi)
+- [ ] Tất cả sự kiện tiêu chuẩn được cấu hình đúng và kích hoạt
+- [ ] Sự kiện Purchase bao gồm tham số value để theo dõi ROAS
+- [ ] Các sự kiện đã được xác minh trong Trình quản lý sự kiện > Test Events
+- [ ] Tiện ích mở rộng Meta Pixel Helper xác nhận cài đặt
+- [ ] Loại bỏ các sự kiện trùng lặp (không theo dõi cùng một hành động hai lần)
+- [ ] Bật tính năng khớp nâng cao (email, số điện thoại, tên để xác định người dùng tốt hơn)
 
 ## Conversions API (CAPI)
 
-### Why CAPI is essential in 2026
-1. **iOS 14+ privacy changes** limit pixel tracking via App Tracking Transparency
-2. **Ad blockers** block pixel fires (estimated 30-40% of users)
-3. **Server-side tracking** more reliable than browser-based pixel
-4. **Better data quality** - first-party data, less noise
-5. **Improved attribution** - matches server events to ad clicks
+### Tại sao CAPI là thiết yếu vào năm 2026
+1. **Thay đổi quyền riêng tư iOS 14+** hạn chế theo dõi pixel thông qua Tính minh bạch theo dõi ứng dụng
+2. **Trình chặn quảng cáo** chặn các sự kiện pixel (ước tính 30-40% người dùng)
+3. **Theo dõi từ máy chủ** đáng tin cậy hơn so với pixel dựa trên trình duyệt
+4. **Chất lượng dữ liệu tốt hơn** - dữ liệu cấp một, ít nhiễu hơn
+5. **Gán kết quả chính xác hơn** - khớp sự kiện máy chủ với nhấp chuột quảng cáo
 
-### CAPI + Pixel setup (recommended)
-- Install BOTH pixel and CAPI (not one or the other)
-- Pixel handles browser-side tracking
-- CAPI handles server-side fallback
-- Use event deduplication (match event_id between pixel and CAPI)
-- Meta recommends this hybrid approach for best coverage
+### Cài đặt CAPI + Pixel (được khuyến nghị)
+- Cài đặt cả pixel và CAPI (không phải cái này hoặc cái kia)
+- Pixel xử lý theo dõi từ trình duyệt
+- CAPI xử lý dự phòng từ máy chủ
+- Sử dụng loại bỏ trùng lặp sự kiện (khớp event_id giữa pixel và CAPI)
+- Meta khuyến nghị cách tiếp cận lai này để có độ bao phủ tốt nhất
 
-### CAPI implementation options
-1. **Partner integration:** Shopify, WooCommerce native CAPI connection (easiest)
-2. **Meta Events Manager:** Set up CAPI directly in Events Manager
-3. **Custom server:** REST API POST to Meta endpoints (most control)
-4. **GTM Server Container:** Manage both pixel and CAPI from one place
+### Các tùy chọn triển khai CAPI
+1. **Tích hợp đối tác:** Tích hợp CAPI nguyên bản của Shopify, WooCommerce (dễ dàng nhất)
+2. **Trình quản lý sự kiện Meta:** Thiết lập CAPI trực tiếp trong Trình quản lý sự kiện
+3. **Máy chủ tùy chỉnh:** POST REST API đến các điểm cuối của Meta (quyền kiểm soát cao nhất)
+4. **Hộp chứa server GTM:** Quản lý cả pixel và CAPI từ một nơi
 
-### CAPI events priority (same as pixel)
-1. Purchase (with value, currency, content_id)
-2. Lead (with form type, lead quality)
-3. ViewContent (with content_type, content_ids)
-4. AddToCart (with value, currency)
-5. InitiateCheckout (with value, currency)
+### Ưu tiên sự kiện CAPI (giống như pixel)
+1. Purchase (bao gồm value, currency, content_id)
+2. Lead (bao gồm loại form, chất lượng lead)
+3. ViewContent (bao gồm content_type, content_ids)
+4. AddToCart (bao gồm value, currency)
+5. InitiateCheckout (bao gồm value, currency)
 
-## Advanced Matching
+## Khớp nâng cao (Advanced Matching)
 
-### What it is
-Hashed user data sent with pixel events to improve user identification.
+### Nó là gì
+Dữ liệu người dùng đã băm được gửi kèm theo các sự kiện pixel để cải thiện việc xác định người dùng.
 
-### Fields to send (best to good)
-- **email** (highest match rate)
+### Các trường cần gửi (từ tốt nhất đến khá tốt)
+- **email** (tỷ lệ khớp cao nhất)
 - **phone_number**
 - **first_name**
 - **last_name**
@@ -122,51 +122,51 @@ Hashed user data sent with pixel events to improve user identification.
 - **state**
 - **country**
 - **zip**
-- **external_id** (your internal user ID)
+- **external_id** (ID người dùng nội bộ của bạn)
 
-### Match rates
-- With email + phone: 80-95% match rate
-- With email only: 60-80% match rate
-- With no advanced matching: 30-50% match rate
+### Tỷ lệ khớp
+- Với email + số điện thoại: 80-95% tỷ lệ khớp
+- Chỉ với email: 60-80% tỷ lệ khớp
+- Không có khớp nâng cao: 30-50% tỷ lệ khớp
 
-## Event Debugging & Testing
+## Chẩn đoán và kiểm tra sự kiện
 
-### Test Events tool (Events Manager)
-1. Go to Events Manager > Test Events
-2. Enter your website URL
-3. Simulate events in real-time
-4. Verify event parameters match expected values
-5. Check deduplication between pixel and CAPI
+### Công cụ Test Events (Trình quản lý sự kiện)
+1. Đi đến Trình quản lý sự kiện > Test Events
+2. Nhập URL trang web của bạn
+3. Mô phỏng các sự kiện theo thời gian thực
+4. Xác minh các tham số sự kiện khớp với giá trị mong đợi
+5. Kiểm tra loại bỏ trùng lặp giữa pixel và CAPI
 
-### Common issues
-- Event fires multiple times (check for duplicate code)
-- Purchase event missing value parameter (ROAS broken)
-- Advanced matching not sending hashed data
-- CAPI events not deduplicating with pixel events
-- iOS users showing as "unknown" (ATT prompt declined)
+### Các vấn đề phổ biến
+- Sự kiện kích hoạt nhiều lần (kiểm tra mã trùng lặp)
+- Sự kiện Purchase thiếu tham số value (ROAS bị hỏng)
+- Khớp nâng cao không gửi dữ liệu đã băm
+- Các sự kiện CAPI không loại bỏ trùng lặp với các sự kiện pixel
+- Người dùng iOS hiển thị là "unknown" (lời nhắc ATT bị từ chối)
 
-## Pixel Data Requirements for Advantage+
+## Yêu cầu dữ liệu Pixel cho Advantage+
 
-### Minimum thresholds
-| For | Minimum requirement |
+### Ngưỡng tối thiểu
+| Cho | Yêu cầu tối thiểu |
 |---|---|
-| Advantage+ Audiences | 50 conversions/week/ad set |
-| Advantage+ Shopping | 50+ purchases/month total |
-| Lookalike audiences | 1,000+ source people |
-| Reliable attribution | 100+ Purchase events/month |
+| Đối tượng Advantage+ | 50 chuyển đổi/tuần/bộ quảng cáo |
+| Mua sắm Advantage+ | 50+ mua hàng/tháng tổng cộng |
+| Đối tượng tương tự (Lookalike) | 1.000+ người nguồn |
+| Gán kết quả đáng tin cậy | 100+ sự kiện Purchase/tháng |
 
-### Timeline for data accumulation
-- New pixel: 2-4 weeks to gather meaningful conversion data
-- Established pixel: continuously growing dataset
-- Refresh lookalike sources every 30-90 days
+### Thời gian tích lũy dữ liệu
+- Pixel mới: 2-4 tuần để thu thập dữ liệu chuyển đổi có ý nghĩa
+- Pixel đã thiết lập: bộ dữ liệu liên tục tăng trưởng
+- Làm mới nguồn đối tượng tương tự mỗi 30-90 ngày
 
-## Key Takeaways
-- Pixel is FOUNDATION - no pixel = algorithm working blind
-- Track Purchase event with value parameter for ROAS (highest priority)
-- Use BOTH pixel + CAPI for maximum tracking coverage
-- Advanced matching (email + phone) critical for 80%+ match rates
-- Need 50+ conversions/week/ad set for Advantage+ to work optimally
-- Test Events tool in Events Manager is your debugging best friend
+## Những điểm chính cần nhớ
+- Pixel là NỀN TẢNG - không có pixel = thuật toán hoạt động mù lòa
+- Theo dõi sự kiện Purchase với tham số value để theo dõi ROAS (ưu tiên cao nhất)
+- Sử dụng cả pixel + CAPI để có độ bao phủ theo dõi tối đa
+- Khớp nâng cao (email + số điện thoại) là yếu tố sống còn cho tỷ lệ khớp 80%+
+- Cần 50+ chuyển đổi/tuần/bộ quảng cáo để Advantage+ hoạt động tối ưu
+- Công cụ Test Events trong Trình quản lý sự kiện là người bạn đồng hành tuyệt vời nhất để gỡ lỗi
 
 ---
-*Created: 2026-06-15 | Sources: marketingadvice.ai, marketingagency.one*
+*Tạo: 2026-06-15 | Nguồn: marketingadvice.ai, marketingagency.one*

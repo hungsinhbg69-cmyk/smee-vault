@@ -1,21 +1,23 @@
 ---
-title: "llm-wiki-insights"
-slug: "llm-wiki-insights"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
+title: LLM Wiki — Insights & Application
+slug: llm-wiki-insights
+category: knowledge
+tags:
+- llm
+- wiki
+- insights
+- karpathy
+- application
+status: active
 type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "LLM Wiki — Insights & Application"
-tags: [llm, wiki, insights, karpathy, application]
-date: 2026-06-16
-source: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
-related: ["llm-wiki-karpathy-pattern", "llm-wiki-architecture", "llm-wiki-operations", "llm-wiki-critique"]
-status: reviewed
+created: 2026-06-16
+last_updated: '2026-07-14'
+source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+related:
+- llm-wiki-karpathy-pattern
+- llm-wiki-architecture
+- llm-wiki-operations
+- llm-wiki-critique
 ---
 
 # LLM Wiki — Insights & Application (Karpathy)

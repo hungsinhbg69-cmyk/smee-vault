@@ -1,20 +1,17 @@
 ---
-title: "professional-marketing-2026"
-slug: "professional-marketing-2026"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
-status: draft
+title: Professional Marketing Framework 2026
+slug: professional-marketing-2026
+category: knowledge
+tags:
+- marketing
+- framework
+- ai-agent
+- strategy
+- year/2026
+status: active
 type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Professional Marketing Framework 2026"
 created: 2026-06-17
-updated: 2026-06-17
-tags: [marketing, framework, ai-agent, strategy, 2026]
-status: published
+last_updated: '2026-07-14'
 source: Synthesized from Semrush, HubSpot, Shopify, McKinsey research + critical review
 ---
 

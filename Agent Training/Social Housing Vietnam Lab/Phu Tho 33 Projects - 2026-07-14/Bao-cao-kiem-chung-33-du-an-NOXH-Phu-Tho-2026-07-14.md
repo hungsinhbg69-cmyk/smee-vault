@@ -5,6 +5,12 @@ tags:
   - noxh
   - phu-tho
   - legal-audit
+slug: bao-cao-kiem-chung-33-du-an-nha-o-xa-hoi-tinh-phu-tho
+category: training
+status: draft
+type: report
+created: 2026-07-14
+last_updated: 2026-07-14
 ---
 
 # BÁO CÁO KIỂM CHỨNG 33 DỰ ÁN NHÀ Ở XÃ HỘI TỈNH PHÚ THỌ

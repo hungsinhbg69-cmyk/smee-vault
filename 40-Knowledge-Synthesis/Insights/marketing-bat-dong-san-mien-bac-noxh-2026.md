@@ -6,7 +6,7 @@ type: reference
 status: active
 created: 2026-06-22
 last_updated: 2026-06-24
-tags: [bds, marketing, no-xa-hoi, mien-bac, facebook-ads, 2026]
+tags: ["real-estate", "marketing", "social-housing", "northern-vietnam", "facebook-ads"]
 source_urls:
   - https://dantri.com.vn/bat-dong-san/khap-3-mien-mo-ban-nha-o-xa-hoi-giac-mo-an-cu-da-that-gan-20251111181416031.htm
   - https://baohungyen.vn/thi-truong-nha-o-xa-hoi-dau-nam-2026-tu-nghich-ly-cung-cau-den-lo-the-canh-tranh-tai-pho-noi-house-3191697.html

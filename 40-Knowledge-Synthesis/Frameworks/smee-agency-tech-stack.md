@@ -1,23 +1,17 @@
 ---
-title: "smee-agency-tech-stack"
-slug: "smee-agency-tech-stack"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Smee Agency — Tech Stack & Automation"
-slug: "smee-agency-tech-stack"
-category: technical
-tags: [smee, tech-stack, automation, openclaw, ollama]
+title: Smee Agency — Tech Stack & Automation
+slug: smee-agency-tech-stack
+category: knowledge
+tags:
+- smee
+- tech-stack
+- automation
+- openclaw
+- ollama
 status: active
 type: reference-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 ---
 
 # 🤖 Smee Agency Tech Stack & Automation

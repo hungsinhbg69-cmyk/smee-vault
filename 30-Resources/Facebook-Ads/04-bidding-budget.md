@@ -1,5 +1,5 @@
 ---
-title: "Bidding & Budget"
+title: "Chốt giá & Ngân sách"
 slug: "bidding-budget"
 category: resource
 tags: [facebook-ads, meta-ads]
@@ -9,152 +9,152 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-﻿# 04 - Bidding & Budget (Chinh sach chi phi + Bidding)
+# 04 - Chốt giá & Ngân sách (Chính sách chi phí + Bidding)
 
-## Budget Types
+## Các loại ngân sách
 
-### Daily Budget
-- Average spend per day (Facebook may fluctuate +/-15%)
-- Good for: consistent daily delivery, predictable spending
-- Minimum: depends on currency, typically /day minimum
-- Use when: you want steady daily results
+### Ngân sách hàng ngày
+- Chi tiêu trung bình mỗi ngày (Facebook có thể dao động +/-15%)
+- Phù hợp cho: phân phối đều đặn hàng ngày, chi tiêu dự đoán được
+- Mức tối thiểu: phụ thuộc vào tiền tệ, thường là /ngày
+- Sử dụng khi: bạn muốn kết quả ổn định hàng ngày
 
-### Lifetime Budget
-- Total spend over entire campaign duration
-- Facebook distributes across days based on opportunity
-- Good for: time-limited campaigns, events, promotions
-- Use when: campaign has fixed start/end date
+### Ngân sách trọn đời
+- Tổng chi tiêu trong suốt thời gian chiến dịch
+- Facebook phân bổ ngân sách theo ngày dựa trên cơ hội
+- Phù hợp cho: các chiến dịch có thời hạn, sự kiện, khuyến mãi
+- Sử dụng khi: chiến dịch có ngày bắt đầu/kết thúc cố định
 
-**Recommendation:** For most campaigns, daily budget gives more predictable results. Lifetime budget works well for time-sensitive offers.
+**Khuyến nghị:** Đối với hầu hết các chiến dịch, ngân sách hàng ngày mang lại kết quả dự đoán được hơn. Ngân sách trọn đời hoạt động tốt cho các ưu đãi nhạy cảm về thời gian.
 
-## Bidding Strategies
+## Các chiến lược chốt giá (Bidding Strategies)
 
-### 1. Lowest Cost (Mac dinh)
-- Facebook auto-optimizes for lowest cost per result
-- No bid cap - spends full budget for maximum results
-- Best for: maximizing results within budget, new campaigns
-- Risk: may overspend on expensive audiences initially
-- **Use this by default** when starting
+### 1. Chi phí thấp nhất (Mặc định)
+- Facebook tự động tối ưu hóa để đạt chi phí thấp nhất trên mỗi kết quả
+- Không có trần đặt giá - chi tiêu hết ngân sách để đạt số lượng kết quả lớn nhất
+- Tốt nhất cho: tối đa hóa kết quả trong khuôn khổ ngân sách, chiến dịch mới
+- Rủi ro: có thể chi quá mức cho các đối tượng đắt đỏ ban đầu
+- **Sử dụng tùy chọn này làm mặc định** khi bắt đầu
 
-### 2. Cost Cap (Control average cost)
-- Sets target average cost per result
-- Facebook tries to get results AT or BELOW target cost
-- May spend less than full budget if opportunities limited
-- Best for: scaling campaigns with known CPA targets
-- Risk: may exit learning phase if too few results at cap
+### 2. Giới hạn chi phí (Cost Cap - Kiểm soát chi phí trung bình)
+- Thiết lập mục tiêu chi phí trung bình trên mỗi kết quả
+- Facebook cố gắng đạt được kết quả ĐÚNG hoặc DƯỚI mức giá mục tiêu
+- Có thể chi ít hơn ngân sách đầy đủ nếu cơ hội bị giới hạn
+- Tốt nhất cho: mở rộng quy mô chiến dịch với các mục tiêu CPA đã biết
+- Rủi ro: có thể rời khỏi giai đoạn học tập nếu số lượng kết quả dưới ngưỡng trần quá thấp
 
-**Setting cost cap:** Start with 1.5-2x your target CPA, then tighten as algorithm learns.
+**Cách thiết lập giá trần:** Bắt đầu bằng 1,5 đến 2 lần CPA mục tiêu của bạn, sau đó siết chặt khi thuật toán học được.
 
-### 3. Bid Cap (Control maximum bid)
-- Sets hard maximum bid for auction
-- Facebook only enters auctions where you can win at or below bid
-- Most control, least flexibility
-- Best for: competitive auctions, specific placement bids
-- Risk: may not spend full budget if bids too low
+### 3. Giới hạn đặt giá (Bid Cap - Kiểm soát mức đặt giá tối đa)
+- Thiết lập mức đặt giá cứng tối đa cho cuộc đấu thầu
+- Facebook chỉ tham gia các cuộc đấu thầu mà bạn có thể thắng ở mức hoặc dưới mức đặt giá
+- Mức kiểm soát cao nhất, ít linh hoạt nhất
+- Tốt nhất cho: các cuộc đấu thầu cạnh tranh, đặt giá cụ thể theo vị trí hiển thị
+- Rủi ro: có thể không chi hết ngân sách nếu mức đặt giá quá thấp
 
-## Campaign Budget Optimization (CBO) Deep Dive
+## Phân tích sâu về Tối ưu hóa Ngân sách Chiến dịch (CBO)
 
-### How CBO works
-1. Set ONE budget at campaign level
-2. Create 2-6 ad sets within campaign
-3. Meta distributes budget dynamically to best-performing ad sets
-4. Algorithm shifts budget every ~hour based on real-time performance
-5. Best ad sets get more budget automatically
+### Cách CBO hoạt động
+1. Thiết lập MỘT ngân sách ở cấp chiến dịch
+2. Tạo 2-6 bộ quảng cáo bên trong chiến dịch
+3. Meta phân bổ ngân sách một cách động cho các bộ quảng cáo hiệu quả nhất
+4. Thuật toán chuyển đổi ngân sách mỗi khoảng ~một giờ dựa trên hiệu suất thời gian thực
+5. Các bộ quảng cáo tốt nhất sẽ nhận được nhiều ngân sách hơn tự động
 
-### CBO requirements
-- Minimum 2 ad sets, maximum 6 ad sets per campaign
-- Similar audience types (don't mix broad LAL with narrow interests)
-- Each ad set needs minimum ~/day to gather data
-- Allow 48 hours for algorithm to stabilize distribution
+### Yêu cầu của CBO
+- Tối thiểu 2 bộ quảng cáo, tối đa 6 bộ quảng cáo mỗi chiến dịch
+- Loại đối tượng tương tự (không trộn lẫn đối tượng rộng LAL với sở thích hẹp)
+- Mỗi bộ quảng cáo cần mức ~/ngày tối thiểu để thu thập dữ liệu
+- Cho phép 48 giờ để thuật toán ổn định việc phân bổ
 
-### When to use CBO vs ABO
-| Scenario | Budget Type | Why |
+### Khi nào sử dụng CBO so với ABO
+| Kịch bản | Loại ngân sách | Lý do |
 |---|---|---|
-| Testing new audiences | ABO (ad set budget) | Equal spend per test |
-| Scaling winners | CBO (campaign budget) | Algorithm finds cheapest results |
-| Established campaign, 3+ ad sets | CBO | Proven distribution works |
-| Single ad set | Either | No difference with 1 ad set |
-| Limited budget (</day total) | ABO | Guarantee each test gets spend |
-| Large budget (+/day) | CBO | Algorithm distributes efficiently |
+| Thử nghiệm các đối tượng mới | ABO (ngân sách bộ quảng cáo) | Chi tiêu bằng nhau cho mỗi lần thử |
+| Mở rộng quy mô những người chiến thắng | CBO (ngân sách chiến dịch) | Thuật toán tìm ra kết quả rẻ nhất |
+| Chiến dịch đã thiết lập, 3+ bộ quảng cáo | CBO | Phân phối đã được chứng minh hoạt động tốt |
+| Một bộ quảng cáo duy nhất | Cả hai | Không có sự khác biệt với một bộ quảng cáo |
+| Ngân sách hạn chế (</ngày tổng cộng) | ABO | Đảm bảo mỗi lần thử đều nhận được chi tiêu |
+| Ngân sách lớn (+/ngày) | CBO | Thuật toán phân bổ hiệu quả |
 
-### CBO best practices
-1. Don't mix very different audiences in same CBO campaign
-2. Use similar audience sizes for fair comparison
-3. Set minimum ad set spend if needed (via cost cap per ad set)
-4. Allow learning phase before making changes (48+ hours)
-5. Budget should be at least 10x your target CPA minimum
+### Các thực hành tốt nhất cho CBO
+1. Không trộn lẫn các đối tượng quá khác nhau trong cùng một chiến dịch CBO
+2. Sử dụng quy mô đối tượng tương tự để so sánh công bằng
+3. Thiết lập mức chi tiêu tối thiểu của bộ quảng cáo nếu cần (thông qua giá trần trên mỗi bộ quảng cáo)
+4. Cho phép giai đoạn học tập trước khi thực hiện thay đổi (48+ giờ)
+5. Ngân sách nên ít nhất gấp 10 lần CPA mục tiêu tối thiểu của bạn
 
-## The Learning Phase (Phase Hoc)
+## Giai đoạn Học tập (Learning Phase)
 
-### What triggers learning phase
-- New campaign/ad set created
-- Significant edit made (>25% budget change, creative swap, targeting change)
-- Ad paused and reactivated
-- Delivery issue resolved
+### Những gì kích hoạt giai đoạn học tập
+- Chiến dịch/bộ quảng cáo mới được tạo ra
+- Chỉnh sửa quan trọng (>25% thay đổi ngân sách, thay đổi sáng tạo, thay đổi nhắm mục tiêu)
+- Quảng cáo bị tạm dừng và tái kích hoạt
+- Vấn đề phân phối được giải quyết
 
-### Learning phase requirements
-- **50 optimization events per week per ad set** - this is the magic number
-- Optimization event = the conversion event you're optimizing for (purchase, lead, etc.)
-- If fewer than 50 events/week, stays in learning indefinitely
+### Yêu cầu của giai đoạn học tập
+- **50 sự kiện tối ưu hóa mỗi tuần cho mỗi bộ quảng cáo** - đây là con số ma thuật
+- Sự kiện tối ưu hóa = sự kiện chuyển đổi bạn đang tối ưu hóa (mua hàng, lead, v.v.)
+- Nếu có ít hơn 50 sự kiện/tuần, sẽ ở trong giai đoạn học tập vô hạn
 
-### During learning phase
-- Performance UNSTABLE and unpredictable
-- Cost may be higher than normal
-- Don't make major edits during this period
-- Allow minimum 48 hours before judging performance
-- **Do NOT panic and stop early** - this is where most advertisers lose money
+### Trong giai đoạn học tập
+- Hiệu suất KHÔNG ỔN ĐỊNH và không thể dự đoán
+- Chi phí có thể cao hơn bình thường
+- Không thực hiện chỉnh sửa lớn trong kỳ này
+- Cho phép tối thiểu 48 giờ trước khi đánh giá hiệu suất
+- **KHÔNG hoảng loạn và dừng sớm** - đây là nơi hầu hết các nhà quảng cáo mất tiền
 
-### Exiting learning phase
-1. Naturally: accumulate 50+ events/week over time
-2. Accelerate: increase budget (but max 20% every 3-4 days)
-3. Reduce ad sets: consolidate budget into fewer ad sets for more data per ad set
-4. Broaden targeting: more people = more conversion opportunities
+### Thoát khỏi giai đoạn học tập
+1. Tự nhiên: tích lũy 50+ sự kiện/tuần theo thời gian
+2. Tăng tốc: tăng ngân sách (nhưng tối đa 20% mỗi 3-4 ngày)
+3. Giảm số lượng bộ quảng cáo: hợp nhất ngân sách vào ít bộ quảng cáo hơn để có nhiều dữ liệu hơn cho mỗi bộ quảng cáo
+4. Mở rộng nhắm mục tiêu: càng nhiều người thì càng nhiều cơ hội chuyển đổi
 
-### Learning phase indicators in Ads Manager
-- "Learning Limited" = not enough events to exit learning
-- "Active" + no learning badge = successfully exited learning phase
-- Check weekly: how many optimization events per ad set?
+### Chỉ báo giai đoạn học tập trong Ads Manager
+- "Learning Limited" = không đủ sự kiện để thoát khỏi giai đoạn học tập
+- "Active" + không có huy hiệu học tập = đã thành công thoát khỏi giai đoạn học tập
+- Kiểm tra hàng tuần: bao nhiêu sự kiện tối ưu hóa cho mỗi bộ quảng cáo?
 
-## Budget Recommendations by Campaign Type
+## Khuyến nghị ngân sách theo loại chiến dịch
 
-### E-commerce (Sales objective)
-- Starting budget: -50/day per ad set minimum
-- CBO recommended once proven winners identified
-- Scale 20% every 3-4 days when profitable
-- Monthly budget should allow for Q4 increase (2-3x)
+### Thương mại điện tử (Mục tiêu Bán hàng)
+- Ngân sách khởi động: -50/ngày mỗi bộ quảng cáo tối thiểu
+- CBO được khuyến nghị sau khi xác định những người chiến thắng đã được chứng minh
+- Mở rộng 20% mỗi 3-4 ngày khi có lợi nhuận
+- Ngân sách hàng tháng nên cho phép tăng vào quý IV (2-3 lần)
 
-### Lead Generation
-- Budget: -30/day per ad set
-- CPL varies by industry (-)
-- Test lead quality vs quantity at different budgets
-- Follow up leads within 1 hour
+### Tạo Lead
+- Ngân sách: -30/ngày mỗi bộ quảng cáo
+- CPL thay đổi theo ngành (-)
+- Thử nghiệm chất lượng lead so với số lượng ở các ngân sách khác nhau
+- Theo dõi phản hồi lại lead trong vòng 1 giờ
 
-### Brand Awareness
-- Budget: -25/day sufficient (optimizing for reach/impressions)
-- Lower CPA than conversion campaigns
-- Measure via ad recall lift studies
+### Nhận thức về Thương hiệu
+- Ngân sách: -25/ngày là đủ (tối ưu hóa cho phạm vi hiển thị/lượt in ấn)
+- CPA thấp hơn các chiến dịch chuyển đổi
+- Đo lường thông qua nghiên cứu nâng cao khả năng ghi nhớ quảng cáo
 
-## Cost Benchmarks (US Market, 2026)
-- **CPM:** - (varies by industry, season, audience)
+## Các mốc chi phí (Thị trường Mỹ, 2026)
+- **CPM:** - (thay đổi theo ngành, mùa, đối tượng)
 - **CPC:** .50-.00
-- **CPL:** - (heavy industry dependency)
-- **Q4 premium:** October-December costs 2-3x higher
-- **Retargeting vs Prospecting:** Retargeting always cheaper per result
+- **CPL:** - (phụ thuộc nặng vào ngành nghề)
+- **Phí quý IV:** Chi phí từ tháng 10 đến tháng 12 cao hơn 2-3 lần
+- **Retargeting so với Prospecting:** Retargeting luôn rẻ hơn trên mỗi kết quả
 
-## Budget Scaling Rules
-1. **Max 20% increase every 3-4 days** - more = reset learning phase
-2. **Duplicate strategy:** Copy winning ad set to new campaign with higher budget (preserves original learning)
-3. **Horizontal scaling:** Expand to similar audiences/larger LALs
-4. **Vertical scaling:** Increase budget on proven ad sets gradually
-5. **Monitor CPA after scale:** If CPA increases >20%, slow down scaling
+## Quy tắc mở rộng ngân sách
+1. **Tăng tối đa 20% mỗi 3-4 ngày** - nhiều hơn = đặt lại giai đoạn học tập
+2. **Chiến lược sao chép:** Sao chép bộ quảng cáo thắng cuộc sang chiến dịch mới với ngân sách cao hơn (bảo toàn việc học ban đầu)
+3. **Mở rộng ngang:** Mở rộng sang các đối tượng tương tự/LAL lớn hơn
+4. **Mở rộng dọc:** Tăng ngân sách trên các bộ quảng cáo đã được chứng minh một cách dần dần
+5. **Giám sát CPA sau khi mở rộng:** Nếu CPA tăng >20%, làm chậm tốc độ mở rộng
 
-## Key Takeaways
-- Lowest Cost bidding = default choice, use Cost Cap when you know target CPA
-- CBO for scaling, ABO for testing new audiences
-- 50 optimization events/week/ad set needed to exit learning phase
-- Max 20% budget increase every 3-4 days to avoid learning reset
-- Q4 costs are 2-3x higher - plan budget accordingly
-- Learning Limited status = not enough data, consolidate or broaden targeting
+## Những điểm chính cần nhớ
+- Chốt giá Chi phí thấp nhất = lựa chọn mặc định, sử dụng Giới hạn chi phí (Cost Cap) khi bạn biết CPA mục tiêu
+- CBO để mở rộng quy mô, ABO để thử nghiệm các đối tượng mới
+- Cần 50 sự kiện tối ưu hóa/tuần/bộ quảng cáo để thoát khỏi giai đoạn học tập
+- Tăng ngân sách tối đa 20% mỗi 3-4 ngày để tránh đặt lại việc học
+- Chi phí quý IV cao hơn 2-3 lần - lên kế hoạch ngân sách tương ứng
+- Trạng thái "Learning Limited" = không đủ dữ liệu, hãy hợp nhất hoặc mở rộng nhắm mục tiêu
 
 ---
-*Created: 2026-06-15 | Sources: marketingadvice.ai, marketingagency.one*
+*Tạo: 2026-06-15 | Nguồn gốc: marketingadvice.ai, marketingagency.one*

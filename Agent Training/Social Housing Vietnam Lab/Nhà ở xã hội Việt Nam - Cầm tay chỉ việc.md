@@ -19,6 +19,11 @@ current_level: 2
 level2_status: not-passed-independent
 openclaw_level2_score: 62
 hermes_level2_score: 55
+slug: nha-o-xa-hoi-viet-nam-cam-tay-chi-viec
+category: training
+type: reference
+created: 2026-07-13
+last_updated: 2026-07-14
 ---
 
 # Nhà ở xã hội Việt Nam — Cầm tay chỉ việc

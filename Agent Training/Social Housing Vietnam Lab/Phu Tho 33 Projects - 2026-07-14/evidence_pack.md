@@ -1,3 +1,13 @@
+---
+title: evidence_pack
+slug: evidence-pack
+category: training
+tags: []
+status: draft
+type: evidence
+created: 2026-07-14
+last_updated: 2026-07-14
+---
 # Gói chứng cứ chính thức — NOXH Phú Thọ
 
 Ngày chốt dữ liệu: **2026-07-14** (Asia/Bangkok).

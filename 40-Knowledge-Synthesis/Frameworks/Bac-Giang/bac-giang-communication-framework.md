@@ -1,23 +1,16 @@
 ---
-title: "bac-giang-communication-framework"
-slug: "bac-giang-communication-framework"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Bắc Giang Communication Framework — Khung giao tiếp theo ngữ cảnh"
-slug: "bac-giang-communication-framework"
-category: framework
-tags: [bac-giang, communication, framework, social]
+title: Bắc Giang Communication Framework — Khung giao tiếp theo ngữ cảnh
+slug: bac-giang-communication-framework
+category: knowledge
+tags:
+- bac-giang
+- communication
+- framework
+- social
 status: active
 type: atomic-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 ---
 
 # 🗣️ Bắc Giang Communication Framework — Khung giao tiếp theo ngữ cảnh

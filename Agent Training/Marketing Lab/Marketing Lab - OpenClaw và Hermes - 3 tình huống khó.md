@@ -9,6 +9,11 @@ tags:
 status: in-progress
 current_scenario: 2
 target_score: 100
+slug: marketing-lab-openclaw-va-hermes-3-tinh-huong-kho
+category: training
+type: exercise
+created: 2026-07-13
+last_updated: 2026-07-13
 ---
 
 # Marketing Lab — OpenClaw và Hermes

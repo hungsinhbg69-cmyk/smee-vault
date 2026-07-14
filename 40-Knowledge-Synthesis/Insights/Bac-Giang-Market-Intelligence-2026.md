@@ -1,25 +1,23 @@
 ---
-title: "Bac-Giang-Market-Intelligence-2026"
-slug: "bac-giang-market-intelligence-2026"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
 title: Bắc Giang Market Intelligence 2026
+slug: bac-giang-market-intelligence-2026
+category: knowledge
+tags:
+- bac-giang
+- market
+- fdi
+- ecommerce
+- consumer
+status: draft
 type: market-research
-tags: [bac-giang, market, FDI, ecommerce, consumer]
 created: 2026-06-13
+last_updated: '2026-07-14'
 sources:
-  - baomoi.com/bac-giang-tag1974.epi
-  - congthuong.vn/bac-giang-nhieu-ket-qua-noi-bat-trong-chuyen-doi-so-368877.html
-  - founder.com.vn/suc-bat-tu-sap-nhap-tinh-bac-giang-bung-sang-tren-ban-do-fdi-viet-nam-a64817.html
-  - mia.vn/cam-nang-du-lich/danh-sach-10-dac-san-bac-giang-12272
-  - lsvn.vn/lan-song-fdi-dich-chuyen-ve-bac-giang-cu-hich-sau-sap-nhap-a159762.html
+- baomoi.com/bac-giang-tag1974.epi
+- congthuong.vn/bac-giang-nhieu-ket-qua-noi-bat-trong-chuyen-doi-so-368877.html
+- founder.com.vn/suc-bat-tu-sap-nhap-tinh-bac-giang-bung-sang-tren-ban-do-fdi-viet-nam-a64817.html
+- mia.vn/cam-nang-du-lich/danh-sach-10-dac-san-bac-giang-12272
+- lsvn.vn/lan-song-fdi-dich-chuyen-ve-bac-giang-cu-hich-sau-sap-nhap-a159762.html
 ---
 
 # Bắc Giang Market Intelligence 2026

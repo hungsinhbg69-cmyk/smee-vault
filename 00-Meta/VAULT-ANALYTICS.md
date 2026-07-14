@@ -1,5 +1,5 @@
 ---
-title: "Vault Analytics Suite"
+title: "Bộ công cụ phân tích kho lưu trữ"
 slug: "vault-analytics-suite"
 category: meta
 tags: [analytics, charts, mind-map, workflow]
@@ -9,37 +9,37 @@ created: 2026-06-27
 last_updated: 2026-06-27
 ---
 
-# Vault Analytics Suite
+# Bộ công cụ phân tích kho lưu trữ
 
-> Collection cua analytics workflows khai thac **obsidian-charts + obsidian-mind-map + mermaid-tools**  
-> Visualize vault structure, growth trends, and knowledge patterns
+> Bộ sưu tập các quy trình phân tích khai thác **obsidian-charts + obsidian-mind-map + mermaid-tools**  
+> Trực quan hóa cấu trúc kho lưu trữ, xu hướng tăng trưởng và mẫu hình kiến thức
 
-## Vault Structure Mind Map
+## Bản đồ tư duy cấu trúc kho lưu trữ
 
-**Plugin: obsidian-mind-map** -- Convert any note's headings into interactive mind map
+**Plugin: obsidian-mind-map** -- Chuyển đổi tiêu đề của bất kỳ ghi chú nào thành bản đồ tư duy tương tác
 
-1. Open any note (e.g., Vault-MOC.md)
+1. Mở bất kỳ ghi chú nào (ví dụ: Vault-MOC.md)
 2. Ctrl+P -> "MindMap: Show current file as mindmap"
-3. Automatically generates clickable mind map from H1/H2/H3 structure
-4. Export to .mm or view inline
+3. Tự động tạo bản đồ tư duy có thể nhấp từ cấu trúc H1/H2/H3
+4. Xuất ra .mm hoặc xem trực tiếp
 
-### Apply to:
-- `00-Meta/Vault-MOC.md` -> View entire vault at-a-glance
-- `20-Areas/Facebook-Ads/INDEX.md` -> Map ads knowledge network
-- `10-Projects/*/` -> Visualize project dependencies
+### Áp dụng cho:
+- `00-Meta/Vault-MOC.md` -> Xem toàn bộ kho lưu trữ một cái nhìn tổng quan
+- `20-Areas/Facebook-Ads/INDEX.md` -> Lập bản đồ mạng lưới kiến thức quảng cáo Facebook
+- `10-Projects/*/` -> Trực quan hóa các phụ thuộc dự án
 
-## Chart Templates
+## Mẫu biểu đồ
 
-**Plugin: obsidian-charts** -- Config chart templates trong `_templates/chart-template.md`
+**Plugin: obsidian-charts** -- Cấu hình mẫu biểu đồ trong `_templates/chart-template.md`
 
-### Chart 1: Knowledge Growth Over Time (line chart)
+### Biểu đồ 1: Tăng trưởng kiến thức theo thời gian (biểu đồ đường)
 ```json
 {
   "type": "area",
   "config": {
-    "title": "Vault Growth - Notes by Month",
-    "xLabel": "Month",
-    "yLabel": "Notes Created",
+    "title": "Tăng trưởng kho lưu trữ - Ghi chú theo tháng",
+    "xLabel": "Tháng",
+    "yLabel": "Số lượng ghi chú được tạo",
     "data": [
       {"month": "Jan", "notes": 10},
       {"month": "Feb", "notes": 25}
@@ -48,35 +48,35 @@ last_updated: 2026-06-27
 }
 ```
 
-### Chart 2: Topic Distribution (pie chart) 
+### Biểu đồ 2: Phân bố chủ đề (biểu đồ tròn) 
 ```json
 {
   "type": "pie",
   "config": {
-    "title": "Notes by Category",
+    "title": "Ghi chú theo danh mục",
     "data": [
       {"label": "Facebook Ads", "value": 47},
-      {"label": "Bac Giang", "value": 12},
+      {"label": "Bắc Giang", "value": 12},
       {"label": "AI/Agent", "value": 30},
-      {"label": "Literature", "value": 8},
-      {"label": "Other", "value": 15}
+      {"label": "Văn học", "value": 8},
+      {"label": "Khác", "value": 15}
     ]
   }
 }
 ```
 
-### Chart 3: Weekly Activity (bar chart)
-**Use case:** Track how many notes/tasks created each week  
-**Data source:** File modification dates from `02-Daily/` + `10-Projects/`
+### Biểu đồ 3: Hoạt động hàng tuần (biểu đồ cột)
+**Use case:** Theo dõi số lượng ghi chú/nhiệm vụ được tạo mỗi tuần  
+**Data source:** Ngày sửa đổi tệp từ `02-Daily/` + `10-Projects/`
 
-## Mermaid Knowledge Graphs
+## Đồ thị quan hệ kiến thức Mermaid
 
-**Plugin: mermaid-tools** -- Render mermaid diagrams truc tiep trong Obsidian
+**Plugin: mermaid-tools** -- Hiển thị trực tiếp các sơ đồ mermaid trong Obsidian
 
-### Topic Relationship Map
+### Bản đồ mối quan hệ chủ đề
 ```mermaid
 mindmap
-  root((Smee - Second Brain))
+  root((Smee - Não thứ hai))
     Projects
       Agent Research
       Content Pipeline
@@ -92,32 +92,32 @@ mindmap
       Insights
 ```
 
-### Project Dependency Map
+### Bản đồ phụ thuộc dự án
 ```mermaid
 graph TD
-    A[Research Phase] --> B[Content Creation]
-    B --> C{Review}
-    C -->|Approved| D[Publish]
-    C -->|Needs Work| B
-    D --> E[Analytics + Iterate]
+    A[Phase Nghiên cứu] --> B[Tạo nội dung]
+    B --> C{Xem xét}
+    C -->|Đã phê duyệt| D[Xuất bản]
+    C -->|Cần chỉnh sửa| B
+    D --> E[Phân tích + Lặp lại]
     style A fill:#bbf,stroke:#333
     style E fill:#fbf,stroke:#333
 ```
 
-## Web Clipper Workflow
+## Quy trình lưu trữ trang web
 
 **Plugins: obsidian-clipper + pdf-plus**
 
-### Standard Capture Flow:
-1. **Web page clip:** Use browser extension (Obsidian Clipper) to save article
-   -> Auto-saves to `20-Areas/Web Clips/` with extraction metadata
-2. **PDF annotation:** Drag PDF into Obsidian -> use pdf-plus plugin  
-   -> Highlights persist, export as markdown
-3. **"Save for Later":** Any unread resource -> Clip per #5 rule above
+### Quy trình thu thập tiêu chuẩn:
+1. **Lưu trang web:** Sử dụng tiện ích mở rộng trình duyệt (Obsidian Clipper) để lưu bài viết  
+   -> Tự động lưu vào `20-Areas/Web Clips/` kèm siêu dữ liệu trích xuất
+2. **Ghi chú PDF:** Kéo thả tệp PDF vào Obsidian -> sử dụng plugin pdf-plus  
+   -> Các điểm nổi bật được giữ nguyên, xuất ra định dạng markdown
+3. **"Lưu để xem sau":** Bất kỳ nguồn tài liệu chưa đọc nào -> Lưu theo quy tắc #5 ở trên
 
-### Web Clip Frontmatter (auto-generated by clipper):
+### Frontmatter trang web (tự động tạo bởi clipper):
 ```yaml
-title: "Source Title"
+title: "Tiêu đề nguồn"
 source_url: "https://example.com/article"
 clipped: YYYY-MM-DD
 category: resource
@@ -126,49 +126,49 @@ status: backlog
 type: web-clip
 ```
 
-## Remote Sync Setup
+## Thiết lập đồng bộ hóa từ xa
 
-**Plugin: remotely-save** -- Cloud sync cho mobile/desktop
+**Plugin: remotely-save** -- Đồng bộ đám mây cho thiết bị di động/máy tính để bàn
 
-### Suggested Config (Settings -> Remotely Save):
-- Service: OneDrive / Dropbox / iCloud  
-- Auto-sync: On save + every 5 min
-- Conflict resolution: Keep newest version auto-merge
+### Cấu hình gợi ý (Settings -> Remotely Save):
+- Dịch vụ: OneDrive / Dropbox / iCloud  
+- Tự động đồng bộ: Khi lưu + mỗi 5 phút
+- Giải quyết xung đột: Giữ phiên bản mới nhất tự động hợp nhất
 
-## Icon Customization Guide
+## Hướng dẫn tùy chỉnh biểu tượng
 
-**Plugin: obsidian-icon-folder** -- Add icons to files/folders cho visual scanning
+**Plugin: obsidian-icon-folder** -- Thêm biểu tượng vào tệp/thư mục để quét trực quan
 
-### Recommended Icons (emoji style):
-| Folder | Suggested Icon | Rationale |
-|--------|----------------|-----------|
-| `10-Projects/` | rocket | Projects are launchable |
-| `20-Areas/` | target | Areas of ongoing focus |
-| `30-Resources/` | book | Reference library |
-| `40-Knowledge-Synthesis/` | lightbulb | Insights & synthesis |
-| `_templates/` | star | Templates are special resources |
+### Biểu tượng khuyến nghị (kiểu emoji):
+| Thư mục | Biểu tượng gợi ý | Lý do |
+|--------|----------------|-------|
+| `10-Projects/` | rocket | Dự án có thể khởi chạy |
+| `20-Areas/` | target | Các lĩnh vực đang tập trung |
+| `30-Resources/` | book | Thư viện tham khảo |
+| `40-Knowledge-Synthesis/` | lightbulb | Nhận thức & tổng hợp |
+| `_templates/` | star | Mẫu là nguồn tài liệu đặc biệt |
 
-### Setup: Settings -> Obsidian Icon Folder -> Add custom set
+### Thiết lập: Settings -> Obsidian Icon Folder -> Thêm bộ tùy chỉnh
 
-## Advanced Canvas Use Cases
+## Các trường hợp sử dụng Canvas nâng cao
 
-**Plugin: advanced-canvas (6.3.0)** -- Rich workspace cho complex projects
+**Plugin: advanced-canvas (6.3.0)** -- Không gian làm việc phong phú cho các dự án phức tạp
 
-### Canvas 1: "Project Launchpad"
-Create a canvas linked to any project with:
-- Kanban board card (plugin kanban)
-- Mind map of stakeholders/dependencies  
-- Timeline Gantt chart (mermaid plugin)
-- Link notes as cards on canvas
-- Presentations mode (advanced-canvas feature 6.x)
+### Canvas 1: "Bệ phóng dự án"
+Tạo canvas liên kết với bất kỳ dự án nào kèm theo:
+- Thẻ bảng Kanban (plugin kanban)
+- Bản đồ tư duy về các bên liên quan/phụ thuộc  
+- Biểu đồ Gantt thời gian (plugin mermaid)
+- Liên kết ghi chú thành thẻ trên canvas
+- Chế độ trình chiếu (tính năng advanced-canvas phiên bản 6.x)
 
-### Canvas 2: "Research Dashboard"
-For deep research projects:
-- Embed PDF pages -> pdf-plus annotation
-- Data tables from web -> clipboard data
-- Semantic connections sidebar -> smart-connections suggestions
-- Mind maps of concepts -> obsidian-mind-map integration
+### Canvas 2: "Bảng điều khiển nghiên cứu"
+Cho các dự án nghiên cứu sâu:
+- Nhúng trang PDF -> ghi chú pdf-plus
+- Bảng dữ liệu từ web -> dữ liệu bảng tạm
+- Thanh bên kết nối ngữ nghĩa -> gợi ý smart-connections
+- Bản đồ tư duy về khái niệm -> tích hợp obsidian-mind-map
 
 ---
 
-*Analytics Suite tích hợp charts + mind-map + mermaid + clipper + remote-save + icon-folder.*
+*Bộ công cụ phân tích tích hợp charts + mind-map + mermaid + clipper + remote-save + icon-folder.*

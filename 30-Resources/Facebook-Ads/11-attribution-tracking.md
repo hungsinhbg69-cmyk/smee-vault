@@ -1,5 +1,5 @@
 ---
-title: "Attribution & Tracking"
+title: "Quyền sở hữu & Theo dõi"
 slug: "attribution-tracking"
 category: resource
 tags: [facebook-ads, meta-ads]
@@ -9,134 +9,134 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-# 11 - Attribution & Measurement (Attribution + Measurement Stack)
+# 11 - Quyền sở hữu & Đo lường (Quyền sở hữu + Hệ thống đo lường)
 
-## Attribution Windows (Post-iOS 14)
+## Cửa sổ quyên sở hữu (Sau iOS 14)
 
 | Window | Khi nào dùng | Ghi chú |
 |--------|--------------|---------|
-| **7-day click + 1-day view** (default) | Đa số accounts — cân bằng giữa credit accuracy và volume | Mac dinh, dùng cho 90% trường hợp |
-| **1-day click** | Impulse purchases, low-consideration products | Conservative attribution |
-| **7-day click only** | Accounts cần conservative attribution | Loại trừ view-through credit |
+| **7-day click + 1-day view** (default) | Đa số tài khoản — cân bằng giữa độ chính xác của tín hiệu và khối lượng dữ liệu | Mặc định, dùng cho 90% trường hợp |
+| **1-day click** | Mua hàng theo cảm hứng, sản phẩm ít cần suy nghĩ | Quyên sở hữu thận trọng |
+| **7-day click only** | Tài khoản cần quyên sở hữu thận trọng | Loại trừ tín hiệu xem qua (view-through) |
 
-### January 12, 2026 — Attribution Update
-Meta permanently removed 7-day view and 28-day view windows từ Ads Insights API. Overnight, advertiser dashboards mất credit cho view-through conversions.
+### 12 tháng 1 năm 2026 — Cập nhật về Quyền sở hữu
+Meta đã vĩnh viễn loại bỏ cửa sổ xem 7 ngày và 28 ngày từ Ads Insights API. Ngay lập tức, bảng điều khiển của nhà quảng cáo mất tín hiệu cho các chuyển đổi xem qua (view-through conversions).
 
-> ⚠️ **Quan trọng:** Chỉ còn click attribution + short view window. View-through conversions giảm đáng kể → ROAS numbers thấp hơn trước đây mặc dù actual performance có thể không đổi.
+> ⚠️ **Quan trọng:** Chỉ còn quyên sở hữu theo click + cửa sổ xem ngắn hạn. Các chuyển đổi xem qua giảm đáng kể → con số ROAS thấp hơn trước đây mặc dù hiệu suất thực tế có thể không đổi.
 
-## Measurement Stack (2026)
+## Hệ thống đo lường (2026)
 
 ```
-Layer 1: Pixel + CAPI → primary conversion tracking
-Layer 2: GA4 cross-check → sanity check (GA4 luôn thấp hơn Meta vì attribution model mismatch)
-Layer 3: MMM / Incrementality test → budget decisions transcend any single platform's math
-Layer 4: SKAdNetwork → mobile app campaigns (distinct track, không extension của web stack)
+Layer 1: Pixel + CAPI → theo dõi chuyển đổi chính
+Layer 2: Kiểm tra chéo GA4 → kiểm tra tính hợp lý (GA4 luôn thấp hơn Meta do sự không khớp trong mô hình quyên sở hữu)
+Layer 3: MMM / Thử nghiệm tăng thêm → các quyết định ngân sách vượt qua toán học của bất kỳ nền tảng đơn lẻ nào
+Layer 4: SKAdNetwork → chiến dịch ứng dụng di động (theo dõi riêng biệt, không phải phần mở rộng của bộ công cụ web)
 ```
 
 ### Layer 1: Pixel + CAPI
-- Primary conversion tracking source
-- Deduplication key: event_id + Pixel ID + event_name
-- Window: events within 48 hours → Meta counts ONE conversion
-- **Failure mode phổ biến:** Pixel gửi `event_id: "order_123_1678901234"`, server gửi `"order_123_1678901234.567"` (precision khác) → Meta đếm 2 conversions → ROAS inflate
+- Nguồn theo dõi chuyển đổi chính
+- Khóa loại bỏ trùng lặp: event_id + Pixel ID + event_name
+- Cửa sổ: các sự kiện trong vòng 48 giờ → Meta chỉ tính MỘT chuyển đổi
+- **Chế độ lỗi phổ biến:** Pixel gửi `event_id: "order_123_1678901234"`, server gửi `"order_123_1678901234.567"` (độ chính xác khác nhau) → Meta đếm 2 chuyển đổi → ROAS bị thổi phồng
 
-### Layer 2: GA4 Cross-Check
-- GA4 luôn thấp hơn Meta vì attribution model mismatch
-- Dùng để sanity check, không phải source of truth
-- UTM structure chuẩn: source/medium/campaign/content/term
-- Check monthly trend direction, không phải absolute numbers
+### Layer 2: Kiểm tra chéo GA4
+- GA4 luôn thấp hơn Meta do sự không khớp trong mô hình quyên sở hữu
+- Dùng để kiểm tra tính hợp lý, không phải nguồn chân lý
+- Cấu trúc UTM chuẩn: source/medium/campaign/content/term
+- Theo dõi xu hướng hàng tháng, không phải số liệu tuyệt đối
 
-### Layer 3: Incrementality Testing
-- Hold out 10-15% audience từ ads trong 2 weeks
-- So sánh conversion rates giữa treated vs control group
-- Separates true incremental sales from credited ones
-- Đặc biệt quan trọng với ASC broad targeting (dễ attribution overlap)
+### Layer 3: Thử nghiệm Tăng thêm (Incrementality Testing)
+- Tạm dừng tiếp cận 10-15% khán mục tiêu từ quảng cáo trong 2 tuần
+- So sánh tỷ lệ chuyển đổi giữa nhóm được xử lý và nhóm kiểm soát
+- Phân tách doanh thu thực sự tăng thêm khỏi những gì đã được quyên cho
+- Đặc biệt quan trọng với ASC (Automatic Targeting) nhắm mục tiêu rộng (nguy cơ chồng chéo quyên sở hữu cao)
 
 ### Layer 4: SKAdNetwork
-- Mobile app campaigns tracking
-- Distinct track, không extension của web stack
-- iOS 16+ support SKAdNetwork 4.0
+- Theo dõi chiến dịch ứng dụng di động
+- Theo dõi riêng biệt, không phải phần mở rộng của bộ công cụ web
+- Hỗ trợ iOS 16+ cho SKAdNetwork 4.0
 
-## AEM — Aggregated Event Measurement (8 Priority Events)
+## AEM — Đo lường sự kiện tổng hợp (8 Sự kiện ưu tiên)
 
-Rank by conversion value, NOT frequency:
+Sắp xếp theo giá trị chuyển đổi, KHÔNG phải tần suất:
 
-| Rank | Event | Why This Rank |
-|------|-------|---------------|
-| 1 | Purchase | Highest conversion value |
-| 2 | InitiateCheckout | High intent signal |
-| 3 | AddToCart | Frequent but lower value |
-| 4 | ViewContent | Broadest reach, lowest value |
-| 5 | Lead | Medium-high value for lead gen |
-| 6 | CompleteRegistration | Account activation |
-| 7 | Search | Intent signal, variable value |
-| 8 | PageView | Lowest conversion value |
+| Rank | Event | Lý do xếp hạng này |
+|------|-------|--------------------|
+| 1 | Purchase | Giá trị chuyển đổi cao nhất |
+| 2 | InitiateCheckout | Tín hiệu ý định mua hàng cao |
+| 3 | AddToCart | Thường xuyên nhưng giá trị thấp hơn |
+| 4 | ViewContent | Phạm vi tiếp cận rộng nhất, giá trị thấp nhất |
+| 5 | Lead | Giá trị trung bình-cao cho tạo lead |
+| 6 | CompleteRegistration | Kích hoạt tài khoản |
+| 7 | Search | Tín hiệu ý định, giá trị biến động |
+| 8 | PageView | Giá trị chuyển đổi thấp nhất |
 
-> ⚠️ Rank AddToCart cao hơn Purchase vì thấy nhiều hơn → Meta attribute về AddToCart, ROAS math collapse nếu Purchase event missing hoặc delayed.
+> ⚠️ Xếp hạng AddToCart cao hơn Purchase vì thấy nhiều hơn → Meta quyên cho AddToCart, toán học ROAS sụp đổ nếu sự kiện Purchase bị thiếu hoặc chậm trễ.
 
-## Event Deduplication Details
+## Chi tiết loại bỏ trùng lặp sự kiện (Event Deduplication)
 
-### Deduplication Key Format
+### Định dạng khóa loại bỏ trùng lặp
 ```
 Deduplication key: event_id + Pixel ID + event_name
-Window: events within 48 hours
-Result: Meta counts ONE conversion
+Window: các sự kiện trong vòng 48 giờ
+Kết quả: Meta chỉ tính MỘT chuyển đổi
 ```
 
-### Common Failure Modes
-1. **Precision mismatch:** `"order_123"` vs `"order_123.0"` → counted as 2 conversions
-2. **Timing gap >48h:** Pixel fires event at T=0, CAPI fires at T=50h → no deduplication
-3. **Different event_id format:** One uses UUID, other uses order number → no match
+### Các chế độ lỗi phổ biến
+1. **Không khớp về độ chính xác:** `"order_123"` vs `"order_123.0"` → được tính là 2 chuyển đổi
+2. **Khoảng cách thời gian >48h:** Pixel phát sự kiện tại T=0, CAPI phát tại T=50h → không loại bỏ trùng lặp
+3. **Định dạng event_id khác nhau:** Một bên dùng UUID, bên kia dùng số đơn hàng → không khớp
 
-### Best Practices
-- Generate event_id ONCE (preferably server-side)
-- Use consistent format across Pixel and CAPI
-- Include timestamp in event_id for debugging: `"order_123_20260615T130000Z"`
-- Monitor deduplication rate trong Events Manager
+### Thực hành tốt nhất
+- Tạo event_id CHỈ MỘT LẦN (tốt nhất là phía server)
+- Sử dụng định dạng nhất quán giữa Pixel và CAPI
+- Bao gồm thời gian trong event_id để gỡ lỗi: `"order_123_20260615T130000Z"`
+- Giám sát tỷ lệ loại bỏ trùng lặp trong Events Manager
 
-## Event Match Quality (EMQ)
+## Chất lượng khớp sự kiện (EMQ)
 
-| Score | Level | Description |
-|-------|-------|-------------|
-| 0-2 | Poor | Missing email + phone — CAPI nearly useless |
-| 3-5 | Fair | Has email OR phone — some matching possible |
-| 6-8 | Good | Email + phone at minimum — measurable performance gains |
-| 9-10 | Excellent | Full parameters (email, phone, name, IP, user agent) — optimal matching |
+| Score | Level | Mô tả |
+|-------|-------|-------|
+| 0-2 | Poor | Thiếu email + số điện thoại — CAPI gần như vô dụng |
+| 3-5 | Fair | Có email HOẶC số điện thoại — có thể khớp một phần |
+| 6-8 | Good | Tối thiểu có Email + Số điện thoại — cải thiện hiệu suất đo lường được |
+| 9-10 | Excellent | Toàn bộ tham số (email, số điện thoại, tên, IP, user agent) — khớp tối ưu |
 
-### EMQ Parameters Weight
-1. **Email** (highest weight) — hashed SHA-256
-2. **Phone number** (second-highest) — formatted E.164
-3. **First name + Last name**
-4. **Client IP address**
-5. **User agent string**
+### Trọng số các tham số EMQ
+1. **Email** (trọng số cao nhất) — mã hóa SHA-256
+2. **Số điện thoại** (trọng số thứ hai) — định dạng E.164
+3. **Tên đệm + Họ**
+4. **Địa chỉ IP của khách hàng**
+5. **Chuỗi User agent**
 
-> ⚠️ EMQ ≥6 = break-even point từ CAPI. Dưới 6: Meta không thể match đa số events → CAPI gần như vô dụng.
+> ⚠️ EMQ ≥6 = điểm hòa vốn từ CAPI. Dưới 6: Meta không thể khớp đa số sự kiện → CAPI gần như vô dụng.
 
-## Incrementality Testing Framework
+## Khung thử nghiệm Tăng thêm (Incrementality Testing)
 
-### Setup
-1. **Control group:** 10-15% of target audience, NOT exposed to ads
-2. **Test group:** Remaining audience, served ads normally
-3. **Duration:** Minimum 2 weeks (capture weekly cycles)
-4. **Metric:** Conversion rate difference between groups
+### Thiết lập
+1. **Nhóm kiểm soát:** 10-15% khán mục tiêu, KHÔNG được tiếp xúc với quảng cáo
+2. **Nhóm thử nghiệm:** Khán còn lại, hiển thị quảng cáo bình thường
+3. **Thời gian:** Tối thiểu 2 tuần (bắt trọn chu kỳ hàng tuần)
+4. **Chỉ số:** Sự khác biệt về tỷ lệ chuyển đổi giữa các nhóm
 
-### Analysis
+### Phân tích
 ```
 Incremental ROAS = (Test CVR - Control CVR) × AOV / CPA
 True Incremental Conversions = Test conversions - Control conversions
 ```
 
-### When to Use
-- ASC broad targeting accounts (attribution overlap risk)
-- Large budgets where small % changes matter ($10K+/month)
-- Before major budget increases
-- Quarterly validation of channel effectiveness
+### Khi nào sử dụng
+- Tài khoản ASC nhắm mục tiêu rộng (nguy cơ chồng chéo quyên sở hữu)
+- Ngân sách lớn nơi những thay đổi nhỏ % cũng quan trọng ($10K+/tháng)
+- Trước khi tăng ngân sách lớn
+- Xác minh hiệu quả kênh theo quý
 
-## Key Takeaways
-- Attribution windows simplified: 7-day click + 1-day view is default
-- Measurement stack needs all 4 layers for complete picture
-- Deduplication key format must be consistent between Pixel and CAPI
-- EMQ ≥6 required for measurable CAPI gains
-- Incrementality testing separates true incremental sales from credited ones
+## Những điểm chính cần nhớ
+- Cửa sổ quyền sở hữu đã đơn giản hóa: 7-day click + 1-day view là mặc định
+- Hệ thống đo lường cần cả 4 lớp để có bức tranh hoàn chỉnh
+- Định dạng khóa loại bỏ trùng lặp phải nhất quán giữa Pixel và CAPI
+- EMQ ≥6 là yêu cầu để có cải thiện CAPI đo lường được
+- Thử nghiệm tăng thêm phân tách doanh thu thực sự tăng thêm khỏi những gì đã được quyên cho
 
 ---
 *Created: 2026-06-15 | Sources: facebook-ads-deep-dive, ads-deep-dive-june-2026*

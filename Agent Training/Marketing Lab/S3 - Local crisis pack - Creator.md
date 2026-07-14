@@ -5,7 +5,12 @@ tags:
   - marketing
 scenario: 3
 fictional: true
-status: locked
+status: reference
+slug: s3-local-crisis-pack-creator
+category: training
+type: exercise
+created: 2026-07-13
+last_updated: 2026-07-13
 ---
 
 # Local crisis pack — Creator

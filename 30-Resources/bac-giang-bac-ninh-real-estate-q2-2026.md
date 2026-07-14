@@ -1,7 +1,7 @@
 ---
 title: "Bất động sản Bắc Giang & Bắc Ninh Q2/2026"
 slug: "bac-giang-bac-ninh-real-estate-q2-2026"
-category: market-research
+category: resource
 tags: [real-estate, bac-giang, bac-ninh, market-data, q2-2026]
 status: active
 type: research-note
@@ -22,9 +22,9 @@ sources:
 
 ## 🔑 Thông tin cốt lõi
 
-Sau sáp nhập tỉnh (quý I/2025), Bắc Giang-Bắc Ninh tạo ra "siêu thủ phủ" công nghiệp miền Bắc. Toàn tỉnh ghi nhận **2.881 dự án đầu tư**, trong đó **2.062 dự án FDI** với tổng vốn >50,3 tỷ USD. Năm 2025 thu hút hơn 18,6 tỷ USD vốn FDI (thứ 2 cả nước), tháng 1/2026 tiếp đà với 2,29 tỷ USD mới.
+Sau sáp nhập tỉnh (quý I/2025), Bắc Giang-Bắc Ninh tạo ra "siêu thủ phủ" công nghiệp miền Bắc. Toàn vùng ghi nhận **2.881 dự án đầu tư**, trong đó **2.062 dự án FDI** với tổng vốn >50,3 tỷ USD. Năm 2025 thu hút hơn 18,6 tỷ USD vốn FDI (thứ 2 cả nước), tháng 1/2026 tiếp đà với 2,29 tỷ USD mới.
 
-Bắc Ninh hiện có **33 KCN, 37 cụm CN**, ~568.000 lao động công nghiệp (64% ngoại tỉnh), hơn 26.000 chuyên gia nước ngoài. Dự 2026 tuyển thêm >130.000 lao động — nhu cầu nhà ở tăng mạnh.
+Bắc Ninh hiện có **33 KCN, 37 cụm CN**, ~568.000 lao động công nghiệp (64% ngoại tỉnh), hơn 26.000 chuyên gia nước ngoài. Dự kiến 2026 tuyển thêm >130.000 lao động — nhu cầu nhà ở tăng mạnh.
 
 ## 📈 Giá bán chung cư (Q2/2026)
 
@@ -42,7 +42,7 @@ Bắc Ninh hiện có **33 KCN, 37 cụm CN**, ~568.000 lao động công nghi�
 ### Nhà ở xã hội — 3.091 tỷ đồng (phường Bắc Giang)
 - 5 tòa 20 tầng, ~1.900 căn (25–77m²), đáp ứng ~4.000 người
 - Liên danh Arita + HNASA
-- Khởi công trong 12 tháng, hoàn thành 36 tháng
+- Khởi công trong 12 tháng, hoàn thành sau 36 tháng
 
 ### Ecolife Retreat (Ecohome Sông Thương 2)
 - 140 căn hộ + 10 shophouse tại Dĩnh Trì

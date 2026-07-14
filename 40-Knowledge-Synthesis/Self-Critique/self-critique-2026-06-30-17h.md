@@ -1,11 +1,12 @@
 ---
 title: "Self-Critique — 2026-06-30 17h00"
 slug: "self-critique-2026-06-30-17h"
-category: knowledge-synthesis
+category: knowledge
 type: insights
 status: draft
 created: 2026-06-30 17:00
 tags: [self-critique, self-improvement, daily-review]
+last_updated: 2026-06-30
 ---
 
 ## ❌ Lỗi & Vấp phải

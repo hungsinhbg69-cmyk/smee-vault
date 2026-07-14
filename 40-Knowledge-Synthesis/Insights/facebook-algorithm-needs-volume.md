@@ -1,23 +1,15 @@
 ---
-title: "facebook-algorithm-needs-volume"
-slug: "facebook-algorithm-needs-volume"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Facebook Algorithm Needs Data Volume per Ad Set"
-slug: "facebook-algorithm-needs-volume"
+title: Facebook Algorithm Needs Data Volume per Ad Set
+slug: facebook-algorithm-needs-volume
 category: knowledge
-tags: [facebook-ads, algorithm, learning-phase]
+tags:
+- facebook-ads
+- algorithm
+- learning-phase
 status: active
 type: atomic-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 cited_count: 0
 ---
 

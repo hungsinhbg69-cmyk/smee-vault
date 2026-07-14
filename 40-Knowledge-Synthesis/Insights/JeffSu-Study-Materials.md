@@ -1,20 +1,13 @@
 ---
-title: "JeffSu-Study-Materials"
+title: "JeffSu — Study Guide & Quiz Summary"
 slug: "jeffsu-study-materials"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
+category: knowledge
+tags: [jeffsu, quiz, review, learning]
+status: reference
 type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: JeffSu - Study Guide & Quiz Summary
-tags: [jeffsu, quiz, study-guide, review]
-source: NotebookLM "JeffSu Master Learning" — Report + Quiz artifacts
 created: 2026-06-18
-type: study-material
+last_updated: 2026-07-14
+source: NotebookLM "JeffSu Master Learning" — Report + Quiz artifacts
 ---
 
 # JeffSu Study Guide & Quiz Summary
@@ -64,3 +57,7 @@ Key topics covered:
 
 ## Backlinks
 - [[JeffSu-Channel-Summary]]
+
+## Media
+
+- [[70-Outputs/JeffSu-Artifacts/jeffsu_deep_dive_audio.m4a|JeffSu deep-dive audio]]

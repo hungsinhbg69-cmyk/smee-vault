@@ -1,24 +1,20 @@
 ---
-title: "no-xh-cho-thue-dai-han-strategy"
-slug: "no-xh-cho-thue-dai-han-strategy"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "NOXH cho thuê dài hạn — Chiến lược chuyển đổi tư duy 2026"
-slug: "no-xh-cho-thue-dai-han-strategy"
-category: strategy
-tags: [no-xh, rental, long-term, thue-nha, strategy, 2026]
+title: NOXH cho thuê dài hạn — Chiến lược chuyển đổi tư duy 2026
+slug: no-xh-cho-thue-dai-han-strategy
+category: knowledge
+tags:
+- no-xh
+- rental
+- long-term
+- thue-nha
+- strategy
 status: active
 type: atomic-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 cited_count: 0
+related_tags:
+- year/2026
 ---
 
 # 🔄 NOXH cho thuê dài hạn — Chiến lược chuyển đổi tư duy 2026

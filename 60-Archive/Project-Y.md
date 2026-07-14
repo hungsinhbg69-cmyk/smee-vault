@@ -1,9 +1,9 @@
 ---
 title: "Project Y"
 slug: "project-y"
-category: projects
+category: archive
 tags: [placeholder, project]
-status: draft
+status: archived
 type: project
 created: 2026-06-19
 last_updated: 2026-06-19

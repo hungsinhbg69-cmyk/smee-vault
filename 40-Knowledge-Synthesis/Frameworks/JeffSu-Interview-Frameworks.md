@@ -1,20 +1,18 @@
 ---
-title: "JeffSu-Interview-Frameworks"
-slug: "jeffsu-interview-frameworks"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
+title: JeffSu - Interview Frameworks Complete Guide
+slug: jeffsu-interview-frameworks
+category: knowledge
+tags:
+- jeffsu
+- interview
+- career
+- resume
+- networking
 status: draft
 type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: JeffSu - Interview Frameworks Complete Guide
-tags: [jeffsu, interview, career, resume, networking]
-source: NotebookLM "JeffSu Master Learning"
 created: 2026-06-18
-type: framework
+last_updated: '2026-07-14'
+source: NotebookLM "JeffSu Master Learning"
 ---
 
 # Interview & Career Frameworks (from JeffSu)

@@ -1,9 +1,9 @@
 ---
 title: "Tri Thức Gốc — Tóm tắt & Bài học"
 slug: "goc-tri-thuc-summary"
-category: reference
+category: archive
 tags: [vault-maintenance]
-status: "draft"
+status: archived
 type: reference
 created: 2026-06-24
 last_updated: 2026-06-24

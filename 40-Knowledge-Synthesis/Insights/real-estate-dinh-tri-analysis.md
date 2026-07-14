@@ -1,27 +1,21 @@
 ---
-title: "real-estate-dinh-tri-analysis"
-slug: "real-estate-dinh-tri-analysis"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Phân tích Bất động sản Dĩnh Trì - Phường Bắc Giang"
-slug: "real-estate-dinh-tri-analysis"
-category: local-analysis
-tags: [bac-giang, dinh-tri, bac-ninh, local-market, investment]
+title: Phân tích Bất động sản Dĩnh Trì - Phường Bắc Giang
+slug: real-estate-dinh-tri-analysis
+category: knowledge
+tags:
+- bac-giang
+- dinh-tri
+- bac-ninh
+- local-market
+- investment
 status: active
 type: research-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 cited_count: 0
 sources:
-  - Reatimes (04/03/2026)
-  - Tam Thành Group (Q2/2026 forecast)
+- Reatimes (04/03/2026)
+- Tam Thành Group (Q2/2026 forecast)
 ---
 
 # 📍 Bất động sản Dĩnh Trì — Phường Bắc Giang: "Địa chỉ đỏ" đầu tư 2026

@@ -1,7 +1,7 @@
 ---
 title: "Fb Api Campaign Objects Reference"
 slug: "fb-api-campaign-objects-reference"
-category: reference
+category: resource
 tags: [vault-maintenance, facebook-ads]
 status: "draft"
 type: reference

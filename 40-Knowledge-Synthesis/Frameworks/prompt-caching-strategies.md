@@ -1,19 +1,19 @@
 ---
-title: "prompt-caching-strategies"
-slug: "prompt-caching-strategies"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
+title: Prompt Architecture — Tối Ưu Prompt Caching
+slug: prompt-caching-strategies
+category: knowledge
+tags:
+- prompt-engineering
+- caching
+- performance
+- cost-optimization
 status: draft
 type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Prompt Architecture — Tối Ưu Prompt Caching"
-tags: [prompt-engineering, caching, performance, cost-optimization]
-aliases: [Prompt Caching, Cache Optimization]
 created: 2026-06-18
+last_updated: '2026-07-14'
+aliases:
+- Prompt Caching
+- Cache Optimization
 parent: prompt-architecture-overview.md
 ---
 

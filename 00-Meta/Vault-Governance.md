@@ -1,38 +1,41 @@
 ---
-title: "Vault Governance"
+title: "Quy chế quản trị kho lưu trữ"
 slug: "vault-governance"
 category: meta
 tags: [meta, governance]
-status: active
+status: superseded
 type: reference
 created: 2026-06-12
-last_updated: 2026-06-12
+last_updated: 2026-07-14
 ---
 
-# 📜 Vault Governance Rules
+# 📜 Quy tắc quản trị kho lưu trữ
 
-## Naming Conventions
+> [!warning] Đã bị thay thế
+> Nguồn quy chế chính thức là [[Protocol]]. Bản sao lịch sử này được giữ lại chỉ để phục vụ mục đích kiểm toán.
 
-### File Names
-- **Projects:** `ProjectName.md` — NO suffixes like "notes" or "doc"
-- **Dated files:** `YYYY-MM-DD-Descriptor.md` — ISO date sorts chronologically
-- **Atomic notes:** `kebab-case-slug.md` — lowercase, hyphens only
-- **Meetings:** `YYYY-MM-DD-MeetingTitle.md`
+## Quy ước đặt tên
 
-### Slugs
-- kebab-case: `facebook-ad-optimization` not `Facebook Ad Optimization`
-- No underscores, no special characters
-- Consistent across Linux/macOS filesystems
+### Tên tệp
+- **Dự án:** `TenDuaAnh.md` — KHÔNG thêm hậu tố như "notes" hay "doc"
+- **Tệp có ngày tháng:** `YYYY-MM-DD-MoTa.md` — Ngày theo chuẩn ISO để sắp xếp theo thứ tự thời gian
+- **Ghi chú nguyên tử (atomic notes):** `kebab-case-slug.md` — chữ thường, chỉ dùng dấu gạch ngang
+- **Họp hành:** `YYYY-MM-DD-TenCuoi.md`
 
-## Frontmatter Rules
+### Slug
+- kebab-case: `facebook-ad-optimization` thay vì `Facebook Ad Optimization`
+- Không có dấu gạch dưới, không có ký tự đặc biệt
+- Nhất quán trên các hệ thống tệp Linux/macOS
 
-**Every note MUST have:**
+## Quy tắc Frontmatter
+
+**Mọi ghi chú PHẢI có:**
 ```yaml
 ---
-title: "Exact Title"
-slug: "exact-title-slug"
+title: "Tiêu đề chính xác"
+slug: "tiêu-de-chinh-xac-slug"
 category: project | area | resource | knowledge | daily | review
-tags: [tag1, tag2]  # max 5
+tags: [tag1, tag2]  # tối đa 5
 status: draft | active | reference | output | archived
 type: atomic-note | insight | meeting | project | literature-note
 created: YYYY-MM-DD
@@ -40,73 +43,73 @@ last_updated: YYYY-MM-DD
 ---
 ```
 
-## Folder Rules
+## Quy tắc thư mục
 
-| Rule | Detail |
-|------|--------|
-| Prefix numbers | 00-99 for sorting, gaps of 10 for expansion |
-| No topic-based folders | Use tags for topics, folders for note types |
-| Single attachment folder | `00-Meta/Attachments/` — all files here |
-| Templates in `_templates/` | Underscore prefix sorts to top |
+| Quy tắc | Chi tiết |
+|---------|----------|
+| Số tiền tố (Prefix numbers) | 00-99 để sắp xếp, khoảng cách 10 để mở rộng |
+| Không có thư mục theo chủ đề | Dùng thẻ (tags) cho chủ đề, dùng thư mục cho loại ghi chú |
+| Thư mục đính kèm duy nhất | `00-Meta/Attachments/` — tất cả tệp đều ở đây |
+| Mẫu trong `_templates/` | Tiền tố dấu gạch dưới để sắp xếp lên đầu |
 
-## Workflow Discipline
+## Kỷ luật quy trình làm việc
 
-### Capture (Inbox)
-- Raw capture with minimal friction
-- Daily note = quick-capture inbox for fleeting thoughts
-- Web clips, highlights → Inbox first
-- **NO organizing during capture**
+### Thu thập (Inbox)
+- Thu thập thô với ít ma sát nhất có thể
+- Ghi chú hàng ngày = hộp thư đến nhanh cho những ý nghĩ thoáng qua
+- Cắt từ web, highlight → đưa vào Inbox trước
+- **KHÔNG sắp xếp trong lúc thu thập**
 
-### Connect (Weekly Review)
-- Empty inbox → move/categorize all items
-- Link notes to existing MOCs or archive if dead context
-- Promote high-value daily ideas → atomic notes
-- Backlink every new note immediately
+### Kết nối (Kiểm tra hàng tuần)
+- Xóa sạch inbox → di chuyển/phân loại tất cả mục
+- Liên kết ghi chú với các MOC hiện có hoặc lưu trữ nếu ngữ cảnh đã hết giá trị
+- Nâng cấp những ý tưởng hàng ngày có giá trị cao → ghi chú nguyên tử
+- Tạo liên kết ngược (backlink) cho mọi ghi chú mới ngay lập tức
 
-### Decide (Project Reviews)
-- Every project note answers: "What happens next?"
-- Research workflow: capture → extract → tag → promote validated points
-- Meeting-to-output pipeline: capture → decisions → insights → drafts
+### Quyết định (Kiểm tra dự án)
+- Mọi ghi chú về dự án đều phải trả lời: "Tiếp theo sẽ xảy ra gì?"
+- Quy trình nghiên cứu: thu thập → trích xuất → gắn thẻ → nâng cấp các điểm đã được xác thực
+- Dòng chảy từ họp đến đầu ra: thu thập → quyết định → nhận thức → bản thảo
 
-### Ship (Outputs)
-- Evidence-first method: collect linked refs → extract claims → draft → verify
-- Store ship-ready version in `70-Outputs/`
-- Keep source links attached
+### Giao hàng (Outputs)
+- Phương pháp lấy bằng chứng trước: tập hợp các tham chiếu liên kết → trích xuất luận điểm → soạn thảo → xác minh
+- Lưu phiên bản sẵn sàng giao hàng trong `70-Outputs/`
+- Giữ nguyên các liên kết nguồn đính kèm
 
-## Maintenance Schedule
+## Lịch trình bảo trì
 
-| Frequency | Task | Owner |
-|-----------|------|-------|
-| Daily | Log captures to daily note | Smee + Hùng |
-| Weekly (Sat 20h) | Empty inbox, link orphans, update projects | Smee |
-| Monthly | Tag cleanup, broken-link audit | Smee |
-| Quarterly | Archive old items, structure review, plugin inventory | Smee + Hùng |
+| Tần suất | Nhiệm vụ | Người phụ trách |
+|----------|----------|-----------------|
+| Hàng ngày | Ghi lại các thu thập vào ghi chú hàng ngày | Smee + Hùng |
+| Hàng tuần (Chủ nhật 20h) | Xóa sạch inbox, liên kết các mục mồ côi, cập nhật dự án | Smee |
+| Hàng tháng | Dọn dẹp thẻ, kiểm tra đường dẫn hỏng | Smee |
+| Hàng quý | Lưu trữ các mục cũ, rà soát cấu trúc, danh sách plugin | Smee + Hùng |
 
-## Quality Standards
+## Tiêu chuẩn chất lượng
 
-### Must Have
-- ✅ Frontmatter on every note
-- ✅ At least 1 backlink per new note
-- ✅ kebab-case slug
-- ✅ Status field accurate
-- ✅ Last updated date current
+### Bắt buộc phải có
+- ✅ Frontmatter trên mọi ghi chú
+- ✅ Ít nhất 1 liên kết ngược cho mỗi ghi chú mới
+- ✅ Slug theo kebab-case
+- ✅ Trường status chính xác
+- ✅ Ngày cập nhật cuối cùng hiện tại
 
-### Nice to Have
-- ⭐ Summary line in frontmatter
-- ⭐ Related notes linked
-- ⭐ Dataview queries for dashboards
-- ⭐ %% comments layer for agent instructions
+### Nên có (Nice to Have)
+- ⭐ Dòng tóm tắt trong frontmatter
+- ⭐ Ghi chú liên quan được liên kết
+- ⭐ Truy vấn Dataview cho bảng điều khiển
+- ⭐ Lớp %% comments để hướng dẫn tác nhân (agent instructions)
 
-## Archive Policy
+## Chính sách lưu trữ
 
-Move to `60-Archive/` when:
-- Project completed (progress = 100%)
-- Note inactive >1 year
-- Superseded by newer version
-- No execution relevance
+Di chuyển vào `60-Archive/` khi:
+- Dự án hoàn thành (tiến độ = 100%)
+- Ghi chú không hoạt động > 1 năm
+- Bị thay thế bởi phiên bản mới hơn
+- Không còn ý nghĩa thực thi
 
-Archive keeps the vault root clean. Archived notes are searchable but don't clutter active views.
+Việc lưu trữ giúp giữ cho gốc kho lưu trữ sạch sẽ. Các ghi chú đã lưu trữ vẫn có thể tìm kiếm nhưng không làm rối các quan điểm đang hoạt động.
 
 ---
-*Governance version: 1.0*
-*Last reviewed: 2026-06-12*
+*Phiên bản quy chế: 1.0*
+*Lần xem xét cuối cùng: 2026-06-12*

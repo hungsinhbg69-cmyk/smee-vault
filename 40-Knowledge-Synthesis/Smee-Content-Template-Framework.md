@@ -1,23 +1,15 @@
 ---
-title: "Smee-Content-Template-Framework"
-slug: "smee-content-template-framework"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Smee Content Template Framework"
-slug: "smee-content-template-framework"
-category: frameworks
-tags: [placeholder, content, template]
+title: Smee Content Template Framework
+slug: smee-content-template-framework-overview
+category: knowledge
+tags:
+- placeholder
+- content
+- template
 status: draft
 type: framework
 created: 2026-06-19
-last_updated: 2026-06-19
+last_updated: '2026-07-14'
 ---
 
 # Smee Content Template Framework

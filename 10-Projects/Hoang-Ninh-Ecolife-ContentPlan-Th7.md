@@ -1,7 +1,7 @@
 ---
-title: "Hoàng Ninh Ecolife - Kế hoạch Content tháng 7"
+title: "Hoàng Ninh Ecolife - Kế hoạch nội dung tháng 7"
 slug: hoang-ninh-ecolife-content-plan-th7
-category: content
+category: project
 status: active
 type: content-plan
 created: 2026-07-01
@@ -9,7 +9,7 @@ last_updated: 2026-07-01
 tags: [real-estate, social-housing, facebook, content-plan, hoang-ninh-ecolife]
 ---
 
-# Hoàng Ninh Ecolife - Kế hoạch Content tháng 7
+# Hoàng Ninh Ecolife - Kế hoạch nội dung tháng 7
 
 > Bản kế hoạch 24 bài cho Facebook page — văn phong bình dân, sát sườn anh em công nhân/kỹ sư Bắc Giang/Bắc Ninh.
 

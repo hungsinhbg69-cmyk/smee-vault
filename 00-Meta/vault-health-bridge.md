@@ -1,64 +1,64 @@
 ---
-title: "Vault Health Bridge"
+title: "Cầu nối Sức khỏe Kho lưu trữ"
 slug: "vault-health-bridge"
 category: meta
-tags: [obsidian-cleanup, auto-added]
+tags: []
 status: active
 type: reference
 created: 2026-06-19
 last_updated: 2026-06-22
 ---
 
-# Vault Health Bridge
+# Cầu nối Sức khỏe Kho lưu trữ
 
-## Audit Metrics (2026-06-22 Monthly)
+## Chỉ số Kiểm toán (Hàng tháng 2026-06-22)
 
-### PARA Distribution
-| Folder | Count | % of Total | Status |
+### Phân bố PARA
+| Thư mục | Số lượng | % Tổng cộng | Trạng thái |
 |--------|-------|------------|--------|
 | 00-Meta | 9 | 4.6% | OK |
 | 01-Inbox | 2 | 1.0% | OK |
-| 02-Daily | 8 | 4.1% | LOW (needs more entries) |
+| 02-Daily | 8 | 4.1% | LOW (cần thêm ghi chép) |
 | 10-Projects | 10 | 5.2% | OK |
 | 20-Areas | 1 | 0.5% | LOW |
-| 30-Resources | 52 | 26.8% | OK (near threshold) |
-| 40-Knowledge-Synthesis | 72 | 37.1% | ⚠️ OVER THRESHOLD (>30%) |
+| 30-Resources | 52 | 26.8% | OK (gần ngưỡng) |
+| 40-Knowledge-Synthesis | 72 | 37.1% | ⚠️ VƯỢT NGƯỠNG (>30%) |
 | 50-Reviews | 1 | 0.5% | LOW |
 | 60-Archive | 17 | 8.8% | OK |
 | 70-Outputs | 3 | 1.5% | OK |
-| ROOT (non-PARA) | 6 | 3.1% | NOTE |
-| COPILOT (non-PARA) | 15 | — | SEPARATE |
+| ROOT (không thuộc PARA) | 6 | 3.1% | GHI CHÚ |
+| COPILOT (không thuộc PARA) | 15 | — | RIÊNG BIỆT |
 
-**Total .md notes:** 194 (across vault including root/copilot)
-**PARA-bound notes:** 175
+**Tổng số ghi chú .md:** 194 (trên toàn kho lưu trữ bao gồm root/copilot)
+**Ghi chú thuộc PARA:** 175
 
-### Tag Health
-- **Unique tags:** 254
-- **Tag instances:** 627 (avg ~3.58 per note — HIGH density)
-- **Top 10 tags:** auto-added(61), obsidian-cleanup(61), bac-giang(23), placeholder(19), 2026(18), meta(15), facebook-ads(10), case-study(9), prompt-engineering(8), wiki(7)
-- **Single-use tags:** ~144 (candidates for merge/deletion)
+### Sức khỏe Thẻ (Tag Health)
+- **Thẻ duy nhất:** 254
+- **Số lần xuất hiện thẻ:** 627 (tương đương ~3.58 thẻ mỗi ghi chú — mật độ CAO)
+- **Top 10 thẻ:** auto-added(61), obsidian-cleanup(61), bac-giang(23), placeholder(19), 2026(18), meta(15), facebook-ads(10), case-study(9), prompt-engineering(8), wiki(7)
+- **Thẻ chỉ dùng một lần:** ~144 (ứng viên để hợp nhất/xóa)
 
-### Template Usage
-| Template | Notes Using It | Status |
+### Sử dụng Mẫu (Template Usage)
+| Mẫu | Ghi chú sử dụng | Trạng thái |
 |----------|---------------|--------|
-| atomic-note.md | 4 | ✅ Active |
-| daily-note.md | 3 | ⚠️ Low usage vs expectations |
+| atomic-note.md | 4 | ✅ Hoạt động |
+| daily-note.md | 3 | ⚠️ Sử dụng thấp so với kỳ vọng |
 | experiment-note.md | 2 | OK |
 | literature-note.md | 3 | OK |
-| meeting-note.md | 4 | ✅ Active |
+| meeting-note.md | 4 | ✅ Hoạt động |
 | project-kickoff.md | 2 | OK |
 | quick-idea.md | 1 | LOW |
 | weekly-review.md | 3 | OK |
-| extract_refs.js | 0 | ❌ Unused |
-| research-note.md | 0 | ❌ Unused |
-| web-clip.md | 0 | ❌ Unused |
+| extract_refs.js | 0 | ❌ Không sử dụng |
+| research-note.md | 0 | ❌ Không sử dụng |
+| web-clip.md | 0 | ❌ Không sử dụng |
 
-### Stale Content (>60 days with time-sensitive data)
-- **None found** — all notes created/modified within last ~10 days. Vault is fresh.
+### Nội dung cũ (>60 ngày với dữ liệu nhạy cảm thời gian)
+- **Không tìm thấy** — tất cả ghi chú được tạo/sửa đổi trong vòng ~10 ngày qua. Kho lưu trữ mới mẻ.
 
-### Health Score: B+ (78/100)
-- ✅ No stale content
-- ✅ PARA structure intact
-- ⚠️ 40-Knowledge-Synthesis over threshold at 37% → needs organization or pruning
-- ⚠️ Tag density too high (254 unique tags, ~144 single-use) — cleanup needed next cycle
-- ❌ 3 templates never used (extract_refs.js, research-note.md, web-clip.md)
+### Điểm Sức khỏe: B+ (78/100)
+- ✅ Không có nội dung cũ
+- ✅ Cấu trúc PARA nguyên vẹn
+- ⚠️ 40-Knowledge-Synthesis vượt ngưỡng ở mức 37% → cần tổ chức lại hoặc cắt giảm
+- ⚠️ Mật độ thẻ quá cao (254 thẻ duy nhất, ~144 thẻ dùng một lần) — cần dọn dẹp trong chu kỳ tiếp theo
+- ❌ 3 mẫu chưa bao giờ được sử dụng (extract_refs.js, research-note.md, web-clip.md)

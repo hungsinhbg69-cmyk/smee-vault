@@ -1,7 +1,7 @@
 ---
 title: "Research Ingestion Pipeline"
 slug: "research-pipeline"
-category: framework
+category: knowledge
 tags: [research, pipeline, zotero]
 status: active
 type: workflow-config

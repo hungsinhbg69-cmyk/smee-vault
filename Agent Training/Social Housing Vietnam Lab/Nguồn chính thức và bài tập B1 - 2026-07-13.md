@@ -9,6 +9,12 @@ tags:
 source_status: teacher-verified-snapshot
 accessed: 2026-07-13
 scope: vietnam-national
+slug: nguon-chinh-thuc-va-bai-tap-b1-2026-07-13
+category: training
+status: draft
+type: exercise
+created: 2026-07-13
+last_updated: 2026-07-13
 ---
 
 # Nguồn chính thức và bài tập B1

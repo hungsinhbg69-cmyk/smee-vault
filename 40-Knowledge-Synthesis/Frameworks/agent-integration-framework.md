@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw + Hermes Agent Integration Framework"
 slug: "agent-integration-framework"
-category: framework
+category: knowledge
 tags: [vault-maintenance]
 status: "active"
 type: reference

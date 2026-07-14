@@ -1,23 +1,14 @@
 ---
-title: "related-note-3"
-slug: "related-note-3"
-category: concepts
-tags: [obsidian-cleanup, auto-added]
+title: Related Note 3
+slug: related-note-3
+category: knowledge
+tags:
+- placeholder
+- related
 status: draft
 type: concept
 created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Related Note 3"
-slug: "related-note-3"
-category: concepts
-tags: [placeholder, related]
-status: draft
-type: concept
-created: 2026-06-19
-last_updated: 2026-06-19
+last_updated: '2026-07-14'
 ---
 
 # Related Note 3

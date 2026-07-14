@@ -1,27 +1,20 @@
 ---
-title: "bac-giang-cultural-profile"
-slug: "bac-giang-cultural-profile"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
-type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Bắc Giang Cultural Profile — Hồ sơ văn hóa cốt lõi"
-slug: "bac-giang-cultural-profile"
-category: cultural-insight
-tags: [bac-giang, culture, identity, behavioral]
+title: Bắc Giang Cultural Profile — Hồ sơ văn hóa cốt lõi
+slug: bac-giang-cultural-profile
+category: knowledge
+tags:
+- bac-giang
+- culture
+- identity
+- behavioral
 status: active
 type: atomic-note
 created: 2026-06-15
-last_updated: 2026-06-15
+last_updated: '2026-07-14'
 sources:
-  - memory/bac-giang-cultural-profile-2026-06-15.md
-  - memory/bac-giang-culture-deep-dive-2026-06-15.md
-  - memory/bac-giang-living-guide-2026-06-15.md
+- memory/bac-giang-cultural-profile-2026-06-15.md
+- memory/bac-giang-culture-deep-dive-2026-06-15.md
+- memory/bac-giang-living-guide-2026-06-15.md
 ---
 
 # 🏔️ Bắc Giang Cultural Profile — Hồ sơ văn hóa cốt lõi

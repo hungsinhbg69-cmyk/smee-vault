@@ -1,23 +1,15 @@
 ---
-title: "thue-nha-dai-han-strategy"
-slug: "thue-nha-dai-han-strategy"
-category: frameworks
-tags: [obsidian-cleanup, auto-added]
+title: Thuê Nhà Đại Hạn Strategy
+slug: thue-nha-dai-han-strategy
+category: knowledge
+tags:
+- placeholder
+- rental
+- strategy
 status: draft
 type: framework
 created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "Thuê Nhà Đại Hạn Strategy"
-slug: "thue-nha-dai-han-strategy"
-category: frameworks
-tags: [placeholder, rental, strategy]
-status: draft
-type: framework
-created: 2026-06-19
-last_updated: 2026-06-19
+last_updated: '2026-07-14'
 ---
 
 # Thuê Nhà Đại Hạn Strategy

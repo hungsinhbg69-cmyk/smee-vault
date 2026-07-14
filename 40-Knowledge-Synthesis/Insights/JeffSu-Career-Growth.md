@@ -1,20 +1,20 @@
 ---
-title: "JeffSu-Career-Growth"
-slug: "jeffsu-career-growth"
-category: insights
-tags: [obsidian-cleanup, auto-added]
+title: JeffSu - Career Growth Insights
+slug: jeffsu-career-growth
+category: knowledge
+tags:
+- jeffsu
+- career
+- faang
+- google
+- contractor
 status: draft
 type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: JeffSu - Career Growth Insights
-tags: [jeffsu, career, faang, google, contractor, networking]
-source: NotebookLM "JeffSu Master Learning"
 created: 2026-06-18
-type: insight
+last_updated: '2026-07-14'
+source: NotebookLM "JeffSu Master Learning"
+related_tags:
+- networking
 ---
 
 # Career Growth Insights (from JeffSu)

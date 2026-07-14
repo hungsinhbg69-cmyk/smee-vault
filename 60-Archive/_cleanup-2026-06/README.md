@@ -1,9 +1,9 @@
 ---
 title: "Inbox — Raw Captures"
 slug: "inbox"
-category: area
+category: archive
 tags: [inbox, capture]
-status: active
+status: archived
 type: resource
 created: 2026-06-12
 last_updated: 2026-06-12

@@ -1,5 +1,5 @@
 ---
-title: "Bắc Giang Economic Overview — Kinh tế, FDI, TMĐT"
+title: "Tổng quan kinh tế Bắc Giang — Kinh tế, FDI, TMĐT"
 slug: "bac-giang-economic-overview"
 category: resource
 tags: [vault-maintenance]
@@ -11,16 +11,16 @@ last_updated: 2026-06-24
 
 ---
 
-# 💰 Bắc Giang Economic Overview — Kinh tế, FDI, TMĐT
+# 💰 Tổng quan kinh tế Bắc Giang — Kinh tế, FDI, TMĐT
 
-> [!SUMMARY] Q1/2025 tăng trưởng ~14.02%, đứng đầu cả nước. 6 tháng đầu 2025: 47 dự án FDI mới, vốn ~910 triệu USD (+35% YoY). 62% vốn FDI vào linh kiện điện tử và công nghệ cao. ~1.600 DN công nghệ đang hoạt động.
+> [!SUMMARY] Q1/2025 tăng trưởng ~14.02%, đứng đầu cả nước. 6 tháng đầu 2025: 47 dự án FDI mới, vốn ~910 triệu USD (+35% so với cùng kỳ). 62% vốn FDI vào lĩnh vực linh kiện điện tử và công nghệ cao. Khoảng 1.600 doanh nghiệp công nghệ đang hoạt động.
 
 ## 1. TĂNG TRƯỞNG KINH TẾ
 
 | Kỳ | Tăng trưởng | Ghi chú |
 |----|------------|---------|
 | Q1/2025 | **~14.02%** | Đứng đầu cả nước |
-| 6 tháng đầu 2025 | **47 dự án FDI mới** | Vốn ~910 triệu USD (+35% YoY) |
+| 6 tháng đầu 2025 | **47 dự án FDI mới** | Vốn ~910 triệu USD (+35% so với cùng kỳ) |
 
 ### Nhà đầu tư lớn
 | Công ty | Quốc gia | Dự án | Vốn |
@@ -32,7 +32,7 @@ last_updated: 2026-06-24
 ### Lợi thế cạnh tranh
 - Giá thuê đất KCN: 90-110 USD/m²/chu kỳ (thấp hơn 20-30% so với Bắc Ninh)
 - Quỹ đất công nghiệp 2025-2030: >7.000 ha
-- Chiến lược "1 không, 2 ít, 3 cao" thu hút FDI
+- Chiến lược "một không, hai ít, ba cao" thu hút FDI
 
 ## 2. DOANH NGHIỆP CÔNG NGHỆ
 
@@ -57,7 +57,7 @@ last_updated: 2026-06-24
 | Thuê bao smartphone | **90%** |
 | Hồ sơ sức khỏe điện tử | **97%** (256.766 người) |
 | BHYT trên VNeID | 263.905 người |
-| Giao dịch không tiền mặt y tế | ~760.000 giao dịch, 86.7% |
+| Giao dịch không tiền mặt y tế | ~760.000 giao dịch, 86,7% |
 | Giá trị GTKTM y tế | >412 tỷ đồng |
 
 ---

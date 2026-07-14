@@ -1,21 +1,18 @@
 ---
-title: "geo-guide-2026"
-slug: "geo-guide-2026"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
+title: GEO — Generative Engine Optimization Guide
+slug: geo-guide-2026
+category: knowledge
+tags:
+- geo
+- ai-search
+- seo
+- optimization
+status: active
 type: insight
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "GEO — Generative Engine Optimization Guide"
 created: 2026-06-17
-updated: 2026-06-17
-tags: [geo, ai-search, seo, optimization]
-status: published
-related: [[professional-marketing-2026]]
+last_updated: '2026-07-14'
+related:
+- - professional-marketing-2026
 ---
 
 # GEO — Generative Engine Optimization Guide

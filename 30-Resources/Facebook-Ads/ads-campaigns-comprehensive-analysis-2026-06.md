@@ -30,14 +30,14 @@ _Bản phân tích tổng hợp từ D2C Times, UM Marketing, Soda Spoon, Digita
 ### Kịch bản 1.1.A — "Less Targeting, Better Performance" (Đã chứng minh)
 
 **Setup:**
-- 1 campaign covering all services (asphalt, paving, hardscaping)
+- 1 campaign bao phủ tất cả các dịch vụ (asphalt, paving, hardscaping)
 - 1 ad set duy nhất → Advantage+ dynamic audience targeting
 - Filter: chỉ hiển thị cho người dùng kết nối Wi-Fi
 - Placement test: Feed vs Stories vs Reels
 
-**Kết quả:** CPL giảm 50% so với setup traditional (tách campaign theo service type, audience segmentation chi tiết)
+**Kết quả:** CPL giảm 50% so với setup truyền thống (tách campaign theo loại dịch vụ, phân khúc đối tượng chi tiết)
 
-**Phân tích:** Setup truyền thống chia nhỏ data → fragmented learning. Unified setup cho algorithm thấy behavioral patterns tổng thể. Wi-Fi filter ưu tiên người dùng trong môi trường ổn định → tăng intent. Facebook Feed thắng Stories/Reels cho local services vì user context phù hợp hơn.
+**Phân tích:** Setup truyền thống chia nhỏ dữ liệu → fragmented learning. Unified setup giúp thuật toán nhìn thấy behavioral patterns tổng thể. Wi-Fi filter ưu tiên người dùng trong môi trường ổn định → tăng intent. Facebook Feed thắng Stories/Reels cho local services vì user context phù hợp hơn.
 
 **Phản biện:** "Less targeting" chỉ hoạt động khi có đủ data volume (ít nhất 50 conversions/tháng). Brand mới hoặc niche quá hẹp vẫn cần manual targeting ban đầu để seed algorithm.
 
@@ -58,8 +58,8 @@ _Bản phân tích tổng hợp từ D2C Times, UM Marketing, Soda Spoon, Digita
 
 **Setup:**
 - Wi-Fi filter như kịch bản A
-- Thêm retargeting layer: website visitors 7-day window với creative before/after real project photos
-- Lead form native trong Meta (không redirect website) để giảm friction
+- Thêm retargeting layer: website visitors trong khung thời gian 7 ngày với creative before/after thực tế của dự án
+- Lead form native trong Meta (không redirect về website) để giảm friction
 
 **Target CPL:** Dưới $8 cho lead chất lượng cao (quote request có scheduling intent)
 
@@ -278,7 +278,7 @@ _Bản phân tích tổng hợp từ D2C Times, UM Marketing, Soda Spoon, Digita
 - Delivery uncertainty creatives: explicit maps delivery timelines, zones, fees
 - Sizing anxiety creatives: "Measure Your Door" guides + education-based content
 
-**Phân tích:** High-ticket items (đáng giá $1K-$5K) require multiple touchpoints. Static catalog images insufficient → cần narrative creative build trust và消除 purchase barriers.
+**Phân tích:** High-ticket items (đáng giá $1K-$5K) require multiple touchpoints. Static catalog images insufficient → cần narrative creative build trust và xóa bỏ purchase barriers.
 
 ---
 

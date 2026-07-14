@@ -1,7 +1,7 @@
 ---
 title: "Facebook CBO Scaling Rule"
 slug: "facebook-cbo-scaling-rule"
-category: frameworks
+category: knowledge
 tags: [facebook-ads, cbo, scaling]
 status: draft
 type: framework

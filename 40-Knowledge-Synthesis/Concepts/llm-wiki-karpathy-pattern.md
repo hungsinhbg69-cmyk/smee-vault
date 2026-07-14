@@ -1,20 +1,21 @@
 ---
-title: "llm-wiki-karpathy-pattern"
-slug: "llm-wiki-karpathy-pattern"
-category: concepts
-tags: [obsidian-cleanup, auto-added]
-status: draft
+title: LLM Wiki Pattern (Karpathy)
+slug: llm-wiki-karpathy-pattern
+category: knowledge
+tags:
+- llm
+- wiki
+- knowledge-management
+- rag
+- pattern
+status: active
 type: concept
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "LLM Wiki Pattern (Karpathy)"
-tags: [llm, wiki, knowledge-management, rag, pattern, karpathy]
-date: 2026-06-16
-sources: ["https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"]
-status: reviewed
+created: 2026-06-16
+last_updated: '2026-07-14'
+sources:
+- https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+related_tags:
+- karpathy
 ---
 
 # LLM Wiki Pattern — Phân tích chuyên sâu + Tự phản biện 3 vòng

@@ -1,9 +1,9 @@
 ---
 title: "Bắc Giang — Resource Index"
 slug: "bac-giang-resource-index"
-category: resource
+category: archive
 tags: [bac-giang, resource-index]
-status: active
+status: archived
 type: index-note
 created: 2026-06-15
 last_updated: 2026-06-15

@@ -1,21 +1,22 @@
 ---
-title: "llm-wiki-critique"
-slug: "llm-wiki-critique"
-category: concepts
-tags: [obsidian-cleanup, auto-added]
-status: draft
+title: LLM Wiki — Self-Critique (3 Rounds)
+slug: llm-wiki-critique
+category: knowledge
+tags:
+- llm
+- wiki
+- critique
+- karpathy
+- analysis
+status: active
 type: concept
-created: 2026-06-19
-last_updated: 2026-06-19
----
-
----
-title: "LLM Wiki — Self-Critique (3 Rounds)"
-tags: [llm, wiki, critique, karpathy, analysis]
-date: 2026-06-16
-source: "GitHub Gist - Karpathy LLM Wiki Pattern"
-related: ["llm-wiki-karpathy-pattern", "llm-wiki-architecture", "llm-wiki-operations"]
-status: reviewed
+created: 2026-06-16
+last_updated: '2026-07-14'
+source: GitHub Gist - Karpathy LLM Wiki Pattern
+related:
+- llm-wiki-karpathy-pattern
+- llm-wiki-architecture
+- llm-wiki-operations
 ---
 
 # LLM Wiki — Self-Critique 3 Rounds (Karpathy)
