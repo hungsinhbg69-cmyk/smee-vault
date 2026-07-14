@@ -1,0 +1,688 @@
+{
+  "as_of": "2026-07-14",
+  "projects": [
+    {
+      "name": "Khu nhà ở xã hội Tiên Cát",
+      "location": "Khu Thành Công, phường Thanh Miếu, tỉnh Phú Thọ",
+      "investor": "Công ty Cổ phần Môi trường và Dịch vụ Đô thị Việt Trì",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "452 tỷ đồng (số cập nhật khi khởi công; mức công bố ban đầu 313,980 tỷ đồng)",
+      "tech": "Đất hơn 4.700 m²; xây dựng 1.860 m²; 1 tòa 15 tầng nổi + 2 tầng hầm; 316 căn; khoảng 1.000 người",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Đã khởi công 30/03/2026; ngày 12/06/2026 đang san nền",
+      "decision": "Quyết định 298/QĐ-UBND ngày 08/07/2025 (công bố ban đầu)",
+      "sources": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf",
+        "https://baophutho.vn/khoi-cong-du-an-khu-nha-o-xa-hoi-tien-cat-tai-phuong-thanh-mieu-250778.htm",
+        "https://baophutho.vn/pho-chu-tich-ubnd-tinh-vu-viet-van-kiem-tra-tien-do-thi-cong-du-an-nha-o-xa-hoi-khu-vuc-viet-tri-256005.htm"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Nhà ở xã hội tại khu đất đơn vị ở phường Thanh Miếu",
+      "location": "Khu 12, phường Thanh Miếu, tỉnh Phú Thọ",
+      "investor": "Chưa xác nhận pháp nhân chủ đầu tư; Công ty Cổ phần Tập đoàn CMH Việt Nam là đơn vị tổ chức lễ khởi công theo nguồn Bộ Xây dựng",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "355 tỷ đồng dự kiến; vốn góp nhà đầu tư 120 tỷ đồng",
+      "tech": "Đất 3.834 m²; xây dựng 1.584 m²; 1 tòa 15 tầng nổi + 2 tầng hầm; 221 căn; gần 1.000 người",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Đã khởi công 19/05/2026; mục tiêu đưa vào sử dụng quý IV/2027",
+      "decision": "Quyết định 298/QĐ-UBND công bố dự án (thông số ban đầu: 0,58 ha; 336,900 tỷ đồng)",
+      "sources": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf",
+        "https://moc.gov.vn/vn/tin-tuc/1184/94100/phu-tho-khoi-cong-du-an-khu-nha-o-xa-hoi-tai-phuong-thanh-mieu.aspx"
+      ],
+      "confidence": "Trung bình",
+      "note": "Không biến đơn vị tổ chức lễ khởi công thành chủ đầu tư khi bài không tuyên bố rõ."
+    },
+    {
+      "name": "Khu nhà ở xã hội tại phường Thanh Miếu",
+      "location": "Phường Thanh Miếu, tỉnh Phú Thọ",
+      "investor": "Công ty Cổ phần GPH Việt Nam",
+      "tax": "0109194378",
+      "value": "548.600.000.000 đồng, tổng mức đầu tư dự kiến theo quyết định",
+      "tech": "Đất 10.695,0 m²; sàn 46.929,6 m²; 491 căn; 2 khối XH1/XH2 (bài công khai nêu XH1 15 tầng/325 căn, XH2 166 căn)",
+      "phone": "0917.365.268 (hotline tiếp nhận hồ sơ); 0979880184 (điện thoại pháp nhân trong quyết định)",
+      "email": "Nguyenthanhtrung.thudo@gmail.com — email trong quyết định, không phải tên miền doanh nghiệp",
+      "media": "Bài công khai chính thức trên Báo Phú Thọ; chưa xác thực website/fanpage doanh nghiệp từ nguồn được phép",
+      "status": "Tên thương mại Famia Việt Trì; đang thi công; bài công khai dự kiến hoàn thành năm 2027",
+      "decision": "Quyết định 1354/QĐ-UBND ngày 09/10/2025 chấp thuận chủ trương đầu tư đồng thời chấp thuận nhà đầu tư",
+      "sources": [
+        "https://congbao.phutho.gov.vn/tmp/Gazettes/Volume2025/10/11/1760181070494/doc_219441.pdf",
+        "https://baophutho.vn/cong-khai-thong-tin-du-an-khu-nha-o-xa-hoi-tai-phuong-thanh-mieu-famia-viet-tri-253641.htm"
+      ],
+      "confidence": "Cao",
+      "note": "Quyết định ghi 10.695 m², bài công khai ghi 10.585 m²; lấy quyết định làm chuẩn pháp lý."
+    },
+    {
+      "name": "Khu nhà ở xã hội tại phường Vân Phú",
+      "location": "Phường Vân Phú, tỉnh Phú Thọ",
+      "investor": "ĐANG CẬP NHẬT THEO TIẾN ĐỘ GIAO ĐẤT - CHƯA CÓ BAN QUẢN LÝ DỰ ÁN",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "1.872,719 tỷ đồng dự kiến",
+      "tech": "Khoảng 3,10 ha",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Mục tiêu hoàn thành hết năm 2028; hồ sơ nguồn hiện có mới ở bước công bố dự án",
+      "decision": "Quyết định 298/QĐ-UBND ngày 08/07/2025",
+      "sources": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở xã hội tại khu 3, phường Vân Phú",
+      "location": "Khu 3, phường Vân Phú, tỉnh Phú Thọ",
+      "investor": "ĐANG CẬP NHẬT THEO TIẾN ĐỘ GIAO ĐẤT - CHƯA CÓ BAN QUẢN LÝ DỰ ÁN",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "448,061 tỷ đồng dự kiến",
+      "tech": "Khoảng 5,17 ha",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Mục tiêu hoàn thành hết năm 2029; hồ sơ nguồn hiện có mới ở bước công bố dự án",
+      "decision": "Quyết định 298/QĐ-UBND ngày 08/07/2025",
+      "sources": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở xã hội Vân Cơ",
+      "location": "Phường Nông Trang, tỉnh Phú Thọ",
+      "investor": "ĐANG CẬP NHẬT THEO TIẾN ĐỘ GIAO ĐẤT - CHƯA CÓ BAN QUẢN LÝ DỰ ÁN",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "293,806 tỷ đồng dự kiến",
+      "tech": "Khoảng 0,44 ha",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Mục tiêu hoàn thành hết năm 2027; hồ sơ nguồn hiện có mới ở bước công bố dự án",
+      "decision": "Quyết định 298/QĐ-UBND ngày 08/07/2025",
+      "sources": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở xã hội độc lập cao tầng Thụy Vân",
+      "location": "Phường Nông Trang, tỉnh Phú Thọ",
+      "investor": "Công ty Cổ phần Đại Kim Phú Thọ",
+      "tax": "2601133110",
+      "value": "3.006,612 tỷ đồng dự kiến cho toàn dự án",
+      "tech": "Đất 37.640 m²; 2 tòa NOXH 1 hầm + 21 tầng, khoảng 1.570 căn; 1 tòa thương mại khoảng 460 căn",
+      "phone": "0966287979 (điện thoại trong quyết định)",
+      "email": "Không ghi trong quyết định",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Dự kiến khởi công quý III/2026; hoàn thành toàn bộ quý II/2029",
+      "decision": "Quyết định 1745/QĐ-UBND ngày 01/06/2026",
+      "sources": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf",
+        "https://congbao.phutho.gov.vn/congbao/congbao.nsf/08A7CC1A0084FAD647258E0C002A74AE/%24file/1745-QD-UBND-01-6-2026_signed.pdf"
+      ],
+      "confidence": "Cao",
+      "note": "Mức 3.006,612 tỷ đồng thay cho dự kiến công bố ban đầu 3.881,060 tỷ đồng."
+    },
+    {
+      "name": "Khu nhà ở xã hội OXH3",
+      "location": "KĐT mới Đông Nam, phường Thanh Miếu, tỉnh Phú Thọ",
+      "investor": "Công ty TNHH Xây dựng Tự Lập",
+      "tax": "2600251062",
+      "value": "673,414 tỷ đồng dự kiến",
+      "tech": "Đất 11.285,86 m²; 2 tòa 1 hầm + 15 tầng nổi + 1 tum; khoảng 550 căn; khoảng 32.032 m² sàn",
+      "phone": "02103 854 888",
+      "email": "tulapphutho.5@gmail.com — email trong quyết định, không phải tên miền doanh nghiệp",
+      "media": "https://tulapphutho.vn (website ghi trong quyết định)",
+      "status": "Dự kiến khởi công quý III/2026; hoàn thành quý IV/2028",
+      "decision": "Quyết định 2100/QĐ-UBND ngày 29/06/2026",
+      "sources": [
+        "https://congbao.phutho.gov.vn/congbao/congbao.nsf/60DB0A18A78F6B8047258E270027D144/%24file/2100-QD-UBND-29-06-2026_signed.pdf"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở xã hội tại Khu đô thị mới Trung Minh A",
+      "location": "Phường Hòa Bình, tỉnh Phú Thọ",
+      "investor": "Công ty TNHH Khu đô thị mới Trung Minh",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Khoảng 62.071 m²; 20 tòa chung cư thấp tầng; khoảng 1.289 căn",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Khởi công 30/06/2026; đã được UBND tỉnh chấp thuận chủ trương đầu tư và giao đất, nhưng bài không nêu số quyết định",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://moc.gov.vn/vn/tin-tuc/1173/95169/phu-tho--khoi-cong-khu-nha-o-xa-hoi-gan-1-300-can-tai-phuong-hoa-binh.aspx"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở xã hội thấp tầng tại lô đất NO2",
+      "location": "Tỉnh Phú Thọ (nguồn tổng hợp không nêu địa chỉ chi tiết)",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "123 căn",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Đã hoàn thành, đưa vào sử dụng trước 13/05/2025",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://moc.gov.vn/en/news/85252/phu-tho-giai-phap-hoan-thanh-chi-tieu-nha-o-xa-hoi.aspx"
+      ],
+      "confidence": "Trung bình",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở xã hội cho công nhân Khu công nghiệp Phú Hà",
+      "location": "KCN Phú Hà, thị xã Phú Thọ cũ, tỉnh Phú Thọ",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "588 căn",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Đã hoàn thành, đưa vào sử dụng trước 13/05/2025",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://moc.gov.vn/en/news/85252/phu-tho-giai-phap-hoan-thanh-chi-tieu-nha-o-xa-hoi.aspx"
+      ],
+      "confidence": "Trung bình",
+      "note": "Không tự đồng nhất với dự án Viglacera 558 căn."
+    },
+    {
+      "name": "Khu nhà ở xã hội cho công nhân KCN Phú Hà tại Hà Lộc",
+      "location": "Hà Lộc, thị xã Phú Thọ cũ, tỉnh Phú Thọ",
+      "investor": "Tổng công ty Viglacera - CTCP",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "558 căn; 4 tòa, mỗi tòa 6 tầng",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Được Bộ Xây dựng nêu là dự án đang triển khai trong ảnh chụp 13/05/2025; cần văn bản mới hơn để chốt tình trạng 14/07/2026",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://moc.gov.vn/en/news/85252/phu-tho-giai-phap-hoan-thanh-chi-tieu-nha-o-xa-hoi.aspx"
+      ],
+      "confidence": "Trung bình",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở công nhân Khu công nghiệp Thụy Vân",
+      "location": "KCN Thụy Vân, khu vực Việt Trì, tỉnh Phú Thọ",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Dự kiến hoàn thành thêm 320 căn trong năm 2025",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Nguồn 13/05/2025 nêu cơ bản hoàn thành đầu tư xây dựng; chưa có cập nhật đủ trường đến 14/07/2026",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://moc.gov.vn/en/news/85252/phu-tho-giai-phap-hoan-thanh-chi-tieu-nha-o-xa-hoi.aspx"
+      ],
+      "confidence": "Thấp",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở công nhân, chuyên gia khu Hóc Chẹo",
+      "location": "Xã Tiên Kiên, huyện Lâm Thao cũ, tỉnh Phú Thọ",
+      "investor": "ĐANG CẬP NHẬT THEO TIẾN ĐỘ GIAO ĐẤT - CHƯA CÓ BAN QUẢN LÝ DỰ ÁN",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Nguồn 13/05/2025 nêu đang lựa chọn nhà đầu tư; chưa có cập nhật đủ trường đến 14/07/2026",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://moc.gov.vn/en/news/85252/phu-tho-giai-phap-hoan-thanh-chi-tieu-nha-o-xa-hoi.aspx"
+      ],
+      "confidence": "Thấp",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở xã hội Thành Công",
+      "location": "Khu Thành Công, phường Thanh Miếu, tỉnh Phú Thọ",
+      "investor": "Công ty Cổ phần Đầu tư Phát triển Đô thị Đất Việt",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "0,73 ha; 279 căn; 21 tầng nổi + 1 tầng hầm",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Ngày 12/06/2026 thi công tầng 19/21; dự kiến hoàn thành cuối năm 2026",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://baophutho.vn/pho-chu-tich-ubnd-tinh-vu-viet-van-kiem-tra-tien-do-thuc-hien-cac-du-an-nha-o-xa-hoi-tai-khu-vuc-viet-tri-244596.htm",
+        "https://baophutho.vn/pho-chu-tich-ubnd-tinh-vu-viet-van-kiem-tra-tien-do-thi-cong-du-an-nha-o-xa-hoi-khu-vuc-viet-tri-256005.htm"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở xã hội cao tầng NO3",
+      "location": "Phường Nông Trang, tỉnh Phú Thọ",
+      "investor": "Công ty Cổ phần Cát Lợi Holding",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Hơn 580 tỷ đồng (bài khác nêu trên 581 tỷ đồng)",
+      "tech": "Đất hơn 7.000 m²; 1 tòa 15 tầng; gần 400 căn",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Khoảng 25% khối lượng ngày 12/06/2026; dự kiến hoàn thành cuối 2026",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://baophutho.vn/pho-chu-tich-ubnd-tinh-vu-viet-van-kiem-tra-tien-do-thuc-hien-cac-du-an-nha-o-xa-hoi-tai-khu-vuc-viet-tri-244596.htm",
+        "https://baophutho.vn/pho-chu-tich-ubnd-tinh-vu-viet-van-kiem-tra-tien-do-thi-cong-du-an-nha-o-xa-hoi-khu-vuc-viet-tri-256005.htm"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Nhà ở xã hội Kira Home thuộc KĐT Việt Đức Legend City",
+      "location": "Xã Xuân Lãng, tỉnh Phú Thọ",
+      "investor": "Công ty Cổ phần Ống thép Việt Đức",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Hơn 1,5 ha; 2 khối 9 tầng; 352 căn, diện tích 35–70 m²",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Đang đẩy nhanh thi công; dự kiến hoàn thành quý IV/2026",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://baophutho.vn/phat-dong-thi-dua-hoan-thanh-cat-noc-du-an-nha-o-xa-hoi-kira-home-243479.htm",
+        "https://baophutho.vn/day-nhanh-tien-do-dam-bao-chat-luong-cac-du-an-nha-o-xa-hoi-245532.htm"
+      ],
+      "confidence": "Cao",
+      "note": "Vinaconex là đơn vị tổ chức phát động thi đua/thi công, không phải chủ đầu tư."
+    },
+    {
+      "name": "Nhà ở xã hội tại lô XH1, XH2 KĐT Hùng Vương - Tiền Châu",
+      "location": "Phường Phúc Yên, tỉnh Phú Thọ",
+      "investor": "Công ty Cổ phần Xây dựng Thăng Long",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "1.227 tỷ đồng",
+      "tech": "Đất 32.293 m²; xây dựng khoảng 12.951 m²; 9 tòa x 9 tầng; 1.152 căn; trên 4.000 người",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Điểm nhận hồ sơ chính thức: tầng 1 tòa Thăng Long, đường Bạch Đằng, KĐT Hùng Vương - Tiền Châu",
+      "status": "Đang tiếp nhận/bán theo từng đợt; dự kiến hoàn thành cuối 2026",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://baophutho.vn/khoi-cong-khu-nha-o-xa-hoi-hung-vuong-tien-chau-236764.htm",
+        "https://baophutho.vn/mo-ban-256-can-nha-o-xa-hoi-gia-chi-tu-14-3-trieu-dong-m-2-tai-phu-tho-255944.htm"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở xã hội Phúc Thắng",
+      "location": "Phường Phúc Yên, tỉnh Phú Thọ",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "1 tòa chung cư 11 tầng và 94 căn liền kề (quy mô đọc từ tiến độ, chưa phải hồ sơ kỹ thuật đầy đủ)",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Đã hoàn thành phần ngầm, thi công sàn tầng 4 và ép cọc 94 căn liền kề tại thời điểm bài kiểm tra",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://baophutho.vn/tiep-tuc-thao-go-cac-kho-khan-day-nhanh-tien-do-cac-du-an-nha-o-xa-hoi-251426.htm",
+        "https://baophutho.vn/day-nhanh-tien-do-dam-bao-chat-luong-cac-du-an-nha-o-xa-hoi-245532.htm"
+      ],
+      "confidence": "Trung bình",
+      "note": ""
+    },
+    {
+      "name": "Nhà ở thuộc Khu thiết chế Công đoàn KCN Bá Thiện",
+      "location": "Thôn Vinh Tiến, xã Bình Tuyền, tỉnh Phú Thọ",
+      "investor": "Công ty Cổ phần IEC Vĩnh Phúc",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "27.840 m²; 4 tòa 15 tầng; 1.337 căn hộ và 52 căn nhà phố liền kề",
+      "phone": "0888 352 299",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Tên thương mại Vườn Hoa Gốm - Flora Cera Garden; văn phòng bán hàng tại thôn Vinh Tiến, xã Bình Tuyền",
+      "status": "Khởi công tháng 11/2025; dự kiến đưa tòa đầu tiên vào sử dụng quý II/2027 và hoàn thành toàn dự án năm 2028",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://baophutho.vn/khoi-cong-du-an-nha-o-khu-thiet-che-cong-doan-243370.htm",
+        "https://baophutho.vn/phat-trien-nha-o-xa-hoi-cho-nguoi-lao-dong-tai-khu-cong-nghiep-ba-thien-251083.htm"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Khu nhà ở xã hội Thiện Kế Xanh",
+      "location": "Xã Bình Xuyên, tỉnh Phú Thọ",
+      "investor": "Công ty Cổ phần KEHIN",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Gần 11 ha; 993 căn; có shophouse, trạm y tế, trường học, công viên, nhà văn hóa và bãi đỗ xe",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Đang thi công; nằm trong 6 dự án được đoàn Bộ Xây dựng kiểm tra tháng 4/2026",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://baophutho.vn/tiep-tuc-thao-go-cac-kho-khan-day-nhanh-tien-do-cac-du-an-nha-o-xa-hoi-251426.htm",
+        "https://baophutho.vn/thu-truong-bo-xay-dung-lam-viec-tai-tinh-ve-trien-khai-nhiem-vu-nganh-va-phat-trien-nha-o-xa-hoi-239469.htm"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Nhà ở xã hội thuộc Khu đô thị mới Nam Vĩnh Yên",
+      "location": "Khu đô thị mới Nam Vĩnh Yên, tỉnh Phú Thọ",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "17,08 ha; 38 tòa 11–15 tầng; tổng sàn 489.166 m²",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Đang triển khai; nằm trong 6 dự án được đoàn Bộ Xây dựng kiểm tra tháng 4/2026",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://baophutho.vn/tiep-tuc-thao-go-cac-kho-khan-day-nhanh-tien-do-cac-du-an-nha-o-xa-hoi-251426.htm",
+        "https://baophutho.vn/thu-truong-bo-xay-dung-lam-viec-tai-tinh-ve-trien-khai-nhiem-vu-nganh-va-phat-trien-nha-o-xa-hoi-239469.htm"
+      ],
+      "confidence": "Trung bình",
+      "note": ""
+    },
+    {
+      "name": "Phần nhà ở xã hội thuộc Khu đô thị Kim Đức - Phượng Lâu",
+      "location": "Khu vực Kim Đức - Phượng Lâu, tỉnh Phú Thọ",
+      "investor": "Công ty Cổ phần Kosy",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Hơn 4.498 tỷ đồng cho toàn dự án đô thị, không phải riêng phần NOXH",
+      "tech": "1.280 căn NOXH trong dự án đô thị",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Đang vướng giải phóng mặt bằng theo nguồn Bộ Xây dựng 27/05/2026",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://moc.gov.vn/vn/tin-tuc/1184/94291/phu-tho--dong-bo-giai-phap-phat-trien-nha-o-xa-hoi--tao-nen-tang-an-sinh-ben-vung.aspx"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Phần nhà ở xã hội thuộc Khu nhà ở đô thị phường Hùng Vương",
+      "location": "Phường Phúc Yên, tỉnh Phú Thọ",
+      "investor": "Công ty TNHH Thương mại và Xây dựng Thân Hà",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Khối NOXH 15 tầng, khoảng 524 căn trên 7.324 m²",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Được đoàn tỉnh kiểm tra ngày 09/07/2026; nguồn không nêu tổng vốn riêng phần NOXH",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://moc.gov.vn/vn/tin-tuc/1184/95524/phu-tho-kiem-tra-tien-do-cac-du-an-khu-do-thi-nha-o-xa-hoi-tai-cac-phuong-xuan-hoa-phuc-yen.aspx"
+      ],
+      "confidence": "Cao",
+      "note": ""
+    },
+    {
+      "name": "Vị trí danh mục chưa định danh công khai số 25",
+      "location": "Chưa xác định từ bốn nhóm nguồn được phép",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Con số tổng 33 dự án đã được xác nhận, nhưng chưa truy xuất được một phụ lục công khai ánh xạ đầy đủ 33 tên tại mốc chốt dữ liệu.",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://congbao.phutho.gov.vn/congbao/congbao.nsf/F5A25C923D204ABE47258DC40030C803/%24file/PL%20kem%20QD894%20de%20an%20_signed.pdf",
+        "https://moc.gov.vn/vn/tin-tuc/1184/94291/phu-tho--dong-bo-giai-phap-phat-trien-nha-o-xa-hoi--tao-nen-tang-an-sinh-ben-vung.aspx"
+      ],
+      "confidence": "Chưa đủ bằng chứng",
+      "note": "Không tạo tên, chủ đầu tư, số quyết định hoặc liên hệ giả để lấp đủ danh mục."
+    },
+    {
+      "name": "Vị trí danh mục chưa định danh công khai số 26",
+      "location": "Chưa xác định từ bốn nhóm nguồn được phép",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Con số tổng 33 dự án đã được xác nhận, nhưng chưa truy xuất được một phụ lục công khai ánh xạ đầy đủ 33 tên tại mốc chốt dữ liệu.",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://congbao.phutho.gov.vn/congbao/congbao.nsf/F5A25C923D204ABE47258DC40030C803/%24file/PL%20kem%20QD894%20de%20an%20_signed.pdf",
+        "https://moc.gov.vn/vn/tin-tuc/1184/94291/phu-tho--dong-bo-giai-phap-phat-trien-nha-o-xa-hoi--tao-nen-tang-an-sinh-ben-vung.aspx"
+      ],
+      "confidence": "Chưa đủ bằng chứng",
+      "note": "Không tạo tên, chủ đầu tư, số quyết định hoặc liên hệ giả để lấp đủ danh mục."
+    },
+    {
+      "name": "Vị trí danh mục chưa định danh công khai số 27",
+      "location": "Chưa xác định từ bốn nhóm nguồn được phép",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Con số tổng 33 dự án đã được xác nhận, nhưng chưa truy xuất được một phụ lục công khai ánh xạ đầy đủ 33 tên tại mốc chốt dữ liệu.",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://congbao.phutho.gov.vn/congbao/congbao.nsf/F5A25C923D204ABE47258DC40030C803/%24file/PL%20kem%20QD894%20de%20an%20_signed.pdf",
+        "https://moc.gov.vn/vn/tin-tuc/1184/94291/phu-tho--dong-bo-giai-phap-phat-trien-nha-o-xa-hoi--tao-nen-tang-an-sinh-ben-vung.aspx"
+      ],
+      "confidence": "Chưa đủ bằng chứng",
+      "note": "Không tạo tên, chủ đầu tư, số quyết định hoặc liên hệ giả để lấp đủ danh mục."
+    },
+    {
+      "name": "Vị trí danh mục chưa định danh công khai số 28",
+      "location": "Chưa xác định từ bốn nhóm nguồn được phép",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Con số tổng 33 dự án đã được xác nhận, nhưng chưa truy xuất được một phụ lục công khai ánh xạ đầy đủ 33 tên tại mốc chốt dữ liệu.",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://congbao.phutho.gov.vn/congbao/congbao.nsf/F5A25C923D204ABE47258DC40030C803/%24file/PL%20kem%20QD894%20de%20an%20_signed.pdf",
+        "https://moc.gov.vn/vn/tin-tuc/1184/94291/phu-tho--dong-bo-giai-phap-phat-trien-nha-o-xa-hoi--tao-nen-tang-an-sinh-ben-vung.aspx"
+      ],
+      "confidence": "Chưa đủ bằng chứng",
+      "note": "Không tạo tên, chủ đầu tư, số quyết định hoặc liên hệ giả để lấp đủ danh mục."
+    },
+    {
+      "name": "Vị trí danh mục chưa định danh công khai số 29",
+      "location": "Chưa xác định từ bốn nhóm nguồn được phép",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Con số tổng 33 dự án đã được xác nhận, nhưng chưa truy xuất được một phụ lục công khai ánh xạ đầy đủ 33 tên tại mốc chốt dữ liệu.",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://congbao.phutho.gov.vn/congbao/congbao.nsf/F5A25C923D204ABE47258DC40030C803/%24file/PL%20kem%20QD894%20de%20an%20_signed.pdf",
+        "https://moc.gov.vn/vn/tin-tuc/1184/94291/phu-tho--dong-bo-giai-phap-phat-trien-nha-o-xa-hoi--tao-nen-tang-an-sinh-ben-vung.aspx"
+      ],
+      "confidence": "Chưa đủ bằng chứng",
+      "note": "Không tạo tên, chủ đầu tư, số quyết định hoặc liên hệ giả để lấp đủ danh mục."
+    },
+    {
+      "name": "Vị trí danh mục chưa định danh công khai số 30",
+      "location": "Chưa xác định từ bốn nhóm nguồn được phép",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Con số tổng 33 dự án đã được xác nhận, nhưng chưa truy xuất được một phụ lục công khai ánh xạ đầy đủ 33 tên tại mốc chốt dữ liệu.",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://congbao.phutho.gov.vn/congbao/congbao.nsf/F5A25C923D204ABE47258DC40030C803/%24file/PL%20kem%20QD894%20de%20an%20_signed.pdf",
+        "https://moc.gov.vn/vn/tin-tuc/1184/94291/phu-tho--dong-bo-giai-phap-phat-trien-nha-o-xa-hoi--tao-nen-tang-an-sinh-ben-vung.aspx"
+      ],
+      "confidence": "Chưa đủ bằng chứng",
+      "note": "Không tạo tên, chủ đầu tư, số quyết định hoặc liên hệ giả để lấp đủ danh mục."
+    },
+    {
+      "name": "Vị trí danh mục chưa định danh công khai số 31",
+      "location": "Chưa xác định từ bốn nhóm nguồn được phép",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Con số tổng 33 dự án đã được xác nhận, nhưng chưa truy xuất được một phụ lục công khai ánh xạ đầy đủ 33 tên tại mốc chốt dữ liệu.",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://congbao.phutho.gov.vn/congbao/congbao.nsf/F5A25C923D204ABE47258DC40030C803/%24file/PL%20kem%20QD894%20de%20an%20_signed.pdf",
+        "https://moc.gov.vn/vn/tin-tuc/1184/94291/phu-tho--dong-bo-giai-phap-phat-trien-nha-o-xa-hoi--tao-nen-tang-an-sinh-ben-vung.aspx"
+      ],
+      "confidence": "Chưa đủ bằng chứng",
+      "note": "Không tạo tên, chủ đầu tư, số quyết định hoặc liên hệ giả để lấp đủ danh mục."
+    },
+    {
+      "name": "Vị trí danh mục chưa định danh công khai số 32",
+      "location": "Chưa xác định từ bốn nhóm nguồn được phép",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Con số tổng 33 dự án đã được xác nhận, nhưng chưa truy xuất được một phụ lục công khai ánh xạ đầy đủ 33 tên tại mốc chốt dữ liệu.",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://congbao.phutho.gov.vn/congbao/congbao.nsf/F5A25C923D204ABE47258DC40030C803/%24file/PL%20kem%20QD894%20de%20an%20_signed.pdf",
+        "https://moc.gov.vn/vn/tin-tuc/1184/94291/phu-tho--dong-bo-giai-phap-phat-trien-nha-o-xa-hoi--tao-nen-tang-an-sinh-ben-vung.aspx"
+      ],
+      "confidence": "Chưa đủ bằng chứng",
+      "note": "Không tạo tên, chủ đầu tư, số quyết định hoặc liên hệ giả để lấp đủ danh mục."
+    },
+    {
+      "name": "Vị trí danh mục chưa định danh công khai số 33",
+      "location": "Chưa xác định từ bốn nhóm nguồn được phép",
+      "investor": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tax": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "value": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "tech": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "phone": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "email": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "media": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "status": "Con số tổng 33 dự án đã được xác nhận, nhưng chưa truy xuất được một phụ lục công khai ánh xạ đầy đủ 33 tên tại mốc chốt dữ liệu.",
+      "decision": "Chưa có dữ liệu công khai từ nguồn được phép",
+      "sources": [
+        "https://congbao.phutho.gov.vn/congbao/congbao.nsf/F5A25C923D204ABE47258DC40030C803/%24file/PL%20kem%20QD894%20de%20an%20_signed.pdf",
+        "https://moc.gov.vn/vn/tin-tuc/1184/94291/phu-tho--dong-bo-giai-phap-phat-trien-nha-o-xa-hoi--tao-nen-tang-an-sinh-ben-vung.aspx"
+      ],
+      "confidence": "Chưa đủ bằng chứng",
+      "note": "Không tạo tên, chủ đầu tư, số quyết định hoặc liên hệ giả để lấp đủ danh mục."
+    }
+  ],
+  "audit_log": [
+    [
+      "Phạm vi con số 33",
+      "Diễn giải 33 là 33 dự án đang thi công",
+      "33 là tổng số dự án NOXH trong thống kê 344 dự án nhà ở; nguồn 27/05/2026 chỉ nêu 22 dự án đang được triển khai."
+    ],
+    [
+      "Tổng vốn 369.996,8 tỷ đồng",
+      "Gán toàn bộ cho 33 dự án NOXH",
+      "Đây là tổng vốn của 344 dự án phát triển nhà ở (311 thương mại + 33 NOXH)."
+    ],
+    [
+      "Số căn của 17 dự án đang triển khai",
+      "2.353 căn trong bài Báo Phú Thọ",
+      "15.137 căn theo Bộ Xây dựng và phép trừ 17.244 - 2.107; giữ 2.353 là lỗi nghi vấn trong audit log."
+    ],
+    [
+      "Kế hoạch hoàn thành năm 2026",
+      "Dùng duy nhất 2.354 hoặc 4.244 căn",
+      "Hai snapshot chính thức khác nhau; báo cáo ghi cả hai cùng ngày/nguồn, không hòa trộn."
+    ],
+    [
+      "Famia Việt Trì — diện tích",
+      "10.585 m² theo bài công khai",
+      "10.695,0 m² theo quyết định pháp lý; chênh 110 m² được lưu vết."
+    ],
+    [
+      "Famia Việt Trì — tiến độ",
+      "Hoàn thành 12/2026 theo quyết định ban đầu",
+      "Bài công khai mới hơn dự kiến hoàn thành năm 2027; cần quyết định điều chỉnh để kết luận pháp lý cuối."
+    ],
+    [
+      "Tiên Cát — vốn",
+      "313,980 tỷ đồng theo QĐ 298",
+      "452 tỷ đồng tại thời điểm khởi công; đây là cập nhật sau công bố ban đầu."
+    ],
+    [
+      "Thụy Vân — vốn/quy mô",
+      "3.881,060 tỷ đồng, 3,50 ha theo QĐ 298",
+      "QĐ 1745/QĐ-UBND cập nhật 3.006,612 tỷ đồng, 37.640 m² và giao Công ty CP Đại Kim Phú Thọ."
+    ],
+    [
+      "Thanh Miếu — nhận diện dự án",
+      "Gộp Famia, dự án CMH 221 căn, OXH3, Tiên Cát và Thành Công vì cùng phường",
+      "Giữ thành các hồ sơ riêng, đối chiếu bằng quyết định, diện tích, số căn và pháp nhân."
+    ],
+    [
+      "CMH Việt Nam",
+      "Tự động ghi là chủ đầu tư",
+      "Nguồn Bộ Xây dựng chỉ nói CMH tổ chức lễ khởi công; trường chủ đầu tư để chưa xác nhận pháp nhân."
+    ],
+    [
+      "Phú Hà 588/558 căn",
+      "Gộp thành một dự án",
+      "Không gộp khi nguồn tổng hợp nêu hai quy mô khác nhau và chỉ gắn Viglacera với dự án 558 căn."
+    ],
+    [
+      "Thông tin liên hệ",
+      "Dùng số môi giới hoặc email tìm ngoài",
+      "Chỉ giữ liên hệ gắn trực tiếp trong quyết định/bài công khai; Gmail được ghi đúng bản chất, không gọi là email tên miền doanh nghiệp."
+    ],
+    [
+      "Flora Cera Garden — mốc tiến độ",
+      "Hiểu 'có sản phẩm quý III/2026' là hoàn thành dự án",
+      "Bài công khai mới hơn nêu tòa đầu tiên quý II/2027, toàn dự án năm 2028; mốc quý III/2026 chỉ là mục tiêu có sản phẩm."
+    ]
+  ]
+}

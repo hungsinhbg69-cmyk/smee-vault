@@ -1,0 +1,76 @@
+{
+  "audit_as_of": "2026-07-14",
+  "report_verdict": "FAIL",
+  "critical_errors": [
+    {
+      "record": 0,
+      "field": "email",
+      "problem": "Email của dự án Famia Việt Trì bị sai lệch nghiêm trọng so với chứng cứ. Bản trích xuất ghi 'Nguyenthanđanh_truong.thudo@gmail.com' (có chứa ký tự lạ/sai tên), trong khi chứng cứ chính thức là 'Nguyenthanhtrung.thudo@gmail.com'.",
+      "correction": "Sửa thành Nguyenthanhtrung.thudo@gmail.com"
+    },
+    {
+      "record": 1,
+      "field": "investor_name",
+      "problem": "Dự án OXH3 ghi 'invest_name' (sai tên field trong schema) và giá trị email/website không được xử lý nhất quán.",
+      "correction": "Sửa key thành 'investor_name'"
+    }
+  ],
+  "major_errors": [
+    {
+      "record": 2,
+      "field": "investor_name",
+      "problem": "Dự án Tiên Cát ghi 'investor_name: null', trong khi chứng cứ cho thấy đã có chủ đầu tư là 'Công ty Cổ phần Môi trường và Dịch vụ Đô thị Việt Trì'.",
+      "correction": "Cập nhật tên chủ đầu tư từ nguồn Báo Phú Thọ 30/03/2026"
+    }
+  ],
+  "minor_errors": [
+    {
+      "record": 8,
+      "field": "investment_value_vnd",
+      "problem": "Dự án Thụy Vân ghi giá trị 3.881.060.000.000 (3.8 nghìn tỷ) trong khi chứng cứ cho thấy mức cập nhật mới nhất là 3.006,612 tỷ đồng.",
+      "correction": "Cập nhật theo Quyết định 1745/QĐ-UBND ngày 01/06/2026"
+    }
+  ],
+  "contact_verification": [
+    {
+      "record": 0,
+      "phone": "verified",
+      "email": "free_mail",
+      "media": "none",
+      "reason": "Số điện thoại khớp quyết định; email là gmail (không phải corporate domain)."
+    },
+    {
+      "record": 1,
+      "phone": "verified",
+      "email": "free_mail",
+      "media": "verified",
+      "reason": "Số điện thoại và website khớp chứng cứ OXF3."
+    },
+    {
+      "record": 6,
+      "phone": "none",
+      "email": "none",
+      "media": "none",
+      "reason": "Dự án Thăng Long không công bố hotline/email trong nguồn được phép."
+    }
+  ],
+  "hermes_score_100": 65,
+  "hermes_failures": [
+    "Lỗi hallucination/typo nặng tại email PRJ-001 (Nguyenthanđanh_truong)",
+    "Mất dữ liệu chủ đầu tư quan trọng tại PRJ-003",
+    "Sai lệch số liệu tài chính dự án Thụy Vân so với cập nhật mới nhất",
+    "Lỗi cấu trúc JSON/Schema (sử dụng 'invest_name' thay vì 'investor_name')"
+  ],
+  "report_score_100": 95,
+  "approved_facts": [
+    "Tổng số dự án NOXH toàn tỉnh là 33",
+    "Số dự án đang triển khai là 22",
+    "Diện tích đất Famia Việt Trì lấy theo Quyết định (10.695 m2)"
+  ],
+  "required_in_place_edits": [
+    "Sửa email PRJ-001",
+    "Bổ sung chủ đầu tư PRJ-003",
+    "Cập nhật vốn đầu tư PRJ-009",
+    "Chuẩn hóa key 'investor_name' cho toàn bộ file JSON"
+  ]
+}

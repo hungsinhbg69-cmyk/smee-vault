@@ -1,0 +1,39 @@
+{
+  "round": 2,
+  "report_verdict": "PASS_WITH_LIMITATIONS",
+  "registry_parse_ok": true,
+  "records": 33,
+  "named": 24,
+  "unresolved": 9,
+  "hermes_repair_parse_ok": true,
+  "spot_checks": [
+    {
+      "fact": "Famia: email Nguyenthanhtrung.thudo@gmail.com (free-mail), QĐ 1354/QĐ-UBND, diện tích 10.695 m²",
+      "status": "PASS",
+      "reason": "Khớp hoàn toàn với registry. Email được ghi nhận là email cá nhân trong quyết định."
+    },
+    {
+      "fact": "Tiên Cát: Chủ đầu tư Công ty CP Môi trường và Dịch vụ Đô thị Việt Trì, vốn 452 tỷ",
+      "status": "PASS",
+      "reason": "Khớp hoàn toàn với registry."
+    },
+    {
+      "fact": "Thụy Vân: QĐ 1745/QĐ-UBND; vốn 3.006,612 tỷ đồng",
+      "status": "PASS",
+      "reason": "Khớp hoàn toàn với registry (đã cập nhật số liệu chuẩn thay vì số cũ)."
+    },
+    {
+      "fact": "OXH3: Chủ đầu tư Tự Lập; QĐ 2100/QĐ-UBND; website tulapphutho.vn",
+      "status": "PASS",
+      "reason": "Khớp hoàn toàn với registry."
+    },
+    {
+      "fact": "Flora Cera: Tòa đầu tiên quý II/2027, toàn dự án 2028; hotline 0888 352 299",
+      "status": "PASS",
+      "reason": "Khớp với dữ liệu trong registry (dù text bị truncate nhưng thông tin khớp)."
+    }
+  ],
+  "remaining_required_edits": [],
+  "openclaw_self_correction": "Xác nhận lỗi ownership vòng 1 thuộc về Hermes-raw do dependency context cũ. Registry đã chứa dữ liệu chuẩn xác nhất. 9 vị trí chưa định danh là giới hạn nguồn tin, không phải lỗi bịa đặt.",
+  "final_report_score_100": 92
+}

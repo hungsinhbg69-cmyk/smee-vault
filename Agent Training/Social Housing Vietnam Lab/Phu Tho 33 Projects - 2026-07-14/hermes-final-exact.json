@@ -1,0 +1,18 @@
+{
+  "round": 2,
+  "repair": true,
+  "parse_target": "strict_json",
+  "openclaw_verdict_on_report": "OVERTURN",
+  "error_ownership": [
+    {"error": "Sai email Famia", "belongs_to": "hermes_raw", "reason": "Email bị biến dạng trong bản Hermes raw; Leader report dùng email đúng."},
+    {"error": "Sai key OXH3", "belongs_to": "hermes_raw", "reason": "Key invest_name chỉ xuất hiện trong Hermes raw; Leader registry dùng key nhất quán."},
+    {"error": "Thiếu chủ đầu tư Tiên Cát", "belongs_to": "hermes_raw", "reason": "Hermes raw bỏ trống; Leader report đã ghi đúng pháp nhân theo Báo Phú Thọ."},
+    {"error": "Sai vốn Thụy Vân", "belongs_to": "hermes_raw", "reason": "Hermes raw dùng 3.881,060 tỷ đồng; mức cập nhật là 3.006,612 tỷ đồng theo QĐ 1745/QĐ-UBND."}
+  ],
+  "openclaw_score_100": 45,
+  "leader_report_score_100": 92,
+  "corrected_report_verdict": "PASS_WITH_LIMITATIONS",
+  "remaining_required_edits": [],
+  "limitations": ["Chưa có phụ lục công khai ánh xạ đủ 33 tên; giữ 9 vị trí chưa định danh."],
+  "reason": "OpenClaw vòng 1 xác định đúng lỗi Hermes nhưng gán nhầm ownership sang báo cáo Leader; verdict FAIL mâu thuẫn với điểm 95."
+}

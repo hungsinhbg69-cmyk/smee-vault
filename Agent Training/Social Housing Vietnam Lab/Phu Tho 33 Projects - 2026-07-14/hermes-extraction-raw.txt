@@ -1,0 +1,447 @@
+```json
+{
+  "as_of": "2026-07-14",
+  "scope_assessment": {
+    "official_total": 33,
+    "currently_implemented": 22,
+    "named_records_count": 15,
+    "can_complete_37_detail_records": 15,
+    "reason": "Dựa trên gói chứng cứ, có thể định danh chính xác 15 dự án. Một số nguồn (Báo Phú Thọ) nêu con số khác so với Bộ Xây dựng về lượng căn/dự án đang triển khai nên không tự ý gộp hoặc tạo thêm."
+  },
+  "projects": [
+    {
+      "record_id": "PRJ-001",
+      "official_name": "Khu nhà ở xã hội tại phường Thanh Miếu (Famia Việt Trì)",
+      "commercial_name": "Famia Việt Trì",
+      "location": "phường Thanh Miếu, TP. Việt Trì, Phú Thọ",
+      "investor_name": "Công ty Cổ phần GPH Việt Nam",
+      "tax_id": "0109194378",
+      "decision": null,
+      "investment_value_vnd": 548600000000,
+      "investment_value_qualifier": null,
+      "land_area_m2": 10695.0,
+      "buildings": null,
+      "floors": null,
+      "apartments": 491,
+      "population": null,
+      "phone": "0979880184",
+      "email": "Nguyenthanđanh_truong.thudo@gmail.com",
+      "website": null,
+      "legal_status": "ĐÃ GIAO CHỦ ĐẦU TƯ",
+      "progress_as_of": "08/2025–12/2026 hoàn tất thủ tục và đưa dự án hoạt động",
+      "source_urls": [
+        "https://congbao.phutho.gov.vn/tmp/Gazettes/Volume2025/10/11/1760181070494/doc_219441.pdf",
+        "https://baophutho.vn/cong-khai-thong-tin-du-an-khu-nha-o-xa-hoi-tai-phuong-thanh-mieu-famia-viet-tri-253641.htm"
+      ],
+      "confidence": "high",
+      "flags": [
+        "free_mail_not_corporate_domain",
+        "area_discrepancy: 10695.0m2 (dec) vs 10585m2 (news)"
+      ]
+    },
+    {
+      "record_id": "PRJ-002",
+      "official_name": "Khu nhà ở xã hội OXH3",
+      "commercial_name": null,
+      "location": "KĐT mới Đông Nam, phường Thanh Miếu, Phú Thọ",
+      "invest_name": "Công ty TNHH Xây dựng Tự Lập",
+      "tax_id": "2600251062",
+      "decision": "2100/QĐ-UBND (29/06/2026)",
+      "investment_value_vnd": 673414000000,
+      "investment_value_qualifier": null,
+      "land_area_m2": 11285.86,
+      "buildings": "2 tòa",
+      "floors": "1 hầm + 15 tầng nổi + 1 tum",
+      "apartments": 550,
+      "population": null,
+      "phone": "02103 854 888",
+      "email": "tulapphutho.5@gmail.com",
+      "website": "https://tulapphutho.vn",
+      "legal_status": "ĐÃ CÓ CHỦ ĐẦU TƯ",
+      "progress_as_of": "Khởi công dự kiến quý III/2026; hoàn thành quý IV/2028",
+      "source_urls": [
+        "https://congbao.phutho.gov_vn/congbao/congbao.nsf/F5A25C923D204ABE47258DC40030C803/%24file/2100-QD-UBND-29-06-2026_signed.pdf"
+      ],
+      "confidence": "high",
+      "flags": [
+        "free_mail_not_corporate_domain"
+      ]
+    },
+    {
+      "record_id": "PRJ-003",
+      "official_name": "Khu nhà ở xã hội Tiên Cát",
+      "commercial_name": null,
+      "location": "phường Thanh Miếu, Phú Thọ",
+      "investor_name": null,
+      "tax_id": null,
+      "decision": "298/QĐ-UBND (08/07/2025)",
+      "investment_value_vnd": 313980000000,
+      "investment_value_qualifier": "dự kiến",
+      "land_area_m2": 4700,
+      "buildings": null,
+      "floarrs": null,
+      "apartments": null,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐANG CẬP NHẬT THEO TIẾN ĐỘ GIAO ĐẤT - CHƯA CÓ BAN QUẢN LÝ DỰ ÁN",
+      "progress_as_of": "hoàn thành hết 2027",
+      "source_urls": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf"
+      ],
+      "confidence": "medium",
+      "flags": [
+        "Chưa có dữ liệu công khai từ nguồn được phép (thiếu chủ đầu tư)"
+      ]
+    },
+    {
+      "record_id": "PRJ-004",
+      "official_name": "Khu nhà ở xã hội tại khu đất đơn vị ở phường Thanh Miếu",
+      "commercial_name": null,
+      "location": "phường Thanh Miếu, Phú Thọ",
+      "investor_name": null,
+      "tax_id": null,
+      "decision": "298/QĐ-UBND (08/07/2025)",
+      "investment_value_vnd": 336900000000,
+      "investment_value_qualifier": "dự kiến",
+      "land_area_m2": 5800,
+      "buildings": null,
+      "floors": null,
+      "apartments": null,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐANG CẬP NHẬT THEO TIẾN ĐỘ GIAO ĐẤT - CHƯA CÓ BAN QUẢN LÝ DỰ ÁN",
+      "progress_as_of": "hoàn thành hết 2027",
+      "source_urls": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf"
+      ],
+      "confidence": "medium",
+      "flags": [
+        "Chưa có dữ liệu công khai từ nguồn được phép (thiếu chủ đầu tư)"
+      ]
+    },
+    {
+      "record_id": "PRJ-005",
+      "official_name": "Khu nhà ở xã hội tại phường Thanh Miếu (2)",
+      "commercial_name": null,
+      "location": "phường Thanh Miếu, Phú Thọ",
+      "investor_name": null,
+      _tax_id: null,
+      "decision": "298/QĐ-UBND (08/07/2025)",
+      "investment_value_vnd": 763834000000,
+      "investment_value_qualifier": "dự kiến",
+      "land_area_m2": 10700,
+      "buildings": null,
+      "floors": null,
+      "apartments": null,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐANG CẬP NHẬT THEO TIẾN ĐỘ GIAO ĐẤT - CHƯA CÓ BAN QUẢN LÝ DỰ ÁN",
+      "progress_as_of": "hoàn thành hết 2028",
+      "source_urls": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf"
+      ],
+      "confidence": "medium",
+      "flags": [
+        "Chưa có dữ liệu công khai từ nguồn được phép (thiếu chủ đầu tư)"
+      ]
+    },
+    {
+      "record_id": "PRJ-006",
+      "official_name": "Khu nhà ở xã hội tại phường Vân Phú",
+      "commercial_name": null,
+      "location": "phậu Vân Phú, Phú Thọ",
+      "investor_name": null,
+      "tax_id": null,
+      "decision": "298/QĐ-UBND (08/07/2025)",
+      "investment_value_vnd": 1872719000000,
+      "investment_value_qualifier": "dự kiến",
+      "land_area_m2": 31000,
+      "buildings": null,
+      "floors": null,
+      "apartments": null,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐANG CẬP NHẬT THEO TIẾN ĐỘ GIAO ĐẤT - CHƯA CÓ BAN QUẢN LÝ DỰ ÁN",
+      "progress_as_of": "hoàn thành hết 2028",
+      "source_urls": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf"
+      ],
+      "confidence": "medium",
+      "flags": [
+        "Chưa có dữ liệu công khai từ nguồn được phép (thiếu chủ đầu tư)"
+      ]
+    },
+    {
+      "record_id": "PRJ-007",
+      "official_name": "Khu nhà ở xã hội tại khu 3, phường Vân Phú",
+      "commercial_name": null,
+      "location": "phường Vân Phú, Phú Thọ",
+      "investor_name": null,
+      "tax_id": null,
+      "decision": "298/QĐ-UBND (08/07/2025)",
+      "investment_value_vnd": 448061000000,
+      "investment_value_qualifier": "dự kiến",
+      "land_area_m2": 51700,
+      "buildings": null,
+      "floors": null,
+      "apartments": null,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐANG CẬP NHẬT THEO TIẾN ĐỘ GIAO ĐẤT - CHƯA CÓ BAN QUẢN LÝ DỰ ÁN",
+      "progress_as_of": "hoàn thành hết 2029",
+      "source_urls": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf"
+      ],
+      "confidence": "medium",
+      "flags": [
+        "Chưa có dữ liệu công khai từ nguồn được phép (thiếu chủ đầu tư)"
+      ]
+    },
+    {
+      "record_id": "PRJ-008",
+      "official_name": "Khu nhà ở xã hội Vân Cơ",
+      "commercial_name": null,
+      "location": "phường Nông Trang, Phú Thọ",
+      "investor_name": null,
+      "tax_id": null,
+      "decision": "298/QĐ-UBND (08/07/2025)",
+      "investment_value_vnd": 293806000000,
+      "investment_value_qualifier": "dự kiến",
+      "land_area_m2": 4400,
+      "buildings": null,
+      "floors": null,
+      "apartments": null,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐANG CẬP NHẬT THEO TIẾN ĐỘ GIAO ĐẤT - CHƯA CÓ BAN QUẢN LÝ DỰ ÁN",
+      "progress_as_of": "hoàn thành hết 2027",
+      "source_urls": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf"
+      ],
+      "confidence": "medium",
+      "flags": [
+        "Chưa có dữ liệu công khai từ nguồn được phép (thiếu chủ đầu tư)"
+      ]
+    },
+    {
+      "record_id": "PRJ-009",
+      "official_name": "Khu nhà ở xã hội Thụy Vân",
+      "commercial_name": null,
+      "location": "phường Nông Trang, Phú Thọ",
+      "investor_name": null,
+      "tax_id": null,
+      "decision": "298/QĐ-UBND (08/07/2025)",
+      "investment_value_vnd": 3881060000000,
+      "investment_value_qualifier": "dự kiến",
+      "land_area_m2": 35000,
+      "buildings": null,
+      "floors": null,
+      "apartments": null,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐANG CẬP NHẬT THEO TIẾN ĐỘ GIAO ĐẤT - CHƯA CÓ BAN QUẢN LÝ DỰ ÁN",
+      "progress_as_of": "hoàn thành hết 2029",
+      "source_urls": [
+        "https://congbao.phutho.gov.vn/tmp/Documents/Volumn2025/07/14/doc_218940.pdf"
+      ],
+      "confidence": "medium",
+      "flags": [
+        "Chưa có dữ liệu công khai từ nguồn được phép (thiếu chủ đầu tư)"
+      ]
+    },
+    {
+      "record_id": "PRJ-010",
+      "official_name": "Dự án đô thị Kim Đức – Phượng Lâu",
+      "commercial_name": null,
+      "location": "Phú Thọ",
+      "investor_name": "Công ty Cổ phần Kosy",
+      "tax_id": null,
+      "decision": null,
+      "investment_value_vnd": 4498000000000,
+      "investment_value_callifier": "hơn",
+      "land_area_m2": null,
+      "buildings": null,
+      "floors": null,
+      "apartments": 1280,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐANG TRIỂN KHAI",
+      "progress_as_of": "đang vướng GPMB",
+      "source_urls": [
+        "https://moc.gov.vn/vn/tin-tuc/1184/94291/phu-tho--dong-bo-giai-phap-phat-trien-nha-o-xa-hoi--tao-nen-tang-an-sinh-ben-vung.aspx"
+      ],
+      "confidence": "medium",
+      "flags": [
+        "Không rõ đơn vị pháp lý cụ thể cho phần NOXH trong dự án tổng"
+      ]
+    },
+    {
+      "record_id": "PRJ-011",
+      "official_name": "Khu nhà ở xã hội tại khu 12, phường Thanh Miếu",
+      "commercial_name": null,
+      "location": "phường Thanh Miếu, Phú Thọ",
+      "investor_name": "Công ty Cổ phần Tập đoàn CMH Việt Nam (?)",
+      "tax_id": null,
+      "decision": null,
+      "investment_value_vnd": 355000000000,
+      "investment_value_qualifier": "dự kiến",
+      "land_area_m2": 1584.0,
+      "buildings": "1 tòa (15 tầng nổi + 2 hầm)",
+      "floors": null,
+      "apartments": 221,
+      "population": 1000,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐANG TRIỂN KHAI",
+      "progress_as_of": "Dự kiến đưa vào sử dụng quý IV/2027",
+      "source_urls": [
+        "https://moc.gov.vn/vn/tin-tuc/1184/94100/phu-tho-khoi-cong-du-an-khu-nha-o-xa-hoi-tai-phuong-thanh-mieu.aspx"
+      ],
+      "confidence": "low",
+      "flags": [
+        "Chưa chắc chắn pháp nhân là chủ đầu tư hay đơn vị tổ chức khởi công"
+      ]
+    },
+    {
+      "record_id": "PRJ-012",
+      "official_name": "Khu NOXH thấp tầng tại lô NO2",
+      "commercial_name": null,
+      "location": "Phú Thọ",
+      "investor_name": null,
+      "tax_id": null,
+      "decision": null,
+      "investment_value_vnd": null,
+      "investment_value_qualifier": null,
+      "land_area_m2": null,
+      "buildings": null,
+      "floors": null,
+      "apartments": 123,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐÃ HOÀN THÀNH (Sử dụng)",
+      "progress_as_of": "đã đưa vào sử dụng",
+      "source_urls": [
+        "https://moc.gov.vn/en/news/85252/phu-tho-giai-phap-hoan-thanh-chi-tieu-nha-o-xa-hoi.aspx"
+      ],
+      "confidence": "medium",
+      "flags": []
+    },
+    {
+      "record_id": "PRJ-013",
+      "official_name": "Khu NOXH công nhân KCN Phú Hà (Dự án 1)",
+      "commercial_name": null,
+      "location": "xã Hà Lộc, Phú Thọ",
+      "investor_name": "Tổng công ty Viglacera - CTCP",
+      "tax_id": null,
+      "decision": null,
+      "investment_value_vnd": null,
+      "investment_value_qualifier": null,
+      "land_area_m2": null,
+      "buildings": "4 tòa (6 tầng)";
+      "floors": 6,
+      "apartments": 558,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐÃ HOÀN THÀNH (Sử dụng)",
+      "progress_as_of": "đã đưa vào sử dụng",
+      "source_urls": [
+        "https://moc.gov.vn/en/news/85252/phu-tho-giai-phap-hoan-thanh-chi-tieu-nha-o-xa-hoi.aspx"
+      ],
+      "confidence": "medium",
+      "flags": [
+        "Không thể khẳng định là dự án 588 căn nếu không có văn bản nối định danh"
+      ]
+    },
+    {
+/       "record_id": "PRJ-014",
+      "official_name": "NO3 cao tầng tại phường Nông Trang",
+      "commercial_name": null,
+      "location": "phường Nông Trang, Phú Thọ",
+      "investor_name": "Công ty Cổ phần Cát Lợi Holding",
+      "tax_id": null,
+      "decision": null,
+      "investment_value_vnd": 580000000000,
+      "investment_value_qualifier": "hơn",
+      "land_area_m2": null,
+      "buildings": null,
+      "floors": null,
+      "apartments": null,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐANG TRIỂN KHAI",
+      "progress_as_of": "dự kiến hoàn thành cuối 2026",
+      "source_urls": [
+        "https://baophutho.vn/pho-chu-tich-ubnd-tinh-vu-viet-van-kiem-tra-tien-do-thuc-hien-cac-du-an-nha-o-xa-hoi-tai-khu-vuc-viet-tri-244596.htm"
+      ],
+      "confidence": "medium",
+      "flags": []
+    },
+    {
+      "record_id": "PRJ-015",
+      "official_name": "Khu nhà ở đô thị phường Hùng Vương, phường Phúc Yên (Khối NOXH)",
+      "commercial_name": null,
+      "location": "Phú Thọ",
+      "investor_name": "Công ty TNHH Thương mại và Xây dựng Thân Hà",
+      "tax_id": null,
+      "decision": null,
+      "investment_value_vnd": null,
+      "investment_value_qualifier": null,
+      "land_area_m2": 7324.0,
+      "buildings": "khối NOXH cao 15 tầng";
+      "floors": 15,
+      "apartments": 524,
+      "population": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "legal_status": "ĐANG TRIỂN KHAI",
+      "progress_as_of": "không rõ tiến độ",
+      "source_urls": [
+        "https_moc_gov_vn_vn_tin-tuc_1184_95524_phu-tho-kiem-tra-tien-do-cac-du-an-khu-do-thi-nha-o-xa-hoi-tai-cac-phuong-xuan-hoa-phuc-yen.aspx"
+      ],
+      "confidence": "medium",
+      "flags": []
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "Số căn NOXH đang triển khai (Bộ Xây dựng vs Báo Phú Thọ)",
+      "values": ["15.137 căn (Bộ Xây dựng 27/05/26)", "2.353 căn (Báo Phú Thự - không khớp phép trừ)"],
+      "analysis": "Nguồn Báo Phú Thọ nêu 17 dự án đang triển khai với 2.353 căn, số này không tương thích với phép tính 17.244 - 2.107 = 15.137 theo dữ liệu Bộ Xây dựng.",
+      "preferred_value": "15.137 căn",
+      "rule": "Ưu tiên nguồn tin từ cơ quan quản lý nhà nước (Bộ Xây dựng/Công báo) hơn báo địa phương nếu có mâu thuẫn về số liệu tổng thể."
+    },
+    {
+      "field": "Diện tích dự án Famia Việt Trì",
+      "values": ["10.695,0 m2 (Quyết định)", "10.585 m2 (Báo Phú Thọ)"],
+      "analysis": "Có sự chênh lệch 110m2 giữa văn bản pháp lý và tin bài báo chí.",
+      "preferred_value": "10.695,0 m2",
+      "rule": "Sử dụng số liệu trong Quyết định/Công báo làm chuẩn."
+    }
+  ],
+  "unresolved_slots": 18
+}
+```
