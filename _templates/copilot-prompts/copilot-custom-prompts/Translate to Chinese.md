@@ -4,8 +4,10 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1010
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-slug: "copilot-prompt-translate-to-chinese"
-tags: [tool, copilot]
+slug: copilot-prompt-translate-to-chinese
+tags:
+  - tool
+  - copilot
 status: active
 type: reference
 category: resource

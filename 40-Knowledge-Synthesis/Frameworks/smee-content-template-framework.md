@@ -76,7 +76,7 @@ Ship toàn quốc, mua 3 tặng 1 nha các bác 😍"
 ## 🔗 Backlinks
 - [[smee-agency-bac-giang-deep-dive]]
 - [[smee-brand-dna-storytelling]]
-- [[Bac-Giang Communication Framework]]
+- [[bac-giang-communication-framework|Bac-Giang Communication Framework]]
 
 ---
 

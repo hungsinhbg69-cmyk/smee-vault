@@ -57,7 +57,7 @@ Smee Agency Bắc Giang được xây dựng trên nền tảng market intellige
 
 ## 🔗 Cross-References
 - [[smee-agency-bac-giang-deep-dive]] — Smee Agency deep research
-- [[Bắc Giang Resource Index]] — File structure index
+- [[Vault-MOC#Bac Giang (North Vietnam)|Bắc Giang Resource Index]] — File structure index
 
 ---
 

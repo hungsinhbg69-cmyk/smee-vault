@@ -34,8 +34,8 @@ zotero_uri:
 **Author(s):** {{author}}  
 **Year:** {{year}}  
 **Title:** {{paper_title}}  
-**Source URL:** [[source_url]]  
-**Zotero URI:** [[zotero_uri]]  
+**Source URL:** `source_url` (template placeholder)
+**Zotero URI:** `zotero_uri` (template placeholder)
 
 ## Key Findings
 

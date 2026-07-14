@@ -63,7 +63,7 @@ sources_count: 9
 
 ## 🔗 Backlinks
 
-- [[Bac-Giang Market Intelligence 2026]] — phần "Pain Points" cập nhật thêm NOXH
+- [[Bac-Giang-Market-Intelligence-2026|Bac-Giang Market Intelligence 2026]] — phần "Pain Points" cập nhật thêm NOXH
 - [[real-estate-dinh-tri-analysis]] — phân tích khu Tây Dĩnh Trì mở rộng
 - [[bac-giang-community-psychology]] — hành vi mua NOXH của công nhân KCN
 

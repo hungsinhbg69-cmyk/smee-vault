@@ -6,7 +6,7 @@ tags: [meta, governance, agent]
 status: active
 type: reference
 created: 2026-06-12
-last_updated: 2026-06-17
+last_updated: 2026-07-13
 ---
 
 # 📜 Vault Protocol — Governance + Agent Rules
@@ -168,10 +168,10 @@ When a project or concept is referenced → read that specific note
 **Rules:** Max 5 tags/note, max 50 unique tags total. Lowercase, hyphenated. Define before using.
 
 
-## 12. Hermes Agent Integration Rules
+## 12. OpenClaw + Hermes Integration Rules
 
 ### Core Principle
-Hermes agent (`hermes-agent`) is the primary autonomous operator of this vault. All file operations, captures, and outputs follow these rules automatically.
+`AGENTS.md` ở gốc vault là nguồn luật vận hành chung. OpenClaw phụ trách orchestration dài hạn, gateway, channel, heartbeat/cron và workspace memory; Hermes phụ trách tác vụ tương tác, nghiên cứu và tool use theo phiên. Cả hai dùng cùng schema, cây thư mục và quality gate.
 
 ### File Tool Path Convention
 - **Vault root** for tool calls: `C:/Users/Hung/Desktop/Smee Obsidian/Smee` (forward slashes)
@@ -181,26 +181,27 @@ Hermes agent (`hermes-agent`) is the primary autonomous operator of this vault. 
 
 ### Agent Session Lifecycle
 #### Start of Session
-1. Read `02-Daily/YYYY-MM-DD.md` — check today's captures, prior session context
-2. Scan `10-Projects/` for active project contexts if relevant
-3. Load domain-specific notes from Vault-MOC based on conversation topic
+1. Read root `AGENTS.md` and `00-Meta/Vault-Quick-Ref.md`
+2. Check `git status --short` and preserve existing work
+3. Read today's daily note only when session continuity is relevant
+4. Load 2–3 task-specific notes from `Vault-MOC`; do not scan the whole vault by default
 
 #### During Session
-1. **Captures → Create atomic notes** in appropriate folders (not inbox)
+1. **Route by maturity**: uncertain/raw capture goes to `01-Inbox/`; durable content goes directly to its correct layer
    - Web research/data → `30-Resources/<domain>/` with proper tags
    - Insights/synthesis → `40-Knowledge-Synthesis/Insights/` with wikilinks
    - Project work → `10-Projects/<ProjectName>/` 
 2. **Always create outbound wikilinks** to existing related notes (connect phase)
 3. **Always create inbound backlinks** from new content where relevant
-4. **Daily note auto-append**: every action → `[HH:MM] <type>: "<summary>" → [[slug]]`
+4. **Daily note logging**: append meaningful captures, decisions, outputs and structural changes; do not log every read/search
 5. **Max 3 captures per session** unless user explicitly requests more
 6. **No orphaned notes**: every new note MUST have ≥1 wikilink to existing vault content
 
 #### End of Session
-1. Append all actions to daily note as log entries
+1. Append a concise daily log only when the session produced a meaningful vault change
 2. Verify created/modified notes pass Protocol quality checks (Section 6)
 3. Create follow-up tasks in appropriate project/daily note per task-system-config.md
-4. Git commit if user is connected to repository
+4. Run link/encoding/diff checks; commit or push only when Hùng requests it
 
 ### Tagging Rules for Agent
 - Agent creates tags from `Tag-Taxonomy.md` hierarchy — never invent new tags
@@ -217,6 +218,6 @@ When agent creates any note, verify:
 - [ ] Daily note updated with capture log
 
 ---
-*Protocol version: 2.2 (updated 2026-06-24 — consolidated Section 5/12 capture limit, removed duplicate footer)*
+*Protocol version: 2.3 (updated 2026-07-13 — shared OpenClaw/Hermes rules and hierarchy sync)*
 *Replaces: Vault-Governance.md + Agent-Operating-Protocol.md*
 ---

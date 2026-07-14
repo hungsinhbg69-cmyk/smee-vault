@@ -54,7 +54,7 @@ Timeline or chronological development of this entity.
 - Predecessor: [[related-note-3]]
 
 ## Sources
-- [Source Name](url) — date accessed
+- [Source Name](https://example.com) — replace with source URL and access date
 
 ## Notes
 Any additional observations, contradictions found, or evolving understanding.

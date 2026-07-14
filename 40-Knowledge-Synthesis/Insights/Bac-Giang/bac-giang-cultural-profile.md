@@ -100,8 +100,8 @@ sources:
 
 ## 🔗 Backlinks
 - [[Bac-Giang-Market-Intelligence-2026]]
-- [[Bac-Giang Dialect Lexicon]]
-- [[Bac-Giang Social Media Behavior]]
+- [[bac-giang-dialect-lexicon|Bac-Giang Dialect Lexicon]]
+- [[bac-giang-social-media-behavior|Bac-Giang Social Media Behavior]]
 - [[Obsidian-Vault-Setup]]
 
 ---

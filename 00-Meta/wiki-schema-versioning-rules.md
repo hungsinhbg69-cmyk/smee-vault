@@ -127,4 +127,4 @@ A note is ORPHANED if:
 
 - Karpathy, Andrej. "LLM Wiki Pattern." GitHub Gist.
 - [[vault-architecture]] — Overall vault design
-- [[Vault — Second Brain Hub]] — Complete PARA structure
+- [[README|Vault — Second Brain Hub]] — Complete PARA structure

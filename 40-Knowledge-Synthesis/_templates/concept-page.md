@@ -61,8 +61,8 @@ Step-by-step or mechanism explanation.
 - Limitation 2: explanation
 
 ## References
-- [Source Name](url) — date accessed
-- [Source Name](url) — date accessed
+- [Source Name](https://example.com) — replace with source URL and access date
+- [Source Name](https://example.com) — replace with source URL and access date
 
 ---
 

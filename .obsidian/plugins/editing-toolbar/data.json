@@ -1,13 +1,8 @@
 {
-  "lastVersion": "4.0.9",
+  "lastVersion": "4.0.10",
   "aestheticStyle": "default",
   "positionStyle": "top",
   "menuCommands": [
-    {
-      "id": "editing-toolbar:ai-tools",
-      "name": "AI Tools",
-      "icon": "lucide-sparkles"
-    },
     {
       "id": "editing-toolbar:editor-undo",
       "name": "Undo Edit",
@@ -394,34 +389,10 @@
       "icon": "exit-fullscreen"
     }
   ],
-  "followingCommands": [
-    {
-      "id": "editing-toolbar:ai-tools",
-      "name": "AI Tools",
-      "icon": "lucide-sparkles"
-    }
-  ],
-  "topCommands": [
-    {
-      "id": "editing-toolbar:ai-tools",
-      "name": "AI Tools",
-      "icon": "lucide-sparkles"
-    }
-  ],
-  "fixedCommands": [
-    {
-      "id": "editing-toolbar:ai-tools",
-      "name": "AI Tools",
-      "icon": "lucide-sparkles"
-    }
-  ],
-  "mobileCommands": [
-    {
-      "id": "editing-toolbar:ai-tools",
-      "name": "AI Tools",
-      "icon": "lucide-sparkles"
-    }
-  ],
+  "followingCommands": [],
+  "topCommands": [],
+  "fixedCommands": [],
+  "mobileCommands": [],
   "enableMultipleConfig": false,
   "enableTopToolbar": true,
   "enableFollowingToolbar": false,
@@ -483,15 +454,15 @@
   "toolbarIconSize": 18,
   "useCurrentLineForRegex": false,
   "ai": {
-    "enabled": true,
+    "enabled": false,
     "consentAccepted": true,
     "onboardingShown": true,
     "providerMode": "pkmer-first",
-    "enableInlineCompletion": true,
+    "enableInlineCompletion": false,
     "inlineCompletionHintLearned": false,
     "completionTrigger": "manual",
     "completionDelay": 500,
-    "enableRewrite": true,
+    "enableRewrite": false,
     "showRewriteToolbarOnSelection": false,
     "rewriteMinSelectionLength": 1,
     "pkmerApiBaseUrl": "https://newapi.pkmer.cn",

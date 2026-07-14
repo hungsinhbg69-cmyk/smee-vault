@@ -243,7 +243,7 @@ sources:
 *Research by Smee 🦞 | 2026-06-13 | Sources: baomoi.com, congthuong.vn, founder.com.vn, mia.vn, lsvn.vn, vnfdi.com, tiktok.com (crawl 2026-06-13)*
 
 ---
-*Connected to [[Obsidian-Vault-Setup]] project research | [[vault-health-report-2026-06-12]]*
+*Connected to [[Obsidian-Vault-Setup]] project research | `vault-health-report-2026-06-12` (historical report not retained)*
 
 
 

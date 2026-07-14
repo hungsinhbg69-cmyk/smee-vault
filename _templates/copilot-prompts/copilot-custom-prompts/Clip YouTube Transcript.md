@@ -1,11 +1,13 @@
 ---
-title: "Clip YouTube Transcript.md"
+title: Clip YouTube Transcript.md
 copilot-command-context-menu-enabled: false
 copilot-command-context-menu-order: 1130
 copilot-command-last-used: 0
 copilot-command-model-key: ""
 copilot-command-slash-enabled: true
-tags:  [tool, copilot]
+tags:
+  - tool
+  - copilot
 slug: clip-youtube-transcriptmd
 category: resource
 status: active
@@ -25,7 +27,7 @@ genre:
   - "<genre>"
 watched:
 ---
-![<video title>](<video url>)
+![<video title>](https://www.youtube.com/watch?v=<video-id>)
 
 > [!summary]- Description
 > <full video description, preserve line breaks>

@@ -4,8 +4,10 @@ copilot-command-slash-enabled: false
 copilot-command-context-menu-order: 1100
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-slug: "copilot-prompt-remove-urls"
-tags: [tool, copilot]
+slug: copilot-prompt-remove-urls
+tags:
+  - tool
+  - copilot
 status: active
 type: reference
 category: resource

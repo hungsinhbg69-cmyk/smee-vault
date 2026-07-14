@@ -6,7 +6,7 @@ tags: [moc, vault-index]
 status: active
 type: moc
 created: 2026-06-22
-last_updated: 2026-06-22
+last_updated: 2026-07-13
 ---
 
 # 🗺️ Vault Map of Content
@@ -14,6 +14,7 @@ last_updated: 2026-06-22
 > Central index for Smee's Second Brain. Auto-linked during weekly connect phase.
 
 ## ▸ System
+- [[README|Vault architecture]] — canonical hierarchy and workflow
 - [[Protocol]] — capture & operating rules
 - [[Tag-Taxonomy]] — tag conventions
 - [[vault-health-bridge]] — vault monitoring
@@ -30,6 +31,9 @@ last_updated: 2026-06-22
 - [[professional-marketing-2026]] — Professional Marketing Framework 2026
 - [[fb-graph-api-learning]] — FB Graph API Learning
 - [[FB-ADS-KNOWLEDGE-BASE]] — Facebook Ads Knowledge Base
+
+## ▸ Active Projects
+- [[dream-city-marketing-content-hub|Dream City - Marketing & Content Hub]] — ChatGPT project capture; sales policies pending official verification
 
 ## ▸ Resources by Domain
 ### Bac Giang (North Vietnam)
@@ -65,9 +69,12 @@ See `30-Resources/Facebook-Ads/INDEX.md` for full catalog. Key:
 ## ▸ Automation / Agent
 - [[vault-architecture]] — PARA + Zettelkasten hybrid structure
 - [[task-system-config]] — Task management framework
-- [[agent-integration-framework]] — Hermes Agent ↔ Vault auto-connection pipeline
+- [[agent-integration-framework]] — OpenClaw + Hermes ↔ Vault integration
+- [[openclaw-deep-dive-2026-06-15]] — OpenClaw reference (archived snapshot)
+- [[openclaw-windows-operations]] — live-verified OpenClaw health, security and cron runbook
+- [[hermes-runtime-evidence-discipline]] — Hermes runtime drift, security backlog and evidence rules
 ## ▸ Archive
 See `60-Archive/` for completed readings, old campaigns, and retired notes.
 
 ---
-*Auto-maintained by Smee · Last connect: 2026-06-22*
+*Auto-maintained by Smee · Last connect: 2026-07-13*

@@ -4,8 +4,10 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1000
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-slug: "copilot-prompt-fix-grammar-and-spelling"
-tags: [tool, copilot]
+slug: copilot-prompt-fix-grammar-and-spelling
+tags:
+  - tool
+  - copilot
 status: active
 type: reference
 category: resource

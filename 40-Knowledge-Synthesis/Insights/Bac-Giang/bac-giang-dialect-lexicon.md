@@ -99,9 +99,9 @@ sources:
 ---
 
 ## 🔗 Backlinks
-- [[Bac-Giang Cultural Profile]]
-- [[Bac-Giang Social Media Behavior]]
-- [[Bac-Giang Communication Framework]]
+- [[bac-giang-cultural-profile|Bac-Giang Cultural Profile]]
+- [[bac-giang-social-media-behavior|Bac-Giang Social Media Behavior]]
+- [[bac-giang-communication-framework|Bac-Giang Communication Framework]]
 
 ---
 

@@ -86,8 +86,8 @@ Linh truyền lại toàn bộ brand DNA cho Hùng tại Bắc Giang:
 
 ## 🔗 Backlinks
 - [[smee-agency-bac-giang-deep-dive]]
-- [[Bac-Giang Marketing Patterns]]
-- [[Smee Content Template Framework]]
+- [[bac-giang-marketing-patterns|Bac-Giang Marketing Patterns]]
+- [[40-Knowledge-Synthesis/Frameworks/smee-content-template-framework|Smee Content Template Framework]]
 
 ---
 

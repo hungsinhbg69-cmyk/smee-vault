@@ -53,7 +53,7 @@ PARA organizes notes by actionability (Projects/Areas/Resources/Archive) while Z
 ### Related Concepts
 - [[Obsidian-Vault-Setup]] — Project MOC for this vault launch
 - [[Vault-Governance]] — Detailed rules and naming conventions
-- [[Agent-Operating-Protocol]] — Smee's operating guide
+- [[Protocol]] — Smee's operating guide
 
 ### Applied In
 - Smee's second brain — primary knowledge repository

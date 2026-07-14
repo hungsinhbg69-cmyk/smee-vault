@@ -372,11 +372,11 @@ Ship toàn quốc, mua 3 tặng 1 nha các bác 😍"
 
 ## 🔗 Backlinks
 
-- [[Bac-Giang Market Intelligence 2026]]
-- [[Bac-Giang Identity Triangles]]
-- [[Bac-Giang Marketing Patterns]]
-- [[Bac-Giang Social Media Behavior]]
-- [[Bac-Giang Communication Framework]]
+- [[Bac-Giang-Market-Intelligence-2026|Bac-Giang Market Intelligence 2026]]
+- [[bac-giang-identity-triangles|Bac-Giang Identity Triangles]]
+- [[bac-giang-marketing-patterns|Bac-Giang Marketing Patterns]]
+- [[bac-giang-social-media-behavior|Bac-Giang Social Media Behavior]]
+- [[bac-giang-communication-framework|Bac-Giang Communication Framework]]
 - [[Obsidian-Vault-Setup]]
 
 ---

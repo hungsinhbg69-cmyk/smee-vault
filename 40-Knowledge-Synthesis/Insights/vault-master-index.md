@@ -22,7 +22,7 @@ last_updated: 2026-06-17
 
 # 🗂 Vault Master Index
 
-> Agent quick-scan — every PARA folder at a glance. For detailed structure, see [[Vault — Second Brain Hub]].
+> Agent quick-scan — every PARA folder at a glance. For detailed structure, see [[README|Vault — Second Brain Hub]].
 
 ## Quick Navigation
 

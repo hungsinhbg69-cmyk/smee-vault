@@ -184,4 +184,4 @@ OpenClaw (orchestration, automation, capture pipeline)
 ---
 
 *Last updated: 2026-06-17 | Source: Reddit r/notebooklm + community discussions (June 2026)*
-*Backlinks: [[vault-master-index]], [[obsidian-mcp-plugin]], [[facebook-graph-api]]*
+*Backlinks: [[vault-master-index]], `obsidian-mcp-plugin`, [[facebook-graph-api]]*

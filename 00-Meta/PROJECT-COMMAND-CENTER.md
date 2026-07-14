@@ -84,8 +84,8 @@ git log --oneline --since="7 days ago" -n 10
 
 | Project | Next Action | Due Date | Confidence | Risk Level |
 |---------|-------------|----------|------------|------------|
-| [Project 1](/) | | | Green/Yellow/Red | LOW/MEDIUM/HIGH |
-| [Project 2](/) | | | Green/Yellow/Red | LOW/MEDIUM/HIGH |
+| `Project 1` | | | Green/Yellow/Red | LOW/MEDIUM/HIGH |
+| `Project 2` | | | Green/Yellow/Red | LOW/MEDIUM/HIGH |
 
 ### Risk Factors (auto-assessed)
 - High = overdue task + no deliverable in 30+ days

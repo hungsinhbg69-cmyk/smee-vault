@@ -9,6 +9,7 @@ type: literature-note
 status: unread # unread | reading | read | synthesized
 category: knowledge
 created: {{date}}
+last_updated: {{date}}
 relevance: medium # low | medium | high | critical
 tags: []
 date-added: {{date}}
@@ -30,7 +31,7 @@ synthesized: false
 
 ## 🔗 Connections
 - Links to: [[Concept-A]], [[Project-B]]
-- Contradicts: [[@ConflictingPaper]]
+- Contradicts: [[Conflicting-Paper|Conflicting paper]]
 - Needed for: [[Project-Current]]
 
 ## ❓ Questions / Gaps

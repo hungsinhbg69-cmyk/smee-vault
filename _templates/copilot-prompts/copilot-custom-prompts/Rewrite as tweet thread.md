@@ -1,11 +1,13 @@
 ---
-title: "Rewrite as tweet thread.md"
+title: Rewrite as tweet thread.md
 copilot-command-context-menu-enabled: false
 copilot-command-context-menu-order: 1120
 copilot-command-last-used: 0
 copilot-command-model-key: ""
 copilot-command-slash-enabled: false
-tags:  [tool, copilot]
+tags:
+  - tool
+  - copilot
 slug: rewrite-as-tweet-threadmd
 category: resource
 status: active

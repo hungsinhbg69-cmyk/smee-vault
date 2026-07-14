@@ -79,16 +79,6 @@
               "icon": "clock",
               "title": "Recent files"
             }
-          },
-          {
-            "id": "efdda2713e4fada0",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "VIEW_TYPE_LONGFORM_EXPLORER"
-            }
           }
         ]
       }
@@ -189,27 +179,7 @@
             }
           },
           {
-            "id": "7ca915757be9cd75",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
-            "id": "15ced2f318ac5146",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
-          },
-          {
-            "id": "3af86322c3360bcb",
+            "id": "caf9647f898259ea",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -219,17 +189,17 @@
             }
           },
           {
-            "id": "6ef4bcc0b01ac792",
+            "id": "15b7b34380203a1c",
             "type": "leaf",
             "state": {
-              "type": "copilot-chat-view",
+              "type": "review-queue-list-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -239,10 +209,6 @@
     "hiddenItems": {
       "copilot:Open Copilot Chat": false,
       "homepage:Open homepage": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "remotely-save:Remotely Save": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Mở bộ chuyển đổi nhanh": false,
       "graph:Mở xem biểu đồ": false,
@@ -260,7 +226,6 @@
       "obsidian-spaced-repetition:Review flashcards": false,
       "omnisearch:Omnisearch": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-importer:Open Importer": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
@@ -269,41 +234,41 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "40-Knowledge-Synthesis/Self-Critique/self-critique-2026-07-06-17h.md",
+    "Agent Training/Social Housing Vietnam Lab/L2 - Nhật ký vòng lặp chuyên sâu - 2026-07-14.md",
+    "Agent Training/Social Housing Vietnam Lab/L2 - Final independent G - 2026-07-14.md",
+    "_templates/quickadd-weekly-review.md",
+    "_templates/quickadd-daily-note.md",
+    "_templates/quickadd-atomic-note.md",
+    "copilot/copilot-conversations/If_a_lead_ball_and_a_feather_are_dropped_simultaneously@20260624_161018.md",
+    "AGENTS.md",
+    "Agent Training/Social Housing Vietnam Lab/B1 - Hermes independent retest variant.md",
+    "Agent Training/Social Housing Vietnam Lab/B1 - Nhật ký chấm và sửa - 2026-07-13.md",
+    "Agent Training/Social Housing Vietnam Lab/Nguồn chính thức và bài tập B1 - 2026-07-13.md",
+    "Agent Training/Social Housing Vietnam Lab/Nhà ở xã hội Việt Nam - Cầm tay chỉ việc.md",
+    "Agent Training/OpenClaw và Hermes - 3 tình huống khó - 2026-07-13.md",
+    "Agent Training/Social Housing Vietnam Lab",
+    "40-Knowledge-Synthesis/Frameworks/hermes-runtime-evidence-discipline.md",
+    "40-Knowledge-Synthesis/Frameworks/openclaw-windows-operations.md",
+    "10-Projects/Dream-City/dream-city-marketing-content-hub.md",
+    "10-Projects/Dream-City",
+    "40-Knowledge-Synthesis/Real-Estate/yen-the-golden-hill-index.md",
+    "Agent Training/Marketing Lab/Resource Protocol - Local and Internet.md",
+    "Agent Training/Marketing Lab/S3 - Local crisis pack - Creator.md",
+    "Agent Training/Marketing Lab/S2 - Local performance pack - Omnichannel.md",
+    "Agent Training/Marketing Lab/S1 - Local brief - Sen May Sunscreen.md",
+    "Agent Training/Marketing Lab/Marketing Lab - OpenClaw và Hermes - 3 tình huống khó.md",
+    "Agent Training/Marketing Lab",
+    "Agent Training",
+    "02-Daily/2026-07-13.md",
+    "40-Knowledge-Synthesis/Real-Estate/Yen-The-Golden-Hill-Thong-Tin-Chinh.md",
+    "40-Knowledge-Synthesis/Real-Estate/Yen-The-Golden-Hill-Checclist.md",
     "00-Meta/SRS-CONFIG.md",
-    "_templates/weekly-review.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen-The-Golden-Hill-Bang-Gia-xong.md",
-    "02-Daily/2026-07-04.md",
-    "10-Projects/2024-PDF-OCR-Collections/2026-07/Self-Critique-2026-07-03-17h.md",
+    "30-Resources/Bac-Giang/bac-giang-living-guide.md",
     "10-Projects/2024-PDF-OCR-Collections/2026-07",
     "10-Projects/2024-PDF-OCR-Collections",
-    "40-Knowledge-Synthesis/Thuat-Ban-Hang-Brian-Tracy-Phan-Bien-Toan-Dien.md",
-    "40-Knowledge-Synthesis/1056-co-hoc-tinh-hoa-phan-bien.md",
-    "02-Daily/2026-07-03.md",
-    "40-Knowledge-Synthesis/Insights/Bac-Giang/bac-giang-cultural-profile.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen_The_Golden_Hill_Index.md",
-    "Yen-The-Golden-Hill-Thong-Tin-Chinh.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen-Then-Golden-Hill-Tien-ich-xong.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen-Then-Golden-Hill-Tien-Do.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen-Then-Golden-Hill-Thanh-Tin-Chính-xong.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen-Then-Golden-Hill-SWOT-xong.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen-Then-Golden-Hill-San-Pham.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen-Then-Golden-Hill-Pap-lí-xong.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen-Then-Golden-Hill-Doi-thu.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen-Then-Golden-Hill-Dau-Tu.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen-Then-Golden-Hill-Chec-Klist.md",
-    "40-Knowledge-Synthesis/Real-Estate/Yen-The-Golden-Hill-Vi-Tri-Va-Giao-Thong.md",
-    "Yen-The-Golden-Hill-Checclist.md",
     "40-Knowledge-Synthesis/Real-Estate",
-    "40-Knowledge-Synthesis/Self-Critique/agent-obsidian-self-critique-2026-07-02.md",
-    "02-Daily/2026-07-02.md",
-    "30-Resources/Facebook-Graph-API.md",
     "40-Knowledge-Synthesis/Self-Critique",
     "_scripts/daily-morning-ritual.py",
-    "_scripts/quickadd-macro-config.json",
-    "copilot/copilot-conversations",
-    "copilot",
-    "70-Outputs/JeffSu-Artifacts/jeffsu_deep_dive_audio.m4a",
-    "_scripts/vault-cleanup.ps1"
+    "_scripts/quickadd-macro-config.json"
   ]
 }

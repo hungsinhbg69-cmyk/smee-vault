@@ -12,7 +12,7 @@ last_updated: {{date}}
 # Meta Developer Platform - Hướng Dẫn Tổng Hợp
 
 > [!INFO] Tổng quan
-> **Nguồn:** [[https://developers.facebook.com/docs/]] 
+> **Nguồn:** [Meta for Developers](https://developers.facebook.com/docs/)
 > **Mục đích:** Ghi nhớ các chính sách, quy tắc giới hạn API để agent hoạt động tốt trên nền tảng Facebook/Meta
 > **Đừng làm trái luật:** Platform Terms, Privacy Policy, Messaging Standards
 
@@ -79,7 +79,7 @@ Phải bồi hoàn cho các công ty thuộc Meta từ mọi khiếu nại/ tran
 
 ## 2. Graph API
 
-> [!INFO] Resource: [[https://developers.facebook.com/docs/graph-api/overview#standard-param]]
+> [!INFO] Resource: [Graph API overview](https://developers.facebook.com/docs/graph-api/overview#standard-param)
 > Reference full: https://developers.facebook.com/docs/graph-api/reference/
 
 ### 2.1 Cấu Trúc URL Cơ Bản
@@ -145,7 +145,7 @@ Các tham số tiêu chuẩn:
 
 ## 4. Instagram API
 
-> [!INFO] Resource: [[https://developers.facebook.com/docs/instagram-api/]]
+> [!INFO] Resource: [Instagram API](https://developers.facebook.com/docs/instagram-api/)
 
 ### 4.1 Basic Display API (for Personal Accounts)
 
@@ -180,7 +180,7 @@ Các tham số tiêu chuẩn:
 
 ## 5. Messenger Platform 
 
-> [!INFO] Full guide: [[https://developers.facebook.com/docs/messenger-platform/overview/]]
+> [!INFO] Full guide: [Messenger Platform](https://developers.facebook.com/docs/messenger-platform/overview/)
 > Sending messages reference: https://developers.facebook.com/docs/messenger-platform/send-messages/
 > Get started: https://developers.facebook.com/docs/messenger-platform/getting-started/
 
@@ -226,7 +226,7 @@ Các tham số tiêu chuẩn:
 
 ## 6. WhatsApp Business Platform
 
-> [!INFO] Cloud API Guide: [[https://developers.facebook.com/docs/whatsapp/cloud-api/]]
+> [!INFO] Cloud API Guide: [WhatsApp Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/)
 > Template Messages: https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates  
 > **Note:** On-Premises API was deprecated - end of life 23/10/2025
 
@@ -391,7 +391,7 @@ elif response.get("error", {}).get("code") == 32:
 
 ### Data Storage Limits (Graph API)
 - Max: 12 months data retention after last access (365 days default)
-- Một số exceptions cho specific fields/categories (check [[https://developers.facebook.com/docs/graph-api/overview]] for specifics)
+- Một số exceptions cho specific fields/categories (check [Graph API overview](https://developers.facebook.com/docs/graph-api/overview) for specifics)
 
 ---
 

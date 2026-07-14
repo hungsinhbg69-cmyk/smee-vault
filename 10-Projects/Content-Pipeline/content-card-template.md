@@ -28,7 +28,7 @@ Who are we talking to? (DISC profile, pain points)
 
 
 ## Source Material
-- [[related-note]]
+- `[[related-note]]` — replace with an existing source note
 
 ## Performance Log
 | Date | Metric | Value | Notes |

@@ -16,20 +16,20 @@ difficulty: easy # easy | medium | hard
 # 🔬 {{title}}
 
 ## 📝 One Idea Summary
-<%* tR += tp.system.prompt("One sentence summary: "); *>
+<%* tR += await tp.system.prompt("One sentence summary: "); *>
 
 ## 📖 Explanation
 [<small>300-700 words. Clear, precise, no fluff.</small>]
 
 ## 🔄 Connections
 ### Related Concepts
-<%* tR += "- [[" + tp.system.prompt("Related concept (or leave blank): ") + "]]\n"; *>
+<%* const related = await tp.system.prompt("Related concept (or leave blank): "); if (related?.trim()) { const open = "[" + "["; const close = "]" + "]"; tR += "- " + open + related.trim() + close + "\n"; } *>
 
 ### Applied In
 <%* tR += "- [[Project-Name]] — how this is used\n"; *>
 
 ## 📚 Sources
-<%* tR += "- [" + tp.system.prompt("Source title: ") + "](url)\n"; *>
+<%* const sourceTitle = await tp.system.prompt("Source title (or leave blank): "); const sourceUrl = await tp.system.prompt("Source URL (or leave blank): "); if (sourceTitle?.trim()) tR += sourceUrl?.trim() ? "- [" + sourceTitle.trim() + "](" + sourceUrl.trim() + ")\n" : "- " + sourceTitle.trim() + "\n"; *>
 
 ---
 %% Agent instructions:

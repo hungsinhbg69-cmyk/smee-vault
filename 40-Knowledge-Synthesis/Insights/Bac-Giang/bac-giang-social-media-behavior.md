@@ -104,9 +104,9 @@ sources:
 ---
 
 ## 🔗 Backlinks
-- [[Bac-Giang Cultural Profile]]
-- [[Bac-Giang Marketing Patterns]]
-- [[Bac-Giang Market Intelligence 2026]]
+- [[bac-giang-cultural-profile|Bac-Giang Cultural Profile]]
+- [[bac-giang-marketing-patterns|Bac-Giang Marketing Patterns]]
+- [[Bac-Giang-Market-Intelligence-2026|Bac-Giang Market Intelligence 2026]]
 - [[Obsidian-Vault-Setup]]
 
 ---

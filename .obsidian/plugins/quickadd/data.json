@@ -1,5 +1,120 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "name": "capture-new-note",
+      "id": "smee-capture-new-note-v2",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_templates/quickadd-atomic-note.md",
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "40-Knowledge-Synthesis/Insights"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:title|label:Tiêu đề|case:slug}}"
+      },
+      "discoverExistingNotesBeforeCreate": true,
+      "appendLink": false,
+      "copyLinkToClipboard": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "source",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    },
+    {
+      "name": "capture-quick-thought",
+      "id": "smee-capture-quick-thought-v2",
+      "type": "Capture",
+      "command": true,
+      "captureTo": "02-Daily/{{DATE:YYYY-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "activeFileWritePosition": "bottom",
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "_templates/quickadd-daily-note.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{DATE:HH:mm}} — {{VALUE:thought|label:Ý tưởng|type:multiline}}"
+      },
+      "useSelectionAsCaptureValue": true,
+      "prepend": false,
+      "appendLink": false,
+      "copyLinkToClipboard": false,
+      "task": false,
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "name": "review-weekly-init",
+      "id": "smee-review-weekly-init-v2",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_templates/quickadd-weekly-review.md",
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "02-Daily"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "weekly-review-{{DATE:GGGG-[W]WW}}"
+      },
+      "discoverExistingNotesBeforeCreate": true,
+      "appendLink": false,
+      "copyLinkToClipboard": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "source",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    }
+  ],
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,

@@ -1,24 +1,24 @@
 ---
-title: "Hermes Agent Integration Framework"
+title: "OpenClaw + Hermes Agent Integration Framework"
 slug: "agent-integration-framework"
 category: framework
 tags: [vault-maintenance]
-status: "draft"
+status: "active"
 type: reference
 created: 2025-12-01
-last_updated: 2026-06-24
+last_updated: 2026-07-13
 ---
 
 
-# 🔄 Hermes Agent Integration Framework
+# 🔄 OpenClaw + Hermes Agent Integration Framework
 
-> Auto-connects every Hermes agent conversation to Smee Obsidian vault — creating a closed-loop Second Brain.
+> Một lớp luật chung kết nối OpenClaw và Hermes với Smee Obsidian vault mà không nhân đôi quy tắc.
 
 ## 🏗️ Architecture
 
 ```
 ┌──────────────┐     ┌─────────────────┐     ┌──────────────────┐
-│  Conversation │────▶│  Vault Agent    │────▶│  Output/Actions   │
+│ OpenClaw/Hermes│────▶│  Vault AGENTS.md│────▶│  Output/Actions   │
 │  (Chat)      │◀────│  Layer          │◀────│                 │
 └──────────────┘     │                 │     └──────────────────┘
                      │ 1. Scan Quick-Ref │
@@ -30,13 +30,13 @@ last_updated: 2026-06-24
 
 ## 📦 Integration Layers (4 Total)
 
-### Layer 1: Protocol-Driven Operations
-**What it does:** Every agent action follows `Protocol.md` section rules — naming, frontmatter, folders, tags.
+### Layer 1: Shared Operating Contract
+**What it does:** Mọi agent đọc root `AGENTS.md`, sau đó áp dụng `Protocol.md` cho naming, frontmatter, folders và tags.
 **How verified:** Quality gate check in Protocol Section 6 + Section 12.
 **Agent behavior:** Read rules at session start → apply to every file create/edit.
 
 ### Layer 2: Daily Vault Logging
-**What it does:** Every conversation action appends to `02-Daily/YYYY-MM-DD.md` with timestamp, type, and wikilinks.
+**What it does:** Chỉ capture, decision, output và structural change có ý nghĩa mới được ghi vào `02-Daily/YYYY-MM-DD.md`.
 **Format:** `[HH:MM] <type>: "<summary>" → [[slug]]`
 **Types:** capture, connect, output, decision, cleanup.
 **Agent behavior:** Auto-append after every meaningful action — not just at session end.
@@ -65,19 +65,16 @@ Every Saturday at 20h: empty inbox folder → promote validated daily ideas to a
 |--------|--------|--------------|
 | Outbound wikilinks per note | ≥1 | Dead-end audit via search_files |
 | Backlink coverage | >50% of notes linked TO from others | Vault graph scan |
-| Daily capture log completeness | 100% of actions logged | Manual spot-check |
-| Session end commit rate | Every active session | Git status check |
+| Daily log signal quality | Không có log đọc/search vụn | Manual spot-check |
+| Dirty-worktree safety | Không ghi đè thay đổi có sẵn | Git status + diff |
 
-## 🧩 Agent Tools Mapping
+## 🧩 Agent Responsibility Map
 
-| Hermes Tool | Vault Operation | Path Convention |
-|-------------|-----------------|-----------------|
-| `read_file` | Read notes for context | `C:/Users/Hung/Desktop/Smee Obsidian/Smee/<path>` |
-| `write_file` | Create/update notes | Same base path, forward slashes |
-| `patch` | Targeted edits | Anchored by stable text |
-| `search_files` | Content/filename search | target="content" for search, "files" for listing |
-| `execute_code` | Bulk operations, batch create | Python raw Windows paths |
-| `terminal` | Git operations | `git add . && git commit -m "..."` from vault root |
+| Agent | Vai trò chính | Không dùng làm nguồn luật |
+|---|---|---|
+| OpenClaw | Gateway, channels, heartbeat, cron, memory, orchestration dài hạn | Workspace backup hoặc memory cũ |
+| Hermes | Phiên tương tác, research, skills, tool execution | `SOUL.md` cho đường dẫn/schema dự án |
+| Cả hai | Search → patch → link → validate theo root `AGENTS.md` | Bản sao cây thư mục trong file riêng |
 
 ---
-*Created: 2026-06-23 by Hermes Agent Integration*
+*Created: 2026-06-23 · Synchronized for OpenClaw + Hermes: 2026-07-13*

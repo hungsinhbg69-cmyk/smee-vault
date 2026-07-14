@@ -125,10 +125,10 @@ Ship toàn quốc, mua 3 tặng 1 nha các bác 😍"
 ---
 
 ## 🔗 Backlinks
-- [[Bac-Giang Cultural Profile]]
-- [[Bac-Giang Dialect Lexicon]]
-- [[Bac-Giang Communication Framework]]
-- [[Bac-Giang Market Intelligence 2026]]
+- [[bac-giang-cultural-profile|Bac-Giang Cultural Profile]]
+- [[bac-giang-dialect-lexicon|Bac-Giang Dialect Lexicon]]
+- [[bac-giang-communication-framework|Bac-Giang Communication Framework]]
+- [[Bac-Giang-Market-Intelligence-2026|Bac-Giang Market Intelligence 2026]]
 - [[Obsidian-Vault-Setup]]
 
 ---

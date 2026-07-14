@@ -6,7 +6,7 @@ tags: [meta, vault-governance, protocol]
 status: active
 type: hub
 created: 2026-06-12
-last_updated: 2026-06-12
+last_updated: 2026-07-13
 ---
 
 # 🧠 Vault — Second Brain Hub
@@ -15,9 +15,9 @@ last_updated: 2026-06-12
 
 ```
 vault/
-├── 00-Meta/                    # System files, READMEs, templates
-│   ├── README.md               # ← You are here
-│   └── _templates/             # All note templates
+├── AGENTS.md                   # Shared rules for OpenClaw + Hermes
+├── 00-Meta/                    # Governance, MOCs, dashboards, taxonomy
+│   └── README.md               # ← You are here
 ├── 01-Inbox/                   # Quick capture, unsorted
 ├── 02-Daily/                   # Daily notes (YYYY-MM-DD.md)
 ├── 10-Projects/                # Active projects (time-bound)
@@ -29,7 +29,9 @@ vault/
 │   └── Frameworks/             # Mental models, frameworks
 ├── 50-Reviews/                 # Weekly/monthly reviews
 ├── 60-Archive/                 # Completed/inactive items
-└── 70-Outputs/                 # Finalized artifacts (drafts, publications)
+├── 70-Outputs/                 # Finalized artifacts (drafts, publications)
+├── _templates/                 # Reusable note templates
+└── _scripts/                   # Vault automation scripts
 ```
 
 ## 📐 Naming Conventions
@@ -111,9 +113,11 @@ Inbox (01-Inbox/)
 ## 🔗 Key Links
 
 - [[Protocol]] — Governance + Agent Rules (merged, single source of truth)
+- [[Vault-MOC]] — Central map of content
+- [[Vault-Quick-Ref]] — Token-efficient navigation
 - [[Tag-Taxonomy]] — Full tag reference
 
 ---
-*Created: 2026-06-12 | Last reviewed: 2026-06-15 (vault cleanup)*
+*Created: 2026-06-12 | Last reviewed: 2026-07-13 (hierarchy sync)*
 *Architecture: PARA + Zettelkasten Hybrid*
 *Agent: Smee (OpenClaw) + Hùng (Human)*

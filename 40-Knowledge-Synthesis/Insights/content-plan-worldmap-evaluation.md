@@ -1,126 +1,119 @@
 ---
-title: "content-plan-worldmap-evaluation"
+title: "Content Plan WorldMap Edu — Đánh giá chiến lược"
 slug: "content-plan-worldmap-evaluation"
-category: insights
-tags: [obsidian-cleanup, auto-added]
-status: draft
+category: knowledge
+tags: [content-plan, facebook, marketing]
+status: active
 type: insight
-created: 2026-06-19
+created: 2026-06-16
 last_updated: 2026-06-19
+source: "Sheet FANPAGE 1 - ANH NGỮ WM (gid=1391050888)"
 ---
 
----
-title: "Content Plan WorldMap Edu - ��nh gi� chi?n lu?c"
-tags: [content-plan, worldmap, evaluation, facebook]
-date: 2026-06-16
-source: "Sheet FANPAGE 1 - ANH NG? WM (gid=1391050888)"
-status: reviewed
----
+# Content Plan WorldMap Edu — Đánh giá chiến lược
 
-# Content Plan WorldMap Edu - ��nh gi� chi?n lu?c
-
-## T?ng quan
-- **Brand:** World Map Edu - Anh ng? t?i B?c Ninh
-- **M?c ti�u:** Ti?ng Anh c?p 2, c?p 3, IELTS, TOEIC
-- **T?ng b�i l�n l?ch:** 33 b�i (3 giai do?n)
+## Tổng quan
+- **Brand:** World Map Edu — Anh ngữ tại Bắc Ninh
+- **Mục tiêu:** Tiếng Anh cấp 2, cấp 3, IELTS, TOEIC
+- **Tổng bài lên lịch:** 33 bài (3 giai đoạn)
 - **Link sheet:** `1C0GHxXxvwg6ZDG9w7t9WSZmvx6c2fQ60985G3VwXH9U`
 
-## B? c?c sheet (column structure)
+## Bố cục sheet (column structure)
 
-| C?t | N?i dung | Ghi ch� |
+| Cột | Nội dung | Ghi chú |
 |---|---|---|
-| A | STT | ��nh s? b�i, c� giai do?n separator |
-| B | Gi? dang | �?nh d?ng HH:MM - chua consistent (b�i 12: "8;40") |
-| C | Ng�y dang | DD/M ho?c DD/MM - kh�ng chu?n ISO |
-| D | �?nh d?ng | ?nh / Carousel / Video / Reels / Gift / C�u chuy?n |
-| E | M?c ti�u ch�nh | Nh?n di?n thuong hi?u / Tuy?n sinh |
-| F | Ch? d? / Hook | Ng?n g?n, 1 c�u |
-| G | Headline | Title hook - thu?ng c� emoji |
-| H | Caption d?y d? | Content chi ti?t (long-form) |
-| I | CTA | Call-to-action r� r�ng |
-| J | Hashtags | 4-6 tags/b�i |
-| K | Ghi ch� | Hu?ng d?n thi?t k?/visual |
-| L | Link s?n ph?m | Empty - c� th? d�ng cho link tracking |
-| M | Tr?ng th�i | �� air / Luu tr? / (tr?ng) |
-| N | Note | Feedback b? sung |
+| A | STT | Đánh số bài, có giai đoạn separator |
+| B | Giờ đăng | Định dạng HH:MM — chưa consistent (bài 12: "8;40") |
+| C | Ngày đăng | DD/M hoặc DD/MM — không chuẩn ISO |
+| D | Định dạng | Ảnh / Carousel / Video / Reels / Gift / Câu chuyện |
+| E | Mục tiêu chính | Nhận diện thương hiệu / Tuyển sinh |
+| F | Chủ đề / Hook | Ngắn gọn, 1 câu |
+| G | Headline | Title hook — thường có emoji |
+| H | Caption đầy đủ | Content chi tiết (long-form) |
+| I | CTA | Call-to-action rõ ràng |
+| J | Hashtags | 4-6 tags/bài |
+| K | Ghi chú | Hướng dẫn thiết kế/visual |
+| L | Link sản phẩm | Empty — có thể dùng cho link tracking |
+| M | Trạng thái | Đã air / Lưu trữ / (trống) |
+| N | Note | Feedback bổ sung |
 
-## ��nh gi� giai do?n 1: Nh?n di?n & M? tuy?n (10 b�i, 28/5�11/6)
+## Đánh giá giai đoạn 1: Nhận diện & Mở tuyển (10 bài, 28/5–11/6)
 
-### ? �i?m m?nh
-- **L? tr�nh narrative r�:** Teaser b� ?n ? C�ng b? ch�nh th?c ? Uu d�i th�ng 6 ? IELTS foundation ? Th�nh t�ch h?c vi�n ? L? tr�nh c� nh�n h�a ? Video gi?i thi?u ? C?p 2 urgency ? Multiple pathways ? Countdown + Case study IELTS 6.5
-- **Mix d?nh d?ng t?t:** C� ?nh, carousel, video - kh�ng ch? static posts
-- **CTA da d?ng:** Inbox / Nh?n tin / Tag b?n / Comment - ph� h?p engagement algorithm
-- **Social proof s?m:** B�i 5 (b?ng v�ng), b�i 10 (IELTS 6.5) - build trust t? ng�y d?u
+### ✅ Điểm mạnh
+- **Lộ trình narrative rõ:** Teaser bí ẩn → Công bố chính thức → Ưu đãi tháng 6 → IELTS foundation → Thành tích học viên → Lộ trình cá nhân hóa → Video giới thiệu → Cấp 2 urgency → Multiple pathways → Countdown + Case study IELTS 6.5
+- **Mix định dạng tốt:** Có ảnh, carousel, video — không chỉ static posts
+- **CTA đa dạng:** Inbox / Nhắn tin / Tag bạn / Comment — phù hợp engagement algorithm
+- **Social proof sớm:** Bài 5 (bảng vàng), bài 10 (IELTS 6.5) — build trust từ ngày đầu
 
-### ?? V?n d? c?n s?a
-1. **B�i 2 "�� air b�i"** - d� dang r?i ? kh�ng l�n l?ch l?i n?a
-2. **B�i 4 ch?y ADS** nhung kh�ng c� budget/ROAS tracking column
-3. **B�i 6 v� 6.1 tr�ng ng�y 5/6** - qu� t?i, audience fatigue
-4. **B�i 7 flag `TRUE`** ? c?t Note cu?i - chua r� d� post hay chua
-5. **Kh�ng c� UGC t? ph? huynh/h?c vi�n th?t** - ch? case study h?c vi�n (b�i 10, 14)
+### ⚠️ Vấn đề cần sửa
+1. **Bài 2 "Đã air bài"** — đã đăng rồi → không lên lịch lại nữa
+2. **Bài 4 chạy ADS** nhưng không có budget/ROAS tracking column
+3. **Bài 6 và 6.1 trùng ngày 5/6** — quá tải, audience fatigue
+4. **Bài 7 flag `TRUE`** ở cột Note cuối — chưa rõ đã post hay chưa
+5. **Không có UGC từ phụ huynh/học viên thật** — chỉ case study học viên (bài 10, 14)
 
-## ��nh gi� giai do?n 2: Tuy?n sinh & Social Proof (9+ b�i, 12/6�30/6)
+## Đánh giá giai đoạn 2: Tuyển sinh & Social Proof (9+ bài, 12/6–30/6)
 
-### ? �i?m m?nh
-- **Social proof d�y d?c:** IELTS 7.0 (b�i 14), case study Phuong Linh (b�i 19), h?c th? mi?n ph� (b�i 20)
-- **Mini Quiz TOEIC** (b�i 28) - k�o comment t?t cho algorithm
-- **Uu d�i c?ng d?n th�ng minh:** 20% ? +15% nh�m ? t?ng 30% (b�i 21, 27)
-- **Content education gi� tr?:** "5 l?i TOEIC Part 1-2" (b�i 15), "IELTS kh�ng n�n luy?n d? s?m" (b�i 17)
-- **Thu?ng n�ng 500K** cho h?c sinh d?t 10 di?m v�o 10 - creative incentive, kh�c bi?t so v?i d?i th?
+### ✅ Điểm mạnh
+- **Social proof dày đặc:** IELTS 7.0 (bài 14), case study Phương Linh (bài 19), học thử miễn phí (bài 20)
+- **Mini Quiz TOEIC** (bài 28) — kéo comment tốt cho algorithm
+- **Ưu đãi cộng dồn thông minh:** 20% → +15% nhóm → tổng 30% (bài 21, 27)
+- **Content education giá trị:** "5 lỗi TOEIC Part 1-2" (bài 15), "IELTS không nên luyện đề sớm" (bài 17)
+- **Thưởng nóng 500K** cho học sinh đạt 10 điểm vào 10 — creative incentive, khác biệt so với đối thủ
 
-### ?? V?n d? c?n s?a
-1. **B�i 16:** T�n h?c vi�n inconsistency - "Ho�ng Hung" r?i l?i "Chinh kh�ng ch? luy?n d?" (l?i copy-paste)
-2. **B�i 27:** CTA sai - "Nh?n H?C TH?" nhung n?i dung n�i v? uu d�i c?ng d?n
-3. **B�i 21 & 27:** Tr�ng ch? d? uu d�i c?ng d?n - n�n merge ho?c t�ch r� r�ng
-4. **Giai do?n 2 k�o d�i d?n 30/6** - qu� d�y so v?i giai do?n 1 (ch? 2 tu?n)
+### ⚠️ Vấn đề cần sửa
+1. **Bài 16:** Tên học viên inconsistency — "Hoàng Hưng" rồi lại "Chinh không chỉ luyện đề" (lỗi copy-paste)
+2. **Bài 27:** CTA sai — "Nhắn HỌC THỬ" nhưng nội dung nói về ưu đãi cộng dồn
+3. **Bài 21 & 27:** Trùng chủ đề ưu đãi cộng dồn — nên merge hoặc tách rõ ràng
+4. **Giai đoạn 2 kéo dài đến 30/6** — quá dày so với giai đoạn 1 (chỉ 2 tuần)
 
-## ��nh gi� giai do?n 3: H?p t�c & M? r?ng (9 b�i, 8/7�15/7)
+## Đánh giá giai đoạn 3: Hợp tác & Mở rộng (9 bài, 8/7–15/7)
 
-### ?? V?n d?
-- **Chua di?n n?i dung** - c�n tr?ng to�n b?
-- Deadline 8/7�15/7 = chua t?i (hi?n t?i 16/6) ? c� th? ho�n thi?n cu?i th�ng 6
-- G?i � hu?ng: h?p t�c v?i tru?ng THCS/THPT, event c?ng d?ng, webinar mi?n ph�
+### ⚠️ Vấn đề
+- **Chưa điền nội dung** — còn trống toàn bộ
+- Deadline 8/7–15/7 = chưa tới (hiện tại 16/6) → có thể hoàn thiện cuối tháng 6
+- Gợi ý hướng: hợp tác với trường THCS/THPT, event cộng đồng, webinar miễn phí
 
-## ��nh gi� t?ng th? chi?n lu?c content
+## Đánh giá tổng thể chiến lược content
 
-### ? STRONG POINTS
-1. **Content pillar r�:** Nh?n di?n (40%) + Tuy?n sinh (50%) + Education (10%) - c�n d?i gi?a brand v� performance
-2. **Hook-driven writing:** M?i b�i d?u c� hook m?nh, headline g�y curiosity
-3. **Educational content t?t:** C�c b�i v? l?i thu?ng g?p, l? tr�nh h?c - x�y d?ng authority
-4. **Incentive layering:** Uu d�i 20% + c?ng d?n 15% + thu?ng n�ng 500K - nhi?u n�t h�nh d?ng
-5. **Visual direction c? th?:** M?i b�i c� ghi ch� thi?t k? - designer bi?t l�m g�
+### ✅ STRONG POINTS
+1. **Content pillar rõ:** Nhận diện (40%) + Tuyển sinh (50%) + Education (10%) — cân đối giữa brand và performance
+2. **Hook-driven writing:** Mỗi bài đều có hook mạnh, headline gây curiosity
+3. **Educational content tốt:** Các bài về lỗi thường gặp, lộ trình học — xây dựng authority
+4. **Incentive layering:** Ưu đãi 20% + cộng dồn 15% + thưởng nóng 500K — nhiều nút hành động
+5. **Visual direction cụ thể:** Mỗi bài có ghi chú thiết kế — designer biết làm gì
 
-### ?? WEAKNESSES & RISKS
-1. **Repetitive messaging:** Qu� nhi?u b�i "IELTS kh�ng n�n luy?n d? s?m" variant - audience s? fatigue sau 2-3 l?n
-2. **Kh�ng c� content series:** Thi?u serial c? d?nh (v� d?: "Th? Hai c�ng TOEIC", "Friday Success Story")
-3. **UGC g?n nhu b?ng 0:** Kh�ng c� testimonial video, kh�ng c� review t? ph? huynh th?t
-4. **Lack of user-generated content hooks:** C�c CTA ch? y?u l� "nh?n tin" - thi?u c�c?? d?ng poll, quiz, challenge
-5. **Hashtags generic:** #WorldMap xu?t hi?n ? m?i b�i - n�n c� hashtag ri�ng cho t?ng series/campaign
-6. **Kh�ng c� retargeting angle:** T?t c? content d?u hu?ng new audience - thi?u content cho warm leads (ngu?i d� like/follow nhung chua dang k�)
+### ⚠️ WEAKNESSES & RISKS
+1. **Repetitive messaging:** Quá nhiều bài "IELTS không nên luyện đề sớm" variant — audience sẽ fatigue sau 2-3 lần
+2. **Không có content series:** Thiếu serial cố định (ví dụ: "Thứ Hai cùng TOEIC", "Friday Success Story")
+3. **UGC gần như bằng 0:** Không có testimonial video, không có review từ phụ huynh thật
+4. **Lack of user-generated content hooks:** Các CTA chủ yếu là "nhắn tin" — thiếu các互动 dạng poll, quiz, challenge
+5. **Hashtags generic:** #WorldMap xuất hiện ở mọi bài — nên có hashtag riêng cho từng series/campaign
+6. **Không có retargeting angle:** Tất cả content đều hướng new audience — thiếu content cho warm leads (người đã like/follow nhưng chưa đăng ký)
 
-### ?? CONTENT MIX ANALYSIS
-- **Nh?n di?n thuong hi?u:** ~14 b�i (42%) - hoi cao so v?i m?c ti�u tuy?n sinh
-- **Tuy?n sinh tr?c ti?p:** ~10 b�i (30%) - h?p l�
-- **Educational/Value:** ~6 b�i (18%) - c?n tang d? build authority
-- **Social proof/Testimonial:** ~3 b�i (9%) - qu� �t cho brand m?i
-- **Interactive/Engagement:** 1 b�i (Quiz TOEIC) - qu� �t
+### 📊 CONTENT MIX ANALYSIS
+- **Nhận diện thương hiệu:** ~14 bài (42%) — hơi cao so với mục tiêu tuyển sinh
+- **Tuyển sinh trực tiếp:** ~10 bài (30%) — hợp lý
+- **Educational/Value:** ~6 bài (18%) — cần tăng để build authority
+- **Social proof/Testimonial:** ~3 bài (9%) — quá ít cho brand mới
+- **Interactive/Engagement:** 1 bài (Quiz TOEIC) — quá ít
 
-## Khuy?n ngh? c?i ti?n
+## Khuyến nghị cải tiến
 
-### Ng?n h?n (th?c hi?n ngay)
-1. S?a l?i copy-paste b�i 16 ("Chinh" ? "Ho�ng Hung")
-2. Fix CTA b�i 27 cho kh?p v?i n?i dung
-3. Merge b�i 21 v� 27 (c�ng ch? d? uu d�i c?ng d?n)
-4. Th�m column "Link tracking/UTM" cho ADS posts
-5. Chu?n h�a format ng�y dang: DD/MM/YYYY
+### Ngắn hạn (thực hiện ngay)
+1. Sửa lỗi copy-paste bài 16 ("Chinh" → "Hoàng Hưng")
+2. Fix CTA bài 27 cho khớp với nội dung
+3. Merge bài 21 và 27 (cùng chủ đề ưu đãi cộng dồn)
+4. Thêm column "Link tracking/UTM" cho ADS posts
+5. Chuẩn hóa format ngày đăng: DD/MM/YYYY
 
-### Trung h?n (giai do?n 3)
-6. X�y content series c? d?nh - tang brand recall
-7. Thu th?p �t nh?t 5 UGC testimonials t? ph? huynh/h?c vi�n th?t
-8. T?o retargeting content cho warm audience
-9. Th�m Facebook Stories plan (kh�ng c� trong sheet hi?n t?i)
+### Trung hạn (giai đoạn 3)
+6. Xây content series cố định — tăng brand recall
+7. Thu thập ít nhất 5 UGC testimonials từ phụ huynh/học viên thật
+8. Tạo retargeting content cho warm audience
+9. Thêm Facebook Stories plan (không có trong sheet hiện tại)
 
-### D�i h?n
-10. X�y funnel content: Awareness ? Consideration ? Conversion ? Retention
-11. C� KPI tracking per b�i (reach, engagement rate, lead generated)
-12. A/B test headlines v� CTAs d?nh k?
+### Dài hạn
+10. Xây funnel content: Awareness → Consideration → Conversion → Retention
+11. Có KPI tracking per bài (reach, engagement rate, lead generated)
+12. A/B test headlines và CTAs định kỳ

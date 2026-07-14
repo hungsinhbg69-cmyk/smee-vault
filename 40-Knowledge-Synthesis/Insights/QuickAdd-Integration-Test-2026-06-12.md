@@ -38,4 +38,4 @@ All 3 QuickAdd macros working. No errors during test run.
 - [ ] Add error handling for failed captures
 
 ---
-*Test by Smee 🦞 | Connected to [[Agent-Operating-Protocol]] capture rules*
+*Test by Smee 🦞 | Connected to [[Protocol|vault protocol]] capture rules*

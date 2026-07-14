@@ -29,7 +29,7 @@ priority: P3
 # Web Clip
 
 ## Source
-**URL:** [[source_url]]  
+**URL:** `source_url` (template placeholder)
 **Author:** {{author}}  
 **Clipped:** {{date}} via QuickAdd Web Clip  
 

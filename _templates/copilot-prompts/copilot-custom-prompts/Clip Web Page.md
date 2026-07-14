@@ -1,11 +1,13 @@
 ---
-title: "Clip Web Page.md"
+title: Clip Web Page.md
 copilot-command-context-menu-enabled: false
 copilot-command-context-menu-order: 1140
 copilot-command-last-used: 0
 copilot-command-model-key: ""
 copilot-command-slash-enabled: true
-tags:  [tool, copilot]
+tags:
+  - tool
+  - copilot
 slug: clip-web-pagemd
 category: resource
 status: active

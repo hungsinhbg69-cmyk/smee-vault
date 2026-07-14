@@ -53,6 +53,6 @@ Dự án cung cấp duy nhất một loai hình — **đất nền liên kết +
 2. **B. Shophouse thương mại:** Đặt tại vị trí mặt tiền đường TL292 và các trục chính nội bộ dự án — tối ưu cho kinh doanh buôn ban.
 
 ---
-[[Yen-Then-Golden-Hill-Index]]
+[[yen-the-golden-hill-index|Yên Thế Golden Hill]]
 `#dautu/BDS` `#dautu/datnen` `#BacGiang` `#Ean-The` `#Yen-The-Gol-den-Hill` `#San-pham-dat-din-liên-ke` `#shophouses`
 

@@ -11,7 +11,7 @@ tags: [real-estate, social-housing, commercial-condo, bac-ninh]
 
 # Hoàng Ninh Ecolife
 
-> **[[00-Meta/Vault-MOC\.md#Active Areas]]** → [[Hoàng Ninh Ecolife]]
+> **[[Vault-MOC#Active Areas|Vault MOC]]** → Hoàng Ninh Ecolife
 
 > **"SỐNG AN YÊN GIỮA LÒNG THIÊN NHIÊN"** — Sống xanh, bình yên, hiện đại giữa trung tâm công nghiệp miền Bắc.
 
