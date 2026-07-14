@@ -1,14 +1,59 @@
 {
   "templater-obsidian:insert-template": [
-    {
-      "modifiers": ["mod", "shift"],
-      "key": ","
-    }
+    {"modifiers": ["Mod", "Shift"], "key": ","}
   ],
   "templater-obsidian:trigger-global-template": [
-    {
-      "modifiers": ["mod"],
-      "key": "N"
-    }
+    {"modifiers": ["Mod"], "key": "N"}
+  ],
+  "quickadd:runQuickAdd": [
+    {"modifiers": ["Mod", "Shift"], "key": "A"}
+  ],
+  "quickadd:choice:smee-capture-quick-thought-v3": [
+    {"modifiers": ["Mod", "Shift"], "key": "Space"}
+  ],
+  "quickadd:choice:smee-capture-inbox-v3": [
+    {"modifiers": ["Mod", "Shift"], "key": "I"}
+  ],
+  "quickadd:choice:smee-capture-new-note-v3": [
+    {"modifiers": ["Mod", "Shift"], "key": "N"}
+  ],
+  "quickadd:choice:smee-capture-task-today-v3": [
+    {"modifiers": ["Mod", "Shift"], "key": "T"}
+  ],
+  "quickadd:choice:smee-init-new-project-v3": [
+    {"modifiers": ["Mod", "Shift"], "key": "P"}
+  ],
+  "quickadd:choice:smee-review-weekly-init-v3": [
+    {"modifiers": ["Mod", "Shift"], "key": "W"}
+  ],
+  "dataview:dataview-force-refresh-views": [
+    {"modifiers": ["Mod", "Shift"], "key": "R"}
+  ],
+  "obsidian-tasks-plugin:edit-task": [
+    {"modifiers": ["Mod", "Shift"], "key": "E"}
+  ],
+  "obsidian-git:pull": [
+    {"modifiers": ["Mod", "Shift"], "key": "G"}
+  ],
+  "obsidian-git:push": [
+    {"modifiers": ["Mod", "Alt"], "key": "G"}
+  ],
+  "smart-connections:sc-find-notes": [
+    {"modifiers": ["Mod", "Shift"], "key": "S"}
+  ],
+  "omnisearch:show-modal-omnisearch": [
+    {"modifiers": ["Mod", "Shift"], "key": "O"}
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate": [
+    {"modifiers": ["Mod", "Shift"], "key": "D"}
+  ],
+  "obsidian-kanban:new-kanban-board": [
+    {"modifiers": ["Mod", "Shift"], "key": "K"}
+  ],
+  "graph:open": [
+    {"modifiers": ["Mod", "Alt"], "key": "G"}
+  ],
+  "workspace:toggle-sidebar": [
+    {"modifiers": ["Mod"], "key": "\\"}
   ]
 }

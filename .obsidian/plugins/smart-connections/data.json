@@ -1,4 +1,22 @@
 {
   "installed_at": 1781180179711,
-  "last_version": "4.5.3"
+  "last_version": "4.5.3",
+  "excluded_headings": "",
+  "folder_exclusions": "copilot,_templates,.smart-env,60-Archive",
+  "file_exclusions": ".excalidraw.md,.canvas",
+  "embed_note_links": true,
+  "show_full_path": false,
+  "expanded_view": true,
+  "language_model": "None",
+  "smart_chat_model": "None",
+  "api_key": "",
+  "results_limit": 20,
+  "show_score": false,
+  "connection_template": "![[{{note_name}}]]",
+  "enable_mobile": false,
+  "has_new_version": false,
+  "chat_model_max_tokens": 4096,
+  "smart_sources_embed_model": "TF-IDF",
+  "smart_blocks_embed_model": "None",
+  "collection_key": "smart_sources"
 }
