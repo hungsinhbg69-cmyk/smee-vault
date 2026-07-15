@@ -102,3 +102,7 @@ Xem `60-Archive/` để xem các bài đọc đã hoàn thành, chiến dịch c
 
 ---
 *Tự động bảo trì bởi Smee · Lần kết nối cuối: 2026-07-13*
+
+## Thư viện sách Bán hàng và Marketing
+
+- [[30-Resources/Marketing/Sales-Marketing-Books/sales-marketing-books-library|Thư viện sách Bán hàng và Marketing]]
