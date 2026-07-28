@@ -15,9 +15,9 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Add relevant emojis to enhance {}. Follow these rules:
-    1. Insert emojis at natural breaks in the text
-    2. Never place two emojis next to each other
-    3. Keep all original text unchanged
-    4. Choose emojis that match the context and tone
-    Return only the emojified text.
+Thêm những hành động liên quan để tăng thêm}. Làm theo những quy tắc này:
+    1. Chèn biểu tượng tự nhiên vào đoạn đứt đoạn
+    2. Không bao giờ đặt hai emojis bên cạnh nhau
+    3. Giữ mọi văn bản gốc không thay đổi
+    4. Chọn biểu tượng khớp với ngữ cảnh và âm điệu
+    Chỉ trả lại đoạn văn bị mất thẩm quyền.

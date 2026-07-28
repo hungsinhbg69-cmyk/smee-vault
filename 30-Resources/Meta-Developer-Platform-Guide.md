@@ -1,5 +1,5 @@
 ---
-title: "Meta Developer Platform - Full Guide"
+title: "Meta Nền tảng nhà phát triển - Hướng dẫn đầy đủ"
 slug: "meta-developer-platform-guide"
 category: resource
 type: guide
@@ -96,7 +96,7 @@ Các tham số tiêu chuẩn:
 - `access_token` Token truy cập bắt buộc đối với hầu hết requests
 - `fields` Comma-separated list of fields để lấy
 - `limit` Số record giới hạn trả về (default thường là 25)
-- `since/until` Date range filter
+- `since/until` Lọc phạm vi ngày
 
 ### 2.4 Các Method HTTP Được Hỗ Trợ
 - **GET** - Lấy dữ liệu
@@ -105,8 +105,8 @@ Các tham số tiêu chuẩn:
 - **DELETE/Xóa** - Xóa record
 
 ### 2.5 Error Handling
-- Response codes: 200 (OK), 400 (Bad Request), 403 (Forbidden), 429 (Rate Limited), 500 (Server Error)
-- Format response error JSON: `{"error": {"message": "...", "type": "...", "code": ..., "fbtrace_id": "..."}}`
+- Mã trả lời: 200 (OK), 400 (điều yêu cầu không chính thức), 403 (Forbbden), 429 (Rate Conver Conserted), 500 (lỗi máy phục vụ)
+- Lỗi định dạng trả lời JSON: `{"error": {"message": "...", "type": "...", "code": ..., "fbtrace_id": "..."}}`
 
 ---
 
@@ -115,7 +115,7 @@ Các tham số tiêu chuẩn:
 > [!UPDATE] Cập nhật: 3 Tháng 3, 2026  
 > Full docs: https://developers.facebook.com/docs/facebook-login/guides/advanced/
 
-### 3.1 Facebook Login Flow (OAuth 2.0)
+### 3.1 Facebook Dòng đăng nhập (OAth 2.0)
 ```
 1. Người dùng click "Login with Facebook" 
 2. Redirect đến Facebook OAuth URL
@@ -125,19 +125,19 @@ Các tham số tiêu chuẩn:
 6. Access token lấy data theo permissions đã grant
 ```
 
-### 3.2 Access Token Types
+### 3. 2 Truy cập các kiểu mực
 - **User Access Token** - Dành cho user action, có expiration ngắn (1h) hoặc dài (60 days) 
 - **App Access Token** - ID + App Secret, dùng server-to-server call
 - **Long-Lived User Access Token** - Renewed từ short-lived (tối đa 60 ngày)
 - **Page Token** - Dành cho Page access/action
 
 ### 3.3 Permissions & Scopes Quan Trọng
-- `public_profile` - Default: name, profile picture, gender, locale, id
+- `public_profile` - Mặc định: tên, hình ảnh hồ sơ, giới tính, địa phương, id
 - `email` - Email của user  
 - `user_posts`, `user_photos` - Data từ user's own timeline
-- `pages_read_engagement` - Page insights/posts
+- `pages_read_engagement` - Sự hiểu biết/ cột trang
 
-### 3.4 GDPR & EU Social Plugin Changes
+### 3.4 GDPR & EU Sổ tay Plugin Thay đổi
 - Khu vực châu Âu: có danh sách countries specific cho social plugin behavior
 - Cần compliance EU regulations khi xử lý EU user data
 
@@ -147,7 +147,7 @@ Các tham số tiêu chuẩn:
 
 > [!INFO] Resource: [Instagram API](https://developers.facebook.com/docs/instagram-api/)
 
-### 4.1 Basic Display API (for Personal Accounts)
+### Màn hình 4. 1 API (cho các tài khoản cá nhân)
 
 **URL:** https://developers.facebook.com/docs/instagram-basic-display-api/  
 **Dành cho:** Instagram personal accounts, không phải Business accounts
@@ -172,7 +172,7 @@ Các tham số tiêu chuẩn:
 #### Authentication
 ```https://www.instagram.com/oauth/authorize?client_id={CLIENT_ID}&redirect_uri={REDIRECT_URi}&scope=user_profile,user_media&response_type=code```
 
-### 4.3 Webhooks (Instagram Notifications)
+### 4.3 bộ giữ mạng ( Thú nhận dạng địa chỉ trên mạng)
 - Subscription để nhận notifications khi có mới content, profile updates
 - URL: https://developers.facebook.com/docs/graph-api/guides/webhooks/
 
@@ -181,20 +181,20 @@ Các tham số tiêu chuẩn:
 ## 5. Messenger Platform 
 
 > [!INFO] Full guide: [Messenger Platform](https://developers.facebook.com/docs/messenger-platform/overview/)
-> Sending messages reference: https://developers.facebook.com/docs/messenger-platform/send-messages/
+> Đang gửi thông điệp tham chiếu: https://developers.facebook.com/docs/messenger-platform/send-messages/
 > Get started: https://developers.facebook.com/docs/messenger-platform/getting-started/
 
 ### 5.1 Kiến Trúc Messenger Platform
-- **Page Plugin** - Embed Facebook Page on external site
-- **Messenger Plugin** - Allow visitors to message your page from external website
-- **Bot API** - Full bot capabilities (messaging, webhooks, etc.)
+- ** Trang Plugin** - Embed Facebook Trang trên trang bên ngoài
+- **Messenger Plugin** - Cho phép khách truy cập thông điệp từ trang bên ngoài
+- **Bot API** - khả năng robot đầy đủ (mesing, webhoooks, etc.)
 
-### 5.2 Message Types & Capabilities
-- **Text Messages** - Plain text, up to ~4000 characters per payload
-- **Buttons** - quick replies, web URL button, postback button
-- **Templates** - Generic template, receipt template, media templates
-- **Media Attachments** - Images, video, audio, files (max file size: 25MB)
-- **Stickers** / **Share Button** / **Open URLs**
+### 5.2 kiểu thông điệp và khả năng
+- ** Văn bản tin nhắn** - Văn bản thường, lên đến ~4000 ký tự trên mỗi kiện hàng
+- ** Buttons** - trả lời nhanh, web URL Nút sau
+- **Temamps** - Giống nhau mẫu, mẫu biên nhận, mẫu phương tiện
+- **Media phụ thuộc** - Ảnh, video, âm thanh, tập tin ( Cỡ tập tin trục: 25MB)
+- **Stickers** / **Share Button** / ** Mở ra URL**
 
 ### 5.3 Webhooks (Events)
 ```json
@@ -217,26 +217,26 @@ Các tham số tiêu chuẩn:
 }
 ```
 
-### 5.4 Messenger Policy Limits
-- Rate limits theo rate types (thoai, day active users - DAUs)
-- Messaging Standard: user-initiated vs server-initiated messages
+### Giới hạn chính sách của người đưa tin
+- Tốc độ giới hạn các kiểu tỷ lệ (thoai, ngày hoạt động người dùng - DAUs)
+- Tiêu chuẩn nhắn tin: tin nhắn đã nhập với máy phục vụ
 - 24-hour rule: Có thể gửi message cho user trong vòng 24h kể từ lần cuối họ tương tác
 
 ---
 
-## 6. WhatsApp Business Platform
+## 6 Những gì phụ thuộc vào cơ sở kinh doanh
 
 > [!INFO] Cloud API Guide: [WhatsApp Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/)
 > Template Messages: https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates  
-> **Note:** On-Premises API was deprecated - end of life 23/10/2025
+> **Noe:** On-Premises API đã bị bác bỏ - cuối cuộc sống 23/10/2025
 
-### 6.1 Cloud API (New) vs Messaging API (Legacy On-Prem)
-- **Cloud API** - Hosted by Meta, no self-host server needed
-- **On-Premises API** - Deprecated, final version expired 2025-10-23
+### 6. 1 mây API (New) Ghi chú API (Tiếng Nhật)
+- **Cuoud API** - Máy móc bởi MetaKhông cần máy chủ tự động
+- ** on-Premises API** - Bị phản đối, phiên bản cuối cùng hết hạn 2025-10-23
 
 ### 6.2 Pricing Model
-- Per conversation pricing: charged per 24-hour session window
-- Category types: Marketing, Utility, Authentication, Registration, Service
+- Mỗi lần thử trò chuyện: sạc một cửa sổ phiên chạy 24 tiếng
+- Loại phân loại: Thị trường, tiện ích, xác thực, đăng ký, dịch vụ
 
 ### 6.3 Message Templates
 #### Template Structure
@@ -268,39 +268,39 @@ Các tham số tiêu chuẩn:
 ```
 
 ### 6.4 Template Categories
-1. **Marketing** - Promo offers, flash sales, new product launches
-2. **Utility** - Account alerts, shipping notifications, appointment confirmations
-3. **Authentication** - One-time PIN (OTP), login codes
-4. **Registration** - Verification/confirmation codes
-5. **Service** - Post-purchase info, account-related
+1. ** Markett** - Promo đề nghị, bán flash, sản phẩm mới ra mắt
+2. **Thuyết phục** - Báo động tài khoản, chuyển thông báo, xác nhận cuộc hẹn
+3. **Authentication** - Một lần PIN (OTP), mã đăng nhập
+4. **Registation** - Mã xác nhận/ xác thực
+5. **Service** - sau khi-purchase thông tin, liên quan đến tài khoản
 
 ---
 
-## 7. Rate Limits & Usage Limits
+## 7 Tốc độ Giới hạn và hạn sử dụng
 
-### 7.1 Graph API Rate Limits
-- Default limit: ~200 requests per app per user per hour (varies by endpoint/purpose)
-- Pagination required for large datasets (max `limit=25` default, up to `50`)
-- Secure Requests require `access_token` with proper scopes
+### Đồ thị 7.1 API Giới hạn tỷ lệ
+- Giới hạn mặc định: ~200 yêu cầu mỗi ứng dụng mỗi giờ (có ý nghĩa cuối/ mục đích)
+- Cần thiết độ phóng đại cho bộ dữ liệu lớn (xx) `limit=25` mặc định, lên tới `50`)
+- Yêu cầu bảo mật `access_token` có phạm vi thích hợp
 
-### 7.2 Messenger Platform Rate Types
-1. **User-initiated**: User → App messages
-   - Unlimited in 24h window after user first interaction
+### Name
+1. **User-inited**: người dùng truy cập truy cập
+   - Vô hạn trong cửa sổ 24h sau khi người dùng tương tác đầu tiên
 2. **Server-initiated**: App → User (within 24h)
-3. **Threaded** vs **Non-threaded** conversation rate limits differ
+3. **Threaded** vs **Non-threaded** tỷ lệ trò chuyện khác nhau
 
-### 7.3 WhatsApp Cloud API Rate Limits
-- Default: ~80 messages per second per phone number
-- Burst limit: short bursts allowed above daily average
-- Per-day limits depend on template approval status
+### 7.3 Những gì phụ thuộc vào mây API Giới hạn tỷ lệ
+- Mặc định: ~80 tin nhắn mỗi giây trên mỗi số điện thoại
+- Giới hạn mắc lỗi: Những vụ nổ ngắn được phép trên mức trung bình hàng ngày
+- Giới hạn mỗi ngày phụ thuộc vào trạng thái chấp nhận mẫu
 
 ### 7.4 Instagram API Limits
-- Basic Display: ~200 requests/user/hour
-- Graph API (Business): ~600 requests/business_day/user
+- Màn hình cơ bản: ~200 yêu cầu/er/h
+- Đồ thị API (T.Mễ: ~600 yêu cầu/ thương mại_ngày/người dùng
 
 ---
 
-## 8. App Review Process  
+## Tiến trình ôn lại  
 > https://developers.facebook.com/docs/apps/review/
 
 ### 8.1 Flow
@@ -319,7 +319,7 @@ Các tham số tiêu chuẩn:
 - Permission nâng cao (user_posts, user_photos, pages_manage_posts...): cần review + demo
 - Custom permission scope: cũng cần submission/approval
 
-### 8.3 Common Rejection Reasons
+### 8; 3 Lý do từ chối thông thường
 - Privacy Policy không liệt kê các field thu thập
 - Demo chưa show sử dụng permissions đúng cách
 - App hiển thị nội dung không liên quan đến feature
@@ -331,50 +331,50 @@ Các tham số tiêu chuẩn:
 ### Facebook/Graph
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/me` | GET | Get logged-in user profile |
-| `/me/friends` | GET | User's friends list (max ~250 if app has permission) |
-| `/me/feed` | GET | User posts/timeline |
+| `/me` | GET | Lấy hồ sơ người dùng đăng nhập |
+| `/me/friends` | GET | Danh sách bạn bè của người dùng (x ~250 nếu ứng dụng có sự cho phép) |
+| `/me/feed` | GET | Người dùng đăng/ dòng giờ |
 | `/PAGE_ID` | GET | Page info |
-| `/{POST_ID}` | GET/PUT/DELETE | Manage post object |
+| `/{POST_ID}` | GÔ - TÊ - TÊ - TÊ - TÊ | Quản lý đối tượng bưu điện |
 
 ### Instagram Graph API
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/me` | GET | Logged-in user profile (Basic Display) |
-| `/me/media?fields=id,caption,media_type` | GET | User media list |
-| `/{MEDIA_ID}` | GET | Specific media object |
-| `/?access_token={TOKEN}&id={IG_USER_ID}` | GET | IG user's insights |
+| `/me` | GET | Hồ sơ người dùng đã đăng nhập (hiện bóng) |
+| `/me/media?fields=id,caption,media_type` | GET | Danh sách phương tiện người dùng |
+| `/{MEDIA_ID}` | GET | Đối tượng phương tiện đặc trưng |
+| `/?access_token={TOKEN}&id={IG_USER_ID}` | GET | Sự hiểu biết của người dùng IG |
 
 ### WhatsApp Cloud API
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/PHONE_NUMBER_ID/messages` | POST | Send message to user |
-| `/MESSAGE_TEMPLATE_NAME` | GET | Get template details |
+| `/PHONE_NUMBER_ID/messages` | POST | Gửi thông điệp cho người dùng |
+| `/MESSAGE_TEMPLATE_NAME` | GET | Lấy chi tiết mẫu |
 
 ---
 
-## 10. Webhooks & Event Subscriptions  
+## 10. Hình móc trang Mạng và bản in tương ứng  
 
-### Facebook Page/Post Events
-- `feed` - New posts on a page
-- `messaging` - User interaction with Messenger bot
-- `account_linking` - Account linking events
+### Facebook Sự kiện trang/bb cờ
+- `feed` - Bài mới trên trang
+- `messaging` - Tương tác với robot trình nhắn tin
+- `account_linking` - Tài khoản liên kết các sự kiện
 
-### Webhook Setup Steps
-1. App Dashboard → Add Product → Messenger/Messaging API
-2. Setup webhook URL trong App Settings
+### Bước thiết lập móc câuName
+1. Phụ lục bảng tin nhắn/ Tin nhắn API
+2. Cài đặt Hình mạng URL Thiết lập bộ đệm
 3. Verify token với challenge response từ Facebook
-4. Subscribe to relevant objects/fields
-5. Validate HMAC signature (X-Hub-Signature-256 header)
+4. Đăng ký các đối tượng/ sân có liên quan
+5. Kiểm tra chữ ký HMAC (X-Hub-Signacture-256 fronter)
 
 ---
 
-## 11. Best Practices Cho Agent/Bot
+## 11. Bài tập tốt nhất Cho Đặc vụ/Bot
 
 ### Token Management
-- Cache short-lived tokens, renew before expiration  
-- Store long-lived tokens securely (max 60 days validity)
-- Implement token refresh logic cho app access tokens
+- Các vật kỷ niệm ngắn tuổi, hồi sinh trước khi hết hạn  
+- Lưu những vật lưu trữ lâu bền (60 ngày hợp lệ)
+- Sự bổ sung hiệu quả làm tươi tỉnh logic cho các biểu tượng truy cập ứng dụng
 
 ### Error Handling
 ```python
@@ -389,8 +389,8 @@ elif response.get("error", {}).get("code") == 32:
 - Dùng `paging.next` URL từ Graph API responses
 - Không làm quá 50 requests/page để tránh rate limiting
 
-### Data Storage Limits (Graph API)
-- Max: 12 months data retention after last access (365 days default)
+### Giới hạn lưu trữ dữ liệu (Graph API)
+- Tối đa: 12 tháng lưu dữ liệu sau khi truy cập cuối (365 ngày mặc định)
 - Một số exceptions cho specific fields/categories (check [Graph API overview](https://developers.facebook.com/docs/graph-api/overview) for specifics)
 
 ---
@@ -424,12 +424,12 @@ elif response.get("error", {}).get("code") == 32:
 
 ---
 
-*Last updated: 24/06/2026 — Agent knowledge base for Facebook/Meta platform compliance*
+*Last update: 24/06/2026 — Cơ sở kiến thức đặc biệt cho Facebook/Meta Làm theo cách thức
 
 
 > [!UPDATE] Extra info extracted 24/06/2026 — từ Messenger Platform overview (updated 23 Tháng 3, 2026)
 
-### Messenger Platform Core Concepts
+### Name
 - **Messenger from Meta**: Trang Facebook hoặc tài khoản Công việc trên Instagram có thể trả lời tin nhắn qua Facebook, Instagram hay plugin Meta trên app di động/trang web.
 - **Mọi người phải bắt đầu cuộc trò chuyện trước** — bạn có thể dùng Nền tảng Messenger miễn phí.
 - Khi người gửi tin nhắn đến → webhook trigger → App gọi Graph API → xác định phản hồi phù hợp → gửi trong 24h.
@@ -440,27 +440,27 @@ Mỗi người nhắn tin cho Trang/Tài khoản Instagram được gán một *
 - **Scoped ID (Instagram)**: tạo khi người nhắn tin qua IG Business/Creator Account
 - Scoped IDs giúp mapping hoạt động giao tiếp giữa nhiều apps — nhưng **không thể cross-platform**: FB User không nhắn cho IG Account và ngược lại.
 
-### Messenger Platform Key Concepts
+### Name
 | Khái niệm | Mô tả |
 |-----------|--------|
 | Access Token | Chuỗi mờ (masking string) cung cấp quyền truy cập tạm thời & an toàn vào Graph API endpoints để gửi/nhận tin |
-| Page Access Token | Type của Access Token dùng thay mặt Trang Facebook thực hiện API calls. Cần thiết để gửi và nhận tin qua Messenger Platform. Được tạo sau khi Page Admin grant permissions cho app. |
-| App Level Access | **Standard (default)**: chỉ users có Role trên app hoặc Page của bạn mới tiếp cận dữ liệu. **Advanced**: mở rộng quyền access cho mọi user trong app, yêu cầu App Review. |
-| Facebook Login for Business | Bắt buộc để yêu cầu người dùng grant permission gửi/nhận tin nhắn thay họ. |
+| Truy cập trang | Type của Access Token dùng thay mặt Trang Facebook thực hiện API calls. Cần thiết để gửi và nhận tin qua Messenger Platform. Được tạo sau khi Page Admin grant permissions cho app. |
+| Truy cập cấp chấp nhận | **Standard (default)**: chỉ users có Role trên app hoặc Page của bạn mới tiếp cận dữ liệu. **Advanced**: mở rộng quyền access cho mọi user trong app, yêu cầu App Review. |
+| Facebook Đăng nhập vào kinh doanh | Bắt buộc để yêu cầu người dùng grant permission gửi/nhận tin nhắn thay họ. |
 | Webhooks | Realtime notifications về tin nhắn đến Trang/Instagram Account — giúp không cần polling Graph API. |
 | Rate Limiting | Giới hạn số API calls và message throughput. Inbox tính năng có thể tạm disable khi messages volumes quá cao. |
 | Policy | Các chính sách nền tảng, feedback requirements và community standards phải tuân để duy trì API access. |
-| CDN URL | Privacy-first content delivery network for fetching rich media files from shared Instagram content. Media expires after deletion or time limit. |
+| CDN URL | Mạng nội dung đầu tiên để lấy tập tin phương tiện giàu có từ nội dung trên mạng đã chia sẻ. Truyền thông hết hạn sau khi xóa, hoặc hạn chế thời gian. |
 
-### Pre-Requisites Before Starting Messenger Platform
+### Các nhà cầm quyền trước khi khởi động trình gửi thư
 1. **Tài khoản developer** đăng ký trên Meta
 2. **Application trên Meta** với use case Messenger
 3. **Facebook Page** liên kết với app của bạn
-4. **Instagram Business/Creator Account** (cho Instagram DM)
+4. **Instagram Business/Creator account** (cho hệ thống mạng vô tuyến)
 5. **Business Verification** (tùy chọn nếu chỉ gửi/nhận cho Page của riêng mình)
 6. **App Review** (bắt buộc nếu cần Advanced Access)
 
-### Required Permissions for Messaging
+### Cần thiết quyền làm loạn
 | Permission | Ghi chú |
 |------------|---------|
 | `pages_show_list` | Hiển thị list của Pages mà app có quyền access |
@@ -468,7 +468,7 @@ Mỗi người nhắn tin cho Trang/Tài khoản Instagram được gán một *
 | `pages_messaging` (mới) | Cho phép gửi/nhận tin nhắn trên behalf — thay thế pages_read_engagement cho messaging workflows |
 | `pages_read_engagement` | Đọc engagement data từ Page |
 
-### Messenger Platform Pricing Model (2024+)
+### Mô hình điểm ảnh cho trình tin nhắn (2024+)
 - **Free tier**: 1,000 conversations/month đầu tiên miễn phí
 - Sau đó: theo conversation model với categories (Marketing/Utility/Authentication)
 
@@ -481,16 +481,16 @@ Mỗi người nhắn tin cho Trang/Tài khoản Instagram được gán một *
 **Giới thiệu cập nhật:** Phiên bản API mới nhất đang active.
 
 #### Khi nào dùng Basic Display vs Graph API
-| Criteria | Basic Display API | Graph API for Instagram |
+| Criteria | Basic Display API | Đồ thị API cho trình nền |
 |----------|-------------------|-------------------------|
-| Account type | Personal accounts only | Business & Creator accounts (via Page) |
-| Data scope | User's own media only | Full Page + IG insights, comments, replies |
-| Requires App Review | No (only user consent) | Yes (if using advanced permissions) |
+| Account type | Chỉ tài khoản cá nhân | Tài khoản kinh doanh và Đấng Tạo Hóa (trangvia) |
+| Data scope | Chỉ truyền thông của người dùng | Toàn bộ trang + IP nhìn thấu, bình luận, trả lời |
+| Cần phải ôn lại | Không có (sự chấp thuận người dùng chỉ) | Có (nếu dùng quyền hạn cấp cao) |
 
-#### Instagram Graph API Key Endpoints
-- `GET /me` — Logged-in user profile connected to a FB Page
-- `GET /me/media?fields=id,caption,media_type,timestamp,permalink` — Get media list
-- `GET /{MEDIA_ID}` — Specific media object details
+#### Đồ thị trên mạng API Điểm kết thúc khóa
+- `GET /me` - Hồ sơ người dùng đã đăng nhập vào kết nối đến trang FB
+- `GET /me/media?fields=id,caption,media_type,timestamp,permalink` - Lấy danh sách phương tiện đi.
+- `GET /{MEDIA_ID}` — cụ thể chi tiết phương tiện
 - `GET /?id={IG_USER_ID}&fields=username,media_count,follows_count,followers_count` — Insights endpoint
 
 ---

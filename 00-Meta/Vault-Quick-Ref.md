@@ -56,10 +56,10 @@ last_updated: 2026-06-17
 | `cs-small-ecommerce-soda-spoon.md` | ROAS 3.61x, 1 quảng cáo |
 | `cs-b2b-lead-gen-counselling.md` | CPL $4.98 toàn cầu |
 | `cs-dtc-caraway-home.md` | ROAS 2.9→4.6x, CAC giảm 34% |
-| `cs-dtc-cuts-clothing.md` | ROAS 2.9→4.8x, CPA $48→$34 |
+| `cs-dtc-cuts-clothing.md` | ROAS 2.9,4.8x, CPA 458 đô-la34 |
 | `cs-high-ticket-home-improvement.md` | ROAS 1.18→6.47 |
 | `cs-chomps-wellness.md` | ROAS 3.2→5.1x, CAC giảm 31% |
-| `cs-hexclad-cookware.md` | ROAS 2.4→3.8x, CPA $88→$61 |
+| `cs-hexclad-cookware.md` | ROAS 2.4, 3.8x, CPA 878 đô-la61 |
 | `cs-momentous-nutrition.md` | ROAS 2.4→4.1x, CAC $68→$41 |
 
 ## 🏘️ Bất động sản — Bắc Giang/Bắc Ninh (40-Kiến-thức-Tổng-hợp/Khái-niệm/)

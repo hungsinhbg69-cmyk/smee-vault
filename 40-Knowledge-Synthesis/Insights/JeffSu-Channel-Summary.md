@@ -1,5 +1,5 @@
 ---
-title: JeffSu Channel - Comprehensive Summary
+title: JeffSu - Tóm tắt đầy đủ kênh
 slug: jeffsu-channel-summary
 category: knowledge
 tags:
@@ -15,28 +15,28 @@ last_updated: '2026-07-14'
 source: NotebookLM "JeffSu Master Learning" (147 sources)
 ---
 
-# JeffSu Channel — Comprehensive Summary
+# Kênh JeffSu — Tóm tắt đầy đủ
 
 ## Overview
 Jeff Su là productivity expert với 191 videos về workplace efficiency, career development, AI workflows, và tool optimization. Notebook này tổng hợp toàn bộ channel vào NotebookLM.
 
 ## Core Themes (từ NotebookLM summary)
-- **Workplace Efficiency:** Mac apps, Google Workspace mastery, Notion workflows
-- **Career Development:** Interview frameworks, resume optimization, networking for introverts
-- **AI Integration:** AI agents vs workflows, prompt engineering, LLM reasoning models
-- **Time Management:** Inbox Zero, "God's Eye View" tracking, transition periods between tasks
+- **Làm việc ở nơi Efficency:** Ứng dụng Mac, quản lý không gian làm việc Google, lưu trữ công việc
+- **Chuyến phát triển:** khung phỏng vấn, tiếp tục tối ưu hóa, mạng lưới hướng nội
+- **AI Incation:** Các đặc vụ AI chống lại dòng chảy công việc, kỹ thuật nhắc nhở, LLM Mô hình lập luận
+- ** Quản lý thời gian:** Inbox Zero, "Thiên Chúa xem" theo dõi, chuyển đổi thời gian giữa các nhiệm vụ
 
 ## Key Statistics
-- 191 videos total (sau filter: ~147 sources trong notebook)
-- Channel focus: Productivity tools + Career advice for professionals
-- Tone: Practical, actionable, data-driven
+- Tổng cộng 191 video (bộ lọc tự động: ~147 nguồn nguồn riêng
+- Tập trung kênh: Công cụ sản xuất + lời khuyên về sự nghiệp cho các chuyên gia
+- Sắc: thực tiễn, có thể hành động, được điều khiển bằng dữ liệu
 
-## Most Valuable Content Categories
-1. AI Tools & Agents (DeepSeek, ChatGPT, Claude, Gemini, Perplexity)
-2. Productivity Systems (Notion, Todoist, Google Calendar)
-3. Interview Preparation (STAR/CARL/XYZ frameworks)
-4. Career Strategy (Contractor-to-FTE, FAANG advice, networking)
-5. Mac/Tech Optimization (Alfred, Drop Zone, MonitorControl)
+## Loại có nội dung quý giá nhất
+1. Công cụ & Đặc vụ AI (DeepSek, ChatGPT, Claude, Song Tử, Perplexity)
+2. Hệ thống sản xuất (ghi chú, Todoist, Google book)
+3. Chuẩn bị phỏng vấn (các khuôn khổ sao/CARL/XYZ)
+4. Sự nghiệp chiến thuật (TIẾNG TIẾNG TIẾNG)
+5. Comment
 
 ## Backlinks
 - [[JeffSu-AI-Agents-Explained]]

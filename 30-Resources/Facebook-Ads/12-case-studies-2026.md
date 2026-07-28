@@ -15,9 +15,9 @@ last_updated: 2026-06-24
 
 | Cấp Độ | Ngân Sách/Tháng | Phạm Vi | Số Cases |
 |--------|-----------------|---------|----------|
-| Level 1: Local/Small | $500-$3K | Địa phương, thị trường ngách vi mô | 3 cases × 3 kịch bản |
-| Level 2: Regional/Mid-Market | $3K-$25K | Nhiều bang/quốc gia | 3 cases × 3 kịch bản |
-| Level 3: Global/Large | $25K-$100K+ | Quốc gia/toàn cầu đa thị trường | 3 cases × 3 kịch bản |
+| Cấp 1: cục bộ/ Small | $500-$3K | Địa phương, thị trường ngách vi mô | 3 cases × 3 kịch bản |
+| Cấp 2: Khu vực/ Điểm ảnh | $3K-$25K | Nhiều bang/quốc gia | 3 cases × 3 kịch bản |
+| Cấp 3: Toàn cục/Large | $25K-$100K+ | Quốc gia/toàn cầu đa thị trường | 3 cases × 3 kịch bản |
 
 ## Danh Sách Cases
 
@@ -51,7 +51,7 @@ last_updated: 2026-06-24
 | D2C Times | Caraway, Cuts, Chomps, Hexclad, Momentous |
 | UM Marketing | Cải tạo nhà cửa, Giáo dục kỹ thuật số |
 | Soda Spoon | Trường hợp thương mại điện tử nhỏ với một quảng cáo duy nhất |
-| Digital Sales Ireland | Titan Driveways (dịch vụ địa phương) |
+| Name | Titan Driveways (dịch vụ địa phương) |
 | Amninder Singh | Tạo lead tư vấn sức khỏe tâm thần |
 
 *Created: 2026-06-15 | Updated từ phân tích toàn diện trong bộ nhớ/quảng cáo-campaigns-phân-tích-toàn-diện-2026-06.md*

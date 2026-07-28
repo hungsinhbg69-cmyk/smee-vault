@@ -65,10 +65,10 @@ Liên quan: [[Nhà ở xã hội Việt Nam - Cầm tay chỉ việc]], [[L2 - �
 | L2 đầu tiên | Qwen 9B | `cf8daaae-f7a7-4549-bdee-125c8e0231ad` | 0 | Tự gọi patch vào vault, patch thất bại, không xuất deliverable |
 | Recovery A | Qwen 9B | `a897c7dd-7ae4-448e-8c49-f8fff3f1af63` | 68 | Lặp lỗi dẫn chiếu điểm a/b Điều 30 |
 | Recovery A2 | Qwen 9B | `aebe8a03-17e7-4e1d-81e4-5eb0093f69e6` | 100 guided | Sửa đúng điểm a: hai nhánh độc thân; điểm b: đã kết hôn |
-| Recovery B/B2 | Qwen 9B | `c1aa5f41-b0f6-49fe-88e3-3713cca3ad11`, `aee6c2e8-c8a6-4c80-890b-3cdd1599a903` | 94 → 100 guided | Sửa nhãn, cư trú, đất–nhà |
-| Recovery C/C2 | Qwen 9B | `eb4826a5-846d-4701-af33-1cd9e83e4142`, `278c4ec6-e8f0-4edc-9bf5-fe6a1ba17575` | cap 69 → 98 guided | Sửa overclaim DN-B, queue và provenance |
+| Phục hồi B/B2 | Qwen 9B | `c1aa5f41-b0f6-49fe-88e3-3713cca3ad11`, `aee6c2e8-c8a6-4c80-890b-3cdd1599a903` | 94 → 100 guided | Sửa nhãn, cư trú, đất–nhà |
+| Phục hồi C/C2 | Qwen 9B | `eb4826a5-846d-4701-af33-1cd9e83e4142`, `278c4ec6-e8f0-4edc-9bf5-fe6a1ba17575` | cap 69 → 98 guided | Sửa overclaim DN-B, queue và provenance |
 | Retest D độc lập | Qwen 9B | `d3a571e5-4135-431f-ad29-87700564ba92` | 56 | Chỉ dùng `read` 2 lần, nhưng overclaim CT-E, sai đất–nhà, queue lạc/trùng |
-| Guided correction D | Qwen 9B | `f95e821f-5ca7-4ed4-a822-eb1f806cc43d` | 91 guided | Sửa logic chính nhưng không tuân thủ đầu ra 8 dòng, còn câu “80 triệu không đáng kể” |
+| Sửa hướng dẫn D | Qwen 9B | `f95e821f-5ca7-4ed4-a822-eb1f806cc43d` | 91 guided | Sửa logic chính nhưng không tuân thủ đầu ra 8 dòng, còn câu “80 triệu không đáng kể” |
 | Final G độc lập | Gemma 26B | `d0ed48f4-7738-4e42-a814-5c3e8d3af95e` | 62 | Chỉ dùng `read` 1 lần; vẫn ghi TH-K nhà ở/thu nhập là `CHƯA XÁC MINH` thay vì `KHÔNG ÁP DỤNG`, sai nhóm và queue |
 
 ### Lỗi chưa qua
@@ -85,11 +85,11 @@ Liên quan: [[Nhà ở xã hội Việt Nam - Cầm tay chỉ việc]], [[L2 - �
 | Lượt | Model | Session | Điểm Thầy | Kết quả |
 |---|---|---|---:|---|
 | Audit D đầu | Qwen 9B | `20260714_083613_21892c` | 28 | Cho OpenClaw 97 sai; bịa “đã sửa”; sai số học và thang điểm |
-| Audit D correction | Qwen 9B | `20260714_083936_6c96b8` | 41 | Bắt cap nhưng tiếp tục bịa quote, địa danh và mẫu số |
+| Sửa loa | Qwen 9B | `20260714_083936_6c96b8` | 41 | Bắt cap nhưng tiếp tục bịa quote, địa danh và mẫu số |
 | Guided JSON repair | Qwen 9B | `20260714_084201_26ffe6` | 99 guided | JSON gần sạch sau khi khóa schema |
 | Audit E độc lập | Qwen 9B | `20260714_084251_825050` | 12 | Đảo dấu `≤50` và `<15`, bỏ sót web/project/hệ số bịa |
 | Audit E độc lập | Gemma 26B | `20260714_084406_b514e8` | 82 | Bắt phần lớn lỗi cốt lõi nhưng bỏ KH-I 36 > 35, sai rubric và thêm lời khen không có trong candidate |
-| Guided correction E | Gemma 26B | `20260714_084622_12904f` | 99 guided | Sửa đúng bất đẳng thức, evidence và 6 mục rubric |
+| Sửa có hướng dẫn E | Gemma 26B | `20260714_084622_12904f` | 99 guided | Sửa đúng bất đẳng thức, evidence và 6 mục rubric |
 | Final audit F độc lập | Gemma 26B | `20260714_084742_954832` | 55 | Bỏ cap cho kết luận chắc chắn, bịa quote từ rubric, hiểu sai missing queue |
 
 ### Lỗi chưa qua

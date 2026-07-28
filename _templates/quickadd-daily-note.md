@@ -11,7 +11,7 @@ last_updated: "{{DATE:YYYY-MM-DD}}"
 
 # {{DATE:YYYY-MM-DD}}
 
-## Today's Focus
+## Hôm nay là ngày trọng tâm
 
 - [ ] 
 

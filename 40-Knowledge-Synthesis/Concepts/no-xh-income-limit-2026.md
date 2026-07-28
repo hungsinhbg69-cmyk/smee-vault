@@ -17,7 +17,7 @@ cited_count: 0
 
 # 📋 Nghị định 136/2026/NĐ-CP — Tăng trần thu nhập mua NOXH
 
-## One Idea Summary
+## Một tóm tắt ý tưởng
 Nghị định 136/2026/NĐ-CP (từ 7/4/2026) tăng mức trần thu nhập được mua NOXH: người độc thân từ 20 → **25 triệu/tháng**, vợ chồng từ 40 → **50 triệu/tháng** — mở rộng đáng kể đối tượng thụ hưởng.
 
 ## Explanation

@@ -47,11 +47,11 @@ tags: [real-estate, social-housing, commercial-condo, bac-ninh]
 
 | Mã căn | Link ảnh gốc |
 |--------|-------------|
-| CH A2 B2 | https://hoangninhgroup.vn/public/upload/canho/14.ch-a2-b2-copy.jpg |
-| CH A3 B3 | https://hoangninhgroup.vn/public/upload/canho/15.-ch-a3-b3-copy.jpg |
-| CH A4 B4 | https://hoangninhgroup.vn/public/upload/canho/16.-ch-a4-b4-copy.jpg |
-| CH A5 B5 | https://hoangninhgroup.vn/public/upload/canho/17.-ch-a5-b5-copy.jpg |
-| CH A6 B6 | https://hoangninhgroup.vn/public/upload/canho/18.-ch-a6-b6.jpg |
+| CHA2 B2 | https://hoangninhgroup.vn/public/upload/canho/14.ch-a2-b2-copy.jpg |
+| CHA3 B3 | https://hoangninhgroup.vn/public/upload/canho/15.-ch-a3-b3-copy.jpg |
+| CHA4 B4 | https://hoangninhgroup.vn/public/upload/canho/16.-ch-a4-b4-copy.jpg |
+| CHA5 B5 | https://hoangninhgroup.vn/public/upload/canho/17.-ch-a5-b5-copy.jpg |
+| CHA6 B6 | https://hoangninhgroup.vn/public/upload/canho/18.-ch-a6-b6.jpg |
 | CH C1 | https://hoangninhgroup.vn/public/upload/canho/19.-ch-c1.jpg |
 
 ## Quy hoạch chung cư | Master Plan
@@ -60,10 +60,10 @@ tags: [real-estate, social-housing, commercial-condo, bac-ninh]
 | Phân khu | Tầng |
 |---------|------|
 | Block A | T2 – T18 |
-| Block B (T1) | T3 – T12 |
-| Block B (T2) | T13 – T18 |
-| Block C (T1) | T3 – T10 |
-| Block C (T2) | T11 – T18 |
+| Khối B (T1) | T3 – T12 |
+| Khối B (T2) | T13 – T18 |
+| Khối C (T1) | T3 – T10 |
+| Khối C (T2) | T11 – T18 |
 
 ## Tài sản — Google Drive (Vật liệu Marketing)
 
@@ -72,7 +72,7 @@ tags: [real-estate, social-housing, commercial-condo, bac-ninh]
 
 ### 25 Thư mục con (tất cả là thư mục chia sẻ)
 
-| # | Tên thư mục | Link Google Drive |
+| # | Tên thư mục | Name |
 |---|-------------|------------------|
 | 1 | 1.Tài liệu pháp lý – Nội thất nhà mẫu | https://drive.google.com/drive/folders/16015178591338915303 |
 | 2 | 2.Sân khấu | https://drive.google.com/drive/folders/14463661787294136511 |
@@ -90,7 +90,7 @@ tags: [real-estate, social-housing, commercial-condo, bac-ninh]
 | 14 | 14.Back treo khinh khí cầu | https://drive.google.com/drive/folders/1_vrHZT4ddGmim2Ais5fFefUtgdBe99Tz |
 | 15 | 15.THẺ ĐEO | https://drive.google.com/drive/folders/17mXROZrmNi0wJRJDWOOxda4MR1J5E4_7 |
 | 16 | 16.CỔNG RÁP | https://drive.google.com/drive/folders/1MpPB70Jg0byJKsvw01jtggsgmtu-doRQ |
-| 17 | 17.can ho mau | https://drive.google.com/drive/folders/1JFI2otIhyjjNQZr3T_VwnZarG2TT1zI6 |
+| 17 | 17. | https://drive.google.com/drive/folders/1JFI2otIhyjjNQZr3T_VwnZarG2TT1zI6 |
 | 18 | 18.Card Visit | https://drive.google.com/drive/folders/1MuZZiDjHIzMAqgHhsbxUVHxemN6bgn1N |
 | 19 | 19.Nội Thất | https://drive.google.com/drive/folders/18rQ3aVNASpg7TZShfqUjglE4xLnx6VYH |
 | 20 | Flycam Khởi công Hoàng Ninh Ecolife | https://drive.google.com/drive/folders/1Kxyz8sUrU9bmZAeGwFxOVtd-Ao-SGiuA |
@@ -131,7 +131,7 @@ tags: [real-estate, social-housing, commercial-condo, bac-ninh]
 | 5 | https://hoangninhgroup.vn/public/upload/hoangninh/2.8-scaled.webp |
 | 6 | https://hoangninhgroup.vn/public/upload/hoangninh/9-scaled.webp |
 
-## Metadata (Schema.org)
+## Siêu dữ liệu (Schema.org)
 
 | Trường | Giá trị |
 |--------|---------|

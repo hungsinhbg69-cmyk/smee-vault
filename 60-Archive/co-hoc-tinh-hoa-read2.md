@@ -52,7 +52,7 @@ last_updated: 2026-06-24
 - **Bài học:** Giúp người trước, bán hàng sau
 - **Application:**
   - Blog/YouTube: giải quyết vấn đề khách hàng → sau đó giới thiệu sản phẩm
-  - Lead magnet: free template, checklist, ebook → thu email → nurture → sell
+  - Nam châm chì: mẫu miễn phí, danh sách kiểm tra, ebook book u email nuôi dưỡng _SPu
   - **Metric:** Content giá trị (share rate) > Content bán hàng (CTR)
 
 ---
@@ -71,14 +71,14 @@ last_updated: 2026-06-24
 - **Application:**
   - Reach organic giảm → chuyển sang Facebook Groups + Reels
   - Video view tăng → sản xuất video content
-  - **Rule:** Check metrics weekly, pivot monthly
+  - **Rule:** Kiểm tra thước đo hàng tuần, xoay quanh hàng tháng
 
 ### 10. BA CON RẬN KIỆN NHAU → **Competitive Positioning**
 - **Bài học:** Tranh cãi nội bộ → competitor hưởng lợi
 - **Application:**
   - Thương hiệu tranh cãi với influencer → cả hai lose
   - Team nội bộ tranh cãi → customer experience giảm
-  - **Rule:** Resolve internal conflict before external battle
+  - **Rule:** Giải quyết xung đột nội bộ trước khi chiến đấu bên ngoài
 
 ### 15. BẮT CHƯỚC NHĂN MẶT → **Competitor Analysis**
 - **Bài học:** Sao chép hình thức không sao chép được kết quả
@@ -103,34 +103,34 @@ last_updated: 2026-06-24
 - **Application:**
   - CTR cao nhưng bounce rate cao → content clickbait, không match intent
   - Followers tăng nhanh nhưng engagement giảm → fake followers
-  - **Rule:** Look at composite metrics, not single vanity metrics
+  - **Rule:**Hãy nhìn vào các thước đo tổng hợp, không phải một mét vô ích
 
 ### 55. TRƯỚC KHI ĐÁNH NGƯỜI PHẢI BIẾT GIỮ MÌNH
 - **Bài học:** Brand safety trước khi launch campaign
 - **Application:**
-  - Social listening → monitor brand mentions
+  - Name
   - Crisis playbook → sẵn sàng response template
-  - **Rule:** 80% preparation, 20% execution
+  - **Rule:** 80% chuẩn bị, thực hiện 20%
 
 ### 61. NGƯỜI KHÔN SỐNG LÂU
 - **Bài học:** Delayed gratification → sustainable growth
 - **Application:**
   - SEO: 3-6 months mới thấy kết quả → kiên nhẫn
-  - Content building: consistency > virality
-  - **Rule:** 90-day minimum test before declaring failure
+  - Cấu trúc nội dung: Độ đều đặn > Vi rút
+  - **Rule:** Thử nghiệm tối thiểu 90 ngày trước khi tuyên bố thất bại
 
 ### 86. CỨU NGƯỜI LÚC NGUY CẤP
 - **Bài học:** Help in crisis → highest loyalty
 - **Application:**
-  - Customer service response <5 min during crisis → trust multiplier
+  - Đáp ứng dịch vụ khách hàng < 5 phút trong cuộc khủng hoảng _ thêm lòng tin
   - Flash sale during pandemic → brand affinity tăng
-  - **Rule:** Crisis response = brand building opportunity
+  - **Rule:** khủng hoảng = cơ hội xây dựng thương hiệu
 
 ---
 
-## 🔴 SIGNAL WORDS - Strategic Patterns
+## ĐỂ BÀI HỌC - Mẫu chiến lược
 
-### 🔴 Business Model Signals
+### 🔴 Tín hiệu mô hình kinh doanh
 - **"Nghĩa" > "Lợi"** → Value-driven business > Transaction-driven business
 - **"Tín"** → Trust = currency. Once lost, expensive to regain
 - **"Biết đủ"** → Pricing power từ differentiation, không từ price war
@@ -150,18 +150,18 @@ last_updated: 2026-06-24
 ## 📊 TỔNG HỢP LẦN 2: KINH DOANH
 
 ### 7 Chiến Lược Then Chốt:
-1. **Customer Lifetime Value > Customer Acquisition** → Retention first
-2. **Value-First Content → Trust → Conversion** → Lead magnet strategy
-3. **Adapt to Algorithm, Not Fight It** → Flexibility = survival
-4. **Transparent Pricing & Messaging** → Trust multiplier
-5. **Internal Alignment Before External Battle** → Team cohesion
-6. **Long-term Metrics > Short-term Vanity** → Composite scorecards
-7. **Crisis = Opportunity** → Response speed = brand equity
+1. **Customer Life Time > Tuỳ biến Acquisation** _Sự hồi phục trước
+2. **Value-Test content  thể hiện lòng tin qua mã hóa** chiến lược nam châm chì
+3. **Adapt to Algorithm, không phải chiến đấu nó** → Độ dễ bay: sự sống
+4. **Giá cả và thông điệp minh bạch** → Hệ số gia tăng niềm tin
+5. **I nội bộ xếp hàng trước trận chiến ngoại ô*** Đội liên minh
+6. ** Trò chơi giải trí dài hạn > ngắn hạn *** Tính toán điểm
+7. **Cris = Cơ hội** Tốc độ đáp ứng = vốn chủ sở hữu thương hiệu
 
 ### 5 KPIs Nên Theo Dõi (từ sách):
 1. **Customer Retention Rate** (Không quên cái cũ)
-2. **Content Value Score** (Shares + Saves > Likes)
-3. **Algorithm Adaptation Speed** (Time to pivot strategy)
+2. **Content value score** (Shares + lưu > likes)
+3. **Bấp kích thích tốc độ** (Thời gian để xoay chuyển chiến lược)
 4. **Crisis Response Time** (Trước khi đánh người phải biết giữ mình)
 5. **Long-term LTV:CAC Ratio** (Tham lợi trước mắt → quên hại sau lưng)
 

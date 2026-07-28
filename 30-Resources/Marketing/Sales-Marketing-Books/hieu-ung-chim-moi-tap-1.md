@@ -1,5 +1,5 @@
 ---
-title: Hieu ung chim moi tap 1.
+title: Hiểu rồi.
 slug: hieu-ung-chim-moi-tap-1
 category: resource
 tags:

@@ -11,21 +11,21 @@ last_updated: 2026-06-24
 
 # Facebook Graph API — Tham Khảo Nhanh
 
-_Ghi chú từ tài liệu chính thức Facebook, 2026-06-09_
+_Ghi chú từ tài liệu chính thức của Facebook, 2026-06-09_
 
 ---
 
 ## 1. Tổng Quan
 
-Graph API là cách chính để đưa dữ liệu vào/ra khỏi nền tảng Facebook. Là HTTP-based API, apps dùng để:
-- Query dữ liệu
+Graph API là cách chính để đưa dữ liệu vào/ra khỏi nền tảng Facebook. Là HTTP-based API, các ứng dụng (apps) sử dụng nó để:
+- Truy vấn dữ liệu
 - Đăng story mới
-- Quản lý ads
-- Upload ảnh
-- Vô số tác vụ khác
+- Quản lý quảng cáo
+- Tải lên ảnh
+- Và vô số tác vụ khác
 
-Graph API được đặt tên theo khái niệm "social graph" — biểu diễn thông tin trên Facebook, gồm 3 thành phần:
-- **Nodes** — đối tượng cụ thể (User, Page, Post, Photo, Comment)
+Graph API được đặt tên theo khái niệm "social graph" — biểu diễn thông tin trên Facebook, bao gồm 3 thành phần:
+- **Nodes** — các đối tượng cụ thể (User, Page, Post, Photo, Comment)
 - **Edges** — kết nối giữa các nodes
 - **Fields** — thuộc tính/dữ liệu của một node
 
@@ -33,10 +33,10 @@ Graph API được đặt tên theo khái niệm "social graph" — biểu diễ
 
 ## 2. HTTP
 
-- Tất cả request dùng **HTTP/1.1** và **HTTPS**
+- Tất cả request sử dụng **HTTP/1.1** và **HTTPS**.
 - Host URL: `graph.facebook.com`
-- Hoạt động với mọi ngôn ngữ có HTTP library (cURL, urllib)
-- Có thể dùng trực tiếp trong trình duyệt
+- Hoạt động với mọi ngôn ngữ có thư viện HTTP (cURL, urllib).
+- Có thể sử dụng trực tiếp trong trình duyệt.
 
 Ví dụ:
 ```
@@ -47,15 +47,15 @@ https://graph.facebook.com/facebook/picture?redirect=false
 
 ## 3. Access Tokens
 
-Access token cho phép app truy cập Graph API. Hầu hết endpoints đều yêu cầu. 2 chức năng:
-1. Cho phép app truy cập User info mà không cần password
-2. Xác định app, User đang dùng, và loại dữ liệu được phép truy cập
+Access token cho phép ứng dụng truy cập Graph API. Hầu hết các endpoints đều yêu cầu token này. Nó thực hiện hai chức năng chính:
+1. Cho phép ứng dụng truy cập thông tin người dùng mà không cần mật khẩu.
+2. Xác định ứng dụng, người dùng đang sử dụng và loại dữ liệu được phép truy cập.
 
 ---
 
 ## 4. Nodes
 
-Node là đối tượng riêng biệt với unique ID. Ví dụ: User, Page, Post, Photo, Comment.
+Node là đối tượng riêng biệt với ID duy nhất (unique ID). Ví dụ: User, Page, Post, Photo, Comment.
 
 **Truy vấn node:**
 ```bash
@@ -72,9 +72,9 @@ curl -i -X GET "https://graph.facebook.com/USER-ID?access_token=ACCESS-TOKEN"
 
 ### Siêu dữ liệu nút (metadata)
 
-⚠️ **metadata đã ngừng hoạt động trong API Đồ thị v25.0** — không còn trả về siêu dữ liệu. Dùng **Trình khám phá API Đồ thị** hoặc tài liệu tham khảo API thay thế. Ngừng hoạt động từ **19/05/2026**.
+⚠️ **Metadata đã ngừng hoạt động trong Graph API phiên bản v25.0** — không còn trả về siêu dữ liệu nữa. Hãy sử dụng **Graph API Explorer** hoặc tài liệu tham khảo API thay thế. Tính năng này ngừng hoạt động từ ngày **19/05/2026**.
 
-Xem danh sách fields của một đối tượng:
+Để xem danh sách các fields của một đối tượng:
 ```bash
 curl -i -X GET "https://graph.facebook.com/USER-ID?metadata=1&access_token=ACCESS-TOKEN"
 ```
@@ -83,7 +83,7 @@ curl -i -X GET "https://graph.facebook.com/USER-ID?metadata=1&access_token=ACCES
 
 ## 5. /me Endpoint
 
-Điểm cuối đặc biệt — tự động chuyển thành ID của người/Trang có access token đang dùng.
+Đây là điểm cuối (endpoint) đặc biệt — tự động chuyển đổi thành ID của người dùng hoặc Trang đang sử dụng access token hiện tại.
 
 **Lấy tên và ID của chính mình:**
 ```bash
@@ -94,7 +94,7 @@ curl -i -X GET "https://graph.facebook.com/me?access_token=ACCESS-TOKEN"
 
 ## 6. Edges (Cạnh)
 
-Edge là kết nối giữa 2 nodes. Ví dụ: User node → photos edge → Photo nodes.
+Edge là kết nối giữa hai nodes. Ví dụ: Node User → cạnh photos → các Node Photo.
 
 **Lấy danh sách ảnh của một người:**
 ```bash
@@ -121,9 +121,9 @@ curl -i -X GET "https://graph.facebook.com/USER-ID/photos?access_token=ACCESS-TO
 
 ## 7. Fields (Trường)
 
-Fields là thuộc tính của node. Mặc định trả về tập fields theo mặc định. Để chỉ định fields muốn nhận:
+Fields là thuộc tính của node. Mặc định, API trả về tập hợp các fields theo mặc định. Để chỉ định cụ thể các fields muốn nhận:
 
-**Dùng tham số `fields` và liệt kê từng field:**
+**Sử dụng tham số `fields` và liệt kê từng field:**
 ```bash
 curl -i -X GET "https://graph.facebook.com/USER-ID?fields=id,name,email,picture&access_token=ACCESS-TOKEN"
 ```
@@ -157,27 +157,27 @@ curl -i -X GET "https://graph.facebook.com/USER-ID?fields=id,name,email,picture&
 ## 9. Đăng, Cập Nhật và Xóa
 
 ### Đăng (POST)
-Tham khảo hướng dẫn "Chia sẻ lên Facebook" để đăng lên Feed, hoặc tài liệu Page API.
+Tham khảo hướng dẫn "Chia sẻ lên Facebook" để đăng bài lên Feed, hoặc tài liệu Page API.
 
-**Đăng tin nhắn lên Feed Page:**
+**Đăng tin nhắn lên Feed của Trang:**
 ```bash
 curl -i -X POST "https://graph.facebook.com/PAGE-ID/feed?message=Hello&fields=created_time,from,id,message&access_token=ACCESS-TOKEN"
 ```
 
 ### Cập Nhật (POST)
-Cập nhật fields bằng POST:
+Cập nhật các fields bằng phương thức POST:
 ```bash
 curl -i -X POST "https://graph.facebook.com/USER-ID?email=YOURNEW@EMAILADDRESS.COM&access_token=ACCESS-TOKEN"
 ```
 
 ### Đọc sau khi ghi
-API trả về ID của đối tượng vừa tạo/cập nhật. Thêm `fields` để lấy thêm thông tin:
+API trả về ID của đối tượng vừa được tạo/cập nhật. Thêm `fields` để lấy thêm thông tin:
 ```bash
 curl -i -X POST "https://graph.facebook.com/PAGE-ID/feed?message=Hello&fields=created_time,from,id,message&access_token=ACCESS-TOKEN"
 ```
 
 ### Xóa (DELETE)
-Xóa nodes (Post, Photo) bằng DELETE trên ID:
+Xóa các nodes (Post, Photo) bằng phương thức DELETE trên ID:
 ```bash
 curl -i -X DELETE "https://graph.facebook.com/PHOTO-ID?access_token=ACCESSSS-TOKEN"
 ```
@@ -186,44 +186,44 @@ curl -i -X DELETE "https://graph.facebook.com/PHOTO-ID?access_token=ACCESSSS-TOK
 
 ## 10. Lỗi
 
-Request không thành công → phản hồi lỗi tiêu chuẩn. Xem "Xử lý lỗi" để biết thêm.
+Request không thành công sẽ trả về phản hồi lỗi tiêu chuẩn. Xem phần "Xử lý lỗi" để biết thêm chi tiết.
 
 ---
 
 ## 11. Webhooks
 
-Đăng ký webhook để nhận thông báo về thay đổi nodes hoặc tương tác với nodes.
+Đăng ký webhook để nhận thông báo về các thay đổi của nodes hoặc tương tác với nodes.
 
 ---
 
 ## 12. Phiên Bản
 
-API có nhiều phiên bản, phát hành hàng quý. Chỉ định phiên bản trong URL:
+API có nhiều phiên bản, được phát hành hàng quý. Chỉ định phiên bản trong URL:
 
 ```bash
 curl -i -X GET "https://graph.facebook.com/v4.0/USER-ID/photos?access_token=ACCESS-TOKEN"
 ```
 
-- **Không thêm version** → Facebook tự chọn version cũ nhất hiện có
-- **Nên luôn chỉ định version** trong request
-- Xem "Hướng dẫn cách lập phiên bản" và "Nhật ký thay đổi API Đồ thị" để biết tất cả version
+- **Không thêm version** → Facebook tự động chọn phiên bản cũ nhất hiện có.
+- **Nên luôn chỉ định version** trong request.
+- Xem phần "Hướng dẫn cách lập phiên bản" và "Nhật ký thay đổi Graph API" để biết tất cả các phiên bản.
 
 ---
 
 ## 13. Các Bước Tiếp Theo
 
-- Bắt đầu với **Trình khám phá đồ thị (Graph API Explorer)** — thử nghiệm API trực tiếp
-- Chạy request mẫu để lấy dữ liệu
+- Bắt đầu với **Graph API Explorer (Trình khám phá đồ thị)** — thử nghiệm API trực tiếp.
+- Chạy request mẫu để lấy dữ liệu.
 
 ---
 
 ## 14. API, SDK và Nền Tảng Của Facebook
 
-Kết nối giao diện và phát triển trên nhiều nền tảng bằng API, SDK, nền tảng khác nhau của Facebook.
+Kết nối giao diện và phát triển trên nhiều nền tảng bằng cách sử dụng các API, SDK và nền tảng khác nhau của Facebook.
 
 ---
 
-## Tóm Tắt Curl Patterns
+## Tóm Tắt Các Mẫu Cú Pháp Curl
 
 | Thao tác | Method | Ví dụ |
 |---------|--------|-------|
@@ -236,4 +236,4 @@ Kết nối giao diện và phát triển trên nhiều nền tảng bằng API,
 
 ---
 
-_Lưu thành file để tra cứu nhanh. Dùng `curl.exe` (không PowerShell curl alias)._
+_Lưu thành file để tra cứu nhanh. Sử dụng `curl.exe` (không dùng alias curl của PowerShell)._

@@ -12,7 +12,7 @@ last_updated: <%% tp.date.now("YYYY-MM-DD") %%>
 # <%% tp.file.title %%>
 
 ## Context
-> Tai sao note nay ton tai? Gat voi project/area nao?
+> Tai sao lưu ý nay ton tai dự án Gat voi/a nao?
 
 [[<%* const path = tp.file.folder(true); const folders = ["10-Projects", "20-Areas", "30-Resources", "40-Knowledge-Synthesis"]; folders.forEach(f => { if (path.includes(f)) print("[" + f + "]"); }) %>
 
@@ -23,7 +23,7 @@ last_updated: <%% tp.date.now("YYYY-MM-DD") %%>
 - 
 
 ## Connections & Backlinks
-> Plugin **smart-connections** se gui y cac note lien quan. Click `sc:` prefix de scan semantic links.
+> Plugin ** Thông minh- kết nối** segui y lưu ý nằm. `sc:` Đầu tiên quét liên kết ngữ nghĩa.
 
 - 
 
@@ -34,4 +34,4 @@ has tags
 tag includes <% tp.file.selection() %>
 ```
 
-<!-- Smart Connection Scan: sc: -->
+<!-- Thông minh kết nối: sc: -->

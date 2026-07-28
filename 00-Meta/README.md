@@ -102,13 +102,13 @@ Inbox (01-Inbox/)
 
 | Mẫu | Trường hợp sử dụng |
 |----------|-------------------|
-| daily-note.md | Ghi nhật ký hàng ngày, thu thập nhanh |
-| meeting-note.md | Tóm tắt cuộc họp, các mục cần thực hiện |
-| project-kickoff.md | Tạo MOC cho dự án mới |
-| literature-note.md | Tổng hợp bài báo học thuật |
-| atomic-note.md | Ghi chú kiến thức vĩnh cửu |
-| weekly-review.md | Nghi thức đánh giá hàng thứ Bảy |
-| experiment-note.md | Nhật ký kiểm tra giả thuyết |
+| Ghi chú hàng ngày | Ghi nhật ký hàng ngày, thu thập nhanh |
+| Ghi chú gặp gỡ | Tóm tắt cuộc họp, các mục cần thực hiện |
+| Đã bị loại.md | Tạo MOC cho dự án mới |
+| Ghi chú- chú | Tổng hợp bài báo học thuật |
+| Ghi chú nguyên tử | Ghi chú kiến thức vĩnh cửu |
+| Xem hàng tuần.md | Nghi thức đánh giá hàng thứ Bảy |
+| Ghi chú thử ra | Nhật ký kiểm tra giả thuyết |
 
 ## 🔗 Liên kết chính
 

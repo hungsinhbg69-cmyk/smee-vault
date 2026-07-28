@@ -1,5 +1,5 @@
 ---
-title: "Bac Giang Cultural Profile Detailed Archived"
+title: "Các hồ sơ văn hóa Bac Giang đã lưu trữ"
 slug: "bac-giang-cultural-profile-detailed-archived"
 category: archive
 tags: [vault-maintenance, facebook-ads]
@@ -14,7 +14,7 @@ last_updated: 2026-06-24
 
 _Created: 2026-06-15 | Sources: Web research (văn hóa, báo chí, Facebook groups, TikTok KOLs, phương ngữ học)_
 
-## 🏔️ Core Identity Traits
+## _TIẾNG TIẾNG CÂU TRONG LINH
 
 ### 1. Cần Cù + Chất Phác (Hardworking & Simple)
 - **Nông gia vi bản** — agriculture is the foundation. "Làm ruộng, chăn nuôi, sản xuất, buôn bán" đều là nghề chính.
@@ -59,7 +59,7 @@ _Created: 2026-06-15 | Sources: Web research (văn hóa, báo chí, Facebook gro
 - **Bánh đa Kế:** đặc sản xã Dĩnh Kế, niềm tự hào của người địa phương.
 - **Mỳ Chũ:** đặc sản huyện Lục Nam.
 
-## 📱 Social Media Behavior Patterns
+## ▪ Mẫu hình hành vi của phương tiện truyền thông xã hội
 
 ### Facebook Groups (Bánh Đa Kế, Bắc Giang Phố, Cộng đồng BG)
 - **Bình luận mang tính cộng đồng:** "Cũng là người BG đây", "Quê mình thế đấy", "Thương quá trời".
@@ -108,7 +108,7 @@ _Created: 2026-06-15 | Sources: Web research (văn hóa, báo chí, Facebook gro
 | Mạng xã hội | Cộng đồng gắn kết | Văn hóa quan họ | Trend-setting |
 | Nổi tiếng về | Vải thiều, bánh đa Kế | Quan họ, đình đám | Phố cổ, hiện đại |
 
-## 🧠 Key Phrases & Expressions
+## Từ điển Thành ngữ & Từ điển Thành ngữ khoá
 
 - **"Quê mình thế đấy"** — cách người BG tự hào + khiêm tốn cùng lúc.
 - **"Chín bỏ làm mười"** — nguyên tắc sống.
@@ -117,4 +117,4 @@ _Created: 2026-06-15 | Sources: Web research (văn hóa, báo chí, Facebook gro
 - **"VàoBG raBG"** — cụm từ quen thuộc khi nói về việc về quê/thành phố.
 
 ---
-*Next: Apply this profile when crafting FB posts, comments, or any content targeting Bắc Giang audience.*
+Tiếp theo: Hãy áp dụng hồ sơ này khi tạo các bài báo, bình luận, hoặc bất cứ nội dung nào nhắm vào khán giả B_Gang.

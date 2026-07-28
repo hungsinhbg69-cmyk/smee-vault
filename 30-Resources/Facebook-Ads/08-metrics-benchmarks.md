@@ -16,11 +16,11 @@ last_updated: 2026-06-24
 ### Chỉ số chi phí
 | Chỉ số | Tên đầy đủ | Công thức | Ý nghĩa |
 |---|---|---|---|
-| CPM | Cost per Mille | (Chi phí / Số lần hiển thị) x 1.000 | Mức độ đắt đỏ của đối tượng/môi trường quảng cáo |
-| CPC | Cost Per Click | Chi phí / Số lượt nhấp vào liên kết | Chi phí để tạo lưu lượng truy cập |
-| CPL | Cost Per Lead | Chi phí / Số lead | Chi phí trên mỗi lead được tạo ra |
-| CPA | Cost Per Acquisition | Chi phí / Số đơn hàng | Chi phí trên mỗi khách hàng/mua hàng |
-| CPP | Cost Per Result | Chi phí / Tổng kết quả tối ưu hóa | Chi phí cho bất kỳ sự kiện tối ưu hóa nào |
+| CPM | Chi phí cho mỗi triệu | (Chi phí / Số lần hiển thị) x 1.000 | Mức độ đắt đỏ của đối tượng/môi trường quảng cáo |
+| CPC | Chi phí mỗi nhắp | Chi phí / Số lượt nhấp vào liên kết | Chi phí để tạo lưu lượng truy cập |
+| CPL | Chi phí cho mỗi đầu | Chi phí / Số lead | Chi phí trên mỗi lead được tạo ra |
+| CPA | Chi phí cho việc đi đến nơi | Chi phí / Số đơn hàng | Chi phí trên mỗi khách hàng/mua hàng |
+| CPP | Chi phí cho kết quả | Chi phí / Tổng kết quả tối ưu hóa | Chi phí cho bất kỳ sự kiện tối ưu hóa nào |
 
 ### Chỉ số hiệu suất
 | Chỉ số | Công thức | Ý nghĩa |
@@ -143,9 +143,9 @@ last_updated: 2026-06-24
 ### Đối tượng Chiến dịch (Campaign objects)
 | Đối tượng | Mục đích | Các trường chính |
 |---|---|---|
-| Campaign | Chứa cấp cao nhất | id, name, objective, status, campaign_group_id (CBO), daily_budget/lifetime_budget |
-| AdSet | Nhắm mục tiêu + vị trí hiển thị + ngân sách | id, name, targeting, placements, optimization_guide, daily_budget/lifetime_budget, start_time/end_time |
-| Ad | Nội dung sáng tạo | id, name, creative, status, delivery_status |
+| Campaign | Chứa cấp cao nhất | id, tên, mục tiêu, trạng thái, nhóm_chiến dịch_ động_iP: |
+| AdSet | Nhắm mục tiêu + vị trí hiển thị + ngân sách | id, tên, mục tiêu, vị trí, tối ưu_guide, hàng ngày_ tài_h gian_budget_budget, bắt đầu_time/end_time |
+| Ad | Nội dung sáng tạo | idTên, sáng tạo, trạng thái, giao _ phần_tatus |
 
 ### Mục tiêu Chiến dịch (giá trị trường objective)
 - BRAND_AWARENESS
@@ -173,7 +173,7 @@ last_updated: 2026-06-24
     "age_min": 25,
     "age_max": 55,
     "genders": [1],
-    "interests": [{"id": "interest_id", "name": "Interest Name"}],
+    "Những thứ thú vị" : [{]id": "Tặng tiền" "tên"
     "behaviors": ["behavior_id"],
     "custom_audiences": ["custom_audience_id"]
   }
@@ -202,17 +202,17 @@ last_updated: 2026-06-24
 ### Các trường Insights API (chỉ số chính)
 | Trường | Trả về | Cấp độ |
 |---|---|---|
-| impressions | Tổng số lần hiển thị quảng cáo | campaign/adset/ad/criteria |
-| spend | Chi phí quảng cáo theo tiền tệ | campaign/adset/ad/criteria |
-| clicks | Tất cả lượt nhấp | campaign/adset/ad/criteria |
-| link_clicks | Chỉ lượt nhấp vào liên kết | campaign/adset/ad/criteria |
-| ctr | Tỷ lệ nhấp | campaign/adset/ad/criteria |
-| cpc | Chi phí trên mỗi nhấp chuột | campaign/adset/ad/criteria |
-| cpm | Chi phí trên 1.000 lần hiển thị | campaign/adset/ad/criteria |
-| actions | Sự kiện chuyển đổi theo loại | campaign/adset/ad/criteria |
-| cost_per_action_type | CPA theo loại sự kiện | campaign/adset/ad/criteria |
-| purchase_roas | Tỷ suất lợi nhuận trên chi phí quảng cáo (mua hàng) | campaign/adset/ad/criteria |
-| results | Tổng kết quả tối ưu hóa | campaign/adset/ad/criteria |
+| impressions | Tổng số lần hiển thị quảng cáo | Chiến dịch/adset/ad/criteria |
+| spend | Chi phí quảng cáo theo tiền tệ | Chiến dịch/adset/ad/criteria |
+| clicks | Tất cả lượt nhấp | Chiến dịch/adset/ad/criteria |
+| link_clicks | Chỉ lượt nhấp vào liên kết | Chiến dịch/adset/ad/criteria |
+| ctr | Tỷ lệ nhấp | Chiến dịch/adset/ad/criteria |
+| cpc | Chi phí trên mỗi nhấp chuột | Chiến dịch/adset/ad/criteria |
+| cpm | Chi phí trên 1.000 lần hiển thị | Chiến dịch/adset/ad/criteria |
+| actions | Sự kiện chuyển đổi theo loại | Chiến dịch/adset/ad/criteria |
+| kiểu_p/ hành động | CPA theo loại sự kiện | Chiến dịch/adset/ad/criteria |
+| purchase_roas | Tỷ suất lợi nhuận trên chi phí quảng cáo (mua hàng) | Chiến dịch/adset/ad/criteria |
+| results | Tổng kết quả tối ưu hóa | Chiến dịch/adset/ad/criteria |
 
 ### Ví dụ truy vấn Insights API
 `

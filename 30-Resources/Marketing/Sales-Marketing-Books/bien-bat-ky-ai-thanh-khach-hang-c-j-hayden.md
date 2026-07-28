@@ -1,5 +1,5 @@
 ---
-title: bien-bat-ky-ai-thanh-khach-hang-c-j-hayden
+title: bien-bat-ky-ai-than-khach-ang-c-j-hayden
 slug: bien-bat-ky-ai-thanh-khach-hang-c-j-hayden
 category: resource
 tags:

@@ -17,7 +17,7 @@ cited_count: 0
 
 # 💰 Bảng giá NOXH Bắc Giang - Bắc Ninh — Tháng 6/2026
 
-## One Idea Summary
+## Một tóm tắt ý tưởng
 Giá NOXH tại Bắc Ninh tháng 6/2026 dao động từ **12,3 tr/m²** (KCN Yên Phong) đến **21,9 tr/m²** (Tây Dĩnh Trì) — chênh lệch ~78% phản ánh khác biệt vị trí và phân khúc.
 
 ## Explanation

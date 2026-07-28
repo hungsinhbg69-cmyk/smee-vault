@@ -45,8 +45,8 @@ Total Value = Bid × Predicted Action Rate + Estimated User Value
 | Kích hoạt đấu giá | Truy vấn tìm kiếm của người dùng | Người dùng mở ứng dụng / cuộn feed |
 | Tín hiệu ý định | Rõ ràng (từ khóa) | Ẩn (Hồ sơ người dùng + hành vi) |
 | Điểm số chất lượng | Quality Score 1-10 | Chẩn đoán liên quan (Trên/Bình thường/Dưới mức trung bình) |
-| Công thức thắng cuộc | Bid × Quality Score | Bid × Tỷ lệ hành động × Chất lượng quảng cáo |
-| Loại đấu giá | Generalized second-price | Vickrey second-price |
+| Công thức thắng cuộc | Điểm số chất lượng Bid_× | Bid × Tỷ lệ hành động × Chất lượng quảng cáo |
+| Loại đấu giá | Chung | Vickrey thứ hai-primce |
 
 ## Ba Chẩn đoán Liên quan (Mức Quảng cáo)
 
@@ -89,9 +89,9 @@ Chẩn đoán ở mức quảng cáo, không phải mức chiến dịch. Dùng 
 
 ## Những điểm cốt lõi cần nắm
 - Andromeda = học sâu 2 giai đoạn (Retrieval ~50ms + Ranking ~150ms)
-- Total Value = Bid × Action Rate + Estimated User Value
+- Tổng giá trị = Haid_ Hành động và ước tính giá trị người dùng
 - Chất lượng sáng tạo thấp → giảm tính cạnh tranh trong đấu giá, không chỉ hoạt động kém hiệu quả
 - Chẩn đoán liên quan ở mức quảng cáo: dùng để xác định chính xác vấn đề về sáng tạo hay vấn đề sau click
 
 ---
-*Created: 2026-06-15 | Sources: facebook-ads-deep-dive, ads-deep-dive-june-2026*
+*Created: 2026-06-15 Nguồn: facebook-Những quảng cáo sâu sắc, sâu sắc-thôi-ki-ki-di-di-26*

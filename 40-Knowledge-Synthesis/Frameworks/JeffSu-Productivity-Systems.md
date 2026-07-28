@@ -1,5 +1,5 @@
 ---
-title: JeffSu - Productivity Systems Deep Dive
+title: JeffSu - Hệ thống sản xuất lặn sâu
 slug: jeffsu-productivity-systems
 category: knowledge
 tags:
@@ -15,68 +15,68 @@ last_updated: '2026-07-14'
 source: NotebookLM "JeffSu Master Learning"
 ---
 
-# Productivity Systems (from JeffSu)
+# Hệ thống sản xuất (từ JeffSu)
 
-## The "Capture and Organize" Philosophy
-Separate capturing information from organizing it.
+## Triết học "Capture and ganize"
+Tách biệt việc thu thập thông tin từ tổ chức nó.
 
 ### Capture
-- Use frictionless tools (Todoist widget) to record ideas/tasks immediately
-- Prevents cognitive overload
+- Dùng công cụ không ma sát (máy điều khiển đồ họa) để ghi lại ý tưởng/ nhiệm vụ ngay
+- Ngăn chặn quá tải nhận thức
 
 ### Organize
-- Move captured items to "functional homes" where info will be used
-- Google Calendar for time-specific tasks, Notion for project data
-- Two-step process: 1. Capture → 2. Organize
+- Chuyển mục đã ghi lưu vào "nhà chức năng" nơi cần dùng thông tin
+- Google book cho các công việc đặc trưng thời gian, Ghi chú cho dữ liệu dự án
+- Quá trình hai bước: 1. chụp 2. Tổ chức
 
-## Anti-McDonald's Habit
-- **McDonald's Habit** (Ali Abdaal): Use every spare minute for work
-- **Anti-McDonald's:** Add 2–5 minute transition periods between tasks for high-brain intensive work
-- Distinguish between creative work and low-focus tasks like email
+## Thói quen của Anti-McDonad
+- **McDonad's Habit** (Ali Abdaal): Dùng mỗi phút rảnh để làm việc
+- **Anti-McDonad's:** Thêm 2–5 phút chuyển tiếp giữa công việc cho công việc cao não
+- Phân biệt giữa công việc sáng tạo và công việc tập trung thấp như email
 
-## Inbox Zero System
+## Hệ thống Inbox Zero
 | Bucket | Action |
 |--------|--------|
-| **<2 min** | Do immediately, archive |
-| **>2 min** | Label "Follow-up", move out of inbox |
-| **Waiting** | Delegated to others, you remain responsible |
-| **Reference** | Documents needed long-term (invoices, confirmations) |
-| **Read through** | Newsletters/articles for later |
-| **Snooze >1 week** | Clear mental/digital clutter, focus on current week |
+| **<2 min** | Name |
+| **>2 min** | Nhãn "Theo sau", chuyển ra khỏi hộp |
+| **Waiting** | Bị ủy quyền cho người khác, anh vẫn phải chịu trách nhiệm. |
+| **Reference** | Tài liệu cần dài hạn (lời mời, xác nhận) |
+| **Read through** | Trình biên soạn/ họa tiết cho sau này |
+| **Snooze >1 week** | Xóa mớ hỗn độn tâm thần/số, tập trung vào tuần này |
 
-## God's Eye View
-- Holistic dashboard/spreadsheet providing clear snapshot of key metrics
-- Helps spot problems quickly
-- Budget tracker bookmarked in browser for financial tracking
+## Mắt của Chúa nhìn thấy
+- Bảng điều khiển số lượng/ Rải rộng cung cấp hình chụp rõ ràng của phím đo lường
+- Giúp đỡ các vấn đề cấp bách
+- Bộ theo dõi tài chính đã đánh dấu Budget trong trình duyệt để theo dõi tài chính
 
-## Project Recaps (High-Visibility Communication)
-- **TLDR:** Quantifiable results so reader decides if full details needed
-- Include highlights AND lowlights
-- **BCC:** People to inform about success, spare from "Reply All" threads
-- Use XYZ framework: Accomplished [X] as measured by [Y], by doing [Z]
+## Dự án Recaps (sự liên lạc cao độ-Visity)
+- **TLLR:** Kết quả có thể xác định nếu cần chi tiết đầy đủ
+- Bao gồm những điểm nổi bật và ánh sáng thấp
+- **BCC:**Người ta thông báo về thành công, tránh khỏi những sợi "Hãy tin tưởng"
+- Dùng khung XYZ: đã hoàn thành [X] như đo bởi [Y], bằng cách làm [Z]
 
-## Google Calendar Power Tips
-- Click three dots in email → "Create event" (directly from thread)
-- Share personal calendar with work account for unified view
-- "Publish Event" feature → shareable invite links
-- Group email aliases in events → auto-update as people join/leave
+## Comment
+- Nhấn vào ba chấm trong email « Sự kiện thư điện tử » (theo thứ tự từ chỉ)
+- Chia sẻ lịch cá nhân với tài khoản làm việc cho quan điểm hợp nhất
+- Tính năng "Bearlish Aight"
+- Tên nhóm thư điện tử trong ngày _tự động lên khi mọi người tham gia/ rời
 
-## Canva for Professionals
-- Import/edit PDFs directly (drag & drop on homepage)
-- Create LinkedIn assets with blurred backgrounds using Frames
-- Lock layers to prevent accidental moves
-- Color Eyedropper tool for any visible color
-- Blur background + white outline/shadow for foreground "pop"
+## Canva cho chuyên gia
+- Nhập/dit PDFs trực tiếp (cả & nền vào trang chủ)
+- Tạo liên kết trong tài sản có nền mờ sử dụng khung
+- Khoá các lớp để tránh các động tác ngẫu nhiên
+- Công cụ giọt màu cho màu hiển thị
+- Nền mờ + nét trắng cho "con số"
 
-## Mac Productivity Stack
+## Comment
 | Tool | Function |
 |------|----------|
-| Alfred | Spotlight replacement: clipboard history, snippets, search |
-| Drop Zone 4 | File holding bay, combine multiple files into single package |
-| AltTab | Windows-style window switching (specific windows, not apps) |
-| MonitorControl | Unified brightness across external displays |
-| App Cleaner | Removes hidden support files (better than drag-to-trash) |
-| Scribe | Record operational processes automatically → scalable mentorship |
+| Alfred | Thay thế đèn: lịch sử bảng tạm, đoạn trích, tìm kiếm |
+| Drop Zone 4 | Name |
+| AltTab | Cửa sổ kiểu Windows chuyển đổi (cửa sổ đặc dụng, không phải ứng dụng) |
+| MonitorControl | Ánh sáng không rõ ràng qua các màn hình bên ngoài |
+| App Cleaner | Gỡ bỏ các tập tin hỗ trợ ẩn (tốt hơn kéo- ra-trash) |
+| Scribe | Ghi chép các tiến trình hoạt động tự động hướng dẫn tính hiệu quả |
 
 ## Backlinks
 - [[JeffSu-Channel-Summary]]

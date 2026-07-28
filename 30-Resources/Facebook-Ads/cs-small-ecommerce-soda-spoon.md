@@ -1,5 +1,5 @@
 ---
-title: "Soda Spoon — ROAS 3.61x Single-Ad E-commerce Success (Q1 2026)"
+title: "Soda Spoon — ROAS 3,61x với Chỉ Một Quảng Cáo Thành Công trong Thương Mại Điện Tử (Quý 1/2026)"
 slug: "cs-small-ecommerce-soda-spoon"
 category: resource
 tags: [facebook-ads, case-study, e-commerce]
@@ -9,43 +9,43 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-# Soda Spoon — ROAS 3.61x with Single Ad (Q1 2026)
+# Soda Spoon — ROAS 3,61x với Chỉ Một Quảng Cáo (Quý 1/2026)
 
-## Key Metrics
-- **ROAS:** 3.61x running just ONE ad
-- **Daily budget:** Conservative $50/day, no scaling pressure
-- **Timeframe:** Q1 2026, e-commerce direct-to-consumer
+## Các chỉ số chính
+- **ROAS:** 3,61x khi chạy chỉ MỘT quảng cáo duy nhất
+- **Ngân sách hàng ngày:** Bảo thủ $50/ngày, không có áp lực mở rộng quy mô
+- **Thời gian:** Quý 1/2026, thương mại điện tử bán trực tiếp cho người tiêu dùng
 
-## Strategy Breakdown
+## Phân tích chiến lược
 
-### The Single-Ad Approach
-While most agencies recommend testing 5-10 creative variants, Soda Spoon succeeded with a single well-crafted ad running consistently. The key was that the creative itself contained enough "hooks" for Meta's algorithm to optimize — not needing multiple separate creatives for ABO testing.
+### Cách tiếp cận chỉ một quảng cáo
+Trong khi hầu hết các đại lý khuyến nghị kiểm tra từ 5 đến 10 biến thể sáng tạo khác nhau, Soda Spoon đã thành công với một quảng cáo được thiết kế tốt chạy liên tục. Chìa khóa nằm ở việc bản thân nội dung sáng tạo chứa đủ những "móc câu" để thuật toán của Meta tối ưu hóa — không cần nhiều sáng tạo riêng biệt cho việc kiểm tra ABO (Ad Set Budget Optimization).
 
-### Creative Anatomy (Single Ad)
-1. **Hook:** Problem statement in first 2 words that matched customer pain point
-2. **Demo:** Product solving the problem within the first 5 seconds
-3. **Transition:** Clear before/after visual state change at second 7
-4. **Social proof:** Customer testimonial text overlay during usage demonstration
-5. **CTA:** Direct link with incentive (free shipping threshold)
+### Cấu trúc sáng tạo (Một quảng cáo duy nhất)
+1. **Móc câu:** Phát biểu vấn đề trong hai từ đầu tiên khớp với điểm đau của khách hàng
+2. **Demo:** Sản phẩm giải quyết vấn đề đó trong vòng 5 giây đầu tiên
+3. **Chuyển tiếp:** Thay đổi trạng thái hình ảnh rõ ràng trước/sau tại giây thứ 7
+4. **Bằng chứng xã hội:** Văn bản trích dẫn khách hàng phủ lên màn hình trong quá trình demo sử dụng
+5. **CTA (Kêu gọi hành động):** Liên kết trực tiếp kèm ưu đãi (ngưỡng miễn phí vận chuyển)
 
-### Campaign Structure
-- Single campaign, objective: Conversions (Purchase)
-- Advantage+ placements enabled across all Facebook/Instagram surfaces
-- Cost cap at target CPA — no bid strategy changes throughout campaign life
-- No creative refresh until CTR dropped below 0.8% or frequency hit 3.0
+### Cấu trúc chiến dịch
+- Một chiến dịch duy nhất, mục tiêu: Chuyển đổi (Mua hàng)
+- Bật vị trí Advantage+ trên tất cả các bề mặt Facebook/Instagram
+- Giới hạn chi phí theo CPA mục tiêu — không thay đổi chiến lược đặt giá trong suốt vòng đời chiến dịch
+- Không làm mới sáng tạo cho đến khi CTR giảm xuống dưới 0,8% hoặc tần suất tiếp cận đạt 3,0
 
-### Why Single Ad Worked Here
-1. **Clear problem-solution fit** for Soda Spoon's product category (health/supplement) reduced need for creative variety
-2. Strong first-party pixel data meant algorithm already knew who converts
-3. Conservative budget ($50/day) prevented learning phase churn — single ad gets full data pool
-4. Product had natural visual transformation → proof-driven creative works better than narrative
+### Tại sao cách tiếp cận một quảng cáo lại hiệu quả ở đây?
+1. **Sự phù hợp rõ ràng giữa vấn đề và giải pháp** đối với danh mục sản phẩm của Soda Spoon (sức khỏe/bổ sung) đã giảm bớt nhu cầu về sự đa dạng trong sáng tạo
+2. Dữ liệu pixel bên thứ nhất mạnh mẽ có nghĩa là thuật toán đã biết ai sẽ chuyển đổi
+3. Ngân sách bảo thủ ($50/ngày) ngăn chặn việc mất dữ liệu trong giai đoạn học — quảng cáo duy nhất nhận được toàn bộ nguồn dữ liệu
+4. Sản phẩm có sự biến đổi hình ảnh tự nhiên → sáng tạo dựa trên bằng chứng hiệu quả hơn so với kể chuyện
 
-### When to Use This vs Multi-Creative Testing
-- **Single ad model works when:** Strong product visual, clear problem-solution fit, modest budget (<$100/day), pixel has historical data
-- **Multi-ad testing works when:** Unclear audience needs discovery, high-ticket complex products, new pixel with zero history, $200+/day daily spend
+### Khi nào nên dùng mô hình này thay vì kiểm tra nhiều quảng cáo?
+- **Mô hình một quảng cáo hoạt động tốt khi:** Hình ảnh sản phẩm rõ ràng, sự phù hợp giữa vấn đề và giải pháp rõ ràng, ngân sách khiêm tốn (<$100/ngày), pixel có dữ liệu lịch sử
+- **Kiểm tra nhiều quảng cáo hoạt động tốt khi:** Nhu cầu của khán giả chưa rõ ràng cần khám phá, sản phẩm phức tạp giá cao, pixel mới với không có tiền lệ nào, chi tiêu hàng ngày từ $200+/ngày trở lên
 
-### Key Takeaway
-More creatives doesn't automatically equal better ROAS. If you have one ad that hits the core customer pain point clearly and has strong visual proof, it can outperform a poorly diversified creative portfolio. The discipline to **let a single winner run** without prematurely killing it for "testing" was what enabled 3.61x ROAS from just $50/day spend.
+### Bài học chính
+Nhiều sáng tạo hơn không đồng nghĩa tự động với ROAS tốt hơn. Nếu bạn có một quảng cáo chạm đúng điểm đau cốt lõi của khách hàng rõ ràng và có bằng chứng hình ảnh mạnh mẽ, nó có thể vượt trội so với danh mục sáng tạo kém đa dạng hóa. Sự kỷ luật để **để cho người chiến thắng duy nhất chạy** mà không giết chết nó sớm vì lý do "kiểm tra" chính là yếu tố đã giúp đạt được ROAS 3,61x chỉ từ chi tiêu $50/ngày.
 
 ---
-*Case study extracted from ads campaigns deep-dive research (June 2026). Source: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*
+*Bài nghiên cứu trường hợp được trích xuất từ phân tích sâu các chiến dịch quảng cáo (tháng 6/2026). Nguồn: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*

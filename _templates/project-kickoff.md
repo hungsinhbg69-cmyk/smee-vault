@@ -17,7 +17,7 @@ progress: 0
 ## 📌 Problem Statement
 - 
 
-## 🎯 Goals & Success Criteria
+## _ Mục tiêu và thành công
 - [ ] 
 
 ## 🚫 Non-Goals
@@ -30,7 +30,7 @@ progress: 0
 ### Must Have
 - 
 
-### Nice to Have
+### Thật tốt khi có
 - 
 
 ## 📅 Timeline & Milestones
@@ -44,9 +44,9 @@ progress: 0
 
 ---
 %% Agent instructions:
-- This is the Project MOC — all project notes link here
-- Update next_action every session
-- Progress field: 0-100% integer
-- Weekly review: verify "what happens next?" exists
-- Archive when progress = 100 and no pending items
+- Đây là Dự án MOC — tất cả các ghi chú dự án liên kết ở đây
+- Cập nhật t_p tác vụ tiếp theo mỗi phiên chạy
+- Trường tiến hành: 000% số nguyên
+- Xem xét hàng tuần: xác nhận "những gì xảy ra tiếp theo?" tồn tại.
+- Kho lưu khi tiến trình = 100 và không có mục đang đợi
 %%

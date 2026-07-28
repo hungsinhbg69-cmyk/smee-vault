@@ -15,8 +15,8 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Translate {} into Chinese:
-    1. Preserve the meaning and tone
-    2. Maintain appropriate cultural context
-    3. Keep formatting and structure
-    Return only the translated text.
+Dịch [} sang tiếng Hoa:
+    1. Bảo tồn ý nghĩa và giọng điệu
+    2. Giữ bối cảnh văn hóa thích hợp
+    3. Tiếp tục định dạng và cấu trúc
+    Chỉ trả lại văn bản đã được dịch.

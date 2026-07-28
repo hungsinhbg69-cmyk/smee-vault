@@ -1,5 +1,5 @@
 ---
-title: "Fb Api Insights Fields Reference"
+title: "Tham khảo các trường của Facebook Insights API"
 slug: "fb-api-insights-fields-reference"
 category: resource
 tags: [vault-maintenance, facebook-ads]
@@ -10,181 +10,181 @@ last_updated: 2026-06-24
 ---
 
 
-# API Insights Fields (Reporting + Metrics)
+# Các trường Insights của API (Báo cáo + Chỉ số)
 
-## Meta Graph API - Insights Endpoint
+## Meta Graph API - Điểm cuối Insights
 
-### Base endpoint
+### Điểm cuối cơ bản
 `
-GET /act_{AD_ACCOUNT_ID}/insights
-GET /{CAMPAIGN_ID}/insights
-GET /{ADSET_ID}/insights
-GET /{AD_ID}/insights
+Lấy /act_{AD_ACCOT_D}/insights
+Lấy /{CAMPAIGN_ID}/insights
+Lấy /{ADST_ID}/insights
+Gỡ bỏ /{D_ID}/insights
 `
 
-### Required parameters
-- level: campaign | adset | ad | criteria (required)
-- ields: comma-separated metric fields (required)
+### Các tham số bắt buộc
+- level: campaign | adset | ad | criteria (bắt buộc)
+- fields: các trường chỉ số phân cách bằng dấu phẩy (bắt buộc)
 
-### Optional parameters
-- date_preset: today | yesterday | last_7d | last_30d | this_month | last_month | lifetime | custom
-- since / until: custom date range (ISO 8601)
-- iltering: JSON array of filter conditions
-- reakdowns: array of breakdown dimensions
-- sort: field to sort by
-- limit: results per page
+### Các tham số tùy chọn
+### Tham số tùy chọn
+- since / until: khoảng thời gian tùy chỉnh (ISO 8601)
+- filtering: mảng JSON các điều kiện lọc
+- breakdowns: mảng các chiều phân tích
+- sort: trường để sắp xếp
+- limit: số kết quả mỗi trang
 
-## Key Insight Fields
+## Các trường Insights chính
 
-### Cost fields
-| Field | Description | Example value |
+### Các trường chi phí
+| Trường | Mô tả | Giá trị ví dụ |
 |---|---|---|
-| spend | Ad spend in minor currency units (cents) | 5000 = .00 |
-| cpm | Cost per 1,000 impressions | 8.50 |
-| ecpm | Effective CPM (includes all placements) | 9.20 |
-| cost_per_total_action | Average cost per all actions | 3.50 |
+| spend | Chi phí quảng cáo tính bằng đơn vị tiền tệ nhỏ nhất (xu) | 5000 = .00 |
+| cpm | Chi phí cho mỗi 1.000 lượt hiển thị | 8.50 |
+| ecpm | CPM hiệu quả (bao gồm tất cả vị trí hiển thị) | 9.20 |
+| chi phí_per_ttal_ action | Chi phí trung bình cho mọi hành động | 3.50 |
 
-### Click fields
-| Field | Description | Example value |
+### Các trường nhấp chuột
+| Trường | Mô tả | Giá trị ví dụ |
 |---|---|---|
-| clicks | Total clicks (all types) | 1500 |
-| link_clicks | Clicks on links only | 800 |
-| unique_clicks | Unique clickers | 650 |
-| ctr | Click-through rate (clicks/impressions) | 0.025 |
-| click_through_rate | Link CTR specifically | 0.015 |
-| cost_per_link_click | CPC for link clicks | 0.63 |
+| clicks | Tổng số lượt nhấp (tất cả loại) | 1500 |
+| link_clicks | Lượt nhấp vào liên kết | 800 |
+| unique_clicks | Người nhấp duy nhất | 650 |
+| ctr | Tỷ lệ nhấp (lượt nhấp/lượt hiển thị) | 0.025 |
+| nhấn_qua_rate | CTR cho liên kết cụ thể | 0.015 |
+| _ bấy_nhiêu_ bấy_nhiêu: | CPC cho lượt nhấp vào liên kết | 0.63 |
 | cost_per_unique_click | Cost per unique clicker | 0.77 |
 
-### Conversion fields
-| Field | Description | Example value |
+### Các trường chuyển đổi
+| Trường | Mô tả | Giá trị ví dụ |
 |---|---|---|
-| actions | Array of conversion events by type | See breakdown below |
-| cost_per_action_type | CPA for each event type | See breakdown below |
-| purchases | Number of purchase conversions | 25 |
-| purchase_roas | Return on ad spend (purchase) | 3.85 |
-| results | Total optimization results | 150 |
-| cost_per_result | Average cost per optimization result | 2.00 |
+| actions | Mảng các sự kiện chuyển đổi theo loại | Xem phần phân tích bên dưới |
+| kiểu_p/ hành động | CPA cho mỗi loại sự kiện | Xem phần phân tích bên dưới |
+| purchases | Số lượng chuyển đổi mua hàng | 25 |
+| purchase_roas | Tỷ suất lợi nhuận trên chi phí quảng cáo (mua hàng) | 3.85 |
+| results | Tổng kết quả tối ưu hóa | 150 |
+| _per_reult | Chi phí trung bình cho mỗi kết quả tối ưu hóa | 2.00 |
 
-### actions field breakdown format
+### Định dạng phân tích trường actions
 `json
 "actions": [
-  {"action_type": "purchase", "value": "25"},
-  {"action_type": "add_to_cart", "value": "80"},
-  {"action_type": "link_click", "value": "800"},
-  {"action_type": "post_engagement", "value": "45"}
+  "Xà" theo kiểu "ppurchase", "giá trị" : "25"
+  ["ase_type": "add_ to_cart", "giá trị": "80"
+  "Xâm nhập" : "link_ click", "giá trị" : "800"
+  ["a"ase_type": "tiểu thức ", giá trị" : "45"}
 ]
 `
 
-### cost_per_action_type breakdown format
+### Định dạng phân tích trường cost_per_action_type
 `json
-"cost_per_action_type": [
+"kiểu hành động giá trị:
   {"action_type": "purchase", "cost_per_action": "2.00"},
-  {"action_type": "add_to_cart", "cost_per_action": "0.63"},
+  "Xin lỗi" là "lên xe"
   {"action_type": "link_click", "cost_per_action": "0.01"}
 ]
 `
 
-### Reach & Frequency fields
-| Field | Description | Example value |
+### Các trường Phạm vi tiếp cận & Tần suất
+| Trường | Mô tả | Giá trị ví dụ |
 |---|---|---|
-| impressions | Total ad impressions | 50000 |
-| reach | Unique people reached | 35000 |
-| frequency | Average impressions per person | 1.43 |
-| unique_impressions | Unique impressions (deduplicated) | 42000 |
-| unique_reach | Unique reach (deduplicated) | 35000 |
+| impressions | Tổng số lượt hiển thị quảng cáo | 50000 |
+| reach | Số người duy nhất được tiếp cận | 35000 |
+| frequency | Số lần hiển thị trung bình mỗi người | 1.43 |
+| unique_impressions | Lượt hiển thị duy nhất (đã loại trùng) | 42000 |
+| unique_reach | Phạm vi tiếp cận duy nhất (đã loại trùng) | 35000 |
 
-### Video fields
-| Field | Description | Example value |
+### Các trường Video
+| Trường | Mô tả | Giá trị ví dụ |
 |---|---|---|
-| video_avg_time_watched_seconds | Average watch time | 8.5 |
+| Xem giây_động | Thời gian xem trung bình | 8.5 |
 | videos_3sec_watches | 3-second video views | 12000 |
 | videos_10sec_watches | 10-second video views | 4500 |
-| videos_full_views | Complete video watches | 1200 |
+| _Xem ảnh động đầy đủ | Lượt xem hoàn chỉnh video | 1200 |
 | video_avg_time_watched | Average watch time (formatted) | "8.5s" |
 
-### Engagement fields
-| Field | Description | Example value |
+### Các trường Tương tác
+| Trường | Mô tả | Giá trị ví dụ |
 |---|---|---|
-| post_engagement_results | Post engagement count | 450 |
-| page_likes | Page likes gained | 12 |
-| campaign_group_objective_reach | Reach optimized for objective | 30000 |
+| Gửi_gấp_resuts | Số lượng tương tác bài đăng | 450 |
+| page_likes | Lượt thích trang đã tăng thêm | 12 |
+| _ Nhóm_ kích hoạt_động_rút | Phạm vi tiếp cận được tối ưu cho mục tiêu | 30000 |
 
-## Breakdown Dimensions
+## Các chiều phân tích (Breakdown Dimensions)
 
-### Available breakdowns
-| Dimension | Description |
+### Các chiều phân tích khả dụng
+| Chiều | Mô tả |
 |---|---|
-| platform | Facebook vs Instagram vs Audience Network |
-| device | Desktop vs Mobile vs Tablet |
-| age | Age brackets |
-| gender | Male vs Female vs All |
-| country | By country code |
-| region | By region/state |
-| city | By city |
-| placement | Feed vs Stories vs Reels vs etc |
-| impression_device | Device type at impression time |
-| publisher_platform | Where ad was shown |
-| creative_asset_category | Image vs Video vs Carousel |
+| platform | Facebook so với Instagram và Audience Network |
+| device | Máy tính để bàn, Di động hay Máy tính bảng |
+| age | Nhóm tuổi |
+| gender | Nam, Nữ hoặc Tất cả |
+| country | Theo mã quốc gia |
+| region | Theo khu vực/tỉnh bang |
+| city | Theo thành phố |
+| placement | Feed, Stories, Reels và v.v. |
+| impression_device | Loại thiết bị tại thời điểm hiển thị |
+| publisher_platform | Nơi quảng cáo được hiển thị |
+| _Sự phân loại tạo | Hình ảnh, Video hay Carousel |
 
-### Example with breakdowns
+### Ví dụ với các chiều phân tích
 `
-GET /act_{ID}/insights?level=ad&fields=spend,impressions,actions,purchase_roas&breakdowns=[placement,platform,age,gender]&date_preset=last_7d
+Lấy /cc_{ID*TIẾNG THÔI*? *SPED=KNEED=OOH, CLOOO:
 `
 
-## Date Preset Options
-| Preset | Description |
+## Các tùy chọn Đặt trước ngày (Date Preset)
+| Tùy chọn | Mô tả |
 |---|---|
-| today | Current day (UTC) |
-| yesterday | Previous day (UTC) |
-| last_7d | Last 7 days including today |
-| last_14d | Last 14 days including today |
-| last_30d | Last 30 days including today |
-| this_month | Current month so far |
-| last_month | Previous full month |
-| last_3m | Last 3 months |
-| this_quarter | Current quarter |
-| last_quarter | Previous full quarter |
-| lifetime | All time |
-| custom | Use since/until parameters |
+| today | Ngày hiện tại (UTC) |
+| yesterday | Ngày hôm qua (UTC) |
+| last_7d | 7 ngày gần nhất bao gồm ngày hôm nay |
+| last_14d | 14 ngày gần nhất bao gồm ngày hôm nay |
+| last_30d | 30 ngày gần nhất bao gồm ngày hôm nay |
+| this_month | Tháng hiện tại cho đến nay |
+| last_month | Tháng đầy đủ trước đó |
+| last_3m | 3 tháng gần nhất |
+| this_quarter | Quý hiện tại |
+| last_quarter | Quý đầy đủ trước đó |
+| lifetime | Tất cả thời gian |
+| custom | Sử dụng các tham số since/until |
 
-## Filter Operators
-| Operator | Description | Example |
+## Các toán tử Lọc
+| Toán tử | Mô tả | Ví dụ |
 |---|---|---|
-| = | Equals | {"field":"objective","op":"eq","value":"CONVERSIONS"} |
-| != | Not equals | {"field":"status","op":"neq","value":"DELETED"} |
-| > | Greater than | {"field":"spend","op":"gt","value":"10000"} |
-| < | Less than | {"field":"frequency","op":"lt","value":"3.0"} |
-| >= | Greater or equal | {"field":"purchases","op":"gte","value":"50"} |
-| <= | Less or equal | {"field":"cpm","op":"lte","value":"10.0"} |
-| IN | In list | {"field":"objective","op":"in","value":["CONVERSIONS","SALES"]} |
+| = | Bằng | "Freveive" "Op" ":"eq", giá trị ": "Cunguests" |
+| != | Không bằng | "field": "Status" ","op"": "neq", giá trị ": "EEETEEEEEEEEEEEE""" "} |
+| > | Lớn hơn | "Floafield" :"Ep" "Op""" "gt""" ", giá trị" "a 1000"" |
+| < | Nhỏ hơn | "field": "Frequaency" "Op": "lt", giá trị ":"3.0" |
+| >= | Lớn hơn hoặc bằng | "field": "purchasses" "Op"" "gte" ", giá trị" "50" |
+| <= | Nhỏ hơn hoặc bằng | "field": "cpm" "op"" "lte" ", giá trị" "10". |
+| IN | Trong danh sách | "Franve" "Op" "in" ", giá trị" ["CONVES" ",SALES"] |
 
-## Common API Queries
+## Các truy vấn API phổ biến
 
-### Get all ad sets performance (last 7 days)
+### Lấy hiệu suất của tất cả các tập quảng cáo (7 ngày qua)
 `
-GET /act_{ID}/insights?level=adset&fields=adset_name,spend,impressions,clicks,link_clicks,ctr,cpc,cpm,actions,purchase_roas&date_preset=last_7d
-`
-
-### Get top 5 performing ads by ROAS
-`
-GET /act_{ID}/insights?level=ad&fields=ad_name,spend,purchases,purchase_roas,actions&breakdowns=[creative_asset_category]&date_preset=last_30d&sort=-purchase_roas&limit=5
+Lấy /cc_{IDTập hợp =adset&fields=adset_ name, less, inpressions,link_ctr, cpcc, actions,purchase_roas&date_preset=7d
 `
 
-### Find ad sets in learning phase
+### Lấy 5 quảng cáo hiệu quả nhất theo ROAS
 `
-GET /act_{ID}/insights?level=adset&fields=adset_name,spend,results,impressions,reach,frequency&date_preset=last_7d&filtering=[{"field":"optimization_guide","op":"eq","value":"CONVERSIONS"}]
-`
-
-### Breakdown by placement (find best performing)
-`
-GET /act_{ID}/insights?level=adset&fields=adset_name,spend,actions,cpm,cpc,ctr&breakdowns=[placement]&date_preset=last_14d
+Lấy /cc_{ID*TIẾNG C_EPHHHHHHHHHHHHHHHHHHHHHHHHH: = [creative_creative_cate_cate_cate]&fields=ad_ name, staset=th_30d&ort=-purchase_roas = 5
 `
 
-## API Rate Limits
-- Standard: ~200 requests per app per user per hour
-- Burst: Up to 50 requests/second (short bursts)
-- Check X-Marketing-App-Event-Header for remaining quota
-- Implement exponential backoff on 429 responses
+### Tìm các tập quảng cáo đang ở giai đoạn học tập
+`
+Lấy /cc_{ID[Tiếng địa phương] [tiếng vỗ]
+`
+
+### Phân tích theo vị trí hiển thị (tìm vị trí hiệu quả nhất)
+`
+Lấy /cc_{ID*Tám ảnh? *SPCpccpdowns=[ment]&fields=adset= biệt hiệu : biệt lập, đình chỉ, hành động, cpcccc, ctr& Breakdowns=[các chỉ định]&date_preset=st_14d
+`
+
+## Giới hạn tốc độ API
+- Tiêu chuẩn: ~200 yêu cầu mỗi ứng dụng cho mỗi người dùng mỗi giờ
+- Đột xuất: Lên đến 50 yêu cầu/giây (những đợt ngắn)
+- Kiểm tra X-Marketing-App-Event-Header để xem số lượng còn lại
+- Triển khai cơ chế giảm tốc độ theo hàm mũ đối với phản hồi 429
 
 ---
-*Created: 2026-06-15 | Reference: Graph API v25.0 docs*
+*Đã tạo: 2026-06-15 | Tham khảo: tài liệu Graph API v25.0*

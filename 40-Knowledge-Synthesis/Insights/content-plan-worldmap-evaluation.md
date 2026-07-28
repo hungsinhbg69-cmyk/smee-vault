@@ -91,7 +91,7 @@ source: "Sheet FANPAGE 1 - ANH NGỮ WM (gid=1391050888)"
 5. **Hashtags generic:** #WorldMap xuất hiện ở mọi bài — nên có hashtag riêng cho từng series/campaign
 6. **Không có retargeting angle:** Tất cả content đều hướng new audience — thiếu content cho warm leads (người đã like/follow nhưng chưa đăng ký)
 
-### 📊 CONTENT MIX ANALYSIS
+### _ĐÃ TRONG MỘT BỐI TÂM
 - **Nhận diện thương hiệu:** ~14 bài (42%) — hơi cao so với mục tiêu tuyển sinh
 - **Tuyển sinh trực tiếp:** ~10 bài (30%) — hợp lý
 - **Educational/Value:** ~6 bài (18%) — cần tăng để build authority

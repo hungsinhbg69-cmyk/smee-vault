@@ -16,7 +16,7 @@ last_updated: 2026-06-20
 
 ## Macro 1: Quick Capture vào Inbox
 
-**Action:** Input + Create file from template
+**Action:** nhập + tạo tập tin từ mẫu
 ```json
 {
   "name": "Quick Capture",
@@ -51,9 +51,9 @@ last_updated: 2026-06-20
 }
 ```
 
-## Macro 2: Meeting Note Capture
+## Macro 2: Họp ghi chú
 
-**Action:** Input + Create file from template
+**Action:** nhập + tạo tập tin từ mẫu
 ```json
 {
   "name": "Meeting Capture",
@@ -85,9 +85,9 @@ last_updated: 2026-06-20
 }
 ```
 
-## Macro 3: Atomic Note from Daily
+## Macro 3: Ghi chú nguyên tử từ mỗi ngày
 
-**Action:** Input + Create atomic note with auto-links
+**Action:** Nhập + tạo chú thích nguyên tử bằng liên kết tự động
 ```json
 {
   "name": "Promote to Atomic",
@@ -116,9 +116,9 @@ last_updated: 2026-06-20
 }
 ```
 
-## Macro 4: Source Capture (Web/Paper)
+## Macro 4: Nguồn gốc (Wb/Pper)
 
-**Action:** URL input + Literature note template
+**Action:** URL nhập và chú thích văn bản
 ```json
 {
   "name": "Source Capture",
@@ -149,5 +149,5 @@ last_updated: 2026-06-20
 
 ---
 
-*Created: 2026-06-20 by Smee — Layer 4 Deploy (QuickAdd Macros)*
-*To use: Obsidian → Settings → QuickAdd → Add Macro → paste JSON config.*
+*Created: 2026-06-20 bởi Smee — Lớp 4 triển khai (QuickAdd Macros)*
+* Để dùng: Obsidian Thiết lập _Nghề nghiệp: QuickAdd _Nắp thêm Macro _ tơ JSON Con chuột.

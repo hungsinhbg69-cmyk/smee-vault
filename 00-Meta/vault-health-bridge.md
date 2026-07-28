@@ -46,7 +46,7 @@ last_updated: 2026-07-15
 - concept: 14
 - agent-training: 12
 - marketing: 12
-- yen-the-golden-hill: 12
+- Yên-vàng- đồi: 12
 
 ### Nội dung cũ
 
@@ -56,37 +56,37 @@ last_updated: 2026-07-15
 
 | Template | Số ghi chú tham chiếu | Trạng thái |
 |---|---:|---|
-| atomic-note-v2.md | 1 | ACTIVE |
-| atomic-note.md | 4 | ACTIVE |
-| daily-note.md | 2 | ACTIVE |
-| experiment-note.md | 2 | ACTIVE |
-| fleeting-note.md | 0 | UNUSED |
-| literature-note.md | 3 | ACTIVE |
-| meeting-note.md | 4 | ACTIVE |
-| meeting-notes.md | 0 | UNUSED |
-| project-kickoff.md | 2 | ACTIVE |
-| quick-capture-template.md | 1 | ACTIVE |
-| quick-idea.md | 1 | ACTIVE |
-| quickadd-atomic-note.md | 0 | UNUSED |
-| quickadd-daily-note.md | 0 | UNUSED |
-| quickadd-weekly-review.md | 0 | UNUSED |
-| task-item.md | 0 | UNUSED |
-| template-agent-session-log.md | 1 | ACTIVE |
-| weekly-review.md | 5 | ACTIVE |
-| Clip Web Page.md | 0 | UNUSED |
+| Ghi chú nguyên tử-v2.mmd | 1 | ACTIVE |
+| Ghi chú nguyên tử | 4 | ACTIVE |
+| Ghi chú hàng ngày | 2 | ACTIVE |
+| Ghi chú thử ra | 2 | ACTIVE |
+| Ghi chú nhanh | 0 | UNUSED |
+| Ghi chú- chú | 3 | ACTIVE |
+| Ghi chú gặp gỡ | 4 | ACTIVE |
+| Ghi chú gặp gỡ.md | 0 | UNUSED |
+| Đã bị loại.md | 2 | ACTIVE |
+| Bộ đệm nhanh/ lật ngược đồ thị | 1 | ACTIVE |
+| nhanh-idea.md | 1 | ACTIVE |
+| quickadd- Ghi chú- đối tượng | 0 | UNUSED |
+| quickadd- Ghi chú-thô-giang-ngu | 0 | UNUSED |
+| quickadd- Nhìn hàng tuần. | 0 | UNUSED |
+| nhiệm vụ- item.md | 0 | UNUSED |
+| Bản ghi nhớ tạo mẫu | 1 | ACTIVE |
+| Xem hàng tuần.md | 5 | ACTIVE |
+| Page.md | 0 | UNUSED |
 | Clip YouTube Transcript.md | 0 | UNUSED |
 | Emojify.md | 0 | UNUSED |
-| Explain like I am 5.md | 0 | UNUSED |
-| Fix grammar and spelling.md | 0 | UNUSED |
-| Generate glossary.md | 0 | UNUSED |
-| Generate table of contents.md | 0 | UNUSED |
-| Make longer.md | 0 | UNUSED |
-| Make shorter.md | 0 | UNUSED |
-| Remove URLs.md | 0 | UNUSED |
-| Rewrite as tweet thread.md | 0 | UNUSED |
-| Rewrite as tweet.md | 0 | UNUSED |
+| Hãy giải thích như tôi 5 tuổi. | 0 | UNUSED |
+| Sửa ngữ pháp và chính tả.md | 0 | UNUSED |
+| Tạo ra bóng loáng.md | 0 | UNUSED |
+| Tạo bảng mục lục.md | 0 | UNUSED |
+| Làm lâu hơn. | 0 | UNUSED |
+| Làm ngắn hơn.md | 0 | UNUSED |
+| Gỡ bỏ URL.md | 0 | UNUSED |
+| Viết lại dạng chỉ tweet.md | 0 | UNUSED |
+| Viết lại dạng tweet.md | 0 | UNUSED |
 | Simplify.md | 0 | UNUSED |
 | Summarize.md | 0 | UNUSED |
-| Translate to Chinese.md | 0 | UNUSED |
+| Dịch sang tiếng Trung Quốc.md | 0 | UNUSED |
 
 > Báo cáo được tạo bằng script deterministic ault-monthly-audit.ps1; không dùng agentTurn.

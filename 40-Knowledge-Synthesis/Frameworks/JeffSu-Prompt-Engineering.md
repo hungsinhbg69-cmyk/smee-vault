@@ -1,5 +1,5 @@
 ---
-title: JeffSu - Prompt Engineering Guide
+title: JeffSu - Hướng dẫn kỹ thuật nhanh nhấtStencils
 slug: jeffsu-prompt-engineering
 category: knowledge
 tags:
@@ -17,26 +17,26 @@ related_tags:
 - gemini
 ---
 
-# Prompt Engineering Guide (from JeffSu)
+# Hướng dẫn kỹ thuật (từ JeffSu)
 
 ## Core Principles
 
-### First Try Fallacy
-Don't expect perfect results from one prompt. Effective prompting involves iterative refinement.
+### Thử phạm lỗi trước
+Đừng mong đợi kết quả hoàn hảo từ một thời điểm, thúc đẩy hiệu quả liên quan đến sự tinh luyện lặp lại.
 
-### The Magic Instruction
-**"First ask me five questions that will improve the response you'll be giving me."**
-- Forces AI to gather context before generating final output
-- Dramatically improves response quality
+### Sự chỉ dẫn bằng phép lạ
+**"Trước tiên hỏi tôi 5 câu hỏi sẽ cải thiện phản ứng của bạn sẽ cho tôi."**
+- Buộc AI phải tập hợp ngữ cảnh trước khi tạo ra kết xuất cuối cùng
+- Cách gây ấn tượng cải thiện chất lượng phản ứng
 
-## Prompt Templates & Patterns
+## Nhắc mẫu và mẫu
 
-### Notion Prompt Database Template
-- Use Callout Boxes for placeholders (Command + E)
-- Visually distinguish variables like [insert data set]
-- Organize by use case: drafting, research, code, analysis
+### Name
+- Dùng hộp gọi cho bộ giữ chỗ (Chỉ thị + E)
+- Phân biệt các biến số như [bộ dữ liệu ẩn]
+- Tổ chức bằng cách sử dụng trường hợp: soạn thảo, nghiên cứu, mã hóa, phân tích
 
-### AI Agent System Prompt Structure
+### Hệ thống đặc vụ AI gây ra sự suy thoái
 ```
 [Role definition]
 [Tool usage rules]
@@ -44,47 +44,47 @@ Don't expect perfect results from one prompt. Effective prompting involves itera
 [Error handling instructions]
 ```
 
-### ChatGPT Best Practices
-- Ask clarifying questions before generating
-- Use step-by-step reasoning for complex tasks
-- Specify output format explicitly
+### Chương trình tốt nhất cho trò chuyện
+- Hỏi rõ câu hỏi trước khi tạo ra
+- Dùng lý luận từng bước một cho các tác vụ phức tạp
+- Ghi rõ định dạng xuất
 
-## Tool-Specific Prompting
+## Comment
 
 ### Claude
-- Best for: Writing functional, high-quality code on first try
-- Strength: Code generation accuracy
-- Weakness: Less optimized for real-time search
+- Tốt nhất cho: ghi chức năng, mã chất lượng cao trên thử đầu tiên
+- Sức mạnh: độ chính xác của mã
+- Yếu đuối: ít tối ưu hóa tìm kiếm thời gian thực
 
 ### ChatGPT
-- Best for: Following complex checklists, reasoning tasks
-- Strength: Complex multi-step workflows
-- Tip: Use "ask me 5 questions" pattern
+- Tốt nhất: Theo danh sách phức tạp, công việc lý luận
+- Độ mạnh: dòng làm việc đa bước phức tạp
+- Gợi ý: Dùng mẫu "Xin hỏi 5 câu"
 
 ### Perplexity AI
-- Best for: Search scalpel — real-time fact-fetching with citations
-- Use as replacement for Google Search
-- Verify facts quickly with source attribution
+- Tốt nhất cho: Tìm kiếm dao mổ — thực tế thời gian thực với các trích dẫn
+- Dùng làm kiểu thay thế cho Google
+- Kiểm tra sự kiện nhanh chóng với nguồn gốc
 
 ### NotebookLM
-- Best for: Q&A from uploaded sources only (zero hallucination)
-- Use @YouTube command for podcast analysis
-- Ask for top 3 takeaways + actionable steps from long videos
+- Tốt nhất: Q&A từ các nguồn đã tải lên (không ảo giác)
+- Dùng lệnh & mật khẩu để phân tích
+- Yêu cầu số 3 ra khỏi đầu và bước hành động từ video dài
 
 ### Google Gemini
-- **Canvas feature:** Write/run code (Python/HTML/JS) directly in chat
-- **@YouTube command:** Analyze 2-hour podcasts, get key takeaways
-- **Reverse-engineer prompts:** Paste image → ask for original prompt
-- Multimodal: Process text, audio, video, images simultaneously
+- ** Đặc điểm Canvas:** Write/run code ()Python/ HTML/JS) trực tiếp trong trò chuyện
+- **@YouTube ra lệnh:** Phân tích 2 giờ boardcast, nhận được key cade
+- **Các nhắc nhở kỹ sư ngược lại:** Dán ảnh _phụ đề hỏi dấu nhắc gốc
+- Đa sắc: Tiến trình văn bản, âm thanh, video, hình ảnh cùng một lúc
 
-## Prompt Overload Paradox
-- Problem: Consuming many AI prompts without optimizing core few in daily work
-- Solution: Build personal prompt library, test and refine, use consistently
+## Nhắc quá tải đối tượng
+- Vấn đề: Số lượng AI thúc đẩy một số người làm việc hàng ngày mà không tối ưu hóa
+- Giải pháp: Tạo thư viện nhanh riêng, kiểm tra và tinh luyện, luôn sử dụng
 
-## Google's NEW Prompting Guide Highlights
-- Structured approach to prompt design
-- Context-setting before task description
-- Output specification with format requirements
+## Những điểm nổi bật trong sách hướng dẫn mới của Google
+- Cách tiếp cận có cấu trúc để thúc đẩy thiết kế
+- Name
+- Đặc tả xuất với yêu cầu định dạng
 
 ## Backlinks
 - [[JeffSu-AI-Agents-Explained]]

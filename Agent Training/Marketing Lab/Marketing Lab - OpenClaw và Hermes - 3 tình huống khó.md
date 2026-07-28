@@ -170,13 +170,13 @@ Tình huống 1 đạt có điều kiện với bản ghép 92/100 và zero crit
 
 ### Gold metrics S2 dùng cho vòng tiếp
 
-- Estimated completed: `2.940 × 0,89 = 2.616,6` (rate-based estimate).
-- Total placed CPA: `420m / 2.940 = 142.857`.
-- Media-only placed CPA: `380m / 2.940 = 129.252`.
-- Total completed CPA estimate: `420m / 2.616,6 = 160.514`.
-- Media-only completed CPA estimate: `380m / 2.616,6 = 145.227`.
-- Total net ROAS: `873m / 420m = 2,079`.
-- Media-only net ROAS: `873m / 380m = 2,297`.
+- Đã ước tính hoàn tất: `2.940 × 0,89 = 2.616,6` ( phỏng đoán dựa trên mức độ cao).
+- Tổng chỗ CPA đặt: `420m / 2.940 = 142.857`.
+- Chỉ đặt điểm CPA phương tiện: `380m / 2.940 = 129.252`.
+- Tổng ước tính CPA hoàn tất: `420m / 2.616,6 = 160.514`.
+- Ước tính công cụ truyền thông chỉ hoàn tất `380m / 2.616,6 = 145.227`.
+- Tổng lưới ROAS: `873m / 420m = 2,079`.
+- Chỉ có lưới phương tiện: `873m / 380m = 2,297`.
 
 ### Trạng thái kết thúc
 

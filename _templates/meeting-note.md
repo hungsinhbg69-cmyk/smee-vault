@@ -24,8 +24,8 @@ next_action:
 - [ ] 
 
 ## 📌 Action Items
-- [ ] @owner — task (due: YYYY-MM-DD)
-- [ ] @owner — task (due: YYYY-MM-DD)
+- [ ] @ ownerer — tác vụ (nếu: YYYY-MM-DD)
+- [ ] @ ownerer — tác vụ (nếu: YYYY-MM-DD)
 
 ## 💭 Parking Lot
 - 
@@ -35,8 +35,8 @@ next_action:
 
 ---
 %% Agent instructions:
-- Extract decisions → link to relevant Project MOC
-- Action items → create in obsidian-tasks format if needed
-- Move meeting notes folder during weekly connect phase
-- Link all attendees as [[People/Name]] if new
+- Trích ra các quyết định _ liên kết đến dự án MOC liên quan
+- Tạo mục hành động obsidian- nhiệm vụ định dạng nếu cần thiết
+- Chuyển thư mục họp trong giai đoạn kết nối hàng tuần
+- Liên kết tất cả các tham dự như [[People/Name]] mới
 %%

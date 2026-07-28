@@ -1,5 +1,5 @@
 ---
-title: B1 - Hermes independent retest variant
+title: B1 - Hermes Siêu dữ liệu
 date: 2026-07-13
 tags:
   - agent-training
@@ -14,7 +14,7 @@ created: 2026-07-13
 last_updated: 2026-07-13
 ---
 
-# B1 — Hermes independent retest variant
+# B1 — Hermes Siêu dữ liệu
 
 > [!danger] Dữ liệu cài lỗi để kiểm tra
 > Bảng dưới đây là bài nộp mô phỏng có lỗi cố ý. Không dùng làm tài liệu pháp lý hoặc nguồn fact trong các bài khác.

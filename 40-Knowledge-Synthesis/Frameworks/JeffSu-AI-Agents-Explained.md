@@ -1,5 +1,5 @@
 ---
-title: JeffSu - AI Agents Clearly Explained
+title: JeffSu - Các đặc vụ viên được giải thích rõ ràng
 slug: jeffsu-ai-agents-explained
 category: knowledge
 tags:
@@ -15,43 +15,43 @@ last_updated: '2026-07-14'
 source: NotebookLM "JeffSu Master Learning"
 ---
 
-# AI Agents — Clear Explanation (from JeffSu)
+# Các đặc vụ AI — Giải thích rõ ràng (từ JeffSu)
 
-## Workflow vs Agent: The Critical Difference
-- **AI Workflow:** Predefined path, human decides each step, LLM executes tasks
-- **AI Agent:** LLM becomes the decision-maker — reasons out steps autonomously and takes action to reach a goal
+## Dòng chảy làm việc tương ứng với tác vụ: Sự khác biệt nghiêm trọng
+- **AI WorkSn:** Đường dẫn xác định trước, con người quyết định từng bước, LLM Thực hiện tác vụ
+- **AI Đặc vụ:** LLM Trở thành người đưa ra quyết định — lý do ra ngoài bước tự động và hành động để đạt được mục tiêu
 
-## Three Components of an AI Agent
-1. **Brain:** Chat Model + Memory (context retention)
-2. **Tools:** APIs for Google Sheets, Slack, etc.
-3. **Brain Stem:** System Prompt controlling tool usage
+## Ba thành phần của một đặc vụ AI
+1. **Brain:** Mô hình trò chuyện và bộ nhớ (ghi nhớ ngữ cảnh)
+2. **Công cụ:** ADIs for Google Shets, Slack, etc.
+3. **Brain Stem:** Hệ thống nhắc kiểm soát công cụ sử dụng
 
 ## REACT Framework
-- **Reason:** Think through the approach
-- **Act:** Perform tasks using tools
-- Enables autonomous iteration toward goals
+- **Reason:** Nghĩ qua cách tiếp cận
+- **Act:** Thực hiện công việc bằng công cụ
+- Cho phép lặp lại tự động hướng tới mục tiêu
 
-## Everyday vs Reasoning Models
-- **Flash models:** Quick, simple tasks (ChatGPT, Claude basic)
-- **Pro/Reasoning models:** Complex planning, self-correction (Gemini Pro, OpenAI o-series)
+## Mỗi ngày, các mô hình lý luận
+- **Flash model:** Nhanh, đơn giản (ChatGPT, Claude)
+- **Pro/Reasoning:** Kế hoạch phức tạp, tự sửa chữa (Gemini Pro, OpenAI o-series)
 
 ## Key Principles
-- **First Try Fallacy:** Don't expect perfect results from one prompt. Ask AI to ask *you* five clarifying questions first.
-- **Prompt Overload Paradox:** Consuming many prompts without optimizing or consistently using core few in daily work.
-- **"Ask me 5 questions" trick:** Best instruction for gathering context before final response.
+- Đừng mong đợi kết quả hoàn hảo từ một dấu chấm phẩy.
+- **Prompt overload Paradox:** Việc thuyết phục nhiều lời nhắc nhở mà không tối ưu hóa hoặc luôn sử dụng lõi trong công việc hàng ngày.
+- **" chừng năm câu hỏi"" :** Chỉ dẫn tốt nhất cho việc thu thập ngữ cảnh trước khi đáp ứng cuối cùng.
 
-## AI Tools Specialization (JeffSu's breakdown)
+## Công cụ đặc biệt AISSSPS (bị hỏng)
 | Tool | Best For |
 |------|----------|
-| Claude | Writing functional code on first try |
-| ChatGPT | Following complex checklists, reasoning |
-| Perplexity AI | Search scalpel — real-time fact-fetching with citations |
-| NotebookLM | Q&A from uploaded sources only (no hallucination) |
-| Gemini | Canvas feature — write/run code in chat, multimodal processing |
+| Claude | Đang ghi mã chức năng vào lần thử đầu tiên |
+| ChatGPT | Sau những bảng kiểm tra phức tạp, lý luận |
+| Perplexity AI | Dao mổ tìm kiếm — thời gian thực với những lời trích dẫn |
+| NotebookLM | Q & A chỉ từ các nguồn đã tải lên (không ảo giác) |
+| Gemini | Chức năng của kênh Canvas — viết/run code in chat, xử lý đa sắc thái |
 
-## RAG (Retrieval-Augmented Generation)
-- AI looks up external data (calendar, news) before answering
-- Prevents hallucinations by grounding responses in real data
+## RAG (thế hệ tái cấu trúc)
+- AI tìm kiếm dữ liệu bên ngoài (cacendar, tin tức) trước khi trả lời
+- Ngăn chặn ảo giác bằng cách đặt nền phản ứng trong dữ liệu thật
 
 ## Backlinks
 - [[JeffSu-Channel-Summary]]

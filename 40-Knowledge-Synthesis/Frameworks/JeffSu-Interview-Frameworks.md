@@ -1,5 +1,5 @@
 ---
-title: JeffSu - Interview Frameworks Complete Guide
+title: JeffSu - Khung phỏng vấn toàn bộ Hướng dẫn
 slug: jeffsu-interview-frameworks
 category: knowledge
 tags:
@@ -15,87 +15,87 @@ last_updated: '2026-07-14'
 source: NotebookLM "JeffSu Master Learning"
 ---
 
-# Interview & Career Frameworks (from JeffSu)
+# Khung phỏng vấn và chăm sóc (từ JeffSu)
 
 ## Resume Frameworks
 
-### XYZ Framework (Google Recommended)
-**Accomplished [X] as measured by [Y], by doing [Z].**
-- Forces specific impact through data + explains actions taken
-- Even "unquantifiable" roles should have metrics (e.g., "reduced coffee wait time 30%")
+### Khung XYZ (được khuyến cáo bằng tiếng Google)
+**Accomplished [X] được đo bởi [Y], bằng cách làm [Z].**
+- Buộc ảnh hưởng đặc biệt qua dữ liệu + giải thích hành động đã thực hiện
+- Kể cả vai "không thể chối cãi" cũng nên có số đo (v., "phê đã được bán thời gian 30%")
 
 ### Presentation Order
-- **Work Experience ABOVE Education** — recruiters prioritize on-the-job performance over academic scores
-- Lead with quantified achievements, not duties
+- **Tạp chí giáo dục ABOVE** - tuyển dụng ưu tiên cho thành tích trên công việc hơn điểm học tập
+- Dẫn đầu với thành quả định lượng, không phải nhiệm vụ
 
-## Interview Answer Frameworks
+## Phỏng vấn trả lời các khung
 
-### Present-Past-Future (Tell Me About Yourself)
+### Hiện tại-Past-Fuure (Nói cho tôi biết về bạn)
 | Section | Content |
 |---------|---------|
-| **Present** | Current role + success metrics |
-| **Past** | One previous experience most related to target role |
-| **Future** | Connection between career trajectory and target company goals |
+| **Present** | & Hình ưa thích: |
+| **Past** | Một kinh nghiệm trước đây liên quan nhiều nhất đến vai trò mục tiêu |
+| **Future** | Kết nối giữa quỹ đạo nghề nghiệp và mục tiêu công ty |
 
 ### STAR Method
-- **S**ituation, **T**ask, **A**ction, **R**esult
-- Standard for behavioral interview questions
+- **S**ituation **T**ask **A**ction **R**esult
+- Chuẩn cho các câu hỏi phỏng vấn hành vi
 
-### CARL Method (Evolution of STAR)
-- **C**ontext, **A**ction, **R**esult, **L**earning
-- Adds self-reflection and growth emphasis
+### Phương pháp CAL (sự tiến hóa của sao)
+- **C**ontext **A**ction **R**esult **L**earning
+- Thêm sự phản chiếu và tăng trưởng nhấn mạnh
 
-### ETP Method (Why Leaving Current Job)
-- **E**xplain: Honestly and briefly
-- **T**ransition: To the new role
-- **P**otential: Excitement for future
+### Phương pháp _Nghề _Nghề nghiệp:
+- Thành thật và ngắn gọn
+- **T** giả dạng: để thay đổi vai trò
+- **P**tental: sự phấn khích cho tương lai
 
-### SCQA Framework (Presentations/Consulting)
-- **S**ituation, **C**omplication, **Q**uestion, **A**nswer
-- Structure persuasive presentations and outlines
+### Khung SCQA (Các mục chọn/ & conpulting)
+- **S**ituation **C**omplication **Q**uestion **A**nswer
+- Những lời trình bày và phác thảo thuyết phục
 
-## Networking for Introverts
+## Mạng tìm đối tượng nội trú
 
-### Social Currency Deposits
-- Provide positive, thoughtful engagement BEFORE asking for a favor
-- Builds "relationship bank" → rule of reciprocity
+### Những người chịu thiệt thòi về tiền tệ xã hội
+- Hãy hứa hôn tích cực, chu đáo trước khi xin một ân huệ
+- Xây dựng "tài sản tương tác" quy tắc tái thiết
 
-### Yes + And Method (LinkedIn Comments)
-1. **Yes:** Affirm the original post
-2. **And:** Build with personal anecdote/insight
-3. Depositions "virtual currency" into the relationship
+### Có + Phương pháp (Tiếng kêu)
+1. **Vâng:** Phụ đề gốc
+2. **Và:** Xây dựng với tính cách cá nhân/chỉ trích
+3. Phân bổ "tiền tệ vi tính" vào mối quan hệ
 
-### Personal CRM (Notion Template)
-- Track VIP contacts, last contacted date
-- **"Hit them up"** triggers when >3 months since last contact
-- Informational interviews: Best questions to ask
+### Chứng nhận cá nhân ( Mẫu chú thích)
+- Theo dõi các liên lạc VIP, ngày cuối cùng
+- **"Hập tắt"** kích hoạt khi >3 tháng kể từ lần liên lạc cuối
+- phỏng vấn thông tin: Những câu hỏi hay nhất cần hỏi
 
-## 90-Day Plan for New Hires (Harvard Framework)
+## Kế hoạch 90 ngày cho hệ thống Hires mới (bộ khung Harryvard)
 
-### Ends vs Means Cultural Norms
-- Does organization prioritize **final outcome** or **processes** to reach it?
+### Kết thúc với quy tắc văn hóa
+- Tổ chức có ưu tiên kết quả cuối cùng** hay **Các tiến trình** để đạt được nó?
 
-### Dr. Michael Watkins' Concepts
-- **Vicious Cycle:** Bad initial decisions → lack of trust → harder to learn/succeed
-- **Break-even Point:** When employee value produced = value received from organization
-- **Curse of Knowledge:** Experts too far from basics → those "one step ahead" are better teachers
+### Kết luận của bác sĩ Michael Watkins
+- **Vicious Crye:** Những quyết định ban đầu tồi tệ thiếu lòng tin
+- **Brab-ale-Went điểm:** Khi giá trị nhân viên sản xuất = giá trị nhận được từ tổ chức
+- **Krible of icricity:** Các chuyên gia quá xa với những điều cơ bản "một bước trước" là những giáo viên tốt hơn
 
-## Salary Negotiation Tips
-- Ask: *"How will my success be measured for the first two quarters?"*
-- Shows data-driven, results-oriented mindset already thinking about team goals
-- 5 Practical Tips framework available in source material
+## Lời khuyên thương lượng
+- Hỏi: "Làm thế nào để đo sự thành công của tôi cho hai phần tư đầu?"
+- Hiển thị tư duy được định hướng dữ liệu, kết quả đã nghĩ về mục tiêu của đội
+- 5 Những lời khuyên thực tiễn có trong tài liệu nguồn
 
-## Research Before Interview (3 Tools)
-1. **Google Trends:** Compare company products vs competitors → industry trends
-2. **LinkedIn:** Research interviewer background + mutual connections
-3. **Perplexity AI:** Search scalpel for specific facts with citations
+## Nghiên cứu trước khi phỏng vấn (3 công cụ)
+1. **Google Treds:** So sánh sản phẩm công ty với đối thủ cạnh tranh → xu hướng công nghiệp
+2. **Linked In:** Người phỏng vấn thông tin và kết nối lẫn nhau
+3. **Perplexity Al:** Tìm kiếm các dữ kiện cụ thể bằng trích dẫn
 
-## Common Interview Questions & Answers
-- "Tell me about yourself" → Present-Past-Future framework
-- "What's your greatest weakness?" → Acknowledge + highlight transferable skills
-- "Where do you see yourself in 5 years?" → Align with company trajectory
-- "Why are you leaving?" → ETP method
-- "Explain employment gap" → Brief, honest, focus on growth
+## Những câu hỏi và lời giải đáp thông thường
+- "Nói cho tôi biết về bạn" khung hiện tại-Past-Fuure
+- "Sự yếu đuối lớn nhất của bạn là gì?" _NNN thú nhận + kỹ năng chuyển đổi cao điểm
+- "Bạn nhìn thấy bản thân mình ở đâu trong 5 năm?" → Canh lề quỹ đạo công ty
+- "Tại sao anh lại bỏ đi?" → Phương pháp ORP
+- "Sự thiếu hụt việc làm giải thích" (Sciper) ngắn gọn, trung thực, tập trung vào tăng trưởng
 
 ## Backlinks
 - [[JeffSu-Channel-Summary]]

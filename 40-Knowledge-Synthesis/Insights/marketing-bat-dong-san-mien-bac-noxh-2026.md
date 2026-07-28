@@ -32,8 +32,8 @@ source_urls:
 ### 2. Hiệu Suất Facebook Ads BĐS (Số liệu thực chiến 2025-2026)
 | Phân khúc | CPL tham khảo | Ngân sách test tối thiểu | Tỷ lệ CTR cao hơn (video vs ảnh) | Nguồn |
 |-----------|--------------|-------------------------|-------------------------------|-------|
-| **Căn hộ tầm trung (1-3 tỷ)** | 500K-1,2 tr/lead | 15-25 tr/tháng | +20-50% CTR & inbox | Quốc Cường MKT, 2026 |
-| **Đất nền vùng ven** | 400K-1 tr/lead | 10-25 tr/tháng | +20-50% | Quốc Cường MKT, 2026 |
+| **Căn hộ tầm trung (1-3 tỷ)** | 500K-1,2 vòng/ chì | 15-25 tr/tháng | +20-50% CTR & inbox | Quốc Cường MKT, 2026 |
+| **Đất nền vùng ven** | 400K-1 chiều/ chì | 10-25 tr/tháng | +20-50% | Quốc Cường MKT, 2026 |
 | **Nhà ở xã hội (dưới 800tr)** | ~300K-700K/lead (ước tính) | 10-20 tr/tháng | +20-50% | Zafago + QC MKT, 2026 |
 | **Căn hộ cao cấp** | 1-2,5 tr/lead | 25-60 tr/tháng | +20-50% | Quốc Cường MKT, 2026 |
 

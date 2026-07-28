@@ -9,42 +9,42 @@ created: 2026-06-20
 last_updated: 2026-06-20
 ---
 
-# 📚 Task System Wiki — Quick Reference
+# _ Hệ thống Wiki — Tham khảo nhanh
 
-> Everything you need to know about creating, managing, and querying tasks in the vault.
+> Tất cả những gì anh cần biết về sáng tạo, quản lý, và truy vấn các nhiệm vụ trong hầm.
 
-## ✍️ Adding a Task (3 Ways)
+## _ĐÃ tạo tác vụ (3 cách)
 
-### Method 1: Inline on Any Note
-Type directly where needed:
+### Phương pháp 1: Trực tiếp trên bất cứ thông tin nào
+Gõ trực tiếp vào nơi cần thiết:
 ```markdown
 - [ ] #priority/P2 Write ad copy for campaign {{due:: 2026-07-01}} {{project:: FB Campaign Q3}}
 ```
 
-**Quick tip:** Use `{{due:: }}` and hit Tab — Templater can auto-fill today's date.
+**Quick tip:** Dùng `{{due:: }}` và nhấn thẻ — Templater có thể tự động hoàn thành ngày hôm nay.
 
-### Method 2: Quick Capture (Inbox)
-Use `01-Inbox/quick-capture-template.md` for rapid capture from any context:
-- Open quick capture template → paste raw thought → add `{due}`, `{priority}` tags later during triage.
+### Phương pháp 2: Bắt nhanh (trong hộp)
+Dùng `01-Inbox/quick-capture-template.md` để thu nhanh từ bất kỳ bối cảnh nào:
+- Mở nhanh mẫu thu được _Patch suy nghĩ thô thêm `{due}` `{priority}` thẻ sau trong thời gian ba giai đoạn.
 
-### Method 3: Tasks Insert Command
-If using the `/tasks insert` command (from tasks plugin):
-1. Press `Ctrl+P` → type "Tasks" → select task insertion mode
-2. Fill in due date, priority inline
-3. Saves directly to your active daily note or specified folder
+### Phương pháp 3: Tác vụ chèn lệnh
+Nếu sử dụng `/tasks insert` lệnh (từ tác vụ plugin_:
+1. Bấm `Ctrl+P` _ gõ kiểu "Tasks" _Gỡ chọn nhiệm vụ chèn
+2. Điền vào ngày tháng, ưu tiên trên liên kết
+3. Lưu trực tiếp vào ghi chú hoạt động hàng ngày hoặc thư mục đã xác định
 
-## 🏷️ Full Syntax Reference
+## Tham chiếu cú pháp toàn diện
 
 ### Due Date
 ```markdown
 - [ ] Task description {{due:: 2026-07-15}}
 ```
 - Format: `YYYY-MM-DD`
-- Relative dates work in queries: `today`, `tomorrow`, `next week monday`
-- Past due dates trigger overdue detection
+- Ngày tháng tương đối hoạt động trong thư mục: `today` `tomorrow` `next week monday`
+- Ngày tháng quá khứ gây ra quá hạn phát hiện
 
-### Priority Tags (Required)
-Always use the exact format — no shortcuts:
+### Thẻ ưu tiên (cần thiết)
+Luôn luôn dùng định dạng chính xác — không có đường tắt:
 - `#priority/P1` — 🔴 Critical
 - `#priority/P2` — 🟠 High  
 - `#priority/P3` — 🟡 Medium
@@ -54,41 +54,41 @@ Always use the exact format — no shortcuts:
 ```markdown
 - [ ] #priority/P2 Task {{due:: 2026-07-15}} {{project:: Campaign Name}}
 ```
-- Use kebab-case for project names: `{{project:: fb-campaign-q3}}`
-- Enables folder-based filtering in queries
+- Dùng chữ hoa/ thường cho tên của dự án: `{{project:: fb-campaign-q3}}`
+- Bật bộ lọc dựa vào thư mục trong bộ nhớ tạm
 
-### Status Tags (Optional)
-- `#status/doing` — actively working on it
-- `#status/waiting` — blocked by someone/something
-- `#status/review` — needs review before completion
+### Thẻ trạng thái ( Optale)
+- `#status/doing` - tích cực làm việc trên nó
+- `#status/waiting` - bị chặn bởi ai đó hay gì đó
+- `#status/review` — cần xem lại trước khi hoàn tất
 
-## 📊 Query Cheat Sheet
+## _Tìm kiếm vỏ sò gian lận
 
 | View | Query Block | Use Case |
 |------|-------------|----------|
-| Overdue | `not done / due before today` | Daily priority check |
+| Overdue | `not done / due before today` | Kiểm tra ưu tiên hàng ngày |
 | This Week | `not done / due after today -7 days / due before next week monday` | Weekly planning |
-| By Project | `folder contains "10-Projects/Name"` | Project status view |
+| Dự án | `folder contains "10-Projects/Name"` | Name |
 | Completed Today | `done after {{date:: YYYY-MM-DD}}` | Daily recap |
 
-## 🔗 Kanban Integration (Layer 2)
+## _Kurban - Hợp nhất (Layer 2)
 
-The kanban board connects to tasks through these rules:
+Ban điều hành liên kết với công việc thông qua những quy tắc này:
 
-1. **Auto-population:** Cards with `{{project:: Name}}` appear in the matching project column
-2. **Status columns map to tags:** 
-   - "Doing" → `#status/doing` or no status tag
+1. ** Dân số tự động:** Bài có `{{project:: Name}}` xuất hiện trong cột dự án
+2. **Status bản đồ cột đến thẻ:** 
+   - "Làm" → `#status/doing` hay không có thẻ trạng thái
    - "Waiting" → `#status/waiting`
-   - "Done" → checked `- [x]` checkbox
-3. **Drag-to-update:** Moving a card to Done column auto-checks the task box
-4. **Sync direction:** Kanban ↔ Tasks plugin (bidirectional)
+   - Kiểm tra "Done" `- [x]` Hộp kiểm tra
+3. **Drag-toup:** Di chuyển một lá bài để làm việc tự kiểm tra hộp tác vụ
+4. **Syccc directions:** Kanban  Agents plugin (Tiếng đánh lạc hướng)
 
-### Creating a Task from Kanban
-1. Click "+" on target column
+### Tạo một công việc từ Kanban
+1. Nhấn vào mục « + » trên cột đích
 2. Enter: `- [ ] #priority/P3 New idea {{due:: }}`
-3. Save → appears in tasks queries immediately
+3. Lưu _Sổ địa chỉ
 
-## 🔄 Workflow: Capture to Completion
+## 🔄 Quy trình: Từ thu thập đến hoàn tất
 
 ```
 Capture (any note / quick-capture) 
@@ -99,14 +99,14 @@ Capture (any note / quick-capture)
 ```
 
 ### Daily Rhythm
-- **Morning:** Check overdue + this-week views → pick max 3 focus items
-- **During day:** Add tasks inline as they come up
-- **Evening:** Review "Done Today" section → capture insights from completed work
+- **Chào:** Kiểm tra quá hạn + ô xem tuần này _chọn tối đa 3 mục tiêu
+- **Ngày qua ngày:** Thêm công việc vào hàng khi chúng xuất hiện
+- ** Buổi tối:** Xem lại mục "Done Today" → thu sự hiểu biết từ công việc hoàn tất
 
 ---
 ## Related
-- [[vault-command-center]] — Dashboard queries use this task system
-- [[kanban-board]] — Kanban integration layer
-- [[protocol]] — Capture rules & weekly connect phase
+- [[vault-command-center]] — Bảng thông tin dùng hệ thống tác vụ này
+- [[kanban-board]] - Lớp tích hợp Kanban
+- [[protocol]] - Bắt giữ các quy tắc và các giai đoạn kết nối hàng tuần
 
-*Created: 2026-06-20 | Quick reference for all vault users.*
+*Created: 2026-06-20-R2GGLLLOGG cho tất cả những người dùng két sắt.

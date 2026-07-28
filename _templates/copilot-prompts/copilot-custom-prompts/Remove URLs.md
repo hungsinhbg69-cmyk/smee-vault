@@ -15,4 +15,4 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Remove all URLs from {}. Preserve all other content and formatting. URLs may be in various formats (http, https, www). Return only the text with URLs removed.
+Gỡ bỏ mọi URL khỏi {}. Bảo tồn mọi nội dung và định dạng khác. URL có thể có dạng khác nhau (http, https, www). Chỉ cần ghi lại đoạn có URL được gỡ bỏ.

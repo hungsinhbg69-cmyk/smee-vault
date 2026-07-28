@@ -41,7 +41,7 @@ tags: [real-estate, yen-the-golden-hill]
 | Bệnh vien Da khoa Huyên An Thê | Tại HST Yen The | ~3–5 km |
 | Chợ Tân Sỏi / chợ nội dia phương tại xã gần đó | Xã/an lân can trong Huyên An The | ~2–3 km |
 | Bền xe yên the (chờ di chuyen liên huyện) | trung tâm huyen Yen The | ~10 km |
-| sân van đông huyên Yên Thế | HST Yen The | ~10-12 km |
+| sân van đông huyên Yên Thế | Yến đại hiệp | ~10-12 km |
 | trường Cao đẵng Mineu núi Bac Giang | gần HST An the | ~8–10 km |
 | cho Câu Gô (di sản văn hóa, tượng trưng cho khu vực) | Huyện An The | ~5–7 km |
 

@@ -1,5 +1,5 @@
 ---
-title: Quy Tac So 1 - Dau Tu Thanh Cong - Phill Town
+title: Quy Tac So 1 - Dau Tu than song - Phill Town
 slug: quy-tac-so-1-dau-tu-thanh-cong-phill-town
 category: resource
 tags:

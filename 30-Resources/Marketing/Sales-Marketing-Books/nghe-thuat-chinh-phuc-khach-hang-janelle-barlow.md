@@ -1,5 +1,5 @@
 ---
-title: Nghe-thuat-chinh-phuc-khach-hang-janelle-barlow
+title: Nghe-tuat-chinh-phacc-khach-jang-bard
 slug: nghe-thuat-chinh-phuc-khach-hang-janelle-barlow
 category: resource
 tags:

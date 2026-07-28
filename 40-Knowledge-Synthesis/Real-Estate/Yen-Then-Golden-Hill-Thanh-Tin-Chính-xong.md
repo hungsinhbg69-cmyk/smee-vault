@@ -28,7 +28,7 @@ tags: [real-estate, yen-the-golden-hill]
 | Thành phần | Chi tiết |
 |---|---|
 | CHủ đầu tư | Công ty Cổ phân Đầu tư Thắng Anh |
-| Đơn vị phát triển / thiết kế QH | Blue Sky Invest |
+| Đơn vị phát triển / thiết kế QH | Đầu tư Bầu trời Xanh |
 
 **Công ty CP DT Thắng Anh:** đơn vị có kinh nghiệm lâu năm trong lĩnh vực đầu tư BDS tại miền Bắc Việt Nam, tập trung vào các dự án nhà ở xã hội, KCN và khu dân cư kết hợp hạ tầng TM.
 

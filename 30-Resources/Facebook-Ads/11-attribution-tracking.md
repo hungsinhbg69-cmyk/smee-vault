@@ -15,9 +15,9 @@ last_updated: 2026-06-24
 
 | Window | Khi nào dùng | Ghi chú |
 |--------|--------------|---------|
-| **7-day click + 1-day view** (default) | Đa số tài khoản — cân bằng giữa độ chính xác của tín hiệu và khối lượng dữ liệu | Mặc định, dùng cho 90% trường hợp |
+| **7 ngày click + 1 ngày xem** (mặc định) | Đa số tài khoản — cân bằng giữa độ chính xác của tín hiệu và khối lượng dữ liệu | Mặc định, dùng cho 90% trường hợp |
 | **1-day click** | Mua hàng theo cảm hứng, sản phẩm ít cần suy nghĩ | Quyên sở hữu thận trọng |
-| **7-day click only** | Tài khoản cần quyên sở hữu thận trọng | Loại trừ tín hiệu xem qua (view-through) |
+| **7-day click chỉ** | Tài khoản cần quyên sở hữu thận trọng | Loại trừ tín hiệu xem qua (view-through) |
 
 ### 12 tháng 1 năm 2026 — Cập nhật về Quyền sở hữu
 Meta đã vĩnh viễn loại bỏ cửa sổ xem 7 ngày và 28 ngày từ Ads Insights API. Ngay lập tức, bảng điều khiển của nhà quảng cáo mất tín hiệu cho các chuyển đổi xem qua (view-through conversions).
@@ -33,7 +33,7 @@ Layer 3: MMM / Thử nghiệm tăng thêm → các quyết định ngân sách v
 Layer 4: SKAdNetwork → chiến dịch ứng dụng di động (theo dõi riêng biệt, không phải phần mở rộng của bộ công cụ web)
 ```
 
-### Layer 1: Pixel + CAPI
+### Lớp 1: điểm ảnh + CAI
 - Nguồn theo dõi chuyển đổi chính
 - Khóa loại bỏ trùng lặp: event_id + Pixel ID + event_name
 - Cửa sổ: các sự kiện trong vòng 48 giờ → Meta chỉ tính MỘT chuyển đổi
@@ -139,4 +139,4 @@ True Incremental Conversions = Test conversions - Control conversions
 - Thử nghiệm tăng thêm phân tách doanh thu thực sự tăng thêm khỏi những gì đã được quyên cho
 
 ---
-*Created: 2026-06-15 | Sources: facebook-ads-deep-dive, ads-deep-dive-june-2026*
+*Created: 2026-06-15 Nguồn: facebook-Những quảng cáo sâu sắc, sâu sắc-thôi-ki-ki-di-di-26*

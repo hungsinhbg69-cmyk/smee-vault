@@ -1,5 +1,5 @@
 ---
-title: "JeffSu Productivity Flashcards"
+title: "Những lá thư gửi tới hiệu quả sản phẩm"
 slug: "jeffsu-flashcards-productivity"
 category: output
 tags: [flashcards, jeffsu, spaced-repetition]
@@ -10,247 +10,247 @@ last_updated: 2026-06-24
 ---
 
 {
-  "title": "Productivity Flashcards",
+  "Danh hiệu" "Những lá thư Flash có tính giới hạn",
   "cards": [
     {
-      "front": "In the Mac app Drop Zone 4, what is the function of the 'drop bar'?",
-      "back": "It acts as a temporary holding bay for multiple files that can be later combined into a single package."
+      "trước": "Trong ứng dụng Mac Drop Zone 4, hàm số của thanh giọt" là gì?"
+      "back": "Nó hoạt động như một khoang tạm thời cho nhiều tập tin sau này có thể được kết hợp thành một gói riêng lẻ."
     },
     {
-      "front": "How does the 'AltTab' app improve on the default Mac 'Command + Tab' functionality?",
-      "back": "It allows the user to select specific windows to bring to the front rather than switching between entire applications."
+      "trước": "Làm thế nào để ứng dụng 'AltTab' cải thiện trên chức năng Mac "Brabi + Tab" mặc định?",
+      " Lùi lại" "Nó cho phép người dùng chọn cửa sổ riêng để mang lên trước thay vì chuyển đổi giữa toàn bộ ứng dụng."
     },
     {
-      "front": "What is a 'God's Eye View' in the context of personal or professional productivity?",
-      "back": "A holistic dashboard or spreadsheet that provides a clear snapshot of key metrics to help spot problems quickly."
+      "trước" là gì trong ngữ cảnh của năng suất cá nhân hay nghề nghiệp?"
+      "back": "Một bảng điều khiển toàn diện hoặc bảng tính cung cấp một hình ảnh rõ ràng của các thước đo chìa khóa để giúp đỡ các vấn đề điểm nhanh chóng."
     },
     {
-      "front": "According to the 'two-minute rule' in email management, what should you do with a task that takes less than two minutes?",
-      "back": "Complete the task immediately and archive the email."
+      "trước": "Theo quy tắc 'hai phút' trong quản lý email, bạn nên làm gì với một nhiệm vụ mất ít hơn hai phút?"
+      "back": "Hãy hoàn thành nhiệm vụ ngay lập tức và lưu trữ email."
     },
     {
-      "front": "In the 'XYZ' resume framework, what does the 'Y' represent?",
-      "back": "The specific metric used to measure the accomplishment or impact."
+      "Trước": "Trong khuôn khổ 'XYZ' tiếp tục, những gì "Y" đại diện?"
+      "back": "Bộ đo chi tiết dùng để đo lường thành quả hoặc tác động."
     },
     {
-      "front": "What are the three components of the 'ETP' method for explaining why you are leaving a job?",
-      "back": "Explain (honestly and briefly), Transition (to the new role), and Potential (excitement for the future)."
+      "trước": "Ba thành phần của phương pháp "EP" để giải thích tại sao bạn lại bỏ việc?"
+      "trở lại": "giải thích (một cách ngắn gọn và ngắn gọn), chuyển tiếp (vào vai trò mới), và tiềm năng (giải thích cho tương lai).
     },
     {
-      "front": "How does an 'AI Agent' differ fundamentally from a standard 'AI Workflow'?",
-      "back": "In an agent, the Large Language Model replaces the human as the decision-maker for reasoning and taking action."
+      "trước": "Một 'AI Agent' về cơ bản khác với một dòng chảy công việc tiêu chuẩn như thế nào?"
+      "trở lại": "Trong một tác nhân, Mô hình Ngôn ngữ Lớn thay thế con người như là người đưa ra quyết định cho lý luận và hành động."
     },
     {
-      "front": "What specific prompt instruction allows ChatGPT to gather more context before providing a final response?",
-      "back": "\"First ask me five questions that will improve the response you'll be giving me.\""
+      "trước": "Những chỉ dẫn cụ thể nào cho phép ChatGPT thu thập nhiều hơn ngữ cảnh trước khi cung cấp một phản ứng cuối cùng?"
+      "trở lại": "\" trước tiên hỏi tôi năm câu hỏi sẽ cải thiện phản ứng bạn sẽ cho tôi.\"
     },
     {
-      "front": "In the 'CARL' interview response method, what does the 'L' stand for?",
-      "back": "Learning (sharing specific insights or reflections gained from the experience)."
+      "trước": "Trong phương pháp phỏng vấn 'CARL', "L" là gì?"
+      "trở lại" "Learning (cùng nhau hiểu biết rõ ràng hoặc phản ánh từ trải nghiệm)."
     },
     {
-      "front": "What is the primary benefit of using 'NotebookLM' for researching source materials?",
-      "back": "It only answers questions based on the uploaded sources, which minimizes the risk of AI hallucinations."
+      "trước" là: " Lợi ích chính của việc sử dụng "NoebookLM" để nghiên cứu các nguồn tài liệu nguồn" là gì?
+      "trở lại" "Nó chỉ trả lời các câu hỏi dựa trên các nguồn tin đã tải lên, mà giảm thiểu nguy cơ ảo giác của AI."
     },
     {
-      "front": "How can you create a Google Calendar event directly from an email thread?",
-      "back": "Click the three dots within the email and select 'Create event'."
+      "trước": "Làm thế nào bạn có thể tạo một sự kiện lịch Google trực tiếp từ một chỉ email?"
+      "Rắp lại" "Hãy nhấp 3 chấm vào email và chọn 'Sự kiện"
     },
     {
-      "front": "What is the 'Yes + And' method for networking on LinkedIn?",
-      "back": "Leaving a comment that supports the post (Yes) and builds upon it with a personal anecdote or insight (And)."
+      "trước": "Có +" phương pháp gì cho mạng lưới về Linked In?"
+      "trở lại": "Hãy đưa ra một bình luận ủng hộ bài viết (có) và xây dựng lên nó với một giai thoại cá nhân hoặc sự hiểu biết sâu sắc (Và)."
     },
     {
-      "front": "In a Personal CRM, what criteria triggers the 'hit them up' status for a VIP contact?",
-      "back": "When the time elapsed since the last contacted date exceeds three months."
+      "trước": "Trong một chứng rối loạn tâm thần cá nhân, tiêu chuẩn nào kích hoạt trạng thái "cho một cuộc tiếp xúc VIP?"
+      "trở lại" "Khi thời gian trôi qua kể từ lần liên lạc cuối cùng vượt quá 3 tháng."
     },
     {
-      "front": "Why should you place the 'Work Experience' section above 'Education' on a resume?",
-      "back": "Recruiters prioritize evidence of on-the-job performance and relevant industry skills over academic scores."
+      "Trước": "Tại sao bạn nên đặt phần 'Kinh nghiệm làm việc' trên 'Sự nghỉ ngơi' trên một bản tóm tắt?"
+      "trở lại" "Những người tái lập ưu tiên bằng chứng của việc làm và kỹ năng công nghiệp liên quan hơn điểm học tập."
     },
     {
-      "front": "What is 'Retrieval Augmented Generation' (RAG) in simple terms?",
-      "back": "A process that allows an AI model to look up external information (like a calendar or news) before answering."
+      "trước": "Thế hệ tái lâm" (RAG) bằng những từ đơn giản là gì?"
+      "back": "Một quá trình cho phép mô hình AI tìm kiếm thông tin bên ngoài (như lịch hay tin tức) trước khi trả lời."
     },
     {
-      "front": "How can you use Google Trends to research a company before an interview?",
-      "back": "By comparing interest in the company's products against competitors to identify long-term industry trends."
+      "Trước": "Làm thế nào bạn có thể sử dụng Google Treds để nghiên cứu một công ty trước khi một cuộc phỏng vấn?"
+      "trở lại" "bằng cách so sánh lợi ích của công ty với đối thủ cạnh tranh để xác định xu hướng công nghiệp lâu dài."
     },
     {
-      "front": "What is the '80/20 morning routine' concept?",
-      "back": "Identifying the small number of habits (20%) that yield the majority (80%) of your mental and physical wellness results."
+      "Trước": "Ý niệm về thói quen của buổi sáng năm 80/20 là gì?"
+      "back": "Tôi nhận ra số lượng nhỏ thói quen (20%) mà mang lại cho đa số (80%) kết quả tốt về tâm thần và thể chất của bạn."
     },
     {
-      "front": "In an AI agent, what is the function of the 'REACT' framework?",
-      "back": "It enables the agent to Reason (think through the approach) and Act (perform tasks using tools)."
+      "Trước": "Trong một tác nhân AI, chức năng của khung "RECT" là gì?"
+      "back": "Nó cho phép tác nhân lý luận (nghĩ qua cách tiếp cận) và Act (công việc hình thức bằng công cụ).
     },
     {
-      "front": "How can you filter Mac Spotlight results to show only system settings?",
-      "back": "Type 'kind:setting' followed by the name of the specific setting."
+      "trước": "Làm thế nào bạn có thể lọc kết quả Mac Spotlight chỉ để hiển thị thiết lập hệ thống?"
+      "back": " kind" theo sau là tên của các thiết lập cụ thể. "
     },
     {
-      "front": "What is 'Smart Shift' in Logitech mouse settings?",
-      "back": "A feature that automatically toggles the scroll wheel between ratchet and free-spin modes."
+      "trước": "Smart Shift" trong thiết lập chuột Logitech là gì?"
+      "back": "Một tính năng tự động bật bánh xe cuộn giữa các chế độ chuột và tự do-spin."
     },
     {
-      "front": "Why does Jeff Su recommend asking 'How will my success be measured for the first two quarters?' in an interview?",
-      "back": "It demonstrates that you are data-driven, results-oriented, and already thinking about the team's goals."
+      "Trước": "Tại sao Jeff Su đề nghị hỏi "Làm thế nào thành công của tôi sẽ được đo lường cho hai phần tư đầu tiên?" trong một cuộc phỏng vấn? ",
+      " lưng": "Nó chứng minh rằng bạn có dữ liệu, định hướng kết quả, và đã nghĩ về mục tiêu của đội."
     },
     {
-      "front": "What is the purpose of a 'Recovery Forecast' in time management?",
-      "back": "To intentionally block out time on a calendar to recover from travel or social events to prevent burnout."
+      "trước": " Mục đích của một "Trích dẫn" trong quản lý thời gian là gì?"
+      "trở lại" "Để cố tình ngăn chặn thời gian trên lịch để phục hồi từ du lịch hoặc các sự kiện xã hội để ngăn chặn sự kiệt quệ."
     },
     {
-      "front": "How can you edit a PDF using Canva without specialized software?",
-      "back": "Drag and drop the PDF file onto the Canva homepage to convert it into an editable document."
+      "trước": "Làm thế nào bạn có thể chỉnh sửa một PDF sử dụng Canva mà không có phần mềm đặc biệt?"
+      "trở lại": "Drag và thả tập tin PDF vào trang chủ Canva để chuyển đổi nó thành một tài liệu có thể chỉnh sửa."
     },
     {
-      "front": "In the Inbox Zero system, which emails should be labeled 'Waiting'?",
-      "back": "Emails for which action has been delegated to someone else, but you are still responsible for the final outcome."
+      "trước": "Trong hệ thống Inbox Zero, email nào nên được dán nhãn là 'chờ đợi'?"
+      "trở lại" "Những email cho hành động nào đã được giao cho một người khác, nhưng bạn vẫn chịu trách nhiệm cho kết quả cuối cùng."
     },
     {
-      "front": "What is the 'Curse of Knowledge' in the context of mentoring new hires?",
-      "back": "The idea that experts are often too far removed from the basics, making those just 'one step ahead' better teachers for beginners."
+      "trước": "Sự nguyền rủa của tri thức" trong ngữ cảnh của việc cố vấn cho những người thuê mới là gì?"
+      "trở lại" "Ý tưởng rằng các chuyên gia thường bị loại khỏi những điều cơ bản, làm cho những người chỉ cần một bước trước" tốt hơn giáo viên cho những người mới bắt đầu."
     },
     {
-      "front": "How do you perform a targeted search for videos within a specific YouTube channel?",
-      "back": "Click the magnifying glass icon on the channel's navigation bar and enter a keyword."
+      "trước": "Làm thế nào để thực hiện một cuộc tìm kiếm mục tiêu tìm kiếm video trong một kênh YouTube cụ thể?"
+      "back": "Hãy nhấp vào biểu tượng kính phóng đại trên thanh định vị của kênh và nhập một từ khóa."
     },
     {
-      "front": "According to Dr. Michael Watkins, what is a 'Vicious Cycle' for new hires?",
-      "back": "A pattern where bad initial decisions lead to a lack of trust, making it even harder for the new hire to learn and succeed."
+      "trước": "Theo tiến sĩ Michael Watkins, "Vicious Crye" là gì cho những người làm thuê mới?"
+      "trở lại" "Một mẫu mà những quyết định ban đầu sai lầm dẫn đến sự thiếu tin tưởng, khiến cho việc thuê lại càng khó khăn hơn để học và thành công."
     },
     {
-      "front": "In a project recap email, what is the goal of the 'TLDR' (Too Long; Didn't Read) snippet?",
-      "back": "To provide quantifiable results that help the reader immediately decide if they need to read the full details."
+      "Trước": "Trong một email, mục tiêu của "TLLR" (quá dài, không đọc) trích dẫn?"
+      " Lùi lại": "Để cung cấp kết quả có thể định lượng được giúp độc giả ngay lập tức quyết định xem họ có cần đọc toàn bộ chi tiết."
     },
     {
-      "front": "What is the keyboard shortcut to bring up 'Alfred' on a Mac after disabling the default Spotlight shortcut?",
-      "back": "Command + Space"
+      "trước": " phím tắt bàn phím để đưa lên 'Alfred' trên một Mac sau khi vô hiệu hóa đường tắt điểm ảnh mặc định?"
+      "trở lại": "Chỉ huy + Space"
     },
     {
-      "front": "How can you create a dynamic 'Charge Date' in an AI agent tracking subscriptions?",
-      "back": "Use the timestamp variable from the chat input so the date automatically reflects when the message was sent."
+      "Trước": "Làm thế nào bạn có thể tạo ra một 'Charge day' trong một đặc vụ Al theo dõi đăng ký?"
+      " Lùi lại" "dùng biến thời gian trong đầu vào trò chuyện để ngày phản ánh tự động khi thông điệp được gửi."
     },
     {
-      "front": "Why is it important to quantify impact on a resume even for 'unquantifiable' roles like fetching coffee?",
-      "back": "It demonstrates that you understand success metrics and take the extra step to benchmark your own performance."
+      "Trước": "Tại sao việc định lượng tác động lên một bản lý lịch thậm chí cho vai trò "không thể chối cãi" như là đi lấy cà phê?"
+      "trở lại": "Nó chứng minh rằng bạn hiểu thành công thước đo và bước thêm để đánh dấu hiệu suất của chính bạn."
     },
     {
-      "front": "What is the 'Anti-McDonald's Habit'?",
-      "back": "Providing a 2-5 minute transition period between tasks for optimal performance rather than working every spare second."
+      "trước" là gì: "Anti-McDonald's Habit"
+      "back": "Để tạo ra khoảng thời gian chuyển tiếp 2-5 phút giữa các nhiệm vụ cho hiệu quả tối ưu hơn là làm việc mỗi giây rảnh rỗi."
     },
     {
-      "front": "In Canva, how do you prevent an element or layer from moving by mistake?",
-      "back": "Select the layer and click the 'Lock' icon."
+      "trước": "Ở Canva, làm thế nào để ngăn chặn một yếu tố hoặc lớp di chuyển bởi sai lầm?"
+      " Lùi lại" "Hãy chọn lớp và nhấn vào biểu tượng "Lock".
     },
     {
-      "front": "What is the 'Lowest Common Language' principle in presentations?",
-      "back": "Avoiding technical jargon and acronyms so that every participant in the room understands the message."
+      "trước": "Luật pháp ngôn ngữ Trung Tây" trong các bài thuyết trình là gì?"
+      "trở lại": "Không có thuật ngữ kỹ thuật và từ ngữ để mọi người tham gia trong phòng hiểu thông điệp."
     },
     {
-      "front": "How can you instantly reveal a file's location in Finder from a Spotlight search result?",
-      "back": "Press 'Command + Enter' while the file is highlighted in Spotlight."
+      "Trước": "Làm thế nào bạn có thể ngay lập tức tiết lộ một vị trí của tập tin ở finder từ một kết quả tìm kiếm đốm?"
+      "back": "Press' Command + Enter" trong khi tập tin được tô sáng bằng điểm sáng."
     },
     {
-      "front": "What is the benefit of grouping email aliases (e.g., marketing@company.com) in calendar events?",
-      "back": "It ensures the event list stays updated automatically as people join or leave the team."
+      "Trước": "Có lợi ích gì khi nhóm các bí danh email (v. d., marketing@com) trong các sự kiện lịch?"
+      "Hãy quay lại": "Nó đảm bảo danh sách sự kiện sẽ được cập nhật tự động khi mọi người tham gia hoặc rời khỏi đội."
     },
     {
-      "front": "In the '90-Day Plan', what are 'Ends vs. Means' in cultural norms?",
-      "back": "A distinction in whether an organization prioritizes the final outcome or the specific processes used to reach it."
+      "Trước": "Trong kế hoạch 90-Day", "Ends vs. Nghĩa là gì trong các quy tắc văn hóa?"
+      "trở lại" "Một sự phân biệt trong việc một tổ chức ưu tiên cho kết quả cuối cùng hay các quá trình cụ thể được sử dụng để đạt được nó."
     },
     {
-      "front": "What are 'GCS' and 'LCS' at Google?",
-      "back": "The ad sales teams: Google Customer Solutions and Large Customer Solutions."
+      "trước": "GCS" và 'LCS' là gì tại Google?"
+      "back": "Những nhóm bán quảng cáo: Google Di dân Giải pháp và Giải pháp Thuyết Tuỳ biến lớn."
     },
     {
-      "front": "How can you reverse-engineer a text prompt for an AI image using Google Gemini?",
-      "back": "Paste the image into Gemini and ask it to provide the prompt used to create it."
+      "trước": "Làm thế nào bạn có thể đảo ngược một đoạn văn cho một hình ảnh AI sử dụng Google Song Tử?"
+      "trở lại" "Hãy khắc hình ảnh vào Song Tử và yêu cầu nó cung cấp dấu nhắc được dùng để tạo ra nó."
     },
     {
-      "front": "Why should you use the 'Snooze' feature for emails that require action more than a week away?",
-      "back": "To clear mental and digital clutter so you can focus only on what is relevant for the current week."
+      "Trước": "Tại sao bạn nên sử dụng tính năng 'Snoze' cho email cần hành động hơn một tuần?"
+      "trở lại" "Để làm rõ những thứ phức tạp về tinh thần và kỹ thuật số để bạn chỉ có thể tập trung vào những gì liên quan đến tuần này."
     },
     {
-      "front": "What is the 'Prompt Overload Paradox'?",
-      "back": "Consuming many AI prompts without optimizing or consistently using a core few in daily work."
+      "trước" là gì?
+      "trở lại": "Có nhiều AI nhắc nhở mà không cần tối ưu hóa hay luôn luôn sử dụng một số cốt lõi trong công việc hàng ngày."
     },
     {
-      "front": "In Canva, what tool allows you to pick any color currently visible on your screen?",
-      "back": "The Color Eyedropper tool."
+      "Trước": "Trong Canva, công cụ nào cho phép bạn chọn bất kỳ màu nào hiện đang hiển thị trên màn hình của bạn?"
+      "back": "Công cụ bộ lông mi màu."
     },
     {
-      "front": "What is the 'God's eye view' for holistic financial tracking?",
-      "back": "A budget tracker bookmarked in the browser that provides a snapshot of spending and net worth."
+      "trước mắt" là gì?
+      "back": "Một thiết bị theo dõi ngân sách được đánh dấu trong trình duyệt cung cấp một hình ảnh chi tiêu và giá trị mạng."
     },
     {
-      "front": "Why is 'App Cleaner' recommended over dragging apps to the trash on a Mac?",
-      "back": "It removes hidden support files and documents that the default method leaves behind."
+      "trước": "Tại sao "App Cleaner" được đề nghị kéo ứng dụng vào thùng rác trên Mac?"
+      "back": "Nó gỡ bỏ các tập tin hỗ trợ và tài liệu bị ẩn mà phương pháp mặc định để lại đằng sau."
     },
     {
-      "front": "In a job interview, what should you do if an interviewer shares a reservation about your lack of experience?",
-      "back": "Acknowledge the area of growth and highlight specific transferable skills that apply to the situation."
+      "Trước": "Trong một cuộc phỏng vấn xin việc, bạn nên làm gì nếu một người phỏng vấn chia sẻ một khu vực đặt phòng về sự thiếu kinh nghiệm của bạn?"
+      "Rương": "Hãy nhận thức diện tích tăng trưởng và nhấn mạnh những kỹ năng có thể chuyển tiếp cụ thể áp dụng cho tình huống."
     },
     {
-      "front": "What is the 'break-even point' for a new employee according to Dr. Michael Watkins?",
-      "back": "When the value produced by the employee equals the value they have received from the organization."
+      "trước": "Một điểm "bị phá vỡ" cho một nhân viên mới theo lời bác sĩ Michael Watkins là gì?"
+      "trở lại" "Khi giá trị của nhân viên bằng giá trị họ nhận được từ tổ chức."
     },
     {
-      "front": "In a Notion prompt database, why is a 'Callout Box' useful for placeholders?",
-      "back": "It allows the use of 'Command + E' to visually distinguish variables like [insert data set]."
+      "trước": "Trong cơ sở dữ liệu thời gian nhắc của nhà báo, tại sao lại có ích cho người giữ chỗ?"
+      "back": "Nó cho phép sử dụng 'Chỉ thị + E' để phân biệt các biến như [tin tức đặt]."
     },
     {
-      "front": "How can Google Gemini be used to analyze a 2-hour podcast quickly?",
-      "back": "Use the @YouTube command with the URL and ask for the top three takeaways and actionable steps."
+      "trước": "Làm thế nào để sử dụng Google Song Tử để phân tích một boardcast nhanh chóng 2 giờ?"
+      "trở lại" "dùng lệnh của @Youube với URL và yêu cầu ba bước trên cùng và hành động có thể thực hiện. "
     },
     {
-      "front": "What is 'Smart Features' in Gmail settings, and why is it important for Gemini?",
-      "back": "A setting that must be enabled for Gemini to access and summarize your emails and Workspace documents."
+      "trước": "Những tính năng của Smart" trong các thiết lập Gmail là gì, và tại sao nó lại quan trọng với Song Tử?"
+      "back": "Một thiết lập cần phải được bật để truy cập và tóm tắt các tài liệu làm việc của bạn."
     },
     {
-      "front": "What is the 'SCQA' framework for presentation outlines?",
-      "back": "Situation, Complication, Question, and Answer."
+      "trước": "Cái khung 'SCQA' cho các nét vẽ trình bày là gì?"
+      "trở lại" "Sự bắt chước, sự sao chép, câu hỏi, và câu trả lời."
     },
     {
-      "front": "How can you prevent a 'Hot Corner' from being triggered accidentally on a Mac?",
-      "back": "Hold down a modifier key (like Shift) while setting the shortcut in settings."
+      "trước": "Làm sao bạn có thể ngăn chặn một "Hot Cora" vô tình bị kích hoạt trên một Mac?"
+      " Lùi lại": "giữ một phím sửa đổi (như Shift) trong khi thiết lập phím tắt trong thiết lập."
     },
     {
-      "front": "What is the primary superpower of 'Claude' compared to other AI models like ChatGPT?",
-      "back": "Its ability to write functional, high-quality code on the first try."
+      "Trước": " Siêu năng lực chính của 'Claude' so với các mô hình AI khác như ChatGPT?"
+      "back": "Có khả năng viết những dòng mã chất lượng cao trong lần thử đầu tiên."
     },
     {
-      "front": "In an AI agent built with N8N, what is the 'brain stem'?",
-      "back": "The System Prompt that instructs the LLM on how to use connected tools."
+      "Trước": "Trong một tác nhân AI xây dựng với N8N, "Nít" là gì?"
+      "trở lại": "Những gợi ý của hệ thống chỉ đạo LLM về cách sử dụng các công cụ kết nối."
     },
     {
-      "front": "How should you structure the 'BCC' field in a project recap email?",
-      "back": "Include individuals you want to inform about the success but spare from receiving future 'Reply All' threads."
+      "trước": "Làm thế nào để bạn cấu trúc trường "BCC" trong một email dự án?"
+      "trở lại" "Những cá nhân bạn muốn thông báo về thành công nhưng không nhận được "nhật trọng" trong tương lai.
     },
     {
-      "front": "What is the 'two-step process' for simple productivity?",
-      "back": "1. Capture all ideas in a frictionless way (e.g., Todoist). 2. Organize them into locations for usage (e.g., Calendar/Notion)."
+      "trước": "Một quá trình hai bước" cho năng suất đơn giản là gì?"
+      "back": "1. Chụp tất cả các ý tưởng theo một cách không ma quái (e.g., Tdoist). 2. Tổ chức chúng vào vị trí để sử dụng (v.g., book/Noion).
     },
     {
-      "front": "What is the 'McDonald's Habit' popularized by Ali Abdaal?",
-      "back": "Utilizing any spare time (even a few minutes) to complete small tasks."
+      "trước": "Cái gì là "McDonad's Habit" được phổ biến bởi Ali Abdaal?"
+      "trở lại": "cho phép bất kỳ thời gian rảnh (ngay cả vài phút) để hoàn thành các nhiệm vụ nhỏ."
     },
     {
-      "front": "In Canva, how can you make a foreground element 'pop' against a clashing background?",
-      "back": "Blur the background image slightly and add a white outline or shadow to the foreground element."
+      "trước": "Ở Canva, làm thế nào bạn có thể tạo ra một yếu tố cận cảnh "pa" chống lại một nền tảng xung đột?"
+      "back": "Bloop ảnh nền một chút và thêm một đường nét trắng hoặc bóng bóng vào các yếu tố phía trước."
     },
     {
-      "front": "What is the 'Yes, comma and' structure for LinkedIn comments?",
-      "back": "Agree with the post's core message and then add a unique personal insight or anecdote."
+      "trước": "Có, dấu phẩy và cấu trúc" cho Liên kết bình luận là gì?"
+      "trở lại" "Đồng ý với thông điệp cốt lõi của bài viết và thêm vào một nhận thức cá nhân hay một câu chuyện riêng biệt."
     },
     {
-      "front": "Why does Jeff Su advise against joining Google directly out of college?",
-      "back": "To build resilience and realistic corporate expectations in a less 'spoiled' environment first."
+      "trước": "Tại sao Jeff Su khuyên không tham gia Google trực tiếp từ đại học?"
+      "trở lại" "Để xây dựng sự kiên cường và mong đợi thực tế của công ty trong môi trường ít bị hư hỏng hơn"
     },
     {
-      "front": "How do you link one Note to another in the Mac Notes app using a keyboard shortcut?",
-      "back": "Type two angle brackets (>>) followed by the title of the other note."
+      "trước": "Làm thế nào để liên kết một ghi chú với một trong ứng dụng Mac Notes bằng cách sử dụng một phím tắt?"
+      "back": "kiểu hai dấu ngoặc kép (>>) theo sau tiêu đề của nốt còn lại."
     }
   ]
 }

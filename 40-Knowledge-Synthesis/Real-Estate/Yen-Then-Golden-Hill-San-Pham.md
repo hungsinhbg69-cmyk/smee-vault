@@ -24,7 +24,7 @@ tags: [real-estate, yen-the-golden-hill]
 
 | Thông số | Giá trị / Phạm vi | Ghi chú |
 |---|---|---|
-| DT đất (khác nhau theo vị trí) | **82 m² – 90 m² – 100 m²** | Có thể thêm các kích thước khác tùy layouts |
+| DT đất (khác nhau theo vị trí) | **82 m2 – 90 m2 – 100 m2** | Có thể thêm các kích thước khác tùy layouts |
 | Mặt tiền (chiều ngang) | ~5m | chiều rộng xây dựng chuẩn |
 | Chiều sâu ló đất | Từ ~16–20 m (tùy ló cụ thể, tính theo DT ÷ bề ngang) | Không cố định — tùy phan lô thực tế |
 | Hệ số sử dụng đất tối đa cho phép | ~1,2–1,5 (dự kiên dựa trên QH chi tiết 1/500) | Áp dụng chung cho đất ở đô thị mới |

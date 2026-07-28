@@ -1,6 +1,6 @@
 ---
-title: "Facebook Ads Index Master Table Of Contents"
-slug: "facebook-ads-index-master-table-of-contents"
+title: Mục lục Facebook Ads
+slug: facebook-ads-index-master-table-of-contents
 category: resource
 tags: [vault-maintenance, facebook-ads]
 status: "draft"
@@ -10,129 +10,129 @@ last_updated: 2026-06-24
 ---
 
 
-# Facebook Ads - INDEX (Muc luc tra cuu nhanh)
+# Facebook Ads - INDEX (Mục lục tra cứu nhanh)
 
-## 01-fundamentals.md - Nen tang
+## 01-fungments.md - Nền tảng
 
-### Chu de chinh
-- Three-tier hierarchy: Campaign > Ad Set > Ad
-- 7 campaign objectives phan theo funnel (Awareness -> Consideration -> Conversion)
-- Khi nao dung objective gi?
+### Chu Bình
+- Phân cấp ba: Chiến dịch > Tập quảng cáo (Ad Set) > Quảng cáo (Ad)
+- 7 mục tiêu chiến dịch phân theo phễu (Nhận thức -> Cân nhắc -> Chuyển đổi)
+- Mục tiêu của phần Konao là gì?
 
 ### Quick reference
-- Brand Awareness: nguoi hoi nho ads
-- Reach: den nhieu nguoi nhat
-- Traffic: click den web/app
-- Engagement: post engagement, page likes
-- Video Views: video watches
-- Lead Generation: collect leads khong can rời FB
-- Messages: Messenger/Instagram conversations
-- Sales: purchases + catalog sales
-- Leads: contact info forms
-- App Installs: app downloads
+- Nhận thức: Quảng cáo người mới nhỏ
+- Với: Đến Tadieu người nhất
+- Giao thông: Nhấn vào mạng/app
+- Kết hôn: Sau đính hôn, trang như thế
+- Xem phim: Đồng hồ video
+- Lead Generation: Thu thập lead không cần rời FB
+- Thông điệp: Tin nhắn/ Liên lạc bằng định dạng
+- Bán hàng: Mua và liệt kê doanh thu
+- Đầu đề: Dạng thông tin liên lạc
+- Cài đặt ứng dụng: Ứng dụng tải về
 
-### Khi nao dung?
+### Phân của Kino?
 | Goal | Objective |
 |---|---|
-| Ban hang online | Sales |
-| Thu lead B2B | Lead Generation |
-| Traffic web | Traffic |
-| Build brand | Brand Awareness / Reach |
-| Engagement page | Engagement |
-| Messenger sales | Messages |
+| Bán hàng online | Sales |
+| Thu hút lead B2B | Lead Generation |
+| Lưu lượng web | Traffic |
+| Xây dựng thương hiệu | Nhận thức rõ ràng / Đến gần |
+| Tương tác trang | Engagement |
+| Bán hàng qua Messenger | Messages |
 
-## 02-targeting.md - Audience Targeting
+## Đang bắn súng. 02-targe.md - Khán giả nhắm mục tiêu
 
-### 3 lo audiences chinh
-1. Core Audiences: demographic, location, interest, behavior
-2. Custom Audiences: pixel visitors, customer lists, engagement
-3. Lookalike Audiences: similar to best customers (1-10%)
+### 3 Loại khán giả Chish
+1. Khán giả lõi: Nhân khẩu học, địa điểm, sở thích, hành vi
+2. Khán giả tự chọn: Du khách điểm ảnh, danh sách khách hàng, đính hôn
+3. Khán giả có vẻ giống như: Tương tự với khách hàng tốt nhất (1-10%)
 
 ### Advantage+ Audiences (2026)
-- AI tự find user tot nhat (broad targeting)
-- Khong can narrow interest targeting
-- Can tối thieu 50 conversions/week/ad set
-- Tot hon interest targeting 3-5x neu co pixel data
+- AI tự tìm user tốt nhất (broad targeting)
+- Không thể thu hẹp lợi ích nhắm vào
+- Cần tối thiểu 50 conversions/tuần/ad set
+- Mục tiêu truy cập 3-5x nếu điểm ảnh
 
-### Targeting best practices
-- Age: 13-65+
-- Location: country/state/city/zip/radius
-- Interests: categories -> specific interests -> combine for precision
-- Behaviors: purchase behavior, device usage
-- Exclude converters tu prospecting
-- Start broad, layer sau
+### Đang nhắm đến những thực hành tốt nhất
+- Tuổi: 13-65+
+- Địa điểm: Quốc gia/ Bang/C/C/G/Rap/Radi
+- Sở thích: Phân loại -> Lợi ích cụ thể -> Kết hợp cho độ chính xác
+- Ứng xử: Hành vi mua sắm, sử dụng thiết bị
+- Những người cải đạo bị bỏ rơi, họ trông mong
+- Khởi động rộng, lớp ưu
 
-## 03-creative-formats.md - Ad Formats
+## 3-creative-format
 
-### Format co ban
-- Single Image/Static: test nhanh, chi phi thap
-- Video In-Feed: engagement cao, hook 3s first
-- Carousel Ads: 2-10 cards, product catalog
-- Reels Ads: vertical 9:16, UGC style best
-- Collection Ads: cover + product grid (ecommerce)
-- Lead Ads: form on-platform, no landing page
+### Lệnh định dạng đồng
+- Ảnh đơn/Sttic: Test nhanh, chi thấp
+- Video In-Feed: Đính hôn cao, móc 3s trước
+- Thẻ Carousel Ads: 2-10, danh mục sản phẩm
+- Phương pháp: Dứng 9:16, kiểu UGC tốt nhất
+- Cố tập hợp: Bìa và lưới sản phẩm (secommerce)
+- Các bài hát chính: Dạng trên nền, không trang hạ cánh
 
 ### Image specs
-- Recommended: 1080x1080 (square) hoac 1080x1350 (portrait)
-- Feed: 1:1 hoac 4:5 aspect ratio
+- Khuyên: 1080x1080 (hình vuông) hoặc 1080x1350 (rararait)
+- Nạp: Tỷ lệ hình thể 1:1 hoặc 4:5
 - JPG/PNG
 
 ### Video specs
-- Recommended: 1080x1080 (square) hoac 1080x1920 (vertical)
-- MP4/MOV format
-- Max 4GB, 240 minutes
-- Feed: 1:1 hoac 4:5
+- Khuyên: 1080x1080 (hình vuông) hoặc 1080x1920 (vertical)
+- Định dạng MP4/MV
+- Tối đa 4GB, 240 phút
+- Feed: 1:1 hoặc 4:5
 - Stories/Reels: 9:16
 
-### Creative best practices 2026
-- Test 3-5 different creatives per ad set
-- Different formats (video, static, carousel)
-- Hook trong 3 giay đầu
-- Captions always (85% watch without sound)
+### Sáng tạo tốt nhất thực hành năm 2026
+- Thử ra 3-5 sáng tạo khác nhau trên mỗi quảng cáo
+- Dạng thức khác (video, tĩnh, đa giai điệu)
+- Hook trong 3 giây đầu
+- Luôn luôn các liên kết (85% xem mà không có âm thanh)
 - Mobile-optimized
-- UGC style cho Reels
-- CTA on every card
+- Kiểu UGC cho Reels
+- CTA trên mọi thẻ
 
-## 04-bidding-budget.md - Bidding & Budget
+## 4- cấm- bat.md - Ngân sách & Budget
 
 ### Budget types
-- Daily budget: trung binh spend/ngay
-- Lifetime budget: tong spend qua campaign duration
+- Ngân sách hàng ngày: Trung bình chi tiêu/ngày
+- Ngân sách thời gian sống: Chi tiêu cho chiến dịch tranh cử
 
 ### Bidding strategies
-1. Lowest Cost: Facebook optimize low cost nhat (mac dinh)
-2. Cost Cap: control average cost per result
-3. Bid Cap: control maximum bid
+1. Chi phí thấp nhất: Facebook Tối ưu hóa giá nhất (mặc định)
+2. Chi phí Cap: Kiểm soát trung bình chi phí cho mỗi kết quả
+3. Thuyền trưởng bid: Điều khiển giá thầu tối đa
 
-### CBO - Campaign Budget Optimization
-- Budget set at campaign level
-- Meta phan phối tu dong den ad set tot nhat
-- Min 2, max 6 ad sets
-- Khong mix different audiences trong same CBO
-- Allow learning phase complete
+### CBO - Thuyết tiền chiến dịch làm báp têm
+- Ngân sách được đặt ở mức độ chiến dịch
+- Meta phân phối tự động đến ad set tốt nhất
+- Tối thiểu 2, tối đa 6 quảng cáo
+- ♪ Liên kết các khán giả khác nhau cùng chơi trò điểm CBO ♪
+- Cho phép học kỳ hoàn tất
 
 ### Learning Phase
-- Algorithm hoc which users to show ads to
-- Can 50 optimization events/week/ad set
-- Performance khong stable during learning
-- Avoid major edits during learning
-- Exit naturally hoac accelerate by increasing budget
+- Thuật toán học mà người dùng hiển thị quảng cáo
+- Có thể tối ưu hóa 50 sự kiện/tuần/d đặt
+- Hiệu suất tích hợp trong khi học
+- Tránh những sửa đổi lớn trong lúc học
+- Thoát khỏi sự gia tăng nhanh chóng tự nhiên bằng cách tăng ngân sách
 
 ### Budget recommendations
-- Start -50/day minimum per ad set
-- Test small budgets first
-- Scale winners gradual (20% every 3-4 days)
-- Aim 50+ conversions/week per ad set
+- Bắt đầu - Tối thiểu 50/ngày cho mỗi quảng cáo
+- Kiểm tra ngân sách nhỏ trước
+- Phóng dần người thắng (20% mỗi 3-4 ngày)
+- Nhắm 50 chuyển đổi/tuần mỗi lần làm quảng cáo
 
-## 05-tracking-pixel.md - Tracking & Pixel
+## 05-md.md - Điểm ảnh theo dõi
 
 ### Meta Pixel functions
-- Track actions on website
-- Power optimization algorithm
-- Enable retargeting
-- Measure ROI
+- Theo dõi hành động trên trang web
+- Thuật toán tối ưu hóa năng lượng
+- Bật retargeting
+- Đo lường ROI
 
-### Standard events to track
+### Comment
 1. ViewContent
 2. AddToCart
 3. InitiateCheckout
@@ -141,229 +141,229 @@ last_updated: 2026-06-24
 6. CompleteRegistration
 
 ### Conversions API (CAPI)
-- Why need: iOS 14+ privacy changes limit pixel
-- Server-side tracking more reliable
-- Better data quality
-- Improved attribution
-- Use alongside pixel, deduplicate events
+- Tại sao cần: iOS 14+ thay đổi điểm ảnh riêng tư giới hạn
+- Theo dõi bên máy phục vụ đáng tin cậy hơn
+- Chất lượng dữ liệu tốt hơn
+- Cải thiện quy kết (attribution)
+- Dùng cùng dấu chấm phẩy, biến cố
 
-### Pixel setup checklist
-- Generate pixel code in Events Manager
-- Add to website (manually or plugin)
-- Verify installation
+### Danh sách thiết lập điểm ảnh
+- Tạo mã điểm ảnh trong bộ quản lý sự kiện
+- Thêm vào trang Mạng (thường hay plugin)
+- Xác minh cài đặt
 - Test events
-- Configure all standard events
-- Aim 100+ Purchase events/month for Advantage+ to work best
+- Cấu hình mọi sự kiện chuẩn
+- Nhắm 100+ Các sự kiện trong ngày/tháng cho A-lợi thế+ để làm việc tốt nhất
 
-## 06-optimization.md - Optimization & Scaling
+## Chọn tối đa 6- Tối ưu - Độ tối ưu hóa & Scaling
 
 ### Testing strategy
-- Test one variable at a time
-- Run tests minimum 7 days
-- Minimum 50 conversions for statistical significance
-- Document learnings
-- Implement winners, kill losers
+- Thử biến một lúc
+- Chạy thử nghiệm tối thiểu 7 ngày
+- Cách chuyển đổi tối thiểu 50 cho ý nghĩa thống kê
+- Ghi chép learnings
+- Kẻ thắng cuộc, kẻ thua cuộc
 
-### What to test
-- Audiences (interest, lookalike, custom)
-- Creative (images, videos, formats)
-- Copy (headlines, primary text, CTAs)
+### Điều gì cần thử
+- Khán giả (thích, như kiểu, tùy chỉnh)
+- Sáng tạo (hình ảnh, video, định dạng)
+- Chép (Đầu dòng, văn bản chính, CTA)
 - Placements
 - Ad formats
 - Landing pages
 
-### When to scale
-- Campaign profitable
-- Consistent performance 7+ days
-- Learning phase complete
-- Budget allows
+### Khi nào thì tỷ lệ
+- Chiến dịch có lợi nhuận
+- Tích hợp 7+ ngày
+- Hoàn tất giai đoạn học
+- Ngân sách cho phép
 
-### How to scale
-- Increase budget 20% every 3-4 days (not more)
-- Duplicate winning ad sets
-- Expand to similar audiences
-- Test new creative variations
-- Add more placements
+### Làm thế nào để tỷ lệ
+- Tăng ngân sách 20% mỗi 3-4 ngày (không nhiều hơn)
+- Lặp lại chiến thắng của quảng cáo
+- Mở rộng sang những cử tọa tương tự
+- Kiểm tra các biến thể sáng tạo mới
+- Thêm chỗ
 
 ### Automation ideas
-- Performance alert system (check every 6 hours)
-- Budget pacer (daily check)
-- Creative rotation schedule
+- Hệ thống cảnh báo thực hiện (hãy kiểm tra mỗi 6 giờ)
+- Ngân sách tăng tốc (hãy kiểm tra thường xuyên)
+- Thời gian biểu Quay sáng tạo
 
-## 07-advantage-plus.md - Advantage+ AI Campaigns
+## 07-alarm-ades - Chiến dịch đa dụng+AI
 
-### Advantage+ Shopping Campaigns (ASC)
-- AI-driven ecommerce campaigns
-- Similar to Google Performance Max
-- Combines prospecting + retargeting in one campaign
-- Uses product catalog automatically
-- Optimizes placements auto (Feed, Stories, Reels, Audience Network)
-- Best for: ecommerce with product catalog, 50+ conversions/month
+### Chiến dịch mua sắm thuận lợi+ (ASC)
+- Chiến dịch vận động môi trường do A-I chỉ định
+- Tương tự với khả năng thực hiện của Google
+- Kết hợp triển vọng và tái khai trong một chiến dịch
+- Tự động dùng danh mục sản phẩm
+- Làm báp têm hóa các vị trí tự động (Feed, story, Reels, Khán giả mạng lưới)
+- Tốt nhất: Môi trường có danh mục sản phẩm, 50+ cải đạo/tháng
 
 ### Advantage+ Audiences
-- AI finds best users automatically
-- Broad targeting (age/gender only)
-- Needs conversion data from Pixel/CAPI
-- 3-5x more effective than interest targeting without pixel data
-- Need minimum 50 conversions/week/ad set
+- AI tự động tìm người dùng tốt nhất
+- Mục tiêu mở rộng (chỉ thanh thiếu niên)
+- Cần chuyển đổi dữ liệu từ điểm ảnh/CAPI
+- 3-5x hiệu quả hơn mục tiêu sở thích mà không có dữ liệu điểm ảnh
+- Cần tối thiểu 50 chuyển đổi/tuần/d/set
 
 ### Advantage+ Creative
-- AI tests creative combinations
-- Auto-generates variations
-- Learns which hooks/formats work best
+- Name
+- Các biến thể tự động tạo ra
+- Học biết cái móc/format nào hoạt động tốt nhất
 
-### When to use Advantage+
-- Have enough conversion data (50+/week)
-- Ecommerce with product catalog -> ASC
-- Scaling existing campaigns
-- Want less manual management
+### Khi cần dùng đa diện+
+- Có đủ dữ liệu chuyển đổi (50+/ tuần)
+- Ecommerce với danh mục sản phẩm -> MIME
+- Co dãn các chiến dịch đã có
+- Cần ít quản lý thủ công
 
-## 08-metrics-benchmarks.md - KPIs & Benchmarks
+## 8- mét- đối xứng.md - KPI & Benchmarks
 
-### Cost benchmarks (US market, 2026)
-- CPM: - (varies industry/season)
+### Dấu băng giá (Siêu thị Mỹ, 2026)
+- CPM: - (công nghiệp/mùa)
 - CPC: .50-.00
-- CPL: - (depends industry)
-- Q4 (Oct-Dec): 2-3x more expensive
+- CPL: - (công nghiệp phụ thuộc)
+- Q4 (Tháng 10-Tháng 12): Đắt hơn 2-3x
 
-### Key metrics to track
-- CPM (Cost per 1,000 impressions)
-- CPC (Cost per Click)
-- CTR (Click Through Rate) - benchmark: >1% good
-- CPA/CPP (Cost per Acquisition/Result)
-- ROAS (Return on Ad Spend) - primary metric for ecommerce
-- Conversion Rate
-- Frequency (too high = ad fatigue)
+### Số đo phím cần theo dõi
+- CPM (Chi phí/ 1.000 ấn tượng)
+- CPC (Bản tin mỗi nhắp)
+- CTR (Click qua tỷ lệ) - Điểm tham số: >1% tốt
+- CPA/CPP (Chi phí/ Acquistion/Resulk)
+- Trò chơi giải trí chính cho sinh thái
+- Tỷ lệ chuyển đổi (Conversion Rate)
+- Tần số (Quá cao = mệt mỏi do mệt)
 
-### ROAS targets by funnel stage
-- Top of funnel (awareness): ROAS 2-3x acceptable
-- Middle funnel (consideration): ROAS 3-4x target
-- Bottom funnel (conversion): ROAS 4-5x+ target
-- Retargeting: ROAS 5-10x typical
+### Mục tiêu ROAS trên sân khấu
+- Trên cùng của đường ống (Sự nhận thức): ROAS 2-3x chấp nhận
+- Ống giữa (Xem xét): Mục tiêu 3-4x
+- Ống dưới (Hình đảo): RAS 4-5x+ tiêu
+- Chuyến bay: RRAS 5-10x tiêu chuẩn
 
 ### Optimization checklist
-- [ ] Pixel installed + all events tracking
-- [ ] 50+ conversions/week per ad set
-- [ ] 3-5 creatives rotating per ad set
-- [ ] CBO enabled for multi-ad set campaigns
-- [ ] Weekly creative rotation
-- [ ] Budget scale max 20% every 3-4 days
-- [ ] Monitor frequency (ad fatigue >3.0)
-- [ ] A/B test new hooks monthly
+- [ ] Điểm ảnh đã cài đặt + mọi sự kiện theo dõi
+- [ ] 50+ Chuyển đổi/tuần mỗi lần quảng cáo
+- [ ] 3-5 sáng tạo xoay mỗi quảng cáo
+- [ ] CBO đã bật các chiến dịch đa công
+- [ ] Quay hàng tuần
+- [ ] Ngân sách tăng tối đa 20% mỗi 3-4 ngày
+- [ ] Tần số theo dõi (bị mệt > 3.0)
+- [ ] A/B kiểm tra móc mới hàng tháng
 
-## 09-andromeda-auction.md - Andromeda Algorithm & Auction
+## 9 và 9 lần hút máu - Thuật toán & Quy kết
 
-### Chu de chinh
-- Andromeda = deep learning 2-stage (Retrieval ~50ms + Ranking ~150ms)
-- Total Value = Bid x Action Rate + Estimated User Value
-- Creative = Targeting moi: Andromeda phan tich visuals, text, format, tone de tu dong infer audience
-- Relevance diagnostics 3 chi so (Quality, Engagement, Conversion Rate) o ad-level
-- Campaign structures 2026: ASC+, 6-3-1 structure, Manual Sales
+### Chu Bình
+- Có. Có.
+- Tổng giá trị = Hành động 2d x và ước tính giá trị người dùng
+- Sáng tạo = Mục tiêu mới: Phân tích quang ảnh, văn bản, định dạng, giai điệu để tự động trong khán giả
+- Chẩn đoán liên quan 3 chi như vậy (Tiếng Anh, cuộc đình chiến, tỷ lệ đảo ngược) ở ad-level
+- Cấu trúc chiến dịch 2026: MIME+, cấu trúc 6-3-1, Sổ tay Sổ tay bán
 
-### Khi nao dung?
+### Phân của Kino?
 | Scenario | Structure |
 |---|---|
-| E-commerce >€5K/month | ASC+ (Advantage+ Shopping) |
-| Creative control needed | 6-3-1 structure (6 ad sets, 3 creatives) |
-| B2B/Service/Lead Gen | Manual Sales Campaigns |
+| E-commerce > er5K/tháng | MIME+ (lợi thế+) |
+| Cần thiết kiểm soát sáng tạo | Cấu trúc 6-3-1 (6 quảng cáo, 3 sáng tạo) |
+| B2B/Dịch vụ/Lead Gen | Chiến dịch bán hàng thủ công |
 
-### Still Works vs Dead (2026)
-| ✅ STILL WORKS | ❌ DEAD/DYING |
+### Vẫn còn làm việc để đấu với cái chết (2026)
+| ✅ VẪN HOẠT ĐỘNG | ❌ CHẾT/TỬ YẾU |
 |---|---|
-| Broad targeting (18-65+) | Interest stacking (10+ interests) |
-| Advantage+ Placements | Manual placement selection |
-| UGC-style content | Overly polished corporate ads |
-| CAPI server-side tracking | Pixel-only attribution |
+| Broad targeting (18-65+) | Đang xếp sự quan tâm (10+ quyền lợi) |
+| Advantage+ Placements | Chọn vị trí thủ công |
+| Name | Quảng cáo công ty bóng loáng quá mức |
+| Theo dõi máy phục vụ-bên cạnh CAI | Chỉ định điểm ảnh |
 
-## 10-advanced-bidding.md - Advanced Bidding Strategies
+## 10-dật pháp cấp cao
 
 ### 5 Bid Strategies (2026)
-1. **Lowest Cost:** Mac dinh, cho 80% campaigns <€50k/month
-2. **Cost Cap:** Khi ≥50 conv/week + ≥€5k spend/week + cap ≥ avg CPA
-3. **Bid Cap:** Narrow: auction-level data known, precise margin/SKU
-4. **Value Optimization:** DTC wide AOV range (tu $20 den $500+)
-5. **ROAS Goal:** E-commerce tracked revenue; set at 80% trailing 28-day ROAS
+1. **Lowest Cost:** Mặc định, cho 80% chiến dịch < $30k/tháng
+2. **Cost Cap:** Kohi ≥50 conv/ week + ≥€5k chi tiêu/ week + mũ ≥ avg CPA
+3. **Bid Cap:** Nhiễm sắc: Dữ liệu bán đấu giá được biết đến, chính xác lề/SKU
+4. **Value Optimization:** Dải AOV rộng TRONG đại dương (từ $20 đến $500+)
+5. **AS Goal:** E-commerce lần theo thu nhập; thiết lập 80% theo dõi 28 ngày RAS
 
-### CBO - 3 Sai Lam Pho Bien
-1. Minimum spend limits khong bao ve small ad-sets → Algorithm funnel 75% cho "winner"
-2. Campaign budget ≠ daily spend cap → Monday spend 2x daily average, Thursday 0.4x
-3. Audience overlap git efficiency → algorithm khong arbitrage duoc
+### CBO - 3 Sai lầm Lam Pho Bien
+1. Giới hạn chi tiêu tối thiểu là hong bao bave nhỏ quảng cáo d-set _Agrith grim grim 75% for "winner"
+2. Ngân sách chiến dịch _GPPPP - Thứ Hai tiêu trung bình 2x mỗi ngày, thứ Năm 0.4x
+3. Khán giả kết hợp hiệu quả git → Thuật toán khong arbitrac duoc
 
-### Budget Pacing Phases
+### Name
 | Phase | Days | Velocity | Purpose |
 |-------|------|----------|---------|
-| Exploration | 1-7 | Cap at 60-70% optimal | Buy algorithm time to map conversion landscape |
-| Momentum | 8-21 | Increase ≤15% every 48h | Exploit accumulated intelligence |
-| Saturation | 22+ | Slow down or refresh creative | Frequency >2.5-3.0 = audience saturation |
+| Khám phá (Exploration) | 1-7 | Cap ở mức tối ưu 60-70% | Name |
+| Động lượng (Momentum) | 8-21 | Tăng _15% mỗi 48h | Phát nổ tích lũy trí thông minh |
+| Bão hòa (Saturation) | 22+ | Chậm lại hay tươi sáng | Tần số > 2,5-3.0 = độ bão hoà của khán giả |
 
 ### Scaling Rules
-- Vertical: increase budget ≤20% mỗi lan, ≥48h giua cac lan tang
-- Horizontal (recommended): duplicate winning campaign, test new audiences
-- Budget Deployment Velocity (BDV): Actual ÷ Target daily spend hourly
+- Ngang: Tăng ngân sách ≤20% mỗi lần, ≥48h giữa các lần tăng
+- Mở theo chiều ngang (đã kết nối): Nhân đôi chiến dịch chiến thắng, thử nghiệm khán giả mới
+- Ngân sách tăng cường tốc độ (BDV): Đích đích thật tiêu hàng giờ
 
-## 11-attribution-tracking.md - Attribution & Measurement Stack
+## 11-atrition-md - Quy kết & Đo xếp
 
 ### Attribution Windows
-| Window | Khi nao dung |
+| Window | Phân Kho |
 |--------|--------------|
-| 7-day click + 1-day view (default) | Đa so accounts — cân bang credit accuracy và volume |
-| 1-day click | Impulse purchases, low-consideration products |
-| 7-day click only | Accounts cần conservative attribution |
+| Nhấn vào 7 ngày + 1 ngày (mặc định) | Đa so accounts — cân bằng credit accuracy và volume |
+| 1-day click | Mua bán không được bán, sản phẩm xem xét thấp |
+| Chỉ click 7 ngày | Accounts cần conservative attribution |
 
-### January 12, 2026 Update
-Meta permanently removed 7-day view and 28-day view windows từ Ads Insights API.
+### Cập nhật 12 tháng 1, 2026
+Meta vĩnh viễn loại bỏ cửa sổ 7-day view và 28-day view từ Ads Insights API.
 
-### Measurement Stack (4 Layers)
-1. **Layer 1:** Pixel + CAPI → primary conversion tracking
-2. **Layer 2:** GA4 cross-check → sanity check (GA4 luôn thap hon Meta)
-3. **Layer 3:** MMM / Incrementality test → budget decisions transcend platform math
-4. **Layer 4:** SKAdNetwork → mobile app campaigns
+### Bộ đo (4 lớp)
+1. **Layer 1:** Tuỳ theo dõi chuyển đổi chính của điểm ảnh và điểm ảnh
+2. **Layer 2:** GA4 cross-check → sanity check (GA4 luôn thấp hơn Meta)
+3. **Layer 3:** MMM / Ecicient eclection cell proctend cross platform Toán học
+4. **Layer 4:** Ứng dụng SKdNetwork crives
 
-### AEM Priority Events (8 events, rank by conversion value)
-1. Purchase → 2. InitiateCheckout → 3. AddToCart → 4. ViewContent → 5. Lead → 6. CompleteRegistration → 7. Search → 8. PageView
+### Các biến cố ưu tiên AEM (8 sự kiện, xếp theo giá trị chuyển đổi)
+1. Mở kho lưu trữ 3. Thêm mục ToCart 4 xem Content _ 5.
 
-> ⚠️ Rank AddToCart cao hon Purchase vì thay nhieu hon → Meta attribute ve AddToCart, ROAS math collapse.
+> ⚠️ Rank AddToCart cao hơn Purchase vì thay nhiều hơn → Meta attribute về AddToCart, ROAS math collapse.
 
 ### Event Deduplication
-- Key: event_id + Pixel ID + event_name
-- Window: events within 48 hours → Meta counts ONE conversion
-- Failure mode: precision mismatch ("order_123" vs "order_123.567")
+- Khóa: sự kiện_d + điểm ảnh ID + sự kiện_ tên
+- Cửa sổ: Các sự kiện trong vòng 48 giờ Meta đếm một chuyển đổi
+- Chế độ lỗi: Chính xác sai ("Thứ tự_123" vs "tiểu thức_123.567")
 
-### EMQ (Event Match Quality)
+### EMQ (Vừa khít chất lượng)
 | Score | Level |
 |-------|-------|
-| 0-2 | Poor — CAPI nearly useless |
-| 3-5 | Fair — has email OR phone |
-| 6-8 | Good — email + phone at minimum → measurable gains |
-| 9-10 | Excellent — full parameters optimal |
+| 0-2 | Tội nghiệp — CARI gần như vô dụng |
+| 3-5 | Công bằng — Có điện thoại OR |
+| 6-8 | Tốt — Email + Điện thoại với mức thu nhập tối thiểu |
+| 9-10 | Tuyệt hảo — Tối ưu tối ưu cho các tham số |
 
-> ⚠️ EMQ ≥6 = break-even point từ CAPI. Dưới 6: CAPI gần như vo dung.
+> ⚠️ EMQ ≥6 = Điểm hòa vốn từ CAPI. Dưới 6: CAPI gần như vô dụng.
 
 ### Incrementality Testing
-- Hold out 10-15% audience từ ads trong 2 weeks
+- Giữ lại (Hold out) 10-15% khán giả từ ads trong 2 tuần
 - So sánh conversion rates giữa treated vs control group
-- Separates true incremental sales from credited ones
+- Chia đôi doanh thu thật sự từ những người được công nhận
 - Đặc biệt quan trọng với ASC broad targeting
 
 ---
-*Created: 2026-06-15 | Sources aggregated from marketingadvice.ai, marketingagency.one, redclawey.com + facebook-ads-deep-dive + ads-deep-dive-june-2026*
+*Created: 2026-06-15 Nguồn tin kết hợp từ marketingadvice.ai, marketingacover.one, redclawey.com + facebook-Những người sâu sắc + quảng cáo sâu sắc-king-king-2026*
 
 ## 📊 Case Studies 2026
 
 ### Level 1 — Local/Small ($500-$3K/tháng)
 - `cs-local-service-titan-driveways.md` — Dịch vụ địa phương, CPL -50%
 - `cs-small-ecommerce-soda-spoon.md` — E-commerce nhỏ, ROAS 3.61x (1 ad duy nhất)
-- `cs-b2b-lead-gen-counselling.md` — Lead gen B2B, CPL $4.98 global
+- `cs-b2b-lead-gen-counselling.md` - Dẫn đầu B2B, CPL 4.98
 
 ### Level 2 — Regional/Mid-Market ($3K-$25K/tháng)
 - `cs-dtc-caraway-home.md` — DTC cookware, ROAS 2.9x→4.6x, CAC -34%
-- `cs-dtc-cuts-clothing.md` — Fashion/Accessories, ROAS 2.9x→4.8x, CPA $48→$34
-- `cs-high-ticket-home-improvement.md` — Home improvement, ROAS 1.18→6.47, $700K revenue
+- `cs-dtc-cuts-clothing.md` — Thời trang/thời trang, RAS 2.9x.8x, CPA 458$34
+- `cs-high-ticket-home-improvement.md` - Tốt hơn nhà, RRAS 1.18,47, thu nhập 700K
 
 ### Level 3 — Global/Large ($25K-$100K+/tháng)
-- `cs-chomps-wellness.md` — DTC supplement, ROAS 3.2x→5.1x, CAC -31%
-- `cs-hexclad-cookware.md` — Premium cookware, ROAS 2.4x→3.8x, CPA $88→$61
-- `cs-momentous-nutrition.md` — Performance nutrition, ROAS 2.4x→4.1x, CAC $68→$41
+- `cs-chomps-wellness.md` — Nguồn bổ sung DTC, ROAS 3.2x 5.1x, CC -31%
+- `cs-hexclad-cookware.md` - Khu nấu ăn, ROAS 2.4x 3.8x, CPA 8$61
+- `cs-momentous-nutrition.md` - Dinh dưỡng thực hiện, ROAS 2.4x, 1x, CC 658$41.
 
 ### Tổng hợp
 - `cs-key-insights-2026.md` — 10 bài học chiến lược tổng hợp
@@ -377,56 +377,56 @@ Meta permanently removed 7-day view and 28-day view windows từ Ads Insights AP
 ### QUICK-DECISION-MATRIX.md
 **Agent decision shortcuts trong <30 giây.** Decision trees cho objective, bidding, CBO/ABO, ASC+, targeting, creative format, budget pacing, tracking setup, Vietnam adjustments.
 
-### creative-testing-framework.md
-**Atomic note for creative testing workflow.** Competitor audit → variant matrix → test execution → scale & refresh. Hook-rate benchmarks + fatigue detection.
+### Khung thử nghiệm sáng tạo
+** Ghi chú nguyên tử cho việc thử nghiệm sáng tạo luồng.** Kiểm tra bộ kiểm tra bộ phận → Ma trận biến thế → Thử ra → & Cập nhật tỷ lệ. Dấu băng ghế móc móc nối và phát hiện mệt mỏi.
 
 ---
 
-## 📚 Bonus: Creative Strategy Deep-Dive (from memory sources)
+## Bonus: Sáng tạo strategy Deep-Dive (từ các nguồn bộ nhớ)
 
-### Hook Rate Benchmark
-- 25% = solid (3-second views / impressions)
-- 30% = good
-- 40%+ = elite
+### Name
+- 25% = Chắc chắn (3 giây xem/ ấn tượng)
+- 30% = Good
+- 40%+ = Elite
 
-### UGC vs Produced Creative Decision Matrix
+### UGC vs Sản xuất ma trận quyết định sáng tạo
 | Situation | Better Format | Why |
 |-----------|---------------|-----|
-| Cold audience prospecting | UGC | Blends into feed; feels peer-recommended |
-| Products under $100 | UGC | Lower consideration threshold |
-| Products $200+ | Produced/Hybrid | Higher AOV needs trust signals |
-| Retargeting warm audiences | Both | Warm audiences respond to different signals |
-| Brand awareness | Produced | Professional quality signals credibility |
-| Seasonal launches (Q4) | Produced/Hybrid | Polished creative drives seasonal conversions |
+| Khán giả lạnh lùng mong đợi | UGC | Trộn vào thức ăn, cảm thấy được kết hợp đồng đẳng |
+| Sản phẩm dưới $100 | UGC | Hạ ngưỡng xem xét |
+| Sản phẩm $200+ | Produced/Hybrid | AOV cao hơn cần tín hiệu tín nhiệm |
+| Phục hồi các khán giả nồng nhiệt | Both | Cử tọa nhiệt tình hưởng ứng những tín hiệu khác nhau |
+| Nhận thức thương hiệu | Produced | Tín hiệu chất lượng nghề nghiệp đáng tin cậy |
+| Khởi động theo mùa (Q4) | Produced/Hybrid | Sự sáng tạo Ba Lan thúc đẩy sự cải đạo theo mùa |
 
-### Creative Testing System
-1. Competitor audit: Identify 30+ day running ads trong category → hook structures, offer framings
-2. Variant matrix: 3 hook angles x 2 visual treatments x 2 CTAs = 12 variants per creative brief
-3. Test window minimum: 1,000-2,000 impressions + 7 days trước khi scale/kill
-4. Refresh cadence: Every 10-14 days — don't wait for performance collapse
-5. Creative lifespan on Meta: 3-6 weeks
+### Hệ thống thử nghiệm sáng tạo
+1. Kiểm toán đối số: Xác định 30+ngày chạy quảng cáo giai đoạn vòng, kết cấu móc nối phân loại, cung cấp khung
+2. Ma trận đa dạng: 3 góc móc x 2 hình ảnh x 2 chụp cắt lớp = 12 biến thể trong mỗi ngắn gọn sáng tạo
+3. Test window minimum: 1.000-2.000 impressions + 7 days trước khi scale/kill
+4. Sự khoan khoái: Cứ 10-14 ngày — đừng đợi cho màn trình diễn sụp đổ
+5. Tạo ra tuổi thọ trên Meta: 3-6 tuần
 
-### Budget Allocation Rule (70-20-10)
-- **70%** → Winning campaigns (scale what works)
-- **20%** → Testing new audiences/angles
-- **10%** → Creative format testing
+### Luật phân phối ngân sách (70-20-10)
+- **70%** Chiến thắng trong chiến dịch (Quy mô những gì hoạt động)
+- **20%** Kiểm tra các khán giả/ngum tra mới
+- **10%** → Thử định dạng sáng tạo
 
-### Creative Fatigue Management
-- Frequency >3.0 = fatigue trigger
-- Ads run 3-4 weeks without refresh: CPMs rise up to 29%, CTRs fall up to 35%
-- Watch frequency + CTR trends → time refreshes proactively
-- Fast pacing + rapid frequency increase = imminent creative fatigue
+### Quản lý sự béo phì sáng tạo
+- Tần số > 3.0 = Kích hoạt mệt mỏi
+- Các quảng cáo chạy 3-4 tuần mà không được cập nhật: CPM tăng lên 29%, CTRs giảm xuống còn 35%
+- Xem tần số + xu hướng CTR thời gian cập nhật tích cực
+- Tốc độ nhanh và tần số nhanh = Sự mệt mỏi sáng tạo sắp sửa xảy ra
 
-### Hook-Story-Close Framework (Verified High-Performing)
-1. **Hook (0-3s):** Pattern interrupt — "I tried 47 marketing tools..." / "This mistake cost me $10K..."
-2. **Story (15-20s):** Build curiosity, show transformation
-3. **Close (last 5s):** Clear, specific CTA
+### Móc-pory-Close
+1. **Haok (0-3s): Mẫu mực gián đoạn — "Tôi đã thử 47 công cụ tiếp thị..." / "Lỗi này làm tôi tốn 10 ngàn..."**
+2. **Story (1-20):** Xây dựng tò mò, cho thấy sự biến đổi
+3. **Close (năm cuối):** Clear, cụ thể CTA
 
-### Vietnam-Specific Adjustments
+### Điều chỉnh đặc điểm Việt Nam
 | Factor | Global Benchmark | Vietnam Reality | Adjustment |
 |--------|-----------------|-----------------|------------|
-| CPM levels | $10-50 (US/EU) | ₫20,000-80,000 (~$0.80-3.20) | Budget thresholds scale down — 50 events/week achievable at lower spend |
-| iOS ATT opt-out rate | 70%+ | ~40-50% (lower upgrade cycle) | Pixel degradation less severe; CAPI still recommended but not urgent for SMBs |
-| Ad blocker penetration | 30%+ global | ~10-15% | Pixel-only gap narrower, but CAPI adds server-side events |
-| Payment behavior | Credit card dominant | COD 60-70%, e-wallets rising | Optimize "Purchase" event post-delivery confirmation, not just checkout |
-| Zalo ecosystem | N/A | Major social channel | Consider cross-channel: Meta prospecting → Zalo closing |
+| Mức độ CPM | $10-50 (US/EU) | ₫20.000-80.000 (~$0.80-3.20) | Áp suất giảm xuống — 50 sự kiện/tuần có thể thực hiện được ở mức chi tiêu thấp |
+| Tối ưu hóa iOS ATT | 70%+ | ~40-50% (chu kỳ nâng cấp thấp) | Giảm thiểu điểm ảnh ít nghiêm trọng hơn; CAI vẫn khuyên nhưng không khẩn cấp cho MB |
+| Sự thâm nhập khối | 30%+ global | ~10-15% | Khoảng cách chỉ hẹp điểm ảnh, nhưng CAI thêm sự kiện bên máy phục vụ |
+| Hành vi thanh toán | Số hiệu thẻ tín dụng | COD 60-70%, tăng e-wallets | Rửa hình sự kiện "Purchase" sau khi được xác nhận, không chỉ kiểm tra |
+| Hệ sinh thái Zalo | N/A | Kênh xã hội chính | Xem xét chéo: Meta Đang tìm kiếm đóng cửa Zalo

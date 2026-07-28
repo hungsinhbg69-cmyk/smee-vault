@@ -25,21 +25,21 @@ Quý 2/2026: Các công cụ AI đã chuyển từ "thử nghiệm" → "sẵn s
 
 ## Lớp Mô hình — Các LLM cốt lõi
 
-### 1. OpenAI GPT-4o / GPT-5 (GPT-5 Preview)
+### 1. OpenAI GPT-4o / GPT-5 (xem thử GPT-5)
 - **Giá:** $8/tháng (Plus), $200/tháng (Pro)
 - **Điểm mạnh:** Hỗ trợ đa phương thức từ gốc, tích hợp Sora 2 (tạo video), hệ sinh thái plugin
 - **Ứng dụng marketing:** Tạo nội dung, phân tích tài liệu, nghiên cứu khách hàng
 - **Điểm yếu:** Giới hạn tốc độ trên gói miễn phí, thiên về dữ liệu thị trường Mỹ
 - **Đối với Hùng:** ChatGPT + GPT-5 là công cụ cốt lõi cho việc lên ý tưởng nội dung và phân tích tài liệu
 
-### 2. Anthropic Claude (Opus/Sonnet)
+### 2. Xa cổ động Claude (Opus/ Sonnet)
 - **Giá:** $17/tháng+, Opus cao hơn nhiều
 - **Điểm mạnh:** Độ chính xác lập trình cao nhất, logic suy luận tốt, Claude Cowork (tự động hóa trên máy tính để bàn)
 - **Ứng dụng marketing:** Tạo mã nguồn (kỹ năng OpenClaw), phân tích dữ liệu, đầu ra có cấu trúc
 - **Điểm yếu:** Giá cao so với các lựa chọn thay thế khác
 - **Đối với Hùng:** Claude Sonnet > GPT-4o cho các tác vụ lập trình. Claude 4 Opus đáng giá nếu ngân sách cho phép
 
-### 3. Google Gemini (Pro/Ultra + Deep Research)
+### 3. Google Song tử (Pro/Utra + Deep Research)
 - **Giá:** $7.99/tháng+, tính năng Deep Research trả phí
 - **Điểm mạnh:** Cửa sổ ngữ cảnh lớn, nghiên cứu tự động Deep Research, tạo ảnh Nano Banana, Tổng quan âm thanh (Audio Overview)
 - **Ứng dụng marketing:** Tổng hợp nghiên cứu, phân tích thị trường, tái sử dụng nội dung (tóm tắt dạng âm thanh)
@@ -86,7 +86,7 @@ Quý 2/2026: Các công cụ AI đã chuyển từ "thử nghiệm" → "sẵn s
 - **Ứng dụng marketing:** Đọc sách podcast, lồng tiếng YouTube, bot hỗ trợ khách hàng, lồng tiếng quảng cáo
 - **Đối với Hùng:** Voice Agents cho Facebook Messenger/Telegram trả lời tự động. Sao chép giọng thương hiệu
 
-### 10. Google Audio Overview (Gemini)
+### 10. Google Google
 - **Giá:** Miễn phí bên trong Gemini
 - **Điểm mạnh:** Tóm tắt phong cách podcast từ tài liệu
 - **Ứng dụng marketing:** Tái sử dụng nội dung, học nhanh khi di chuyển
@@ -99,7 +99,7 @@ Quý 2/2026: Các công cụ AI đã chuyển từ "thử nghiệm" → "sẵn s
 - **Ứng dụng marketing:** Tổng hợp nghiên cứu thị trường, phân tích đối thủ, lên kế hoạch nội dung
 - **Đối với Hùng:** Tải báo cáo thị trường Bac Giang → nhận thông tin tức thì. Tóm tắt âm thanh cho quãng đường di chuyển
 
-### 12. Gemini Deep Research
+### 12 Song Tử nghiên cứu sâu
 - **Giá:** Tính năng trả phí bên trong Gemini
 - **Điểm mạnh:** Nghiên cứu đa bước tự động, báo cáo tương tác, vết dấu lý luận (reasoning traces)
 - **Ứng dụng marketing:** Phân tích cạnh tranh, phát hiện xu hướng, nghiên cứu thị trường ngách

@@ -19,7 +19,7 @@ last_updated: 2026-06-27
 **Plugin: obsidian-mind-map** -- Chuyển đổi tiêu đề của bất kỳ ghi chú nào thành bản đồ tư duy tương tác
 
 1. Mở bất kỳ ghi chú nào (ví dụ: Vault-MOC.md)
-2. Ctrl+P -> "MindMap: Show current file as mindmap"
+2. Ctrl+P -> "MindMap: Hiển thị tập tin hiện thời dạng sơ đồ tư duy"
 3. Tự động tạo bản đồ tư duy có thể nhấp từ cấu trúc H1/H2/H3
 4. Xuất ra .mm hoặc xem trực tiếp
 

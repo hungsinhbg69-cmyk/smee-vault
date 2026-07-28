@@ -1,5 +1,5 @@
 ---
-title: Thau hieu Marketing tu A-Z-Tieng-Viet
+title: Thau hieu Marketing tu A-Z-Ting-Viet
 slug: thau-hieu-marketing-tu-a-z-tieng-viet
 category: resource
 tags:

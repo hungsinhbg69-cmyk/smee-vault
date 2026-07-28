@@ -1,5 +1,5 @@
 ---
-title: "Cognitive Behavioral Theory"
+title: "Thuyết hành vi cao quý"
 slug: cognitive-behavioral-theory
 category: knowledge
 tags: [concept, psychology, self-improvement]
@@ -9,7 +9,7 @@ created: 2026-07-14
 last_updated: 2026-07-14
 ---
 
-# Cognitive Behavioral Theory
+# Lý thuyết về hành vi phối hợp
 
 Khung nhận thức–hành vi mô tả quan hệ giữa diễn giải, cảm xúc và hành động. Thay đổi cách nhận diện và kiểm tra suy nghĩ có thể thay đổi phản ứng cảm xúc và hành vi tiếp theo.
 

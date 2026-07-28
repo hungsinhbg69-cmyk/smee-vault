@@ -39,7 +39,7 @@ sources:
 ### #1 Infographic so sánh giá
 ❌ Bảng 5 phân khúc quá dài → ✅ "Trả góp X tr/tháng vs thu nhập Y"
 
-### #2 Poster Limited Unit (FOMO)
+### Đơn vị bưu điện # 2 giới hạn (FOMM)
 ❌ Countdown timer đơn thuần → ✅ Deadline cụ thể + số người đã đăng ký (social proof > urgency cảm xúc)
 
 ### #3 Tài chính linh hoạt (VAY 0%)

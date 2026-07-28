@@ -1,5 +1,5 @@
 ---
-title: "Facebook Ads — Budgeting, Bidding & Performance Metrics (2025-2026)"
+title: "Facebook Ads - Ngân sách, Thể dục và Thể hiện bộ phim (2025-26)"
 slug: "fb-budgeting-bidding-metrics"
 category: knowledge
 tags: ["facebook-ads", "budgeting", "bidding", "metrics", "cbo"]
@@ -10,20 +10,20 @@ last_updated: 2026-06-24
 ---
 
 
-# Facebook Ads — Budgeting, Bidding & Performance Metrics (2025-2026)
+# Facebook Ads — Ngân sách, Thể dục & trình diễn
 
 Phân tích tổng hợp từ nguồn research notebook June 2026. Cover toàn bộ khía cạnh: CBO vs ABO, bid strategies, benchmarks, frequency management, attribution models.
 
 ---
 
-## 1. Budget Allocation — CBO vs ABO
+## 1. Ngân quỹ tạo định vị — CBO đấu với ABO
 
-### CBO (Campaign Budget Optimization)
+### CBO (Nổ tay làm báp têm)
 - **Mặc định cho scaling**: Meta AI phân phối budget real-time vào adset/creative tốt nhất (ref: 1-3)
 - Thuật toán đọc early signals (fixates, autocar behaviors, scroll patterns) nhanh hơn human media buyer
 - **Nhược điểm lớn**: Bias mạnh về existing winners — creative mới bị starve spend
 
-**The Adset Spending Limit Fix:**
+**Người tiền sử dùng thuốc hạn chế:**
 | Bước | Hành động |
 |------|-----------|
 | 1 | Mở CBO campaign → Edit adset cho creative mới |
@@ -42,9 +42,9 @@ Phân tích tổng hợp từ nguồn research notebook June 2026. Cover toàn b
 - **Scaling individual winners**: Tăng từ $100 → $300 → $700 cho từng adset riêng biệt không ảnh hưởng cái khác
 - Khi muốn surgical control budget per adset + active daily management
 
-**Expert quote**: "ABO isn't dead — there are real use cases where it earns its place, but you need to understand what you're signing up for." (ref: 12)
+**Epert trích dẫn**: "ABO chưa chết-- có những trường hợp sử dụng thực sự để giành vị trí của nó, nhưng bạn cần phải hiểu bạn đang tham gia vào cái gì." (ref: 12)
 
-### Best Practice Structure (2026)
+### Công thức luyện tập tốt nhất (2026)
 - **Testing campaign** (ABO): Mỗi adset $50/ngày cho creative mới
 - **Scaling campaign** (CBO): Dùng Adset Spending Limits cho new packs → sau 7 ngày remove
 - Creative thinking: **"Creative needs to be thought about in units"** — flexible ad packs 4-8 ads/group, không trộn old/new cùng pack (ref: 9)
@@ -53,124 +53,124 @@ Phân tích tổng hợp từ nguồn research notebook June 2026. Cover toàn b
 
 ## 2. Bidding Strategies
 
-### Highest Volume (Lowest Cost) — Default & Recommended (ref: 16-18)
+### Âm lượng cao nhất (Lowest Cost) — Mặc định & khuyến cáo (ref: 16-18)
 - Meta tối ưu để spend budget FULL → get maximum conversions possible
 - Phù hợp nhất cho beginners và most campaigns
 - Không set cost cap/bid cap → let algorithm do its job
 
-### Cost Cap (Cost per Result Goal) — Scaling Only (ref: 19-22)
+### Chi phí Cap (Cát cho mỗi kết quả Goal) — Chỉ Scaling (ref: 19-22)
 **Khi nào dùng**: Chỉ cho scaling proven winners, KHÔNG cho testing
 - Set cap = target CPA hoặc thấp hơn chút
 - Inflate budget mạnh → squeeze cheap conversions during peak times (weekends)
-- Attribution window: cost should average out over attribution period (7-day click)
+- Cửa sổ phân phối: Chi phí trung bình nên quá mức cho phép nhấn 7 ngày)
 
-**Weekend Scaling Tactic:**
-> "During weekend performance is usually better because conversion rate is higher — more people have free time and are in buying mode. I set a high inflated budget with a Cost Cap at my target CPA, giving Facebook permission to spend as much as possible when performance peaks." (ref: 21-22)
+**Chúng ta biết Scaking Ttic:**
+> "Trong kỳ nghỉ cuối tuần, hiệu suất sẽ tốt hơn vì tỉ lệ chuyển đổi cao hơn, nhiều người có thời gian rảnh hơn và có chế độ mua sắm. Facebook Cho phép chi tiêu càng nhiều càng tốt khi đạt đỉnh điểm." (ref: 21-22)
 
 **4 Scenarios với Manual Bids:**
 | Scenario | Dấu hiệu | Action |
 |----------|----------|--------|
-| 1. Generating sales but not spending full budget (e.g., $200 of $1k) | Bid too low | Gradually increase bid by $1 until fully spent with good results |
-| 2. Not generating any conversions yet | Budget running out before data collection | Increase bid or wait for learning phase to complete |
-| 3. Good CPA but spending fast → CPA rises | Bid too high | Decrease bid gradually |
-| 4. Performing well at target CPA, spending full budget | Sweet spot | Leave as-is, monitor |
+| 1. tái tạo doanh thu nhưng không chi tiêu toàn bộ ngân sách (v. d., 200 đô la) | Hạ thấp quá | Dần dần tăng giá thầu 1 đô la cho đến khi hoàn toàn chi tiêu với kết quả tốt |
+| 2. Chưa tạo ra sự chuyển đổi nào | Ngân sách chạy ra trước khi dữ liệu được thu thập | Tăng giá thầu hoặc đợi cho giai đoạn học để hoàn tất |
+| 3 tốt CPA nhưng chi tiêu nhanh CPA tăng | # Bid too high # Quá cao. | Giảm giá xuống dần dần |
+| 4. Thực hiện tốt mục tiêu CPA, chi tiêu toàn bộ ngân sách | Sweet spot | Để lại như-là, màn hình |
 
 **Pro tip**: Luôn dùng "click only" attribution với manual bids để avoid view-through overattribution (ref: 22)
 
-### ROAS Target (Maximize Value) — E-commerce Specific (ref: 23-26)
-- Optimizes for **conversion value**, not just conversion count
+### Mục tiêu ROAS (giá trị bậc hai) — E-commerce cụ thể (ref: 23-26)
+- Comment
 - Perfect cho brands có: product price variance, fluctuating AOV, multiple service tiers ($200 vs $5,000 leads)
-- Trade-off: higher CPL but more valuable conversions overall
+- Giao dịch- ra: Bộ chuyển đổi cao hơn nhưng có giá trị hơn
 
 ---
 
-## 3. Daily vs Lifetime Budgets & Pacing
+## 3 Mỗi ngày, với thời gian sống, ngân sách tạo ra và nhịp điệu
 
-### Daily Budgets Win (ref: 27-31)
+### Tờ Nhật báo Budgets Win (ref: 27-31)
 | Factor | Daily | Lifetime |
 |--------|-------|----------|
-| Flexibility | ✅ Always adjustable | ❌ Fixed end date required |
-| Learning phase reset | ✅ Minimal impact | ⚠️ Must recreate campaign = re-enter learning |
-| Scalability | ✅ Easy budget changes | ⚠️ Lumpier spend patterns |
+| Flexibility | ✅ Always adjustable | Yêu cầu ngày kết thúc cố định |
+| Học tập khởi động lại giai đoạn | ✅ Minimal impact | _TIẾNG _NHỮNG NGƯỜI ĐỂ tái tạo chiến dịch = Học trở lại |
+| Scalability | _Các thay đổi ngân sách dễ dàng | _Gỡ bỏ các mẫu dùng |
 
-**Recommended daily budgets:**
-- Low-ticket lead gen: **$20-$50/day** per adset (ref: 27)
-- High-ticket services (e.g., turf installation): **$50+/day** per adset
-- Creative testing packs: Set budget you can afford to lose
+** Ngân sách mỗi ngày được tái thiết:**
+- Dấu ngoặc dẫn thấp: **20-50/ngày**/adset (ref: 27)
+- Dịch vụ danh sách cao (v. d., cài đặt địa bàn): **50+/ngày**/adset
+- Gói thử nghiệm sáng tạo: Đặt ngân sách bạn có thể mất
 
 ### Pacing Rules
-1. **Launch at midnight** the following day → full 24h pacing window, avoid weird mid-day spend spikes (ref: 32-33)
-2. **Budget increases**: +20-30% every **3 days** (safe path) or duplicate adset with higher budget then wait 72h (ref: 34-35)
-3. Kill criteria: spent enough money, run long enough, no external factors → still outside financial model
+1. **Lanchon at night** ngày hôm sau đầy cửa sổ 24h, tránh những cây đinh giữa ngày kỳ lạ (ref: 32-33)
+2. **Budget tăng**: +20-30% mỗi **3 ngày**(đường an toàn) hoặc sao lại quảng cáo với ngân sách cao hơn sau đó đợi 72h (ref: 34-35)
+3. Tiêu chuẩn giết: chi tiêu đủ tiền, đủ lâu, không có nhân tố bên ngoài nào ngoài mô hình tài chính
 
 ---
 
-## 4. Performance Benchmarks — Numbers That Matter
+## 4. Những biểu hiện của con chó — Số thứ tự quan trọng
 
-### CPM (Cost Per Mille) — Cost per 1000 Impressions (ref: 38-40)
+### CPM (Cost Per Mime) — Chi phí cho 1000 lần nhấn mạnh (ref: 38-40)
 | Industry/Context | Healthy Range | Warning Sign |
 |------------------|---------------|--------------|
-| Local services | $10-$25 | >$40 → targeting radius too narrow |
-| E-commerce | $20-$30 sweet spot | >$35 → unhealthy market, audience saturation |
-| Highly specific creative | Can reach $117+ with same CPL | Not inherently bad — signals precise targeting (ref: 41-48) |
+| Local services | $10-$25 | bán kính ngắm mục tiêu >40 đô-la quá hẹp |
+| E-commerce | $20-$30 sweet spot | >35 đô-la thị trường không lành mạnh, khán giả bão hòa |
+| Sáng tạo đặc biệt cao | Có thể đạt $117+ với cùng một CNL | Không hẳn là xấu — tín hiệu nhắm chính xác (ref: 41-48) |
 
-**Key insight**: "I personally don't give a fuck about CPM" — high CPM can mean highly targeted creative that speaks to narrow audience. What matters is **CPA relative to break-even**. Break-even = Selling Price - Cost of Goods - Shipping (ref: 52-54)
+**Key  insight**: "Tôi không quan tâm đến CPM" nghĩa là có nhiều sự sáng tạo có thể nói với khán giả ít người. vấn đề là **CPA tương đối phá vỡ thậm chí**.
 
-### CTR (Click-Through Rate)
-- Minimum acceptable: **>1%** (ref: 49)
-- Healthy e-commerce video ads target: **1.5%-2.5%+** (ref: 40, 50-51)
-- >2.5% = strong creative connection
+### CTR (Click- qua tỷ lệ)
+- Chấp nhận tối thiểu: **>1%** (ref: 49)
+- Sức khỏe như e-commerce quảng cáo: **1.5%-2.5%+** (ref: 40, 50-51)
+- > 2, 5% = kết nối sáng tạo mạnh
 
-### CPC (Cost Per Click)
+### CPC (Cát mỗi nhắp)
 | Level | Threshold |
 |-------|-----------|
 | Good | <$2 |
 | Excellent | <$1 |
-| Industry-dependent | Legal services can be <$20 and still great (ref: 38) |
+| Industry-dependent | Dịch vụ pháp lý có thể là < $120 và vẫn còn tuyệt (ref: 38) |
 
 ---
 
-## 5. Frequency Management — Funnel Diagnostics (ref: 55-57)
+## Quản lý tần số 5, Hệ thống Quản lý — Khuếch đại điện thoại (ref: 55-57)
 
-Frequency = how many times an average person in your audience sees the ad. Use as funnel position diagnostic:
+Tần số = bao nhiêu lần một người bình thường trong khán giả của bạn nhìn thấy quảng cáo. sử dụng như là vị trí hộp chẩn đoán:
 
 | Funnel Stage | Target Frequency | Meaning |
 |--------------|------------------|---------|
-| **Top of Funnel** (Prospecting) | 1.0 - 1.15 | Constantly reaching new users ✅ |
+| **Đầu phễu** (Tìm kiếm khách hàng tiềm năng) | 1.0 - 1.15 | Liên tục tiếp cận người dùng mới ✅ |
 | **Middle of Funnel** (Nurture) | 1.3 - 1.5 | Successfully nurturing warm audiences ⚠️ |
-| **Bottom of Funnel** (Retargeting) | 1.5+ | Expected for strong CTA offers ✅ |
+| **Bottom of Funnel** (sự hồi sinh) | 1.5+ | Mong đợi cho CTA mạnh mẽ cung cấp _POR |
 
-### Fatigue Thresholds (ref: 56-57)
-- After **4th impression**: probability of converting drops to **56%**
-- Frequency > **5.0 over a few weeks** = major red flag, creative fatigued
-- Action at fatigue: rotate new creatives or expand audience
+### Những người béo (ref: 56-57)
+- Sau khi **4 ấn tượng**: xác suất chuyển hóa giọt xuống **56%**
+- Tần số > **5.0 trong vài tuần** = cờ đỏ chính, kiệt sức sáng tạo
+- Hành động khi mệt mỏi: xoay sáng tạo mới hoặc mở rộng thính giả
 
 ---
 
-## 6. Attribution Models in 2026 (ref: 58-77)
+## 6. Mô hình phân phối vào năm 2026 (ref: 58-77)
 
-### Standard Default: 7-Day Click / 1-Day View
-- **View-through overattribution problem**: If view-throughs >20% of tracked purchases → switch to strict "7-day click" or "7-day click / 1-day engaged view" (ref: 61-67)
+### Ấn phẩm sẽ được ghi rõ trong trang web này?
+- **Xem qua quá trình phân phối**: Nếu xem qua >20% các cửa hàng bị theo dõi chuyển đổi sang "7-ngày" hoặc "7-ngày" click / 1 ngày xem đính hôn" (ref: 61-67)
 
-### Meta Incremental Attribution (New late 2025/2026)
-- Reports ONLY sales that happened **exclusively because of the ad**
-- Filters out organic traffic and other channel conversions
-- More accurate but typically shows lower conversion numbers than standard (ref: 62-63)
+### Meta Phân phối tăng dần (New 2025/2026)
+- Báo cáo chỉ bán hàng xảy ra có chủ đích vì quảng cáo
+- Lọc giao thông hữu cơ và các kênh chuyển đổi khác
+- Chính xác hơn nhưng thường cho thấy số chuyển đổi thấp hơn tiêu chuẩn (ref: 62-63)
 
-### Third-Party Tracking — Essential at Scale
-> "Meta regularly misses **15%-30%** of actual conversion data due to iOS privacy features and ad blockers" (ref: 70-74)
+### Theo dõi phần ba — thiết yếu tại tỷ lệ
+> "Meta thường xuyên trượt **15%-30%* dữ liệu chuyển đổi thực sự do tính năng cá nhân của iOS và ad blockers" (ref: 70-74)
 
 | Tool | Use Case |
 |------|----------|
-| **Hyros** | Best for tracking from ad spend → full customer journey (recurring billing, multiple touchpoints) (ref: 76-77) |
-| **Triple Whale** | E-commerce focused, Shopify integration |
-| **Northbeam** | Multi-channel attribution at scale |
+| **Hyros** | Tốt nhất để theo dõi từ quảng cáo dành trọn chuyến đi khách hàng (đang tính tiền, nhiều điểm cảm ứng) (ref: 76-77) |
+| **Triple Whale** | Tập trung E-commerce, tích hợp cửa sổ |
+| **Northbeam** | & Giới thiệu đa chiều trên quy mô |
 
-**Rule**: Scaling past $1,000/day reliably requires server-side third-party trackers. Don't rely solely on Meta Ads Manager data (ref: 70-75)
+**Rule**: vượt qua 1000/ngày đáng tin cậy yêu cầu máy chủ bên cạnh các thiết bị theo dõi bên thứ ba. Meta Dữ liệu quản lý kiểu Ads (ref: 70-75)
 
 ---
 
-## Quick Reference — Decision Matrix
+## Tham khảo nhanh — Ma trận quyết định
 
 ```
 ┌─────────────────────┬──────────────────┬─────────────────────┐
@@ -193,5 +193,5 @@ Benchmarks to watch:
 
 ---
 
-*Generated from NotebookLM analysis — June 19, 2026*
-*Citations map to source UUIDs in notebook ecb6a557-deb0-4a9b-abfa-2ebb2aab84db (27 sources analyzed)*
+*Griated from NotebookLM phân tích — 19 tháng 6 năm 2026*
+*Các bản đồ đến nguồn UUIDs trong sổ tay cb6a557-deb0-4a9b-abfa-2ebb2ab84db (27 nguồn tài liệu được phân tích)*

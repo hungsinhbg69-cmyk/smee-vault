@@ -19,7 +19,7 @@ related_tags:
 
 # 🔄 NOXH cho thuê dài hạn — Chiến lược chuyển đổi tư duy 2026
 
-## One Idea Summary
+## Một tóm tắt ý tưởng
 Thủ tướng Lê Minh Hưng chỉ đạo chuyển trọng tâm từ "mua nhà để sở hữu" sang **"thuê nhà dài hạn"** — ngân sách Nhà nước đóng vai trò dẫn dắt, địa phương dùng Quỹ phát triển NOXH để xây nhà cho thuê.
 
 ## Explanation

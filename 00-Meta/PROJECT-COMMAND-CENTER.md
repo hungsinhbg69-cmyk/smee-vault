@@ -27,10 +27,10 @@ SORT file.mtime DESC
 
 **Plugin: obsidian-kanban** -- Tạo board cho MI mỗi dự án với các cột:
 
-Backlog -> Ready -> Doing | Review -> Done
+In ngược -> Sẵn sàng -> Đang làm _Priend Review -> Done
 
 ### Bắt đầu nhanh bảng Kanban mới:
-1. Ctrl+P -> "Kanban: Create new kanban board"  
+1. Ctrl+P -> "Kanban: tạo bảng điều khiển mớikanban"  
 2. Tên: `ProjectName-board.kanban`
 3. Cột: Backlog | Ready | Doing | Review | Done
 4. Mỗi thẻ = wikilink đến ghi chú dự án hoặc file giao sản phẩm
@@ -47,7 +47,7 @@ Backlog -> Ready -> Doing | Review -> Done
 
 ## Theo dõi Sprint dự án (biểu đồ Mermaid)
 
-**Plugin: mermaid-tools + mermaid.js rendering**
+**Plugin: nàng tiên cá + nàng tiên cá.j vẽ**
 
 ### Ví dụ: Trạng thái Sprint hiện tại
 ```mermaid

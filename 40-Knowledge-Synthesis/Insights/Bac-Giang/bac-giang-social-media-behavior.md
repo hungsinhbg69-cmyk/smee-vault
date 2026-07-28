@@ -27,7 +27,7 @@ sources:
 | Hashtag | Ý nghĩa | Engagement |
 |---------|---------|------------|
 | `#98bacgiang` | Nhận dạng cộng đồng BG | Thương hiệu cảm xúc |
-| `#ansap_bacgiang` | Ăn sập Bắc Giang (du lịch/food) | 38.1K followers, 723.2K likes |
+| `#ansap_bacgiang` | Ăn sập Bắc Giang (du lịch/food) | Sự theo dõi 38K, 723.2K thích |
 | `#xuhuongtiktok2026` | Xu hướng chung | Bùng nổ vụ Đại tướng Phan Văn Giang |
 | `#nhapngu2026` | Video nhập ngũ | Lữ đoàn 203, Sư đoàn 325 Lục Ngạn |
 | `#chubodoi` | Chú bộ đội BG | Giọng hát hay, tính cách vui vẻ |
@@ -105,4 +105,4 @@ sources:
 
 ---
 
-*Smee 🦞 | 2026-06-15 | Sources: TikTok crawl 2026-06, Facebook groups observation*
+*Smee _ _Jô 2026-06-15 Nguồn gốc: Tik Tok thu thập 2026-06, Facebook Các nhóm quan sát

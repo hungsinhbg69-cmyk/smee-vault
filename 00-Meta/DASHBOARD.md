@@ -20,13 +20,13 @@ last_updated: 2026-07-14
 
 | Hành động | Phím tắt | Lựa chọn QuickAdd |
 |---|---|---|
-| 💭 Suy nghĩ nhanh → Hàng ngày | `Mod+Shift+Space` | capture-quick-thought |
+| 💭 Suy nghĩ nhanh → Hàng ngày | `Mod+Shift+Space` | tư duy bắt giữ |
 | 📥 Ý tưởng → Hộp thư đến | `Mod+Shift+I` | capture-inbox |
-| 📝 Ghi chú nguyên tử | `Mod+Shift+N` | capture-new-note |
-| ✅ Nhiệm vụ hôm nay | `Mod+Shift+T` | capture-task-today |
-| 🚀 Dự án mới | `Mod+Shift+P` | init-new-project |
-| 📚 Ghi chú tài liệu | — | capture-literature-note |
-| 📅 Tổng kết tuần | `Mod+Shift+W` | review-weekly-init |
+| 📝 Ghi chú nguyên tử | `Mod+Shift+N` | Ghi chú mới thu |
+| ✅ Nhiệm vụ hôm nay | `Mod+Shift+T` | lưu- nhiệm vụ- ngày hôm nay |
+| 🚀 Dự án mới | `Mod+Shift+P` | In- ra- mới |
+| 📚 Ghi chú tài liệu | — | Ghi chú tự động thu |
+| 📅 Tổng kết tuần | `Mod+Shift+W` | Xem xét- tuần |
 | 🔍 Smart Connections | `Mod+Shift+S` | — |
 | 🔎 Tìm kiếm toàn diện | `Mod+Shift+O` | — |
 | 🔄 Kéo Git | `Mod+Shift+G` | — |

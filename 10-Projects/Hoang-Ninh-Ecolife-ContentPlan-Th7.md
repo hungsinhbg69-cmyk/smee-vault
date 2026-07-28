@@ -241,7 +241,7 @@ tags: [real-estate, social-housing, facebook, content-plan, hoang-ninh-ecolife]
 | Headline | XUỐNG NHÀ LÀ ĐÁNH GÁO, MUA SẮM CÓ NGAY DƯỚI CHÂN Chung Cư ☕🛒 |
 | Caption đầy đủ | 🏪 Nhà đẹp không chỉ là bê tông cốt thép. Tiện nghi ngay tầng trệt mới là thứ dùng mỗi ngày.<br><br>Tại Hoàng Ninh Ecolife, tiện ích dưới chân chung cư phục vụ trực tiếp nhu cầu anh em:<br><br>- Quán nước, quán phở, bánh mì buổi sáng (tiền bữa sáng chỉ vài chục nghìn)<br>Giày dép, cắt tóc — 1 bước thang máy là xuống<br><br>- Siêu thị mini / tạp hóa gần nhà: mua gạo muối cá kho ngay đầu ngõ<br><br>- Phòng gym nhỏ phục vụ anh em tập sau giờ làm (mua đồ chơi game về xem điện thoại suốt ngày cũng... uổng phí)<br><br>💡 Lợi ích thực tế:<br><br>- Không phải lội bộ 15 phút ra chợ như khi ở trọ đường làng<br>- An ninh tốt hơn khu dân cư tự phát — có camera bao phủ<br>- Tiết kiệm thời gian, về sớm còn nấu cơm cho vợ con |<br><br>📌 Anh em nào muốn xem hình ảnh thực tế tầng trệt các cửa hàng dịch vụ? Nhắn tin số "TIỆN ÍCH" nhé! |
 | CTA | Xem tiện ích dự án |
-| Hashtags | #TienIchNoiKhu #SongAnNhien #BacGiangLife #HoangNinhEcolife #CuocSongDienDong |
+| Hashtags | ♪ TienIch NoiKhu ♪ Soong AnNhien ♪ ♪ BacGang Life ♪ Hoang Ninh Ecolife ♪Cuoc ShiongDen Đông |
 | Link sản phẩm | https://hoangninhgroup.vn/hoang-ninh-ecolife-342549 |
 | Trạng thái | Chờ duyệt nội dung |
 
@@ -412,7 +412,7 @@ tags: [real-estate, social-housing, facebook, content-plan, hoang-ninh-ecolife]
 | Headline | THEO DÕI ĐÚNG, HIỂU ĐÚNG: KHI MUA NHÀ NOXH KHÔNG LO BỊ MÙN 📢 |
 | Caption đầy đủ | 💸 Tin đồn khu KCN lan nhanh hơn cả "tin nhắn tay".<br><br>Các thông tin anh em hay nghe tại dự án:<br>- "Lãi suất ngân hàng tăng vọt = mua bây giờ đắt" -> Đúng là tháng sau có thể thay đổi<br>"Giá nhà NOXH đợt 2 sẽ cao hơn đợt 1" -> Tùy chính sách từng thời điểm |<br><br>💡 Cách "chống nhiễu" thông tin:<br>1. Theo dõi kênh chính thức: Page Facebook Hoàng Ninh Ecolife hoặc hotline 082 786 6894<br>- Không vội đặt cọc vào bên môi giới "bay màu"<br>3. Hỏi lại admin khi thấy nội dung gì mập mờ<br><br>- Khi nghe người ta tư vấn, đừng tin ngay — kiểm tra lại với chủ đầu tư luôn |<br><br>📌 "Tin đúng giúp anh em đi đúng đường." Với một việc lớn là mua nhà NOXH (vài chục đến cả trăm triệu), cẩn thận từ đầu không bao giờ thừa.<br>• Hotline dự án: 082 786 6894 |
 | CTA | Theo dõi kênh chính thức |
-| Hashtags | #ThongTinDung #ChongNdauThongTin #BacGiang #EcolifeUpdate #NhaOXaHoi #KCNQuangChau |
+| Hashtags | ♪ ThongTinDung ♪ Chun Song Yi Thung Tân ♪ |
 | Link sản phẩm | https://hoangninhgroup.vn/hoang-ninh-ecolife-342549 |
 | Trạng thái | Chờ duyệt nội dung |
 
@@ -469,7 +469,7 @@ tags: [real-estate, social-housing, facebook, content-plan, hoang-ninh-ecolife]
 | Headline | KHÉP THÁNG 7, TIẾP TỤC CHỜ TIN VUI 🍀📢<br>|
 | Caption đầy đủ | 🌿 Tháng 7 khép lại với nhiều nội dung đã chia sẻ về Hoàng Ninh Ecolife:<br><br>• Lợi thế vị trí: đối diện KCN Quang Châu<br>- Căn hộ từ 1PB đến 3PB cho nhiều nhóm khách hàng<br>- NOXH giá rẻ, ưu tiên người lao động KCN |<br><br>Nhưng hành trình an cư còn dài. Tháng 8 sẽ là khoảng thời gian quan trọng hơn:<br>|<br>• Cập nhật tiến độ mới (xây xong bao nhiêu %, đang làm gì tiếp)<br>- Chính sách ưu đãi đợt mới (lãi suất, chiết khấu tiền mặt nếu có) |<br><br>- Thông tin hồ sơ chi tiết cho từng nhóm đối tượng<br><br>📌 Cảm ơn anh chị em đã theo dõi Hoàng Ninh Ecolife trong tháng 7. Hành trình an cư cần sự rõ ràng từng bước, nên mình sẽ tiếp tục cập nhật những điều thực tế nhất — không bay hoắt chỉ để cho đẹp.<br><br>• Ai muốn giữ liên lạc, thêm bạn bè hoặc follow page nhé!<br>- Hotline: 082 786 6894 |
 | CTA | Đón cập nhật tiếp theo |
-| Hashtags | #TongKetThang7 #CapNhatThang8 #BacGiang #HoangNinhEcolife #AnCuNoiTieng · NOXHNamNgan |
+| Hashtags | ♪ Chung Quỳ7 ♪ CapNhatTang8 ♪ Hoang Ninh Ecolife ♪ AnCuNoiTieee ♪ |
 | Link sản phẩm | https://hoangninhgroup.vn/hoang-ninh-ecolife-342549 |
 | Trạng thái | Chờ duyệt nội dung |
 

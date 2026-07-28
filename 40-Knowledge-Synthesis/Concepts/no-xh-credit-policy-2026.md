@@ -17,7 +17,7 @@ cited_count: 0
 
 # 🏦 Chính sách tín dụng NOXH 2026 — NHNN loại trừ khỏi hạn mức BĐS
 
-## One Idea Summary
+## Một tóm tắt ý tưởng
 Ngân hàng Nhà nước điều chỉnh cách tính dư nợ: từ 1/1-31/12/2026, dư nợ NOXH, KCN và khu chế xuất **không được tính vào hạn mức tín dụng BĐS** — tạo dư địa giải ngân mạnh cho các tỉnh công nghiệp như Bắc Giang, Bắc Ninh.
 
 ## Explanation

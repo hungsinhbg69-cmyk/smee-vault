@@ -1,5 +1,5 @@
 ---
-title: S3 - Local crisis pack - Creator
+title: S3 - Cuộc khủng hoảng địa phương đóng gói - Đấng Tạo Hóa
 tags:
   - agent-training/local-pack
   - marketing
@@ -13,7 +13,7 @@ created: 2026-07-13
 last_updated: 2026-07-13
 ---
 
-# Local crisis pack — Creator
+# Khủng hoảng địa phương là một bầy — Đấng Tạo Hóa
 
 > [!warning] Khóa
 > Chỉ dùng khi Thầy mở Tình huống 3.

@@ -15,8 +15,8 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Explain {} in simple terms that a 5-year-old would understand:
-    1. Use basic vocabulary
-    2. Include simple analogies
-    3. Break down complex concepts
-    Return only the simplified explanation.
+Hãy giải thích đơn giản rằng một đứa trẻ 5 tuổi sẽ hiểu:
+    1. Dùng từ vựng cơ bản
+    2. Bao gồm các phép tương tự đơn giản
+    3. Phá vỡ các khái niệm phức tạp
+    Trả lời chỉ đơn giản thôi.

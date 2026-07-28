@@ -1,5 +1,5 @@
 ---
-title: "Agent Session Log"
+title: "Bản ghi phiên chạy rực rỡ"
 slug: "agent-session-log"
 category: meta
 tags: [meta, agent, session-log]
@@ -9,9 +9,9 @@ created: 2026-06-23
 last_updated: 2026-06-23
 ---
 
-# 🤖 Agent Session Log Template
+# Comment
 
-> Hermes Agent session tracking — logs every action, capture, and decision for vault integration.
+> Hermes Theo dõi phiên chạy đặc vụ — ghi chép mọi hành động, thu và quyết định tích hợp két sắt.
 
 ## Session Header
 
@@ -22,20 +22,20 @@ vault_root: Smee Obsidian/Smee
 protocol_version: 2.1
 ```
 
-## Pre-Session Checklist
+## Danh sách kiểm tra trước
 
-- [ ] Read `Protocol.md` → confirm current rules
-- [ ] Read `Vault-Quick-Ref.md` → identify domain context needed
-- [ ] Read active daily note → check prior captures
-- [ ] Scan active projects in `10-Projects/`
+- [ ] Đọc `Protocol.md` _Gỡ bỏ
+- [ ] Đọc `Vault-Quick-Ref.md` _cần xác định ngữ cảnh miền
+- [ ] Đọc lưu ý hoạt động hàng ngày _ kiểm tra trước khi bắt
+- [ ] Quét các dự án hoạt động vào `10-Projects/`
 
-## Session Actions Log
+## Bản ghi hành động phiên chạy
 
-### Captures (new knowledge)
+### Chụp (hiểu biết mới)
 - `[HH:MM] capture: "<topic>" → [[slug-name]] (folder/#tags)`
 
-### Connections (wikilinks created)
-- `[HH:MM] connect: [[note-a]] ↕ [[note-b]]` → shared concept/cluster
+### Kết nối (đã tạo)
+- `[HH:MM] connect: [[note-a]] ↕ [[note-b]]` _Trích từ ý niệm/cluster
 
 ### Outputs (deliverables)
 - `[HH:MM] output: "<artifact type>" → [[target-path]]`
@@ -43,9 +43,9 @@ protocol_version: 2.1
 ### Decisions
 - `[HH:MM] decision: "<rationale>" → moved [[note]] from X to Y`
 
-## Post-Session Routine
+## Name
 
-1. Append all actions to current daily note (02-Daily/YYYY-MM-DD.md)
-2. Create atomic notes for validated insights (promoted from session captures)
-3. Backlink new notes to relevant MOCs/insights
-4. Commit via Git if vault has integration
+1. Phụ thêm mọi hành động vào chú thích hàng ngày hiện tại (02-Daily/YYYY-MM-D.md)
+2. Tạo ghi chú nguyên tử để xác nhận sự hiểu biết (được hỗ trợ từ việc thu phiên chạy)
+3. Liên kết các ghi chú mới với chức năng MOCs/insights
+4. Nhấn để thêm chú thích...

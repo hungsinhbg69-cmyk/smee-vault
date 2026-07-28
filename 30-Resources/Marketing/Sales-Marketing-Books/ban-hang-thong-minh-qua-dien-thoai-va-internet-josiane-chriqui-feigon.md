@@ -1,5 +1,5 @@
 ---
-title: ban-hang-thong-minh-qua-dien-thoai-va-internet-josiane-chriqui-feigon
+title: Ban-ang-minh-qua-din-tosai-va-ti-gsine-chriqui-fecion
 slug: ban-hang-thong-minh-qua-dien-thoai-va-internet-josiane-chriqui-feigon
 category: resource
 tags:
@@ -81,7 +81,7 @@ Phương pháp nhấn mạnh vào việc "thực hiện nhiều cuộc gọi" c�
 
 Một điểm hạn chế đáng chú ý là tác giả không đi sâu vào phân tích hiệu suất chi phí – lợi ích của từng kênh tiếp cận, dẫn đến việc người đọc có thể triển khai quy trình này mà chưa tính toán đầy đủ về chi phí vận hành đội ngũ bán hàng trong môi trường cạnh tranh ngày nay.
 
-Về mặt kỹ thuật xử lý thông tin, phải lưu ý rằng phần EVIDENCE PACK từ cuốn sách chỉ bao phủ 99.34% nội dung do có 2 trang trắng không thể trích xuất được ở trang 5 và 158. Điều này hạn chế khả năng tiếp cận đầy đủ mọi chi tiết từ tác giả, đặc biệt là các ví dụ thực tế hoặc nghiên cứu case study mà tác giả có thể đã trình bày ở những trang này (PDF p. 5 | BLANK/NO EXTRACTED TEXT, PDF p. 158 | BLANK/NO EXTRACTED TEXT).
+Về mặt kỹ thuật xử lý thông tin, phải lưu ý rằng phần EVIDENCE PACK từ cuốn sách chỉ bao phủ 99.34% nội dung do có 2 trang trắng không thể trích xuất được ở trang 5 và 158. Điều này hạn chế khả năng tiếp cận đầy đủ mọi chi tiết từ tác giả, đặc biệt là các ví dụ thực tế hoặc nghiên cứu case study mà tác giả có thể đã trình bày ở những trang này (PDF p. 5 | BLANK/NoT TEXT, PDF p. 158 | BLANK/NO EXTRACTED TEXT).
 
 ## Kết nối
 

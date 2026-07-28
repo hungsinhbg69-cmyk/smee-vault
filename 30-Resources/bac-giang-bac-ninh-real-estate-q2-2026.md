@@ -31,7 +31,7 @@ Bắc Ninh hiện có **33 KCN, 37 cụm CN**, ~568.000 lao động công nghi�
 | Dự án | Khu vực | Giá (triệu/m²) | Tăng trưởng |
 |-------|---------|---------------|-------------|
 | Green Pearl | Võ Cường | 58–80 | +27% so với Q4/2024 |
-| Park View City | Huyền Quang | 66–82 | ~+30% sau 1 năm |
+| Thành phố xem chung quanh | Huyền Quang | 66–82 | ~+30% sau 1 năm |
 | Lotus Central | Lý Thái Tổ | 65–83 | >+50% so với 2024 |
 | Chung cư phường Bắc Giang | Dĩnh Trì | 40–74 | ~+45% trong 1 năm |
 

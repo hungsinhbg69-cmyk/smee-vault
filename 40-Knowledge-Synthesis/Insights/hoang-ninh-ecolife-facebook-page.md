@@ -30,7 +30,7 @@ related_tags:
 ### 1. COMING SOON — Giới thiệu dự án (~05/08/2025)
 - **Tiêu đề:** "COMING SOON HOÀNG NINH ECOLIFE - SỐNG AN YÊN GIỮA LÒNG THIÊN NHIÊN"
 - **Nội dung chính:** Giới thiệu khu căn hộ xanh giữa lòng thiên nhiên, vị trí TDP Nam Ngạn, phường Nếnh, Bắc Ninh
-- **Engagement:** 102 reactions (Ngoan Thanh + 101 others), 3 comments
+- **Engagement:** 102 phản ứng (Ngoan thanh + 101 khác), 3 bình luận
 - **Link post:** https://www.facebook.com/hoangninhecolife/posts/coming-soon-hoàng-ninh-ecolife-sống-an-yên-giữa-lòng-thiên-nhiênmột-khu-căn-hộ-x/122101253288962734/
 
 ### 2. COUNTDOWN 12H — Khởi công (~08/08/2025)
@@ -64,8 +64,8 @@ related_tags:
 - **Engagement rates:** Trung bình ~77-102 reactions/bài, 3-17 comments, 1-5 shares
 - **Tone:** Chuyên nghiệp, tin cậy, nhấn mạnh "xanh" + "an yên" + "pháp lý minh bạch"
 - **Call-to-action:** "Theo dõi fanpage để không bỏ lỡ thời điểm công bố bảng hàng chính thức" — tạo FOMO
-- **Hashtag strategy:** Consistent 4 hashtags across all posts (#hoangninhgroup #hoangninhecolife #bacninh #bacgiang)
-- **Content mix:** Countdown → Launch ceremony → Progress photos → Slogan positioning
+- ** Chiến lược Hashgtag:**4 hlags nhau qua tất cả các bài đăng (#hoangninh group #hoangninhecolife #bacninh #bacgiang)
+- ** Pha trộn mật khẩu:** Đếm ngược → Bắt đầu nghi thức → Ảnh tiến hành → Vị trí Slogan
 
 ## 🔍 Ghi chú quan trọng
 - Chưa công bố bảng giá chính thức trên Facebook (tính đến 08/2025)

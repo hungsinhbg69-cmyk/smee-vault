@@ -15,8 +15,8 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Expand {} to twice its length by:
-    1. Adding relevant details and examples
-    2. Elaborating on key points
-    3. Maintaining the original tone and style
-    Return only the expanded text.
+Mở rộng{} để gấp đôi chiều dài của nó bằng:
+    1. Thêm chi tiết và gương mẫu thích hợp
+    2. Đang hợp tác trên các điểm chính
+    3. Duy trì giai điệu và giọng điệu gốc
+    Chỉ cần mở rộng văn bản.

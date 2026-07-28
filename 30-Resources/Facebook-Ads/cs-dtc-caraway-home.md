@@ -1,5 +1,5 @@
 ---
-title: "Caraway Home — Advantage+ Full Migration (Q1 2026)"
+title: "Caraway Home — Chiến lược chuyển đổi toàn bộ sang Advantage+ (Quý 1/2026)"
 slug: "cs-dtc-caraway-home"
 category: resource
 tags: [facebook-ads, case-study, e-commerce]
@@ -9,35 +9,35 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-# Caraway Home — Advantage+ Full Migration Strategy
+# Caraway Home — Chiến lược chuyển đổi toàn bộ sang Advantage+
 
-## Key Metrics
-- **ROAS:** 2.9 → 4.6x (58% improvement)
-- **CAC:** -34% reduction in customer acquisition cost
-- **Timeframe:** Q1 2026, full ASC migration over 90 days
+## Các chỉ số chính
+- **ROAS:** Tăng từ 2.9 lên 4.6 lần (cải thiện 58%)
+- **CAC:** Giảm chi phí thu hút khách hàng xuống 34%
+- **Thời gian thực hiện:** Quý 1/2026, hoàn tất quá trình chuyển đổi ASC trong vòng 90 ngày
 
-## Strategy Breakdown
+## Phân tích chiến lược
 
-### Migration Phase 1: Test in CBO Environment
-- Duplicate existing campaigns as CBO with Adset Spending Limits for new creatives
-- Run A/B test between manual targeting and Advantage+ Audiences
-- Key rule: Never migrate from ABO directly to ASC — always test migration environment first
+### Giai đoạn 1: Thử nghiệm trong môi trường CBO
+- Sao chép các chiến dịch hiện có thành CBO với giới hạn chi tiêu cho từng nhóm quảng cáo (Adset Spending Limits) để chạy các sáng tạo mới.
+- Chạy thử nghiệm A/B giữa nhắm mục tiêu thủ công và Advantage+ Audiences.
+- Quy tắc cốt lõi: Tuyệt đối không chuyển đổi trực tiếp từ ABO sang ASC — luôn phải thử nghiệm trong môi trường chuyển đổi trước.
 
-### Migration Phase 2: Creative Input Calibration
-- Feed Advantage+ with diverse creative inputs before launching:
-  - At least 6 unique creative concepts per product category
-  - Mix of UGC, studio photography, and lifestyle imagery
-  - Diverse aspect ratios (1:1, 4:5, 9:16) for placement optimization
-- Use Advantage+ Shopping Campaign with Product Catalog fully synced
+### Giai đoạn 2: Hiệu chỉnh đầu vào sáng tạo
+- Cung cấp cho Advantage+ nhiều loại đầu vào sáng tạo đa dạng trước khi triển khai:
+  - Ít nhất 6 khái niệm sáng tạo độc đáo cho mỗi danh mục sản phẩm.
+  - Kết hợp giữa nội dung do người dùng tạo (UGC), ảnh chụp tại studio và hình ảnh phong cách sống.
+  - Tỷ lệ khung hình đa dạng (1:1, 4:5, 9:16) để tối ưu hóa vị trí hiển thị.
+- Sử dụng Chiến dịch mua sắm Advantage+ với Mục lục sản phẩm đã đồng bộ hoàn toàn.
 
-### Migration Phase 3: Guardrail Implementation
-- Value-based custom audiences to prevent overspend on low-LTV segments
-- Daily budget controls minimum spend per advantage set
-- Creative diversity requirements: new creative every 14 days minimum
-- LTV-calibrated cost goals replacing flat ROAS targets
+### Giai đoạn 3: Triển khai các biện pháp bảo vệ
+- Sử dụng đối tượng tùy chỉnh dựa trên giá trị (value-based custom audiences) để ngăn chặn chi tiêu quá mức cho các phân khúc có LTV thấp.
+- Kiểm soát ngân sách hàng ngày với mức chi tối thiểu cho mỗi nhóm lợi thế.
+- Yêu cầu đa dạng sáng tạo: phải có sáng tạo mới ít nhất mỗi 14 ngày.
+- Mục tiêu chi phí được hiệu chỉnh theo LTV thay thế cho mục tiêu ROAS cố định.
 
-### Key Takeaway
-Advantage+ is a double-edged sword: when left to run without proper input and guardrails, it over-indexes on retargeting and buys one-time purchasers. Caraway's disciplined approach — seeding creative diversity, implementing spending limits, then monitoring signal quality — turned ASC from a "set and forget" tool into a scalable growth engine. The 58% ROAS improvement came not from Advantage+ itself, but from the creative input hygiene that preceded it.
+## Bài học chính
+Advantage+ là một con dao hai lưỡi: khi để chạy tự do mà không có đầu vào và các biện pháp bảo vệ thích đáng, nó sẽ ưu tiên quá mức việc nhắm lại (retargeting) và mua từ những người đã mua hàng một lần. Cách tiếp cận kỷ luật của Caraway — gieo mầm sự đa dạng sáng tạo, thiết lập giới hạn chi tiêu, sau đó giám sát chất lượng tín hiệu — đã biến ASC từ một công cụ "cài đặt rồi quên" thành một động cơ tăng trưởng có thể mở rộng quy mô. Sự cải thiện 58% về ROAS không đến từ chính Advantage+, mà đến từ vệ sinh đầu vào sáng tạo (creative input hygiene) được thực hiện trước đó.
 
 ---
-*Case study extracted from ads campaigns deep-dive research (June 2026). Source: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*
+*Bài nghiên cứu trường hợp được trích xuất từ việc phân tích sâu các chiến dịch quảng cáo (tháng 6/2026). Nguồn: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*

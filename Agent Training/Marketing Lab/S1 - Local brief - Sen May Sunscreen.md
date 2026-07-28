@@ -1,5 +1,5 @@
 ---
-title: S1 - Local brief - Sen May Sunscreen
+title: S1 - Bản địa ngắn - S May Sun Desktop
 tags:
   - agent-training/local-pack
   - marketing
@@ -34,7 +34,7 @@ last_updated: 2026-07-13
 - Người dùng thành thị 22–34 tuổi, quan tâm da nhạy cảm và kết cấu nhẹ.
 - Hai giả thuyết chưa được xác minh: nhân viên văn phòng mua vì tiện; người dùng skincare mua vì thành phần.
 
-## Approved product facts
+## Xác nhận sự thật sản phẩm
 
 - Tên sản phẩm: Mộc Nhiên Daily Sunscreen.
 - Nhãn nội bộ ghi `SPF50+ PA++++`, `không hương liệu`, dung tích 50 ml.
@@ -44,14 +44,14 @@ last_updated: 2026-07-13
 
 ## Historical pilot — 14 ngày
 
-| Kênh | Spend (VND) | Clicks | Platform purchases | Completed orders | Gross revenue (VND) | Ghi chú |
+| Kênh | Spend (VND) | Clicks | Platform purchases | Completed orders | Thu nhập thô (VND) | Ghi chú |
 |---|---:|---:|---:|---:|---:|---|
-| Meta | 24.000.000 | 9.600 | 188 | 141 | 58.900.000 | Platform purchase 7-day click/1-day view |
+| Meta | 24.000.000 | 9.600 | 188 | 141 | 58.900.000 | Name |
 | TikTok | 18.000.000 | 11.250 | 164 | 96 | 39.500.000 | Spend đã gồm VAT; purchase 7-day click |
 | Search | 12.000.000 | 3.000 | 121 | 103 | 42.100.000 | 62% click chứa từ khóa brand |
 | Creator codes | 15.000.000 | — | 137 | 88 | 36.200.000 | Có thể trùng đơn đã gán cho Meta/TikTok |
 
-## Data-quality notes
+## Ghi chú chất lượng dữ liệu
 
 - Gross revenue chưa trừ hủy/hoàn; completed orders được trích từ OMS sau 14 ngày.
 - Revenue theo kênh lấy từ dashboard riêng, có thể không khớp completed orders × 329.000 vì bundle/voucher.

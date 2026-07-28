@@ -26,10 +26,10 @@ last_updated: 2026-06-24
    - 3.1 Memory System
    - 3.2 Cron & Scheduling
    - 3.3 Skills & Plugin System
-   - 3.4 Sub-agents & Background Tasks
+   - 3. 4 Tác vụ phụ và tác vụ nền
    - 3.5 Browser Automation
    - 3.6 Canvas (A2UI)
-   - 3.7 Nodes (iOS/Android/macOS)
+   - 3. 7 nút (iOS/Andero/macOS)
    - 3.8 MCP Integration
 4. [Config Deep Dive](#4-config-deep-dive)
 5. [Best Practices](#5-best-practices)
@@ -46,7 +46,7 @@ OpenClaw là một **self-hosted AI agent gateway** mã nguồn mở (MIT licens
 - **Self-hosted**: Chạy trên hardware của bạn, dữ liệu ở lại local
 - **Multi-channel**: Một Gateway phục vụ nhiều channels đồng thời
 - **Agent-native**: Built cho coding agents với tool use, sessions, memory, multi-agent routing
-- **Open source**: MIT license, community-driven (379K+ GitHub stars)
+- ** Nguồn mở**: bằng lái MIT, định hướng cộng đồng (379K+ GitHub Sao)
 - **Runtime**: Node 24 (recommended) hoặc Node 22.19+
 
 ### Kiến trúc tổng quan
@@ -71,9 +71,9 @@ openclaw dashboard  # Mở browser Control UI
 
 ### Gateway (Daemon)
 - Là một process duy nhất chạy trên mỗi host
-- Maintains provider connections (WhatsApp via Baileys, Telegram via grammY, v.v.)
+- Duy trì kết nối đến nhà cung cấp (Những gì App by Baileys, Telegram qua grammY, v.v.)
 - Exposes typed WebSocket API với requests, responses, và server-push events
-- Validates inbound frames against JSON Schema
+- Kiểm tra các khung đang tiến tới chống lại JSON Schema
 - Emits events: `agent`, `chat`, `presence`, `health`, `heartbeat`, `cron`
 
 ### WebSocket Protocol
@@ -92,12 +92,12 @@ openclaw dashboard  # Mở browser Control UI
 - `sessionKey` là routing key, không phải auth token
 - Gateway và node trong cùng một operator trust domain
 
-### Node Trust Concept
+### Nhận diện tín nhiệm Node
 | Boundary | Ý nghĩa | Common misread |
 |----------|---------|----------------|
-| `gateway.auth` | Authenticates callers to gateway APIs | "Cần per-message signatures" |
-| `sessionKey` | Routing key cho context/session | "Session key là auth boundary" |
-| Node pairing | Operator-level remote execution | "Remote device = untrusted user access" |
+| `gateway.auth` | Xác nhận người gọi tới cổng ADIs | "Cần per-message signatures" |
+| `sessionKey` | Đang khởi động phím cho ngữ cảnh/session | "Session key là auth boundary" |
+| Node pairing | Name | "Ném thiết bị = quyền truy cập không đáng tin cậy" |
 
 ---
 
@@ -108,29 +108,29 @@ openclaw dashboard  # Mở browser Control UI
 OpenClaw không có "hidden state" — memory là **plain Markdown files** trong workspace:
 
 #### Các loại memory files
-- **`MEMORY.md`**: Long-term memory, durable facts & preferences. Loaded at start of every DM session.
-- **`memory/YYYY-MM-DD.md`**: Daily notes, working context. Indexed for `memory_search`.
-- **`DREAMS.md`** (optional): Dream diary & dreaming sweep summaries.
+- **`MEMORY.md`**: bộ nhớ lâu dài, sở thích và sự kiện bền vững. Đã được nạp vào mỗi phiên chạy DM.
+- **`memory/YYYY-MM-DD.md`**: ghi chú hàng ngày, ngữ cảnh làm việc. Đã chỉ mục cho `memory_search`.
+- **`DREAMS.md`** (tùy chọn): Nhật ký & quét giấc mơ tóm tắt.
 
 #### Memory backends
 | Backend | Mô tả | Extra deps |
 |---------|-------|------------|
-| **Builtin (default)** | SQLite-based, keyword + vector + hybrid search | Không cần |
-| **QMD** | Local-first sidecar, reranking, query expansion | Cần cài plugin |
-| **Honcho** | AI-native cross-session memory, user modeling | Plugin install |
-| **LanceDB** | OpenAI-compatible embeddings, auto-recall | Bundled |
+| **Builtin (default)** | Dựa vào gói_h gian , từ khóa + véc- tơ + lai tìm kiếm | Không cần |
+| **QMD** | Xe phụ thứ nhất cục bộ, quay trở lại, mở rộng truy vấn | Cần cài plugin |
+| **Honcho** | Bộ nhớ xuyên đại diện AI, mô hình người dùng | Plugin install |
+| **LanceDB** | OpenAI- tương ứng với nhau, gọi tự động | Bundled |
 
 #### Memory search
 - Khi embedding provider được cấu hình → **hybrid search**: vector similarity + keyword matching
 - Mặc định dùng OpenAI embeddings
 - Có thể set `agents.defaults.memorySearch.provider` để dùng Gemini, Voyage, Mistral, local/Ollama, Bedrock
 
-#### Automatic memory flush
+#### Tự động dội bộ nhớ
 - Trước khi compaction xảy ra, OpenClaw chạy một silent turn nhắc agent lưu context quan trọng vào memory files
 - Có thể config model riêng cho memory flush: `agents.defaults.compaction.memoryFlush.model`
 
 #### Dreaming (optional)
-- Background consolidation pass cho memory
+- Nền được củng cố qua bộ nhớ cho bộ nhớ
 - Score candidates, promote qualified items vào MEMORY.md
 - Passed score, recall frequency, và query diversity gates
 - Phase summaries viết vào DREAMS.md để human review
@@ -151,19 +151,19 @@ Cron là Gateway's built-in scheduler, chạy **bên trong Gateway process**:
 #### Execution styles
 | Style | `--session` value | Runs in | Best for |
 |-------|-------------------|---------|----------|
-| Main session | `main` | Dedicated cron wake lane | Reminders, system events |
-| Isolated | `isolated` | Dedicated `cron:<jobId>` | Reports, background chores |
-| Current session | `current` | Bound at creation time | Context-aware recurring work |
-| Custom session | `session:custom-id` | Persistent named session | Workflows builds on history |
+| Main session | `main` | ♪ Đường đi bộ dâng hiến cron | Nhắc nhở, các sự kiện hệ thống |
+| Isolated | `isolated` | Dedicated `cron:<jobId>` | Báo cáo, việc làm nền |
+| Current session | `current` | Hạn chế vào thời gian tạo | Công việc tái phát của văn cảnh |
+| Custom session | `session:custom-id` | & Tiếp tục tên phiên chạy | Dòng chảy làm việc xây dựng lịch sử |
 
 #### Đặc điểm quan trọng
 - Job definitions, runtime state, và run history **persist trong SQLite** → restart không mất schedules
 - On startup, overdue isolated agent-turn jobs được rescheduled ra khỏi channel-connect window
 - All cron executions tạo [background task](#34-sub-agents--background-tasks) records
-- Isolated cron runs best-effort close tracked browser tabs/processes khi run complete
-- One-shot jobs (`--at`) auto-delete after success by default
+- Chạy « cun » (bộ nhớ tạm) tốt nhất chạy gần nhất để che đậy việc theo dõi bộ duyệt Mạng và xử lý khi chạy xong
+- Công việc chụp một tấm (theo một tấm)`--at`) Tự động phát hành sau khi thành công theo mặc định
 
-#### Cron expression behavior
+#### Ứng xử biểu thức thập phân
 - Croner parser: khi cả day-of-month và day-of-week đều non-wildcard → **OR logic** (tiêu chuẩn Vixie cron)
 - `0 9 15 * 1` = "9 AM ngày 15 HOẶC 9 AM thứ Hai" (~5-6 lần/thay vì 0-1 lần)
 - Để require cả hai: dùng Croner's `+` modifier: `0 9 15 * +1`
@@ -174,17 +174,17 @@ Cron là Gateway's built-in scheduler, chạy **bên trong Gateway process**:
 | Priority | Source | Path |
 |----------|--------|------|
 | 1 — highest | Workspace skills | `<workspace>/skills` |
-| 2 | Project agent skills | `<workspace>/.agents/skills` |
-| 3 | Personal agent skills | `~/.agents/skills` |
-| 4 | Managed / local skills | `~/.openclaw/skills` |
-| 5 | Bundled skills | shipped with install |
+| 2 | Kỹ năng tác nhân dự án | `<workspace>/.agents/skills` |
+| 3 | Kỹ năng đặc vụ cá nhân | `~/.agents/skills` |
+| 4 | Quản lý/cơ quan | `~/.openclaw/skills` |
+| 5 | Bundled skills | được chuyển đi với cài đặt |
 | 6 — lowest | Extra dirs | `skills.load.extraDirs` + plugin skills |
 
-#### Per-agent vs Shared Skills
+#### Những kỹ năng chia sẻ từng tác vụ
 | Scope | Path | Visible to |
 |-------|------|------------|
 | Per-agent | `<workspace>/skills` | Chỉ agent đó |
-| Project-agent | `<workspace>/.agents/skills` | Workspace's agent |
+| Project-agent | `<workspace>/.agents/skills` | Đặc vụ vùng làm việc |
 | Personal-agent | `~/.agents/skills` | Tất cả agents trên machine |
 | Shared managed | `~/.openclaw/skills` | Tất cả agents trên machine |
 
@@ -203,7 +203,7 @@ Cron là Gateway's built-in scheduler, chạy **bên trong Gateway process**:
 ```
 
 #### Plugins
-- Plugins extend OpenClaw với channels, model providers, agent harnesses, tools, skills, speech, realtime transcription, voice, media understanding, web fetch, web search
+- Bổ sung mở rộng OpenClaw Các kênh v Whosi, các nhà cung cấp mô hình, các công cụ, kỹ năng, bài nói, giọng nói, giọng nói, sự hiểu biết phương tiện, việc lấy web, tìm kiếm web
 - Install từ ClawHub, npm, git, hoặc local path
 - Config under `plugins.entries.<id>.config`
 - Plugin hooks: typed hooks via `api.on(...)` (preferred) và internal hook system via `api.registerHook(...)`
@@ -211,43 +211,43 @@ Cron là Gateway's built-in scheduler, chạy **bên trong Gateway process**:
 #### ClawHub Registry
 - Public skills registry tại clawhub.ai
 - Install: `openclaw skills install <slug>`
-- Verify trust envelope: `openclaw skills verify <slug>`
+- Kiểm tra phong bì tin tưởng: `openclaw skills verify <slug>`
 - Publish: `clawhub sync --all`
 
-### 3.4 Sub-agents & Background Tasks
+### 3. 4 Tác vụ phụ và tác vụ nền
 
-#### Background Task System
+#### & Nền:
 Tasks là **activity ledger** cho background work — không phải scheduler:
 - ACP, subagents, cron jobs, CLI operations → tạo tasks
 - Heartbeat turns và normal interactive chat → KHÔNG tạo tasks
-- State machine: `queued` → `running` → terminal (`succeeded`, `failed`, `timed_out`, `cancelled`, `lost`)
+- Máy chính: `queued` → `running` → Máy cuối (`succeeded` `failed` `timed_out` `cancelled` `lost`)
 - Terminal records kept 7 days rồi auto-prune
 
 #### Task States
 | Status | Ý nghĩa |
 |--------|---------|
-| `queued` | Created, waiting for agent to start |
-| `running` | Agent turn actively executing |
+| `queued` | Tạo, đợi tác vụ khởi động |
+| `running` | Đặc vụ quay tích cực thực hiện |
 | `succeeded` | Completed successfully |
-| `failed` | Completed with error |
-| `timed_out` | Exceeded configured timeout |
-| `cancelled` | Stopped by operator |
-| `lost` | Runtime lost authoritative backing state after 5-min grace period |
+| `failed` | Hoàn tất với lỗi |
+| `timed_out` | Đã quá giờ đã cấu hình |
+| `cancelled` | Bị ngừng lại bởi tổng đài |
+| `lost` | Đã mất thời gian để hỗ trợ quyền hạn sau 5 phút ân sủng |
 
 #### Notify Policies
 | Policy | What delivered |
 |--------|----------------|
-| `done_only` (default) | Only terminal state |
-| `state_changes` | Every state transition and progress update |
-| `silent` | Nothing at all |
+| `done_only` (default) | Chỉ nhà máy khách |
+| `state_changes` | Name |
+| `silent` | Không có gì |
 
-#### Sub-agent Context Isolation
+#### Phân tích ngữ cảnh con
 - Mỗi sub-agent có session riêng, workspace riêng
 - Memory isolation: mặc định `memory_search` và `memory_get` bị blocked trong `SUBAGENT_TOOL_DENY_ALWAYS`
 - Cần explicit allowlist để sub-agent truy cập memory tools
 - Isolated cron runs: fresh session per run (không inherit ambient conversation context)
 
-#### Known Sub-agent Limitations (June 2026)
+#### Giới hạn con đã biết (June 2026)
 - **Issue #85030**: MCP tools không được inject vào subagent sessions — `bundle-mcp` + per-tool allowlist bị ignore
 - **Issue #55385**: `memory_search` và `memory_get` hardcoded trong `SUBAGENT_TOOL_DENY_ALWAYS`
 
@@ -259,21 +259,21 @@ OpenClaw cung cấp **dedicated Chrome/Brave/Edge/Chromium profile** cho agent:
 | Profile | Mô tả |
 |---------|-------|
 | `openclaw` | Managed, isolated browser (mặc định) |
-| `user` | Built-in Chrome MCP attach cho real signed-in Chrome session |
+| `user` | Xây dựng trong hrome MCP Name |
 
 #### Features
-- Deterministic tab control (list/open/focus/close)
-- Agent actions: click/type/drag/select
-- Snapshots, screenshots, PDFs
-- Bundled `browser-automation` skill cho multi-step browser control
-- Optional multi-profile support
+- Điều khiển thẻ tối ưu (danh sách/ mở/tạp/ gần)
+- Hành động đặc vụ: click/ type/dag/sator
+- Hình chụp, hình chụp màn hình, PDFs
+- Bundled `browser-automation` Kĩ năng cho trình duyệt đa bước điều khiển
+- Hỗ trợ đa phương thức tuỳ chọn
 - SSRF-guarded navigation và open-tab
 - Screenshot vision cho text-only models (dùng image-understanding runtime để describe screenshots)
 
-#### Browser Config Key Points
+#### Điểm cấu hình trình duyệt
 - `tabCleanup`: idle cleanup sau 120 phút, max 8 tabs per session
-- `localLaunchTimeoutMs`: timeout cho Chromium startup (default 15s)
-- `actionTimeoutMs`: default browser act timeout (60s)
+- `localLaunchTimeoutMs`: thời hạn cho phép khởi chạy Chromium (mặc định 15s)
+- `actionTimeoutMs`: chương trình duyệt hoạt động chậm (60) mặc định
 - Repeated launch failures → circuit-breaker để tránh spawn Chromium liên tục
 
 ### 3.6 Canvas (A2UI)
@@ -284,7 +284,7 @@ Canvas là agent-driven visual workspace:
 - Mobile nodes dùng bundled WebView renderer
 - Commands: `canvas.present`, `canvas.navigate`, `canvas.eval`, `canvas.snapshot`, `canvas.a2ui.push`
 
-### 3.7 Nodes (iOS/Android/macOS)
+### 3. 7 nút (iOS/Andero/macOS)
 
 Nodes là companion devices kết nối với Gateway WebSocket:
 
@@ -292,18 +292,18 @@ Nodes là companion devices kết nối với Gateway WebSocket:
 1. Node connect với `role: "node"` và declared commands
 2. Gateway tạo device pairing request
 3. Approve via `openclaw devices approve <requestId>`
-4. Device token issued cho subsequent connects
+4. Name
 
 #### Node Capabilities
-- Canvas controls (present, navigate, eval, snapshot)
-- Camera (snap, clip, list)
-- Screen capture/record
-- Location get/set
+- Điều khiển Canvas (hiện tại, định hướng, va li, hình chụp)
+- Máy ảnh (snap, clip, danh sách)
+- Ghi lại màn hình
+- Địa điểm nhận/ thả
 - Notifications management
-- Voice wake + talk mode (push-to-talk)
-- System run (exec commands on node machine)
+- Giọng nói thức giấc + chế độ nói (psh- to- talk)
+- Chạy hệ thống ( gõ lệnh khi máy nút)
 
-#### Node Host (Remote Execution)
+#### Máy nút (hành quyết từ chối)
 ```bash
 # Trên node machine:
 openclaw node run --host <gateway-host> --port 18789 --display-name "Build Node"
@@ -328,7 +328,7 @@ MCP (Model Context Protocol) là cách OpenClaw connect với external tool serv
 
 ---
 
-## 4. Config Deep Dive
+## 4. Cấu hình lặn sâu
 
 ### File Structure
 ```
@@ -344,7 +344,7 @@ MCP (Model Context Protocol) là cách OpenClaw connect với external tool serv
     └── sessions/              # Session store
 ```
 
-### Key Config Sections
+### Phần cấu hình khoá
 
 #### Gateway Auth
 ```json5
@@ -379,7 +379,7 @@ MCP (Model Context Protocol) là cách OpenClaw connect với external tool serv
 }
 ```
 
-#### Multi-Agent Routing
+#### Dùng đa chương trình
 ```json5
 {
   agents: {
@@ -449,11 +449,11 @@ MCP (Model Context Protocol) là cách OpenClaw connect với external tool serv
 3. **Enable dreaming** nếu muốn automatic memory consolidation
 4. **Monitor `MEMORY.md` size** — nếu vượt bootstrap budget, OpenClaw truncates injected copy
 
-### Multi-Agent Setup
+### Thiết lập đa đại biểu
 1. **Không reuse `agentDir`** giữa các agents (gây auth/session collisions)
 2. **Copy chỉ portable static profiles** (`api_key`, `token`) khi share credentials
 3. **Dùng bindings deterministic routing** với most-specific-wins strategy
-4. **QMD memory search cross-agent** qua `agents.list[].memorySearch.qmd.extraCollections`
+4. **QMD Tìm kiếm bộ nhớ qua** qua `agents.list[].memorySearch.qmd.extraCollections`
 
 ---
 
@@ -461,7 +461,7 @@ MCP (Model Context Protocol) là cách OpenClaw connect với external tool serv
 
 ### Critical Gotchas
 
-1. **Cron day-of-month + day-of-week OR logic**: `0 9 15 * 1` fires on EVERY 15th AND every Monday, not just the 15th if it's Monday. Fix: `0 9 15 * +1`
+1. **Ngày tháng của thời gian trôi qua + ngày-tháng-truyện-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-thô-tì-thô-thô-thô-tì-t-t" `0 9 15 * 1` Lửa cháy vào ngày 15 và mỗi thứ Hai, không chỉ ngày 15 nếu là thứ Hai. `0 9 15 * +1`
 
 2. **Sandboxing OFF by default**: Nếu không config sandbox, `host=auto` resolves to `gateway`. Explicit `host=sandbox` fails closed nếu sandbox chưa enabled.
 
@@ -477,8 +477,8 @@ MCP (Model Context Protocol) là cách OpenClaw connect với external tool serv
 
 8. **MCP/LSP bypass vulnerability** (GHSA-qrp5-gfw2-gxv4): Patched trong 2026.4.20+ — đảm bảo update lên phiên bản mới nhất.
 
-### Model Selection Gotchas
-- Model refs normalized to lowercase; provider IDs exact case-sensitive
+### Chọn mô hình
+- Mô hình Nội thất đã được chuẩn hoá thành chữ thường; nhà cung cấp ID chính xác xác trường hợp nhạy cảm
 - `/model` user selection persists per-session, không ảnh hưởng config primary
 - Changing `agents.defaults.model.primary` không rewrite existing session selections
 - Khi `agents.defaults.models` là allowlist, model rejected trước khi reply được generate → tin nhắn có vẻ "không response"
@@ -486,24 +486,24 @@ MCP (Model Context Protocol) là cách OpenClaw connect với external tool serv
 ### Browser Gotchas
 - `tools.profile: "coding"` bao gồm `web_search` và `web_fetch` nhưng KHÔNG bao gồm `browser` tool — cần explicit `alsoAllow: ["browser"]`
 - Repeated managed Chrome launch failures → circuit-breaker, không spawn Chromium mỗi lần
-- Screenshot vision fallback chain: tools.media.image → imageModel defaults → auth-backed provider
+- Ảnh chụp ngược lại: công cụ.media. ảnh ảnh Mô tả mặc định Model cho nhà cung cấp thô
 
 ---
 
-## 7. Comparison with Alternatives
+## 7, so sánh với những lựa chọn khác
 
 | Feature | OpenClaw | n8n/Make | LangChain | AutoGen | CrewAI |
 |---------|----------|----------|-----------|---------|--------|
 | Self-hosted | ✅ Full control | Partial | ✅ | ✅ | ✅ |
 | Multi-channel | 20+ channels native | Via connectors | Via adapters | Limited | Limited |
-| Memory system | Built-in markdown + QMD/LanceDB | Manual | Custom | Custom | Custom |
-| Cron scheduling | Built-in, SQLite-persisted | Workflow-based | Custom | Custom | Custom |
+| Memory system | Xây dựng markdown + QMD/LanceDB | Manual | Custom | Custom | Custom |
+| Cron scheduling | Được xây dựng, chia sẻ SBS | Workflow-based | Custom | Custom | Custom |
 | Sandbox | Docker/SSH/OpenShell | N/A | Container | Multi-agent isolation | Agent isolation |
-| Browser automation | Built-in, managed profile | Via tools | Via plugins | Via agents | Via agents |
-| Mobile nodes | iOS/Android/macOS native | No | No | No | No |
-| Open source | ✅ MIT, 379K+ stars | ✅ Apache 2.0 | ✅ MIT | ✅ MIT | ✅ MIT |
-| Config-driven | JSON5 config file | Visual UI | Code-based | YAML/code | YAML/code |
-| Multi-agent routing | Native bindings system | Via workflows | Custom | Built-in | Built-in |
+| Browser automation | Xây dựng hồ sơ | Via tools | Via plugins | Via agents | Via agents |
+| Mobile nodes | iOS/Andero/macOS bản xứ | No | No | No | No |
+| Open source | _TIẾNG MIT, 309K+ sao | ✅ Apache 2.0 | ✅ MIT | ✅ MIT | ✅ MIT |
+| Config-driven | Tập tin cấu hình JSON5 | Visual UI | Code-based | YAML/code | YAML/code |
+| Định tuyến đa tác vụ | Hệ thống ràng buộc bản địa | Via workflows | Custom | Built-in | Built-in |
 
 ### Khi nào dùng OpenClaw
 - Bạn muốn một **personal AI assistant** chạy 24/7 trên thiết bị của mình
@@ -523,9 +523,9 @@ MCP (Model Context Protocol) là cách OpenClaw connect với external tool serv
 
 OpenClaw là một AI agent platform mature với kiến trúc solid, được build cho self-hosted personal assistant use case. Điểm mạnh lớn nhất là:
 
-1. **Unified gateway** cho 20+ channels
-2. **Built-in memory system** không cần external database
-3. **Sandboxing flexible** (Docker/SSH/OpenShell)
+1. ** Cửa ra không xác định** cho 20 kênh+
+2. **Bilt-in-trong hệ thống bộ nhớ** kông c quing c quiten coun cơ sở dữ liệu bên ngoài
+3. **Sandboxing linh hoạt** (Docker/SSH/ openShell)
 4. **Sub-agent isolation** với background task tracking
 5. **Active community** với 379K+ GitHub stars và ecosystem skills/plugins phong phú
 
@@ -537,4 +537,4 @@ Những hạn chế chính cần lưu ý:
 
 ---
 
-*Document generated: 2026-06-15 | Sources: docs.openclaw.ai, github.com/openclaw/openclaw, Reddit threads, DEV.to, HowOpenClaw, TheAgentStack Substack, ClawHub registry, GitHub issues #85030 & #55385, GHSA advisory*
+*Documpt tạo ra: 2026-06-15 Nguồn: tiến sĩ.openclawChào. github.com/comopenclaw/openclaw, Reddit threads, DV.to, How openClaw, TheAgentStack Substack, ClawHub, GitHub số #85030 - #55385, GHSA cố vấn*

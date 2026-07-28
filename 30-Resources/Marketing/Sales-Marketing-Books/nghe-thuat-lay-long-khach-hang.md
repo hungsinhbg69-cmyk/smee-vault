@@ -1,5 +1,5 @@
 ---
-title: Nghe-thuat-lay-long-khach-hang
+title: Nghe-tuat-lay-khach-ang
 slug: nghe-thuat-lay-long-khach-hang
 category: resource
 tags:

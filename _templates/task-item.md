@@ -15,4 +15,4 @@ depends:: [[ ]]
 refers-to:: ""
 ```
 
-- [ ] Task description from capture or quickadd macro
+- [ ] Mô tả tác vụ từ việc bắt hoặc quickadd vĩ mô

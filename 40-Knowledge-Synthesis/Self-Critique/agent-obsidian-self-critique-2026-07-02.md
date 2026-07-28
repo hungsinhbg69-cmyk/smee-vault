@@ -1,5 +1,5 @@
 ---
-title: "Agent Obsidian Self-Critique — 2026-07-02"
+title: "Agent Obsidian Tự nhận diện mình — 2026-07-02"
 slug: "agent-obsidian-self-critique-2026-07-02"
 category: knowledge
 type: self-critique
@@ -9,7 +9,7 @@ last_updated: 2026-07-02
 tags: [self-critique, obsidian, agent-improvement]
 ---
 
-# Agent Obsidian Self-Critique — 2026-07-02
+# Đặc vụ. Obsidian Tự nhận diện mình — 2026-07-02
 
 ## Phần 1: Tự Phê Bình Thẳng Thắn
 
@@ -78,20 +78,20 @@ Mỗi session phải rediscover vault path. Khi có nhiều "Obsidian" folder (S
 
 ### Quan trọng nhất: Vault Path
 - **Primary vault:** `C:\Users\Hung\Desktop\Smee Obsidian\Smee` (structure có 10-Projects/, 20-Areas/, etc.)
-- **Secondary/renamed:** `C:\Users\Hung\Obsidian\Tri kiến Nhân Loại` (copy)
+- **Secondary/renamed:** `C:\Users\Hung\Obsidian\Tri kiến Nhân Loại` (Tiếng soi)
 - Khi cần read/list — check cả hai nếu không sure
 
-### Frontmatter Requirements (Protocol Section 2)
+### Frontmatter Yêu cầu (Điều khoản bảo vệ phần mềm 2)
 Tất cả notes phải có: title, slug, category, status, type, date/created
 category chỉ được phép: resource | area | knowledge | project | daily | meta
 
-### File Operation Pattern
-1. Read → search_files hoặc read_file
+### Mẫu thao tác tập tin
+1. Đọc tìm kiếm_ tập tin ho _Grac đọc_ file
 2. Write → write_file với frontmatter đầy đủ
 3. Edit → patch với verified anchor từ read_file output
 4. Verify → kiểm tra tồn tại file + links resolve + indexes reflect change
 
-### Triple-Dash Trap
+### Tra ba lần
 File nào có `---\n---` ở đầu → frontmatter parser sẽ parse trống → hết fields. Sửa: thêm content giữa cặp --- đầu tiên.
 
 ## Phần 4: Tự Nhắc Mình Mỗi Khi Dùng Obsidian
@@ -108,7 +108,7 @@ File nào có `---\n---` ở đầu → frontmatter parser sẽ parse trống �
 
 ## Phần 6: Action Items Ngay
 
-1. Fix `wiki-schema-versioning-rules.md` — remove triple-dash issue (low effort)
-2. Audit MOC links — ensure all wikilinks in Vault-MOC.md resolve to existing files
+1. Sửa `wiki-schema-versioning-rules.md` — loại bỏ vấn đề tiền mặt ba lần ( ít nỗ lực)
+2. Liên kết giữa các thiết bị định dạng tập tin
 3. Verify current vault path is primary (Smee Obsidian/Smee OR Tri kiến Nhân Loại?)
 4. Add obsidian verification guardrails vào agent workflow checklist

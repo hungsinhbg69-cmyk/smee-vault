@@ -1,5 +1,5 @@
 ---
-title: Vault Master Index
+title: Chỉ mục Cổng
 slug: vault-master-index-insight
 category: knowledge
 tags:
@@ -12,100 +12,100 @@ created: 2026-06-16
 last_updated: '2026-07-14'
 ---
 
-# 🗂 Vault Master Index
+# Chỉ mục Cổng _mới
 
-> Agent quick-scan — every PARA folder at a glance. For detailed structure, see [[README|Vault — Second Brain Hub]].
+> Đặc vụ nhanh chóng-can — mỗi thư mục USA trong nháy mắt, cho cấu trúc chi tiết, xem [[README|Vault — Second Brain Hub]].
 
 ## Quick Navigation
 
 ### 🔧 System (00-Meta/)
-- `README.md` — Architecture overview + naming conventions
-- `_templates/` — 7 note templates (daily-note, meeting-note, project-kickoff, literature-note, atomic-note, weekly-review, experiment-note)
-- `Agent-Operating-Protocol.md` — Agent rules + vault governance
+- `README.md` — Xem xét tổng quát kiến trúc và các hội nghị đặt tên
+- `_templates/` - 7 tờ giấy ghi chú (thường ghi chú, ghi chú họp, dự án, văn học, ghi chú nguyên tử, xem hàng tuần, ghi chú thử nghiệm)
+- `Agent-Operating-Protocol.md` - Đặc vụ luật + quản lý hầm
 
 ### 📥 Inbox (01-Inbox/)
-- Raw uncategorized captures. Processed weekly during connect phase.
+- Những cuộc bắt sống chưa phân loại, được xử lý hàng tuần trong giai đoạn kết nối.
 
-### 📅 Daily Notes (02-Daily/)
-- `YYYY-MM-DD.md` format. Scratchpad for daily activity. Not durable knowledge.
+### Ghi chú hàng ngày (02-Daily/)
+- `YYYY-MM-DD.md` Máy quét hoạt động hàng ngày, không có kiến thức bền vững.
 
 ### 🎯 Projects (10-Projects/)
-- Time-bound work with start/end dates. Current projects tracked here.
-- `README.md` — Active projects hub + tracking template
-- `Agent-Research-Expansion/project.md` — Smee Agent Research & Expansion project
+- Công việc theo giờ với ngày tháng đầu/thời gian.
+- `README.md` - Trung tâm dự án hoạt động và theo dõi mẫu
+- `Agent-Research-Expansion/project.md` - Dự án Nghiên cứu và Phát triển Smee
 
 ### 🔄 Areas (20-Areas/)
-- Ongoing responsibilities: Marketing, Agent Ops, Content Creation, Bac Giang Market.
-- `README.md` — Areas hub + maintenance rules
+- Trách nhiệm tiếp tục: Thị trường chợ, đặc vụ Ops, Sự sáng tạo nội dung, chợ Bac Giang.
+- `README.md` — Trung tâm khu vực và quy tắc bảo trì
 
-### 📚 Resources (30-Resources/) — Reference Library
-#### AI Tools Landscape
-- `AI-Tools/ai-tools-landscape-q2-2026.md` — Comprehensive AI tools catalog Q2 2026 with pricing, use cases, integration map
-- `NotebookLM-AI-Agent-Integration-Guide.md` — NotebookLM + OpenClaw + Obsidian integration guide (06/17/2026)
+### 📚 Tài nguyên (30-Resources/) — Thư viện tham khảo
+#### Công cụ AI nằm ngang
+- `AI-Tools/ai-tools-landscape-q2-2026.md` - Công cụ máy tính AI liệt kê Q2 2026 với giá rẻ, sử dụng trường hợp, bản đồ tích hợp
+- `NotebookLM-AI-Agent-Integration-Guide.md` — Sổ tay Ghi chép + OpenClaw + Obsidian Hướng dẫn tích hợp (06/17/2026)
 
-#### Bac Giang Market Intelligence
+#### Tình báo Thị trường Bac Giaang
 - `30-Resources/Bac-Giang/README.md` — Bắc Giang research hub + category index
 - `bac-giang-economic-overview.md` — Economic landscape
 - `bac-giang-infrastructure-stats.md` — Infrastructure data
-- `bac-giang-specialty-products.md` — Local specialty products
-- `bac-giang-cultural-profile-detailed.md` — Deep cultural analysis
-- `bac-giang-culture-deep-dive.md` — Cultural deep dive (15KB)
-- `bac-giang-living-guide.md` — Living guide for outsiders
-- `nha-o-xa-hoi-bac-giang-bac-ninh.md` — Social housing overview
-- `bac-giang-community-psychology.md` — Community psychology insights
+- `bac-giang-specialty-products.md` - Những sản phẩm đặc biệt địa phương
+- `bac-giang-cultural-profile-detailed.md` - Phân tích văn hóa sâu sắc
+- `bac-giang-culture-deep-dive.md` - Tiến bộ văn hóa (15KB)
+- `bac-giang-living-guide.md` — Hướng dẫn sống cho người ngoài
+- `nha-o-xa-hoi-bac-giang-bac-ninh.md` - Nhìn chung về nhà ở xã hội
+- `bac-giang-community-psychology.md` — Những sự hiểu biết về tâm lý cộng đồng
 
 #### Facebook Ads Knowledge Base
-- `FB-ADS-KNOWLEDGE-BASE.md` — **Single source of truth.** 8 modules theo workflow: fundamentals → targeting → creative → bidding → tracking → ASC+ → Andromeda → metrics/case studies.
-- `QUICK-DECISION-MATRIX.md` — **Agent decision shortcuts <30s.** Decision trees cho objective, bidding, CBO/ABO, ASC+, targeting, budget pacing, Vietnam adjustments.
-- `creative-testing-framework.md` — Creative testing pipeline: competitor audit → variant matrix → test execution → scale. Hook-rate benchmarks + fatigue detection.
-- `INDEX.md` — Master table of contents + quick reference
-- Old references (detailed): 01-fundamentals.md through 11-attribution-tracking.md, api/, case studies, campaigns analysis files
+- `FB-ADS-KNOWLEDGE-BASE.md` - ** Nguồn gốc của sự thật.** 8 modules theo work stream: cơ bản → Mục tiêu → Sáng tạo → thầu → theo dõi → MIME+ → Name → Nghiên cứu số học/số.
+- `QUICK-DECISION-MATRIX.md` - **Agent quyết định tắt tắt <30s.** Cây quyết định cho mục tiêu, giá thầu, CBO/ABO, MIME+, mục tiêu, tốc độ ngân sách, điều chỉnh Việt Nam.
+- `creative-testing-framework.md` - Kiểm tra kỹ thuật sáng tạo: kiểm toán đối thủ → Ma trận biến thế → Thử ra → Đánh dấu bàn móc móc móc móc móc và phát hiện mệt mỏi.
+- `INDEX.md` - Bàn chính của nội dung + tham chiếu nhanh
+- Tài liệu tham khảo cũ (detailed): 01-fuments.md thông qua 11-atrition-md.md, api/, nghiên cứu trường hợp, vận động phân tích tập tin
 
-### 🧠 Knowledge Synthesis (40-Knowledge-Synthesis/)
+### Thuyết tổng hợp tri thức (40- hay-crage-Sythesis/)
 #### Concepts
 - `credit-policy-real-estate-impact.md`
 - `du-an-no-xh-tay-dinh-tri-2026.md`
 - `no-xh-credit-policy-2026.md`
 - `no-xh-income-limit-2026.md`
 - `no-xh-pricing-bac-giang-2026.md`
-- `bac-giang-community-psychology.md` (in Bac-Giang subfolder)
+- `bac-giang-community-psychology.md` (Trong hộp thư thoại con của Bac-Giang)
 - `bac-giang-identity-triangles.md`
-- `llm-wiki-karpathy-pattern.md` — Karpathy LLM Wiki Pattern deep analysis + 3-round critique
-- `llm-wiki-architecture.md` — 3-layer architecture breakdown (Raw Sources / Wiki / Schema)
-- `llm-wiki-operations.md` — Ingest, Query, Lint workflows
-- `llm-wiki-critique.md` — Self-critique 3 rounds: architecture, operations, scalability
-- `llm-wiki-insights.md` — Key insights + Smee vault application plan
+- `llm-wiki-karpathy-pattern.md` - Karpaty LLM Chương trình phân tích sâu về định dạng Wiki + 3 vòng
+- `llm-wiki-architecture.md` — Kiến trúc ba bảng bị hỏng (Raw sources / Wiki / Schema)
+- `llm-wiki-operations.md` - Inngest, Tra hỏi, truyền dịch
+- `llm-wiki-critique.md` - Tự nhận dạng 3 vòng: kiến trúc, hoạt động, khả năng sinh sản
+- `llm-wiki-insights.md` - Kế hoạch cho phép tìm hiểu khóa + kế hoạch cho các chương trình viên Smee
 
 #### Frameworks
-- `smee-agency-tech-stack.md` — Tech stack architecture
-- `smee-content-template-framework.md` — Content creation framework
+- `smee-agency-tech-stack.md` - Kiến trúc công nghệ chồng lên nhau
+- `smee-content-template-framework.md` - Khung sáng tạo nội dung
 - `bac-giang-communication-framework.md` — Communication model
 - `bac-giang-content-template-framework.md` — Content templates
-- `professional-marketing-2026.md` — Professional Marketing Framework 2026 (deep study, 3-round critique)
-- `ai-agent-marketing-architecture-2026.md` — AI Agent Marketing Stack architecture
-- `prompt-architecture-overview.md` — Prompt Architecture: 3 pillars overview (06/18/2026)
-- `prompt-hierarchical-instructions.md` — Chain of Command, System Prompts deep dive
-- `prompt-caching-strategies.md` — Cache optimization for performance/cost
-- `prompt-patterns-techniques.md` — Patterns: Few-shot, CoT, Structured Output
-- `reasoning-vs-gpt-models.md` — Planner vs Doer model strategy
+- `professional-marketing-2026.md` — Phân phối khung khung chuyên nghiệp năm 2026 (học sâu, 3 vòng phê bình)
+- `ai-agent-marketing-architecture-2026.md` - Kiến trúc xếp chồng đặc vụ Al
+- `prompt-architecture-overview.md` — Nhắc các kiến trúc: 3 cột nhìn tổng quát (06/18/2026)
+- `prompt-hierarchical-instructions.md` — Dây chỉ huy, hệ thống dẫn đường lặn sâu
+- `prompt-caching-strategies.md` - Sự phân loại cho hiệu suất/giá trị
+- `prompt-patterns-techniques.md` - Mẫu:
+- `reasoning-vs-gpt-models.md` - Kế hoạch chống lại chiến lược làm mô hình
 - **JeffSu Framework Series** (2026-06-18):
-  - `JeffSu-AI-Agents-Explained.md` — Workflow vs Agent, REACT framework, tool comparison
-  - `JeffSu-Productivity-Systems.md` — Capture/Organize, Inbox Zero, Mac stack, project recaps
-  - `JeffSu-Interview-Frameworks.md` — XYZ/CARL/STAR/ETP/SCQA frameworks, networking, 90-day plan
-  - `JeffSu-Prompt-Engineering.md` — First Try Fallacy, magic instruction, tool-specific prompting
+  - `JeffSu-AI-Agents-Explained.md` - Dòng chảy đối với đặc vụ, khung ORCT, so sánh công cụ
+  - `JeffSu-Productivity-Systems.md` — chụp/Organize, Inbox Zero, Mac xếp, dự án recaps
+  - `JeffSu-Interview-Frameworks.md` - XYZ/CARL/Set/SP/SCQA, mạng lưới, kế hoạch 90 ngày
+  - `JeffSu-Prompt-Engineering.md` - Thử lại lần nữa, chỉ dẫn ma thuật, nhắc cụ thể về công cụ
 
-#### Insights (Bac Giang + Marketing + Learning Resources)
-- **JeffSu Channel Series** (2026-06-18):
-  - `JeffSu-Channel-Summary.md` — Comprehensive channel overview + core themes
-  - `JeffSu-Career-Growth.md` — Google Baby, Contractor-to-FTE, FAANG advice
-  - `JeffSu-Study-Materials.md` — Study guide + quiz + flashcards summary
+#### Thông hiểu (Bac Giang + Thị trường và khả năng học tập)
+- **JeffSu Channel** (2026-06-18):
+  - `JeffSu-Channel-Summary.md` - Xem xét kỹ kênh và chủ đề cốt lõi
+  - `JeffSu-Career-Growth.md` - Google Baby, cooor-to-FTE, lời khuyên của công ty truyền thông Google
+  - `JeffSu-Study-Materials.md` — Hướng dẫn học tập + câu đố + thẻ nhanh tóm tắt
 - `Bac-Giang-Market-Intelligence-2026.md`
 - `bac-giang-market-intelligence-index.md`
 - `facebook-algorithm-needs-volume.md`
-- `geo-guide-2026.md` — GEO: Generative Engine Optimization Guide
-- `ai-agent-marketing-architecture-2026.md` — AI Agent Marketing Architecture
-- `ai-tools-action-guide-2026.md` — AI Tools Action Guide for marketing stack (Q2 2026)
-- `professional-marketing-2026.md` — Professional Marketing Framework 2026 (main reference)
+- `geo-guide-2026.md` - Hướng dẫn hóa động cơ điện tử
+- `ai-agent-marketing-architecture-2026.md` - Kiến trúc thị trường AI
+- `ai-tools-action-guide-2026.md` — Hướng dẫn hành động của Công cụ AI cho chồng thị trường (Q2 2026)
+- `professional-marketing-2026.md` — Khu chợ chuyên nghiệp, khung 2026 (còn được tham khảo)
 - `hoang-ninh-ecolife-overview.md`
 - `hoang-ninh-ecolife-competitor-comparison.md`
 - `hoang-ninh-ecolife-facebook-page.md`
@@ -114,24 +114,24 @@ last_updated: '2026-07-14'
 - `smee-brand-dna-storytelling.md`
 - `vault-architecture.md`
 - `fb-bot-safety-rules.md` — Block rate rules + lách keywords
-- `content-plan-worldmap-evaluation.md` — Content plan evaluation
-- `Bac-Giang/` subfolder: cultural profile, dialect lexicon, marketing patterns, social media behavior
+- `content-plan-worldmap-evaluation.md` - Đánh giá kế hoạch nội dung
+- `Bac-Giang/` Thư mục con: hồ sơ văn hóa, từ điển phương ngữ, mẫu marketing, hành vi truyền thông xã hội
 
 ### 📊 Reviews (50-Reviews/)
-- Weekly/monthly review notes. Processed during connect phase.
+- Các ghi chú hàng tuần, được xử lý trong giai đoạn kết nối.
 
 ### 🗄 Archive (60-Archive/)
-- Completed/inactive items. Not actively used but preserved for reference.
-- Contains: old protocol versions, old READMEs, research dumps, writing samples, book reviews.
+- Các mục đã hoàn thành/ hoạt động. Không được sử dụng chủ động mà còn được bảo tồn để tham chiếu.
+- Những thứ như: phiên bản giao thức cũ, những thứ cũ SmME, những thứ nghiên cứu, những mẫu viết, những bản đánh giá sách.
 
-## Agent Usage Rules
+## Quy tắc sử dụng đặc vụ
 
-1. **Fast lookup:** Start with [[Vault-Quick-Ref]] → jump to specific file for task
-2. **Fallback:** Scan this master index → follow links to specific files
-3. **Priority order:** 40-Knowledge-Synthesis > 30-Resources > 10-Projects > 20-Areas
-4. **Skip 60-Archive** unless specifically searching historical data
-5. **Daily notes** are scratch — check for recent activity only
-6. **Always create backlinks** to [[Vault-Quick-Ref]] when adding new notes
+1. **Fast lookup:** Bắt đầu với [[Vault-Quick-Ref]] _ Nhảy tới tập tin đặc biệt cho công việc
+2. **Fallback:** Quét chỉ mục tối đa này theo liên kết tới tập tin cụ thể
+3. ** Thứ tự nguồn lực:** 40- knowledge-Sythesis > 30Rsources > 10-Projct > 20 Areas
+4. **Skip 60-Archive** trừ khi đặc biệt tìm kiếm dữ liệu lịch sử
+5. **Những ghi chú may mắn** là vết xước — kiểm tra hoạt động mới chỉ
+6. ** Luôn tạo ra những đường nối** để [[Vault-Quick-Ref]] khi thêm ghi chú mới
 
 ---
 *Created: 2026-06-16 | Cleanup session by Smee*

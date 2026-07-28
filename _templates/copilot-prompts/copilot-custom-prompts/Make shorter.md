@@ -15,8 +15,8 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Reduce {} to half its length while preserving these elements:
-    1. Main ideas and key points
+Giảm độ dài một nửa trong khi bảo tồn các yếu tố này:
+    1. Ý tưởng chính và điểm then chốt
     2. Essential details
-    3. Original tone and style
-    Return only the shortened text.
+    3. Gốc và kiểu dáng
+    Chỉ trả lại đoạn ngắn.

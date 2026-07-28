@@ -94,7 +94,7 @@ Linh truyền lại toàn bộ brand identity, content framework, và community 
 - **Username:** smeeagency
 - **App ID:** `1640859240534684`
 - **Graph API v25.0**
-- **Permissions:** pages_show_list, pages_read_engagement, public_profile
+- **Các mục xuất khẩu:** Trang_ show_list, trang_đã đọc_thư mục công cộng_ được_ cong
 - **Token status:** EXPIRED (OAuth 190, 2026-06-12) — cần refresh
 
 ### 2.3 Tại sao Bắc Giang?
@@ -133,18 +133,18 @@ Bắc Giang là "đất thật, người thật" — phù hợp với DNA Smee s
 | **Facebook Ads Management** | Chạy quảng cáo tối ưu qua Graph API v25.0 | AI phân tích Ad Library, competitor tracking (Dizilla) |
 | **Community Building** | Xây dựng cộng đồng tự hỗ trợ trong comments | "Đội cứu hỏa" model — người đọc tự giải đáp cho nhau |
 | **AI Automation** | OpenClaw + Ollama automation pipeline | Dreaming cron, vault maintenance, content generation tự động |
-| **Market Intelligence** | Nghiên cứu thị trường Bắc Giang sâu | Cultural profile, marketing patterns, social media behavior |
+| **Market Intelligence** | Nghiên cứu thị trường Bắc Giang sâu | Hồ sơ văn hóa, mẫu marketing, hành vi truyền thông xã hội |
 
 ### 3.3 Tech Stack
 
-- **OpenClaw 2026.6.5** — AI Agent platform (main orchestrator)
-- **Ollama** (mixi/fredrezones55-qwen36-aggressive-stable:latest) — Local LLM inference
-- **Facebook Graph API v25.0** — Page management, ads, insights
-- **Obsidian Vault** (`C:\Users\Hung\Desktop\Smee Obsidian\Smee`) — Second Brain, PARA + Zettelkasten, 61 plugins
-- **Memory System** — Builtin vector search (local embeddings via node-llama-cpp)
-- **Cron Jobs** — Memory Dreaming (03:00), Daily Vault Maintenance (06:00)
+- **OpenClaw 2026.6.5** — AI Đặc vụ nền tảng (còn là dàn nhạc)
+- **Ollama** (mixi/fredrezones55-qwen36-pang-sage:latest) — local LLM suy luận
+- **Facebook Đồ thị API v25.0** — Quản lý trang, quảng cáo, thấu hiểu
+- **Obsidian Cổng ra** (cửa ra) (Tiếng cười)`C:\Users\Hung\Desktop\Smee Obsidian\Smee`) — Bộ Não Thứ Hai, PRA + Zettelkasten, 61 bổ sung
+- ** Hệ thống cầu não** — Tìm kiếm véc tơ Xây dựng (local consbeds thông qua node-lama-cpp)
+- **Cron Jobs** — Bộ nhớ mơ (03:00), Daily chi viện (06:00)
 
-### 3.4 Obsidian Vault Structure (Smee-specific)
+### 3.4 Obsidian Cấu trúc cổng (Smee- cụ thể)
 
 ```
 40-Knowledge-Synthesis/
@@ -190,7 +190,7 @@ Bắc Giang là "đất thật, người thật" — phù hợp với DNA Smee s
 #### 4.1.4 Du khách (mùa vải 5-6)
 - **Điểm check-in:** Chùa Bổ Đà, Vườn vải Lục Ngạn, Chợ đêm Rùa Vàng
 - **Mua đặc sản làm quà**
-- **Marketing action:** Farm tour content, homestay + farm visit packages
+- ** Hành động đánh dấu:** Công tác thăm nuôi nông trại, nhà ở và gói thăm nông trại
 
 ### 4.2 Content Angles (Góc nội dung)
 
@@ -198,17 +198,17 @@ Bắc Giang là "đất thật, người thật" — phù hợp với DNA Smee s
 |-------|-------|---------------|
 | **Local pride** | Tự hào hàng địa phương | "Vải Lục Ngạn ngon hơn vải Trung Quốc đấy các bác ạ" |
 | **FDI wave** | Bắc Giang điểm đến đầu tư mới | KCN Vân Trung, Sunwoda $300M cam kết |
-| **E-commerce adoption** | 16.95% TMĐT đang tăng | "100% sản phẩm OCOP trên sàn TMĐT" |
+| **E-commerce nhận nuôi** | 16.95% TMĐT đang tăng | "100% sản phẩm OCOP trên sàn TMĐT" |
 | **Seasonal campaigns** | Theo mùa vụ nông sản | Vải thiều (5-6), Na (6-9), Cua da (đông) |
 | **Educational tips** | Kỹ thuật trồng/nghề nghiệp | Video kỹ thuật vải đạt 10.7K likes |
 
-### 4.3 Top Content Formats (TikTok/Reels)
+### 4. 3 Biểu thức nội dung trên (Tik Tok/Reels)
 
-1. **Farm tour / harvest experience** — Authentic, user-generated style
-2. **Before/After quality comparison** — Build trust cho online sales
+1. **Fum tour / thu hoạch kinh nghiệm** — Chính xác, kiểu người dùng
+2. ** Trước/sau khi so sánh chất lượng** — Xây dựng lòng tin cho doanh thu trực tuyến
 3. **Price reveal + value proposition** — "6xx đầu tư, cho thuê 4-4,5tr/tháng"
 4. **Location showcase** — Hiển thị gần KCN, tiện ích xung quanh
-5. **Customer testimonial** — Real user reviews > brand messaging
+5. **Customer testimonial** — Người dùng thật duyệt > tin nhắn thương hiệu
 6. **Educational tips** — Technical content = engagement cao nhất (10.7K likes)
 7. **Humor / storytelling** — "Kiếp nạn giới thiệu vải thiều" format works
 8. **AI/Tech crossover** — "Vải thiều giống mới bằng AI" trending
@@ -222,31 +222,31 @@ Bắc Giang là "đất thật, người thật" — phù hợp với DNA Smee s
 - **Page ID:** `1094674520391475`
 - **App ID:** `1640859240534684`
 - **Graph API v25.0**
-- **Permissions:** pages_show_list, pages_read_engagement, public_profile
+- **Các mục xuất khẩu:** Trang_ show_list, trang_đã đọc_thư mục công cộng_ được_ cong
 - **Token:** EXPIRED (OAuth 190, 2026-06-12) → cần refresh từ .env
 
 ### 5.2 Page Bệnh Viện Mắt Hà Nội - Bắc Ninh
 
 - **Page ID:** `997717610098937`
 - **App ID:** `1963488660946232`
-- **Token:** Hardcoded, verified OK (never-expire)
-- **Permissions:** read_insights, pages_show_list, business_management, pages_read_engagement, pages_manage_metadata, pages_read_user_content, pages_manage_posts, pages_manage_engagement
+- **Tken:** Hard coded, xác nhận OK (không bao giờ-pearre)
+- **Các mục phân loại:** đọc_tiểu thức_, trang_ show_list_ _ compage_ _ _ run_chagement, trang_manage_metadata, trang_h_tent_ page_ page_ user_manage_ regage_ congement
 
 ### 5.3 Safety Rules
 
-- **Block rate 1-2%:** Normal
+- **Block tỷ lệ 1%:** Bình thường
 - **Block rate 3-5%:** Danger zone — cần giảm tần suất
 - **Block rate 6-8%+:** Blocked — chỉ gửi 1 standard message sau 24h
 - **Lách từ khóa OCR:** "Trị dứt điểm" → "Hỗ trợ cải thiện"
 - **Spin content 3-5 variants** để tránh duplicate detection
 
-### 5.4 Comment Processing Pipeline
+### 5. 4 Chú thích Đường ống xử lý
 
 1. Batch collect comments từ Page
 2. Filter (chỉ xử lý lead/comments có ý định mua)
 3. Reply tự động qua API
 4. Profile lookup (tìm thông tin khách hàng)
-5. Max 3 turns/batch, max 50K tokens/session
+5. Số hiệu tối đa 3 vòng/batch, tối đa 50K/sessition
 
 ---
 
@@ -307,18 +307,18 @@ Ship toàn quốc, mua 3 tặng 1 nha các bác 😍"
 
 | Agency | Chuyên môn | Khác biệt |
 |--------|-----------|-----------|
-| **Smee Agency** | Storytelling + AI automation | DNA từ Smee Marketing, community-driven |
+| **Smee Agency** | Kể chuyện + AI tự động hoá | DNA từ Smee Marketing, community-driven |
 | **VV Agency** (vietvanagency.com) | Thiết kế web Bắc Giang | Tập trung web design |
 | **Socseoer** (socseoer.com) | SEO Bắc Giang | SEO-focused |
 | **BacNinh Agency** (bacninhagency.com) | Backlink Entity + Facebook Ads | AEO chuyên sâu |
 | **Kinh Bắc Media** (kinhbacmedia.com) | Digital marketing trọn gói | Multi-industry (nhà hàng, BĐS, nha khoa) |
 | **PVM** (pvm.com.vn) | Marketing online trọn gói | Generic agency |
 
-### 7.2 Smee's Competitive Advantages
+### 7.2 lợi thế chiến lược của Smee
 
 1. **Storytelling DNA** — Không agency BG nào có "chi tiết có hương vị" framework
 2. **AI Automation Stack** — OpenClaw + Ollama = content generation tự động, dream cron jobs
-3. **Market Intelligence Depth** — Cultural profile, identity triangles, social media behavior research
+3. ** Market Intellug** — Hồ sơ văn hóa, tam giác, hành vi xã hội nghiên cứu
 4. **Community Model** — "Đội cứu hỏa" thay vì chỉ đăng bài một chiều
 5. **Quality-over-Quantity** — 2-3 bài/tuần > daily posting của đối thủ
 
@@ -326,20 +326,20 @@ Ship toàn quốc, mua 3 tặng 1 nha các bác 😍"
 
 - **Nhu cầu cao:** Facebook Ads + Content cho DN địa phương
 - **Cung chưa đủ:** Agency biết storytelling + AI automation
-- **Cơ hội:** Farm-to-table content, FDI-targeted premium content, educational agriculture series
+- **Coh h hết:** Trang trại-tách-tách-thô-thô-thô-tool cao cấp, bộ nông nghiệp giáo dục
 - **Thách thức:** Token Page 1 expired, cần refresh để maintain ads capability
 
 ---
 
 ## #9 Chiến Lược Sắp Tới
 
-### 9.1 Short-term (Q3/2026)
-- [ ] Refresh Facebook Page 1 token (Page ID: 1094674520391475)
+### 9.1 ngắn hạn (Q3/2026)
+- [ ] Cập nhật Facebook Trang 1 tượng trưng (trang ID: 1094674520391475)
 - [ ] Deploy OpenClaw deep-dive insights vào daily workflow
 - [ ] Build content calendar theo mùa vụ vải thiều (5-6)
 - [ ] Test AI-generated content với BAC rules
 
-### 9.2 Mid-term (Q4/2026)
+### 9.2 giữa kỳ (Q4/2026)
 - [ ] Launch "Smee Agency Bắc Giang" brand identity chính thức
 - [ ] Xây dựng portfolio case studies (3-5 khách hàng đầu tiên)
 - [ ] Community building: Facebook Group "Hội Smee Bắc Giang"
@@ -348,21 +348,21 @@ Ship toàn quốc, mua 3 tặng 1 nha các bác 😍"
 ### 9.3 Long-term (2027)
 - [ ] Newsletter tuần (beyond Facebook)
 - [ ] Podcast kể chuyện marketing bằng giọng nói
-- [ ] Discord community choSmee followers
+- [ ] Cộng đồng bất đồng cho người theo dõi Smee
 - [ ] Mở rộng sang Bắc Ninh, Hải Dương, Hưng Yên
 
 ---
 
-## 📊 Key Metrics Dashboard
+## _TIẾNG MỘT Biểu đồ Đường
 
 | Metric | Giá trị | Ghi chú |
 |--------|---------|---------|
 | Page Followers | TBD (Smee Sale & Marketing) | Cần check actual count |
-| Blog followers | 25.000+ (Smee Marketing and Sale gốc) | Brand DNA source |
+| Blog followers | 25.000+ (Smee Marketing and Sale gốc) | Nguồn DNA chính quy |
 | Bắc Giang smartphone penetration | 90% | Market readiness |
 | TMĐT trong bán lẻ BG | 16.95% | Growing rapidly |
-| DN công nghệ BG | 1.600+ | Target audience size |
-| KCN đông nhất Việt Nam | Vân Trung, Đình Trám, Lục Nam | Labor market depth |
+| DN công nghệ BG | 1.600+ | Kích cỡ khán giả đích |
+| KCN đông nhất Việt Nam | Vân Trung, Đình Trám, Lục Nam | Độ sâu của thị trường lao động |
 
 ---
 
@@ -377,4 +377,4 @@ Ship toàn quốc, mua 3 tặng 1 nha các bác 😍"
 
 ---
 
-*Smee 🦞 | 2026-06-15 | Deep research completed — 2.800+ words, 9 sections, 4 sub-topics*
+*Smee _E26-06-15 đào sâu hoàn tất — 2800 từ+, 9 phần, 4 tiểu đề*

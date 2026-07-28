@@ -1,5 +1,5 @@
 ---
-title: "Content Strategy Framework"
+title: "Sự cân bằng của khung hình"
 slug: "concept-content-strategy"
 category: knowledge
 tags: [content-strategy, marketing]
@@ -9,26 +9,26 @@ created: 2026-06-19
 last_updated: 2026-06-24
 ---
 
-# Content Strategy Framework
+# Khung cân chỉnh nội dung
 
-> Reference concept mapping content strategy to FB Ads creative and brand positioning. Resolves links to smee-brand-dna-storytelling and smee-agency-bac-giang-deep-dive.
+> Chiến lược bản đồ khái niệm liên quan đến sự sáng tạo và thương hiệu của FB Ad. Giải quyết liên kết đến smee-dna- mùa đông và smee-bac-baang-giang-dive.
 
 ## Connection Points
-- [[smee-brand-dna-storytelling]] — Brand story framework defining tone, voice, positioning per audience segment
-- [[smee-agency-bac-giang-deep-dive]] — Agency positioning for Bac Giang market (service area + differentiation)
+- [[smee-brand-dna-storytelling]] — Bộ phận khung khung khung khung khung hình ảnh, giọng nói, vị trí mỗi phần khán giả
+- [[smee-agency-bac-giang-deep-dive]] — Cơ quan định vị thị trường Bac Giaang (phố phục vụ và sự phân biệt)
 
-## Strategic Content Stack
-1. **Foundation layer** — Brand DNA, positioning, visual identity source of truth
-2. **Content pillars** — 3-5 repeatable content categories tied to business objectives
-3. **Platform adaptation** — Same core message adapted per platform (FB vs TikTok vs Zalo)
-4. **Distribution system** — Automated scheduling + agent-driven engagement
+## Comment
+1. **Thổ tung lớp** — DNA chủ chốt, định vị, nguồn nhận dạng thị giác của sự thật
+2. **Các cột trụ liên kết** — 3-5 có thể lặp lại nội dung loại gắn liền với mục tiêu kinh doanh
+3. **Platform repform** — cùng một thông điệp cốt lõi thích nghi trên mỗi nền tảng (FB vs Tik vs Zalo)
+4. **Distribution system** — Tự động lên kế hoạch + tổ chức đặc vụ
 
-### Content-to-Creative Pipeline
-- Research insights capture → Obsidian vault atomic notes → prompt generation → FB ad creative → campaign deployment
-- Each pipeline stage logged daily, creating feedback loop for optimization
+### Đường ống nội dung đến đường ống dẫn nội dung
+- Nghiên cứu thấu hiểu bắt giữ → Obsidian Ghi chú nguyên tử hầm → Thế hệ dấu chấm phẩy → Sự sáng tạo FB quảng cáo → Triển khai chiến dịch
+- Mỗi giai đoạn đường ống được ghi lại hàng ngày, tạo ra vòng phản hồi để tối ưu hóa
 
 ## Usage Context
-Connects brand identity work to execution-level content creation. Used when planning new campaigns that need strategic alignment before tactical production.
+Kết nối danh tính thương hiệu với thiết bị tạo ra nội dung thực hiện. dùng khi lên kế hoạch cho các chiến dịch mới cần thẳng hàng chiến lược trước khi sản xuất chiến thuật.
 
 ---
-*Created: 2026-06-19 | Resolved from placeholder → content enriched during vault maintenance 2026-06-24*
+*Created: 2026-06-19 19 ccced from  placeholding nội dung phong phú trong bảo trì hầm 2026-06-24*

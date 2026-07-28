@@ -1,5 +1,5 @@
 ---
-title: GEO — Generative Engine Optimization Guide
+title: GEO — Hướng dẫn về phép báp têm động cơ
 slug: geo-guide-2026
 category: knowledge
 tags:
@@ -15,48 +15,48 @@ related:
 - - professional-marketing-2026
 ---
 
-# GEO — Generative Engine Optimization Guide
+# GEO — Hướng dẫn về phép báp têm động cơ
 
-> How to get your brand mentioned in AI-generated answers (ChatGPT, Claude, Gemini, Copilot).
+> Làm sao để có được dấu hiệu của bạn trong các câu trả lời được công bố bởi AI (ChatGPT, Claude, Song Tử, Phi công phụ).
 
-## Why GEO Matters
+## Tại sao quan trọng như vậy?
 
-- AI tool visitors are **4.4x more valuable** than traditional search visitors (conversion rate)
-- AI recommendations increasingly influence purchase decisions
-- Brands not in AI answers = invisible to growing audience segment
+- (Tiếng cười) (Tiếng cười)
+- AI đề nghị ngày càng có ảnh hưởng đến việc mua quyết định
+- Các dấu hiệu không nằm trong các câu trả lời của AI = vô hình để tăng cường khán giả
 
-## GEO Strategy Framework
+## Công việc làm việc của khung chiến thuật GEO
 
-### 1. Content Structure for AI
-- Clear headings/subheadings
-- Bullet points and numbered lists
-- Direct, concise answers
-- Authoritative tone with citations
+### 1. Nội dung của AI
+- Xoá các đầu/ đầu trang
+- Các điểm và danh sách đã đếm
+- Trực tiếp, ngắn gọn
+- Giọng cho phép với lời trích dẫn
 
-### 2. Brand Mention Optimization
-- Consistent brand name everywhere
-- Structured data (schema markup)
-- Wikipedia/Knowledge graph presence
-- Regular press mentions + reviews
+### 2. Sự báp têm chính thức
+- Name thương hiệu nhất quán ở khắp mọi nơi
+- Dữ liệu được cấu trúc (ghi rõ)
+- Hiện diện đồ thị dạng Wikipedia/Kribege
+- Báo chí thường đề cập đến và đánh giá
 
-### 3. Prompt Engineering for Visibility
-- Identify top prompts mentioning your category
-- Create content answering those prompts directly
-- Monitor "Brand Mentions" vs "Opportunities" dashboards
+### 3. Nhắc cơ khí cho khả năng nhìn xa
+- Nhận diện dấu nhắc ở trên đề cập đến phân loại của bạn
+- Tạo nội dung trả lời trực tiếp các nhắc đó
+- Theo dõi bảng điều khiển "Band Mentions" vs "Opportunities"
 
-### 4. Review & Social Proof Density
-- AI prioritizes brands with abundant positive reviews
-- Google Reviews, Trustpilot, G2, Capterra
-- Encourage reviews systematically
+### 4. ôn lại mật độ & chứng nhận xã hội
+- Ưu tiên AI với nhiều đánh giá tích cực
+- Google Reviews, phi công tín nhiệm G2, USSra
+- Khuyến khích người ta ôn lại một cách có hệ thống
 
 ## GEO Checklist
 
-- [ ] Brand in top 3 ChatGPT answers for category queries
-- [ ] Knowledge graph entry exists
-- [ ] Structured data on website
-- [ ] 50+ reviews across platforms
-- [ ] Monthly press coverage minimum
-- [ ] AI visibility dashboard monitored weekly
+- [ ] Hình trên cùng trong 3 ChatGPT trả lời cho các câu hỏi phân loại
+- [ ] Mục nhập của đồ thị Kiến thức đã có
+- [ ] Dữ liệu được cấu hình trên trang web
+- [ ] 50+ xem xét trên các nền tảng
+- [ ] Báo chí hàng tháng tối thiểu
+- [ ] Bảng điều khiển nhìn thấy được theo dõi hàng tuần
 
 ---
 

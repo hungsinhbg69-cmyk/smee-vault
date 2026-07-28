@@ -9,228 +9,228 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-﻿# 03 - Ad Formats & Creative Strategy (Dang ads + Nguyen tac creative)
+#03 - Định dạng & Sáng tạo Chiến lược (Dang quảng cáo + Nillan tac tac sáng tạo)
 
-## Meta Ads Format Overview
+## Meta Xem hình quảng cáo
 
-Meta Ads run on Facebook + Instagram through same Ads Manager. Same campaign structure, different placements and formats.
+Meta Người già chạy Facebook Cùng một tổ chức chiến dịch, định vị và định dạng khác nhau.
 
-### Platform Placements Matrix
+### Name
 | Placement | Available On | Best Format | Aspect Ratio |
 |---|---|---|---|
 | Facebook Feed | FB Desktop/Mobile | Image, Video, Carousel | 1:1 or 4:5 |
-| Instagram Feed | IG Mobile | Image, Video, Carousel | 1:1 or 4:5 |
+| Instagram Feed | IG Mobile | Ảnh, phim ảnh, phim ảnh | 1:1 or 4:5 |
 | Facebook Stories | FB Mobile | Video (Reels) | 9:16 |
 | Instagram Stories | IG Mobile | Video (Reels) | 9:16 |
 | Facebook Reels | FB Mobile | Video | 9:16 |
 | Instagram Reels | IG Mobile | Video | 9:16 |
-| Audience Network | Cross-app | Image, Video, Native | Varies |
+| Audience Network | Cross-app | Ảnh, phim ảnh, bản địa | Varies |
 | Messenger | FB/Messenger App | Image, Video, Collection | Varies |
 
-## Format 1: Single Image / Static Ads
+## Định dạng 1: ảnh đơn/ Ảnh dạng hình ảnh/ Ảnh
 
 ### Use cases
-- Direct response messaging
-- Quick A/B testing
-- Promotional offers/discounts
-- Brand awareness with strong visual
+- Tin nhắn trực tiếp
+- Kiểm tra nhanh A/B
+- Cung cấp/dibing
+- Nhận thức chính xác với hình ảnh mạnh mẽ
 
 ### Best practices
-- High-quality visuals (not stock-looking)
-- Clear focal point - one main subject
-- Minimal text on image (Facebook prefers less text overlay)
-- Strong brand presence in first frame
-- Mobile-first design (95%+ traffic is mobile)
+- Hình ảnh chất lượng cao (không nhìn cổ phiếu)
+- Xoá tiêu điểm - một chủ đề chính
+- Văn bản tối thiểu trên ảnh (Facebook Thích ít văn bản phủ hơn)
+- Sự hiện diện thương hiệu mạnh mẽ trong khung thứ nhất
+- Thiết kế đầu di động (95%+ giao thông là di động)
 
 ### Specs
-- Recommended: 1080x1080 (square) hoac 1080x1350 (portrait - more screen space)
-- Formats: JPG or PNG
-- Feed: 1:1 hoac 4:5 aspect ratio
-- Max file size: 30MB
+- Khuyên: 1080x1080 (hình vuông) hoac 1080x1350 (rararait - thêm không gian màn hình)
+- Định dạng: JPG hay PNG
+- Nạp: 1:1 tỷ lệ hình thể hoac 4:5
+- Cỡ tập tin tối đa: 30MB
 
-### Why use in 2026
-Cheapest production cost, fastest to test. Good for testing messaging hooks before scaling to video.
+### Tại sao lại dùng trong năm 2026?
+Chi phí sản xuất rẻ nhất, nhanh nhất để kiểm tra. tốt hơn để kiểm tra các móc làm hỏng trước khi phóng to lên video.
 
-## Format 2: Video Ads (In-Feed)
+## Định dạng 2: AD (không có)
 
 ### Use cases
 - Product demonstrations
-- Customer testimonials / case studies
-- How-to tutorials
+- Kiểm tra các bài kiểm tra / trường hợp khách hàng
+- Dạy học
 - Brand storytelling
-- Before/after transformations
+- Trước/sau biến đổi
 
-### Best practices CRITICAL
-1. **Hook in first 3 seconds** - This decides everything. If they don't watch past 3s, ad fails.
-2. **Captions always** - 85% watch without sound on mobile
-3. **Mobile-optimized** - Vertical or square, not landscape
-4. **Keep under 15 seconds** for best performance (shorter = higher completion rate)
-5. **Clear CTA** - Tell them what to do
-6. **Branding early** - Show brand within first 2 seconds
+### Thực hành tốt nhất trong văn bản
+1. Nếu họ không xem qua 3s, thì quảng cáo thất bại.
+2. **Captions luôn** - 85% xem mà không có âm thanh trên điện thoại
+3. **Tối ưu cho thiết bị di động** — Dọc hoặc vuông, không dùng khung ngang
+4. **Giữ dưới 15 giây** để đạt hiệu suất tốt nhất (ngắn hơn = tỷ lệ xem hết cao hơn)
+5. - Bảo họ phải làm gì đi.
+6. **Hiển thị thương hiệu sớm** — Cho thương hiệu xuất hiện trong 2 giây đầu tiên
 
 ### Video specs
-- Recommended: 1080x1080 (square) hoac 1080x1920 (vertical)
-- Formats: MP4 or MOV
-- Maximum: 4GB, 240 minutes
+- Khuyên: 1080x1080 (hình vuông) hoac 1080x1920 (vertical)
+- Định dạng: MP4 hay MOV
+- Tối đa: 4GB, 240 phút
 - Feed: 1:1 hoac 4:5
 - Stories/Reels: 9:16
 
-### Video types that convert
-- Product demo showing real usage
-- User-generated content (UGC) style - feels native
-- Customer testimonial with real results
-- Problem-solution narrative structure
-- Behind-the-scenes authentic content
+### Kiểu phim làm đổi
+- Bản thử nghiệm sản phẩm cho thấy sử dụng thực sự
+- Name
+- Khách hàng có kết quả thực sự
+- Cấu trúc câu chuyện giải quyết vấn đề
+- Nội dung chính xác phía sau màn hình
 
-## Format 3: Carousel Ads
+## Định dạng 3: Hình quảng cáo
 
 ### Use cases
-- Multiple products showcase
-- Step-by-step tutorials
-- Feature highlights/benefits
-- Storytelling across multiple cards
-- Price comparison or tiers
+- Nhiều sản phẩm hiện
+- Hướng dẫn từng bước
+- Tô sáng tính năng/bên trái
+- Kể chuyện qua nhiều lá bài
+- Giá cả so sánh hay dấu hiệu thắt
 
 ### Best practices
-- 2-10 cards (3-5 optimal for engagement)
-- Each card stands alone as a complete message
-- Consistent visual style across ALL cards
-- Strong first card (most viewed position)
-- CTA on every card
-- Test different card orders
-- Don't put critical info in the last card
+- 2-10 quân bài (3-5 tối ưu cho việc đính hôn)
+- Mỗi lá bài là một thông điệp đầy đủ
+- Name
+- Thẻ thứ nhất mạnh (phần lớn vị trí)
+- CTA trên mọi thẻ
+- Thử lệnh bài khác
+- Đừng để thông tin quan trọng vào lá bài cuối cùng
 
 ### Structure examples
-**Product showcase:** Card 1 = hero product, Cards 2-N = variations/colors
-**Tutorial:** Card 1 = hook/title, Cards 2-4 = steps, Card 5 = CTA
-**Storytelling:** Card 1 = problem, Cards 2-4 = journey, Card 5 = solution/CTA
+** Chương trình giới thiệu:** Card 1 = sản phẩm anh hùng, Cards 2-N = biến thể/color
+**Tutoral:** Card 1 = móc/ tựa, Cards 2-4 = bước, Card 5 = CTA
+**Storytelling:** Card 1 = vấn đề, Cards 2-4 = du lịch, Card 5 = giải pháp/CTA
 
-## Format 4: Reels Ads (9:16 Vertical Video)
+## Định dạng 4: Số lần lặp lại:
 
 ### Use cases
-- Fastest growing format on Meta (2026)
-- Native UGC style content
-- Product demonstrations in action
-- Trending audio + brand messaging
-- Storytelling with full-screen immersion
+- Dạng thức tăng nhanh nhất trên Meta (2026)
+- Name
+- Các cuộc biểu tình đang diễn ra
+- Làm méo âm thanh và ảnh động thương mại
+- Kể chuyện với sự trầm mình toàn màn hình
 
 ### Best practices
-- Vertical 9:16 FULL SCREEN only
-- UGC style performs BEST (not polished studio)
-- Hook in first 1-2 seconds (faster scroll on Reels)
-- Use trending audio when relevant
-- Add text overlay for silent viewing
-- CTA within video + button CTA
-- Length: 9-30 seconds optimal
+- Dọc 9:16  I HÌNH SẼ
+- Kiểu UGC làm cho BTT (không phải là xưởng in bóng loáng)
+- Móc trong 1- 2 giây (trang nhanh hơn trên Reels)
+- Dùng âm thanh xu hướng khi thích hợp
+- Thêm văn bản được bao phủ để xem yên lặng
+- CTA trong video + nút CTA
+- Chiều dài: 9- 30 giây tối ưu
 
-### Why Reels matter in 2026
-Reels get significantly higher organic reach than feed content. Ads placed on Reals benefit from this algorithm boost. UGC-style Reels ads often outperform polished studio videos by 2-3x.
+### Tại sao lại là vấn đề trong năm 2026?
+Reels có được những kết quả hữu cơ cao hơn nhiều so với nội dung dữ liệu.
 
-## Format 5: Collection Ads
+## Định dạng 5: Quản lý Tập hợp
 
 ### Structure
-- Cover image or video (full-width hero)
-- Product grid below (4 products max)
-- Instant shopping experience (opens in-app, no external link needed)
+- In ảnh hoặc video (người hùng toàn cảnh)
+- Lưới sản phẩm dưới (4 sản phẩm tối đa)
+- Kinh nghiệm mua sắm ngay (mở trong các gõ, không cần thiết liên kết bên ngoài)
 
 ### Best for
-- Ecommerce stores with product catalogs
-- Fashion/apparel brands
-- Home goods and furniture
-- Any business with 20+ products
+- Các cửa hàng sản xuất với danh mục sản phẩm
+- Name
+- Đồ đạc và đồ nội thất nhà
+- Bất kỳ doanh nghiệp với 20+ sản phẩm
 
 ### Requirements
-- Facebook Product Catalog connected
-- At least 1,000 products recommended
-- Instant Experience configured
+- Facebook Name
+- Ít nhất 1.000 sản phẩm được đề nghị
+- Name
 
-## Format 6: Lead Ads (Instant Forms)
+## Định dạng 6: A tựa (hình mẫu)
 
-### How it works
-- Form opens directly inside Facebook/Instagram
-- No external landing page needed
-- Pre-fills user info from profile
-- Submit = instant lead capture
+### Nó hoạt động thế nào?
+- Mẫu sẽ mở trực tiếp bên trong Facebook/ Instagram
+- Không cần hạ cánh bên ngoài
+- Thông tin người dùng trước
+- Gởi = Bắt liền chì
 
 ### Best for
-- B2B lead generation
+- Thế hệ chính B2B
 - Newsletter signups
 - Service inquiries
 - Contest giveaways
 - Webinar registrations
 
 ### Best practices
-- Keep form short (3-5 fields max)
-- Use custom questions to qualify leads
-- Add thank-you screen with next steps
-- Include privacy policy link
-- Match form creative to offer
-- Follow up within 1 hour for best conversion
+- Giữ đơn ngắn nhất (3-5 trường tối đa)
+- Dùng câu hỏi tự chọn để có khả năng dẫn tới
+- Thêm màn hình cảm ơn vào bước tiếp theo
+- Bao gồm liên kết chính sách cá nhân
+- Khớp hình thức sáng tạo để cung cấp
+- Theo sau 1 giờ để cải đạo tốt nhất
 
-## Ad Copy Framework (applies to ALL formats)
+## Bộ khung sao chép (phát âm theo định dạng tất cả)
 
-### Primary Text Structure
+### Cấu trúc Văn bản Chính
 `
-HOOK (attention grabber - 1 sentence)
-VALUE PROPOSITION (why they should care)
-SOCIAL PROOF (trust builder)
-CALL TO ACTION (what to do next)
+HOOK (bộ giữ khoảng cách - 1 câu)
+GỢI Ý
+TIẾNG TÂM (người xây dựng tin tưởng)
+kêu gọi hành động (làm gì tiếp theo)
 `
 
-### Hook formulas that work
-- Question: "Ban co biet...?"
-- Statistic: "8/10 khach hang noi..."
-- Problem statement: "Fat vi khong tim duoc..."
-- Curiosity gap: "Bi mat ma 90% khong biet..."
-- Direct benefit: "Tang 3x sales trong 30 ngay"
+### Công thức móc nối hiệu quả
+- Câu hỏi: "Ban co biet...?"
+- Thống kê: "8/10 kg treo cổ noi..."
+- Câu hỏi khó: "Fat vikhong tim duoc..."
+- Khoảng cách tò mò: "Bi ma 90% khong biet..."
+- Lợi nhuận trực tiếp: "Tang 3x bán ra 30 ny"
 
-### Headline best practices
-- Max 40 characters (displays without truncation)
-- Include specific benefit or offer
-- Create urgency when applicable
-- Be specific, not vague
-- Match primary text hook
+### Các thực hành tốt nhất theo đầu đề
+- 40 ký tự tối đa (không có độ trễ)
+- Bao gồm lợi ích hoặc đề nghị cụ thể
+- Tạo cấp bách khi thích hợp
+- Hãy nói rõ, đừng mơ hồ.
+- Khớp đoạn chính
 
-### CTA Button selection
+### Chọn nút CTA
 | Goal | CTA Button |
 |---|---|
 | Shop products | Shop Now |
 | Learn more | Learn More |
 | Sign up | Sign Up |
 | Download resource | Download |
-| Get service quote | Get Quote |
+| Lấy trích dẫn dịch vụ | Get Quote |
 | Contact business | Contact Us |
 | Apply | Apply Now |
 | Watch content | Watch More |
 
-## Creative Testing Framework 2026
+## Thử ra Khung Sáng tạo năm 2026
 
-### Test matrix (minimum)
-- 3 different creative concepts per ad set
-- Mix of formats: at least 1 video + 1 static + 1 carousel
-- Different hooks for each concept
-- Same target audience, different creatives
+### Ma trận thử ra (mimum)
+- 3 khái niệm sáng tạo khác nhau trên mỗi quảng cáo
+- Trộn các định dạng: ít nhất 1 video + 1 tĩnh + 1 carousel
+- Mỗi móc cho mỗi khái niệm
+- Cùng mục tiêu khán giả, sáng tạo khác nhau
 
-### What to measure
-- Hook rate (3-second video views / impressions) - measures first 3s effectiveness
-- CTR (link click through rate) - measures copy/creative resonance
-- CPA (cost per acquisition) - measures overall conversion efficiency
-- ROAS (return on ad spend) - measures revenue efficiency
+### Cần đo cái gì?
+- Tỷ lệ móc (3 giây xem video / ấn tượng) - biện pháp hiệu quả cho 3 lần đầu tiên
+- CTR (link click qua tốc độ) - biện pháp sao chép/creative sunate cộng hưởng
+- CPA (giá cả mỗi thu nhập) - đo hiệu quả chuyển đổi toàn bộ
+- ROAS (trở lại chi tiêu quảng cáo) - đo hiệu quả doanh thu
 
-### Creative refresh cycle
-- New creatives every 2-4 weeks (ad fatigue threshold)
-- When frequency > 3.0, rotate new creative
-- Test new hooks monthly even if current ads performing
-- Save winning creatives for reuse/variation
+### Chu kỳ cập nhật sáng tạo
+- Cứ 2-4 tuần lại có sáng tạo mới.
+- Khi tần số > 3, xoay sáng tạo mới
+- Kiểm tra các móc mới hàng tháng ngay cả khi quảng cáo hiện tại biểu diễn
+- Lưu chiến thắng sáng tạo để tái sử dụng/định dạng
 
 ## Key Takeaways
-- Hook in first 3 seconds is non-negotiable for video
-- UGC-style Reels ads outperform polished studio content
-- Always test multiple creatives per ad set (min 3)
-- Carousel: 3-5 cards optimal, each card must stand alone
-- Lead Ads work well for B2B - keep forms short (3-5 fields)
-- Creative refresh every 2-4 weeks to combat ad fatigue
-- CTR > 1% is good benchmark; CPA/ROAS are real success metrics
+- Hook trong 3 giây đầu tiên là không thương lượng cho video
+- Name
+- Luôn kiểm tra nhiều sáng tạo mỗi lần quảng cáo (min 3)
+- 3-5 lá bài tối ưu, mỗi lá bài phải đứng một mình
+- Những con rối chính làm việc tốt cho B2B - giữ các hình dạng ngắn (3-5 trường)
+- Sáng tạo mỗi 2-4 tuần để chống lại mệt mỏi
+- CTR > 1% là dấu băng tốt; CPA/ROAS là thước đo thành công thực sự
 
 ---
-*Created: 2026-06-15 | Sources: marketingadvice.ai, marketingagency.one*
+*Created: 2026-06-15 Nguồn tin: marketingadvice.ai, marketingacover.one*

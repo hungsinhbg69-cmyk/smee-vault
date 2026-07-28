@@ -1,5 +1,5 @@
 ---
-title: Prompt Architecture — Patterns & Techniques
+title: Khuyên giục kiến trúc — Mẫu mực và kỹ thuật
 slug: prompt-patterns-techniques
 category: knowledge
 tags:
@@ -21,7 +21,7 @@ parent: prompt-architecture-overview.md
 
 ## 📋 Tổng Quan Các Pattern Hiệu Quả Nhất
 
-### 1. Structured Output Patterns
+### 1. mẫu xuất đã cấu trúc
 
 #### JSON Schema Enforcement
 OpenAI native support cho structured output — model luôn trả về đúng schema:
@@ -49,7 +49,7 @@ OpenAI native support cho structured output — model luôn trả về đúng sc
 
 **Lợi ích:** Parseable output, no regex needed, consistent structure.
 
-#### Delimited Output Format
+#### Định dạng xuất bị hạn chế
 Claude mạnh về XML-tagged output:
 ```
 <analysis>
@@ -58,9 +58,9 @@ Claude mạnh về XML-tagged output:
 </analysis>
 ```
 
-### 2. Few-Shot Learning Patterns
+### 2. Ít học mẫu
 
-#### Pattern: Contextual Examples
+#### Mẫu: Những gương trong văn cảnh
 ```
 INPUT: "skincare for sensitive skin"
 OUTPUT: {"audience": "Sensitive skin millennials", "tone": "Gentle, reassuring"}
@@ -77,9 +77,9 @@ OUTPUT:
 - Examples phải cover edge cases của task
 - Đặt examples **sau system rules**, trước dynamic content (cache-friendly)
 
-### 3. Chain-of-Thought Patterns
+### 3 Mẫu hình chuỗi tư duy
 
-#### Standard CoT (cho reasoning models)
+#### CoT chuẩn (cho mô hình lý luận)
 ```
 Hãy suy nghĩ từng bước:
 1. Xác định audience chính
@@ -88,19 +88,19 @@ Hãy suy nghĩ từng bước:
 4. Viết recommendations
 ```
 
-#### Self-Consistency CoT (accuracy-critical tasks)
+#### Co- conni chính (công việc tự xác định)
 ```
 Hãy đưa ra 3 cách tiếp cận khác nhau cho task này, 
 sau đó chọn cách tốt nhất và giải thích tại sao.
 ```
 
 **Khi nào dùng:**
-- ✅ Complex reasoning, multi-step decisions
-- ❌ Simple classification, straightforward extraction
+- _lý luận phức tạp, quyết định đa bước
+- Phân loại đơn giản, rút gọn
 - ⚠️ Reasoning models: CoT tự động trong nội bộ (không cần explicit)
 - ⚠️ GPT models: Cần explicit CoT instructions
 
-### 4. Role-Based Prompting
+### 4 gợi ý đóng vai trò
 
 ```
 Bạn là một chuyên gia marketing với 10 năm kinh nghiệm 
@@ -110,10 +110,10 @@ Việt Nam và thành thạo Facebook Ads.
 
 **Best practice:**
 - Role phải SPECIFIC (không generic "bạn là AI assistant")
-- Include domain expertise + experience level
+- Bao gồm chuyên môn miền và kinh nghiệm cấp
 - Match role với task context
 
-### 5. Constraint-Based Prompting
+### 5 Người được huấn luyện
 
 ```
 RULES:
@@ -123,12 +123,12 @@ RULES:
 - Format: bullet points, không paragraphs
 ```
 
-**Hierarchy of constraints:**
+**Sự hạn chế:**
 1. **Hard constraints** (không thỏa = fail): word count, language, format
 2. **Soft constraints** (ưu tiên nhưng có exception): tone, style
-3. **Preferences** (nice-to-have): example inclusion, structure detail
+3. **P tương thích** (có-có: ví dụ, cấu trúc chi tiết
 
-### 6. Iterative Refinement Pattern
+### 6 Gương tốt về sự cải thiện
 
 ```
 BƯỚC 1: Tạo draft content cho sản phẩm X
@@ -137,30 +137,30 @@ BƯỚC 3: Cải thiện dựa trên review
 BƯỚC 4: Final polish với tone Y
 ```
 
-**适用场景:** Content creation, code generation, complex analysis.
+**Hãy tạo ra nội dung, thế hệ mã hóa, phân tích phức tạp.
 
-## 🎛️ Model-Specific Patterns (06/2026)
+## _ Mẫu đặc trưng (06/2026)
 
-### Reasoning Models (o-series)
+### Mô hình lý luận (o-series)
 - **Minimal prompts work best** — model tự fill gaps
 - Explicit CoT không cần thiết (internal reasoning)
-- Gỏi ambiguous tasks: "Analyze these documents and tell me what's missing"
-- Multi-step planning: "Break this problem into steps, then solve each step"
+- Nhiệm vụ mơ hồ G spiritsi: "Hãy phân tích những tài liệu này và nói cho tôi biết cái gì còn thiếu"
+- Kế hoạch đa bước: "Hãy giải quyết vấn đề này thành từng bước, rồi giải quyết từng bước"
 
-### GPT Models (workhorse)
-- **Need explicit instructions** — less tolerant of ambiguity
-- Structured output + clear format specs essential
-- Step-by-step instructions preferred over open-ended prompts
-- Good for execution: "Write 5 Facebook ad variants based on this analysis"
+### Mô hình GPT (giầy ngựa)
+- **Neted chỉ thị rõ ràng** — ít khoan dung của mơ hồ
+- Chương trình xuất được cấu trúc + định dạng rõ cần thiết
+- Những chỉ dẫn từng bước một được ưu tiên hơn những lời nhắc mở
+- Tốt cho thực hiện: "Hãy ghi 5 Facebook Các biến thế dựa trên phân tích này"
 
 ### Claude Models
-- XML tags work best for structured input/output
-- Long context handling superior — good for document-heavy tasks
-- System prompt persistence across turns (unlike OpenAI instructions)
+- Thẻ XML hoạt động tốt nhất cho đầu vào/ đầu ra có cấu trúc
+- Văn cảnh dài quản lý cấp trên — tốt cho các công việc nặng nề tài liệu
+- Hệ thống nhắc nhở sự kiên trì trên các lượt (không giống như OpenAI hướng dẫn)
 
-## 📐 Prompt Template Architecture
+## _Trích dẫn cấu trúc mẫu
 
-### Production-Ready Template Structure
+### Cấu trúc mẫu đã sẵn sàng
 ```python
 class PromptTemplate:
     # LAYER 1: System Rules (static, cached)
@@ -200,4 +200,4 @@ class PromptTemplate:
 → Với OpenAI API: `response_format` type="json_schema" cho reliability cao nhất. Nhưng Claude native JSON support cũng tốt. Local models (Qwen36): cần explicit instruction "Phải trả về JSON hợp lệ" — không có native schema enforcement.
 
 ---
-*Research date: 2026-06-18 | Sources: OpenAI API docs, Anthropic Cookbook, PromptingGuide.ai, community benchmarks*
+*R năng lượng ngày: 2026-06-18 Nguồn: OpenAI API Bác sĩ, Sổ nấu ăn Antropic, nhắc nhở Guide.ai, các điểm tập thể.

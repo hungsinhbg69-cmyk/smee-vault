@@ -144,7 +144,7 @@ Người Bắc Giang trên Instagram có đặc điểm:
 (ngắn, hình ảnh cụ thể, không phô trương)
 ```
 
-### 3.3 THREADS (Twitter/X style)
+### 3. 3 THREDS (kiểu Twitter/X)
 
 Trên Threads, người Bắc Giang thường:
 - **Viết ngắn**, đi thẳng vào vấn đề — chịu ảnh hưởng của tư duy thực dụng.

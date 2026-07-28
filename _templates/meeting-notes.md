@@ -16,8 +16,8 @@ last_updated: <%% tp.date.now("YYYY-MM-DD") %%>
 - Duration: 
 - Project: [[ ]]
 
-<!-- Plugin obsidian-outliner: nhap Ctrl+O de activate outliner mode -->
-<!-- Plugin mermaid-tools: dung de ve flow diagram cuoc hep -->
+<b>... Plugin obsidian-outliner: tap Ctrl+O de kích hoạt chế độ phác thảo ->
+<b>... Plugin Công cụ người cá: phân de ve di chuyển sơ đồ cuc hep -->
 
 ## Agenda
 1. 
@@ -28,7 +28,7 @@ last_updated: <%% tp.date.now("YYYY-MM-DD") %%>
 ## Decisions Made
 - [ ] 
 
-## Action Items -- auto-linked to tasks-plugin
+## Mục hành động -- liên kết tự động đến nhiệm vụ --plugin
 
 ```tasks
 not done
@@ -36,13 +36,13 @@ tag includes meeting-%%tp.date.now("YYYY-MM-DD")%%
 sort by due
 ```
 
-### Follow-up Deadlines
+### Comment
 | Person | Task | Due | Status |
 |--------|------|-----|--------|
 |  |  |  | |
 
 ## Notes & Resources
-> Use pdf-plus for annotated documents from meeting  
-> Use excalidraw for visual whiteboard sketches: right canvas -> Excalidraw
+> Dùng pdf-plus cho các tài liệu đã ghi chú từ cuộc họp  
+> Dùng khả năng vẽ đồ họa bảng trắng thị giác:
 
 ---

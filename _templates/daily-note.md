@@ -13,9 +13,9 @@ priority_today:
 
 # 📅 {{date:YYYY-MM-DD}} | Day {{date:dddd}}
 
-<!-- Scanned FIRST by agent: check this section every session -->
+<!-- được quét đầu tiên bởi đặc vụ: kiểm tra phần này mỗi phiên chạy -->
 
-## ⚡ Today's Focus (max 3)
+## _ Tập trung ngày nay (xx3)
 - [ ] 
 - [ ] 
 - [ ] 
@@ -31,7 +31,7 @@ group by due
 ## 📥 Inbox Capture
 - Quick notes: 
 
-## 🔗 Links from Yesterday
+## 🔗 Liên kết từ hôm qua
 <%* const yDate = tp.date.now("YYYY-MM-DD", -1); tR += `- [[${yDate}]]`; %>
 
 ## ✅ Done Today

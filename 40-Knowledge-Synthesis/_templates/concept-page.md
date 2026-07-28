@@ -1,5 +1,5 @@
 ---
-title: "Concept Page Template (Karpathy)"
+title: "Dường tượng mẫu trang (Karpacy)"
 slug: "concept-page-template"
 category: knowledge
 tags: [template, karpathy, wiki, concept]
@@ -13,7 +13,7 @@ last_updated: 2026-07-13
 ---
 
 
-# Concept Page Template
+# & Xem thử trang...
 
 > Template cho concept pages trong LLM Wiki Pattern. Dùng để tạo pages cho các khái niệm, mô hình, lý thuyết, hoặc pattern trừu tượng.
 
@@ -38,33 +38,33 @@ type: concept
 # Concept Name
 
 ## Definition
-Clear, concise definition of the concept. What it is and isn't.
+Định nghĩa rõ ràng, ngắn gọn của khái niệm.
 
 ## Core Principles
 - Principle 1: description
 - Principle 2: description
 - Principle 3: description
 
-## How It Works
-Step-by-step or mechanism explanation.
+## Cách nó hoạt động
+Từng bước một hoặc một cơ chế giải thích.
 
-## Comparison with Related Concepts
+## So sánh với các ý kiến liên quan
 | Concept | Similarities | Differences |
 |---------|-------------|-------------|
 | [[related-concept]] | ... | ... |
 
 ## Evidence / Examples
-- Example 1: context + outcome
-- Example 2: context + outcome
+- Ví dụ 1: ngữ cảnh + kết quả
+- Ví dụ 2: ngữ cảnh + kết quả
 
 ## Limitations / Criticisms
 - Limitation 1: explanation
 - Limitation 2: explanation
 
 ## References
-- [Source Name](https://example.com) — replace with source URL and access date
-- [Source Name](https://example.com) — replace with source URL and access date
+- [Source Name](https://example.com) — Thay thế bằng nguồn URL và ngày truy cập
+- [Source Name](https://example.com) — Thay thế bằng nguồn URL và ngày truy cập
 
 ---
 
-*Created: YYYY-MM-DD | Last updated: YYYY-MM-DD*
+*Created: YYYY-MM-DD-DD cập nhật cuối cùng: YYYY-MM-DDD*

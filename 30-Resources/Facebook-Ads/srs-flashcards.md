@@ -1,5 +1,5 @@
 ---
-title: "SRS Flashcards — FB Ads Knowledge"
+title: "Những lá thư chớp nhoáng của SRS — Sự hiểu biết phi thường"
 slug: "facebook-srs-flashcards"
 category: resource
 tags: [vault-maintenance]
@@ -9,91 +9,89 @@ created: 2025-12-01
 last_updated: 2026-06-24
 ---
 
----
+# Ngợi khen những lá bài của các nhóm nhỏ — Sự hiểu biết của FB
 
-# 🃏 SRS Flashcards — FB Ads Knowledge
+> Đã tự động thông báo từ kiến thức hầm. Obsidian Sự lặp lại không gian plugin.
 
-> Auto-imported from vault knowledge. Review via Obsidian Spaced Repetition plugin.
+## Ưu tiên cao (Cần phải biết)
 
-## High Priority (Must Know)
+### Facebook Tín hiệu lõi Algorithm
 
-### Facebook Algorithm Core Signals
+Thuật toán Facebook 2026 ưu tiên chất lượng tương tác hơn khối lượng thô?:: Dành thời gian xem, tiết kiệm, chia sẻ là tín hiệu cao. Bình luận > Phản ứng. Ví dụ: "Chất lượng > Số lượng" — thuật toán ưu đãi nội dung giúp người dùng ở lại ứng dụng lâu hơn.
 
-Facebook algorithm 2026 prioritizes engagement quality over raw volume?::Time spent viewing, saves, shares are top signals. Comments > reactions. Likes are least weighted. Key principle: "quality > quantity" — algorithm favors content that keeps users in app longer.
+Tín hiệu xếp hạng chính cho cái gì? Facebook Thức ăn năm 2026: 1) Thời gian dành để xem (giá trị cao nhất), 2) Tiết kiệm/ dấu ấn, 3) Chia sẻ kèm bình luận, 4) Bình luận về bài viết, 5). Trọng tâm không quan trọng bằng kiểu tương tác và thời gian.
 
-What is the primary ranking signal for Facebook feed in 2026?::1) Time spent viewing (longest weight), 2) Saves/bookmarks, 3) Shares with comments, 4) Comments on post, 5) Reactions. Raw engagement count matters less than engagement type and duration.
+Hệ thống đấu giá của máy tính hoạt động như thế nào vào năm 2026?: 3 bộ phân cấp: Tier 1 (80%+ tương thích) = điểm số tương thích cao + giá thầu cạnh tranh. Tier 2 (60-80%) = cân đối/giá thầu, cần giám sát. Tier 3 (<60%) = Kiểm tra — Kiểm tra CTR, tần suất sáng tạo.
 
-How does the Andromeda auction system work in 2026?::Three tiers: Tier 1 (80%+ win rate) = high relevance score + competitive bid. Tier 2 (60-80%) = balanced relevance/bid, needs monitoring. Tier 3 (<60%) = optimization needed — check CTR, frequency, creative freshness. Ad rank = Bid × Estimated Action Rate × Value.
+Điểm khác biệt giữa mục tiêu rộng và hẹp vào năm 2026 là gì?: Mục tiêu rộng: không giới hạn lợi ích/người dùng, hãy để cho thuật toán tìm khán giả qua dữ liệu sáng tạo + điểm ảnh. Tốt nhất để mở rộng quy mô (2026 cao). Mục tiêu hẹp: chồng chéo, góc nhìn cụ thể, mục tiêu chi tiết. Tốt cho việc bắt đầu học tập nhưng bị giới hạn. Broad thắng khi bạn có lịch sử sáng tạo tốt và điểm ảnh.
 
-What's the difference between broad and narrow targeting in 2026?::Broad: no interests/behaviors, let algorithm find audience via creative + pixel data. Best for scaling (2026 shift). Narrow: interest stacks, lookalikes, detailed targeting. Good for cold starts but limits learning phase. Broad wins when you have good creatives and pixel history.
+### Comment
 
-### Bidding & Budget Strategy
+Quy tắc tăng trưởng của chiến dịch CBO là gì? Facebook ads▪ Ngân sách chi tiêu cho mỗi quảng cáo tối đa 20% mỗi ngày.
 
-What is the CBO scaling rule for Facebook ads?::Increase budget by max 20% per day per ad set. Scale winners vertically first (same audience, new creative), then horizontally (new audiences). Never increase budget on losing ad sets — pause or refresh creative instead.
+Ngân sách tối thiểu cho thử nghiệm ý nghĩa ở Việt Nam là gì?: 10-20 USD/ngày/quảng cáo (tối thiểu cho ý nghĩa thống kê). Các chiến dịch cải tiến nhắm tới các sản phẩm giá trị cao: bắt đầu từ 30+ USD/ngày. Cần ít nhất 50 chuyển đổi/tuần để thoát khỏi giai đoạn học tập không thể kiểm soát được.
 
-What's the minimum daily budget for meaningful testing in Vietnam?::$10-20/day per ad set minimum for statistical significance. Conversion campaigns targeting high-value products: start $30+/day. Need at least 50 conversions/week/ad set to exit learning phase reliably.
+Khi nào bạn nên chuyển từ CPC sang CPM?: Chuyển từ CPC sang CPM khi CTR < 1% — tạo điều kiện tìm kiếm các bộ chuyển đổi. Hãy gắn với CPC khi CTR > 2%. Để nhận thức thương hiệu: luôn dùng CPM hay tối ưu hóa hiển thị. Để chuyển đổi: CPM thường vượt trội hơn dạng CPC trong 2026, theo thuật toán Ad+.
 
-When should you switch from CPC to CPM bidding?::Switch to CPM when CTR < 1% — gives algorithm freedom to find converters. Stick with CPC when CTR > 2%. For brand awareness: always use CPM or reach. For conversions: CPM generally outperforms CPC in 2026 due to Advantage+ algorithms.
-
-What is frequency capping best practice?::Frequency < 3.0 for prospecting (fresh creatives needed). Frequency 1.5-2.5 for retargeting/remarketing. If frequency >4.0 within 7 days = creative fatigue, rotate new assets immediately. Retargeting audiences naturally have higher acceptable frequency.
+Thực hành tốt nhất là gì?: Tần suất cao nhất < 3.0 để tìm kiếm (cần thiết mới sáng tạo). Tần suất 1.5-2.5 để tải lại/tối ưu hóa. Nếu tần suất >4.0 trong 7 ngày = mệt mỏi sáng tạo, xoay tài sản mới ngay lập tức. Việc tải lại khán giả có tần suất chấp nhận cao hơn.
 
 ### Metrics & Benchmarks
 
-What's the ideal CPM range for Vietnam market in 2026?::FB Ads Vietnam: $0.50-$1.50 broad reach, $1.50-$3.00 targeted niche. If CPM >$4: audience too narrow or creative fatigue detected. Compare against industry benchmarks — e-commerce typically lower, education/healthcare higher.
+Phạm vi CPM lý tưởng cho thị trường Việt Nam vào năm 2026 là gì?: FB Ads Vietnam: $0.50-1.50 cho mục tiêu rộng, đạt mức cao; $1.50-3.00 cho mục tiêu cụ thể. Nếu CPM >$4: khán giả quá hẹp hoặc sáng tạo phát hiện mệt mỏi. So sánh với các dấu hiệu công nghiệp — e-commerce thường thấp hơn, giáo dục/ Y tế cao hơn.
 
-What's the optimal ad frequency for conversion campaigns?::Frequency < 3.0 prospecting (rotate creatives). Frequency 1.5-2.5 retargeting. If frequency >4.0 within 7 days = creative fatigue, rotate new assets. Retargeting: accept higher frequency but cap at 6-8 over 30 days.
+Tần số tối ưu cho các chiến dịch chuyển đổi là gì?: Tần suất cao hơn 3.0 (các khả năng sáng tạo). Tần suất 1.5-2.5 để tái nhắm mục tiêu (retargeting). Nếu tần suất >4 trong 7 ngày = sự mệt mỏi sáng tạo, xoay tài sản mới. Phản xạ: chấp nhận tần suất cao hơn nhưng ở mức 6-8 trên 30 ngày.
 
-What CTR should I expect for Facebook ads in Vietnam?::Good CTR benchmark: 1.5-2.5% (link clicks). Below 1% = creative or targeting issue. Above 3% = strong performer, consider scaling. Video view CTR different metric — focus on link CTR for conversion campaigns.
+Tôi nên mong đợi gì ở CTR? Facebook ads Ở Việt Nam?: Điểm ghi đè tốt: 1.5-2.5% (dấu nối). Dưới 1% = số mục tiêu sáng tạo hay mục tiêu quá rộng. Trên 3% = trình diễn mạnh, hãy xem phóng to. Xem video để đo lường khác nhau — tập trung vào liên kết CTR cho các chiến dịch chuyển đổi.
 
-What's a good ROAS target for Facebook ads in Vietnam?::Break-even ROAS = 1 / profit margin %. E-commerce: aim 200-400%+ (2-4x). Services: can tolerate lower initially (150-200%). Health/education often achieve higher due to LTV. Track blended ROAS across all campaigns, not per-campaign.
+Mục tiêu của ROAS là gì? Facebook ads Trong Việt Nam?: Ngay cả ROAS = 1 / lợi nhuận biên. E-commerce: nhắm 200-400+ (2-4x). Dịch vụ: có thể chịu được lúc đầu (50-200%). Sức khỏe/ tự động đạt được cao hơn do LTV. LS đã lần theo dấu ROAS trong tất cả các chiến dịch, chứ không phải cho một đơn vị.
 
-## Medium Priority (Important)
+## Ưu tiên trung bình (Nên biết)
 
-### Campaign Structure & Setup
+### Cấu hình Chiến dịch
 
-How to structure a Facebook Ads campaign hierarchy?::Campaign (objective) > Ad Set (audience + budget + placement) > Ad (creative). One objective per campaign. Test one variable at a time between ad sets. Use CBO for scaled campaigns, ABO for testing.
+Làm thế nào để cấu trúc một Facebook Ads Phân cấp chiến dịch?: Campaign (Chiến dịch) > Ad Set (Khán giả + ngân sách + vị trí) > Ad (Quảng cáo). Một mục tiêu cho mỗi lần thử nghiệm một biến trong thời điểm giữa các tập hợp quảng cáo. Dùng CBO để kiểm tra quy mô, ABO để thử nghiệm.
 
-What is Advantage+ Shopping Campaigns (ASC) best used for?::E-commerce product catalogs with clean pixel data. Best when you have 50+ conversions/week. Use ASC for scaling winners from manual campaigns, not cold starts. Combine with manual campaigns: test manually → scale via ASC.
+Chiến dịch mua sắm kiểu Advantage+ được dùng tốt nhất cho mục đích nào?: Danh mục sản phẩm điện tử với dữ liệu điểm ảnh sạch. Tốt nhất khi bạn có 50+ chuyển đổi/tuần. Hãy dùng MIME để tăng cường người chiến thắng từ các chiến dịch bằng tay, chứ không phải bắt đầu lạnh. Kết hợp với các chiến dịch bằng tay: kiểm tra tỷ lệ tính năng bằng tay qua MIME.
 
-When should I use video ads vs image ads in Vietnam?::Video ads outperform on brand awareness and top-of-funnel (TOFU). Image ads better for direct response and retargeting. Vietnam market: short-form vertical video (<15s) performs best. Static images with strong hook work well for bottom-funnel conversion.
+Khi nào tôi nên sử dụng quảng cáo video vs ảnh quảng cáo ở Việt Nam?: Video quảng cáo ngoại lệ trên nhãn hiệu nhận thức và tính năng cao cấp (TOFU). Quảng cáo ảnh tốt hơn cho phản ứng trực tiếp và tái tổ chức. Thị trường Việt Nam: video thẳng đứng (<15 giây) chạy tốt nhất. Hình ảnh tĩnh điện tử với móc mạnh để chuyển đổi dưới rãnh.
 
-What's the ideal campaign testing structure?::Test 3-5 creatives per ad set, not more. Keep audience constant while testing creative (isolate variable). Budget $10/ad set/day minimum. Run tests 4-7 days before deciding winners/losers. Kill underperformers at day 3 if <0.5% CTR or CPA >2x target.
+Cấu trúc thử nghiệm lý tưởng là gì?: 3-5 đầu tiên sáng tạo trên mỗi quảng cáo, không hơn. Giữ cho khán giả không đổi khi thử nghiệm sáng tạo (dị dạng). Ngân sách có tối thiểu 10 USD/ad bộ/ngày chạy thử 4-7 ngày trước khi quyết định người thắng. Giết quảng cáo không hiệu quả vào ngày 3 nếu CTR < 5% hoặc CPA > 2x.
 
 ### Pixel & Tracking
 
-What's the recommended pixel implementation for 2026?::Conversions API (CAPI) + browser pixel combined. Server-side tracking essential after iOS 17+ ATT changes. Verify events in Events Manager daily. Match rules: email, phone, fbc_id for server-client matching.
+Điểm ảnh được đề nghị cho 2026 là gì?: API (CAPI) cộng điểm ảnh trình duyệt. Bên máy phục vụ cần thiết sau khi thay đổi iOS 17+ATT. Kiểm tra sự kiện trong bộ quản lý sự kiện hàng ngày. Khớp quy tắc: email, điện thoại, fbc_id tương ứng máy phục vụ - khách hàng.
 
-How many conversion events should a business track?::Track 3-5 key actions max: Purchase (primary), Add to Cart, Initiate Checkout, Lead Form Submit, Page View (secondary). Too many events dilutes optimization data. Facebook needs ~50 conversions/week/event for reliable learning.
+Bao nhiêu sự kiện chuyển đổi nên theo dõi thương mại?: Hành động khóa 3-5 tối đa: Purchase (mua hàng), thêm vào Cart, kiểm tra, Lead Formraft, Page View (phần hai). Quá nhiều sự kiện làm giảm dữ liệu tối ưu hóa. Facebook Cần 50 chuyển đổi/tuần/giờ để học hỏi đáng tin cậy.
 
-What are custom conversions vs standard events?::Standard events: pre-built FB tracking (Purchase, Lead, etc.). Custom conversions: rule-based triggers from URL/path/query parameters. Use standard events when possible — better integration with Advantage+ algorithms. Custom conversions for specific landing pages or checkout steps.
+Các chuyển đổi tuỳ biến vs các sự kiện chuẩn?: Các sự kiện chuẩn: theo dõi FB đã được xây dựng sẵn (Purchase, Lead, v.v.). Việc chuyển đổi tùy biến: kích hoạt theo quy tắc từ URL Tham số / hướng/ phụ. Dùng các sự kiện chuẩn khi có thể — hợp nhất tốt hơn với thuật toán Advantage+. Tùy chỉnh chuyển đổi cho trang hạ cánh đặc biệt hoặc các bước kiểm tra.
 
 ### Creative Strategy
 
-How often should I refresh ad creatives in Vietnam?::Prospecting: rotate every 7-14 days (frequency-driven). Retargeting: can run longer (14-30 days). Create new creative variations weekly during active campaigns. A/B test formats: UGC-style > polished studio for cold traffic in Vietnam market.
+Tôi nên thường xuyên làm lại các quảng cáo sáng tạo ở Việt Nam?: @ info: vòng đời 7-14 ngày (tiểu đồ tần suất). Phục hồi: có thể chạy dài hơn (14-30 ngày). Tạo ra những biến thể sáng tạo mới hàng tuần trong các chiến dịch hoạt động. Dạng thử A/B: UGC > stttm cho các giao thông ở chợ Việt Nam.
 
-What's the best ad copy structure for Facebook in Vietnam?::Hook (first 3 lines visible) → Problem/Pain point → Solution/Value prop → Social proof → CTA. Keep first line under 120 chars (before "See more" fold). Use Vietnamese natural language, not formal marketing speak. Emojis sparingly: 1-2 per post max.
+Tôi nên thường xuyên làm lại các quảng cáo sáng tạo ở Việt Nam?:: @ info: turns 7-14 ngày (tiểu đồ tần xuất). Phục hồi: có thể chạy dài hơn (14-30 ngày). Tạo ra những biến thể sáng tạo mới hàng tuần trong các chiến dịch hoạt động. Dạng thử A/B: _ UGC- stttm > cho các giao thông ở chợ Việt Nam.
 
-What ad formats perform best for e-commerce in Vietnam?::Carousel (product showcase) > Single Image (direct offer) > Collection (shoppable catalog) > Video (awareness). For retargeting: single image with strong discount hook works best. Carousel needs high-quality product photos minimum 5-10 items.
+Những định dạng đã được dùng tốt nhất cho e-commerce ở Việt Nam?: Carousel (hình trình hiển thị sản phẩm) > Ảnh đơn (dùng thư mục) > Bộ sưu tập (danh mục có thể chỉnh sửa) > Video (sự nhận thức). Để sửa lại ảnh riêng lẻ với móc cắt giảm mạnh hoạt động tốt nhất. Carousel cần ảnh lượng tối thiểu 5-10 mục.
 
-## Low Priority (Nice to Know)
+## CaoPHHH (Tốt để biết)
 
 ### Optimization Tips
 
-Quick tip: When should you switch from CPC to CPM bidding?::When your CTR < 1% — switching to CPM gives algorithm more freedom to find converters. When CTR > 2%, stick with CPC or optimize creative first. CPM generally performs better in 2026 Advantage+ era for conversion campaigns.
+Mẹo nhanh: Khi nào bạn nên chuyển từ CPC sang CPM Giá thầu?: Khi CTR < 1% — chuyển đổi sang CPM cho phép tìm các bộ chuyển đổi. Khi CTR > 2%, hãy theo sát CPC hay tối ưu hóa sáng tạo đầu tiên. PM thường sẽ thực hiện tốt hơn trong thời đại chuyển đổi + trong 2026.
 
-What is a lookalike audience (LAL) and when to use it?::Lookalike audiences: Facebook finds users similar to your seed list (pixel data, customer list). Use 1-3% similarity for highest quality. Refresh LAL sources quarterly with new pixel events or uploaded customer lists. Combine with broad targeting for best results.
+Một khán giả có vẻ như thế nào (LAL) và khi nào để sử dụng nó?: Facebook tìm người dùng tương tự danh sách hạt giống (dữ liệu ảnh, danh sách khách hàng). Dùng 1-3% tương tự với chất lượng cao nhất. Cập nhật các nguồn LAL phần tư với các sự kiện điểm ảnh mới hoặc danh sách khách hàng đã tải lên. Kết hợp với mục tiêu rộng để đạt được kết quả tốt nhất.
 
-How does ad scheduling affect performance in Vietnam?::Vietnam peak engagement hours: 7-9 AM, 12-1 PM (lunch), 7-10 PM. Ad scheduling matters less in 2026 due to Advantage+ automated delivery. Only use schedule for time-sensitive offers or service businesses with limited support hours.
+Chương trình đã được sắp xếp ảnh hưởng thế nào tới hiệu suất ở Việt Nam?: Đỉnh cao nhất: 7-9 AM, 12-1 PM (nrunch), 7-10 PM. Thiết lập vấn đề ít hơn trong năm 2026 do giao hàng tự động. Chỉ sử dụng lịch cho các đề nghị thời gian hoặc doanh nghiệp dịch vụ với thời gian hỗ trợ hạn chế.
 
-What's the impact of iOS updates on Facebook ads?::iOS 17+ ATT: ~30% traffic still opted out. CAPI becomes essential, not optional. Server-side tracking recovers 20-40% lost conversions vs browser-only. First-party data collection (email/phone capture) increasingly important for matching.
+Ảnh hưởng của việc cập nhật iOS là gì? Facebook ads?: iOS 17+ATT: ~30% giao thông vẫn còn được chọn. CAPI trở nên cần thiết, không phải tùy chọn. Bên máy phục vụ phục hồi độ chuyển đổi 2040% so với chỉ bộ duyệt. Bộ sưu tập dữ liệu thuộc về Đảng đầu tiên (mail/phone) ngày càng quan trọng để khớp.
 
-### Tool & Platform Notes
+### Ghi chú & nền tảng công cụ
 
-What's the difference between Facebook Ads Manager and Business Suite?::Ads Manager: full ad creation, targeting, bidding, reporting — use for running campaigns. Business Suite: lighter interface, scheduling organic posts + boosting — use for simple promotions and content planning. Full campaigns always in Ads Manager.
+Có gì khác nhau đâu Facebook Ads Quản lý và phòng kinh doanh?: Quản lý quảng cáo: đầy đủ quảng cáo, mục tiêu, giá thầu — sử dụng cho các chiến dịch tranh cử.
 
-When should I use Facebook Lead Forms vs landing pages?::Lead forms (instant forms): higher volume, lower quality leads. Best for awareness/lead gen campaigns with tight budgets. Landing pages: lower volume, higher qualified leads. Essential for high-ticket products/services (>2M VND). Test both and compare cost per QUALIFIED lead, not just cost per lead.
+Khi nào tôi nên dùng Facebook Các mẫu mẫu đặc biệt: dạng cây (hình đơn gốc: âm lượng, chất lượng thấp hơn). Tốt nhất cho các chiến dịch nhận thức/ chì với ngân sách chặt chẽ. Trang hạ thủy: âm lượng, chức năng cao hơn. Cần thiết cho các sản phẩm/ dịch vụ cao (> 2M VND). Thử nghiệm cả hai và so sánh chi phí cho mỗi đầu tư tuyến, không chỉ là đầu mối.
 
 ---
-*SRS cards generated: 2026-06-20 by Smee — Layer 4 (Spaced Repetition)*
-*Total cards: ~30 across high/medium/low priority tiers*
-*Tag these notes with #flashcard for SRS plugin auto-import*
+*SRS card tạo ra: 2026-06-20 bởi Smee — Lớp 4 (Lặp lại không gian)*
+*Ttal card: ~30 trên cao/dium/low tiers*
+♪ Hãy tưởng tượng những ghi chú này với #flashcard for SRS plugin tự động thông tin

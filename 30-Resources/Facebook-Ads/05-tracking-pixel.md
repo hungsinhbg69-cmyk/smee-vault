@@ -104,7 +104,7 @@ Meta Pixel là một đoạn mã được đặt trên trang web của bạn đ�
 ### Ưu tiên sự kiện CAPI (giống như pixel)
 1. Purchase (bao gồm value, currency, content_id)
 2. Lead (bao gồm loại form, chất lượng lead)
-3. ViewContent (bao gồm content_type, content_ids)
+3. Xem Content (bao g “Gohm nội dung, nội dung_ds)
 4. AddToCart (bao gồm value, currency)
 5. InitiateCheckout (bao gồm value, currency)
 

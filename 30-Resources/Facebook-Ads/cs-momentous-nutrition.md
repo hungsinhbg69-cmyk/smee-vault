@@ -1,5 +1,5 @@
 ---
-title: "Momentous Nutrition — ASC Guardrails + LTV Calibration (Q1 2026)"
+title: "Momentous Nutrition — Rào chắn ASC + Hiệu chỉnh LTV (Q1 2026)"
 slug: "cs-momentous-nutrition"
 category: resource
 tags: [facebook-ads, case-study, e-commerce]
@@ -9,42 +9,42 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-# Momentous Nutrition — ASC Guardrails + LTV Calibration (Q1 2026)
+# Sự dinh dưỡng nhanh chóng — Các hàng rào kiểu MIME + LTV ibration (Q1 2026)
 
-## Key Metrics
-- **ROAS:** 2.4 → 4.1x (70% improvement)
+## Các chỉ số chính
+- **ROAS:** 2.4 → 4.1x (tăng 70%)
 - **CAC:** $68 → $41 (-31%)
-- **Timeframe:** Q1 2026, ASC implementation with guardrails
+- **Thời gian:** Q1 2026, triển khai ASC kèm các rào cản bảo vệ
 
-## Strategy Breakdown
+## Phân tích chiến lược
 
-### The Advantage+ Problem
-Momentous started with Advantage+ Shopping Campaigns but found ASC was buying one-time purchasers aggressively — high ROAS on day 7 purchases but zero repeat buyers. LTV was far below what the platform reported because it couldn't distinguish lifetime value in the short attribution window.
+### Vấn đề của Advantage+
+Momentous bắt đầu với Chiến dịch mua sắm Advantage+ nhưng phát hiện ASC đang chi tiêu quá mức cho những khách hàng chỉ mua một lần — ROAS cao trên các đơn hàng ngày thứ 7 nhưng không có khách hàng nào quay lại. LTV thực tế thấp hơn nhiều so với số liệu nền tảng báo cáo vì hệ thống không thể phân biệt giá trị trọn đời trong khung quy thuộc ngắn hạn.
 
-### Guardrail Implementation
+### Triển khai rào cản bảo vệ
 
-#### 1. Value-Based Custom Audiences
-- Created CA audience of top 5% spenders (by purchase value)
-- Used this as primary lookalike seed source for ASC prospecting
-- ASC now finds "high-value lookalikes" instead of just "conversion-prone lookalikes"
+#### 1. Đối tượng tùy chỉnh dựa trên giá trị
+- Tạo đối tượng CA (Custom Audience) từ nhóm chi tiêu cao nhất 5% (theo giá trị đơn hàng)
+- Sử dụng nguồn hạt giống tương tự (lookalike seed source) này làm chính cho việc tìm kiếm khách hàng mới của ASC
+- Giờ đây, ASC tìm thấy những "tương tự có giá trị cao" thay vì chỉ là "những tương tự dễ chuyển đổi"
 
-#### 2. Creative Diversity Requirements
-- Rotated creative minimum every 14 days to maintain frequency control
-- Used mix: UGC testimonials (social proof), ingredient deep-dives (education), and lifestyle usage (aspiration)
-- Each creative format served a different funnel position — top, mid, or bottom
+#### 2. Yêu cầu đa dạng sáng tạo
+- Luân phiên sáng tạo tối thiểu mỗi 14 ngày để kiểm soát tần suất hiển thị
+- Sử dụng sự kết hợp: lời chứng thực UGC (bằng chứng xã hội), phân tích chi tiết thành phần (giáo dục) và cách sử dụng trong đời sống (mong muốn)
+- Mỗi định dạng sáng tạo phục vụ một vị trí khác nhau trong phễu — trên, giữa hoặc dưới
 
-#### 3. LTV-Calibrated Cost Goals
-- Instead of flat ROAS targets, set cost goals based on customer LTV by cohort
-- New customers: target CPA at 25% of first-order value
-- Reorder interval analysis showed 60-day reorder window → factored into LTV
+#### 3. Mục tiêu chi phí được hiệu chỉnh theo LTV
+- Thay vì đặt mục tiêu ROAS cố định, thiết lập mục tiêu chi phí dựa trên LTV của khách hàng theo từng nhóm (cohort)
+- Khách hàng mới: mục tiêu CPA ở mức 25% giá trị đơn hàng đầu tiên
+- Phân tích khoảng thời gian tái mua cho thấy cửa sổ 60 ngày → được tính toán vào LTV
 
-#### 4. Retention Layer
-- Post-purchase email/SMS sequence triggered from Meta pixel "Purchase" event
-- Focus on cross-sell within 14 days of initial purchase to extend LTV
-- Created custom audience of purchasers (last 30d) excluded from acquisition campaigns to avoid self-competition
+#### 4. Lớp giữ chân khách hàng
+- Chuỗi email/SMS sau khi mua hàng được kích hoạt từ sự kiện "Purchase" của pixel Meta
+- Tập trung bán chéo (cross-sell) trong vòng 14 ngày kể từ đơn hàng đầu tiên để kéo dài LTV
+- Tạo đối tượng tùy chỉnh gồm những người đã mua (30 ngày qua) và loại trừ khỏi các chiến dịch tìm kiếm khách hàng mới để tránh cạnh tranh nội bộ
 
-### Key Takeaway
-Advantage+ is not a "set and forget" tool — it needs **value calibration** to find the right quality customers, not just conversions. Layer in value-based custom audiences for lookalike seeding, enforce creative diversity to prevent frequency fatigue, and set cost goals based on actual LTV not just first-order value. The 14-21 day creative half-life requires operational discipline to maintain signal freshness.
+### Bài học chính
+Advantage+ không phải là công cụ "cài đặt rồi quên" — nó cần **hiệu chỉnh giá trị** để tìm đúng chất lượng khách hàng, chứ không chỉ là số lượng chuyển đổi. Hãy tích hợp các đối tượng tùy chỉnh dựa trên giá trị cho việc gieo hạt tương tự, thực thi đa dạng sáng tạo để ngăn ngừa mệt mỏi tần suất, và đặt mục tiêu chi phí dựa trên LTV thực tế thay vì chỉ giá trị đơn hàng đầu tiên. Chu kỳ bán rã của sáng tạo 14-21 ngày đòi hỏi kỷ luật vận hành để duy trì độ tươi mới của tín hiệu.
 
 ---
-*Case study extracted from ads campaigns deep-dive research (June 2026). Source: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*
+*Bài nghiên cứu trường hợp được trích xuất từ việc phân tích sâu các chiến dịch quảng cáo (tháng 6/2026). Nguồn: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*

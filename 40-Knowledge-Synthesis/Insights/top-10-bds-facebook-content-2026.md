@@ -66,13 +66,13 @@ source: Research + Meta Vietnam/Kmedia/Cafebiz 06/2026
 - Hook: *"Chính sách X vừa ra mắt — Ảnh hưởng thế nào đến ví bạn?"*
 - Source uy tín (Cafebiz, CafeF, VnExpress) → tăng credibility
 
-## #9. User Generated Content "Check-in dự án" (Stories + Reels)
+## #9. người dùng tạo ra nội dung "Check-in d proud án" (Staries + Reels)
 **Social proof tự nhiên.** Khách hàng thật check-in = quảng cáo miễn phí.
 - Dạng: Repost story/checkin từ khách đã mua nhà tại dự án
 - Kết hợp sticker poll/quiz trong Stories: *"Bạn có muốn sống ở đây không?"* → direct response
 - Meta 2026: Stories với interactive stickers nhận engagement cao nhất platform-wide
 
-## #10. Form Lead Generation Native (Facebook Lead Ad)
+## Bản địa thế hệ chính ()Facebook Quảng cáo
 **Conversion tối ưu.** Không cần rời Facebook — điền form ngay trên nền tảng.
 - Dạng: Ảnh/video ngắn + CTA "Tải bảng giá" / "Nhận tư vấn miễn phí" → popup form native
 - Auto-fill thông tin từ profile FB → giảm friction, tăng submit rate 2-3x
@@ -86,9 +86,9 @@ source: Research + Meta Vietnam/Kmedia/Cafebiz 06/2026
 |--------|-----------------|
 | UGC/Authenticity | ⭐⭐⭐⭐⭐ Cao nhất |
 | Hook 3 giây đầu video | ⭐⭐⭐⭐⭐ Bắt buộc |
-| Interactive Stories (poll/quiz) | ⭐⭐⭐⭐ Tăng 40% response |
-| Native Lead Form | ⭐⭐⭐⭐ Giảm friction, tăng conversion |
-| Live Stream Q&A | ⭐⭐⭐⭐ Lead quality cao nhất |
+| Những câu chuyện tương tác (pll/quiz) | ⭐⭐⭐⭐ Tăng 40% response |
+| Mẫu bản địa | ⭐⭐⭐⭐ Giảm friction, tăng conversion |
+| Sống Nop Q&A | ⭐⭐⭐⭐ Lead quality cao nhất |
 
 ---
 

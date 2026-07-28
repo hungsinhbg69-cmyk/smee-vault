@@ -1,5 +1,5 @@
 ---
-title: "Sales Funnel Scorecard"
+title: "Sales Funnel ăngcard"
 slug: sales-funnel-scorecard
 category: knowledge
 tags: [concept, sales, metrics]
@@ -9,7 +9,7 @@ created: 2026-07-14
 last_updated: 2026-07-14
 ---
 
-# Sales Funnel Scorecard
+# Thẻ ghi điểm bán chạy
 
 Sales funnel scorecard theo dõi số lượng và tỷ lệ chuyển đổi giữa lead, cuộc hẹn, đề xuất và hợp đồng. Dùng dữ liệu theo tuần giúp phân biệt vấn đề thiếu đầu vào với vấn đề chất lượng ở một bước cụ thể.
 

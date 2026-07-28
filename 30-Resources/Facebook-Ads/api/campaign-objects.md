@@ -1,5 +1,5 @@
 ---
-title: "Fb Api Campaign Objects Reference"
+title: "Tham khảo đối tượng chiến dịch Facebook Ads API"
 slug: "fb-api-campaign-objects-reference"
 category: resource
 tags: [vault-maintenance, facebook-ads]
@@ -10,36 +10,36 @@ last_updated: 2026-06-24
 ---
 
 
-# API Campaign Objects (Campaign/AdSet/Ad API)
+# Đối tượng Chiến dịch API (Campaign/AdSet/Ad API)
 
-## Meta Graph API v25.0 - Ads Objects
+## Meta Graph API v25.0 - Đối tượng Quảng cáo
 
-### Hierarchy in API
+### Hierarchy trong API
 `
-/{ad_account_id}
-  +-- campaigns (POST to create)
+- Không, không, không.
+  +-- campaigns (POST để tạo)
       +-- /{campaign_id}
-          +-- adsets (POST to create)
+          +-- adsets (POST để tạo)
               +-- /{adset_id}
-                  +-- ads (POST to create)
+                  +-- ads (POST để tạo)
                       +-- /{ad_id}
 `
 
-### Campaign API Object
+### Đối tượng Chiến dịch API
 
-#### Key fields
-| Field | Type | Required | Description |
+#### Các trường chính
+| Trường | Kiểu dữ liệu | Bắt buộc | Mô tả |
 |---|---|---|---|
-| id | int64 | Auto | Campaign ID |
-| name | string | Yes | Campaign name |
-| objective | enum | Yes | Campaign objective (see list below) |
-| status | enum | Yes | ACTIVE, PAUSED, DELETED, ARCHIVED |
-| campaign_group_id | int64 | Conditional | CBO campaign if set |
-| daily_budget | long | Conditional | Budget in minor units |
-| lifetime_budget | long | Conditional | Total budget |
-| special_ad_categories | list | No | Housing, Employment, Credit |
+| id | int64 | Tự động | ID chiến dịch |
+| name | string | Có | Tên chiến dịch |
+| objective | enum | Có | Mục tiêu chiến dịch (xem danh sách bên dưới) |
+| status | enum | Có | ĐÃ TÂM, CÂU CHUYỆN, CÂU CHUYỆN, TIẾNG |
+| _ nhóm_d | int64 | Điều kiện | Chiến dịch CBO nếu được thiết lập |
+| daily_budget | long | Điều kiện | Ngân hàng theo đơn vị nhỏ nhất |
+| lifetime_budget | long | Điều kiện | Tổng ngân sách |
+| đặc_b____________________________________i_nh | list | Không | Nhà ở, Việc làm, Tín dụng |
 
-#### Objective enum values
+#### Giá trị enum Mục tiêu
 - BRAND_AWARENESS
 - AWARENESS
 - TRAFFIC
@@ -53,34 +53,34 @@ last_updated: 2026-06-24
 - STORE_TRAFFIC
 - SALES
 
-#### Creating a campaign via API
+#### Tạo chiến dịch qua API
 `
-POST /act_{AD_ACCOUNT_ID}/campaigns
+PST // chính xác{AD_ACCOT_D}/Craigns
 {
-  "name": "My Campaign",
+  "name": "Chiến dịch của tôi",
   "objective": "CONVERSIONS",
   "status": "ACTIVE",
   "campaign_group_id": {CBO_CAMPAIGN_ID}  // for CBO
 }
 `
 
-### AdSet API Object
+### Đối tượng AdSet API
 
-#### Key fields
-| Field | Type | Required | Description |
+#### Các trường chính
+| Trường | Kiểu dữ liệu | Bắt buộc | Mô tả |
 |---|---|---|---|
-| id | int64 | Auto | Ad Set ID |
-| name | string | Yes | Ad set name |
-| campaign_id | int64 | Yes | Parent campaign |
-| status | enum | Yes | ACTIVE, PAUSED, DELETED, ARCHIVED |
-| optimization_guide | enum | Yes | Conversion event to optimize for |
-| bidding_info | list | No | Bid strategies |
+| id | int64 | Tự động | ID tập quảng cáo |
+| name | string | Có | Tên tập quảng cáo |
+| campaign_id | int64 | Có | Chiến dịch cha |
+| status | enum | Có | ĐÃ TÂM, CÂU CHUYỆN, CÂU CHUYỆN, TIẾNG |
+| optimization_guide | enum | Có | Sự kiện chuyển đổi để tối ưu hóa cho |
+| bidding_info | list | Không | Các chiến lược đặt giá thầu |
 | daily_budget / lifetime_budget | long | Conditional | Budget |
-| start_time / stop_time | datetime | Conditional | Schedule |
-| targeting | JSON | Conditional | Audience targeting |
-| placements | list | No | Manual placements |
+| khởi chạy_time/ stop_time | datetime | Điều kiện | Lịch trình |
+| targeting | JSON | Điều kiện | Mục tiêu đối tượng |
+| placements | list | Không | Vị trí hiển thị thủ công |
 
-#### optimization_guide values
+#### Giá trị optimization_guide
 - LINK_CLICKS
 - IMPRESSIONS
 - PAGE_LIKES
@@ -100,7 +100,7 @@ POST /act_{AD_ACCOUNT_ID}/campaigns
 - THRU_PLAYS
 - INSTAGRAM_REELS
 
-#### Targeting structure (JSON)
+#### Cấu trúc Mục tiêu (JSON)
 `json
 {
   "geo_locations": {
@@ -108,13 +108,13 @@ POST /act_{AD_ACCOUNT_ID}/campaigns
     "regions": [],
     "cities": [],
     "zip_codes": [],
-    "location_tracking": true
+    "định vị_trat" đúng
   },
   "age_min": 25,
   "age_max": 55,
   "genders": [1],
   "interests": [
-    {"id": "{interest_id}", "name": "Interest Name"}
+    {"id": "{interest_id}", "name": "Tên sở thích"}
   ],
   "behaviors": ["{behavior_id}"],
   "custom_audiences": ["{custom_audience_id}"],
@@ -122,79 +122,79 @@ POST /act_{AD_ACCOUNT_ID}/campaigns
 }
 `
 
-#### Creating an ad set via API
+#### Tạo tập quảng cáo qua API
 `
-POST /act_{AD_ACCOUNT_ID}/adsets
+PST // chính xác{AD_ACCOT_D}/adset
 {
-  "name": "Ad Set Name",
-  "campaign_id": {CAMPAIGN_ID},
+  "name": "Tên Tập Quảng Cáo",
+  "Camaign_id" :
   "status": "ACTIVE",
-  "optimization_guide": "CONVERSIONS",
-  "daily_budget": 5000,  // in minor currency units (cents)
-  "bid_amount": 200,     // optional: bid cap in cents
+  " tuyệt chủng" "Chuyến đi"
+  "daily_budget": 5000,  // theo đơn vị tiền tệ nhỏ nhất (xu)
+  "bid_amount": 200,     // tùy chọn: trần đặt giá thầu tính bằng xu
   "targeting": { targeting JSON },
-  "pacing_type": ["STANDARD"],
-  "start_time": "2026-06-15T00:00:00+0700"
+  "kiểu sau" :
+  "bắt đầu giờ": "2026-06-15T00:00 + 0700"
 }
 `
 
-### Ad API Object
+### Đối tượng Quảng cáo API
 
-#### Key fields
-| Field | Type | Required | Description |
+#### Các trường chính
+| Trường | Kiểu dữ liệu | Bắt buộc | Mô tả |
 |---|---|---|---|
-| id | int64 | Auto | Ad ID |
-| name | string | Yes | Ad name |
-| adset_id | int64 | Yes | Parent ad set |
-| status | enum | Yes | ACTIVE, PAUSED, DELETED, ARCHIVED |
-| creative | object | Yes | Ad creative object |
-| delivery_status | enum | Auto | LIVE, UNSENT, EXPIRED, DEAD |
+| id | int64 | Tự động | ID quảng cáo |
+| name | string | Có | Tên quảng cáo |
+| adset_id | int64 | Có | Tập quảng cáo cha |
+| status | enum | Có | ĐÃ TÂM, CÂU CHUYỆN, CÂU CHUYỆN, TIẾNG |
+| creative | object | Có | Đối tượng sáng tạo quảng cáo |
+| delivery_status | enum | Tự động | Sống, KHÔNG, ĐÃ ĐƯỢC, ĐÃ ĐƯỢC, ĐÃ ĐƯỢC |
 
-#### Creative structure (simplified)
+#### Cấu trúc Sáng tạo (đơn giản hóa)
 `json
 {
   "object_store_url": "{image_url}",
-  "call_to_action": {"type": "SHOP_NOW"},
-  "body": "Primary text here",
-  "title": "Headline here",
+  "gọi_oa_action":{" Kiểu: "SHOP_NOW"
+  "body": "Văn bản chính ở đây",
+  "title": "Tiêu đề ở đây",
   "url_params": "{landing_page_url}"
 }
 `
 
-#### Creating an ad via API
+#### Tạo quảng cáo qua API
 `
-POST /act_{AD_ACCOUNT_ID}/ads
+PST // chính xác{AD_ACCOT_D}/ads
 {
-  "name": "Ad Name",
-  "adset_id": {ADSET_ID},
+  "name": "Tên Quảng Cáo",
+  "adset_id" :
   "status": "ACTIVE",
   "creative": { creative JSON },
   "run_status": "ACTIVE"
 }
 `
 
-## API Endpoints Summary
+## Tóm tắt các điểm cuối API
 
-### CRUD operations
-| Action | Method | Endpoint |
+### Thao tác CRUD
+| Hành động | Phương thức | Điểm cuối |
 |---|---|---|
-| Create campaign | POST | /act_{ID}/campaigns |
-| Read campaign | GET | /{campaign_id} |
-| Update campaign | POST | /{campaign_id} (with fields) |
-| Delete campaign | DELETE | /{campaign_id} |
-| Create ad set | POST | /act_{ID}/adsets |
-| Read ad set | GET | /{adset_id} |
-| Update ad set | POST | /{adset_id} (with fields) |
-| Delete ad set | DELETE | /{adset_id} |
-| Create ad | POST | /act_{ID}/ads |
-| Read ad | GET | /{ad_id} |
-| Update ad | POST | /{ad_id} (with fields) |
-| Delete ad | DELETE | /{ad_id} |
+| Tạo chiến dịch | POST | /act_{ID}/campaigns |
+| Đọc chiến dịch | GET | /{campaign_id} |
+| Cập nhật chiến dịch | POST | /{campaign_id} (với các trường) |
+| Xóa chiến dịch | DELETE | /{campaign_id} |
+| Tạo tập quảng cáo | POST | /act_{ID}/adsets |
+| Đọc tập quảng cáo | GET | /{adset_id} |
+| Cập nhật tập quảng cáo | POST | /{adset_id} (với các trường) |
+| Xóa tập quảng cáo | DELETE | /{adset_id} |
+| Tạo quảng cáo | POST | /act_{ID}/ads |
+| Đọc quảng cáo | GET | /{ad_id} |
+| Cập nhật quảng cáo | POST | /{ad_id} (với các trường) |
+| Xóa quảng cáo | DELETE | /{ad_id} |
 
-## API Pagination
-- Use fter and efore cursor for pagination
-- Default limit varies by endpoint
-- Always handle pagination in production code
+## Phân trang API
+- Sử dụng fter và efore cursor để phân trang
+- Giới hạn mặc định thay đổi tùy theo điểm cuối
+- Luôn xử lý phân trang trong mã sản xuất
 
 ---
-*Created: 2026-06-15 | Reference: Graph API v25.0 docs*
+*Tạo: 2026-06-15 | Tham khảo: tài liệu Graph API v25.0*

@@ -1,5 +1,5 @@
 ---
-title: "Facebook Graph API Learning Notes"
+title: "Facebook Đồ thị API Ghi chú học tập"
 slug: "facebook-ads-api-learning-best-practices"
 category: resource
 tags: [vault-maintenance]
@@ -9,13 +9,13 @@ created: 2025-12-01
 last_updated: 2026-06-24
 ---
 
-# Facebook Graph API Learning Notes
+# Facebook Đồ thị API Ghi chú học tập
 
 ## Overview - Graph API
 
 ### Core Concepts
 - **Graph API**: HTTP-based API để get data vào/ra khỏi Facebook platform
-- **Social Graph**: Representation of information on Facebook
+- **Scial ire**: Facebook
 - **3 thành phần chính**:
   1. **Nodes**: Individual objects với unique ID (User, Page, Post, Photo, Comment...)
   2. **Edges**: Connections giữa các nodes (User → photos, Photo → comments)
@@ -28,7 +28,7 @@ last_updated: 2026-06-24
 ### Access Tokens
 - Hầu hết endpoints đều cần access token
 - 2 chức năng:
-  1. Access user info without password
+  1. Truy cập thông tin người dùng mà không có mật khẩu
   2. Identify app, user, và permitted data type
 - **Page Access Token** (Never-Expire): Coi như không bao giờ hết hạn
 
@@ -50,7 +50,7 @@ last_updated: 2026-06-24
 - Dùng param `fields=id,name,email,picture&access_token=...`
 - ID luôn được trả về mặc định
 
-### Publishing, Updating, Deleting
+### Xuất bản, cập nhật, xoá
 - POST operations để update fields
 - **Read-After-Write**: Create/Update endpoints có thể trả về fields ngay lập tức
 - DELETE operation trên object ID để xóa nodes
@@ -65,30 +65,30 @@ last_updated: 2026-06-24
 ## Rate Limits
 
 ### 2 loại Rate Limits
-1. **Platform Rate Limits**: Application/User tokens
-2. **Business Use Case (BUC) Rate Limits**: System user/Page access tokens
+1. **Platform rate iend**: ứng dụng/User
+2. ** Business Dùng dấu hiệu truy cập hệ thống (BUU) Tốc độ
 
-### Pages API Rate Limits
-- **Page/System User token**: BUC Rate Limits
+### Trang API Giới hạn tỷ lệ
+- ** Trang/Saystem hiệu bài người dùng**: BOPLLLQS
   - `Calls within 24 hours = 4800 * Number of Engaged Users`
-- **App/User token**: Platform Rate Limits
+- ** Áp dụng/người dùng hiệu bài**: nền tảng các giới hạn
   - `Calls within one hour = 200 * Number of Users`
 
 ### Error Codes Quan Trọng
-- `4`: App reached rate limit
-- `17`: User reached rate limit
-- `32`: Page request limit reached (User/App token)
+- `4`: App đã đạt giới hạn tỷ lệ
+- `17`: người dùng đã đạt giới hạn tỷ lệ
+- `32`: giới hạn yêu cầu trang tới (người dùng/ thẻ truy cập)
 - `80001`: Page calls với Page/System User token (BUC)
-- `80000/80004/80003`: Ads Insights/Management/Audience
+- `80000/80004/80003`: Ads Insights/Management/Khán giả
 
 ### Headers để Check Rate Limit
-- `X-App-Usage`: Platform Rate Limits
-  - `call_count`: % calls made trong 1 hour rolling window
+- `X-App-Usage`: Nền tảng giới hạn
+  - `call_count`: % cuộc gọi thực hiện một giờ lăn
   - `total_cputime`: % CPU time used
-  - `total_time`: % total time used
-- `X-Business-Use-Case-Usage`: BUC Rate Limits
+  - `total_time`: % tổng số giờ dùng
+- `X-Business-Use-Case-Usage`: BORLLLLLLL hạn chế
   - `call_count`: % calls made
-  - `estimated_time_to_regain_access`: Time in minutes until unthrottled
+  - `estimated_time_to_regain_access`Thời gian trong phút cho đến khi chưa được khuấy động
   - `total_cputime`, `total_time`: % usage
 
 ### Best Practices

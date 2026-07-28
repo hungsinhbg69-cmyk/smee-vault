@@ -1,5 +1,5 @@
 ---
-title: AI Agent Marketing Architecture 2026
+title: Kiến trúc thị trường AI năm 2026
 slug: ai-agent-marketing-architecture-2026
 category: knowledge
 tags:
@@ -16,34 +16,34 @@ related:
 - - professional-marketing-2026
 ---
 
-# AI Agent Marketing Architecture 2026
+# Kiến trúc thị trường AI năm 2026
 
-> Quick reference for OpenClaw-based marketing automation stack.
+> Tham chiếu nhanh cho OpenClaw- Dựa trên việc tự động hóa.
 
 ## 4-Layer Stack
 
 ### Layer 1: Intelligence
-- Customer data platforms (CDP)
-- AI-powered analytics & prediction
-- Predictive LTV modeling
-- **Tool:** Ollama local models + Semrush API
+- Nền tảng dữ liệu tùy chỉnh (CDP)
+- Comment
+- Comment
+- **Công cụ:** Ollama Name API
 
 ### Layer 2: Creation
-- AI copywriting, design, video generation
-- **Tool:** Ollama + OpenClaw → content pipeline
-- **Local advantage:** Cost-efficient at scale
+- Bản sao, thiết kế, thế hệ phim
+- **Công cụ:** Ollama + OpenClaw Đường ống nội dung _mới
+- **Lcal advantage:** Chi phí hiệu quả ở quy mô
 
 ### Layer 3: Distribution
-- Marketing automation, social schedulers
-- Email sequences, chatbot outreach
-- **Tool:** Facebook Page Bot + browser automation
+- Trình quản lý thị trường, lịch làm việc xã hội
+- Chuỗi thư điện tử, kết nối chatbot
+- **Công cụ:** Facebook Tự động hoá Trang và trình duyệt
 
 ### Layer 4: Optimization
-- A/B testing, dynamic creative optimization
-- Bid management, attribution modeling
-- **Tool:** OpenClaw agent → real-time adjustments
+- Thử nghiệm A/B, tối ưu sáng tạo năng động
+- Quản lý hai chiều, mô hình nhận dạng
+- **Công cụ:** OpenClaw Đặc vụ → Điều chỉnh thời gian thực
 
-## Agentic Marketing Pattern (2026)
+## Mẫu thị trường đặc biệt (2026)
 
 ```
 Monitor → Detect Change → Generate Variants → Test → Auto-optimize → Report
@@ -56,17 +56,17 @@ Monitor → Detect Change → Generate Variants → Test → Auto-optimize → R
 | Component | Role | Automation Level |
 |-----------|------|-----------------|
 | OpenClaw | Orchestrator | Full control |
-| Ollama (local) | AI content generation | Autonomous |
+| Ollama (local) | Name | Autonomous |
 | Facebook Page Bot | Social engagement | Scheduled runs |
 | Browser automation | Data collection | Triggered |
 | Obsidian vault | Knowledge base | Manual capture |
 
-## Key Metrics for Agent Performance
+## Các thước đo phím cho hiệu suất đặc vụ
 
-- Content output: articles/videos per week
-- Engagement rate improvement: % change
-- Cost per acquisition: trending down?
-- Time-to-market: concept to published
+- Kết xuất nội dung: bài/videos mỗi tuần
+- Tăng tốc độ tham gia: % change
+- Chi phí cho mỗi lợi nhuận: xu hướng giảm?
+- Thời gian đến màn hình: khái niệm để xuất bản
 
 ---
 

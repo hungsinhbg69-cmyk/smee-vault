@@ -1,5 +1,5 @@
 ---
-title: "Research Ingestion Pipeline"
+title: "Tìm lại đường ống dẫn phản hồi"
 slug: "research-pipeline"
 category: knowledge
 tags: [research, pipeline, zotero]
@@ -9,13 +9,13 @@ created: 2026-06-20
 last_updated: 2026-06-24
 ---
 
-# Research Ingestion Pipeline — From Source to Output
+# Tìm kiếm sự thông minh — Từ nguồn đến xuất khẩu
 
-Automated flow: Web → Zotero/Clipper → Obsidian Vault → Final Content.
+Dòng chảy tự động: Web _SPero/ Cipper _Griper Obsidian Cánh cổng cuối cùng.
 
 ## Pipeline Stages
 
-### Stage 1: Capture (Input)
+### Giai đoạn 1: Bắt (tiểu)
 
 | Tool | Use Case | Destination | Automation |
 |------|----------|-------------|------------|
@@ -23,7 +23,7 @@ Automated flow: Web → Zotero/Clipper → Obsidian Vault → Final Content.
 | **Zotero Connector** | Academic papers, case studies | 30-Resources/Zotero-Papers/ | Zotero desktop sync to vault |
 | **QuickAdd Web Clip** | Quick save without full article | 30-Resources/Web-Clips/quick-clips.md | Ctrl+Q → Web Clip macro |
 
-### Stage 2: Process (Organize)
+### Giai đoạn 2: Tiến trình (Tổ chức)
 
 ```mermaid
 graph TD
@@ -45,21 +45,21 @@ graph TD
     J -->|No| L[Wait for content inspiration]
 ```
 
-### Stage 3: Synthesize (Knowledge)
-- **Auto-tagging**: Use `tag-wrangler` to organize by topic clusters
-- **Smart Connections**: Leverage existing embeddings to find related notes automatically  
-- **Manual synthesis**: Create atomic insights in 40-Knowledge-Synthesis/Insights/
+### Giai đoạn 3: Tổng hợp (cũng biết)
+- Dùng `tag-wrangler` để tổ chức theo nhóm chủ đề
+- **Smart Connections**: sự thay đổi lớn đã có để tìm các ghi chú liên quan tự động  
+- **Sự tổng hợp theo hướng nam**: tạo ra các nhận thức nguyên tử trong 40-cấu hiểu biết-Synthesis/Insights/
 
-### Stage 4: Output (Distribution)
+### Giai đoạn 4: Kết xuất (sự phân phối)
 
 | Format | Tool | Destination |
 |--------|------|-------------|
 | Blog post / guide | Pandoc → HTML/PDF | 70-Outputs/blog-posts/ |
 | Presentation slides | Longform plugin → Excalidraw | 70-Outputs/slides/ |
-| Study materials | NotebookLM Studio (audio/video) | External |
+| Study materials | Sổ tay ghi chép (audio/video) | External |
 | Flashcards | SRS plugin export | Internal learning |
 
-## Folder Structure for Research
+## Cấu trúc thư mục cho nghiên cứu
 
 ```
 30-Resources/
@@ -76,30 +76,30 @@ graph TD
 └── Frameworks/          ← Extracted frameworks from research
 ```
 
-## QuickAdd Macros for Research
+## QuickAdd vĩ mô để nghiên cứu
 
-### Ctrl+Q → Save to Zotero
-- Prompt: "Enter title and tags"
-- Creates note in 30-Resources/Zotero-Papers/ with metadata frontmatter
-- Links to Zotero entry (if URL provided)
+### Ctrl+Q _ Lưu vào Ztero
+- Nhắc: "Enter tựa và thẻ"
+- Tạo chú thích trong 30 mã nguồn/Zotero-Pates/ with Meta frontmatter
+- Liên kết tới mục nhập Zotero (nếu URL đã cung cấp)
 
-### Ctrl+Q → Process Web Clip  
-- Opens all unprocessed files in 30-Resources/Web-Clips/uncategorized/
-- Batch process: tag, categorize, create links
-- Moves processed files to archive
+### Ctrl+Q  
+- Mở tất cả các tập tin chưa được xử lý trong 30 mã nguồn/Web-Clips/unctemized/
+- Tiến trình bó: thẻ, phân loại, tạo liên kết
+- Chuyển tập tin đã xử lý vào kho lưu
 
-### Ctrl+Q → Generate Case Study
-- Takes source notes (web clip + existing insights)
-- Creates structured case study in Insights/case-studies/
-- Extracts metrics, frameworks, actionable takeaways
+### Ctrl+Q Tạo ra Bài học Chữ hoa/ thường
+- Lấy ghi chú nguồn (chúng tôib clip + các sự hiểu biết tồn tại)
+- Tạo ra nghiên cứu trường hợp có cấu trúc trong Insights/ccydies/
+- Rút ra các thước đo, khung, các hình thức có thể thực hiện
 
-## Pipeline Health Metrics
+## Các phương pháp giải phẫu đường ống
 
-Track these weekly:
-- New captures per week (target: 10+)
-- Processed vs unprocessed ratio (target: >80% processed within 48h)
-- Output artifacts created (blog posts, slides, flashcards)
-- Knowledge synthesis notes added to vault
+Theo dõi những tuần này:
+- Bắt mới mỗi tuần (tearget: 10+)
+- Tiến trình tương ứng với tỷ lệ chưa xử lý (tearget: >80% được xử lý trong 48h)
+- Các tạo tác xuất được tạo (các bài, slide, thẻ flash)
+- Ghi chú tổng hợp kiến thức đã được thêm vào hầm
 
 ---
-*Configured: 2026-06-20 by Smee — Layer 5 (Research Pipeline)*
+*Contture: 2026-06-20 by Smee — Lớp 5 (Reoseline)*

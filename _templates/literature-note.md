@@ -21,13 +21,13 @@ synthesized: false
 # 📖 {{title}}
 
 ## 💡 Core Argument
-[In 2-3 sentences: central claim?]
+Trong 2-3 câu: quyền trung tâm?
 
 ## 📊 Key Evidence
-[Data/methods support? Weaknesses?]
+[Data/metods hỗ trợ, yếu đuối?]
 
-## 🔄 What Changes About My Understanding
-[The most important section. How does this shift/confirm/complicate what you knew?]
+## ▪ Điều gì thay đổi về sự hiểu biết của tôi
+Làm thế nào mà sự thay đổi/chứng nhận/ phức tạp này làm những gì bạn biết?]
 
 ## 🔗 Connections
 - Links to: [[Concept-A]], [[Project-B]]
@@ -35,15 +35,15 @@ synthesized: false
 - Needed for: [[Project-Current]]
 
 ## ❓ Questions / Gaps
-[What unanswered? What needed to evaluate fully?]
+Điều gì cần đánh giá đầy đủ?
 
 ## 💬 Quotable
-[Any exact quotes with page numbers]
+[ Bất kỳ trích dẫn chính xác với số trang]
 
 ---
 %% Agent instructions:
-- Import from Zotero via obsidian-zotero-desktop-connector plugin
-- "What Changes" section is mandatory — forces actual learning
-- Mark synthesized=true when linked to 2+ atomic notes
-- Query via Dataview: status="read" AND !synthesized = reading backlog
+- Nhập từ Zotero qua obsidian-zotero-desktop-connector plugin
+- "Những thay đổi" là bắt buộc - bắt buộc phải học hỏi thực sự
+- Đánh dấu đã tổng hợp= True khi liên kết đến 2+ bits
+- Truy vấn qua Dataview: trạng thái ="tiểu thức" VÀ! tổng hợp = đọc bản tóm tắt
 %%

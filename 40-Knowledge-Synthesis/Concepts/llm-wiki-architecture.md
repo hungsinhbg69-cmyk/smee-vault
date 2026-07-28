@@ -1,5 +1,5 @@
 ---
-title: LLM Wiki — 3-Layer Architecture
+title: LLM Wiki — Kiến trúc 3-Layer
 slug: llm-wiki-architecture
 category: knowledge
 tags:
@@ -19,60 +19,60 @@ related:
 - llm-wiki-critique
 ---
 
-# LLM Wiki — 3-Layer Architecture (Karpathy)
+# LLM Wiki — Kiến trúc 3-Layer (Karpacy)
 
 ## Overview
 
 Andrej Karpathy đề xuất mô hình **3-layer knowledge base** thay vì RAG truyền thống.
 
-## Layer 1: Raw Sources
+## Lớp 1: Nguồn thô
 
 - **Định nghĩa:** Collection của source documents (articles, papers, images, data files)
 - **Tính chất:** Immutable — LLM đọc không ghi đè
 - **Owner:** Human curates và drop sources vào collection
-- **Purpose:** Single source of truth, audit trail cho mọi wiki content
+- **Purpost:** Nguồn tin lẽ thật độc nhất, kiểm toán cho m hết các nội dung của hệ thống định vị
 
-## Layer 2: The Wiki
+## Lớp 2: Wiki
 
 - **Định nghĩa:** Directory của LLM-generated markdown files
-- **Content types:** Summaries, entity pages, concept pages, comparisons, overviews, synthesis
+- ** Những kiểu độc đáo:** tổng hợp, trang thực thể, trang khái niệm, so sánh, tổng hợp, tổng hợp
 - **Tính chất:** Mutable — LLM tạo pages, update cross-refs, maintain consistency
 - **Owner:** LLM hoàn toàn sở hữu operational layer này
 
 **Key difference với RAG:** Wiki là persistent, compounding artifact. Mỗi source mới làm wiki giàu hơn, không phải re-retrieve từ đầu mỗi query.
 
-## Layer 3: The Schema
+## Lớp 3: Sơ đồ
 
 - **Định nghĩa:** Document (CLAUDE.md / AGENTS.md) — config file cho LLM
-- **Content:** Directory structure conventions, page formats, workflows, naming rules
-- **Owner:** Human + LLM co-evolve over time
+- **Content:** Cấu trúc thư mục, định dạng trang, dòng làm việc, đặt tên
+- **Owner:** Con người + LLM Đồng-nởi qua thời gian
 - **Purpose:** Biến LLM từ generic chatbot thành disciplined wiki maintainer
 
 ## So sánh với RAG truyền thống
 
 | Aspect | RAG | LLM Wiki Pattern |
 |--------|-----|-----------------|
-| Retrieval | Vector similarity per query | Index-first drill-down |
-| Accumulation | Embedding updates (passive) | Semantic integration (active) |
+| Retrieval | Tương tự véc- tơ trên mỗi truy vấn | khoan phụ lục- đầu tiên- xuống |
+| Accumulation | Đang nhúng cập nhật (vô hạn) | Sự kết hợp giữa Semantic (hoạt động) |
 | Maintenance | None needed | LLM automated |
-| Synthesis | Rediscover per query | Already compiled + kept current |
+| Synthesis | Thu hồi mỗi truy vấn | Đã soạn thảo + giữ hiện tại |
 | Cross-refs | None automatic | Maintained by LLM |
 
 ## Critical Analysis
 
 ### Strengths
-- Simple implementation (markdown files + git)
-- No vector DB dependency at moderate scale
-- Knowledge compounds over time
+- Thực hiện đơn giản (markdown tập tin + git)
+- Không có phụ thuộc véc- tơ DB ở mức vừa phải
+- Kiến thức được hợp nhất theo thời gian
 - Human readable và editable (không black-box)
 
 ### Weaknesses
-- Index degradation khi wiki >500 pages (>50K tokens)
+- Chỉ mục Giảm thiểu khi _500 trang (>50K hiệu)
 - No structured ontology — links là text-based, không property-defined
 - Schema drift risk — co-evolution có thể dẫn đến inconsistency
-- Batch ingest overhead — 10-15 files per source = context switching cost
+- Nuốt ăn trên đầu — 10-15 tập tin mỗi nguồn = tổng hợp chuyển đổi chi phí
 
-## Application to Smee Vault
+## Ứng dụng vào Cổng Smee
 
 | Karpathy Layer | Smee Path |
 |---------------|-----------|

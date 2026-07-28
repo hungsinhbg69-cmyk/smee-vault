@@ -1,5 +1,5 @@
 ---
-title: Hieu ung chim moi tap 2.
+title: Chào, chào, chào, gõ 2.
 slug: hieu-ung-chim-moi-tap-2
 category: resource
 tags:

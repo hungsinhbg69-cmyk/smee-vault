@@ -55,7 +55,7 @@ Liên quan: [[Nhà ở xã hội Việt Nam - Cầm tay chỉ việc]], [[Nguồ
 - Nguồn này xác nhận: pháp luật hiện hành về mua/thuê mua xét điều kiện nhà ở và thu nhập; **không quy định điều kiện cư trú**. Thông tin dự án địa phương phải kiểm tra tại Sở Xây dựng, UBND cấp xã có dự án, trang chủ đầu tư hoặc sàn của chủ đầu tư nếu có.
 - Hỏi đáp không thay thế văn bản quy phạm và không tự động giải quyết một hồ sơ cá nhân.
 
-## 2. Gold legal matrix
+## 2. ma trận pháp lý vàng
 
 | Mã | Fact được phép dùng | Trích dẫn bắt buộc |
 |---|---|---|

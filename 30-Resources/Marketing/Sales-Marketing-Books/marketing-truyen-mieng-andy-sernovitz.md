@@ -1,5 +1,5 @@
 ---
-title: Marketing-truyen-mieng-andy-sernovitz
+title: Thị trường-truyen-ming-andy-Sernovitz
 slug: marketing-truyen-mieng-andy-sernovitz
 category: resource
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Hermes Runtime & Evidence Discipline - Verified 2026-07-13"
+title: "Hermes Chạy và sửa chữa bằng chứng - đã được xác nhận 2026-07-13"
 slug: "hermes-runtime-evidence-discipline"
 category: knowledge
 tags: ["project/ai-agent-engineering", "concept/ai-agent-design", "type/atomic-note", "status/reference"]
@@ -9,7 +9,7 @@ created: 2026-07-13
 last_updated: 2026-07-13
 ---
 
-# Hermes Runtime & Evidence Discipline - Verified 2026-07-13
+# Hermes Chạy và sửa đổi chứng cứ - đã biến 2026-07-13
 
 ## Trạng thái runtime đã kiểm chứng
 

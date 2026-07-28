@@ -1,5 +1,5 @@
 ---
-title: L2 - Final independent G
+title: L2 - G độc lập cuối cùng
 date: 2026-07-14
 level: 2
 mode: final-independent
@@ -19,7 +19,7 @@ created: 2026-07-14
 last_updated: 2026-07-14
 ---
 
-# L2 — Final independent G
+# L2 — Cuối cùng độc lập G
 
 > [!important]
 > Chỉ đọc note này. Không web, không ghi/sửa/tạo file. Mọi dữ kiện hồ sơ là lời khai chưa xác minh. Không có quyết định hệ số địa phương hay thông báo dự án.

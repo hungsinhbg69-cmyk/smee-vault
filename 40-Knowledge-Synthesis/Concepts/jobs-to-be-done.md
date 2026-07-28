@@ -1,5 +1,5 @@
 ---
-title: "Jobs to Be Done"
+title: "Những việc cần làm"
 slug: jobs-to-be-done
 category: knowledge
 tags: [concept, strategy, marketing]
@@ -9,7 +9,7 @@ created: 2026-07-14
 last_updated: 2026-07-14
 ---
 
-# Jobs to Be Done
+# Những việc phải làm
 
 Jobs to Be Done xem khách hàng như đang “thuê” một sản phẩm để tạo ra tiến bộ trong hoàn cảnh cụ thể. Đơn vị phân tích là kết quả cần đạt, không chỉ là đặc tính sản phẩm hay chân dung nhân khẩu học.
 

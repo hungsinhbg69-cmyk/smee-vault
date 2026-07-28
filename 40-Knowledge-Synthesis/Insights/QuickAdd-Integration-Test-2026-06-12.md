@@ -16,19 +16,19 @@ last_updated: '2026-07-14'
 # QuickAdd Integration Test
 
 > **Test Date:** 2026-06-12
-> **Status:** ✅ Completed — macros configured in data.json
+> **Trạng thái:** ✅ Hoàn tất — các macro đã được cấu hình trong data.json
 
 ## Config Applied
-- `Capture Insight` → creates atomic-note directly (skip inbox)
-- `Log Daily Note` → append to daily note
-- `New Task` → add task to daily/project
+- `Capture Insight` _Gỡ bỏ tạo ra trực tiếp chú thích nguyên tử (skip inbox)
+- `Log Daily Note` phụ thuộc vào lưu ý hàng ngày
+- `New Task` _Nghề thêm vào mục/phụ đề
 
 ## Result
-All 3 QuickAdd macros working. No errors during test run.
+Cả 3 QuickAdd Không có lỗi trong khi chạy thử.
 
 ## Next Steps
-- [ ] Test with real user input in Obsidian UI
-- [ ] Add error handling for failed captures
+- [ ] Thử ra với đầu vào người dùng thật vào Obsidian UI
+- [ ] Thêm lỗi xử lý cho việc bắt lỗi
 
 ---
-*Test by Smee 🦞 | Connected to [[Protocol|vault protocol]] capture rules*
+*Test bởi Smee  thể hiện kết nối với [[Protocol|vault protocol]] bắt giữ quy tắc*

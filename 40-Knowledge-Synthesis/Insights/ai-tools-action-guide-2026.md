@@ -1,5 +1,5 @@
 ---
-title: AI Tools Action Guide 2026 — For Hùng's Marketing Stack
+title: Công cụ AITTTGG 2026 - Bộ xếp hàng chợ Hùng
 slug: ai-tools-action-guide-2026
 category: knowledge
 tags:
@@ -15,89 +15,89 @@ aliases:
 - AI Stack Action Guide
 ---
 
-# AI Tools Action Guide 2026 — For Hùng's Marketing Stack
+# Công cụ AITTTGG 2026 - Bộ xếp hàng chợ Hùng
 
-> Practical recommendations based on Q2 2026 landscape analysis. Focused on ROI for Facebook marketing automation.
+> Những lời khuyên thực tiễn dựa trên phân tích phong cảnh Q2 2026 tập trung vào ROI cho Facebook Tự động hóa.
 
-## Quick Start — What to Use NOW (Zero Cost)
+## Bắt đầu nhanh — Dùng làm gì bây giờ (giá trị máy móc)
 
 | Tool | Purpose | Setup Time |
 |------|---------|------------|
-| **ChatGPT Free** | Content brainstorming, doc analysis | Instant |
-| **Gemini Free** | Research compilation, audio summaries | Instant |
-| **Veo 3 Free** | Product video generation | Instant |
-| **NotebookLM Free** | Market research synthesis | Instant |
+| **ChatGPT Free** | Suy nghĩ nội dung, phân tích tiến sĩ | Instant |
+| **Gemini Free** | Trình biên soạn nghiên cứu, tóm tắt âm thanh | Instant |
+| **Veo 3 Free** | Thế hệ phim ảnh sản xuất | Instant |
+| **NotebookLM Free** | Tổng hợp nghiên cứu thị trường | Instant |
 | **Fathom Free** | Meeting transcription | Instant |
 | **Gamma Free** | Presentation generation | Instant |
-| **ElevenLabs Free** | Voice clips, short voiceovers | Instant |
+| **ElevenLabs Free** | Giọng nói đoạn phim, giọng nói ngắn | Instant |
 
-## Paid Tools — Prioritized by ROI
+## Công cụ trả tiền — Ưu tiên bởi ROI
 
-### Tier 1: Must-Have ($22/month)
-1. **ChatGPT Plus ($8/mo)** — Daily content drafting, campaign ideation
-2. **Higgsfield ($9/mo)** — Rapid creative testing (images → video pipeline)
-3. **ElevenLabs Starter ($5/mo)** — Brand voice cloning for ad voiceovers
+### Tier 1: Phải- have (22/tháng)
+1. **ChatGPT Plus (8/mo)** — Tờ báo hàng ngày, ý tưởng chiến dịch
+2. **Higgsfield (9/mo)** — Thử nghiệm sáng tạo nhanh (hình ảnh) đường ống video
+3. **El eventLabs starter (5/mo)** — Giọng nói nhân bản cho giọng nói quảng cáo
 
-### Tier 2: Worth It ($17-25/month additional)
-4. **Claude Pro ($17/mo)** — OpenClaw skill development, code generation
-5. **Veo 3 Paid ($19.99/mo)** — High-quality product videos for ads
+### Tier 2: Worth It (phụ thêm 17-25 tháng)
+4. **Claude Pro (17/mo)** — OpenClaw Phát triển kỹ năng, thế hệ mã hóa
+5. **Veo 3 trả (19.99/mo)** — Những video sản phẩm chất lượng cao cho quảng cáo
 
-### Tier 3: Nice to Have
-6. **Lovable ($25/mo)** — Landing pages without dev
-7. **Synthesia ($18/mo)** — Video agents for real estate tours
+### Tier 3: Rất vui được có
+6. **Lovable (25/mo)** — Trang hạ cánh không có dev
+7. **Sythesia (18/mo)** — Các đặc vụ phim cho các chuyến tham quan bất động sản
 
-## Vietnamese Market Additions
+## Bộ tăng cường thị trường Việt Nam
 
 | Tool | Use Case | Cost |
 |------|----------|------|
 | **Zalo AI Chatbot** | Customer engagement on Zalo | Free-Paid |
-| **Canva AI** | Quick design + AI images | Free tier |
-| **CapCut AI** | Video editing + auto-captions | Free |
+| **Canva AI** | Thiết kế nhanh và các ảnh AI | Free tier |
+| **CapCut AI** | Trình biên tập phim + tự động kết nối | Free |
 
-## OpenClaw Integration — What's Already Covered
+## OpenClaw Hợp nhất — Cái gì đã được che đậy
 
-✅ **Ollama local models** — Running mixi/qwen36-aggressive-stable  
-✅ **Obsidian vault** — 139 notes, semantic search active  
-✅ **Smart Connections MCP** — Semantic retrieval pipeline  
-✅ **Multi-Search Engine** — 6 engines, no API keys  
-✅ **Facebook Graph API** — Page 2 token verified OK  
+♪ ♪Ollama Name  
+♪ ♪Obsidian hầm** — 139 ghi chú, tìm kiếm ngữ nghĩa hoạt động  
+♪ ♪Smart Connections MCP** — Đường ống dẫn phục hồi động vật  
+_ **Malti-Scilt** — 6 động cơ, không API Phím  
+♪ ♪Facebook Đồ thị API** — Trang 2 được xác nhận là OK  
 
-## Gap Analysis — What's Missing from Current Stack
+## Phân tích ngược — Thiếu gì từ chồng hiện thời
 
-### ❌ Not yet integrated:
-1. **ElevenLabs Voice Agent** — Could power Facebook Messenger auto-reply with natural voice
-2. **Veo 3 video pipeline** — Product videos for FB ads (currently manual/stock)
-3. **NotebookLM research flow** — Batch process market reports → insights
-4. **Gamma presentations** — Client proposals from research notes
+### _Không phải là hợp nhất:
+1. **El eventlabs voice Agent** — Có thể tạo ra sức mạnh Facebook Trình nhắn tin tự động với giọng nói tự nhiên
+2. **Veo 3 đường ống video** — sản xuất video cho quảng cáo FB (hiện thời bằng tay / nguyên liệu)
+3. **NonebookLM chảy nghiên cứu** — báo cáo thị trường tiến trình Batch → sự hiểu biết
+4. **Gamma giới thiệu** — khách hàng đề xuất từ ghi chú nghiên cứu
 
 ### ✅ Already solid:
-- Local AI inference (Ollama)
+- CommentOllama)
 - Knowledge management (Obsidian + Smart Connections)
 - Facebook automation (Graph API + OpenClaw)
-- Cron job orchestration (6 automated jobs running)
+- Sắp xếp công việc kiểu Cron (6 công việc tự động chạy)
 
 ## Implementation Priority
 
-1. **Week 1:** Sign up ChatGPT Plus ($8) — immediate content drafting boost
-2. **Week 2:** Setup Higgsfield ($9) — creative testing pipeline for ad campaigns
-3. **Week 3:** ElevenLabs trial → clone brand voice → test on sample ads
-4. **Week 4:** Veo 3 integration — replace stock videos with AI-generated product clips
+1. **Wek 1:** đăng ký chatGPT Plus ($8) — ngay lập tức nội dung đang soạn thảo
+2. **Wek 2:** Thiết lập Higgsfield ($9) — đường ống thử nghiệm sáng tạo cho các chiến dịch quảng cáo
+3. **Chúng tôiek 3:** 11Labs thử giọng nói nhân bản trên quảng cáo mẫu
+4. ** Week 4:** Sự hợp nhất của Veo 3 — thay thế các video cổ phiếu bằng các clip sản phẩm AI-Ecated
 
-## Cost Optimization Tip
+## Lời khuyên về phép báp têm đắt tiền
 
-Combine free tiers strategically:
-- Gemini Free + NotebookLM Free = research pipeline ($0)
-- Veo 3 Free + Higgsfield $9/mo = creative testing ($9)
-- ElevenLabs Free tier for short clips, paid only for volume
+Liên kết các tổ hợp tự do chiến lược:
+- Song Tử Tự Do + Ghi chépLM Free = đường ống nghiên cứu ($)
+- Bác sĩ Veo 3 + Higgsfield 9/mo = thử nghiệm sáng tạo ($9)
+- 11 lít tự do kẹp ngắn, chỉ trả tiền cho âm lượng
 
-**Total effective cost:** Can run full marketing AI stack for **$17-22/month** if prioritized.
+** Chi phí hiệu quả:** Có thể chạy quảng cáo toàn bộ AI chồng cho **17-22/tháng** nếu ưu tiên.
 
 ## Next Review
 
-- Q3 2026: Check for new models (Qwen 4, Llama 5, Claude 5?)
-- September 2026: EU AI Act compliance impact on tools
-- Ongoing: Monitor local Vietnamese AI tool launches
+- Q3 2026: Kiểm tra các mô hình mới (Qwen 4, Llama 5, Claude 5?)
+- Ngày 2026: Đạo luật EU AI ảnh hưởng đến công cụ
+- Theo dõi công cụ phát hành kiểu Việt Nam
 
 ---
 
-*Created: 2026-06-17 | Derived from: ai-tools-landscape-q2-2026*
+*Created: 2026-06-17  Derived từ: ai-tools-landscape-q2-26*

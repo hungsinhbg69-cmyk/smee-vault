@@ -15,27 +15,27 @@ difficulty: easy # easy | medium | hard
 
 # 🔬 {{title}}
 
-## 📝 One Idea Summary
-<%* tR += await tp.system.prompt("One sentence summary: "); *>
+## Tóm tắt một ý tưởng
+<%* tR += Đợi tp. system.prompt(" Một câu tóm tắt: "); *
 
 ## 📖 Explanation
-[<small>300-700 words. Clear, precise, no fluff.</small>]
+[<small>300 700 từ, rõ ràng, chính xác, không có gì.</small>]
 
 ## 🔄 Connections
 ### Related Concepts
-<%* const related = await tp.system.prompt("Related concept (or leave blank): "); if (related?.trim()) { const open = "[" + "["; const close = "]" + "]"; tR += "- " + open + related.trim() + close + "\n"; } *>
+<%* Const liên quan = đợi tp. hệ thống.prompt(hoặc để trống):\ t% * khái niệm « / »; nếu (có liên quan? .trim()}{ cont mở =["[;; cont gần = "]]; t= "- + mở + mở liên quan.t) + "n" *
 
 ### Applied In
-<%* tR += "- [[Project-Name]] — how this is used\n"; *>
+<%* tR + = "- [[Project-Name]] *>
 
 ## 📚 Sources
-<%* const sourceTitle = await tp.system.prompt("Source title (or leave blank): "); const sourceUrl = await tp.system.prompt("Source URL (or leave blank): "); if (sourceTitle?.trim()) tR += sourceUrl?.trim() ? "- [" + sourceTitle.trim() + "](" + sourceUrl.trim() + ")\n" : "- " + sourceTitle.trim() + "\n"; *>
+<%* Const sourceTtle = đợi tp. system.prompt(" sice title: "); const sourceUrl = chờ tp. system.prompt("Source () URL (hoặc để trống): "; nếu (sourceTitle?.trim()) tR += sourceUrl? .trim()? "- [" + sourceTitle.trim() + "](" + sourceUrl.trim() + ")\n" : "-" +  sourceTitle.trim() + "\n; *>
 
 ---
 %% Agent instructions:
-- One idea per note. If >2 H2 sections on different topics → split
-- 300-700 words target. Short = reusable, linkable
-- Promote from daily notes when cited 2+ times
-- Every new atomic note MUST have at least 1 backlink same day
-- Status: draft → active (when linked 3+) → superseded (when updated)
+- Một ý tưởng trên mỗi nốt. Nếu >2 phần H2 trên các chủ đề khác nhau _ chia ra
+- 300 700 từ có thể liên kết được.
+- Tăng từ ghi chú hàng ngày khi trích dẫn 2+ lần
+- Mỗi nốt nguyên tử mới phải có ít nhất 1 đường dẫn trong cùng một ngày
+- Trạng thái: thao tác nháp (khi liên kết 3+) pided (khi cập nhật)
 %%

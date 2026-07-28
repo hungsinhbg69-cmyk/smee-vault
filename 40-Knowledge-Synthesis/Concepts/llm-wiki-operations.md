@@ -1,5 +1,5 @@
 ---
-title: LLM Wiki — Operations (Ingest, Query, Lint)
+title: LLM Wiki — Chiến dịch (Ingest, Truy vấn, Lint)
 slug: llm-wiki-operations
 category: knowledge
 tags:
@@ -18,7 +18,7 @@ related:
 - llm-wiki-architecture
 ---
 
-# LLM Wiki — Operations (Ingest, Query, Lint)
+# LLM Wiki — Chiến dịch (Ingest, Truy vấn, Lint)
 
 ## Ingest Workflow
 
@@ -33,14 +33,14 @@ User drops source →
 ```
 
 ### Key Details
-- **Human-in-loop discussion:** Không fully automated — human review và guide LLM
+- **Human-in-in-lock:** Không hoàn toàn tự động — sự chỉ dẫn ôn lại của con người LLM
 - **Batch size:** Single source per ingest preferred; batch-ingest possible với ít supervision
-- **File operations:** 10-15 pages touched per source = substantial I/O + token cost
+- ** Hoạt động tập tin:** 10-15 trang được chạm vào mỗi nguồn = giá trị I/O + hiệu
 - **Context management:** Mỗi page write cần load context → generate → save
 
 ### Scalability Concerns
 - >500 pages: index.md quá lớn cho single-read (>50K tokens)
-- Batch 10 sources → potentially 150 file ops → context overflow risk
+- Batch 10 nguồn tiềm năng 150 file hoạt động bối cảnh tràn đầy rủi ro
 - No parallelism strategy defined — pages có thể update song song nếu không dependencies
 
 ## Query Workflow
@@ -56,12 +56,12 @@ User asks question →
 ### Key Details
 - **Index-first strategy:** Smart choice ở moderate scale — avoids embedding infrastructure
 - **Answer filing:** Answers từ queries cũng compound vào knowledge base (không chỉ ingests)
-- **Output formats:** markdown page, comparison table, slide deck (Marp), chart (matplotlib), canvas
+- ** Dạng thức xuất:** markdown trang, bảng so sánh, bài (Marp), biểu đồ (matptlib), vải
 
-### Search Evolution Path
-1. **Small scale (<100 sources):** index.md sufficient
-2. **Medium scale (~100-500 sources):** qmd (BM25 + vector + LLM re-ranking)
-3. **Large scale (>500 sources):** Need partitioned index, incremental updates
+### Tìm kiếm đường dẫn đến sự tiến hóa
+1. **Small tỷ lệ (<100 nguồn):** index.md đủ
+2. **Medium tỷ lệ (~100-500 nguồn):** qmd (BM25 + vector + LLM Quay lại
+3. ** Tỷ lệ đăng ký (>500 nguồn):** Cần chỉ mục phân vùng, cập nhật dần
 
 ## Lint Workflow
 
@@ -80,21 +80,21 @@ Periodic health-check →
 - **Active discovery:** "LLM good at suggesting new questions" — không passive retrieval
 - **Token cost:** Với 500 pages × 2K tokens = 1M+ tokens per lint pass (local Ollama: 5-15 phút)
 
-## Index.md vs log.md
+## Chỉ mục.md vs log.md
 
-### index.md (Content-oriented)
-- Catalog of everything in wiki
-- Each page: link + one-line summary + metadata (date, source count)
-- Organized by category (entities, concepts, sources)
-- Updated on every ingest
-- LLM reads index first khi answering queries
+### index.mmd (chỉ định-conent)
+- Name
+- Mỗi trang: liên kết + một dòng tóm tắt + siêu dữ liệu (ngày, số nguồn)
+- Được tổ chức theo loại (các loại, khái niệm, nguồn)
+- Cập nhật từng thức ăn
+- LLM đọc phụ lục khi trả lời các thư mục
 
-### log.md (Chronological)
-- Append-only record of events
+### log.md ( môn học)
+- Ứng dụng ghi chép duy nhất các sự kiện
 - Format: `## [YYYY-MM-DD] operation | Title`
 - Parseable với unix tools: `grep "^## \[" log.md | tail -5`
-- Gives timeline of wiki evolution
-- Helps LLM understand recent activity
+- Cho dòng thời gian tiến hóa bằng Niply
+- Trợ giúp LLM Hiểu được hoạt động gần đây
 
 ---
 

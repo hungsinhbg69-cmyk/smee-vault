@@ -1,5 +1,5 @@
 ---
-title: "Wiki Schema Versioning Rules"
+title: "Các quy tắc về kế hoạch của Wiki"
 slug: "wiki-schema-versioning-rules"
 category: meta
 tags: [schema, versioning, wiki, karpathy, governance]
@@ -12,7 +12,7 @@ last_updated: 2026-07-13
 ---
 
 
-# Wiki Schema Versioning Rules (Karpathy Pattern)
+# Chương trình dịch thuật Wiki
 
 > Định nghĩa cho cách LLM và Hùng cùng phát triển wiki conventions qua thời gian — không breaking changes vô tình.
 
@@ -35,10 +35,10 @@ type: concept|framework|insight|comparison|template
 ```
 
 ### 1.2 Naming Conventions
-- **File names:** kebab-case (e.g., `llm-wiki-karpathy-pattern.md`)
-- **Folders:** lowercase, hyphen-separated (e.g., `Bac-Giang/`)
-- **Slugs:** match filename, no special chars
-- **Tags:** lowercase, max 5 per note
+- ** Tên tập tin:** kebab- rib (e.g. `llm-wiki-karpathy-pattern.md`)
+- **Folders:** Chữ thường, gạch ngang-sepheated (e.g. `Bac-Giang/`)
+- **Slugs:** trùng tên tập tin, không có ký tự đặc biệt
+- **Tags:** Chữ thường, tối đa 5 trên mỗi nốt
 
 ### 1.3 Directory Structure
 ```
@@ -58,18 +58,18 @@ type: concept|framework|insight|comparison|template
 
 ## 2. Versioning Strategy
 
-### Semantic Versioning cho Schema
-- **Major (X.0.0):** Breaking changes — structure, frontmatter fields, naming rules
-- **Minor (0.X.0):** New conventions added — backward compatible
-- **Patch (0.0.X):** Clarifications, typos — no functional change
+### Comment
+- **Major (X.0.0):** Làm hỏng thay đổi — cấu trúc, frontmatter trường, quy tắc đặt tên
+- **Minor (0.X.0):** Các hội nghị mới thêm vào — tương thích sau
+- **Patch (0.0.X):** Sự phân tách, đánh máy — không thay đổi chức năng
 
 ### Migration Rules
 | Version | Change | Migration Action |
 |---------|--------|-----------------|
-| Major bump | Added required frontmatter field | LLM auto-add default values |
-| Major bump | Renamed folder | LLM update all backlinks |
-| Minor bump | New optional field | No migration needed |
-| Patch | Typo fix in convention docs | No migration needed |
+| Major bump | Đã thêm yêu cầu frontmatter trường | LLM Giá trị mặc định tự thêm |
+| Major bump | Renamed folder | LLM Cập nhật mọi liên kết sau |
+| Minor bump | trường tùy chọn mới | Không cần phải di cư |
+| Patch | Sửa chữa Typo trong các bác sĩ đại hội | Không cần phải di cư |
 
 ### Version Tracking
 - Schema file này có `version: "1.0.0"` — bump khi có breaking change
@@ -79,53 +79,53 @@ type: concept|framework|insight|comparison|template
 ## 3. LLM Operational Rules
 
 ### 3.1 Ingest Rules
-- **MUST** add frontmatter before writing any new note
+- **MT** thêm frontmatter trước khi viết bất kỳ ghi chú mới
 - **MUST** create ≥1 backlink trong cùng session
-- **MUST** update vault-master-index.md khi tạo note mới
-- **MUST** use correct category (Concepts/Frameworks/Insights)
-- **MAX** 2 notes per session (token budget)
+- **MUT** Cập nhật hầm-chủ-index. mh t-Kio lưu ý m Whoi
+- **MUT** sử dụng đúng loại (những hình thức/sự chú ý)
+- **MAX** 2 ghi chú mỗi phiên chạy (tiền tiêu)
 
 ### 3.2 Query Rules
-- Read vault-master-index.md first for navigation
-- Drill into specific notes only after index scan
-- Cite sources in answers with `[[note-slug]]` links
-- File good answers back as new wiki pages (with frontmatter)
+- Đọc bảng điều khiển hầm trước tiên cho định vị
+- Chỉ sau khi quét chỉ mục, hãy tập trung vào các ghi chú đặc trưng.
+- Nguồn Cite trong câu trả lời `[[note-slug]]` liên kết
+- Tập tin đáp án tốt như trang i- tơ mới (với frontmatter)
 
-### 3.3 Lint Rules (Weekly/Bi-weekly)
-- Check for orphans: notes with no backlinks AND not in index
-- Flag stale claims: notes >30 days old referencing time-sensitive data
-- Suggest connections: identify cross-linking opportunities
-- Report: orphan count, stale count, connection suggestions
+### 3 Lint quy tắc (Kèm quá/Bi tuần)
+- Kiểm tra trẻ mồ côi: ghi chú không có đường nội dung và không trong chỉ mục
+- Cờ cũ yêu cầu: ghi chú > 30 ngày cũ tham khảo lại dữ liệu nhạy thời gian
+- Đề nghị kết nối: xác định cơ hội liên kết chéo
+- Báo cáo: Số lượng trẻ mồ côi, số đếm chậm, gợi ý kết nối
 
 ## 4. Backlink Requirements
 
-### Every New Note MUST Have ≥1 Backlink Same Day
-- Link to related existing note(s) in `related:` field
-- Add backlink from existing note to new note (edit source note)
-- Cross-reference in vault-master-index.md
+### Mỗi nốt nhạc phải có đường dẫn ngược 1 ngày
+- Liên kết tới chú thích tồn tại trong `related:` trường
+- Thêm liên kết ngược từ chú thích đã có tới chú thích mới (tin nhắn gốc)
+- Tham chiếu chéo trong bộ trưởng-index.md
 
-### Orphan Detection Criteria
-A note is ORPHANED if:
-- No inbound links (`[[note-name]]`) from any other note, AND
-- Not listed in vault-master-index.md, AND
-- Created >7 days ago
+### Phát hiện trẻ mồ côi Criteria
+Một tờ giấy có sẵn nếu:
+- Không có liên kết đang tải (`[[note-name]]`) từ bất kỳ lưu ý khác, VÀ
+- Không được liệt kê trong bộ trưởng-index.md, AND
+- Tạo >7 ngày trước
 
 ## 5. Change Log
 
-### v1.0.0 (2026-06-16) — Initial Schema
-- Based on Karpathy LLM Wiki Pattern + Smee PARA structure
+### v1.0. 0 (2026-06-16) — Ban đầu Schema
+- Dựa trên sự thông cảm LLM Comment
 - Frontmatter standard defined
-- Naming conventions established
-- Versioning strategy (semantic) set up
-- Migration rules defined
+- Các hội nghị về Nam diễn ra
+- Thiết lập chiến lược phiên bản (semantic)
+- Quy tắc di chuyển được định nghĩa
 
 ### Planned v1.1.0
-- Add entity/concept page templates (Karpathy-aligned)
-- Implement category-indexed vault master index
-- Add lint pass to Daily Vault Maintenance cron
+- Thêm mẫu trang/ nhận diện
+- Chỉ mục đào hầm hạng mục
+- Thêm giấy qua đường cho Bảo trì Cổng Hàng Nhật
 
 ## 6. References
 
-- Karpathy, Andrej. "LLM Wiki Pattern." GitHub Gist.
-- [[vault-architecture]] — Overall vault design
-- [[README|Vault — Second Brain Hub]] — Complete PARA structure
+- Karpally, Andrej."LLM Mẫu của Wiki." GitHub Giist.
+- [[vault-architecture]] - Thiết kế toàn bộ hầm
+- [[README|Vault — Second Brain Hub]] - Toàn bộ cấu trúc của BA

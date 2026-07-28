@@ -1,5 +1,5 @@
 ---
-title: "Chomps — Google-to-Meta Signal Loop (Q1 2026)"
+title: "Chomps — Vòng lặp tín hiệu Google-to-Meta (Quý 1/2026)"
 slug: "cs-chomps-wellness"
 category: resource
 tags: [facebook-ads, case-study, e-commerce]
@@ -9,31 +9,31 @@ created: 2026-06-15
 last_updated: 2026-06-24
 ---
 
-# Chomps Wellness — Google-to-Meta Signal Loop Optimization
+# Tối ưu hóa vòng lặp tín hiệu Google-to-Meta cho Chomps Wellness
 
-## Key Metrics
-- **ROAS:** 3.2 → 5.1x (significant improvement)
-- **CAC:** $68 → $41 (-31% reduction)
-- **Timeframe:** Q1 2026, running across Meta platforms
+## Các chỉ số chính
+- **ROAS:** 3.2 → 5.1x (cải thiện đáng kể)
+- **CAC:** $68 → $41 (giảm 31%)
+- **Thời gian:** Quý 1/2026, chạy trên các nền tảng Meta
 
-## Strategy Breakdown
+## Phân tích chiến lược
 
-### The Problem
-Chomps was relying on broad awareness campaigns with no structured signal recovery loop. New customer data from Google Ads wasn't being synced back to Meta's pixel, causing inefficient lookalike seeding and poor targeting accuracy during scaling phases.
+### Vấn đề đặt ra
+Chomps đang dựa vào các chiến dịch nhận diện rộng rãi mà không có vòng lặp phục hồi tín hiệu có cấu trúc. Dữ liệu khách hàng mới từ Google Ads không được đồng bộ ngược lại pixel của Meta, gây ra việc gieo hạt cho đối tượng tương tự (lookalike) kém hiệu quả và độ chính xác nhắm mục tiêu thấp trong các giai đoạn mở rộng quy mô.
 
-### Google-to-Meta Signal Loop Architecture
-1. **Offline Conversions (OC):** Upload Google-sourced conversion events to Meta within 48 hours
-2. **Matched Email List:** Periodic upload of first-party customer emails for custom audience creation
-3. **Lookalike Sourcing:** Use top 5% converters from synced data as LAL seed source
-4. **Retargeting Layer:** Dynamic product ads (DPA) targeting site visitors who engaged but didn't convert
+### Kiến trúc vòng lặp tín hiệu Google-to-Meta
+1. **Chuyển đổi ngoại tuyến (Offline Conversions - OC):** Tải lên sự kiện chuyển đổi có nguồn gốc từ Google đến Meta trong vòng 48 giờ.
+2. **Danh sách email đã khớp:** Tải định kỳ danh sách email khách hàng cấp một (first-party) để tạo đối tượng tùy chỉnh.
+3. **Nguồn dữ liệu tương tự (Lookalike Sourcing):** Sử dụng nhóm chuyển đổi top 5% từ dữ liệu đồng bộ làm nguồn hạt giống cho LAL.
+4. **Lớp nhắm lại (Retargeting Layer):** Quảng cáo sản phẩm động (DPA) nhắm vào người truy cập website đã tương tác nhưng chưa chuyển đổi.
 
-### Creative Strategy
-- $400 UGC shoot outperformed $40,000 studio video production on cost per conversion
-- Focus on authentic social proof: real people eating Chomps protein bars in daily life
-- ABO testing with 6 creative concepts simultaneously, then scale winners to CBO
+### Chiến lược sáng tạo
+- Video UGC với ngân sách $400 vượt trội hơn video tại studio với ngân sách $40,000 về chi phí trên mỗi lần chuyển đổi.
+- Tập trung vào bằng chứng xã hội chân thực: những người thật đang ăn thanh protein Chomps trong đời sống hàng ngày.
+- Kiểm tra ABO (Ad Set Budget Optimization) với 6 khái niệm sáng tạo đồng thời, sau đó mở rộng các chiến thắng sang CBO (Campaign Budget Optimization).
 
-### Key Takeaway
-The signal loop — syncing offline Google conversions back to Meta — improved lookalike quality dramatically. First-party data from Google became the primary LAL seed source, yielding higher-quality audiences than interest-based targeting alone. This proved that **signal density > creative volume** after the iOS 14/15 privacy changes.
+### Bài học chính
+Vòng lặp tín hiệu — việc đồng bộ các chuyển đổi ngoại tuyến từ Google ngược lại Meta — đã cải thiện đáng kể chất lượng của đối tượng tương tự. Dữ liệu cấp một từ Google trở thành nguồn hạt giống LAL chính, mang lại các đối tượng có chất lượng cao hơn so với chỉ nhắm mục tiêu dựa trên sở thích. Điều này chứng minh rằng **mật độ tín hiệu > khối lượng sáng tạo** sau những thay đổi về quyền riêng tư iOS 14/15.
 
 ---
-*Case study extracted from ads campaigns deep-dive research (June 2026). Source: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*
+*Bài nghiên cứu trường hợp được trích xuất từ nghiên cứu sâu về chiến dịch quảng cáo (tháng 6 năm 2026). Nguồn: ecb6a557-deb0-4a9b-abfa-2ebb2aab84db*

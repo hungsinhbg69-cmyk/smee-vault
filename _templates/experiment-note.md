@@ -24,17 +24,17 @@ project:
 2. 
 
 ## 📊 Results
-[What happened? Data, observations]
+Dữ liệu, quan sát
 
 ## 🔍 Interpretation
-[What does it mean? Why did it work/not work?]
+Tại sao nó lại hoạt động/không hoạt động?
 
-## ❓ Follow-up Questions
+## _Những câu hỏi tiếp theo
 - 
 
 ---
 %% Agent instructions:
-- Link to project via [[Project-Name]]
-- Results must include measurable outcomes
-- Follow-up questions → create new atomic notes if validated
+- Liên kết tới dự án qua [[Project-Name]]
+- Kết quả phải bao gồm những kết quả có thể đo lường được
+- Câu hỏi tiếp theo _Grave: tạo ghi chú nguyên tử mới nếu xác nhận
 %%

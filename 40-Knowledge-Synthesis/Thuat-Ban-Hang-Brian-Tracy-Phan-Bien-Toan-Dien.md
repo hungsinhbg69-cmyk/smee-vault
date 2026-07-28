@@ -50,7 +50,7 @@ last_updated: 2026-07-03
 
 **❗Flaw:** KHÔNG áp dụng cho transactional sales (e-commerce checkout, mobile app purchase). Customer cần nhanh, không muốn "khám bệnh 45 phút". Book thiếu sự phân biệt sales complexity levels.
 
-### E) Cialdini's Influence: Reciprocity → Commitment → Social Proof ✅
+### E) Ảnh hưởng của Cirdini: Reciprocity  Reciment  _Ecient Slifecication    _Ecient Slifeci
 **Argue đúng:** Ba pillars từ "Influence" (1984), được validate bởi meta-analysis across 20+ studies.
 
 **❗Flaw:** Cultural applicability — Social proof mạnh ở collectivist cultures (VN) nhưng khác individualist (US). Reciprocity trong VN mang flavor "cộng/cảm ơn" sâu sắc hơn Mỹ. Book áp dụng framework US vào global mà không adjust cultural weights.
@@ -76,9 +76,9 @@ Bằng chứng từ nhiều time tracking studies nhưng book thiếu nuance: qu
 
 ### I) Dịch vụ khách hàng 4 cấp độ — scalability issue
 FedEx helicopter example = $8,000/delivery. Small business: không scalable. Service differentiator cần match revenue tier:
-- Enterprise → Dedicated CSM (Customer Success Manager)
-- Mid-market → Proactive check-ins quarterly
-- SMB → Automated onboarding sequences + 24h support SLA
+- Enterprise _SM đã hiến dâng (bộ quản lý thành công cho máy tính)
+- Trung tâm thị trường iPrit promain-ins hàng quý
+- SMB _SMB tự động lên tàu chuỗi hỗ trợ SLA
 
 ### J) Tỉ lệ phân bổ thời gian: 80% prospecting / 20% retention ← ❌ Industry-dependent
 - ✅ Acquisition-driven (retail, e-commerce): Đúng
@@ -94,38 +94,38 @@ Khách hàng mua outcome — cải thiện cuộc sống/công việc > product 
 ### 2. Lợi thế cạnh tranh = KHÁC BIỆT trong ít nhất 4 khía cạnh
 Michael Porter's Unique Value Added — không cần số 1 MỌI thứ, chỉ cần khác biệt trong: (a) chất lượng tốt hơn (b) nhanh hơn (c) rẻ hơn (d) dễ dùng hơn. Customer dùng weighted evaluation, không objective scoring từ seller.
 
-### 3. Feedback loop: Self-esteem → Performance → Success → Self-esteem++
+### Vòng lặp 3. Báo cáo: Tự tin tự thực hiện thành công iPID
 "Hệ thống tự củng cố" đầu tiên trong sách, chính xác là Bandura's [[self-efficacy-self-concept|SEF-Efficacy/Self-Concept]] (Social Cognitive Theory). Book có insight nhưng chưa connect với academic framework — gap để bổ sung.
 
 ### 4. Conversion funnel ratios định đoạt chiến lược (20:5:2:1)
 Understanding từ lead→meeting→proposal→deal → tính được bao nhiêu inputs cần cho output目标. Foundation của modern sales analytics book này là đúng về concept, nhưng tỷ lệ thay đổi theo industry.
 
-### 5. Doctor Method: Examine → Diagnose → Prescribe = Consultative Selling Paradigm
+### 5 Tiến sĩ Phương pháp: Kiểm tra tiểu đường tiểu đường
 Checkup chiếm bulk time → customer cảm thấy lắng nghe → diagnosis xác nhận existence of problem → prescription feel như solution logic duy nhất. Đây chính xác là phương pháp SPIN/Rationale selling hiện đại.
 
-### 6. Internal dialogue determines 95% emotional state
+### Hộp thoại nội bộ 6. quyết định 95% trạng thái cảm xúc
 Self-talk → emotions → behaviors. Connects trực tiếp tới [[cognitive-behavioral-theory|CBT-Cognitive-Behavioral-Theory]]: thoughts shape feelings, feelings drive actions. Book's insight predates modern CBT popularization in sales training by decades.
 
 ---
 
 ## BÀI HỌC HỖ TRỢ (Supporting insights)
 
-### 7. Post-sale service = REAL differentiator
+### 7 dịch vụ sau cùng bằng máy khác biệt
 Lần bán nhắc lại easy hơn lần đầu 10x. Referral sells easy hơn cold outreach 15x → tạo [[clv-cac-golden-referral-chain|CLV-CAC-Golden-Referral-Chain]]. Book có insight nhưng không formalize với term "Customer Lifetime Value (CLV)" và "CAC".
 
 ### 8. Creative postponement trên low-value tasks
-Apply 80/20 time management — postpone what generates <20% value, focus on high-leverage activities (prospecting, presenting, closing). Identical đến [[eisenhower-matrix|Eisenhower-Matrix]]'s "Important but not urgent" quadrant.
+Áp dụng 80/20 quản lý thời gian — hoãn lại những gì tạo ra <20% giá trị, tập trung vào các hoạt động bình thường cao (hiện diện, đóng). [[eisenhower-matrix|Eisenhower-Matrix]]Góc phần tư "Tạp chí nhưng không khẩn cấp".
 
-### 9. Decision-making happens qua STORIES (right hemisphere)
+### 9 Quyết định xảy ra qua STORES ( bán cầu phải)
 Facts convince → stories sell. Neuroscience validation: fMRI studies cho thấy narrative engagement activates nhiều brain regions simultaneously → deeper encoding. Book đúng, 25 năm trước neuroscience chứng minh.
 
-### 10. Social proof cultural-dependent trong VN
+### 10. Bằng chứng xã hội-phụ thuộc vào văn hóa VN
 Collectivist culture → word-of-mouth/referrals carry MORE weight. Decisions influenced by group consensus (gia đình, đồng nghiệp, cộng đồng). Social proof ở VN hoạt động mạnh qua [[zalo-commerce|Zalo-commerce]] groups và trusted community leaders — cao hơn Mỹ ~2-3x theo Nielsen Vietnam Consumer Confidence surveys.
 
-### 11. Price objection = purchase signal
+### 11. Phản đối giá = Tín hiệu mua
 Book's "chê bai nhiều gấp đôi thương vụ thành công" → đúng: người không quan tâm thì không chê. Chê bao = quan tâm nhiều. Strategy: biến từ "đắt quá" → phân tích value-per-unit-of-time hay cost-of-inaction.
 
-### 12. Closing courage qua REPETITION — not天赋
+### 12. Đóng can đảm qua việc hồi phục — chứ không phải là lập trường
 "Cann đảm" trong closing learnable qua practice, không innate. Salespeople thành công thử different closing styles và iterate. Key metric: number of times you ASK for the close per opportunity.
 
 ---
@@ -133,33 +133,33 @@ Book's "chê bai nhiều gấp đôi thương vụ thành công" → đúng: ng�
 ## CẢI TIẾN HỆ THỐNG (What needs to happen)
 
 ### P1: Update với Modern Multi-Channel Framework
-Old book methods face-to-face + phone chủ yếu. Need mapping New Channel → Tool → Expected Outcome:
+Phương pháp sách cũ đối mặt với mặt đối mặt + điện thoại ch “Exxxu. Cần bản đồ công cụ  Channel _ _ _ _D _D _D _D _ mong đợi thu nhập:
 | Old | New Tool | Outcome |
 |-----|----------|---------|
-| Cold-call | Email sequences (Mailchimp/HubSpot) | 3-5x reach per time unit |
-| Face-to-face pitch | LinkedIn video calls + Calendly booking | Global reach, async scheduling |
-| Referral chain | Referral software (Refersion/BuzzSumo) | Automated tracking + incentive payouts |
+| Cold-call | Chuỗi thư (Mailchimp/HbSpot) | 3-5x đạt trên mỗi đơn vị thời gian |
+| Ném đối mặt | Liên kết trong các cuộc gọi video + Calendly đặt hàng | Tầm nhìn toàn cầu, một kế hoạch riêng |
+| Referral chain | Phần mềm tham chiếu (Refsition/BuzzSumo) | Tự động theo dõi + khuyến khích trả |
 
-### P2: Add Industry-specific Conversion Benchmarks
-Book's 20:5:2:1 ratio too generic. Need database theo industry VN:
-- B2B SaaS: Lead→Meeting ~25% → Meeting→Proposal ~60% → Proposal→Deal ~30%
+### P 2: Thêm các điểm dao động đặc trưng của bộ lọc kỹ thuật
+Sách 20:5: 2.1 tỷ lệ chung. Cần cơ sở dữ liệu công nghiệp VN:
+- B2B SaaS: chìMeeting ~25% _Triển họp phụ thuộc ~60% Proposal ProsealDeal Sual ~30%
 - Bất động sản: Cold→Warm intro ~15% → Viewing → Offer ~8%
-- E-commerce: Ad click→Site visit ~2% → Add to cart ~3% → Checkout ~1.5%
-- Retail/Service: Foot traffic conversion ~10-15%
+- E-commerce: Hãy nhấn vào điểm thăm quan ~2% % iPage ~3% checkout ~1.5%
+- Retail/Service: chuyển đổi giao thông chân ~10-15%
 
-### P3: Integrate CLV:CAC Economics Formal Framework
-- Rule of thumb: CLV/CAC > 3x sustainable growth
-- Churn impact: Reduce churn by 5% = increase profit by 25-95% (Bain & Co.)
-- LTV formula: LTV = (Avg Deal Size × Purchase Frequency) / Churn Rate
+### P3: Chương trình hỗ trợ CLV: CACCCal Business Formal Trapwork
+- Quy tắc ngón cái: CLV/CAC > 3x bền vững tăng trưởng
+- Tác động gấp: Giảm lãi suất 5% = lãi suất tăng 25-95% (Bain & Co.)
+- Công thức LTV: LTV = (Avg deal size × Purchase Frequency) / Churn rate
 
-### P4: Cultural Adaptation Layer — Vietnamese Context
-- Relationship-driven culture → referrals carry heavier weight than US
+### P4: Lớp thích nghi văn hóa — Văn bản tiếng Việt
+- Văn hóa có quan hệ, giới thiệu, mang trọng lượng nặng hơn Mỹ
 - Decision cycles dài hơn ở VN do group approval processes
-- Zalo commerce: mobile-first, chat-based sales pipeline
+- Thương mại của Zalo: đường ống bán hàng dựa trên điện thoại di động đầu tiên, dựa trên chat
 - "Tình cảm trước, lợi ích sau" pattern trong bán hàng B2B Việt Nam
 
-### P5: Personal Sales Funnel Scorecard Template
-Weekly tracking metrics theo book's 7 key areas + modern KPIs. Create [[sales-funnel-scorecard|Sales-Funnel-Scorecard]] for daily use.
+### P5: Mẫu thẻ cho việc bán hàng cá nhân
+Theo dõi tỉ lệ hàng tuần cuốn sách của bảy điểm quan trọng + các KPIs hiện đại. Tạo ra [[sales-funnel-scorecard|Sales-Funnel-Scorecard]] Để sử dụng hàng ngày.
 
 ---
 
@@ -170,7 +170,7 @@ Weekly tracking metrics theo book's 7 key areas + modern KPIs. Create [[sales-fu
 3. Referral chain mạnh nhất khi sau lần sale thứ hai (chưa phải thứ nhất)
 4. Closing success tỷ lệ thuận số lần ASK for close, not skill level
 5. Service khác biệt cần match revenue tier: enterprise=CXM, SMB=automation
-6. Internal dialogue →情绪 state → performance loop — practice positive self-talk daily
+6. Đối thoại nội tâm → trạng thái cảm xúc → vòng lặp hiệu suất — luyện tập tự đối thoại tích cực hằng ngày
 
 ---
 

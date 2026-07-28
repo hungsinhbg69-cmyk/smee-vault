@@ -90,7 +90,7 @@ last_updated: YYYY-MM-DD
 ### Bắt buộc phải có
 - ✅ Frontmatter trên mọi ghi chú
 - ✅ Ít nhất 1 liên kết ngược cho mỗi ghi chú mới
-- ✅ Slug theo kebab-case
+- ✅ kebab-case slug
 - ✅ Trường status chính xác
 - ✅ Ngày cập nhật cuối cùng hiện tại
 

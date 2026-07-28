@@ -170,8 +170,8 @@ PMax giờ không còn là "nice-to-have" → đã trở thành **bắt buộc**
 
 | Nền tảng | Cải Thiện CPA | Phù Hợp Nhất | Minh Bạch Dữ Liệu |
 |---|---|---|---|
-| Google Smart Bidding | 15-25% | Hệ sinh thái Google (Search, YouTube, Gmail) | Thấp — hệ thống đóng kín |
-| DV360 Koa AI | 15-25% | Chiến dịch DSP doanh nghiệp | Cao — logic đặt giá tùy chỉnh |
+| Comment | 15-25% | Hệ sinh thái Google (Search, YouTube, Gmail) | Thấp — hệ thống đóng kín |
+| DV360 Koa AI | 15-25% | Enterprise DSP campaigns | High — custom bidding logic |
 | Meta Advantage+ | Biến động | Chỉ Facebook/Instagram | Trung bình — phân phối hộp đen |
 
 **Yêu Cầu Dữ Liệu:**
@@ -345,6 +345,6 @@ PMax giờ không còn là "nice-to-have" → đã trở thành **bắt buộc**
 
 ---
 
-_Nguồn: AdLibrary, Dizispark, RD Marketing, Mintec, AI Digital, Adtelligent, Emarketer, IAB State of Data 2025/2026, Groas, Reddit Inc., ScaleGenX, D2C Times, StackAdapt Trends Report 2026, Comscore 2026 State of Programmatic, WPP Media, Experian_
+_Chúng ta: AdLibrary DizisparkPhát triển Marketing MintecAI Digital Adtelligent Emarketer IAB State Tháng Ba Data 2025/2026 Groas Reddit Inc.. ScaleGenX D2C Times StackAdapt Trends Report 2026, Comscore 2026 State Tháng Ba Programmatic WPP Media Experian_
 
 _Cập nhật lần cuối: 2026-06-15 | Số từ: ~3.200 từ_

@@ -74,7 +74,7 @@ _templates/       → 7 mẫu ghi chú
 ## 🔧 Danh sách kiểm tra cấu hình plugin
 
 ### Đã được cấu hình ✅
-- [x] Smart Connections → Ollama embedding (bge-micro-v2)
+- [x] Smart Connections _NHỮNG NGƯỜI ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ ĐỂ Ollama Đang tách (bge-micro-v2)
 - [x] Copilot → Các lệnh tùy chỉnh đã tải về
 - [x] Calendar plugin → Plugin cốt lõi đã bật
 - [x] Daily Notes → Plugin cốt lõi đã bật

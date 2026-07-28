@@ -57,7 +57,7 @@ Anh/chị muốn mua bao nhiêu thì em báo giá cụ thể nhé.
 Ship tận nơi, guarantee tươi từ lá đến quả nha ❤️"
 ```
 
-## 5. TEMPLATE INSTAGRAM CAPTION
+## TIẾNG TÊM CÂU
 
 ```
 [Ngắn gọn] + [Hình ảnh cụ thể] + [Emoji tối giản]
@@ -85,7 +85,7 @@ Phòng đầy đủ nội thất, ra trung tâm thương mại chưa đến 5p �
 Nhắn e để nhận thông tin chi tiết nha ❤️"
 ```
 
-## 8. TEMPLATE EDUCATIONAL CONTENT (TikTok)
+## 8 TIẾNG TIẾNG TÂM (TikTok)
 
 ```
 [Đặt vấn đề] + [Tips kỹ thuật] + [Kết quả thực tế] + [CTA follow]

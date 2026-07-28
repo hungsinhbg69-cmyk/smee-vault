@@ -15,4 +15,4 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Create a bullet-point summary of {}. Each bullet point should capture a key point. Return only the bullet-point summary.
+Tạo một bản tóm tắt điểm bắn, mỗi điểm đạn sẽ nắm bắt điểm mấu chốt, chỉ cần ghi lại điểm chính.

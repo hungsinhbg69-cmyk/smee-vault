@@ -1,5 +1,5 @@
 ---
-title: Facebook Algorithm Needs Data Volume per Ad Set
+title: Facebook Thuật toán cần âm lượng dữ liệu trên mỗi quảng cáo
 slug: facebook-algorithm-needs-volume
 category: knowledge
 tags:
@@ -13,17 +13,17 @@ last_updated: '2026-07-14'
 cited_count: 0
 ---
 
-# Algorithm Data Volume Rule
+# Quy tắc khối lượng Algorithm
 
-## One Idea Summary
-Meta's advertising algorithm optimizes best when each ad set accumulates 50+ conversions per week — data volume per ad set matters more than targeting precision.
+## Một tóm tắt ý tưởng
+MetaThuật toán quảng cáo của bạn tối ưu hóa tốt nhất khi mỗi quảng cáo tích lũy 50+ cải đạo mỗi tuần - âm lượng trên quảng cáo không chỉ nhắm đến độ chính xác.
 
 ## Explanation
-The single biggest mistake advertisers make in 2026: fragmenting budget across too many narrow ad sets. Meta's algorithm needs concentrated data to learn which users convert. Each ad set needs minimum 50 optimization events (conversions) per week to exit the learning phase and reach peak performance.
+Một sai lầm lớn nhất mà các nhà quảng cáo mắc phải vào năm 2026: phân tích ngân sách qua quá nhiều quảng cáo hẹp. MetaThuật toán của bạn cần tập trung dữ liệu để tìm ra người dùng nào chuyển đổi. Mỗi quảng cáo cần tối thiểu 50 sự kiện tối ưu hóa (các phiên bản) mỗi tuần để thoát khỏi giai đoạn học tập và đạt được hiệu suất cao nhất.
 
-This means: fewer, broader ad sets with more budget each outperform many narrow ad sets with small budgets. The algorithm's audience-finding capability (especially via Advantage+) makes broad targeting more effective than manual interest stacking — provided you have enough conversion data feeding it.
+Điều này có nghĩa là: ít, quảng cáo rộng hơn với ngân sách nhiều quảng cáo nhỏ thiết lập với ngân sách nhỏ. Khả năng tìm kiếm của khán giả (đặc biệt qua Ad-al+) làm cho việc nhắm rộng hơn là xếp lãi suất bằng tay — miễn là bạn có đủ dữ liệu chuyển đổi để cung cấp nó.
 
-**Rule:** 1 campaign per objective -> 1-3 broad ad sets -> 3-5 creatives each -> CBO enabled. This concentrates data where the algorithm needs it most.
+**Rule:** 1 chiến dịch cho mỗi mục tiêu -> 1-3 quảng cáo rộng -> 3-5 sáng tạo mỗi -> CBO bật. Tính năng này tập trung dữ liệu nơi thuật toán cần thiết nhất.
 
 ## Connections
 ### Related Concepts
@@ -32,10 +32,10 @@ This means: fewer, broader ad sets with more budget each outperform many narrow 
 - [[facebook-cbo-scaling-rule]]
 
 ### Applied In
-- [[30-Resources/Facebook-Ads/01-fundamentals.md]] - campaign structure fundamentals
-- [[30-Resources/Facebook-Ads/04-bidding-budget.md]] - learning phase requirements
+- [[30-Resources/Facebook-Ads/01-fundamentals.md]] - ...những kiến trúc chiến dịch tranh cử
+- [[30-Resources/Facebook-Ads/04-bidding-budget.md]] - Yêu cầu học giai đoạn
 - [[30-Resources/Facebook-Ads/07-advantage-plus.md]] - Advantage+ strategy
 
 ## Sources
-- marketingadvice.ai - Facebook Advertising Complete Guide 2025
-- marketingagency.one - Facebook Ads Guide 2026
+- marketingadvice.ai - Facebook Hướng dẫn toàn bộ quảng cáo 2025
+- Tiếp thị khẩn cấp. Một - Facebook Ads Hướng dẫn 2026

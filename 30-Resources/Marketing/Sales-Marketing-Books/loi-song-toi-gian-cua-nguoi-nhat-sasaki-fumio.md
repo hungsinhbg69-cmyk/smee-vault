@@ -1,5 +1,5 @@
 ---
-title: Loi-song-toi-gian-cua-nguoi-nhat-sasaki-fumio
+title: Loi-sing-toi-gaian-cua-nguoi-nhat-suki-fumio
 slug: loi-song-toi-gian-cua-nguoi-nhat-sasaki-fumio
 category: resource
 tags:

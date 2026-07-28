@@ -15,4 +15,4 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Create a glossary of important terms, concepts, and phrases from {}. Format each entry as "Term: Definition". Sort entries alphabetically. Return only the glossary.
+Tạo một danh mục các từ, khái niệm, và cụm từ quan trọng từ}. Định dạng mỗi mục là "Term: Defim". Sắp xếp mục nhập theo thứ tự chữ cái. Hãy trở lại chỉ các từ ngữ bóng loáng.

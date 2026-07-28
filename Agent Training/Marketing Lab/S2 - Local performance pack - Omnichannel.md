@@ -1,5 +1,5 @@
 ---
-title: S2 - Local performance pack - Omnichannel
+title: S2 - Bộ trình diễn cục bộ - Bộ giao diện đồ họa S2
 tags:
   - agent-training/local-pack
   - marketing
@@ -13,13 +13,13 @@ created: 2026-07-13
 last_updated: 2026-07-13
 ---
 
-# Local performance pack — Omnichannel
+# Bộ trình diễn địa phương — Mẫu ảnh
 
 > [!info] Đã mở
 > Tình huống 2 được mở sau khi S1 đạt release gate.
 
 - Ngân sách 8 tuần: 420 triệu VND.
-- Nguồn: Meta 7d-click/1d-view, TikTok 7d-click, Search data-driven, affiliate last-click, CRM coupon.
+- Ngu “Ngu “Nu trúng ” là: Meta Gật 7d-click/1d-view, TikTok 7d-click, Search-dot, avatate last-click, CRM sur.
 - 11% đơn OMS đã hủy/hoàn; dashboard kênh chưa trừ.
 - 58% branded-search click xảy ra trong 48 giờ sau creator post.
 - Một nhóm địa lý bị thiếu CRM match rate.
@@ -27,12 +27,12 @@ last_updated: 2026-07-13
 
 ## Dashboard exports — 8 tuần
 
-| Kênh | Spend (VND) | Reported conversions | Reported revenue (VND) | Attribution | Ghi chú |
+| Kênh | Spend (VND) | Reported conversions | Thu nhập đã báo cáo (VND) | Attribution | Ghi chú |
 |---|---:|---:|---:|---|---|
-| Meta | 126.000.000 | 1.120 | 406.000.000 | 7d click/1d view | Có modeled conversions |
+| Meta | 126.000.000 | 1.120 | 406.000.000 | Xem dạng cây Comment | Có modeled conversions |
 | TikTok | 98.000.000 | 910 | 322.000.000 | 7d click | Có assisted creator traffic |
-| Search | 84.000.000 | 860 | 301.000.000 | Data-driven | 58% branded clicks trong 48h sau creator post |
-| Affiliate | 52.000.000 | 540 | 177.000.000 | Last-click code | Code có thể được share ngoài publisher |
+| Search | 84.000.000 | 860 | 301.000.000 | Data-driven | 58% những cú nhấp chuột có nhãn chữ thập 48h pau cha đẻ post |
+| Affiliate | 52.000.000 | 540 | 177.000.000 | Mã nhấn chuột cuối cùng | Code có thể được share ngoài publisher |
 | CRM coupon | 20.000.000 | 410 | 131.000.000 | Coupon redemption | Có thể overlap với mọi paid channel |
 | Production/measurement | 40.000.000 | N/A | N/A | N/A | Không gán conversion trực tiếp |
 

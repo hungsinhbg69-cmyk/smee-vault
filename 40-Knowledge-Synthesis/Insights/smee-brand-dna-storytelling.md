@@ -1,5 +1,5 @@
 ---
-title: Smee Brand DNA — Storytelling Framework
+title: ADN của Sme Brand — Câu chuyện kể về khung hình
 slug: smee-brand-dna-storytelling
 category: knowledge
 tags:
@@ -15,7 +15,7 @@ sources:
 - memory/smee-marketing-story.md
 ---
 
-# 🦞 Smee Brand DNA — Storytelling Framework
+# ▪ ADN của bì thư Smee — Câu chuyện kể lại các khung hình
 
 > [!SUMMARY] Smee là thương hiệu storytelling do Linh sáng lập năm 2020, truyền lại cho Hùng. Triết lý cốt lõi: "Marketing là kể chuyện thật." Khác biệt: "chi tiết có hương vị" + công thức viết 4 bước + community "đội cứu hỏa".
 
@@ -65,7 +65,7 @@ Người đọc tự giác trả lời câu hỏi của người mới trong ph�
 |-----------|---------|---------|
 | Followers | 25.000+ | Đạt ngưỡng ảnh hưởng |
 | Đăng bài | 2-3 bài/tuần | Quality > quantity, research kỹ |
-| Tầm nhìn | "10.000 người áp dụng thấy kết quả" | Impact measured by action, not vanity metrics |
+| Tầm nhìn | "10.000 người áp dụng thấy kết quả" | Ảnh hưởng được đo bằng hành động, không phải kích thước phù phiếm |
 
 ## 7. CHUYỂN GIAO CHO HÙNG
 

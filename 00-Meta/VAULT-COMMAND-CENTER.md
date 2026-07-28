@@ -61,7 +61,7 @@ priority matches /.*/
 
 ## □ Dự án đang hoạt động - Bảng điều khiển
 
-**Plugins: dataview + kanban + metadata-menu**
+**Plugins: dataview +kanban + siêu dữ liệu-menu**
 
 ````dataview
 TABLE status as "Status", type as "Type", length(file.tags) as "Tags"
@@ -91,7 +91,7 @@ LIMIT 20
 
 ## □ Xem nhanh phân tích Vault
 
-**Plugin: charts + obsidian-mind-map + mermaid-tools + obsidian-icon-folder**
+**Plugin: biểu đồ + obsidian- Bản đồ tư duy + Công cụ Người cá + obsidian- Nhân vật chính**
 
 1. **Mở bất kỳ ghi chú nào → Bản đồ tư duy**: Ctrl+P -> "MindMap" (plugin obsidian-mind-map)  
 2. **Hiển thị biểu đồ trực tuyến**: dán khối ` ```mermaid ` (xem VAULT-ANALYTICS.md để biết mẫu)  
@@ -107,11 +107,11 @@ Xem `00-Meta/VAULT-ANALYTICS.md` cho định dạng chart.json đầy đủ và 
 | Bước | Plugin(s) | Hành động |
 |------|-----------|-------------|
 | Thu thập ghi chú | quickadd + templater + smart-connections | Ghi chú nguyên tử/thoáng qua tự động được tạo mới |
-| Đánh giá tuần | periodic-notes + calendar + tag-wrangler + tasks-plugin | Kiểm toán tuần đầy đủ với quét nhiệm vụ |
-| Theo dõi dự án | kanban + dataview + git + mermaid | Bảng Kanban + theo dõi sprint |
-| Đồng bộ & sao lưu | obsidian-git + remotely-save | Đồng bộ đám mây + lịch sử kiểm soát phiên bản |
-| Trực quan hóa dữ liệu | charts + mind-map + icon-folder | Bảng điều khiển phân tích + icon thư mục |
-| Tìm kiếm và kết nối | omnisearch + smart-connections + copilot | Tìm kiếm ngữ nghĩa + trò chuyện AI |
+| Đánh giá tuần | Ghi chú tuần hoàn + lịch và thẻplugin | Kiểm toán tuần đầy đủ với quét nhiệm vụ |
+| Theo dõi dự án | kanban + dataview + git + Người cá | Bảng Kanban + theo dõi sprint |
+| Đồng bộ & sao lưu | obsidian-git + từ xa-save | Đồng bộ đám mây + lịch sử kiểm soát phiên bản |
+| Trực quan hóa dữ liệu | sơ đồ + bộ trí- mảng và bộ tạo biểu tượng | Bảng điều khiển phân tích + icon thư mục |
+| Tìm kiếm và kết nối | omnisearch + các kết nối thông minh và phụ lái | Tìm kiếm ngữ nghĩa + trò chuyện AI |
 
 ---
 

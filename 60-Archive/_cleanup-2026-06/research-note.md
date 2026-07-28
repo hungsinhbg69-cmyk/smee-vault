@@ -10,32 +10,32 @@ tags: [zotero, research-paper]
 ---
 
 title: "{{paper_title}}"
-tags: [zotero, research-paper]
+thẻ: [zotero, giấy nghiên cứu]
 status: processed
-type: research-paper
+Kiểu:
 created: {{date}}
-tags: [vault-maintenance]
+thẻ: [sự tăng cân tạm thời]
 status: active
 type: reference
 last_updated: 2026-06-24
 source_url: 
 author: 
 year: 
-read_status: unread
+đọc_satus: chưa đọc
 priority: P3
 citation_key: 
 zotero_uri: 
 ---
 
 
-# Research Paper — Zotero Capture
+# Giấy nghiên cứu — Bắt cóc động vật
 
 ## Citation
 **Author(s):** {{author}}  
 **Year:** {{year}}  
 **Title:** {{paper_title}}  
-**Source URL:** `source_url` (template placeholder)
-**Zotero URI:** `zotero_uri` (template placeholder)
+**Source URL:** `source_url` (người giữ chỗ tạm thời)
+**Zotero URI:** `zotero_uri` (người giữ chỗ tạm thời)
 
 ## Key Findings
 
@@ -43,11 +43,11 @@ zotero_uri:
 ## Methodology
 
 
-## Relevance to Marketing/FB Ads
+## Có phù hợp với quảng cáo/FB Ads
 
 
-## Connections to Vault
-- (link related notes here)
+## Kết nối tới cổng
+- (Nói những ghi chú liên quan đến nhau ở đây)
 
 ---
-*Captured: {{date}} via Zotero sync — Layer 5 (Research Pipeline)*
+* Captable: {{date}} thông qua đồng bộ Zotero — Lớp 5 (Tìm ống dẫn)*

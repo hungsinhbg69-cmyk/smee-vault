@@ -1,5 +1,5 @@
 ---
-title: Resource Protocol - Local and Internet
+title: Giao thức tài nguyên - Internet và địa phươngStencils
 date: 2026-07-13
 tags:
   - agent-training
@@ -35,11 +35,11 @@ last_updated: 2026-07-13
 - Không ghi `SUCCESS` nếu output tool báo `failed`, rỗng hoặc sai trang.
 - Luôn giao phần local đã hoàn thành ngay cả khi web thất bại.
 
-## Gold calculations cho S1
+## Tính vàng cho S1
 
 Nguồn: [[S1 - Local brief - Sen May Sunscreen#Historical pilot — 14 ngày]].
 
-| Kênh | CPC | CAC/completed order | Gross dashboard ROAS |
+| Kênh | CPC | Thứ tự Bộ điều khiển/ hoàn thành | Bảng điều khiển thô |
 |---|---:|---:|---:|
 | Meta | 24.000.000 / 9.600 = **2.500** | 24.000.000 / 141 = **170.213** | 58.900.000 / 24.000.000 = **2,454** |
 | TikTok | 18.000.000 / 11.250 = **1.600** | 18.000.000 / 96 = **187.500** | 39.500.000 / 18.000.000 = **2,194** |
@@ -52,7 +52,7 @@ Nguồn: [[S1 - Local brief - Sen May Sunscreen#Historical pilot — 14 ngày]].
 - `Completed orders` là trường OMS sau 14 ngày; local pack không định nghĩa đầy đủ xử lý hoàn muộn.
 - Gross revenue chưa trừ hủy/hoàn và có thể lệch `completed × list price` do bundle/voucher.
 
-## Verified web snapshot — accessed 2026-07-13
+## Hình ảnh trang web đã được xác định — truy cập 2026-07-13
 
 > [!warning]
 > Snapshot dùng để huấn luyện, không thay thế kiểm tra hiệu lực pháp lý hoặc đọc lại tài liệu nền tảng khi triển khai thật.

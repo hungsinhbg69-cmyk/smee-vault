@@ -1,5 +1,5 @@
 ---
-title: "fb-bot-safety-rules"
+title: "Biểu hiện an toàn"
 slug: "fb-bot-safety-rules"
 category: knowledge
 tags: []
@@ -9,7 +9,7 @@ created: 2026-06-19
 last_updated: 2026-06-19
 ---
 
-# Facebook Bot Safety Rules
+# Facebook Các luật lệ an toàn lớn
 
 ## Related
 - [[Vault-MOC]] — central index
@@ -50,7 +50,7 @@ last_updated: 2026-06-19
 - 190: Token hết hạn (nhưng Page Token thì hiếm khi)
 - 4: Invalid request
 - 1: General error
-- 32: Page access issue
+- 32: Số trang truy cập
 
 ### 7. Best Practices
 - Test token trước khi dùng

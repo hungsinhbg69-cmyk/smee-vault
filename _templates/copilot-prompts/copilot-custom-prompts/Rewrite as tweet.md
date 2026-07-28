@@ -15,8 +15,8 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Rewrite {} as a single tweet with these requirements:
+Viết lại{} như một tweet duy nhất với những yêu cầu này:
     1. Maximum 280 characters
-    2. Use concise, impactful language
-    3. Maintain the core message
-    Return only the tweet text.
+    2. Dùng ngôn ngữ súc tích, có tác động
+    3. Giữ lại thông điệp cốt lõi
+    Chỉ nhắn tin qua tweet thôi.

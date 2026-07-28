@@ -11,18 +11,18 @@ last_updated: <%% tp.date.now("YYYY-MM-DD") %%>
 
 # 📋 Weekly Review — <%% tp.date.now("dddd, MMMM Do YYYY") %%>
 
-## ▸ Quick Actions (QuickAdd Macros)
+## ▪ Hành động nhanh chóngQuickAdd Macros)
 | Action | Macro | Description |
 |--------|-------|-------------|
-| 📥 Capture Note | `capture-new-note` | Auto frontmatter + smart-connections link |
-| 💭 Fleeting Thought | `capture-quick-thought` | Quick-capture to daily note |
-| 📊 Weekly Init | `review-weekly-init` | Open this review template |
+| 📥 Capture Note | `capture-new-note` | Tự động frontmatter liên kết thông minh |
+| 💭 Fleeting Thought | `capture-quick-thought` | Ghi chú nhanh mỗi ngày |
+| 📊 Weekly Init | `review-weekly-init` | Mở mẫu duyệt này |
 
 ---
 
-## ▸ Daily Notes Review (Past 7 Days)
+## ▪ Ghi chú mỗi ngày
 
-**Plugin: dataview + calendar** — Real-time scan qua daily notes
+**Plugin: dataview + lịch** — Quét thời gian thực qua ghi chú hàng ngày
 
 ```dataview
 LIST FROM "02-Daily"
@@ -31,7 +31,7 @@ WHERE file.name >= date("<%% tp.date.now("YYYY-MM-DD") %%>") - dur(6 days)
 SORT file.name DESC
 ```
 
-**Action:** Scan each daily note for captures that need promotion to atomic notes.
+**Action:** Quét mỗi ghi chú mỗi ngày để bắt những thứ cần được thăng tiến thành những ghi chú nguyên tử.
 
 ---
 
@@ -39,23 +39,23 @@ SORT file.name DESC
 
 **Plugins: quickadd + templater** — dùng macro `capture-quick-thought` để process
 
-### Unprocessed Items from 01-Inbox/
+### Bỏ xử lý mục từ 01- Inbox/
 ```dataview
 LIST FROM "01-Inbox"
 SORT file.mtime DESC
 ```
 
-- [ ] Move to correct PARA folder → update frontmatter  
-- [ ] Delete stale/fleeting items  
-- **Goal: Empty inbox before moving on**
+- [ ] Chuyển sang cập nhật PRA frontmatter  
+- [ ] Xoá mục cũ/ đang tìm kiếm  
+- **Goal: hộp rỗng trước khi chuyển đi**
 
 ---
 
-## ▸ Task Audit — obsidian-tasks-plugin + cmdr
+## _Tiếng nói công việc — obsidian- Những nhiệm vụ...plugin + cmdr
 
-**Plugin: obsidian-tasks-plugin** — All active tasks auto-listed
+**Plugin: obsidian- Những nhiệm vụ...plugin** — Tất cả các tác vụ hoạt động được liệt kê tự động
 
-### Overdue Tasks (TIGHTEST)
+### Làm quá tác vụ (TIẾNG THỞ LẠI)
 ```tasks
 not done
 is overdue
@@ -63,21 +63,21 @@ exclude id::
 group by file.path
 ```
 
-### This Week's Priority Tasks
+### Công việc ưu tiên trong tuần này
 ```tasks
 not done
 due during this week
 sort by priority
 ```
 
-**Action:** Pick ≤ 5 tasks for this week. Mark rest as deferred or delete.  
-**Quick Command (cmdr plugin):** `T+T` to convert selected text into task-item
+**Action:** Chọn 5 việc cho tuần này.  
+**Quick Command (cmdr plugin):** `T+T` để chuyển đổi văn bản đã chọn sang điều khiển
 
 ---
 
-## ▸ Projects Status — kanban + dataview
+## _ Quảng cáo địa vị dự án —kanban + dataview
 
-**Plugins: kanban + dataview + project-command-center**
+**Plugins:kanban + dataview + Điều khiển- giữa các dự án**
 
 ````dataview
 TABLE status as "Status", type as "Focus"
@@ -86,17 +86,17 @@ WHERE status = "active" OR status = "researching"
 SORT file.mtime DESC
 ````
 
-For each active project, answer:
-1. ✅ What's the NEXT action on this project?
-2. **Plugin: kanban** — drag into kanban board columns (Ready → Doing → Review)
+Đối với mỗi dự án hoạt động, trả lời:
+1. Hành động NEXT trong dự án này là gì?
+2. **Plugin:kanban** — kéo vào cột bảngkanban (sẵn sàng làm bài ôn lại)
 
 ---
 
-## ▸ Tag Hygiene — tag-wrangler
+## _Gắt thẻ Hygiene — Thợ điều khiển thẻ
 
-**Plugin: tag-wrangler** — Merge, rename, cleanup tags trong Batch Mode
+**Plugin:: card-wrangler** — trộn, thay đổi tên, dọn dẹp thẻ trong Batch mode
 
-### Recent Tag Usage (last 14 days)
+### Thẻ gần đây ( 14 ngày qua)
 ```dataview
 TABLE file.name as "Note"
 WHERE any(file.tags, t => date("<%% tp.date.now("YYYY-MM-DD") %%>") - dur(14 days) < file.mtime)
@@ -105,15 +105,15 @@ SORT file.mtime DESC
 LIMIT 50
 ```
 
-- [ ] Merge misspelled tags (#Status/draft → #status/draft)  
-- [ ] Combine redundant concepts via tag-wrangler  
-- [ ] Archive unused tags from last quarter
+- [ ] Các thẻ sai chính tả hợp nhất (#Status/draft #status/draft)  
+- [ ] Kết hợp các khái niệm thừa dạng qua phần đuôi thẻ  
+- [ ] Kho lưu các thẻ không dùng từ quý cuối
 
 ---
 
-## ▸ Orphaned Notes Scan
+## _Các ghi chú mồ côi bị lỗi
 
-**Plugin: smart-connections + omnisearch** — find notes without backlinks
+**Plugin: kết nối thông minh + omnisearch** — tìm ghi chú mà không có hậu thuẫn
 
 ```dataview
 TABLE length(file.outlinks) as "Outbound Links"
@@ -123,36 +123,36 @@ SORT length(file.outlinks) ASC
 LIMIT 20
 ```
 
-**Action:** Create backlinks from Smart Connections suggestions. Every new note MUST have ≥1 outbound link (Protocol Section 6).
+**Action:** Tạo các đường dẫn hậu phương từ Smart Connections Mọi dấu hiệu mới phải có liên kết _1 ra (Pitocol  6).
 
 ---
 
-## ▸ Vault Quality — git + metadata-menu
+## _ Chất lượng cổng vào — git + siêu dữ liệu
 
-**Plugins: obsidian-git + metadata-menu + remotely-save**
+**Plugins: obsidian-git + giao diện siêu dữ liệu + từ xa - stave**
 
-- [ ] Git status clean? → commit if needed
-- [ ] Encoding check with **metadata-extractor** export
-- [ ] Broken links via **omnisearch**: paste `[[` to find dead refs
-- [ ] File growth trend: review **VAULT-ANALYTICS.md** for charts
+- [ ] _Việc rửa sạch trạng thái Git?
+- [ ] Bộ mã kiểm tra với **metadata-expactor**
+- [ ] Liên kết bị đứt qua **omnisearch**: dán `[[` để tìm những trọng tài đã chết
+- [ ] Xu hướng tăng trưởng tập tin: xem lại **VULT-ALYTS.md** để tìm biểu đồ
 
 ---
 
 ## ▸ Reflections
 
-### What worked well this week:
+### Tuần này, những gì đã làm rất tốt:
 
 
-### What didn't work:
+### Cái gì không thành công:
 
 
-### Insight of the week:
+### Ý nghĩa của tuần:
 
 
-### Next week priorities (max 3):
+### Tuần tới hãy ưu tiên (x 3):
 
 
 
 ---
 
-*Weekly Review Template · Tích hợp 14+ plugins: periodic-notes, calendar, tasks-plugin, dataview, tag-wrangler, kanban, templater, quickadd, smart-connections, omnisearch, obsidian-git, metadata-menu, remotely-save, cmdr*
+*Chúng tôi có thể ôn lại mẫu · Tích hợ 14+ bổ sung: tuần hoàn- chú thích, lịch, công việc-plugin dataviewNgười đánh bắt bắt, người Anh, templater quickaddMối liên hệ thông minh, omnisearch obsidian-git, siêu dữ liệu-menu, từ xa-save, cmtr*

@@ -27,7 +27,7 @@ Prompt caching không chỉ là "tốc độ" — nó là **kiến trúc chi ph�
 
 ### Cache Routing
 - Request được route đến server dựa trên **hash của prefix đầu prompt** (~256 tokens đầu)
-- Exact prefix match → cache hit
+- Gặp lỗi khi đọc tập tin «% 1 ».
 - Không match → full processing + cache prefix cho lần sau
 
 ### Điều Kiện Kích Hoạt
@@ -35,7 +35,7 @@ Prompt caching không chỉ là "tốc độ" — nó là **kiến trúc chi ph�
 - Requests < 1024 tokens: `cached_tokens` = 0
 - Rate limit ~15 requests/minute per unique prefix (vượt quá → overflow)
 
-### Cache Retention Policies
+### Những chính sách chính trị được tạm giữ
 
 | Policy | Models Hỗ Trợ | Thời Gian | Cơ Chế |
 |--------|--------------|-----------|--------|
@@ -91,7 +91,7 @@ Ngân sách: {budget}
 
 ## 🔧 Advanced Techniques
 
-### 1. prompt_cache_key Parameter
+### 1. nhắc_ nhớ_cache_key tham số
 ```json
 {
   "model": "gpt-5.5",
@@ -103,7 +103,7 @@ Ngân sách: {budget}
 - Dùng khi nhiều requests share common prefix nhưng khác model/params
 - **Quan trọng:** Giữ mỗi unique prefix-key combo < 15 req/min
 
-### 2. Structured Output + Caching
+### 2. kết xuất đã cấu trúc và kéo
 Schema structured output là **prefix** của system message → được cache cùng lúc.
 ```json
 {
@@ -113,16 +113,16 @@ Schema structured output là **prefix** của system message → được cache 
 }
 ```
 
-### 3. Image Tokenization Consistency
+### 3. Tính chất hiệu chỉnh ảnh
 Images phải có `detail` parameter giống nhau giữa requests:
 ```json
 {"type": "image_url", "image_url": {"url": "...", "detail": "high"}}
 ```
 Thay đổi `detail` → khác tokenization → cache miss.
 
-## 📈 Monitoring Cache Performance
+## 📈 Theo dõi hiệu suất bộ nhớ đệm
 
-Theo response usage:
+Đáp ứng theo:
 ```json
 {
   "usage": {
@@ -137,7 +137,7 @@ Theo response usage:
 
 **Metrics cần track:**
 - `cached_tokens / prompt_tokens` ratio → target > 80%
-- Cache hit rate trong OpenAI Usage Dashboard
+- Cache hit tỷ lệ trong OpenAI sử dụng bảng
 - Latency delta giữa cached vs non-cached requests
 
 ## ⚠️ Common Mistakes
@@ -160,4 +160,4 @@ Theo response usage:
 → Chỉ cần khi >15 req/min cho cùng prefix. Với Hùng's workflow (Facebook bot comments), thường <5 req/min → tự động routing đủ. Dùng khi scale lên batch processing.
 
 ---
-*Research date: 2026-06-18 | Sources: OpenAI Prompt Caching docs, API reference*
+*R năng lượng ngày: 2026-06-18 Nguồn tin: OpenAI nhắc nhở các bác sĩ đau đớn, API tham chiếu*

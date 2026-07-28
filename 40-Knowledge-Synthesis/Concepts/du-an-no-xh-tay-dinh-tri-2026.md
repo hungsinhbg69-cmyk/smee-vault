@@ -17,7 +17,7 @@ cited_count: 0
 
 # 🏗️ Dự án NOXH Tây Dĩnh Trì — 704 căn, phường Bắc Giang
 
-## One Idea Summary
+## Một tóm tắt ý tưởng
 Dự án NOXH tại Khu đô thị mới phía Tây Dĩnh Trì, phường Bắc Giang chính thức mở bán 704 căn từ 15/6/2026 — giá 21,9 tr/m² (đã VAT), tòa 25 tầng, hoàn thành tháng 8/2027.
 
 ## Explanation

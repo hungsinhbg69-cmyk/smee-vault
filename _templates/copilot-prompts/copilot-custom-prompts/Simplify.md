@@ -15,4 +15,4 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Simplify {} to a 6th-grade reading level (ages 11-12). Use simple sentences, common words, and clear explanations. Maintain the original key concepts. Return only the simplified text.
+Đơn giản hóa <} thành mức độ đọc lớp 6 (từ 11-12). Dùng câu đơn giản, từ thông thường và giải thích rõ ràng. Duy trì khái niệm gốc. Chỉ cần ghi lại đoạn đơn giản.

@@ -21,7 +21,7 @@ Tệp này là nguồn hướng dẫn cấp vault cho mọi agent làm việc tr
 | 20 | `20-Areas/` | Trách nhiệm duy trì liên tục |
 | 30 | `30-Resources/` | Nguồn tham khảo theo domain |
 | 40 | `40-Knowledge-Synthesis/` | Concepts, Frameworks, Insights, tri thức đã tổng hợp |
-| 50 | `50-Reviews/` | Weekly/monthly/quarterly reviews |
+| 50 | `50-Reviews/` | Xem xét hàng tuần/tháng |
 | 60 | `60-Archive/` | Nội dung hoàn tất, cũ hoặc bị thay thế |
 | 70 | `70-Outputs/` | Thành phẩm sẵn dùng/xuất bản |
 | — | `_templates/`, `_scripts/` | Template và automation; không chứa ghi chú kiến thức |

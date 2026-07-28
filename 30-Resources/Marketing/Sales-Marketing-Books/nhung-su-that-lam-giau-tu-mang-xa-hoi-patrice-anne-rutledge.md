@@ -1,5 +1,5 @@
 ---
-title: Nhung-su-that-lam-giau-tu-mang-xa-hoi-patrice-anne-rutledge
+title: N đói-su-gau-tu-mang-xa-hoi-pati-anne-rutedge
 slug: nhung-su-that-lam-giau-tu-mang-xa-hoi-patrice-anne-rutledge
 category: resource
 tags:

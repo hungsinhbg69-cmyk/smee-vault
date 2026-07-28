@@ -12,7 +12,7 @@ tags: [real-estate, yen-the-golden-hill]
 # {íện Thế Golden Hill — Dau Tư & An Cư}
 
 > [!NOTE] TÓM CHẮT NHANH
-> **Yen The Golden hill phu hop nhât voi nhóm khách hàng mua để an cư dài han hoặc đầu cơ tích lũy trên timeline từ 3–5 năm tro lên.** dự án KHÔNG phuHop cho dầu cứ ngắn hạn (12–18 thang) vì phân khúc gia thâp, tốc đô tang giá cham nhưng ổn dinh và ben vũng hơn so voi các du an BDS cao cap vùng ven.
+> **Yên Thế Golden Hill phù hợp nhất với nhóm khách hàng mua để an cư dài hạn hoặc đầu tư tích lũy trong 3–5 năm trở lên.** Dự án KHÔNG phù hợp để đầu cơ ngắn hạn (12–18 tháng) vì thuộc phân khúc giá thấp, tốc độ tăng giá chậm nhưng ổn định và bền vững hơn các dự án bất động sản cao cấp vùng ven.
 
 ---
 
@@ -26,7 +26,7 @@ tags: [real-estate, yen-the-golden-hill]
 | **4:hộ gia đình kêt hop kinh doanh nhỏ + ở tat shophouse** | Cần không gian sông ~50–70m2, tầng trết làm của hàng / quán ăn nhỏ / kiosk bao tap hoa | vưa là nhà chinh — vùa có mat bang thuong mai mat tiên TL292 để mo shop. |
 
 ## NHẬN XÉT TỐNG QUAN VỀ TIỀM NĂNG ĐẦU TƯ
-> **Yen The Golden hill phu hop nhât voi nhóm khách hàng mua dể an cư dài han hoặc đầu cơ tích lũy trên timeline từ 3–5 năm tro lên.** Dự an KHÔNG phuHop cho dầu cứ ngắn han (12–18 thang) vì phân khúc giá thâp, tốc đô tang giá cham nhưng ổn định và ben vũng hơn so voi các du an BDS cao cap vùng ven.
+> **Yên Thế Golden Hill phù hợp nhất với nhóm khách hàng mua để an cư dài hạn hoặc đầu tư tích lũy trong 3–5 năm trở lên.** Dự án KHÔNG phù hợp để đầu cơ ngắn hạn (12–18 tháng) vì thuộc phân khúc giá thấp, tốc độ tăng giá chậm nhưng ổn định và bền vững hơn các dự án bất động sản cao cấp vùng ven.
 
 ---
 ![[Yen-The-Golden-Hill-Index]]

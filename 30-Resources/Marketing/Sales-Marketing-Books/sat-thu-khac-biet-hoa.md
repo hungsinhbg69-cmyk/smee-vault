@@ -1,5 +1,5 @@
 ---
-title: Sat thu khac biet hoa
+title: Sat thoc biet hoa
 slug: sat-thu-khac-biet-hoa
 category: resource
 tags:

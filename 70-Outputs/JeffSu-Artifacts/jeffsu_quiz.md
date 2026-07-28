@@ -1,5 +1,5 @@
 ---
-title: "JeffSu Productivity Quiz"
+title: "JeffSuutism Quiz"
 slug: "jeffsu-productivity-quiz"
 category: output
 tags: [quiz, jeffsu, productivity]
@@ -10,267 +10,267 @@ last_updated: 2026-06-24
 ---
 
 {
-  "title": "Productivity Quiz",
+  "Danh hiệu" "The Prewetition Quiz",
   "questions": [
     {
-      "question": "According to the source material, what is the defining characteristic that transforms an AI workflow into an AI agent?",
+      " đầy nghi ngờ" "Theo nguồn tài liệu nguồn, đặc điểm xác định biến đổi một AI làm việc thành một tác nhân AI là gì?"
       "answerOptions": [
         {
-          "text": "The integration of Retrieval Augmented Generation (RAG) for data fetching.",
+          "Kinh thánh" là "Sự kết hợp giữa thế hệ tái lập (RAG) để lấy dữ liệu."
           "isCorrect": false,
-          "rationale": "RAG is a specific type of logic for looking up information, but it can exist within a human-directed workflow without agentic autonomy."
+          "Crationale" là một kiểu logic đặc biệt để tìm thông tin, nhưng nó có thể tồn tại trong dòng chảy công việc được hướng dẫn của con người mà không cần sự tự chủ của tác nhân."
         },
         {
-          "text": "The replacement of the human decision-maker with a Large Language Model (LLM).",
+          "Kinh nghiệm": "Sự thay thế người đưa ra quyết định bằng mô hình ngôn ngữ lớn"LLM) ..
           "isCorrect": true,
-          "rationale": "The critical shift occurs when the LLM becomes the entity responsible for reasoning out the steps and deciding which actions to take to reach a goal autonomously."
+          "Piale": "Các ca quan trọng xảy ra khi các LLM trở thành thực thể chịu trách nhiệm cho lý luận ra các bước và quyết định những hành động để đạt được một mục tiêu tự động. "
         },
         {
-          "text": "The addition of more than three steps in the automated sequence.",
+          "Kinh nghiệm" "Sự bổ sung của hơn ba bước trong chuỗi tự động."
           "isCorrect": false,
-          "rationale": "A workflow can have thousands of steps, but if a human predefines every path and decision, it remains a workflow rather than an agent."
+          "Priale": "Một dòng chảy công việc có thể có hàng ngàn bước, nhưng nếu một con người định trước mọi con đường và quyết định, nó vẫn là một dòng chảy công việc hơn là một tác nhân."
         },
         {
-          "text": "Connecting the model to an external API like Slack or Google Sheets.",
+          "Kinh nghiệm" là "Tặng mô hình cho một bên ngoài" API như Slack hoặc Google Shets."
           "isCorrect": false,
-          "rationale": "While agents use tools, simply connecting an API is a common feature of standard workflows where the path is still predefined by a human."
+          "Priale": "Trong khi các đặc vụ sử dụng công cụ, đơn giản là kết nối một API là một tính năng phổ biến của dòng làm việc tiêu chuẩn nơi con đường vẫn được định nghĩa trước bởi con người."
         }
       ],
-      "hint": "Consider who or what is responsible for the 'reasoning' and 'acting' steps in the process."
+      "Hãy nghĩ xem ai hay cái gì chịu trách nhiệm cho việc "làm" và "hành động" bước trong quá trình đó."
     },
     {
-      "question": "When utilizing the 'Present, Past, and Future' framework for the 'Tell me about yourself' interview question, what is the primary goal of the 'Future' section?",
+      "Câu hỏi" "Khi sử dụng khuôn khổ 'Thuyết phục, quá khứ, và tương lai cho các 'cho tôi biết về bạn' câu hỏi phỏng vấn, mục tiêu chính của phần 'Future' là gì?"
       "answerOptions": [
         {
-          "text": "To list the specific salary expectations and benefits you hope to achieve.",
+          "Kinh nghiệm" "Để liệt kê những kỳ vọng về lương cụ thể và lợi ích mà bạn mong muốn đạt được."
           "isCorrect": false,
-          "rationale": "Salary discussions are usually reserved for later stages and do not align with the purpose of a professional introduction."
+          "Phắc": "Những cuộc thảo luận về tôn giáo thường được dành riêng cho những giai đoạn sau và không phù hợp với mục đích của một giới thiệu chuyên nghiệp."
         },
         {
-          "text": "To recount all previous job experiences chronologically.",
+          "Kinh nghiệm" "Để kể lại tất cả các công việc trước đây trải nghiệm thời gian."
           "isCorrect": false,
-          "rationale": "The 'Past' section is reserved for relevant experience; listing everything chronologically can become tedious and lose the interviewer's interest."
+          "Piale": "Chương 'Past' được dành riêng cho những trải nghiệm có liên quan; liệt kê mọi thứ theo thứ tự thời gian có thể trở nên tẻ nhạt và mất đi sự quan tâm của người phỏng vấn."
         },
         {
-          "text": "To align your career trajectory with the specific requirements of the new role.",
+          "Kinh nghiệm" "Để thẳng hàng quỹ đạo sự nghiệp của bạn với những yêu cầu cụ thể của vai trò mới."
           "isCorrect": true,
-          "rationale": "This section should demonstrate a logical connection between your current path and why this specific role is the right next step for both you and the company."
+          "Priale": "Điều này sẽ chứng minh một sự kết nối hợp lý giữa con đường hiện tại của bạn và tại sao vai trò cụ thể này là bước tiếp theo của cả bạn và công ty."
         },
         {
-          "text": "To ask the interviewer five clarifying questions about the company culture.",
+          "Kinh nghiệm" "Để hỏi người phỏng vấn năm câu hỏi làm sáng tỏ văn hóa công ty."
           "isCorrect": false,
-          "rationale": "While asking questions is important, it usually occurs at the end of the interview, not within the introductory 'Tell me about yourself' response."
+          "Piale": "Trong khi đặt câu hỏi là quan trọng, nó thường xảy ra ở cuối cuộc phỏng vấn, chứ không phải trong giới thiệu "Hãy nói cho tôi về phản ứng của bạn."
         }
       ],
-      "hint": "Think about how you can prove to the hiring manager that you are a 'valuable asset' to their mission."
+      "Hãy nghĩ về cách bạn có thể chứng minh cho người quản lý thuê bạn là một tài sản đáng giá" cho nhiệm vụ của họ.
     },
     {
-      "question": "Google recruiters recommend the 'XYZ' framework for resume bullet points. Which of the following best represents this structure?",
+      "Những người tuyển mộ đã đề nghị khuôn khổ 'XYZ' cho những điểm tiếp tục.
       "answerOptions": [
         {
-          "text": "Executed X, Managed Y, and Supervised Z.",
+          " văn bản" : "X, quản lý Y, và Supervised Z."
           "isCorrect": false,
-          "rationale": "This merely lists tasks without quantifying the impact or detailing the specific methods used to achieve results."
+          "Priale": "Điều này chỉ liệt kê các nhiệm vụ mà không định lượng tác động hoặc chi tiết các phương pháp cụ thể sử dụng để đạt được kết quả."
         },
         {
-          "text": "Accomplished X, as measured by Y, by doing Z.",
+          "Kinh nghiệm": "X, như được đo bởi Y, bằng cách làm Z."
           "isCorrect": true,
-          "rationale": "This framework forces the applicant to showcase specific impact through data while explaining the actions taken to reach that outcome."
+          "Priale": "Cái khung này buộc ứng viên phải hiển thị tác động cụ thể thông qua dữ liệu trong khi giải thích các hành động để đạt được kết quả đó."
         },
         {
-          "text": "X years of experience in Y industry using Z tools.",
+          "Kinh nghiệm" "X năm kinh nghiệm trong ngành Y sử dụng công cụ Z."
           "isCorrect": false,
-          "rationale": "This is a summary of qualifications rather than a specific achievement-oriented bullet point describing a project's success."
+          "Priale": "Đây là bản tóm tắt về các tiêu chuẩn hơn là một điểm bắn mục tiêu cụ thể mô tả thành công của dự án."
         },
         {
-          "text": "Optimized X, Streamlined Y, and Automated Z.",
+          "Kinh thánh": "X, luồng đường thẳng Y, và Z tự động hóa."
           "isCorrect": false,
-          "rationale": "While using action verbs is good, this lacks the 'measured by' component required to provide credible evidence of success."
+          "Piale": "Trong khi sử dụng động từ hành động là tốt, thiếu thành phần "được bảo đảm" cần thiết để cung cấp bằng chứng đáng tin cậy về thành công."
         }
       ],
-      "hint": "The framework focuses on highlighting results first, followed by the metric and the action."
+      "Trật cơ tập trung vào kết quả tô sáng trước tiên, sau đó là đo lường và hành động."
     },
     {
-      "question": "In the context of 'Inbox Zero,' what is the purpose of the 'Waiting' label?",
+      "Câu hỏi" "Trong bối cảnh của "Inbox Zero", mục đích của nhãn "chờ đợi" là gì?"
       "answerOptions": [
         {
-          "text": "For emails that require a response taking more than two minutes.",
+          "Kinh nghiệm" "Để email cần một phản hồi mất hơn hai phút."
           "isCorrect": false,
-          "rationale": "Emails requiring more than two minutes of your own action are typically labeled 'Follow-up'."
+          "Priale" : "Các email yêu cầu hơn 2 phút hành động của bạn thường được dán nhãn "Theo dõi"
         },
         {
-          "text": "For newsletters or articles you intend to read through later in the week.",
+          "Kinh nghiệm" "Để đọc tin tức hoặc bài báo bạn định đọc sau này trong tuần."
           "isCorrect": false,
-          "rationale": "Long-form reading materials are categorized under a 'Read through' bucket to keep the active inbox clear."
+          "Priale": "Các vật liệu đọc dài dạng được phân loại dưới một "Đọc qua" xô để giữ cho hoạt động trong hộp rõ ràng."
         },
         {
-          "text": "For tasks you have delegated to others but for which you remain responsible.",
+          "Kinh nghiệm": "Bạn đã giao phó cho người khác nhưng vì thế bạn vẫn phải chịu trách nhiệm."
           "isCorrect": true,
-          "rationale": "This label ensures you track the progress of items you have sent to someone else so that you can follow up if a deadline is missed."
+          "Priale": "Đây là nhãn đảm bảo bạn theo dõi tiến trình của các mục bạn gửi cho người khác để bạn có thể theo dõi nếu có thời hạn bị bỏ lỡ."
         },
         {
-          "text": "For confirmation emails and invoices that need to be archived for tax purposes.",
+          " văn bản" : "Để xác nhận email và hóa đơn cần được lưu trữ cho mục đích thuế."
           "isCorrect": false,
-          "rationale": "Invoices and documents needed for long-term record-keeping are better suited for a 'Reference' label or automated filters."
+          "Tặng tiền" : "Các tài liệu và hóa đơn cần thiết cho việc ghi âm dài hạn sẽ phù hợp hơn với một nhãn "Loyution" hoặc bộ lọc tự động."
         }
       ],
-      "hint": "Consider the status of a project when the next action depends on a colleague."
+      "Hãy xem xét tình trạng của một dự án khi hành động tiếp theo phụ thuộc vào đồng nghiệp."
     },
     {
-      "question": "Which Mac application acts as a 'holding bay,' allowing users to combine different file types into a single package for transfer?",
+      "Câu hỏi" "Một ứng dụng Mac nào hoạt động như một "Becking Bay", cho phép người dùng kết hợp các loại tập tin khác nhau thành một gói đơn để chuyển giao?"
       "answerOptions": [
         {
           "text": "Moom",
           "isCorrect": false,
-          "rationale": "Moom is specifically designed for window management and snapping windows into pre-arranged positions."
+          "Phật" : "Moom được thiết kế đặc biệt cho quản lý cửa sổ và chụp cửa sổ vào vị trí đã định trước."
         },
         {
           "text": "Alfred",
           "isCorrect": false,
-          "rationale": "Alfred is a Spotlight replacement used for searching, snippets, and clipboard history rather than file packaging."
+          "Phật" : "Alfred là một sự thay thế bằng điểm đèn, dấu chấm, và lịch sử bảng tạm thay vì bao bọc tập tin."
         },
         {
-          "text": "Drop Zone 4",
+          "Kinh thánh" là "Tách bốn"
           "isCorrect": true,
-          "rationale": "This app allows users to drag various files into a grid or drop bar to collect and eventually move them as a single group."
+          "Priale": " Ứng dụng này cho phép người dùng kéo các tập tin vào một thanh nhỏ hoặc thả để thu thập và cuối cùng di chuyển chúng như một nhóm đơn lẻ."
         },
         {
-          "text": "App Cleaner",
+          "Kinh nghiệm" "App Cleaner",
           "isCorrect": false,
-          "rationale": "App Cleaner's primary function is the thorough uninstallation of applications and their associated hidden files."
+          "Priale": "Nupp Cleaner" (Nghề lau dọn) là chưa cài đặt kỹ lưỡng các ứng dụng và các tập tin bị ẩn tương ứng."
         }
       ],
-      "hint": "This app is one of Jeff's favorites for dragging a file and airdropping it to an iPhone or iPad."
+      "Hint": " Ứng dụng này là một trong những ứng dụng yêu thích của Jeff kéo một tập tin và thả nó vào một iPhone hoặc iPad."
     },
     {
-      "question": "According to the 'Introvert's Guide to Networking,' what is the 'Yes, and' method used for?",
+      "Câu hỏi" "Theo hướng dẫn mạng" phương pháp "Vâng" và "được dùng cho" là gì?
       "answerOptions": [
         {
-          "text": "A way to negotiate salary after a successful interview process.",
+          "Kinh nghiệm" "Một cách để thương lượng lương sau một quá trình phỏng vấn thành công."
           "isCorrect": false,
-          "rationale": "The 'Yes, and' strategy is specifically described as a tool for initial outreach and building rapport online."
+          "Priale": "Có, và" chiến lược được mô tả đặc biệt như là một công cụ cho sự tiếp cận ban đầu và xây dựng mối quan hệ trực tuyến."
         },
         {
-          "text": "Structuring a thoughtful comment on a public post to add value to the author.",
+          "Kinh nghiệm" "Hãy suy nghĩ sâu sắc về một bài viết công cộng để thêm giá trị cho tác giả."
           "isCorrect": true,
-          "rationale": "The 'Yes' affirms the original post, while the 'and' builds on it with a personal anecdote, depositing 'virtual currency' into the relationship."
+          "Piale": "Có" khẳng định vị trí gốc, trong khi "và" xây dựng trên nó với một câu chuyện cá nhân, gửi tiền tệ "có tính cách" vào mối quan hệ."
         },
         {
-          "text": "A technique for answering behavioral interview questions about conflict.",
+          "Kinh nghiệm" "Một kỹ thuật để trả lời các câu hỏi phỏng vấn hành vi về xung đột."
           "isCorrect": false,
-          "rationale": "Behavioral questions typically use frameworks like STAR or CARL to provide structured examples of past performance."
+          "Priale": "Những câu hỏi mang tính bạo lực thường sử dụng các khuôn khổ như sao băng hay CL để cung cấp những ví dụ cấu trúc về hiệu suất trong quá khứ."
         },
         {
-          "text": "A method for confirming Google Calendar events with senior leadership.",
+          "Kinh nghiệm" "Một phương pháp để xác nhận lịch Google với sự lãnh đạo cấp cao."
           "isCorrect": false,
-          "rationale": "Confirming events usually involves standard invitations or publishing events, not this specific social engagement framework."
+          "Chuyến đi": "Những sự kiện xác nhận thường bao gồm những lời mời hoặc sự kiện xuất bản thông thường, chứ không phải khuôn khổ xã hội nhất định này."
         }
       ],
-      "hint": "This approach is designed to help introverts add value from 'behind a computer screen'."
+      "Chỉ" là: "Cách tiếp cận này được thiết kế để giúp người hướng nội thêm giá trị từ "khi có màn hình máy tính"
     },
     {
-      "question": "What is a 'Social Currency' deposit in the context of professional networking?",
+      "Câu hỏi" là gì? "Sự ký thác tiền tệ" trong bối cảnh mạng lưới chuyên nghiệp?"
       "answerOptions": [
         {
-          "text": "Paying for a mentor's lunch during an informational interview.",
+          "Kinh nghiệm" "trả tiền cho bữa trưa của một cố vấn trong một cuộc phỏng vấn thông tin."
           "isCorrect": false,
-          "rationale": "While a nice gesture, social currency refers to the psychological value built through helpfulness and engagement rather than monetary payment."
+          "Priale": "trong khi một cử chỉ tốt đẹp, tiền tệ xã hội đề cập đến giá trị tâm lý được xây dựng thông qua hỗ trợ và cam kết hơn là thanh toán tiền."
         },
         {
-          "text": "Providing positive, thoughtful engagement before asking for a favor.",
+          "Kinh nghiệm" "Đấu lại một cuộc đính hôn tích cực, chu đáo trước khi yêu cầu một ân huệ."
           "isCorrect": true,
-          "rationale": "Engaging with an author's work or providing insights builds a positive balance in the 'relationship bank,' making them more likely to help you later."
+          "Phật giá" "Hãy nói với tác giả của tác giả hoặc cung cấp sự hiểu biết xây dựng một sự cân bằng tích cực trong ngân hàng "sự quan hệ" làm cho họ có thể giúp bạn sau này."
         },
         {
-          "text": "Referring three or more candidates to a single recruiter at once.",
+          "Kinh nghiệm" "cho phép 3 ứng cử viên hay nhiều người hơn một lượt tuyển."
           "isCorrect": false,
-          "rationale": "Mass referrals without a prior relationship can often be seen as inauthentic or spammy by recruiters."
+          "Piale": "Mass referrals mà không có mối quan hệ trước đây thường có thể được xem là không xác thực hoặc thư giãn bởi những người tuyển dụng."
         },
         {
-          "text": "Updating your LinkedIn profile to include relevant keywords.",
+          " văn bản" : " xác định liên kết của bạn trong hồ sơ bao gồm các từ khóa liên quan."
           "isCorrect": false,
-          "rationale": "Updating your own profile improves your searchability for recruiters but does not build direct rapport with a specific individual."
+          "Piale": "Việc nâng cao hồ sơ riêng của bạn cải thiện khả năng tìm kiếm của bạn cho tuyển dụng nhưng không xây dựng mối quan hệ trực tiếp với một cá nhân cụ thể."
         }
       ],
-      "hint": "It relates to the 'rule of reciprocity' and making a request feel like a fair exchange."
+      "Hìm": "Nó liên quan đến "luật tương đối" và làm cho yêu cầu có cảm giác như một cuộc trao đổi công bằng."
     },
     {
-      "question": "When planning an event, Jeff Su recommends using 'Waves' for communications. What is the primary purpose of 'Wave 2' for confirmations?",
+      "Câu hỏi" "Khi lên kế hoạch một sự kiện, Jeff Su đề nghị sử dụng "Waves" để liên lạc. mục đích chính của 'Wave 2' để xác nhận?"
       "answerOptions": [
         {
-          "text": "To send the initial invitation to the primary guest list.",
+          "Kinh nghiệm" là "Để gửi lời mời đầu tiên tới danh sách khách mời chính."
           "isCorrect": false,
-          "rationale": "The initial outreach is the 'Invitation' phase, which happens before confirmations are sent."
+          "Piale": "Sự tiếp cận ban đầu là giai đoạn "sự sống sót", điều xảy ra trước khi xác nhận được gửi."
         },
         {
-          "text": "To follow up with 'unreliable' guests who responded late to the invitation.",
+          "Kinh nghiệm" là "Theo dõi những vị khách "không thể chấp nhận" những người đã trả lời lời lời lời mời trễ."
           "isCorrect": true,
-          "rationale": "Wave 1 handles early responders, while Wave 2 ensures that guests who confirmed closer to the deadline still receive the necessary event details."
+          "Pilole": "Wave 1 xử lý các phản ứng sớm, trong khi Wave 2 đảm bảo rằng khách xác nhận gần thời hạn nhất vẫn nhận được các chi tiết cần thiết."
         },
         {
-          "text": "To share teaser images of the cocktail menu and venue.",
+          "Kinh nghiệm" "Để chia sẻ hình ảnh của thực đơn cocktail và địa điểm."
           "isCorrect": false,
-          "rationale": "Sharing teasers to build excitement is the objective of the 'Reminder' phase, not the 'Confirmation' phase."
+          "Pi kịch": "Những kẻ trêu chọc để tạo nên sự phấn khích là mục tiêu của giai đoạn 'Render', không phải là giai đoạn 'Sự khẳng định'."
         },
         {
-          "text": "To apologize to guests who were not able to be accommodated.",
+          "Kinh nghiệm" "Để xin lỗi khách không thể thích nghi được."
           "isCorrect": false,
-          "rationale": "Event planning typically focuses on managing confirmed attendees rather than formal rejection waves for personal events."
+          "Piale": "Việc lên kế hoạch thường tập trung vào quản lý các khách tham dự được xác nhận thay vì chính thức từ chối cho các sự kiện cá nhân."
         }
       ],
-      "hint": "Consider the different response speeds of guests like 'Jeff' versus 'Elon'."
+      "Hãy nghĩ đến tốc độ phản ứng khác nhau của khách như "Jeff" và "Elon".
     },
     {
-      "question": "Which tool is best used as a 'search scalpel' to verify specific facts quickly with up-to-date information?",
+      "Câu hỏi" "Công cụ nào được sử dụng tốt nhất như là "tìm dao mổ" để xác minh các sự kiện cụ thể nhanh chóng với thông tin cập nhật?"
       "answerOptions": [
         {
           "text": "Claude",
           "isCorrect": false,
-          "rationale": "Claude is better suited for high-quality drafting and code rather than real-time fact-fetching."
+          "Cloale": "Claude là tốt hơn cho việc soạn thảo và mã chất lượng cao hơn so với thực tế thời gian thực."
         },
         {
           "text": "NotebookLM",
           "isCorrect": false,
-          "rationale": "NotebookLM is designed to answer questions strictly from provided source documents to prevent hallucinations."
+          "Priale": "NoebookLM được thiết kế để trả lời các câu hỏi hoàn toàn từ các tài liệu nguồn cung cấp để ngăn chặn ảo giác."
         },
         {
-          "text": "Perplexity AI",
+          "Kinh nghiệm" "Perplexity AlI",
           "isCorrect": true,
-          "rationale": "Perplexity is optimized for search, fetching specific facts and citations rapidly from the web."
+          "Piale": "Sự phức tạp được tối ưu hóa để tìm kiếm, lấy thông tin cụ thể và trích dẫn nhanh chóng từ web."
         },
         {
           "text": "ChatGPT",
           "isCorrect": false,
-          "rationale": "While it can search the web, its primary strength is reasoning and following complex checklists rather than pure speed-optimized search."
+          "Chuyến đi": "Dù nó có thể tìm kiếm trang web, nhưng sức mạnh chính của nó là lý luận và theo sau các danh sách phức tạp hơn là tìm kiếm tốc độ tối ưu."
         }
       ],
-      "hint": "Think of this tool as a more precise, AI-powered replacement for traditional Google Search."
+      "Hint": "Hãy nghĩ công cụ này như một sự thay thế chính xác hơn, một công cụ có sức mạnh AI cho Google Search truyền thống."
     },
     {
-      "question": "Jeff Su argues that you should not join a 'spoiling' company like Google straight out of college. What is the primary risk he identifies?",
+      "Câu hỏi" "Jeff Su tranh luận rằng bạn không nên tham gia vào một công ty "xâm nhập" như Google ngay sau khi tốt nghiệp đại học.
       "answerOptions": [
         {
-          "text": "The salary is too low for entry-level roles compared to startups.",
+          "Kinh nghiệm" "Tiền lương quá thấp so với việc khởi động."
           "isCorrect": false,
-          "rationale": "Google is noted for having ridiculous perks and benefits, not low pay."
+          "Glogle" nổi tiếng vì có quyền lợi và lợi ích lố bịch, chứ không phải lương thấp.
         },
         {
-          "text": "Developing a warped expectation of corporate life and becoming dependent on the 'bubble'.",
+          "Kinh nghiệm" "Tìm kiếm một hy vọng sai lệch về cuộc sống tập thể và trở nên phụ thuộc vào "brung"
           "isCorrect": true,
-          "rationale": "Starting in a high-perk environment can make it difficult to adapt to more traditional workplaces and may hinder the development of early-career resilience."
+          "Lò lý": "Đi vào môi trường cao cấp có thể khiến việc thích nghi với những nơi làm việc truyền thống hơn và có thể cản trở sự phát triển của sự kiên cường của sự kiên cường chăm sóc trẻ thơ."
         },
         {
-          "text": "The internal mobility programs are too restrictive for young professionals.",
+          "Kinh nghiệm" : "Các chương trình di động nội bộ quá hạn chế đối với các chuyên gia trẻ tuổi."
           "isCorrect": false,
-          "rationale": "Google actually encourages mobility through programs like Project Voyager and APMM rotations."
+          "Priale": "Google thực sự khuyến khích sự di chuyển thông qua các chương trình như Project Voyager và AMM luân phiên."
         },
         {
-          "text": "The lack of mentorship for non-technical employees.",
+          "Kinh nghiệm" "Sự thiếu hướng dẫn cho những nhân viên không phải là công nghệ."
           "isCorrect": false,
-          "rationale": "The company employs extremely bright people and has established processes, but the 'spoiling' nature is the specific risk cited."
+          "Piale": "Công ty tuyển dụng những người cực kỳ sáng chói và đã thiết lập quá trình, nhưng bản chất "phầm bệnh" là những rủi ro cụ thể được nêu ra."
         }
       ],
-      "hint": "Consider the difference between a 'Google baby' and someone who faced challenges in other industries first."
+      "Hãy nghĩ đến sự khác biệt giữa đứa bé "Google" và người phải đối mặt với thử thách trong các ngành công nghiệp khác trước."
     }
   ]
 }

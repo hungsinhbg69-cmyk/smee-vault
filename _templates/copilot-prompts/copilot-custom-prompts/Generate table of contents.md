@@ -15,4 +15,4 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Generate a hierarchical table of contents for {}. Use appropriate heading levels (H1, H2, H3, etc.). Include page numbers if present. Return only the table of contents.
+Tạo một bảng phân loại nội dung cho «}. Hãy dùng các cấp hướng thích hợp (H1, H2, H3, v. v. v. v.). Gồm số trang nếu có. Hãy trở lại chỉ bảng nội dung.

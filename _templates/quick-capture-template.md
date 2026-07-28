@@ -1,5 +1,5 @@
 ---
-title: "Quick Capture Template"
+title: "Rật bắt khuôn mẫu"
 slug: "quick-capture-template"
 category: template
 tags: [template, quick-capture, tasks]
@@ -11,9 +11,9 @@ last_updated: 2026-06-20
 
 # 📥 Quick Capture — {{date:YYYY-MM-DD}}
 
-> Copy this block anywhere or paste raw thoughts here. Add details during triage.
+> Sao chép khối này bất cứ nơi nào hoặc dán những suy nghĩ thô ở đây. Thêm chi tiết trong suốt ba giai đoạn.
 
-## ⚡ Raw Capture (Paste ideas/thoughts/tasks below)
+## _Nghề bắt sống (có những ý tưởng/tư tưởng/tư tưởng dưới đây)
 
 ```markdown
 - [ ] #priority/ TODO description {{due:: }} {{project:: }}
@@ -25,10 +25,10 @@ last_updated: 2026-06-20
 ### Task Entry 2  
 - [ ] #priority/P4 {{due:: }} {{project:: }}
 
-## 📝 Notes from Capture Session
+## Ghi chú từ phiên chạy chụp
 
-<!-- What context triggered these? Any urgency? -->
+<b>... Văn cảnh nào đã kích hoạt những thứ này?
 
 ---
 
-*Use: Copy this template into any note, daily log, or inbox for rapid task capture. Fill `{due}` and `{priority}` during weekly/daily triage.*
+* Dùng: Hãy chép mẫu này vào bất cứ thông tin nào, nhật ký hàng ngày hoặc hộp thư ghi nhanh công việc. `{due}` và `{priority}` trong cuộc thi ba tuần một lần.

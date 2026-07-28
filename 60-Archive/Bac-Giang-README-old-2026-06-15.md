@@ -42,11 +42,11 @@ last_updated: 2026-06-15
 - Created from: `memory/bac-giang-living-guide-2026-06-15.md`
 - Extended from: [[Bac-Giang-Market-Intelligence-2026]]
 
-## 🦞 Smee Agency Connection
+## Kết nối
 - [[smee-agency-bac-giang-deep-dive]] — Deep dive research về Smee Agency Bắc Giang
-- [[smee-brand-dna-storytelling]] — Brand DNA & Storytelling Framework
+- [[smee-brand-dna-storytelling]] — Nguyên tắc ADN và câu chuyện kể các khung hình
 - [[smee-content-template-framework]] — Content Templates theo ngành hàng
-- [[smee-agency-tech-stack]] — Tech Stack & Automation System
+- [[smee-agency-tech-stack]] - Hệ thống xếp đống kỹ thuật và tự động hoá
 
 ---
 

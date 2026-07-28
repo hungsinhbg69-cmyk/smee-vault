@@ -1,5 +1,5 @@
 ---
-title: "Entity Page Template (Karpathy)"
+title: "Các mẫu trang thực (Karpathy)"
 slug: "entity-page-template"
 category: knowledge
 tags: [template, karpathy, wiki, entity]
@@ -13,7 +13,7 @@ last_updated: 2026-07-13
 ---
 
 
-# Entity Page Template
+# Mẫu độ đậm đặc
 
 > Template cho entity pages trong LLM Wiki Pattern (Karpathy). Dùng để tạo pages cho các thực thể: người, tổ chức, sản phẩm, địa điểm, khái niệm cụ thể.
 
@@ -39,7 +39,7 @@ entity_type: person|organization|product|place|concept
 # Entity Name
 
 ## Overview
-One-paragraph summary of what this entity is and why it matters.
+Tóm tắt một tập trước thực thể này là gì và tại sao nó quan trọng.
 
 ## Key Attributes
 - Attribute 1: value
@@ -47,7 +47,7 @@ One-paragraph summary of what this entity is and why it matters.
 - Attribute 3: value
 
 ## History / Evolution
-Timeline or chronological development of this entity.
+Dòng thời gian hoặc sự phát triển thời gian của thực thể này.
 
 ## Relationships
 - Related to: [[related-note-1]]
@@ -55,11 +55,11 @@ Timeline or chronological development of this entity.
 - Predecessor: [[related-note-3]]
 
 ## Sources
-- [Source Name](https://example.com) — replace with source URL and access date
+- [Source Name](https://example.com) — Thay thế bằng nguồn URL và ngày truy cập
 
 ## Notes
-Any additional observations, contradictions found, or evolving understanding.
+Bất cứ quan sát nào khác, mâu thuẫn hay phát triển sự hiểu biết.
 
 ---
 
-*Created: YYYY-MM-DD | Last updated: YYYY-MM-DD*
+*Created: YYYY-MM-DD-DD cập nhật cuối cùng: YYYY-MM-DDD*

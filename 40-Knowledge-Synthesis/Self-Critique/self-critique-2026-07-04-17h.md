@@ -14,17 +14,17 @@ last_updated: 2026-07-04
 ### Session 1 — Cài model Telegram (13:54)
 | Session | Lỗi | Nguyên nhân gốc (5 Whys) | Bài học |
 |---------|-----|-------------------------|--------|
-| `20260704_135412` — Config Qwen default | execute_code fail: `NameError: 'json' not defined` | 5 Whys: (1) Code thiếu `import json`, (2) Dùng `json.dumps()` trong sandbox không có sẵn import, (3) Sandbox code_execution chỉ đưa code user viết, không auto-import mọi module, (4) Không peek vào sandbox template, (5) Thiếu habit `from hermes_tools import terminal` check trước khi dùng module trong execute_code | Luôn import đầy đủ module cần thiết trước khi dùng — sandbox không có sẵn imports ngoại trừ builtins |
+| `20260704_135412` - Cấu hình mặc định Qwen | lỗi thực hiện mã_ mã: `NameError: 'json' not defined` | 5 Whys: (1) Code thiếu `import json`, (2) Dùng `json.dumps()` trong sandbox không có sẵn import, (3) Sandbox code_execution chỉ đưa code user viết, không auto-import mọi module, (4) Không peek vào sandbox template, (5) Thiếu habit `from hermes_tools import terminal` check trước khi dùng module trong execute_code | Luôn import đầy đủ module cần thiết trước khi dùng — sandbox không có sẵn imports ngoại trừ builtins |
 
-### Session 2 — Cron job Self-Critique Fail (17:00)
+### Phiên chạy 2 — Công việc củaron tự gọi tắt (17:00)
 | Session | Lỗi | Nguyên nhân gốc (5 Whys) | Bài học |
 |---------|-----|-------------------------|--------|
-| `cron_eef125e04cba` — Daily Review 17h | RuntimeError: HTTP 400 - invalid reasoning value 'xhigh' | 5 Whys: (1) Config `reasoning_effort: xhigh` không nằm trong enum hợp lệ [high, medium, low, max, none], (2) User set value này từ trước nhưng bị lỗi khi model API reject, (3) Không có validation hook nào check reasoning_effort mỗi khi cron chạy, (4) Cron job prompt inject `self-improvement-loop` skill load config cũ | Config `reasoning_effort: xhigh` cần đổi thành tối thiểu là `high`. Cron sessions không auto-validate model config trước khi chạy. |
+| `cron_eef125e04cba` — Báo ngày xem xét 17h | Chạy thời gian Error: HTTP 400 - giá trị lập luận không hợp lệ 'xgh' | 5 Whys: (1) Config `reasoning_effort: xhigh` không nằm trong enum hợp lệ [high, medium, low, max, none], (2) User set value này từ trước nhưng bị lỗi khi model API reject, (3) Không có validation hook nào check reasoning_effort mỗi khi cron chạy, (4) Cron job prompt inject `self-improvement-loop` skill load config cũ | Config `reasoning_effort: xhigh` cần đổi thành tối thiểu là `high`. Cron sessions không auto-validate model config trước khi chạy. |
 
 ### Session 3 — Image analysis từ user (17:15+)
 | Session | Lỗi | Nguyên nhân gốc (5 Whys) | Bài học |
 |---------|-----|-------------------------|--------|
-| `20260704_171538` — Cron job UI screenshot | execute_code sandbox bị block trong cron job | 5 Whys: (1) `execute_code` blocked với error "Cron jobs run without a user present to approve it", (2) Cron default mode là deny approvals, (3) Không peek `approvals.cron_mode` trước khi dùng execute_code, (4)习惯性 dùng execute_code thay vì terminal trong cron | Trong cron job: ưu tiên `terminal()` + read_file, fallback đến `execute_code` nếu cần Python phức tạp hơn |
+| `20260704_171538` - Chụp ảnh chụp ảnh chụp ảnh chụp ảnh chụp ảnh chung với Cameron | execute_code sandbox bị block trong cron job | 5 Whys: (1) `execute_code` blocked với error "Cron jobs run without a user present to approve it", (2) Cron default mode là deny approvals, (3) Không peek `approvals.cron_mode` trước khi dùng execute_code, (4)习惯性 dùng execute_code thay vì terminal trong cron | Trong cron job: ưu tiên `terminal()` + read_file, fallback đến `execute_code` nếu cần Python phức tạp hơn |
 
 ## 🔄 Các Pattern lặp lại
 - **Reasoning 'xhigh' không hợp lệ**: Config user set từ trước, model API chỉ chấp nhận [high/medium/low/max/none]. Xuất hiện ở cả cron session và hiện tại config. Cần fix global: `config.yaml` line `reasoning_effort: xhigh` → `high`.
@@ -33,10 +33,10 @@ last_updated: 2026-07-04
 ## ✅ Cái gì HIỆU QUẢ
 | Task | Approach | Tại sao hiệu quả? |
 |------|----------|------------------|
-| Config Qwen default | Dùng `hermes config set` thay vì edit file thủ công | Đúng cách, nhanh, atomic operation |
-| Gateway restart pattern | `hermes gateway stop; sleep 2; hermes gateway start` | Fallback khi direct restart timed out (180s) |
-| Session discovery scan | Browse session list → scroll vào từng cái có activity >0 messages | Lọc được sessions thực sự có work khỏi ACP empty sessions |
-| Self-critique workflow | Search tất cả sessions Hôm nay → compile thành Obsidian note | Systematic không bỏ sót error nào |
+| Cấu hình Qwen default | Dùng `hermes config set` thay vì edit file thủ công | Đúng cách, nhanh, atomic operation |
+| Name | `hermes gateway stop; sleep 2; hermes gateway start` | Thu lại khi trực tiếp khởi động lại thời gian đã quá giờ (180) |
+| Quét tìm ra phiên chạy | Browse session list → scroll vào từng cái có activity >0 messages | Lọc được sessions thực sự có work khỏi ACP empty sessions |
+| Tự nhận dạng dòng làm việc | Search tất cả sessions Hôm nay → compile thành Obsidian note | Systematic không bỏ sót error nào |
 
 ## 🚀 Best Practices phát hiện hôm nay
 1. **Cron + execute_code**: Luôn check `approvals.cron_mode` trước, ưu tiên terminal + read_file
@@ -48,4 +48,4 @@ last_updated: 2026-07-04
 - [ ] Verify cron job chạy lại được sau khi fix reasoning
 
 ---
-*Auto-generated by Hermes Agent — 17h00 Daily Review*
+* Tự động sản xuất bởi Hermes Đặc vụ — 17h00 Daily Review*

@@ -1,5 +1,5 @@
 ---
-title: LLM Wiki — Insights & Application
+title: LLM Wiki — Sự thông sáng và ứng dụng
 slug: llm-wiki-insights
 category: knowledge
 tags:
@@ -20,41 +20,41 @@ related:
 - llm-wiki-critique
 ---
 
-# LLM Wiki — Insights & Application (Karpathy)
+# LLM Wiki — Sự thông sáng và ứng dụng (Karpaathy)
 
 ## Key Insights
 
-### 1. The Bookkeeping Problem
-> "The tedious part of maintaining a knowledge base is not the reading or the thinking — it's the bookkeeping."
+### 1. Vấn đề sổ sách
+> "Điều tẻ nhạt trong việc duy trì một nền tảng kiến thức không phải là đọc hay suy nghĩ - đó là việc giữ sổ sách."
 
 - Humans abandon wikis vì maintenance burden grows faster than value
-- LLMs don't get bored, don't forget cross-refs, can touch 15 files per pass
+- HM không cảm thấy chán, không quên qua f(x), có thể chạm 15 file trên mỗi thẻ
 - **Insight:** LLM không phải thay thế human thinking — mà giải quyết operational overhead
 
-### 2. Division of Labor
-- **Human's job:** Curate sources, direct analysis, ask good questions, think about meaning
-- **LLM's job:** Everything else (summarizing, cross-referencing, filing, bookkeeping)
+### Khu 2.
+- ** Công việc củaHuman:** Nguồn tin Curate, phân tích trực tiếp, đặt câu hỏi hay, nghĩ về ý nghĩa
+- **LLMCông việc của họ:** Những thứ khác (chỉ là tổng hợp, tham khảo chéo, hồ sơ, sổ sách)
 - **Insight:** Human-in-loop không phải "supervision" — mà là "direction"
 
-### 3. Vannevar Bush's Memex Realized (1945 → 2026)
-Bush envisioned: personal knowledge store with associative trails between documents. Private, actively curated, connections as valuable as content.
-- **What he couldn't solve:** Who does the maintenance?
-- **LLM Wiki Pattern solves this:** LLM handles maintenance, human curates
+### Vannevar Bush's Memex nhận ra (1945 _2026)
+Bush Hình dung: lưu trữ kiến thức cá nhân với các đường dẫn liên kết giữa các tài liệu. riêng tư, tích cực quản lý, kết nối có giá trị như nội dung.
+- **Những gì ông ta không thể giải quyết:** Ai bảo trì?
+- **LLM Mẫu Wiki giải quyết điều này:** LLM Giữ gìn sức khỏe, chữa bệnh cho con người
 
-### 4. RAG vs Wiki — Complement not Replacement
+### 4. RAG đấu với Wiki — Ca ngợi không thay thế
 | | RAG | LLM Wiki |
 |--|-----|---------|
-| Best for | High-volume queries, moderate complexity | Deep synthesis, cross-document reasoning |
-| Accumulation type | Vector (passive) | Semantic/structural (active) |
-| Initial cost | High (embeddings + DB) | Low (markdown files) |
-| Per-query cost | Low | Variable (depends on wiki size) |
+| Best for | Các biểu đồ tần xuất cao, độ phức tạp vừa phải | Tổng hợp sâu, lập luận xuyên đại diện |
+| Accumulation type | Vector (passive) | Semantic/ nartal (hoạt động) |
+| Initial cost | Tào Tháo (mmeds + DB) | Low (markdown files) |
+| Chi phí mua bán đơn giản | Low | Biến (phụ thuộc vào kích cỡ của quần đảo) |
 
-### 5. Index-First > Embedding-First at Moderate Scale
-- At ~100 sources, hundreds of pages: index.md works surprisingly well
-- Avoids vector database infrastructure overhead
+### Comment
+- Tại ~100 nguồn tài liệu, hàng trăm trang: index.md làm việc rất tốt
+- Tránh cơ sở dữ liệu co sở dữ liệu véc tơ trên đầu
 - Migration path to qmd khi scale lên
 
-## Application to Smee Vault
+## Ứng dụng vào Cổng Smee
 
 ### Current Alignment
 | Karpathy Concept | Smee Implementation | Status |
@@ -64,26 +64,26 @@ Bush envisioned: personal knowledge store with associative trails between docume
 | Schema | AGENTS.md + `_templates/` | ✅ Aligned |
 | index.md | `vault-master-index.md` | ✅ Exists |
 | log.md | Daily notes (`02-Daily/`) | ⚠️ Partial |
-| Ingest | New learning → capture with backlinks | ✅ Working |
-| Query | Search vault → synthesize → file back | ⚠️ Manual |
-| Lint | Daily Vault Maintenance cron | ⚠️ Needs expansion |
+| Ingest | Học tập mới _bắt bằng các đường hậu | ✅ Working |
+| Query | Tập tin tổng hợp tập tin _pô | ⚠️ Manual |
+| Lint | Bảng điều khiển cổng hàng ngày | ⚠️ Needs expansion |
 
-### Gap Analysis & Action Items
+### Thêm mục phân tích và hành động
 
 **Gaps identified:**
-1. Semantic layer missing — notes linked by text, not structured properties
-2. Schema versioning undefined
-3. Batch ingest limited to 2 notes/session (Karpathy suggests 10-15)
-4. Index-first search not optimized (no category partitioning)
+1. Thiếu lớp Semantic — ghi chú được liên kết bởi văn bản, chứ không phải thuộc tính cấu trúc
+2. Comment
+3. Nhiễm sắc thể chỉ ăn 2 nốt/sesion (Karpaathy gợi ý 10-15)
+4. Tìm kiếm phụ lục đầu không tối ưu hóa (không phân chia phân loại)
 
 **Action items:**
-- [ ] Implement category-indexed vault master index (partition by PARA folder)
-- [ ] Expand Daily Vault Maintenance cron timeout + add lint pass
-- [ ] Define schema versioning rules cho wiki conventions
+- [ ] Phần phụ đề:
+- [ ] Mở rộng thanh công cụ bảo trì hàng ngày cron times + thêm lipt pass
+- [ ] Định nghĩa các quy tắc phiên bản cho các hội nghị schema
 - [ ] Test batch ingest với max 5 sources per session
-- [ ] Create entity/concept page templates aligned with Karpathy pattern
+- [ ] Tạo mẫu trang/hình ảnh thẳng hàng với mẫu Karpaty
 
-### Workflow Recommendation for Smee
+### Khuyên dùng công việc cho Smee
 
 ```
 1. Ingest new learning source

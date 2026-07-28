@@ -1,5 +1,5 @@
 ---
-title: Smee Content Template Framework
+title: Khung làm việc mẫu Smee nội dung
 slug: smee-content-template-framework
 category: knowledge
 tags:
@@ -55,7 +55,7 @@ Ship toàn quốc, mua 3 tặng 1 nha các bác 😍"
 4. Kêu gọi nhẹ nhàng — "Ai cần thì nhắn em nhé ạ"
 5. Dùng "các bác", emoji nhiều (❤️😍), nhấn "nhanh"
 
-## 4. BAC (Brand Authenticity Code) — Tone Matrix
+## 4. BAC ( Mã số Anh Quốc và Xác thực) — Ma trận Sắc
 
 | Đối tượng | Tone | Ví dụ mở đầu |
 |-----------|------|--------------|

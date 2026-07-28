@@ -1,5 +1,5 @@
 ---
-title: Sat thu ban hang-david dosey
+title: Sat thoh ban hang-david liều
 slug: sat-thu-ban-hang-david-dosey
 category: resource
 tags:

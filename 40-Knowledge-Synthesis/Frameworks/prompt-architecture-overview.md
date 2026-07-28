@@ -40,27 +40,27 @@ OpenAI Prompt Caching (06/2026): giảm latency 80%, giảm cost input tokens 90
 - Tự động enabled cho prompts ≥1024 tokens
 - `prompt_cache_key` parameter để control routing và improve hit rate
 
-### 3. Model-Specific Prompting (Prompt Theo Loại Model)
-- **Reasoning models (o-series):** "the planners" — giỏi ambiguous tasks, multi-step planning, complex reasoning
+### 3. Mô hình đặc điểm nhắc ( Mô hình Lowai)
+- **Rasoning mô hình (o-series):** "the plants" — gi spiriti unsici nhiệm vụ, kế hoạch đa bước, lý luận phức tạp
 - **GPT models:** "the workhorses" — giỏi execution, fast & cost-efficient
-- Best practice: o-series cho planning + GPT series cho execution
+- Thực hành tốt nhất: o-series cho kế hoạch + GPT cho thực hiện
 
 ## 📊 So sánh Provider (06/2026)
 
 | Aspect | OpenAI | Anthropic (Claude) | Microsoft/Azure |
 |--------|--------|-------------------|-----------------|
-| System prompt mechanism | `developer` role / `instructions` param | System message block | `system` role |
-| Caching | Prompt prefix caching (auto) | Context window caching | Prompt tuning + caching |
+| Cơ chế nhắc hệ thống | `developer` role / `instructions` param | Name | `system` role |
+| Caching | Gợi ý cắt tiền tố (tự động) | Comment | Nhắc điều chỉnh và kéo cắt |
 | Structured output | JSON schema enforcement | Response format JSON | Function calling |
-| Reasoning models | o-series (o3, o4-mini) | Claude Opus/Sonnet Haiku | GPT-5 series |
-| Prompt objects | Deprecating v1/prompts (Nov 2026) | Template system | Deployment-based |
+| Reasoning models | O-series (o3, o4-mini) | Claude Opus/Sonnet Haiku | GPT-5 series |
+| Prompt objects | Đang chuẩn bị v1/prompts (Nov 2026) | Template system | Deployment-based |
 
 ## 🔑 Core Principles
-1. **Static → Dynamic:** Put instructions first, variables last
-2. **Code-managed prompts:** Store in application code, not separate prompt files
-3. **Pin model snapshots:** `gpt-5.5-2026-06-xx` cho production consistency
-4. **Evaluate iteratively:** Build test suites, monitor prompt behavior over time
-5. **Chain of command respected:** Model always honors developer > user priority
+1. **Sttic  lưỡng tính:** Đặt hướng dẫn đầu tiên, biến cuối
+2. **Code-manages:** Lưu trong mã ứng dụng, không riêng biệt tập tin nhắc
+3. **Pin hình chụp:** `gpt-5.5-2026-06-xx` cho sự nhất quán sản xuất
+4. ** Tự định giá lặp lại:** Xây dựng các phòng thử nghiệm, theo dõi hành vi nhanh qua thời gian
+5. **Chain của lệnh được tôn trọng:** Mô hình luôn luôn tôn trọng người phát triển > ưu tiên người dùng
 
 ## 📚 Tham Khảo Sâu
 - [[prompt-hierarchical-instructions]] — Phân tích chi tiết hệ thống phân cấp
@@ -69,4 +69,4 @@ OpenAI Prompt Caching (06/2026): giảm latency 80%, giảm cost input tokens 90
 - [[reasoning-vs-gpt-models]] — So sánh và phối hợp 2 loại model
 
 ---
-*Research date: 2026-06-18 | Sources: OpenAI docs, Anthropic docs, Microsoft Azure AI, PromptingGuide.ai, GitHub community*
+*Reost date: 2026-06-18 Nguồn gốc: OpenAI Dr., Antropic tiến sĩ, Microsoft Azure AI, nhắc nhởGuide.ai, GitHub Cộng đồng*

@@ -11,58 +11,58 @@ last_updated: 2026-06-24
 
 # QuickAdd Macro Library
 
-All macros accessible via `Ctrl+Q` (default) or command palette.
+Mọi vĩ mô có thể truy cập qua `Ctrl+Q` (mặc định) hoặc bảng chọn lệnh.
 
 ## Capture Macros
 
 ### New Idea
 **Trigger:** `Ctrl+Q > New Idea`
-**Action:** Create note in 01-Inbox/ with idea template, auto-tagged #idea + date
+**Action:** Tạo chú thích trong 01-Inbox/ với ý tưởng mẫu, tự động đánh dấu #idea + date
 **Template:** See _templates/quick-idea.md
 
 ### Quick Note
 **Trigger:** `Ctrl+Q > Quick Note`
-**Action:** Create atomic note in 40-Knowledge-Synthesis/Insights/ with timestamp
-**Template:** See _templates/atomic-note.md (already exists)
+**Action:** Tạo ghi chú nguyên tử trong 40-cyedge-Sythesis/Insights/ với nhãn thời gian
+**Temramp:** Xem _temlates/tomic-note.md (đã có)
 
-### Capture Web Clip
+### Chụp ảnh & Web
 **Trigger:** `Ctrl+Q > Web Clip`
-**Action:** Open browser, prompt for URL, save to clipboard then paste into new note in 30-Resources/
-**Variables:** url, title, author, date_clipped
+**Action:** Mở trình duyệt, nhắc cho URLLưu vào bảng nháp sau đó dán vào lưu ý mới trong 30 mã nguồn/
+**Variables:** url, tiêu đề, tác giả, ngày_ tháng
 
-### Task from Selection
+### Tác vụ từ phần chọn
 **Trigger:** `Ctrl+Q > New Task (from selection)`
-**Action:** Creates task with selected text as description, auto-due tomorrow unless specified
-**Variables:** selected_text, due_date
+**Action:** Tạo tác vụ với đoạn đã chọn như mô tả, tự động- do- xác định ngày mai trừ khi được xác định
+**Variables:** đã chọn_ text, _date
 
 ### Meeting Capture
 **Trigger:** `Ctrl+Q > New Meeting`
-**Action:** Create meeting note in 10-Projects/<project>/ or 02-Daily/ if no project selected
-**Template:** See _templates/meeting-note.md (already exists)
+**Action:** Tạo ghi chú cuộc họp trong 10 tờ báo/<project>/ hoặc 02-Daily/ nếu không có dự án được chọn
+**Temramp:** Xem _temlates/mee-note.md (đã có)
 
 ## Output Macros
 
-### Generate Flashcards from Note
+### Tạo các thẻ từ Ghi chú
 **Trigger:** `Ctrl+Q > Flashcards from [[note]]`
-**Action:** Extract key concepts and create spaced repetition cards with #flashcard tag
-**Variables:** source_note, card_count (default 10)
+**Action:** Trích dẫn các khái niệm khóa và tạo các thẻ lặp lại không gian với #flashcard
+**Viariables:** Nguồn_note, card_ log (mặc định 10)
 
-### Export to PDF
+### Xuất ra PDF
 **Trigger:** `Ctrl+Q > Export PDF`
-**Action:** Use Pandoc to export current note as formatted PDF
-**Variables:** output_filename
+**Action:** Dùng Pandoc để xuất ghi chú hiện thời dạng thông tin PDF
+**Variables:** xuất_ filename
 
 ## Workflow Macros
 
-### Daily Standup Summary
+### Tóm tắt mỗi ngày đứng lên
 **Trigger:** `Ctrl+Q > Daily Standup`
-**Action:** Query tasks, review recent notes, generate daily summary with dataview queries
-**Output:** Appends to 02-Daily/ today's note
+**Action:** Truy vấn tác vụ, duyệt các ghi chú gần đây, tạo ra tóm tắt mỗi ngày với dataview Các thư mục
+**Rapput:** Phụ đề đến 02-Daily / hôm nay
 
-### Weekly Review Prep
+### Xem lại trang bìa hàng tuần
 **Trigger:** `Ctrl+Q > Weekly Review`
-**Action:** Scan all folders for unprocessed items, list orphaned notes, suggest connections
-**Template:** See _templates/weekly-review.md (already exists)
+**Action:** Quét tất cả thư mục cho mục chưa xử lý, danh sách ghi chú mồ côi, gợi ý kết nối
+**Temramp:** Xem _temlates/smremly-review.md (đã có)
 
 ---
-*Configured: 2026-06-20 by Smee — Layer 3 (QuickAdd Automation)*
+* Contture: 2026-06-20 by Smee — Lớp 3 (QuickAdd Tự động hóa*

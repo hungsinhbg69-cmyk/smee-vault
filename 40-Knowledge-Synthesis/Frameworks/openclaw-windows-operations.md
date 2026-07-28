@@ -1,5 +1,5 @@
 ---
-title: "OpenClaw Windows Operations - Verified 2026-07-13"
+title: "OpenClaw Chiến dịch Windows - Công cụ 2026-07-13"
 slug: "openclaw-windows-operations"
 category: knowledge
 tags: ["tool/openclaw", "project/ai-agent-engineering", "concept/ai-agent-design", "status/reference"]
@@ -9,7 +9,7 @@ created: 2026-07-13
 last_updated: 2026-07-13
 ---
 
-# OpenClaw Windows Operations - Verified 2026-07-13
+# OpenClaw Chiến dịch Windows - Công cụ 2026-07-13
 
 > [!success] Trạng thái đã kiểm chứng
 > OpenClaw `2026.6.11` hoạt động trên gateway loopback; gateway và Telegram health check đạt. Live agent turn đã trả `OPENCLAW_OK` và `OPENCLAW_FINAL_OK`.
@@ -40,12 +40,12 @@ Một sự cố trước đây do process-level `OLLAMA_CONTEXT_LENGTH=262144` l
 
 | Job | Trạng thái 2026-07-13 | Ghi chú |
 |---|---|---|
-| Vault Daily Cleanup | OK | Chạy script trực tiếp |
-| Daily Memory Cleanup | OK | Chạy script trực tiếp |
-| Vault Monthly Audit | OK | Không có lỗi hiện tại |
-| Vault Git Backup | Skipped | Cần kiểm tra điều kiện skip trước khi coi là lỗi |
+| Dọn dẹp Cổng mỗi ngày | OK | Chạy script trực tiếp |
+| Làm sạch bộ nhớ hằng ngày | OK | Chạy script trực tiếp |
+| Thử nghiệm cổng ra vào mỗi tháng | OK | Không có lỗi hiện tại |
+| Sao lưu cửa ra vào | Skipped | Cần kiểm tra điều kiện skip trước khi coi là lỗi |
 | Obsidian Embedding Refresh | Skipped | Cần kiểm tra điều kiện skip trước khi coi là lỗi |
-| Vault Weekly Connect | Error | Lỗi lịch sử còn tồn tại; cần điều tra riêng |
+| Kết nối cổng ra vào hàng tuần | Error | Lỗi lịch sử còn tồn tại; cần điều tra riêng |
 
 Automation xác định nên dùng direct command thay vì `agentTurn` để giảm timeout và token burn. Hai script cốt lõi hiện có:
 

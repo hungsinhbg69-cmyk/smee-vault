@@ -23,12 +23,12 @@ last_updated: 2026-06-23
 |------|--------|-------|
 | DASHBOARD.md | root/ | 00-Meta/DASHBOARD.md |
 | KANBAN-CONTENT.md | root/ | 10-Projects/Content-Pipeline/kanban-content-guide.md |
-| QUICKADD-MACROS.md | root/ | 40-Knowledge-Synthesis/Frameworks/quickadd-macros-reference.md |
+| QUICKADD-MACROS.md | root/ | 40-crate-Sythesis/Frameworks/quickadd- Mô phỏng...md |
 | SRS-CONFIG.md | root/ | 00-Meta/SRS-CONFIG.md |
 | vault-automation-layer-deploy-log.md | root/ | 60-Archive/vault-automation-layer-deploy-log.md |
 | Excalidraw/ (thư mục) | root/ | 10-Projects/Excalidraw/ |
 | scripts/ (thư mục) | root/ | _scripts/ |
-| copilot/ (thư mục) | root/ | _templates/copilot-prompts/ |
+| copilot/ (thư mục) | root/ | _Lấp khấu/co popts/ |
 | Untitled Kanban.md | root/ | 10-Projects/untitled-kanban-board.md |
 
 ### 3. Sửa lỗi liên kết bị hỏng ✅

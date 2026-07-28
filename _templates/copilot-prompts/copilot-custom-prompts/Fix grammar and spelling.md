@@ -15,4 +15,4 @@ created: 2026-06-24
 last_updated: 2026-06-24
 ---
 
-Fix the grammar and spelling of {}. Preserve all formatting, line breaks, and special characters. Do not add or remove any content. Return only the corrected text.
+Sửa ngữ pháp và chính tả của «}. Bảo tồn mọi định dạng, đoạn ngắt, và ký tự đặc biệt. Đừng thêm hay gỡ bỏ nội dung nào. Chỉ trả lại đoạn đã sửa.

@@ -31,7 +31,7 @@ last_updated: 2026-06-24
 >
 > Bid Cap làm hỏng nhiều chiến dịch hơn là sửa chữa: chỉ 20-25% các bài kiểm tra giảm CPA, còn lại tăng hoặc sụp đổ giao dịch.
 
-## Value Optimization (VO)
+## Giá trị Rửa (VO)
 
 ### Khi nào dùng
 - DTC với phạm vi AOV rộng (từ $20 đến $500+)
@@ -44,8 +44,8 @@ last_updated: 2026-06-24
 - Tự động phân bổ ngân sách cho các chuyển đổi có giá trị cao
 
 ### Setup VO
-1. Set objective = Sales (Conversions)
-2. Trong ad set: optimization_guide = VALUE
+1. Đặt mục tiêu = Bán (các mặt phẳng)
+2. Tạo mẫu: tối ưu_guide = VA GỢI Ý
 3. Đảm bảo sự kiện Purchase có tham số `value` với doanh thu chính xác
 4. Cần ≥50 purchases/week để mô hình có tín hiệu đủ
 
@@ -56,9 +56,9 @@ last_updated: 2026-06-24
 - Đã có dữ liệu lịch sử ROAS ổn định
 - Muốn kiểm soát lợi nhuận tối thiểu
 
-### Setting ROAS Goal
-1. Set objective = Sales (Conversions)
-2. Trong ad set: optimization_guide = ROAS GOAL
+### Thiết lập mục tiêu
+1. Đặt mục tiêu = Bán (các mặt phẳng)
+2. Thiết lập hào quang: tối ưu hoá_guide = ROAS GOAL
 3. Set roas_goal_value = 80% mức ROAS trung bình 28 ngày qua
 4. Không đặt quá thấp → Meta sẽ không giao dịch đủ khối lượng
 
@@ -123,4 +123,4 @@ Các ad-set cùng Advantage Campaign Budget mà chia sẻ chồng chéo đối t
 - Mở rộng theo chiều ngang > mở rộng theo chiều dọc để bảo toàn dữ liệu học tập
 
 ---
-*Created: 2026-06-15 | Sources: facebook-ads-deep-dive, ads-deep-dive-june-2026*
+*Created: 2026-06-15 Nguồn: facebook-Những quảng cáo sâu sắc, sâu sắc-thôi-ki-ki-di-di-26*

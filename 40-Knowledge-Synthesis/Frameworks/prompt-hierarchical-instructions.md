@@ -1,5 +1,5 @@
 ---
-title: "prompt-hierarchical-instructions"
+title: "những quy tắc cơ bản"
 slug: "prompt-hierarchical-instructions"
 category: knowledge
 tags: [vault-maintenance]
@@ -10,10 +10,10 @@ last_updated: 2026-06-24
 ---
 
 ﻿---
-title: "prompt-hierarchical-instructions"
-slug: "prompt-hierarchical-instructions"
+Tựa đề: "Những quy trình phân cấp"
+"Những công trình phân cấp"
 category: frameworks
-tags: [obsidian-cleanup, auto-added]
+thẻ:obsidian- Dọn dẹp, tự động đóng gói
 status: draft
 type: framework
 created: 2026-06-19
@@ -22,10 +22,10 @@ last_updated: 2026-06-19
 
 ---
 title: "Prompt Architecture — Phân Cấp Instructions"
-tags: [prompt-engineering, hierarchical, system-prompts, chain-of-command]
-aliases: [Hierarchical Instructions, Chain of Command]
+thẻ: [các công cụ, phân cấp hệ thống, hệ thống-phụ tùng]
+Bí danh: [Các chỉ dẫn, chuỗi lệnh]
 created: 2026-06-18
-parent: prompt-architecture-overview.md
+cha mẹ: xem chuỗi tiến trình nhanh
 ---
 
 # Prompt Architecture — Phân Cấp Instructions (Chain of Command)
@@ -34,7 +34,7 @@ parent: prompt-architecture-overview.md
 
 Mọi model hiện đại đều tuân thủ **Chain of Command** — thứ tự ưu tiên xử lý instructions từ các nguồn khác nhau. Đây là nền tảng của Prompt Architecture chuyên nghiệp.
 
-## 📐 Model Spec Chain of Command (OpenAI)
+## _ Mẫu hình lồng nhau của lệnh (mở rộng ARI)
 
 Theo `model-spec.openai.com/2025-02-12`:
 
@@ -46,12 +46,12 @@ Theo `model-spec.openai.com/2025-02-12`:
 └─────────────────────────────────────┘
 ```
 
-### developer vs instructions param
+### Trình phát triển vs hướng dẫn bị hỏng
 - `instructions` param: high-level behavior override, **áp dụng cho current request**
 - `developer` role message: persistent system rules, được model ưu tiên hơn user input
 - `instructions` chỉ tồn tại trong current response generation — không persist qua conversation turns
 
-## 🏛️ Claude System Message Architecture
+## Kiến trúc thông điệp hệ thống Claude
 
 Anthropic Claude dùng **System message block** với đặc thù riêng:
 
@@ -72,10 +72,10 @@ user_message = "Phân tích audience cho sản phẩm skincare..."
 
 | Scenario | developer role | instructions param | Claude System |
 |----------|---------------|-------------------|---------------|
-| Tone/style rule | ✅ Best practice | ✅ Works but per-request | ✅ Most persistent |
-| Business logic | ✅ Core use case | ⚠️ Override risk | ✅ Reliable |
-| Per-conversation rules | ❌ Not dynamic | ✅ Flexible | ⚠️ Needs re-send |
-| Injection resistance | ✅ Strong | ⚠️ User can override | ✅ Strongest |
+| Quy tắc Sắc thái/ Kiểu | ✅ Best practice | _Làm việc nhưng chỉ làm theo lệ | ✅ Most persistent |
+| Logic nghiệp vụ | ✅ Trường hợp sử dụng cốt lõi | ⚠️ Rủi ro bị ghi đè | ✅ Đáng tin cậy |
+| Quy tắc đối nghịch | ❌ Not dynamic | ✅ Flexible | _Gỡ lại cần |
+| Khả năng chống chèn lệnh | ✅ Mạnh | ⚠️ Người dùng có thể ghi đè | ✅ Mạnh nhất |
 
 ## 💡 Best Practices (06/2026)
 
@@ -135,4 +135,4 @@ Yêu cầu: Phân tích audience cho {product_name}"""
 → `instructions` param tiện cho rapid prototyping, nhưng `developer` role mạnh hơn cho production vì persistent qua multiple turns. Quy tắc: prototype → `instructions`, production → `developer` role.
 
 ---
-*Research date: 2026-06-18 | Sources: OpenAI Model Spec, Anthropic docs, community benchmarks*
+*Rearry date: 2026-06-18 Nguồn gốc: OpenAI Model Spec, Antropic tiến sĩ, các điểm tập trung cộng đồng*

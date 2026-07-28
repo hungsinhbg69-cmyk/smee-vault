@@ -1,5 +1,5 @@
 ---
-title: Advantage+ Over Narrow Interest Targeting
+title: Lợi thế+ trên mục tiêu thu hẹp
 slug: advantage-over-narrow-targeting
 category: knowledge
 tags:
@@ -14,17 +14,17 @@ last_updated: '2026-07-14'
 cited_count: 0
 ---
 
-# Advantage+ Audiences Replace Manual Interest Targeting
+# Ứng dụng góc nhìn+ Khán giả Thay thế mục tiêu sở hữu thủ công
 
-## One Idea Summary
-Advantage+ Audiences (AI-driven broad targeting) combined with Pixel data delivers 3-5x better results than traditional narrow interest targeting in 2026.
+## Một tóm tắt ý tưởng
+Khán giả có lợi+ (chỉ định mục tiêu rộng) cộng với dữ liệu điểm ảnh cung cấp kết quả tốt hơn so với mục tiêu thu hẹp truyền thống vào năm 2026.
 
 ## Explanation
-Since iOS 14+ privacy changes and Meta's algorithm improvements, manual interest targeting has lost effectiveness. Advantage+ Audiences lets Meta's AI find the best users based on: (1) your conversion data from Pixel/CAPI, (2) creative signals that tell AI what the ad is about, and (3) behavioral patterns across 3B+ users.
+Kể từ khi iOS 14+ sự riêng tư thay đổi và MetaViệc cải tiến thuật toán, mục tiêu lợi ích bằng tay đã mất hiệu quả. Khán giả thuận lợi+ cho phép Meta« AI tìm người dùng tốt nhất dựa trên: (1) dữ liệu chuyển đổi của bạn từ điểm ảnh/CAPI, (2) tín hiệu sáng tạo cho AI biết quảng cáo về điều gì, và (3) mẫu hành vi trên 3B+ người dùng.
 
-The key insight: with sufficient Pixel data (50+ conversions/week/ad set), broad targeting + AI audience finding outperforms narrow interest stacks because the algorithm can discover conversion patterns humans wouldn't predict. Without Pixel data, interest targeting is still useful as a fallback.
+Sự hiểu biết then chốt: với đủ dữ liệu điểm ảnh (50+ cải đạo/ tuần/d/d/d), việc nhắm rộng vào cộng với khán giả AI tìm ra những chồng thu hẹp lợi ích bởi vì thuật toán có thể phát hiện ra các mẫu chuyển đổi con người sẽ không dự đoán. Nếu không có dữ liệu điểm ảnh, mục tiêu quan trọng vẫn còn hữu ích như là một sự sao chép.
 
-**Rule:** Always use Advantage+ Audiences when you have Pixel data. Use interest targeting only for new accounts or cold starts.
+**Rule:** Luôn luôn sử dụng ứng dụng màn hình đa năng+ khi bạn có dữ liệu điểm ảnh. Dùng lãi suất chỉ để truy cập các tài khoản mới hoặc bắt đầu lạnh.
 
 ## Connections
 ### Related Concepts
@@ -32,9 +32,9 @@ The key insight: with sufficient Pixel data (50+ conversions/week/ad set), broad
 - [[creative-testing-key-lever]]
 
 ### Applied In
-- [[30-Resources/Facebook-Ads/02-targeting.md]] - audience targeting strategies
-- [[30-Resources/Facebook-Ads/07-advantage-plus.md]] - Advantage+ deep dive
+- [[30-Resources/Facebook-Ads/02-targeting.md]] - Khán giả đang nhắm vào chiến lược
+- [[30-Resources/Facebook-Ads/07-advantage-plus.md]] - Lợi thế+ lặn sâu
 
 ## Sources
-- marketingagency.one - Facebook Ads Guide 2026
-- marketingadvice.ai - Facebook Advertising Complete Guide 2025
+- Tiếp thị khẩn cấp. Một - Facebook Ads Hướng dẫn 2026
+- marketingadvice.ai - Facebook Hướng dẫn toàn bộ quảng cáo 2025

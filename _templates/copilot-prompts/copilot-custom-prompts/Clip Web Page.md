@@ -1,5 +1,5 @@
 ---
-title: Clip Web Page.md
+title: Page.md
 copilot-command-context-menu-enabled: false
 copilot-command-context-menu-order: 1140
 copilot-command-last-used: 0
@@ -33,11 +33,11 @@ tags:
 
 ## Mindmap
 
-CRITICAL Mermaid mindmap syntax rules - MUST follow exactly:
-- Root node format: root(Topic Name) - use round brackets, NO double brackets
-- Child nodes: just plain text, no brackets needed
-- Do NOT use quotes, parentheses, brackets, or any special characters in text
-- Keep all node text short and simple - max 3-4 words per node
+Bộ óc cá nhân họcmap các quy tắc cú pháp - phải theo chính xác:
+- Định dạng nút gốc: gốc (topic Name) - dùng dấu ngoặc tròn, NO double ngoặc
+- Nút con: chỉ cần nhập thô, không cần dấu ngoặc
+- KHÔNG dùng dấu ngoặc kép, ngoặc hoặc bất kỳ ký tự đặc biệt nào trong văn bản
+- Giữ mọi chữ nút ngắn và đơn giản - tối đa 3-4 từ mỗi nút
 
 ```mermaid
 mindmap
@@ -52,4 +52,4 @@ mindmap
 
 <List 3-5 notable quotes from the content, if any>
 
-Return only the markdown content without any explanations or comments.
+Chỉ cần trở về markdown Nội dung mà không có lời giải thích hay lời bình luận.

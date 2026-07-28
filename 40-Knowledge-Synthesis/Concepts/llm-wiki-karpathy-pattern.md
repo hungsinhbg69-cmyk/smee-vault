@@ -1,5 +1,5 @@
 ---
-title: LLM Wiki Pattern (Karpathy)
+title: LLM Mẫu Wiki (Karpathy)
 slug: llm-wiki-karpathy-pattern
 category: knowledge
 tags:
@@ -37,40 +37,40 @@ Karpathy mô tả một **mô hình xây dựng knowledge base cá nhân bằng 
 
 | Layer | Mô tả | Owner | Mutable? |
 |-------|-------|-------|----------|
-| Raw sources | Source documents (articles, papers, images) | Human | Immutable |
-| The wiki | LLM-generated markdown files (summaries, entity pages, concept pages) | LLM | Mutable |
-| The schema | Configuration doc (CLAUDE.md / AGENTS.md) — tells LLM how to maintain wiki | Human + LLM | Co-evolve |
+| Raw sources | Tài liệu nguồn (hình ảnh, giấy, ảnh) | Human | Immutable |
+| The wiki | LLM- Phát triển markdown tập tin (baseries, trang thực thể, trang khái niệm) | LLM | Mutable |
+| The schema | Tiến sĩ cấu hình (CLUUDE / AgentS.md) — nói LLM Cách duy trì ngọc trai | Human + LLM | Co-evolve |
 
 ### 3 Operations
 
-1. **Ingest:** Drop source → LLM reads → discuss takeaways → write summary → update index → update entity/concept pages → append log
-2. **Query:** Ask question → LLM search relevant pages → synthesize answer with citations → good answers filed back into wiki
-3. **Lint:** Periodic health-check → find contradictions, stale claims, orphan pages, missing cross-refs, data gaps
+1. **Ingest:** Nguồn thả LLM đọc __Nghề nghiệp
+2. ** Hỏi:** Hỏi ____________________________________________________________________i LLM Tìm kiếm trang liên quan _ đáp án tổng hợp với trích dẫn _Rraws câu trả lời tốt được điền vào i- vi-a
+3. **Lint:** Kiểm tra sức khỏe định kì i kiểm tra định kỳ tìm thấy mâu thuẫn, tuyên bố cũ, trang mồ côi, các dấu hiệu bị thiếu, lỗ hổng dữ liệu
 
 ### 2 Special Files
 
-- **index.md** — Content catalog (links + summaries + metadata), updated every ingest
-- **log.md** — Append-only chronological record (`## [YYYY-MM-DD] operation | Title`)
+- **index.md** — Sổ tay nội dung ( liên kết + tóm tắt + siêu dữ liệu), cập nhật mỗi thức ăn
+- **log.md** — Phụ đề thời gian sử dụng (không có thời gian)`## [YYYY-MM-DD] operation | Title`)
 
 ---
 
 ## 2. Phân tích chi tiết từng component
 
-### 2.1 Raw Sources Layer
+### Lớp nguyên thô 2. 1
 
 **Claim chính:** Sources là immutable, LLM chỉ đọc không viết lại.
 
 **Ưu điểm:**
-- Single source of truth — không lo data corruption
+- Một nguồn lẽ thật duy nhất — nạn tham nhũng dữ liệu
 - Audit trail rõ ràng: wiki có thể trace back về source gốc
-- Dễ version control với git (source files + wiki separately tracked)
+- Phiên bản Dễ điều khiển v Whoi git ( nam tính tập tin + i)
 
 **Hạn chế:**
 - Với sources lớn (>100 pages), việc LLM "đọc hết" mỗi lần ingest tốn token
 - Không có mechanism tự động extract metadata từ raw sources (tác giả đề cập nhưng không chi tiết)
 - Format diversity: articles, papers, images, data files — mỗi loại cần preprocessing khác nhau
 
-### 2.2 The Wiki Layer
+### 2. 2. 2.
 
 **Claim chính:** LLM hoàn toàn sở hữu wiki layer — tạo pages, update cross-refs, maintain consistency.
 
@@ -89,21 +89,21 @@ Karpathy mô tả một **mô hình xây dựng knowledge base cá nhân bằng 
 - Risk of **drift**: wiki content có thể diverge từ source gốc qua nhiều updates
 - Không có mechanism conflict resolution khi 2 sources contradicts nhau (tác giả chỉ nói "flag contradictions")
 
-### 2.3 The Schema Layer
+### 2. 3 Lớp kế hoạch
 
 **Claim chính:** Schema document là config file quan trọng nhất — biến LLM từ generic chatbot thành disciplined wiki maintainer.
 
 **Nội dung schema điển hình (suy luận):**
-- Directory structure conventions
-- Page format templates (frontmatter, headings)
-- Ingest workflow steps
-- Query response format
+- Comment
+- Mẫu định dạng trang (frontmatter, tiêu đề)
+- Bước làm việc nhanh nhất
+- Định dạng trả lời truy vấn
 - Lint checklist
 - Naming conventions
 
 **Ưu điểm:**
-- Co-evolution: human + LLM refine schema over time
-- Domain-specific adaptation
+- Sự đồng tiến hóa: con người + LLM Comment
+- Tùy chỉnh đặc trưng miền
 
 **Hạn chế:**
 - Schema complexity grows with wiki size → maintenance overhead tăng
@@ -112,7 +112,7 @@ Karpathy mô tả một **mô hình xây dựng knowledge base cá nhân bằng 
 
 ---
 
-## 3. Operations Deep Dive
+## 3 Chiến dịch lặn sâu
 
 ### 3.1 Ingest Workflow
 
@@ -142,7 +142,7 @@ User asks question →
 
 **Phân tích:**
 - **Index-first strategy** thay vì embedding-based RAG — smart choice ở moderate scale (~100 sources, hundreds of pages)
-- Avoids need for vector database infrastructure (qmd optional)
+- Tránh cần thiết cơ sở dữ liệu co sở dữ liệu véc- tơ (qmd tùy chọn)
 - Answers filed back = knowledge accumulation từ queries, không chỉ từ ingests
 
 ### 3.3 Lint Workflow
@@ -159,57 +159,57 @@ Periodic health-check →
 
 **Phân tích:**
 - Lint là mechanism tự động duy trì wiki health — critical cho long-term viability
-- "LLM is good at suggesting new questions" = active knowledge discovery, không passive retrieval
+- "LLM là tốt trong đề nghị câu hỏi mới " = khám phá kiến thức tích cực, kông thụ động tái tạo
 - Risk: LLM có thể generate false positives trong lint results
 
 ---
 
 ## 4. Tooling Ecosystem
 
-### 4.1 Search Engine (qmd)
+### 4. 1 Cơ chế tìm kiếm (qmd)
 
-- **qmd:** Local search engine for markdown files, hybrid BM25/vector + LLM re-ranking
-- CLI + MCP server support
-- Required khi wiki grows beyond index.md effectiveness
+- **qmd:** Công cụ tìm kiếm cục bộ cho markdown tập tin, BM25/vtor + LLM Quay lại
+- CLI + MCP Hỗ trợ máy phục vụ
+- Cần thiết khi size phát triển vượt quá hiệu quả chỉ mục.md
 
 ### 4.2 Obsidian Integration
 
 | Tool | Purpose | Benefit |
 |------|---------|---------|
-| Web Clipper | Convert articles to markdown | Fast source ingestion |
-| Graph View | Visualize connections | Wiki shape awareness |
-| Marp | Slide decks from wiki content | Presentation generation |
-| Dataview | Query frontmatter | Dynamic tables/lists |
-| Git | Version control | History, branching, collaboration |
+| Web Clipper | Chuyển đổi các bài sang markdown | Name |
+| Graph View | Visualize connections | Nhận thức hình Wiki |
+| Marp | Name | Presentation generation |
+| Dataview | Query frontmatter | Comment |
+| Git | Version control | Lịch sử, chi nhánh, hợp tác |
 
 ### 4.3 Image Handling
 
-- Download images locally (attachment folder in Obsidian)
-- LLM read text first → view images separately (workaround for single-pass limitation)
+- Tải về các ảnh cục bộ (thư mục gắn kết trong Obsidian)
+- LLM Đọc văn bản đầu tiên _xem riêng ảnh (làm việc cho chỉ giới hạn qua cầu)
 
 ---
 
 ## 5. Historical Context
 
 **Vannevar Bush's Memex (1945):**
-- Personal, curated knowledge store with associative trails
-- Connections between documents as valuable as documents themselves
-- Bush couldn't solve: "who does the maintenance?"
-- LLM Wiki Pattern solves this — LLM handles maintenance, human curates
+- Những kiến thức cá nhân, được quản lý với những dấu vết liên kết
+- Kết nối giữa tài liệu có giá trị như tài liệu
+- Bush không thể giải câu: "Ai làm bảo trì?"
+- LLM Mẫu Wiki giải quyết được vấn đề này — LLM Giữ gìn sức khỏe, chữa bệnh cho con người
 
 **So sánh:**
 | Aspect | Memex (1945) | RAG | LLM Wiki Pattern |
 |--------|-------------|-----|-----------------|
-| Storage | Physical cards/files | Vector DB | Markdown files |
-| Retrieval | Associative trails | Similarity search | Index + drill-down |
-| Accumulation | Manual linking | None (per-query) | Incremental, compounding |
+| Storage | Thẻ thể chất/ tập tin | Vector DB | Markdown files |
+| Retrieval | Associative trails | Similarity search | Chỉ mục + khoan xuống |
+| Accumulation | Manual linking | Không có (hay yêu cầu) | Incremental, compounding |
 | Maintenance | Human only | None needed | LLM automated |
 
 ---
 
-## 6. Self-Critique Round 1 — Architecture Claims
+## 6. Tự nhận là mình là người duy nhất sống sót.
 
-### Claim: "3-layer architecture is novel and sufficient"
+### Nói: "Một kiến trúc 3-Sader là tiểu thuyết và đủ"
 
 **Phản biện:**
 - **Thiếu layer semantic:** Không có mechanism cho ontology/knowledge graph ở cấp độ cao hơn markdown links. Wiki pages linked by text references, không bằng structured relationships (không phải RDF/property-based).
@@ -218,7 +218,7 @@ Periodic health-check →
 
 **Verdict:** 3-layer model là abstraction hữu ích nhưng oversimplified. Real-world implementation cần thêm: (1) semantic layer cho structured relationships, (2) preprocessing pipeline cho raw sources, (3) schema versioning strategy.
 
-### Claim: "LLM owns wiki entirely"
+### Nói: "LLM sở hữu toàn bộ cord"
 
 **Phản biện:**
 - **Scope of ownership:** LLM tạo pages và update cross-refs, nhưng human vẫn phải: curate sources, guide discussion, review summaries, decide which queries are "good enough to file back". Ownership là shared, không exclusive.
@@ -228,9 +228,9 @@ Periodic health-check →
 
 ---
 
-## 7. Self-Critique Round 2 — Operations & Scalability
+## 7, Tự kiểm tra liên kết 2 — Chiến dịch & Xác thực
 
-### Claim: "Index-first search works at moderate scale (~100 sources, hundreds of pages)"
+### Tuyên bố: "Tìm kiếm đầu tiên ở mức vừa phải [~100 nguồn, hàng trăm trang]
 
 **Phản biện:**
 - **Index degradation:** Khi wiki grows >500 pages, index.md becomes unwieldy (có thể >50K tokens). Reading full index mỗi query = inefficient. Tác giả không đề cập indexing strategy optimization (partial reads, category filters).
@@ -240,7 +240,7 @@ Periodic health-check →
 **Phản biện sâu hơn:** 
 - Index-first approach là trade-off: simple và fast ở small scale, nhưng cần migration path khi scale. Solution: category-indexed index (partition by topic), incremental index updates (không rebuild toàn bộ mỗi ingest).
 
-### Claim: "Single source touches 10-15 wiki pages"
+### Tuyên bố: " Nguồn từ tầu Single chạm 1015 trang size"
 
 **Phản biện:**
 - **Overhead estimation:** 10-15 file writes per ingest = substantial I/O + token cost. Với LLM local (Ollama), context window management quan trọng — mỗi page write cần load context, generate content, save. 
@@ -249,7 +249,7 @@ Periodic health-check →
 
 **Verdict:** Operations scale được nhưng cần optimization: (1) selective page updates (không phải mọi page cần update mỗi ingest), (2) batch size limits (~5 sources max), (3) parallel write strategy cho independent pages.
 
-### Claim: "LLM is good at suggesting new questions to investigate"
+### Nói: "LLM là tốt trong đề nghị những câu hỏi mới để điều tra"
 
 **Phản biện:**
 - **Quality variance:** Suggestion quality phụ thuộc vào scope của wiki hiện tại. Wiki narrow domain → suggestions focused nhưng limited. Wiki broad → suggestions diverse nhưng có thể irrelevant.
@@ -257,30 +257,30 @@ Periodic health-check →
 
 ---
 
-## 8. Self-Critique Round 3 — Comparison & Real-World Viability
+## 8. Tự gọi là Vòng 3 — So sánh & Tính bền vững của thế giới
 
-### Claim: "Wiki is persistent, compounding artifact — better than RAG"
+### Nói: "Wiki là người kiên trì, hợp nhất — tốt hơn RAG"
 
 **Phản biện:**
 - **Accumulation advantage là thật:** Wiki tích lũy knowledge → query cost giảm theo thời gian (không phải re-retrieve mọi source mỗi lần). Đây là lợi thế thực sự so với RAG.
 - **Tuy nhiên:** RAG cũng có accumulation qua embedding updates. Difference không phải "có/không accumulation" mà là "type of accumulation": RAG = vector accumulation, Wiki = semantic/structural accumulation.
 - **Cost comparison:** 
-  - RAG: High initial setup (embeddings + vector DB) → low per-query cost
-  - Wiki: Low initial setup (markdown files) → variable per-query cost (depends on wiki size + search strategy)
+  - RAG: thiết lập cấp cao (mbebeds + véc tơ DB) giá rẻ trên mỗi cửa sổ
+  - Wiki: Thiết lập ban đầu thấp (markdown Tập tin) Chi phí biến trên mỗi cửa sổ (phụ thuộc vào kích cỡ HTML + chiến lược tìm kiếm)
 
 **Verdict:** Wiki pattern tốt hơn cho use cases cần deep synthesis và cross-document reasoning. RAG tốt hơn cho high-volume queries với moderate complexity. Không phải replacement, là complement.
 
-### Claim: "Maintenance cost near zero with LLMs"
+### Tuyên bố: "Tiền tăng cường gần 0 với llMs"
 
 **Phản biện:**
 - **Token cost thực tế:** Mỗi lint pass = read all pages → detect issues → generate fix suggestions. Với 500 pages × avg 2K tokens/page = 1M+ tokens per lint pass. Với local Ollama, thời gian processing có thể 5-15 phút.
 - **Human verification cost:** LLM suggest fixes, nhưng human vẫn phải review và approve (đặc biệt cho contradictory claims). "Near zero" chỉ đúng khi wiki stable — khi đang growing, maintenance cost cao hơn nhiều.
 - **Stale data risk:** Wiki content có thể stale nếu source không được ingest regularly. Không có mechanism auto-detect outdated sources.
 
-### Claim: "Works for personal, research, reading, business contexts"
+### Nói: "Công việc cho cá nhân, nghiên cứu, đọc, kinh doanh"
 
 **Phản biện:**
-- **Personal use:** Dễ nhất — scope narrow, human fully in control. High viability.
+- **Personal sử dụng:** Dễ nh sự trong phạm vi hẹp, con người hoàn toàn kiểm soát được.
 - **Research use:** Medium complexity — nhiều sources, cần citation accuracy. Viability cao nếu schema well-defined.
 - **Reading a book (fan wiki):** Good fit — structured domain (characters, plot threads), predictable page types. Tác giả dùng Tolkien Gateway làm analogy là chính xác.
 - **Business/team:** Thách thức nhất — multiple contributors, varying source quality, need access control. Viability phụ thuộc vào team discipline + LLM reliability.
@@ -294,31 +294,31 @@ Periodic health-check →
 ### Current State
 - Vault có cấu trúc PARA + Zettelkasten hybrid
 - Có 7 templates, 9 PARA folders
--已有 vault master index + evolution tracker
-- Cron jobs: Daily Vault Maintenance (120s timeout) + Memory Dreaming
+- Chỉ mục chính của hầm hầm và thiết bị theo dõi tiến hóa
+- Công việc củaron: Bảo trì cổng hàng ngày (120) + mơ ước
 
-### LLM Wiki Pattern Integration Plan
+### LLM Kế hoạch hợp nhất mẫu Wiki
 
 | Karpathy Concept | Smee Implementation |
 |-----------------|-------------------|
-| Raw sources | `30-Resources/` — immutable source files |
+| Raw sources | `30-Resources/` - Tập tin nguồn không thể thay đổi |
 | Wiki | `40-Knowledge-Synthesis/` — LLM-generated notes |
-| Schema | AGENTS.md + `_templates/` — wiki conventions |
+| Schema | Đặc vụ S.md + `_templates/` - Đại hội  kiên cố |
 | index.md | `vault-master-index.md` (existing) |
-| log.md | Daily notes (`02-Daily/`) + session logs |
-| Ingest | New learning → capture to vault with backlinks |
-| Query | Search vault → synthesize answer → file back |
-| Lint | Daily Vault Maintenance cron — check orphans, stale claims |
+| log.md | Ghi chú hàng ngày (`02-Daily/`+ bản ghi phiên chạy |
+| Ingest | Học tập mới bắt được một quả bom có đường dây lưng |
+| Query | Tìm hầm → Tổng hợp câu trả lời → tập tin |
+| Lint | Bảo trì cổng hàng ngày — Kiểm tra trẻ mồ côi, tuyên bố cũ |
 
 ### Gap Analysis
-- **Missing:** Semantic layer (structured relationships between notes)
-- **Missing:** Schema versioning for wiki conventions
-- **Present but weak:** Batch ingest strategy (current max 2 notes/session)
-- **Opportunity:** Implement index-first search optimization (category-indexed index)
+- ** than:** Lớp Semantic (những mối quan hệ có cấu trúc giữa ghi chú)
+- ** than phiền:** Schema phiên bản cho các hội nghị  size size
+- **Tọa độ nhưng yếu:** Chiến lược ăn Batch (hiện tại 2 ghi chú/ssition)
+- **Opportunity:** Vẫn còn phụ lục tìm kiếm đầu tiên (tiểu đồ phân loại)
 
 ---
 
-## 10. Key Takeaways + Action Items
+## 10. Khóa
 
 ### Insights chính
 1. **LLM Wiki Pattern** là evolution của RAG: từ per-query retrieval → persistent compounding knowledge
@@ -327,21 +327,21 @@ Periodic health-check →
 4. **Lint workflow** là secret weapon cho long-term wiki health
 5. **Vannevar Bush's Memex vision** finally realized với LLM as maintenance engine
 
-### Action Items cho Smee
-- [ ] Implement category-indexed index trong vault master index
+### Mục hành động cho Smee
+- [ ] Phần mềm phân loại chỉ mục chạy trên tầng hầm
 - [ ] Add lint pass vào Daily Vault Maintenance cron (expand timeout)
-- [ ] Define schema versioning strategy cho wiki conventions
+- [ ] Định nghĩa chiến lược phiên bản cho các hội nghị schema
 - [ ] Test batch ingest với max 5 sources per session
-- [ ] Create entity/concept page templates aligned with Karpathy pattern
+- [ ] Tạo mẫu trang/hình ảnh thẳng hàng với mẫu Karpaty
 
 ---
 
 ## 11. References
 
-- Karpathy, Andrej. "LLM Wiki Pattern." GitHub Gist, 2026. https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
-- Bush, Vannevar. "As We May Think." The Atlantic Monthly, July 1945. (Memex concept)
-- Smee Vault Architecture: `Insights/vault-architecture.md`
-- Smee Vault Master Index: `Insights/vault-master-index.md`
+- Karpally, Andrej."LLM Mẫu của Wiki." GitHub Gia sư, 2026. https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- Bush, Vannevar. "Như chúng ta nghĩ." Tháng 7 Đại Tây Dương, tháng 7 năm 1945.
+- Kiến trúc Cổng Smee: `Insights/vault-architecture.md`
+- Chỉ mục Đóng cửa Smee: `Insights/vault-master-index.md`
 
 ---
 
