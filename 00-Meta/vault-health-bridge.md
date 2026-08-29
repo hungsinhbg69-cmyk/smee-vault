@@ -6,12 +6,12 @@ tags: [vault-health, audit]
 status: active
 type: reference
 created: 2026-06-19
-last_updated: 2026-08-15
+last_updated: 2026-08-22
 ---
 
 # Cầu nối Sức khỏe Kho lưu trữ
 
-## Chỉ số kiểm toán 2026-08-15
+## Chỉ số kiểm toán 2026-08-22
 
 ### Phân bố PARA
 
