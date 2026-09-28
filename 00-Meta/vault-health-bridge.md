@@ -6,12 +6,12 @@ tags: [vault-health, audit]
 status: active
 type: reference
 created: 2026-06-19
-last_updated: 2026-09-12
+last_updated: 2026-09-19
 ---
 
 # Cầu nối Sức khỏe Kho lưu trữ
 
-## Chỉ số kiểm toán 2026-09-12
+## Chỉ số kiểm toán 2026-09-19
 
 ### Phân bố PARA
 
@@ -50,7 +50,36 @@ last_updated: 2026-09-12
 
 ### Nội dung cũ
 
-- Không phát hiện ghi chú quá 60 ngày có mẫu dữ liệu nhạy thời gian.
+- 00-Meta\Vault-Quick-Ref.md - 2026-07-15
+- 30-Resources\Meta-Developer-Platform-Guide.md - 2026-07-15
+- 30-Resources\NotebookLM-AI-Agent-Integration-Guide.md - 2026-07-15
+- 30-Resources\AI-Tools\ai-tools-landscape-q2-2026.md - 2026-07-15
+- 30-Resources\Bac-Giang\bac-giang-economic-overview.md - 2026-07-14
+- 30-Resources\Bac-Giang\bac-giang-infrastructure-stats.md - 2026-07-15
+- 30-Resources\Facebook-Ads\05-tracking-pixel.md - 2026-07-15
+- 30-Resources\Facebook-Ads\10-advanced-bidding.md - 2026-07-15
+- 30-Resources\Facebook-Ads\11-attribution-tracking.md - 2026-07-15
+- 30-Resources\Facebook-Ads\12-case-studies-2026.md - 2026-07-15
+- 30-Resources\Facebook-Ads\ads-campaigns-comprehensive-analysis-2026-06.md - 2026-07-15
+- 30-Resources\Facebook-Ads\cs-b2b-lead-gen-counselling.md - 2026-07-15
+- 30-Resources\Facebook-Ads\cs-chomps-wellness.md - 2026-07-15
+- 30-Resources\Facebook-Ads\cs-dtc-cuts-clothing.md - 2026-07-15
+- 30-Resources\Facebook-Ads\cs-hexclad-cookware.md - 2026-07-15
+- 30-Resources\Facebook-Ads\cs-high-ticket-home-improvement.md - 2026-07-15
+- 30-Resources\Facebook-Ads\cs-key-insights-2026.md - 2026-07-15
+- 30-Resources\Facebook-Ads\cs-local-service-titan-driveways.md - 2026-07-15
+- 30-Resources\Facebook-Ads\cs-momentous-nutrition.md - 2026-07-15
+- 30-Resources\Facebook-Ads\cs-small-ecommerce-soda-spoon.md - 2026-07-15
+- 30-Resources\Facebook-Ads\facebook-ads-comprehensive-guide-2026.md - 2026-07-15
+- 30-Resources\Facebook-Ads\FB-ADS-KNOWLEDGE-BASE.md - 2026-07-15
+- 30-Resources\Facebook-Ads\INDEX.md - 2026-07-15
+- 30-Resources\Facebook-Ads\QUICK-DECISION-MATRIX.md - 2026-07-15
+- 30-Resources\Facebook-Ads\srs-flashcards.md - 2026-07-15
+- 30-Resources\Facebook-Ads\api\campaign-objects.md - 2026-07-15
+- 30-Resources\Facebook-Ads\api\insights-fields.md - 2026-07-15
+- 30-Resources\Marketing\Sales-Marketing-Books\nhung-su-that-lam-giau-tu-mang-xa-hoi-patrice-anne-rutledge.md - 2026-07-15
+- 30-Resources\Marketing\Sales-Marketing-Books\sat-thu-khac-biet-hoa.md - 2026-07-15
+- 40-Knowledge-Synthesis\Thuat-Ban-Hang-Brian-Tracy-Phan-Bien-Toan-Dien.md - 2026-07-15
 
 ### Sử dụng template
 
